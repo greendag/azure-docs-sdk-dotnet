@@ -5,6 +5,12 @@
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
     <AssemblyVersion>1.14.0.0</AssemblyVersion>
+    <AssemblyVersion>1.16.0.0</AssemblyVersion>
+    <AssemblyVersion>1.17.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+    <AssemblyVersion>1.5.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Interfaces />
   <Docs>
@@ -21,8 +27,14 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Documents.IDocumentClient.AuthKey" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Security.SecureString</ReturnType>
@@ -41,8 +53,14 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Documents.IDocumentClient.ConnectionPolicy" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Documents.Client.ConnectionPolicy</ReturnType>
@@ -61,8 +79,14 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Documents.IDocumentClient.ConsistencyLevel" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Documents.ConsistencyLevel</ReturnType>
@@ -81,8 +105,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateAttachmentAsync(System.String,System.Object,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.Attachment&gt;&gt;</ReturnType>
@@ -111,8 +141,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateAttachmentAsync(System.Uri,System.Object,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.Attachment&gt;&gt;</ReturnType>
@@ -139,8 +175,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateAttachmentAsync(System.String,System.IO.Stream,Microsoft.Azure.Documents.Client.MediaOptions,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.Attachment&gt;&gt;</ReturnType>
@@ -170,8 +212,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateAttachmentAsync(System.Uri,System.IO.Stream,Microsoft.Azure.Documents.Client.MediaOptions,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.Attachment&gt;&gt;</ReturnType>
@@ -200,8 +248,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateAttachmentQuery(System.String,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IOrderedQueryable&lt;Microsoft.Azure.Documents.Attachment&gt;</ReturnType>
@@ -226,8 +280,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateAttachmentQuery(System.Uri,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IOrderedQueryable&lt;Microsoft.Azure.Documents.Attachment&gt;</ReturnType>
@@ -252,8 +312,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateAttachmentQuery(System.String,Microsoft.Azure.Documents.SqlQuerySpec,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IQueryable&lt;System.Object&gt;</ReturnType>
@@ -281,8 +347,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateAttachmentQuery(System.String,System.String,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IQueryable&lt;System.Object&gt;</ReturnType>
@@ -309,8 +381,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateAttachmentQuery(System.Uri,Microsoft.Azure.Documents.SqlQuerySpec,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IQueryable&lt;System.Object&gt;</ReturnType>
@@ -337,8 +415,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateAttachmentQuery(System.Uri,System.String,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IQueryable&lt;System.Object&gt;</ReturnType>
@@ -365,8 +449,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateAttachmentQuery``1(System.String,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IOrderedQueryable&lt;T&gt;</ReturnType>
@@ -395,8 +485,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateAttachmentQuery``1(System.Uri,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IOrderedQueryable&lt;T&gt;</ReturnType>
@@ -425,8 +521,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateAttachmentQuery``1(System.String,Microsoft.Azure.Documents.SqlQuerySpec,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IQueryable&lt;T&gt;</ReturnType>
@@ -458,8 +560,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateAttachmentQuery``1(System.String,System.String,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IQueryable&lt;T&gt;</ReturnType>
@@ -490,8 +598,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateAttachmentQuery``1(System.Uri,Microsoft.Azure.Documents.SqlQuerySpec,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IQueryable&lt;T&gt;</ReturnType>
@@ -522,8 +636,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateAttachmentQuery``1(System.Uri,System.String,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IQueryable&lt;T&gt;</ReturnType>
@@ -554,8 +674,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateConflictQuery(System.String,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IOrderedQueryable&lt;Microsoft.Azure.Documents.Conflict&gt;</ReturnType>
@@ -580,8 +706,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateConflictQuery(System.Uri,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IOrderedQueryable&lt;Microsoft.Azure.Documents.Conflict&gt;</ReturnType>
@@ -606,8 +738,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateConflictQuery(System.String,Microsoft.Azure.Documents.SqlQuerySpec,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IQueryable&lt;System.Object&gt;</ReturnType>
@@ -635,8 +773,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateConflictQuery(System.String,System.String,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IQueryable&lt;System.Object&gt;</ReturnType>
@@ -663,8 +807,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateConflictQuery(System.Uri,Microsoft.Azure.Documents.SqlQuerySpec,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IQueryable&lt;System.Object&gt;</ReturnType>
@@ -691,8 +841,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateConflictQuery(System.Uri,System.String,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IQueryable&lt;System.Object&gt;</ReturnType>
@@ -719,8 +875,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateDatabaseAsync(Microsoft.Azure.Documents.Database,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.Database&gt;&gt;</ReturnType>
@@ -745,8 +907,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateDatabaseQuery(Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IOrderedQueryable&lt;Microsoft.Azure.Documents.Database&gt;</ReturnType>
@@ -769,8 +937,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateDatabaseQuery(Microsoft.Azure.Documents.SqlQuerySpec,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IQueryable&lt;System.Object&gt;</ReturnType>
@@ -796,8 +970,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateDatabaseQuery(System.String,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IQueryable&lt;System.Object&gt;</ReturnType>
@@ -822,8 +1002,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateDocumentAsync(System.String,System.Object,Microsoft.Azure.Documents.Client.RequestOptions,System.Boolean)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.Document&gt;&gt;</ReturnType>
@@ -852,8 +1038,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateDocumentAsync(System.Uri,System.Object,Microsoft.Azure.Documents.Client.RequestOptions,System.Boolean)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.Document&gt;&gt;</ReturnType>
@@ -882,8 +1074,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateDocumentCollectionAsync(System.String,Microsoft.Azure.Documents.DocumentCollection,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.DocumentCollection&gt;&gt;</ReturnType>
@@ -910,8 +1108,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateDocumentCollectionAsync(System.Uri,Microsoft.Azure.Documents.DocumentCollection,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.DocumentCollection&gt;&gt;</ReturnType>
@@ -938,8 +1142,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateDocumentCollectionQuery(System.String,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IOrderedQueryable&lt;Microsoft.Azure.Documents.DocumentCollection&gt;</ReturnType>
@@ -964,8 +1174,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateDocumentCollectionQuery(System.Uri,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IOrderedQueryable&lt;Microsoft.Azure.Documents.DocumentCollection&gt;</ReturnType>
@@ -990,8 +1206,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateDocumentCollectionQuery(System.String,Microsoft.Azure.Documents.SqlQuerySpec,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IQueryable&lt;System.Object&gt;</ReturnType>
@@ -1019,8 +1241,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateDocumentCollectionQuery(System.String,System.String,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IQueryable&lt;System.Object&gt;</ReturnType>
@@ -1047,8 +1275,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateDocumentCollectionQuery(System.Uri,Microsoft.Azure.Documents.SqlQuerySpec,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IQueryable&lt;System.Object&gt;</ReturnType>
@@ -1075,8 +1309,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateDocumentCollectionQuery(System.Uri,System.String,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IQueryable&lt;System.Object&gt;</ReturnType>
@@ -1103,8 +1343,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateDocumentQuery(System.String,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IOrderedQueryable&lt;Microsoft.Azure.Documents.Document&gt;</ReturnType>
@@ -1129,8 +1375,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateDocumentQuery(System.Uri,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IOrderedQueryable&lt;Microsoft.Azure.Documents.Document&gt;</ReturnType>
@@ -1155,8 +1407,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateDocumentQuery(System.String,Microsoft.Azure.Documents.SqlQuerySpec,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IQueryable&lt;System.Object&gt;</ReturnType>
@@ -1184,8 +1442,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateDocumentQuery(System.String,System.String,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IQueryable&lt;System.Object&gt;</ReturnType>
@@ -1212,8 +1476,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateDocumentQuery(System.Uri,Microsoft.Azure.Documents.SqlQuerySpec,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IQueryable&lt;System.Object&gt;</ReturnType>
@@ -1240,8 +1510,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateDocumentQuery(System.Uri,System.String,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IQueryable&lt;System.Object&gt;</ReturnType>
@@ -1268,8 +1544,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateDocumentQuery``1(System.String,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IOrderedQueryable&lt;T&gt;</ReturnType>
@@ -1298,8 +1580,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateDocumentQuery``1(System.Uri,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IOrderedQueryable&lt;T&gt;</ReturnType>
@@ -1328,8 +1616,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateDocumentQuery``1(System.String,Microsoft.Azure.Documents.SqlQuerySpec,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IQueryable&lt;T&gt;</ReturnType>
@@ -1361,8 +1655,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateDocumentQuery``1(System.String,System.String,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IQueryable&lt;T&gt;</ReturnType>
@@ -1393,8 +1693,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateDocumentQuery``1(System.Uri,Microsoft.Azure.Documents.SqlQuerySpec,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IQueryable&lt;T&gt;</ReturnType>
@@ -1425,8 +1731,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateDocumentQuery``1(System.Uri,System.String,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IQueryable&lt;T&gt;</ReturnType>
@@ -1457,8 +1769,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateOfferQuery(Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IOrderedQueryable&lt;Microsoft.Azure.Documents.Offer&gt;</ReturnType>
@@ -1481,8 +1799,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateOfferQuery(Microsoft.Azure.Documents.SqlQuerySpec,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IQueryable&lt;System.Object&gt;</ReturnType>
@@ -1508,8 +1832,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateOfferQuery(System.String,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IQueryable&lt;System.Object&gt;</ReturnType>
@@ -1534,8 +1864,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreatePermissionAsync(System.String,Microsoft.Azure.Documents.Permission,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.Permission&gt;&gt;</ReturnType>
@@ -1562,8 +1898,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreatePermissionAsync(System.Uri,Microsoft.Azure.Documents.Permission,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.Permission&gt;&gt;</ReturnType>
@@ -1590,8 +1932,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreatePermissionQuery(System.String,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IOrderedQueryable&lt;Microsoft.Azure.Documents.Permission&gt;</ReturnType>
@@ -1616,8 +1964,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreatePermissionQuery(System.Uri,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IOrderedQueryable&lt;Microsoft.Azure.Documents.Permission&gt;</ReturnType>
@@ -1642,8 +1996,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreatePermissionQuery(System.String,Microsoft.Azure.Documents.SqlQuerySpec,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IQueryable&lt;System.Object&gt;</ReturnType>
@@ -1671,8 +2031,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreatePermissionQuery(System.String,System.String,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IQueryable&lt;System.Object&gt;</ReturnType>
@@ -1699,8 +2065,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreatePermissionQuery(System.Uri,Microsoft.Azure.Documents.SqlQuerySpec,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IQueryable&lt;System.Object&gt;</ReturnType>
@@ -1727,8 +2099,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreatePermissionQuery(System.Uri,System.String,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IQueryable&lt;System.Object&gt;</ReturnType>
@@ -1755,8 +2133,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateStoredProcedureAsync(System.String,Microsoft.Azure.Documents.StoredProcedure,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.StoredProcedure&gt;&gt;</ReturnType>
@@ -1783,8 +2167,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateStoredProcedureAsync(System.Uri,Microsoft.Azure.Documents.StoredProcedure,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.StoredProcedure&gt;&gt;</ReturnType>
@@ -1811,8 +2201,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateStoredProcedureQuery(System.String,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IOrderedQueryable&lt;Microsoft.Azure.Documents.StoredProcedure&gt;</ReturnType>
@@ -1837,8 +2233,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateStoredProcedureQuery(System.Uri,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IOrderedQueryable&lt;Microsoft.Azure.Documents.StoredProcedure&gt;</ReturnType>
@@ -1863,8 +2265,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateStoredProcedureQuery(System.String,Microsoft.Azure.Documents.SqlQuerySpec,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IQueryable&lt;System.Object&gt;</ReturnType>
@@ -1892,8 +2300,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateStoredProcedureQuery(System.String,System.String,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IQueryable&lt;System.Object&gt;</ReturnType>
@@ -1920,8 +2334,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateStoredProcedureQuery(System.Uri,Microsoft.Azure.Documents.SqlQuerySpec,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IQueryable&lt;System.Object&gt;</ReturnType>
@@ -1948,8 +2368,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateStoredProcedureQuery(System.Uri,System.String,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IQueryable&lt;System.Object&gt;</ReturnType>
@@ -1976,8 +2402,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateTriggerAsync(System.String,Microsoft.Azure.Documents.Trigger,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.Trigger&gt;&gt;</ReturnType>
@@ -2004,8 +2436,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateTriggerAsync(System.Uri,Microsoft.Azure.Documents.Trigger,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.Trigger&gt;&gt;</ReturnType>
@@ -2032,8 +2470,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateTriggerQuery(System.String,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IOrderedQueryable&lt;Microsoft.Azure.Documents.Trigger&gt;</ReturnType>
@@ -2058,8 +2502,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateTriggerQuery(System.Uri,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IOrderedQueryable&lt;Microsoft.Azure.Documents.Trigger&gt;</ReturnType>
@@ -2084,8 +2534,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateTriggerQuery(System.String,Microsoft.Azure.Documents.SqlQuerySpec,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IQueryable&lt;System.Object&gt;</ReturnType>
@@ -2113,8 +2569,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateTriggerQuery(System.String,System.String,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IQueryable&lt;System.Object&gt;</ReturnType>
@@ -2141,8 +2603,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateTriggerQuery(System.Uri,Microsoft.Azure.Documents.SqlQuerySpec,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IQueryable&lt;System.Object&gt;</ReturnType>
@@ -2169,8 +2637,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateTriggerQuery(System.Uri,System.String,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IQueryable&lt;System.Object&gt;</ReturnType>
@@ -2197,8 +2671,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateUserAsync(System.String,Microsoft.Azure.Documents.User,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.User&gt;&gt;</ReturnType>
@@ -2225,8 +2705,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateUserAsync(System.Uri,Microsoft.Azure.Documents.User,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.User&gt;&gt;</ReturnType>
@@ -2253,8 +2739,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateUserDefinedFunctionAsync(System.String,Microsoft.Azure.Documents.UserDefinedFunction,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.UserDefinedFunction&gt;&gt;</ReturnType>
@@ -2281,8 +2773,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateUserDefinedFunctionAsync(System.Uri,Microsoft.Azure.Documents.UserDefinedFunction,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.UserDefinedFunction&gt;&gt;</ReturnType>
@@ -2309,8 +2807,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateUserDefinedFunctionQuery(System.String,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IOrderedQueryable&lt;Microsoft.Azure.Documents.UserDefinedFunction&gt;</ReturnType>
@@ -2335,8 +2839,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateUserDefinedFunctionQuery(System.Uri,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IOrderedQueryable&lt;Microsoft.Azure.Documents.UserDefinedFunction&gt;</ReturnType>
@@ -2361,8 +2871,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateUserDefinedFunctionQuery(System.String,Microsoft.Azure.Documents.SqlQuerySpec,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IQueryable&lt;System.Object&gt;</ReturnType>
@@ -2402,6 +2918,30 @@
             var query = new SqlQuerySpec("SELECT * FROM udfs u WHERE u.id = @id", new SqlParameterCollection(new SqlParameter[] { new SqlParameter { Name = "@id", Value = "sqrt" }}));
             UserDefinedFunction udf = client.CreateUserDefinedFunctionQuery(collectionLink, query).AsEnumerable().FirstOrDefault();
             ]]></code></example>
+        <example>
+            This example below queries for user-defined functions by id.
+            <code language="c#"><![CDATA[
+            var query = new SqlQuerySpec("SELECT * FROM udfs u WHERE u.id = @id", new SqlParameterCollection(new SqlParameter[] { new SqlParameter { Name = "@id", Value = "sqrt" }}));
+            UserDefinedFunction udf = client.CreateUserDefinedFunctionQuery(collectionLink, query).AsEnumerable().FirstOrDefault();
+            ]]></code></example>
+        <example>
+            This example below queries for user-defined functions by id.
+            <code language="c#"><![CDATA[
+            var query = new SqlQuerySpec("SELECT * FROM udfs u WHERE u.id = @id", new SqlParameterCollection(new SqlParameter[] { new SqlParameter { Name = "@id", Value = "sqrt" }}));
+            UserDefinedFunction udf = client.CreateUserDefinedFunctionQuery(collectionLink, query).AsEnumerable().FirstOrDefault();
+            ]]></code></example>
+        <example>
+            This example below queries for user-defined functions by id.
+            <code language="c#"><![CDATA[
+            var query = new SqlQuerySpec("SELECT * FROM udfs u WHERE u.id = @id", new SqlParameterCollection(new SqlParameter[] { new SqlParameter { Name = "@id", Value = "sqrt" }}));
+            UserDefinedFunction udf = client.CreateUserDefinedFunctionQuery(collectionLink, query).AsEnumerable().FirstOrDefault();
+            ]]></code></example>
+        <example>
+            This example below queries for user-defined functions by id.
+            <code language="c#"><![CDATA[
+            var query = new SqlQuerySpec("SELECT * FROM udfs u WHERE u.id = @id", new SqlParameterCollection(new SqlParameter[] { new SqlParameter { Name = "@id", Value = "sqrt" }}));
+            UserDefinedFunction udf = client.CreateUserDefinedFunctionQuery(collectionLink, query).AsEnumerable().FirstOrDefault();
+            ]]></code></example>
       </Docs>
     </Member>
     <Member MemberName="CreateUserDefinedFunctionQuery">
@@ -2410,8 +2950,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateUserDefinedFunctionQuery(System.String,System.String,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IQueryable&lt;System.Object&gt;</ReturnType>
@@ -2438,8 +2984,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateUserDefinedFunctionQuery(System.Uri,Microsoft.Azure.Documents.SqlQuerySpec,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IQueryable&lt;System.Object&gt;</ReturnType>
@@ -2466,8 +3018,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateUserDefinedFunctionQuery(System.Uri,System.String,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IQueryable&lt;System.Object&gt;</ReturnType>
@@ -2494,8 +3052,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateUserQuery(System.String,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IOrderedQueryable&lt;Microsoft.Azure.Documents.User&gt;</ReturnType>
@@ -2520,8 +3084,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateUserQuery(System.Uri,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IOrderedQueryable&lt;Microsoft.Azure.Documents.User&gt;</ReturnType>
@@ -2546,8 +3116,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateUserQuery(System.String,Microsoft.Azure.Documents.SqlQuerySpec,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IQueryable&lt;System.Object&gt;</ReturnType>
@@ -2575,8 +3151,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateUserQuery(System.String,System.String,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IQueryable&lt;System.Object&gt;</ReturnType>
@@ -2603,8 +3185,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateUserQuery(System.Uri,Microsoft.Azure.Documents.SqlQuerySpec,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IQueryable&lt;System.Object&gt;</ReturnType>
@@ -2631,8 +3219,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.CreateUserQuery(System.Uri,System.String,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.IQueryable&lt;System.Object&gt;</ReturnType>
@@ -2659,8 +3253,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.DeleteAttachmentAsync(System.String,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.Attachment&gt;&gt;</ReturnType>
@@ -2685,8 +3285,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.DeleteAttachmentAsync(System.Uri,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.Attachment&gt;&gt;</ReturnType>
@@ -2711,8 +3317,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.DeleteConflictAsync(System.String,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.Conflict&gt;&gt;</ReturnType>
@@ -2737,8 +3349,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.DeleteConflictAsync(System.Uri,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.Conflict&gt;&gt;</ReturnType>
@@ -2763,8 +3381,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.DeleteDatabaseAsync(System.String,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.Database&gt;&gt;</ReturnType>
@@ -2789,8 +3413,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.DeleteDatabaseAsync(System.Uri,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.Database&gt;&gt;</ReturnType>
@@ -2815,8 +3445,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.DeleteDocumentAsync(System.String,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.Document&gt;&gt;</ReturnType>
@@ -2841,8 +3477,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.DeleteDocumentAsync(System.Uri,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.Document&gt;&gt;</ReturnType>
@@ -2867,8 +3509,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.DeleteDocumentCollectionAsync(System.String,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.DocumentCollection&gt;&gt;</ReturnType>
@@ -2893,8 +3541,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.DeleteDocumentCollectionAsync(System.Uri,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.DocumentCollection&gt;&gt;</ReturnType>
@@ -2919,8 +3573,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.DeletePermissionAsync(System.String,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.Permission&gt;&gt;</ReturnType>
@@ -2945,8 +3605,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.DeletePermissionAsync(System.Uri,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.Permission&gt;&gt;</ReturnType>
@@ -2971,8 +3637,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.DeleteStoredProcedureAsync(System.String,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.StoredProcedure&gt;&gt;</ReturnType>
@@ -2997,8 +3669,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.DeleteStoredProcedureAsync(System.Uri,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.StoredProcedure&gt;&gt;</ReturnType>
@@ -3023,8 +3701,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.DeleteTriggerAsync(System.String,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.Trigger&gt;&gt;</ReturnType>
@@ -3049,8 +3733,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.DeleteTriggerAsync(System.Uri,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.Trigger&gt;&gt;</ReturnType>
@@ -3075,8 +3765,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.DeleteUserAsync(System.String,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.User&gt;&gt;</ReturnType>
@@ -3101,8 +3797,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.DeleteUserAsync(System.Uri,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.User&gt;&gt;</ReturnType>
@@ -3127,8 +3829,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.DeleteUserDefinedFunctionAsync(System.String,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.UserDefinedFunction&gt;&gt;</ReturnType>
@@ -3153,8 +3861,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.DeleteUserDefinedFunctionAsync(System.Uri,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.UserDefinedFunction&gt;&gt;</ReturnType>
@@ -3179,8 +3893,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.ExecuteStoredProcedureAsync``1(System.String,System.Object[])" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.StoredProcedureResponse&lt;TValue&gt;&gt;</ReturnType>
@@ -3216,8 +3936,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.ExecuteStoredProcedureAsync``1(System.Uri,System.Object[])" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.StoredProcedureResponse&lt;TValue&gt;&gt;</ReturnType>
@@ -3252,8 +3978,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.ExecuteStoredProcedureAsync``1(System.String,Microsoft.Azure.Documents.Client.RequestOptions,System.Object[])" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.StoredProcedureResponse&lt;TValue&gt;&gt;</ReturnType>
@@ -3291,8 +4023,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.ExecuteStoredProcedureAsync``1(System.Uri,Microsoft.Azure.Documents.Client.RequestOptions,System.Object[])" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.StoredProcedureResponse&lt;TValue&gt;&gt;</ReturnType>
@@ -3329,8 +4067,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.GetDatabaseAccountAsync" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.DatabaseAccount&gt;</ReturnType>
@@ -3352,8 +4096,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.ReadAttachmentAsync(System.String,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.Attachment&gt;&gt;</ReturnType>
@@ -3380,8 +4130,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.ReadAttachmentAsync(System.Uri,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.Attachment&gt;&gt;</ReturnType>
@@ -3408,8 +4164,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.ReadAttachmentFeedAsync(System.String,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.FeedResponse&lt;Microsoft.Azure.Documents.Attachment&gt;&gt;</ReturnType>
@@ -3436,8 +4198,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.ReadAttachmentFeedAsync(System.Uri,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.FeedResponse&lt;Microsoft.Azure.Documents.Attachment&gt;&gt;</ReturnType>
@@ -3462,8 +4230,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.ReadConflictAsync(System.String,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.Conflict&gt;&gt;</ReturnType>
@@ -3490,8 +4264,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.ReadConflictAsync(System.Uri,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.Conflict&gt;&gt;</ReturnType>
@@ -3518,8 +4298,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.ReadConflictFeedAsync(System.String,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.FeedResponse&lt;Microsoft.Azure.Documents.Conflict&gt;&gt;</ReturnType>
@@ -3546,8 +4332,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.ReadConflictFeedAsync(System.Uri,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.FeedResponse&lt;Microsoft.Azure.Documents.Conflict&gt;&gt;</ReturnType>
@@ -3572,8 +4364,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.ReadDatabaseAsync(System.String,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.Database&gt;&gt;</ReturnType>
@@ -3600,8 +4398,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.ReadDatabaseAsync(System.Uri,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.Database&gt;&gt;</ReturnType>
@@ -3628,8 +4432,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.ReadDatabaseFeedAsync(Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.FeedResponse&lt;Microsoft.Azure.Documents.Database&gt;&gt;</ReturnType>
@@ -3654,8 +4464,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.ReadDocumentAsync(System.String,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.Document&gt;&gt;</ReturnType>
@@ -3682,8 +4498,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.ReadDocumentAsync(System.Uri,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.Document&gt;&gt;</ReturnType>
@@ -3710,8 +4532,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.ReadDocumentCollectionAsync(System.String,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.DocumentCollection&gt;&gt;</ReturnType>
@@ -3738,8 +4566,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.ReadDocumentCollectionAsync(System.Uri,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.DocumentCollection&gt;&gt;</ReturnType>
@@ -3766,8 +4600,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.ReadDocumentCollectionFeedAsync(System.String,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.FeedResponse&lt;Microsoft.Azure.Documents.DocumentCollection&gt;&gt;</ReturnType>
@@ -3794,8 +4634,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.ReadDocumentCollectionFeedAsync(System.Uri,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.FeedResponse&lt;Microsoft.Azure.Documents.DocumentCollection&gt;&gt;</ReturnType>
@@ -3820,8 +4666,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.ReadDocumentFeedAsync(System.String,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.FeedResponse&lt;System.Object&gt;&gt;</ReturnType>
@@ -3848,8 +4700,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.ReadDocumentFeedAsync(System.Uri,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.FeedResponse&lt;System.Object&gt;&gt;</ReturnType>
@@ -3874,8 +4732,14 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Documents.IDocumentClient.ReadEndpoint" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Uri</ReturnType>
@@ -3894,8 +4758,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.ReadMediaAsync(System.String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.MediaResponse&gt;</ReturnType>
@@ -3920,8 +4790,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.ReadMediaMetadataAsync(System.String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.MediaResponse&gt;</ReturnType>
@@ -3946,8 +4822,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.ReadOfferAsync(System.String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.Offer&gt;&gt;</ReturnType>
@@ -3972,8 +4854,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.ReadOffersFeedAsync(Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.FeedResponse&lt;Microsoft.Azure.Documents.Offer&gt;&gt;</ReturnType>
@@ -3998,8 +4886,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.ReadPermissionAsync(System.String,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.Permission&gt;&gt;</ReturnType>
@@ -4026,8 +4920,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.ReadPermissionAsync(System.Uri,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.Permission&gt;&gt;</ReturnType>
@@ -4054,8 +4954,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.ReadPermissionFeedAsync(System.String,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.FeedResponse&lt;Microsoft.Azure.Documents.Permission&gt;&gt;</ReturnType>
@@ -4082,8 +4988,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.ReadPermissionFeedAsync(System.Uri,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.FeedResponse&lt;Microsoft.Azure.Documents.Permission&gt;&gt;</ReturnType>
@@ -4108,8 +5020,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.ReadStoredProcedureAsync(System.String,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.StoredProcedure&gt;&gt;</ReturnType>
@@ -4136,8 +5054,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.ReadStoredProcedureAsync(System.Uri,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.StoredProcedure&gt;&gt;</ReturnType>
@@ -4164,8 +5088,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.ReadStoredProcedureFeedAsync(System.String,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.FeedResponse&lt;Microsoft.Azure.Documents.StoredProcedure&gt;&gt;</ReturnType>
@@ -4192,8 +5122,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.ReadStoredProcedureFeedAsync(System.Uri,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.FeedResponse&lt;Microsoft.Azure.Documents.StoredProcedure&gt;&gt;</ReturnType>
@@ -4218,8 +5154,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.ReadTriggerAsync(System.String,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.Trigger&gt;&gt;</ReturnType>
@@ -4246,8 +5188,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.ReadTriggerAsync(System.Uri,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.Trigger&gt;&gt;</ReturnType>
@@ -4274,8 +5222,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.ReadTriggerFeedAsync(System.String,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.FeedResponse&lt;Microsoft.Azure.Documents.Trigger&gt;&gt;</ReturnType>
@@ -4302,8 +5256,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.ReadTriggerFeedAsync(System.Uri,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.FeedResponse&lt;Microsoft.Azure.Documents.Trigger&gt;&gt;</ReturnType>
@@ -4328,8 +5288,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.ReadUserAsync(System.String,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.User&gt;&gt;</ReturnType>
@@ -4356,8 +5322,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.ReadUserAsync(System.Uri,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.User&gt;&gt;</ReturnType>
@@ -4384,8 +5356,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.ReadUserDefinedFunctionAsync(System.String,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.UserDefinedFunction&gt;&gt;</ReturnType>
@@ -4412,8 +5390,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.ReadUserDefinedFunctionAsync(System.Uri,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.UserDefinedFunction&gt;&gt;</ReturnType>
@@ -4440,8 +5424,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.ReadUserDefinedFunctionFeedAsync(System.String,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.FeedResponse&lt;Microsoft.Azure.Documents.UserDefinedFunction&gt;&gt;</ReturnType>
@@ -4468,8 +5458,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.ReadUserDefinedFunctionFeedAsync(System.Uri,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.FeedResponse&lt;Microsoft.Azure.Documents.UserDefinedFunction&gt;&gt;</ReturnType>
@@ -4494,8 +5490,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.ReadUserFeedAsync(System.String,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.FeedResponse&lt;Microsoft.Azure.Documents.User&gt;&gt;</ReturnType>
@@ -4522,8 +5524,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.ReadUserFeedAsync(System.Uri,Microsoft.Azure.Documents.Client.FeedOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.FeedResponse&lt;Microsoft.Azure.Documents.User&gt;&gt;</ReturnType>
@@ -4548,8 +5556,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.ReplaceAttachmentAsync(Microsoft.Azure.Documents.Attachment,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.Attachment&gt;&gt;</ReturnType>
@@ -4576,8 +5590,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.ReplaceAttachmentAsync(System.Uri,Microsoft.Azure.Documents.Attachment,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.Attachment&gt;&gt;</ReturnType>
@@ -4604,8 +5624,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.ReplaceDocumentAsync(Microsoft.Azure.Documents.Document,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.Document&gt;&gt;</ReturnType>
@@ -4632,8 +5658,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.ReplaceDocumentAsync(System.String,System.Object,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.Document&gt;&gt;</ReturnType>
@@ -4662,8 +5694,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.ReplaceDocumentAsync(System.Uri,System.Object,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.Document&gt;&gt;</ReturnType>
@@ -4690,8 +5728,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.ReplaceDocumentCollectionAsync(Microsoft.Azure.Documents.DocumentCollection,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.DocumentCollection&gt;&gt;</ReturnType>
@@ -4716,8 +5760,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.ReplaceDocumentCollectionAsync(System.Uri,Microsoft.Azure.Documents.DocumentCollection,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.DocumentCollection&gt;&gt;</ReturnType>
@@ -4744,8 +5794,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.ReplaceOfferAsync(Microsoft.Azure.Documents.Offer)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.Offer&gt;&gt;</ReturnType>
@@ -4770,8 +5826,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.ReplacePermissionAsync(Microsoft.Azure.Documents.Permission,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.Permission&gt;&gt;</ReturnType>
@@ -4798,8 +5860,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.ReplacePermissionAsync(System.Uri,Microsoft.Azure.Documents.Permission,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.Permission&gt;&gt;</ReturnType>
@@ -4826,8 +5894,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.ReplaceStoredProcedureAsync(Microsoft.Azure.Documents.StoredProcedure,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.StoredProcedure&gt;&gt;</ReturnType>
@@ -4854,8 +5928,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.ReplaceStoredProcedureAsync(System.Uri,Microsoft.Azure.Documents.StoredProcedure,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.StoredProcedure&gt;&gt;</ReturnType>
@@ -4882,8 +5962,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.ReplaceTriggerAsync(Microsoft.Azure.Documents.Trigger,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.Trigger&gt;&gt;</ReturnType>
@@ -4910,8 +5996,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.ReplaceTriggerAsync(System.Uri,Microsoft.Azure.Documents.Trigger,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.Trigger&gt;&gt;</ReturnType>
@@ -4938,8 +6030,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.ReplaceUserAsync(Microsoft.Azure.Documents.User,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.User&gt;&gt;</ReturnType>
@@ -4966,8 +6064,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.ReplaceUserAsync(System.Uri,Microsoft.Azure.Documents.User,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.User&gt;&gt;</ReturnType>
@@ -4994,8 +6098,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.ReplaceUserDefinedFunctionAsync(Microsoft.Azure.Documents.UserDefinedFunction,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.UserDefinedFunction&gt;&gt;</ReturnType>
@@ -5022,8 +6132,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.ReplaceUserDefinedFunctionAsync(System.Uri,Microsoft.Azure.Documents.UserDefinedFunction,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.UserDefinedFunction&gt;&gt;</ReturnType>
@@ -5050,8 +6166,14 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Documents.IDocumentClient.ServiceEndpoint" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Uri</ReturnType>
@@ -5070,8 +6192,14 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Documents.IDocumentClient.Session" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Object</ReturnType>
@@ -5090,8 +6218,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.UpdateMediaAsync(System.String,System.IO.Stream,Microsoft.Azure.Documents.Client.MediaOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.MediaResponse&gt;</ReturnType>
@@ -5120,8 +6254,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.UpsertAttachmentAsync(System.String,System.Object,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.Attachment&gt;&gt;</ReturnType>
@@ -5150,8 +6290,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.UpsertAttachmentAsync(System.Uri,System.Object,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.Attachment&gt;&gt;</ReturnType>
@@ -5178,8 +6324,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.UpsertAttachmentAsync(System.String,System.IO.Stream,Microsoft.Azure.Documents.Client.MediaOptions,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.Attachment&gt;&gt;</ReturnType>
@@ -5210,8 +6362,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.UpsertAttachmentAsync(System.Uri,System.IO.Stream,Microsoft.Azure.Documents.Client.MediaOptions,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.Attachment&gt;&gt;</ReturnType>
@@ -5240,8 +6398,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.UpsertDocumentAsync(System.String,System.Object,Microsoft.Azure.Documents.Client.RequestOptions,System.Boolean)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.Document&gt;&gt;</ReturnType>
@@ -5270,8 +6434,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.UpsertDocumentAsync(System.Uri,System.Object,Microsoft.Azure.Documents.Client.RequestOptions,System.Boolean)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.Document&gt;&gt;</ReturnType>
@@ -5300,8 +6470,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.UpsertPermissionAsync(System.String,Microsoft.Azure.Documents.Permission,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.Permission&gt;&gt;</ReturnType>
@@ -5328,8 +6504,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.UpsertPermissionAsync(System.Uri,Microsoft.Azure.Documents.Permission,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.Permission&gt;&gt;</ReturnType>
@@ -5356,8 +6538,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.UpsertStoredProcedureAsync(System.String,Microsoft.Azure.Documents.StoredProcedure,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.StoredProcedure&gt;&gt;</ReturnType>
@@ -5384,8 +6572,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.UpsertStoredProcedureAsync(System.Uri,Microsoft.Azure.Documents.StoredProcedure,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.StoredProcedure&gt;&gt;</ReturnType>
@@ -5412,8 +6606,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.UpsertTriggerAsync(System.String,Microsoft.Azure.Documents.Trigger,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.Trigger&gt;&gt;</ReturnType>
@@ -5440,8 +6640,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.UpsertTriggerAsync(System.Uri,Microsoft.Azure.Documents.Trigger,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.Trigger&gt;&gt;</ReturnType>
@@ -5468,8 +6674,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.UpsertUserAsync(System.String,Microsoft.Azure.Documents.User,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.User&gt;&gt;</ReturnType>
@@ -5496,8 +6708,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.UpsertUserAsync(System.Uri,Microsoft.Azure.Documents.User,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.User&gt;&gt;</ReturnType>
@@ -5524,8 +6742,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.UpsertUserDefinedFunctionAsync(System.String,Microsoft.Azure.Documents.UserDefinedFunction,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.UserDefinedFunction&gt;&gt;</ReturnType>
@@ -5552,8 +6776,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.IDocumentClient.UpsertUserDefinedFunctionAsync(System.Uri,Microsoft.Azure.Documents.UserDefinedFunction,Microsoft.Azure.Documents.Client.RequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Documents.Client.ResourceResponse&lt;Microsoft.Azure.Documents.UserDefinedFunction&gt;&gt;</ReturnType>
@@ -5580,8 +6810,14 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Documents.IDocumentClient.WriteEndpoint" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Uri</ReturnType>

@@ -5,6 +5,12 @@
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
     <AssemblyVersion>1.14.0.0</AssemblyVersion>
+    <AssemblyVersion>1.16.0.0</AssemblyVersion>
+    <AssemblyVersion>1.17.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+    <AssemblyVersion>1.5.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -30,8 +36,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.Linq.DocumentQueryable.AsDocumentQuery``1(System.Linq.IQueryable{``0})" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Documents.Linq.IDocumentQuery&lt;T&gt;</ReturnType>
@@ -107,6 +119,82 @@
                 }
             }
             ]]></code></example>
+        <example>
+            This example shows how to run a query asynchronously using the AsDocumentQuery() interface.
+            
+            <code language="c#"><![CDATA[
+            using (var queryable = client.CreateDocumentQuery<Book>(
+                collectionLink,
+                new FeedOptions { MaxItemCount = 10 })
+                .Where(b => b.Title == "War and Peace")
+                .AsDocumentQuery())
+            {
+                while (queryable.HasMoreResults) 
+                {
+                    foreach(Book b in await queryable.ExecuteNextAsync<Book>())
+                    {
+                        // Iterate through books
+                    }
+                }
+            }
+            ]]></code></example>
+        <example>
+            This example shows how to run a query asynchronously using the AsDocumentQuery() interface.
+            
+            <code language="c#"><![CDATA[
+            using (var queryable = client.CreateDocumentQuery<Book>(
+                collectionLink,
+                new FeedOptions { MaxItemCount = 10 })
+                .Where(b => b.Title == "War and Peace")
+                .AsDocumentQuery())
+            {
+                while (queryable.HasMoreResults) 
+                {
+                    foreach(Book b in await queryable.ExecuteNextAsync<Book>())
+                    {
+                        // Iterate through books
+                    }
+                }
+            }
+            ]]></code></example>
+        <example>
+            This example shows how to run a query asynchronously using the AsDocumentQuery() interface.
+            
+            <code language="c#"><![CDATA[
+            using (var queryable = client.CreateDocumentQuery<Book>(
+                collectionLink,
+                new FeedOptions { MaxItemCount = 10 })
+                .Where(b => b.Title == "War and Peace")
+                .AsDocumentQuery())
+            {
+                while (queryable.HasMoreResults) 
+                {
+                    foreach(Book b in await queryable.ExecuteNextAsync<Book>())
+                    {
+                        // Iterate through books
+                    }
+                }
+            }
+            ]]></code></example>
+        <example>
+            This example shows how to run a query asynchronously using the AsDocumentQuery() interface.
+            
+            <code language="c#"><![CDATA[
+            using (var queryable = client.CreateDocumentQuery<Book>(
+                collectionLink,
+                new FeedOptions { MaxItemCount = 10 })
+                .Where(b => b.Title == "War and Peace")
+                .AsDocumentQuery())
+            {
+                while (queryable.HasMoreResults) 
+                {
+                    foreach(Book b in await queryable.ExecuteNextAsync<Book>())
+                    {
+                        // Iterate through books
+                    }
+                }
+            }
+            ]]></code></example>
       </Docs>
     </Member>
     <Member MemberName="AverageAsync">
@@ -115,8 +203,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.Linq.DocumentQueryable.AverageAsync(System.Linq.IQueryable{System.Decimal},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Decimal&gt;</ReturnType>
@@ -141,8 +235,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.Linq.DocumentQueryable.AverageAsync(System.Linq.IQueryable{System.Double},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Double&gt;</ReturnType>
@@ -167,8 +267,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.Linq.DocumentQueryable.AverageAsync(System.Linq.IQueryable{System.Int32},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Double&gt;</ReturnType>
@@ -193,8 +299,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.Linq.DocumentQueryable.AverageAsync(System.Linq.IQueryable{System.Int64},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Double&gt;</ReturnType>
@@ -219,8 +331,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.Linq.DocumentQueryable.AverageAsync(System.Linq.IQueryable{System.Nullable{System.Decimal}},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Nullable&lt;System.Decimal&gt;&gt;</ReturnType>
@@ -245,8 +363,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.Linq.DocumentQueryable.AverageAsync(System.Linq.IQueryable{System.Nullable{System.Double}},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Nullable&lt;System.Double&gt;&gt;</ReturnType>
@@ -271,8 +395,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.Linq.DocumentQueryable.AverageAsync(System.Linq.IQueryable{System.Nullable{System.Int32}},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Nullable&lt;System.Double&gt;&gt;</ReturnType>
@@ -297,8 +427,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.Linq.DocumentQueryable.AverageAsync(System.Linq.IQueryable{System.Nullable{System.Int64}},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Nullable&lt;System.Double&gt;&gt;</ReturnType>
@@ -323,8 +459,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.Linq.DocumentQueryable.AverageAsync(System.Linq.IQueryable{System.Nullable{System.Single}},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Nullable&lt;System.Single&gt;&gt;</ReturnType>
@@ -349,8 +491,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.Linq.DocumentQueryable.AverageAsync(System.Linq.IQueryable{System.Single},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Single&gt;</ReturnType>
@@ -375,8 +523,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.Linq.DocumentQueryable.CountAsync``1(System.Linq.IQueryable{``0},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Int32&gt;</ReturnType>
@@ -405,8 +559,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.Linq.DocumentQueryable.MaxAsync``1(System.Linq.IQueryable{``0},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;TSource&gt;</ReturnType>
@@ -435,8 +595,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.Linq.DocumentQueryable.MinAsync``1(System.Linq.IQueryable{``0},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;TSource&gt;</ReturnType>
@@ -465,8 +631,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.Linq.DocumentQueryable.SumAsync(System.Linq.IQueryable{System.Decimal},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Decimal&gt;</ReturnType>
@@ -491,8 +663,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.Linq.DocumentQueryable.SumAsync(System.Linq.IQueryable{System.Double},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Double&gt;</ReturnType>
@@ -517,8 +695,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.Linq.DocumentQueryable.SumAsync(System.Linq.IQueryable{System.Int32},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Int32&gt;</ReturnType>
@@ -543,8 +727,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.Linq.DocumentQueryable.SumAsync(System.Linq.IQueryable{System.Int64},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Int64&gt;</ReturnType>
@@ -569,8 +759,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.Linq.DocumentQueryable.SumAsync(System.Linq.IQueryable{System.Nullable{System.Decimal}},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Nullable&lt;System.Decimal&gt;&gt;</ReturnType>
@@ -595,8 +791,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.Linq.DocumentQueryable.SumAsync(System.Linq.IQueryable{System.Nullable{System.Double}},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Nullable&lt;System.Double&gt;&gt;</ReturnType>
@@ -621,8 +823,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.Linq.DocumentQueryable.SumAsync(System.Linq.IQueryable{System.Nullable{System.Int32}},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Nullable&lt;System.Int32&gt;&gt;</ReturnType>
@@ -647,8 +855,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.Linq.DocumentQueryable.SumAsync(System.Linq.IQueryable{System.Nullable{System.Int64}},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Nullable&lt;System.Int64&gt;&gt;</ReturnType>
@@ -673,8 +887,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.Linq.DocumentQueryable.SumAsync(System.Linq.IQueryable{System.Nullable{System.Single}},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Nullable&lt;System.Single&gt;&gt;</ReturnType>
@@ -699,8 +919,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.Linq.DocumentQueryable.SumAsync(System.Linq.IQueryable{System.Single},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.14.0.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Single&gt;</ReturnType>
