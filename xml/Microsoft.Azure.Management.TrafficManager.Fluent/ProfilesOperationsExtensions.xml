@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public static class ProfilesOperationsExtensions" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit ProfilesOperationsExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.TrafficManager.Fluent.ProfilesOperationsExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module ProfilesOperationsExtensions" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.TrafficManager.Fluent</AssemblyName>
     <AssemblyVersion>1.0.0.60</AssemblyVersion>
@@ -21,10 +22,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.TrafficManager.Fluent.Models.TrafficManagerNameAvailabilityInner CheckTrafficManagerRelativeDnsNameAvailability (this Microsoft.Azure.Management.TrafficManager.Fluent.IProfilesOperations operations, string name = null, string type = null);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.TrafficManager.Fluent.Models.TrafficManagerNameAvailabilityInner CheckTrafficManagerRelativeDnsNameAvailability(class Microsoft.Azure.Management.TrafficManager.Fluent.IProfilesOperations operations, string name, string type) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.TrafficManager.Fluent.ProfilesOperationsExtensions.CheckTrafficManagerRelativeDnsNameAvailability(Microsoft.Azure.Management.TrafficManager.Fluent.IProfilesOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function CheckTrafficManagerRelativeDnsNameAvailability (operations As IProfilesOperations, Optional name As String = null, Optional type As String = null) As TrafficManagerNameAvailabilityInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.TrafficManager.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.TrafficManager.Fluent.Models.TrafficManagerNameAvailabilityInner</ReturnType>
@@ -57,8 +59,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.TrafficManager.Fluent.ProfilesOperationsExtensions.CheckTrafficManagerRelativeDnsNameAvailabilityAsync(Microsoft.Azure.Management.TrafficManager.Fluent.IProfilesOperations,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.TrafficManager.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -98,10 +100,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.TrafficManager.Fluent.Models.ProfileInner CreateOrUpdate (this Microsoft.Azure.Management.TrafficManager.Fluent.IProfilesOperations operations, string resourceGroupName, string profileName, Microsoft.Azure.Management.TrafficManager.Fluent.Models.ProfileInner parameters);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.TrafficManager.Fluent.Models.ProfileInner CreateOrUpdate(class Microsoft.Azure.Management.TrafficManager.Fluent.IProfilesOperations operations, string resourceGroupName, string profileName, class Microsoft.Azure.Management.TrafficManager.Fluent.Models.ProfileInner parameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.TrafficManager.Fluent.ProfilesOperationsExtensions.CreateOrUpdate(Microsoft.Azure.Management.TrafficManager.Fluent.IProfilesOperations,System.String,System.String,Microsoft.Azure.Management.TrafficManager.Fluent.Models.ProfileInner)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function CreateOrUpdate (operations As IProfilesOperations, resourceGroupName As String, profileName As String, parameters As ProfileInner) As ProfileInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.TrafficManager.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.TrafficManager.Fluent.Models.ProfileInner</ReturnType>
@@ -139,8 +142,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.TrafficManager.Fluent.ProfilesOperationsExtensions.CreateOrUpdateAsync(Microsoft.Azure.Management.TrafficManager.Fluent.IProfilesOperations,System.String,System.String,Microsoft.Azure.Management.TrafficManager.Fluent.Models.ProfileInner,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.TrafficManager.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -185,10 +188,11 @@
       <MemberSignature Language="C#" Value="public static void Delete (this Microsoft.Azure.Management.TrafficManager.Fluent.IProfilesOperations operations, string resourceGroupName, string profileName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Delete(class Microsoft.Azure.Management.TrafficManager.Fluent.IProfilesOperations operations, string resourceGroupName, string profileName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.TrafficManager.Fluent.ProfilesOperationsExtensions.Delete(Microsoft.Azure.Management.TrafficManager.Fluent.IProfilesOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub Delete (operations As IProfilesOperations, resourceGroupName As String, profileName As String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.TrafficManager.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -221,8 +225,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.TrafficManager.Fluent.ProfilesOperationsExtensions.DeleteAsync(Microsoft.Azure.Management.TrafficManager.Fluent.IProfilesOperations,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.TrafficManager.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -263,10 +267,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.TrafficManager.Fluent.Models.ProfileInner Get (this Microsoft.Azure.Management.TrafficManager.Fluent.IProfilesOperations operations, string resourceGroupName, string profileName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.TrafficManager.Fluent.Models.ProfileInner Get(class Microsoft.Azure.Management.TrafficManager.Fluent.IProfilesOperations operations, string resourceGroupName, string profileName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.TrafficManager.Fluent.ProfilesOperationsExtensions.Get(Microsoft.Azure.Management.TrafficManager.Fluent.IProfilesOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Get (operations As IProfilesOperations, resourceGroupName As String, profileName As String) As ProfileInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.TrafficManager.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.TrafficManager.Fluent.Models.ProfileInner</ReturnType>
@@ -299,8 +304,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.TrafficManager.Fluent.ProfilesOperationsExtensions.GetAsync(Microsoft.Azure.Management.TrafficManager.Fluent.IProfilesOperations,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.TrafficManager.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -340,10 +345,11 @@
       <MemberSignature Language="C#" Value="public static System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Management.TrafficManager.Fluent.Models.ProfileInner&gt; ListAll (this Microsoft.Azure.Management.TrafficManager.Fluent.IProfilesOperations operations);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Azure.Management.TrafficManager.Fluent.Models.ProfileInner&gt; ListAll(class Microsoft.Azure.Management.TrafficManager.Fluent.IProfilesOperations operations) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.TrafficManager.Fluent.ProfilesOperationsExtensions.ListAll(Microsoft.Azure.Management.TrafficManager.Fluent.IProfilesOperations)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListAll (operations As IProfilesOperations) As IEnumerable(Of ProfileInner)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.TrafficManager.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Management.TrafficManager.Fluent.Models.ProfileInner&gt;</ReturnType>
@@ -368,8 +374,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.TrafficManager.Fluent.ProfilesOperationsExtensions.ListAllAsync(Microsoft.Azure.Management.TrafficManager.Fluent.IProfilesOperations,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.TrafficManager.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -401,10 +407,11 @@
       <MemberSignature Language="C#" Value="public static System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Management.TrafficManager.Fluent.Models.ProfileInner&gt; ListAllInResourceGroup (this Microsoft.Azure.Management.TrafficManager.Fluent.IProfilesOperations operations, string resourceGroupName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Azure.Management.TrafficManager.Fluent.Models.ProfileInner&gt; ListAllInResourceGroup(class Microsoft.Azure.Management.TrafficManager.Fluent.IProfilesOperations operations, string resourceGroupName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.TrafficManager.Fluent.ProfilesOperationsExtensions.ListAllInResourceGroup(Microsoft.Azure.Management.TrafficManager.Fluent.IProfilesOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListAllInResourceGroup (operations As IProfilesOperations, resourceGroupName As String) As IEnumerable(Of ProfileInner)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.TrafficManager.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Management.TrafficManager.Fluent.Models.ProfileInner&gt;</ReturnType>
@@ -434,8 +441,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.TrafficManager.Fluent.ProfilesOperationsExtensions.ListAllInResourceGroupAsync(Microsoft.Azure.Management.TrafficManager.Fluent.IProfilesOperations,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.TrafficManager.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -472,10 +479,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.TrafficManager.Fluent.Models.ProfileInner Update (this Microsoft.Azure.Management.TrafficManager.Fluent.IProfilesOperations operations, string resourceGroupName, string profileName, Microsoft.Azure.Management.TrafficManager.Fluent.Models.ProfileInner parameters);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.TrafficManager.Fluent.Models.ProfileInner Update(class Microsoft.Azure.Management.TrafficManager.Fluent.IProfilesOperations operations, string resourceGroupName, string profileName, class Microsoft.Azure.Management.TrafficManager.Fluent.Models.ProfileInner parameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.TrafficManager.Fluent.ProfilesOperationsExtensions.Update(Microsoft.Azure.Management.TrafficManager.Fluent.IProfilesOperations,System.String,System.String,Microsoft.Azure.Management.TrafficManager.Fluent.Models.ProfileInner)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Update (operations As IProfilesOperations, resourceGroupName As String, profileName As String, parameters As ProfileInner) As ProfileInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.TrafficManager.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.TrafficManager.Fluent.Models.ProfileInner</ReturnType>
@@ -512,8 +520,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.TrafficManager.Fluent.ProfilesOperationsExtensions.UpdateAsync(Microsoft.Azure.Management.TrafficManager.Fluent.IProfilesOperations,System.String,System.String,Microsoft.Azure.Management.TrafficManager.Fluent.Models.ProfileInner,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.TrafficManager.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>

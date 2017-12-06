@@ -2,9 +2,9 @@
   <TypeSignature Language="C#" Value="public class VirtualMachineCaptureParameters" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit VirtualMachineCaptureParameters extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Compute.Models.VirtualMachineCaptureParameters" />
+  <TypeSignature Language="VB.NET" Value="Public Class VirtualMachineCaptureParameters" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-    <AssemblyVersion>14.0.0.0</AssemblyVersion>
     <AssemblyVersion>16.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
@@ -22,10 +22,10 @@
       <MemberSignature Language="C#" Value="public VirtualMachineCaptureParameters ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Models.VirtualMachineCaptureParameters.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
@@ -41,10 +41,10 @@
       <MemberSignature Language="C#" Value="public VirtualMachineCaptureParameters (string vhdPrefix, string destinationContainerName, bool overwriteVhds);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string vhdPrefix, string destinationContainerName, bool overwriteVhds) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Models.VirtualMachineCaptureParameters.#ctor(System.String,System.String,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (vhdPrefix As String, destinationContainerName As String, overwriteVhds As Boolean)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -70,10 +70,10 @@
       <MemberSignature Language="C#" Value="public string DestinationContainerName { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string DestinationContainerName" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Compute.Models.VirtualMachineCaptureParameters.DestinationContainerName" />
+      <MemberSignature Language="VB.NET" Value="Public Property DestinationContainerName As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -96,10 +96,10 @@
       <MemberSignature Language="C#" Value="public bool OverwriteVhds { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool OverwriteVhds" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Compute.Models.VirtualMachineCaptureParameters.OverwriteVhds" />
+      <MemberSignature Language="VB.NET" Value="Public Property OverwriteVhds As Boolean" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -123,10 +123,10 @@
       <MemberSignature Language="C#" Value="public virtual void Validate ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Validate() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Models.VirtualMachineCaptureParameters.Validate" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub Validate ()" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -147,10 +147,10 @@
       <MemberSignature Language="C#" Value="public string VhdPrefix { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string VhdPrefix" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Compute.Models.VirtualMachineCaptureParameters.VhdPrefix" />
+      <MemberSignature Language="VB.NET" Value="Public Property VhdPrefix As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>

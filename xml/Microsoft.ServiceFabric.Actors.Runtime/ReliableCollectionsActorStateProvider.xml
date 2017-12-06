@@ -1,11 +1,11 @@
 ﻿<Type Name="ReliableCollectionsActorStateProvider" FullName="Microsoft.ServiceFabric.Actors.Runtime.ReliableCollectionsActorStateProvider">
-  <TypeSignature Language="C#" Value="public sealed class ReliableCollectionsActorStateProvider : Microsoft.ServiceFabric.Actors.Runtime.IActorStateProvider, Microsoft.ServiceFabric.Data.IStateProviderReplica" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ReliableCollectionsActorStateProvider extends System.Object implements class Microsoft.ServiceFabric.Actors.Runtime.IActorStateProvider, class Microsoft.ServiceFabric.Data.IStateProviderReplica" />
+  <TypeSignature Language="C#" Value="public sealed class ReliableCollectionsActorStateProvider : Microsoft.ServiceFabric.Actors.Runtime.IActorStateProvider, Microsoft.ServiceFabric.Data.IStateProviderReplica2" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ReliableCollectionsActorStateProvider extends System.Object implements class Microsoft.ServiceFabric.Actors.Runtime.IActorStateProvider, class Microsoft.ServiceFabric.Data.IStateProviderReplica, class Microsoft.ServiceFabric.Data.IStateProviderReplica2" />
   <TypeSignature Language="DocId" Value="T:Microsoft.ServiceFabric.Actors.Runtime.ReliableCollectionsActorStateProvider" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ReliableCollectionsActorStateProvider&#xA;Implements IActorStateProvider, IStateProviderReplica2" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.ServiceFabric.Actors</AssemblyName>
-    <AssemblyVersion>5.0.0.0</AssemblyVersion>
-    <AssemblyVersion>255.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -15,7 +15,7 @@
       <InterfaceName>Microsoft.ServiceFabric.Actors.Runtime.IActorStateProvider</InterfaceName>
     </Interface>
     <Interface>
-      <InterfaceName>Microsoft.ServiceFabric.Data.IStateProviderReplica</InterfaceName>
+      <InterfaceName>Microsoft.ServiceFabric.Data.IStateProviderReplica2</InterfaceName>
     </Interface>
   </Interfaces>
   <Docs>
@@ -31,11 +31,11 @@
       <MemberSignature Language="C#" Value="public ReliableCollectionsActorStateProvider ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Actors.Runtime.ReliableCollectionsActorStateProvider.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Actors</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -50,11 +50,11 @@
       <MemberSignature Language="C#" Value="public ReliableCollectionsActorStateProvider (Microsoft.ServiceFabric.Data.ReliableStateManagerConfiguration stateManagerConfig);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.ServiceFabric.Data.ReliableStateManagerConfiguration stateManagerConfig) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Actors.Runtime.ReliableCollectionsActorStateProvider.#ctor(Microsoft.ServiceFabric.Data.ReliableStateManagerConfiguration)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (stateManagerConfig As ReliableStateManagerConfiguration)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Actors</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="stateManagerConfig" Type="Microsoft.ServiceFabric.Data.ReliableStateManagerConfiguration" />
@@ -75,11 +75,11 @@
       <MemberSignature Language="C#" Value="public ReliableCollectionsActorStateProvider (Microsoft.ServiceFabric.Data.ReliableStateManagerConfiguration stateManagerConfig, int actorStateDictionaryCount, int reminderDictionaryCount);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.ServiceFabric.Data.ReliableStateManagerConfiguration stateManagerConfig, int32 actorStateDictionaryCount, int32 reminderDictionaryCount) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Actors.Runtime.ReliableCollectionsActorStateProvider.#ctor(Microsoft.ServiceFabric.Data.ReliableStateManagerConfiguration,System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (stateManagerConfig As ReliableStateManagerConfiguration, actorStateDictionaryCount As Integer, reminderDictionaryCount As Integer)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Actors</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="stateManagerConfig" Type="Microsoft.ServiceFabric.Data.ReliableStateManagerConfiguration" />
@@ -114,13 +114,12 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Actors.Runtime.ReliableCollectionsActorStateProvider.Microsoft#ServiceFabric#Actors#Runtime#IActorStateProvider#ActorActivatedAsync(Microsoft.ServiceFabric.Actors.ActorId,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Actors</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.ServiceFabric.Actors.Runtime.ReliableCollectionsActorStateProvider/&lt;Microsoft-ServiceFabric-Actors-Runtime-IActorStateProvider-ActorActivatedAsync&gt;d__39))</AttributeName>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.ServiceFabric.Actors.Runtime.ReliableCollectionsActorStateProvider/&lt;Microsoft-ServiceFabric-Actors-Runtime-IActorStateProvider-ActorActivatedAsync&gt;d__40))</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -144,13 +143,12 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Actors.Runtime.ReliableCollectionsActorStateProvider.Microsoft#ServiceFabric#Actors#Runtime#IActorStateProvider#ContainsStateAsync(Microsoft.ServiceFabric.Actors.ActorId,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Actors</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.ServiceFabric.Actors.Runtime.ReliableCollectionsActorStateProvider/&lt;Microsoft-ServiceFabric-Actors-Runtime-IActorStateProvider-ContainsStateAsync&gt;d__43))</AttributeName>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.ServiceFabric.Actors.Runtime.ReliableCollectionsActorStateProvider/&lt;Microsoft-ServiceFabric-Actors-Runtime-IActorStateProvider-ContainsStateAsync&gt;d__44))</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -176,13 +174,12 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Actors.Runtime.ReliableCollectionsActorStateProvider.Microsoft#ServiceFabric#Actors#Runtime#IActorStateProvider#DeleteReminderAsync(Microsoft.ServiceFabric.Actors.ActorId,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Actors</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.ServiceFabric.Actors.Runtime.ReliableCollectionsActorStateProvider/&lt;Microsoft-ServiceFabric-Actors-Runtime-IActorStateProvider-DeleteReminderAsync&gt;d__49))</AttributeName>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.ServiceFabric.Actors.Runtime.ReliableCollectionsActorStateProvider/&lt;Microsoft-ServiceFabric-Actors-Runtime-IActorStateProvider-DeleteReminderAsync&gt;d__50))</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -209,11 +206,11 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.ServiceFabric.Actors</AssemblyName>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.ServiceFabric.Actors.Runtime.ReliableCollectionsActorStateProvider/&lt;Microsoft-ServiceFabric-Actors-Runtime-IActorStateProvider-DeleteRemindersAsync&gt;d__50))</AttributeName>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.ServiceFabric.Actors.Runtime.ReliableCollectionsActorStateProvider/&lt;Microsoft-ServiceFabric-Actors-Runtime-IActorStateProvider-DeleteRemindersAsync&gt;d__51))</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -237,13 +234,12 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Actors.Runtime.ReliableCollectionsActorStateProvider.Microsoft#ServiceFabric#Actors#Runtime#IActorStateProvider#EnumerateStateNamesAsync(Microsoft.ServiceFabric.Actors.ActorId,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Actors</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.ServiceFabric.Actors.Runtime.ReliableCollectionsActorStateProvider/&lt;Microsoft-ServiceFabric-Actors-Runtime-IActorStateProvider-EnumerateStateNamesAsync&gt;d__45))</AttributeName>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.ServiceFabric.Actors.Runtime.ReliableCollectionsActorStateProvider/&lt;Microsoft-ServiceFabric-Actors-Runtime-IActorStateProvider-EnumerateStateNamesAsync&gt;d__46))</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -267,13 +263,12 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Actors.Runtime.ReliableCollectionsActorStateProvider.Microsoft#ServiceFabric#Actors#Runtime#IActorStateProvider#GetActorsAsync(System.Int32,Microsoft.ServiceFabric.Actors.Query.ContinuationToken,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Actors</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.ServiceFabric.Actors.Runtime.ReliableCollectionsActorStateProvider/&lt;Microsoft-ServiceFabric-Actors-Runtime-IActorStateProvider-GetActorsAsync&gt;d__46))</AttributeName>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.ServiceFabric.Actors.Runtime.ReliableCollectionsActorStateProvider/&lt;Microsoft-ServiceFabric-Actors-Runtime-IActorStateProvider-GetActorsAsync&gt;d__47))</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -299,9 +294,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Actors.Runtime.ReliableCollectionsActorStateProvider.Microsoft#ServiceFabric#Actors#Runtime#IActorStateProvider#Initialize(Microsoft.ServiceFabric.Actors.Runtime.ActorTypeInformation)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Actors</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -321,13 +315,12 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Actors.Runtime.ReliableCollectionsActorStateProvider.Microsoft#ServiceFabric#Actors#Runtime#IActorStateProvider#LoadRemindersAsync(System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Actors</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.ServiceFabric.Actors.Runtime.ReliableCollectionsActorStateProvider/&lt;Microsoft-ServiceFabric-Actors-Runtime-IActorStateProvider-LoadRemindersAsync&gt;d__48))</AttributeName>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.ServiceFabric.Actors.Runtime.ReliableCollectionsActorStateProvider/&lt;Microsoft-ServiceFabric-Actors-Runtime-IActorStateProvider-LoadRemindersAsync&gt;d__49))</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -349,13 +342,12 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Actors.Runtime.ReliableCollectionsActorStateProvider.Microsoft#ServiceFabric#Actors#Runtime#IActorStateProvider#LoadStateAsync``1(Microsoft.ServiceFabric.Actors.ActorId,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Actors</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.ServiceFabric.Actors.Runtime.ReliableCollectionsActorStateProvider/&lt;Microsoft-ServiceFabric-Actors-Runtime-IActorStateProvider-LoadStateAsync&gt;d__41`1))</AttributeName>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.ServiceFabric.Actors.Runtime.ReliableCollectionsActorStateProvider/&lt;Microsoft-ServiceFabric-Actors-Runtime-IActorStateProvider-LoadStateAsync&gt;d__42`1))</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -385,13 +377,12 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Actors.Runtime.ReliableCollectionsActorStateProvider.Microsoft#ServiceFabric#Actors#Runtime#IActorStateProvider#ReminderCallbackCompletedAsync(Microsoft.ServiceFabric.Actors.ActorId,Microsoft.ServiceFabric.Actors.Runtime.IActorReminder,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Actors</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.ServiceFabric.Actors.Runtime.ReliableCollectionsActorStateProvider/&lt;Microsoft-ServiceFabric-Actors-Runtime-IActorStateProvider-ReminderCallbackCompletedAsync&gt;d__40))</AttributeName>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.ServiceFabric.Actors.Runtime.ReliableCollectionsActorStateProvider/&lt;Microsoft-ServiceFabric-Actors-Runtime-IActorStateProvider-ReminderCallbackCompletedAsync&gt;d__41))</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -417,13 +408,12 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Actors.Runtime.ReliableCollectionsActorStateProvider.Microsoft#ServiceFabric#Actors#Runtime#IActorStateProvider#RemoveActorAsync(Microsoft.ServiceFabric.Actors.ActorId,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Actors</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.ServiceFabric.Actors.Runtime.ReliableCollectionsActorStateProvider/&lt;Microsoft-ServiceFabric-Actors-Runtime-IActorStateProvider-RemoveActorAsync&gt;d__44))</AttributeName>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.ServiceFabric.Actors.Runtime.ReliableCollectionsActorStateProvider/&lt;Microsoft-ServiceFabric-Actors-Runtime-IActorStateProvider-RemoveActorAsync&gt;d__45))</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -447,13 +437,12 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Actors.Runtime.ReliableCollectionsActorStateProvider.Microsoft#ServiceFabric#Actors#Runtime#IActorStateProvider#SaveReminderAsync(Microsoft.ServiceFabric.Actors.ActorId,Microsoft.ServiceFabric.Actors.Runtime.IActorReminder,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Actors</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.ServiceFabric.Actors.Runtime.ReliableCollectionsActorStateProvider/&lt;Microsoft-ServiceFabric-Actors-Runtime-IActorStateProvider-SaveReminderAsync&gt;d__47))</AttributeName>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.ServiceFabric.Actors.Runtime.ReliableCollectionsActorStateProvider/&lt;Microsoft-ServiceFabric-Actors-Runtime-IActorStateProvider-SaveReminderAsync&gt;d__48))</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -479,13 +468,12 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Actors.Runtime.ReliableCollectionsActorStateProvider.Microsoft#ServiceFabric#Actors#Runtime#IActorStateProvider#SaveStateAsync(Microsoft.ServiceFabric.Actors.ActorId,System.Collections.Generic.IReadOnlyCollection{Microsoft.ServiceFabric.Actors.Runtime.ActorStateChange},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Actors</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.ServiceFabric.Actors.Runtime.ReliableCollectionsActorStateProvider/&lt;Microsoft-ServiceFabric-Actors-Runtime-IActorStateProvider-SaveStateAsync&gt;d__42))</AttributeName>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.ServiceFabric.Actors.Runtime.ReliableCollectionsActorStateProvider/&lt;Microsoft-ServiceFabric-Actors-Runtime-IActorStateProvider-SaveStateAsync&gt;d__43))</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -509,11 +497,11 @@
       <MemberSignature Language="C#" Value="void IStateProviderReplica.Abort ();" />
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.ServiceFabric.Data.IStateProviderReplica.Abort() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Actors.Runtime.ReliableCollectionsActorStateProvider.Microsoft#ServiceFabric#Data#IStateProviderReplica#Abort" />
+      <MemberSignature Language="VB.NET" Value="Sub Abort () Implements IStateProviderReplica.Abort" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Actors</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -528,11 +516,11 @@
       <MemberSignature Language="C#" Value="System.Threading.Tasks.Task IStateProviderReplica.BackupAsync (Func&lt;Microsoft.ServiceFabric.Data.BackupInfo,System.Threading.CancellationToken,System.Threading.Tasks.Task&lt;bool&gt;&gt; backupCallback);" />
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Threading.Tasks.Task Microsoft.ServiceFabric.Data.IStateProviderReplica.BackupAsync(class System.Func`3&lt;class Microsoft.ServiceFabric.Data.BackupInfo, valuetype System.Threading.CancellationToken, class System.Threading.Tasks.Task`1&lt;bool&gt;&gt; backupCallback) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Actors.Runtime.ReliableCollectionsActorStateProvider.Microsoft#ServiceFabric#Data#IStateProviderReplica#BackupAsync(System.Func{Microsoft.ServiceFabric.Data.BackupInfo,System.Threading.CancellationToken,System.Threading.Tasks.Task{System.Boolean}})" />
+      <MemberSignature Language="VB.NET" Value="Function BackupAsync (backupCallback As Func(Of BackupInfo, CancellationToken, Task(Of Boolean))) As Task Implements IStateProviderReplica.BackupAsync" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Actors</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -553,9 +541,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Actors.Runtime.ReliableCollectionsActorStateProvider.Microsoft#ServiceFabric#Data#IStateProviderReplica#BackupAsync(Microsoft.ServiceFabric.Data.BackupOption,System.TimeSpan,System.Threading.CancellationToken,System.Func{Microsoft.ServiceFabric.Data.BackupInfo,System.Threading.CancellationToken,System.Threading.Tasks.Task{System.Boolean}})" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Actors</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -582,13 +569,12 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Actors.Runtime.ReliableCollectionsActorStateProvider.Microsoft#ServiceFabric#Data#IStateProviderReplica#ChangeRoleAsync(System.Fabric.ReplicaRole,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Actors</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.ServiceFabric.Actors.Runtime.ReliableCollectionsActorStateProvider/&lt;Microsoft-ServiceFabric-Data-IStateProviderReplica-ChangeRoleAsync&gt;d__56))</AttributeName>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.ServiceFabric.Actors.Runtime.ReliableCollectionsActorStateProvider/&lt;Microsoft-ServiceFabric-Data-IStateProviderReplica-ChangeRoleAsync&gt;d__57))</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -612,13 +598,12 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Actors.Runtime.ReliableCollectionsActorStateProvider.Microsoft#ServiceFabric#Data#IStateProviderReplica#CloseAsync(System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Actors</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.ServiceFabric.Actors.Runtime.ReliableCollectionsActorStateProvider/&lt;Microsoft-ServiceFabric-Data-IStateProviderReplica-CloseAsync&gt;d__57))</AttributeName>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.ServiceFabric.Actors.Runtime.ReliableCollectionsActorStateProvider/&lt;Microsoft-ServiceFabric-Data-IStateProviderReplica-CloseAsync&gt;d__58))</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -638,11 +623,11 @@
       <MemberSignature Language="C#" Value="void IStateProviderReplica.Initialize (System.Fabric.StatefulServiceInitializationParameters initializationParameters);" />
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.ServiceFabric.Data.IStateProviderReplica.Initialize(class System.Fabric.StatefulServiceInitializationParameters initializationParameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Actors.Runtime.ReliableCollectionsActorStateProvider.Microsoft#ServiceFabric#Data#IStateProviderReplica#Initialize(System.Fabric.StatefulServiceInitializationParameters)" />
+      <MemberSignature Language="VB.NET" Value="Sub Initialize (initializationParameters As StatefulServiceInitializationParameters) Implements IStateProviderReplica.Initialize" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Actors</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -660,11 +645,11 @@
       <MemberSignature Language="C#" Value="Func&lt;System.Threading.CancellationToken,System.Threading.Tasks.Task&lt;bool&gt;&gt; Microsoft.ServiceFabric.Data.IStateProviderReplica.OnDataLossAsync { set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Func`2&lt;valuetype System.Threading.CancellationToken, class System.Threading.Tasks.Task`1&lt;bool&gt;&gt; Microsoft.ServiceFabric.Data.IStateProviderReplica.OnDataLossAsync" />
       <MemberSignature Language="DocId" Value="P:Microsoft.ServiceFabric.Actors.Runtime.ReliableCollectionsActorStateProvider.Microsoft#ServiceFabric#Data#IStateProviderReplica#OnDataLossAsync" />
+      <MemberSignature Language="VB.NET" Value=" Property OnDataLossAsync As Func(Of CancellationToken, Task(Of Boolean))" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Actors</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Func&lt;System.Threading.CancellationToken,System.Threading.Tasks.Task&lt;System.Boolean&gt;&gt;</ReturnType>
@@ -681,9 +666,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Actors.Runtime.ReliableCollectionsActorStateProvider.Microsoft#ServiceFabric#Data#IStateProviderReplica#OpenAsync(System.Fabric.ReplicaOpenMode,System.Fabric.IStatefulServicePartition,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Actors</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Fabric.IReplicator&gt;</ReturnType>
@@ -706,11 +690,11 @@
       <MemberSignature Language="C#" Value="System.Threading.Tasks.Task IStateProviderReplica.RestoreAsync (string backupFolderPath);" />
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Threading.Tasks.Task Microsoft.ServiceFabric.Data.IStateProviderReplica.RestoreAsync(string backupFolderPath) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Actors.Runtime.ReliableCollectionsActorStateProvider.Microsoft#ServiceFabric#Data#IStateProviderReplica#RestoreAsync(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Function RestoreAsync (backupFolderPath As String) As Task Implements IStateProviderReplica.RestoreAsync" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Actors</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -731,9 +715,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Actors.Runtime.ReliableCollectionsActorStateProvider.Microsoft#ServiceFabric#Data#IStateProviderReplica#RestoreAsync(System.String,Microsoft.ServiceFabric.Data.RestorePolicy,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Actors</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -749,6 +732,25 @@
         <param name="cancellationToken">To be added.</param>
         <summary>To be added.</summary>
         <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Microsoft.ServiceFabric.Data.IStateProviderReplica2.OnRestoreCompletedAsync">
+      <MemberSignature Language="C#" Value="Func&lt;System.Threading.CancellationToken,System.Threading.Tasks.Task&gt; Microsoft.ServiceFabric.Data.IStateProviderReplica2.OnRestoreCompletedAsync { set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Func`2&lt;valuetype System.Threading.CancellationToken, class System.Threading.Tasks.Task&gt; Microsoft.ServiceFabric.Data.IStateProviderReplica2.OnRestoreCompletedAsync" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ServiceFabric.Actors.Runtime.ReliableCollectionsActorStateProvider.Microsoft#ServiceFabric#Data#IStateProviderReplica2#OnRestoreCompletedAsync" />
+      <MemberSignature Language="VB.NET" Value=" Property OnRestoreCompletedAsync As Func(Of CancellationToken, Task)" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.ServiceFabric.Actors</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Func&lt;System.Threading.CancellationToken,System.Threading.Tasks.Task&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

@@ -2,9 +2,9 @@
   <TypeSignature Language="C#" Value="public class DhcpOptions" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DhcpOptions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Network.Models.DhcpOptions" />
+  <TypeSignature Language="VB.NET" Value="Public Class DhcpOptions" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-    <AssemblyVersion>9.1.0.0</AssemblyVersion>
     <AssemblyVersion>14.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
@@ -24,10 +24,10 @@
       <MemberSignature Language="C#" Value="public DhcpOptions ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.Models.DhcpOptions.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
@@ -42,10 +42,10 @@
       <MemberSignature Language="C#" Value="public DhcpOptions (System.Collections.Generic.IList&lt;string&gt; dnsServers = null);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Collections.Generic.IList`1&lt;string&gt; dnsServers) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.Models.DhcpOptions.#ctor(System.Collections.Generic.IList{System.String})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (Optional dnsServers As IList(Of String) = null)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -64,10 +64,10 @@
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;string&gt; DnsServers { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;string&gt; DnsServers" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Network.Models.DhcpOptions.DnsServers" />
+      <MemberSignature Language="VB.NET" Value="Public Property DnsServers As IList(Of String)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>

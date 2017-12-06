@@ -2,10 +2,10 @@
   <TypeSignature Language="C#" Value="public class XmlSerializerContract : System.Xml.Serialization.XmlSerializerImplementation" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit XmlSerializerContract extends System.Xml.Serialization.XmlSerializerImplementation" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializerContract" />
+  <TypeSignature Language="VB.NET" Value="Public Class XmlSerializerContract&#xA;Inherits XmlSerializerImplementation" />
   <AssemblyInfo>
     <AssemblyName>System.Fabric.Management.ServiceModel.XmlSerializers</AssemblyName>
-    <AssemblyVersion>5.0.0.0</AssemblyVersion>
-    <AssemblyVersion>255.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Xml.Serialization.XmlSerializerImplementation</BaseTypeName>
@@ -20,11 +20,11 @@
       <MemberSignature Language="C#" Value="public XmlSerializerContract ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializerContract.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric.Management.ServiceModel.XmlSerializers</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -38,9 +38,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializerContract.CanSerialize(System.Type)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric.Management.ServiceModel.XmlSerializers</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -61,9 +60,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializerContract.GetSerializer(System.Type)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric.Management.ServiceModel.XmlSerializers</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Xml.Serialization.XmlSerializer</ReturnType>
@@ -82,11 +80,11 @@
       <MemberSignature Language="C#" Value="public override System.Xml.Serialization.XmlSerializationReader Reader { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Xml.Serialization.XmlSerializationReader Reader" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializerContract.Reader" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property Reader As XmlSerializationReader" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric.Management.ServiceModel.XmlSerializers</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Xml.Serialization.XmlSerializationReader</ReturnType>
@@ -101,11 +99,11 @@
       <MemberSignature Language="C#" Value="public override System.Collections.Hashtable ReadMethods { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Hashtable ReadMethods" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializerContract.ReadMethods" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property ReadMethods As Hashtable" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric.Management.ServiceModel.XmlSerializers</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Hashtable</ReturnType>
@@ -120,11 +118,11 @@
       <MemberSignature Language="C#" Value="public override System.Collections.Hashtable TypedSerializers { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Hashtable TypedSerializers" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializerContract.TypedSerializers" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property TypedSerializers As Hashtable" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric.Management.ServiceModel.XmlSerializers</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Hashtable</ReturnType>
@@ -139,11 +137,11 @@
       <MemberSignature Language="C#" Value="public override System.Collections.Hashtable WriteMethods { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Hashtable WriteMethods" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializerContract.WriteMethods" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property WriteMethods As Hashtable" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric.Management.ServiceModel.XmlSerializers</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Hashtable</ReturnType>
@@ -158,11 +156,11 @@
       <MemberSignature Language="C#" Value="public override System.Xml.Serialization.XmlSerializationWriter Writer { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Xml.Serialization.XmlSerializationWriter Writer" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializerContract.Writer" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property Writer As XmlSerializationWriter" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric.Management.ServiceModel.XmlSerializers</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Xml.Serialization.XmlSerializationWriter</ReturnType>

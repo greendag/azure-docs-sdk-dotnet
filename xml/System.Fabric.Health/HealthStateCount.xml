@@ -2,9 +2,10 @@
   <TypeSignature Language="C#" Value="public sealed class HealthStateCount" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit HealthStateCount extends System.Object" />
   <TypeSignature Language="DocId" Value="T:System.Fabric.Health.HealthStateCount" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class HealthStateCount" />
   <AssemblyInfo>
     <AssemblyName>System.Fabric</AssemblyName>
-    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -23,10 +24,11 @@
       <MemberSignature Language="C#" Value="public long ErrorCount { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int64 ErrorCount" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Health.HealthStateCount.ErrorCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ErrorCount As Long" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Fabric</AssemblyName>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int64</ReturnType>
@@ -45,10 +47,11 @@
       <MemberSignature Language="C#" Value="public long OkCount { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int64 OkCount" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Health.HealthStateCount.OkCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OkCount As Long" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Fabric</AssemblyName>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int64</ReturnType>
@@ -67,10 +70,11 @@
       <MemberSignature Language="C#" Value="public override string ToString ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.Health.HealthStateCount.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Fabric</AssemblyName>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -88,10 +92,11 @@
       <MemberSignature Language="C#" Value="public long WarningCount { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int64 WarningCount" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Health.HealthStateCount.WarningCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property WarningCount As Long" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Fabric</AssemblyName>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int64</ReturnType>

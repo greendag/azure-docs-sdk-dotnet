@@ -2,9 +2,10 @@
   <TypeSignature Language="C#" Value="public class BlobSource : Microsoft.Azure.Management.DataFactory.Models.CopySource" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit BlobSource extends Microsoft.Azure.Management.DataFactory.Models.CopySource" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.DataFactory.Models.BlobSource" />
+  <TypeSignature Language="VB.NET" Value="Public Class BlobSource&#xA;Inherits CopySource" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+    <AssemblyVersion>0.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Microsoft.Azure.Management.DataFactory.Models.CopySource</BaseTypeName>
@@ -21,10 +22,11 @@
       <MemberSignature Language="C#" Value="public BlobSource ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataFactory.Models.BlobSource.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -38,10 +40,11 @@
       <MemberSignature Language="C#" Value="public BlobSource (object sourceRetryCount = null, object sourceRetryWait = null, object treatEmptyAsNull = null, object skipHeaderLineCount = null, object recursive = null);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(object sourceRetryCount, object sourceRetryWait, object treatEmptyAsNull, object skipHeaderLineCount, object recursive) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataFactory.Models.BlobSource.#ctor(System.Object,System.Object,System.Object,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (Optional sourceRetryCount As Object = null, Optional sourceRetryWait As Object = null, Optional treatEmptyAsNull As Object = null, Optional skipHeaderLineCount As Object = null, Optional recursive As Object = null)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="sourceRetryCount" Type="System.Object" />
@@ -74,10 +77,11 @@
       <MemberSignature Language="C#" Value="public object Recursive { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object Recursive" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactory.Models.BlobSource.Recursive" />
+      <MemberSignature Language="VB.NET" Value="Public Property Recursive As Object" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -101,10 +105,11 @@
       <MemberSignature Language="C#" Value="public object SkipHeaderLineCount { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object SkipHeaderLineCount" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactory.Models.BlobSource.SkipHeaderLineCount" />
+      <MemberSignature Language="VB.NET" Value="Public Property SkipHeaderLineCount As Object" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -127,10 +132,11 @@
       <MemberSignature Language="C#" Value="public object TreatEmptyAsNull { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object TreatEmptyAsNull" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactory.Models.BlobSource.TreatEmptyAsNull" />
+      <MemberSignature Language="VB.NET" Value="Public Property TreatEmptyAsNull As Object" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>

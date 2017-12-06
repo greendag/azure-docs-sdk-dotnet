@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public class CSMSetProtectionRequest : Microsoft.Azure.Management.BackupServices.Models.ManagementBaseObject" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CSMSetProtectionRequest extends Microsoft.Azure.Management.BackupServices.Models.ManagementBaseObject" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.BackupServices.Models.CSMSetProtectionRequest" />
+  <TypeSignature Language="VB.NET" Value="Public Class CSMSetProtectionRequest&#xA;Inherits ManagementBaseObject" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.BackupServicesManagement</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -21,10 +22,11 @@
       <MemberSignature Language="C#" Value="public CSMSetProtectionRequest ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.BackupServices.Models.CSMSetProtectionRequest.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.BackupServicesManagement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -38,10 +40,11 @@
       <MemberSignature Language="C#" Value="public CSMSetProtectionRequest (Microsoft.Azure.Management.BackupServices.Models.CSMSetProtectionRequestProperties properties);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Azure.Management.BackupServices.Models.CSMSetProtectionRequestProperties properties) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.BackupServices.Models.CSMSetProtectionRequest.#ctor(Microsoft.Azure.Management.BackupServices.Models.CSMSetProtectionRequestProperties)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (properties As CSMSetProtectionRequestProperties)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.BackupServicesManagement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="properties" Type="Microsoft.Azure.Management.BackupServices.Models.CSMSetProtectionRequestProperties" />
@@ -59,10 +62,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.BackupServices.Models.CSMSetProtectionRequestProperties Properties { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.BackupServices.Models.CSMSetProtectionRequestProperties Properties" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.BackupServices.Models.CSMSetProtectionRequest.Properties" />
+      <MemberSignature Language="VB.NET" Value="Public Property Properties As CSMSetProtectionRequestProperties" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.BackupServicesManagement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.BackupServices.Models.CSMSetProtectionRequestProperties</ReturnType>

@@ -2,10 +2,10 @@
   <TypeSignature Language="C#" Value="public enum TestCommandStateFilter" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed TestCommandStateFilter extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:System.Fabric.Query.TestCommandStateFilter" />
+  <TypeSignature Language="VB.NET" Value="Public Enum TestCommandStateFilter" />
   <AssemblyInfo>
     <AssemblyName>System.Fabric</AssemblyName>
-    <AssemblyVersion>5.0.0.0</AssemblyVersion>
-    <AssemblyVersion>255.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
@@ -26,15 +26,16 @@
       <MemberSignature Language="C#" Value="All" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype System.Fabric.Query.TestCommandStateFilter All = int32(65535)" />
       <MemberSignature Language="DocId" Value="F:System.Fabric.Query.TestCommandStateFilter.All" />
+      <MemberSignature Language="VB.NET" Value="All" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Fabric.Query.TestCommandStateFilter</ReturnType>
       </ReturnValue>
+      <MemberValue>65535</MemberValue>
       <Docs>
         <summary>
             Indicates not to do any filtering on TestCommandState.
@@ -45,15 +46,16 @@
       <MemberSignature Language="C#" Value="Cancelled" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype System.Fabric.Query.TestCommandStateFilter Cancelled = int32(32)" />
       <MemberSignature Language="DocId" Value="F:System.Fabric.Query.TestCommandStateFilter.Cancelled" />
+      <MemberSignature Language="VB.NET" Value="Cancelled" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Fabric.Query.TestCommandStateFilter</ReturnType>
       </ReturnValue>
+      <MemberValue>32</MemberValue>
       <Docs>
         <summary>
             This filter selects Cancelled test commands.
@@ -64,15 +66,16 @@
       <MemberSignature Language="C#" Value="CompletedSuccessfully" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype System.Fabric.Query.TestCommandStateFilter CompletedSuccessfully = int32(8)" />
       <MemberSignature Language="DocId" Value="F:System.Fabric.Query.TestCommandStateFilter.CompletedSuccessfully" />
+      <MemberSignature Language="VB.NET" Value="CompletedSuccessfully" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Fabric.Query.TestCommandStateFilter</ReturnType>
       </ReturnValue>
+      <MemberValue>8</MemberValue>
       <Docs>
         <summary>
             This filter selects Completed test commands.
@@ -83,15 +86,16 @@
       <MemberSignature Language="C#" Value="Default" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype System.Fabric.Query.TestCommandStateFilter Default = int32(0)" />
       <MemberSignature Language="DocId" Value="F:System.Fabric.Query.TestCommandStateFilter.Default" />
+      <MemberSignature Language="VB.NET" Value="Default" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Fabric.Query.TestCommandStateFilter</ReturnType>
       </ReturnValue>
+      <MemberValue>0</MemberValue>
       <Docs>
         <summary>
             The default filter.
@@ -102,15 +106,16 @@
       <MemberSignature Language="C#" Value="Failed" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype System.Fabric.Query.TestCommandStateFilter Failed = int32(16)" />
       <MemberSignature Language="DocId" Value="F:System.Fabric.Query.TestCommandStateFilter.Failed" />
+      <MemberSignature Language="VB.NET" Value="Failed" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Fabric.Query.TestCommandStateFilter</ReturnType>
       </ReturnValue>
+      <MemberValue>16</MemberValue>
       <Docs>
         <summary>
             This filter selects Failed test commands.
@@ -121,15 +126,16 @@
       <MemberSignature Language="C#" Value="ForceCancelled" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype System.Fabric.Query.TestCommandStateFilter ForceCancelled = int32(64)" />
       <MemberSignature Language="DocId" Value="F:System.Fabric.Query.TestCommandStateFilter.ForceCancelled" />
+      <MemberSignature Language="VB.NET" Value="ForceCancelled" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Fabric.Query.TestCommandStateFilter</ReturnType>
       </ReturnValue>
+      <MemberValue>64</MemberValue>
       <Docs>
         <summary>
             This filter selects ForceCancelled test commands.
@@ -140,15 +146,16 @@
       <MemberSignature Language="C#" Value="RollingBack" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype System.Fabric.Query.TestCommandStateFilter RollingBack = int32(2)" />
       <MemberSignature Language="DocId" Value="F:System.Fabric.Query.TestCommandStateFilter.RollingBack" />
+      <MemberSignature Language="VB.NET" Value="RollingBack" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Fabric.Query.TestCommandStateFilter</ReturnType>
       </ReturnValue>
+      <MemberValue>2</MemberValue>
       <Docs>
         <summary>
             This filter selects RollingBack test commands.
@@ -159,15 +166,16 @@
       <MemberSignature Language="C#" Value="Running" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype System.Fabric.Query.TestCommandStateFilter Running = int32(1)" />
       <MemberSignature Language="DocId" Value="F:System.Fabric.Query.TestCommandStateFilter.Running" />
+      <MemberSignature Language="VB.NET" Value="Running" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Fabric.Query.TestCommandStateFilter</ReturnType>
       </ReturnValue>
+      <MemberValue>1</MemberValue>
       <Docs>
         <summary>
             This filter selects Running test commands.

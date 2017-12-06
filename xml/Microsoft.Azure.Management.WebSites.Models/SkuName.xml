@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public static class SkuName" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit SkuName extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.WebSites.Models.SkuName" />
+  <TypeSignature Language="VB.NET" Value="Public Class SkuName" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -11,9 +12,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-            Defines values for SkuName.
-            </summary>
+    <summary>To be added.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -21,10 +20,11 @@
       <MemberSignature Language="C#" Value="public const string Basic;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string Basic" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.WebSites.Models.SkuName.Basic" />
+      <MemberSignature Language="VB.NET" Value="Public Const Basic As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -38,10 +38,11 @@
       <MemberSignature Language="C#" Value="public const string Dynamic;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string Dynamic" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.WebSites.Models.SkuName.Dynamic" />
+      <MemberSignature Language="VB.NET" Value="Public Const Dynamic As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -55,10 +56,11 @@
       <MemberSignature Language="C#" Value="public const string Free;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string Free" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.WebSites.Models.SkuName.Free" />
+      <MemberSignature Language="VB.NET" Value="Public Const Free As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -72,10 +74,11 @@
       <MemberSignature Language="C#" Value="public const string Premium;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string Premium" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.WebSites.Models.SkuName.Premium" />
+      <MemberSignature Language="VB.NET" Value="Public Const Premium As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -89,10 +92,11 @@
       <MemberSignature Language="C#" Value="public const string Shared;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string Shared" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.WebSites.Models.SkuName.Shared" />
+      <MemberSignature Language="VB.NET" Value="Public Const Shared As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -106,10 +110,11 @@
       <MemberSignature Language="C#" Value="public const string Standard;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string Standard" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.WebSites.Models.SkuName.Standard" />
+      <MemberSignature Language="VB.NET" Value="Public Const Standard As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

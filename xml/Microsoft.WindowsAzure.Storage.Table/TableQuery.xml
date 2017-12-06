@@ -2,10 +2,9 @@
   <TypeSignature Language="C#" Value="public class TableQuery" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TableQuery extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.WindowsAzure.Storage.Table.TableQuery" />
+  <TypeSignature Language="VB.NET" Value="Public Class TableQuery" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-    <AssemblyVersion>8.1.1.0</AssemblyVersion>
-    <AssemblyVersion>8.1.3.0</AssemblyVersion>
     <AssemblyVersion>8.4.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
@@ -23,11 +22,10 @@
       <MemberSignature Language="C#" Value="public TableQuery ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.Table.TableQuery.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
@@ -43,11 +41,10 @@
       <MemberSignature Language="C#" Value="public static string CombineFilters (string filterA, string operatorString, string filterB);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string CombineFilters(string filterA, string operatorString, string filterB) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.Table.TableQuery.CombineFilters(System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CombineFilters (filterA As String, operatorString As String, filterB As String) As String" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -73,11 +70,10 @@
       <MemberSignature Language="C#" Value="public Microsoft.WindowsAzure.Storage.Table.TableQuery Copy ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.WindowsAzure.Storage.Table.TableQuery Copy() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.Table.TableQuery.Copy" />
+      <MemberSignature Language="VB.NET" Value="Public Function Copy () As TableQuery" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -94,11 +90,10 @@
       <MemberSignature Language="C#" Value="public string FilterString { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string FilterString" />
       <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Storage.Table.TableQuery.FilterString" />
+      <MemberSignature Language="VB.NET" Value="Public Property FilterString As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -116,11 +111,10 @@
       <MemberSignature Language="C#" Value="public static string GenerateFilterCondition (string propertyName, string operation, string givenValue);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GenerateFilterCondition(string propertyName, string operation, string givenValue) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.Table.TableQuery.GenerateFilterCondition(System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GenerateFilterCondition (propertyName As String, operation As String, givenValue As String) As String" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -146,11 +140,10 @@
       <MemberSignature Language="C#" Value="public static string GenerateFilterConditionForBinary (string propertyName, string operation, byte[] givenValue);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GenerateFilterConditionForBinary(string propertyName, string operation, unsigned int8[] givenValue) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.Table.TableQuery.GenerateFilterConditionForBinary(System.String,System.String,System.Byte[])" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GenerateFilterConditionForBinary (propertyName As String, operation As String, givenValue As Byte()) As String" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -176,11 +169,10 @@
       <MemberSignature Language="C#" Value="public static string GenerateFilterConditionForBool (string propertyName, string operation, bool givenValue);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GenerateFilterConditionForBool(string propertyName, string operation, bool givenValue) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.Table.TableQuery.GenerateFilterConditionForBool(System.String,System.String,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GenerateFilterConditionForBool (propertyName As String, operation As String, givenValue As Boolean) As String" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -206,11 +198,10 @@
       <MemberSignature Language="C#" Value="public static string GenerateFilterConditionForDate (string propertyName, string operation, DateTimeOffset givenValue);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GenerateFilterConditionForDate(string propertyName, string operation, valuetype System.DateTimeOffset givenValue) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.Table.TableQuery.GenerateFilterConditionForDate(System.String,System.String,System.DateTimeOffset)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GenerateFilterConditionForDate (propertyName As String, operation As String, givenValue As DateTimeOffset) As String" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -236,11 +227,10 @@
       <MemberSignature Language="C#" Value="public static string GenerateFilterConditionForDouble (string propertyName, string operation, double givenValue);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GenerateFilterConditionForDouble(string propertyName, string operation, float64 givenValue) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.Table.TableQuery.GenerateFilterConditionForDouble(System.String,System.String,System.Double)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GenerateFilterConditionForDouble (propertyName As String, operation As String, givenValue As Double) As String" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -266,11 +256,10 @@
       <MemberSignature Language="C#" Value="public static string GenerateFilterConditionForGuid (string propertyName, string operation, Guid givenValue);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GenerateFilterConditionForGuid(string propertyName, string operation, valuetype System.Guid givenValue) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.Table.TableQuery.GenerateFilterConditionForGuid(System.String,System.String,System.Guid)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GenerateFilterConditionForGuid (propertyName As String, operation As String, givenValue As Guid) As String" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -296,11 +285,10 @@
       <MemberSignature Language="C#" Value="public static string GenerateFilterConditionForInt (string propertyName, string operation, int givenValue);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GenerateFilterConditionForInt(string propertyName, string operation, int32 givenValue) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.Table.TableQuery.GenerateFilterConditionForInt(System.String,System.String,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GenerateFilterConditionForInt (propertyName As String, operation As String, givenValue As Integer) As String" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -326,11 +314,10 @@
       <MemberSignature Language="C#" Value="public static string GenerateFilterConditionForLong (string propertyName, string operation, long givenValue);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GenerateFilterConditionForLong(string propertyName, string operation, int64 givenValue) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.Table.TableQuery.GenerateFilterConditionForLong(System.String,System.String,System.Int64)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GenerateFilterConditionForLong (propertyName As String, operation As String, givenValue As Long) As String" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -353,14 +340,13 @@
       </Docs>
     </Member>
     <Member MemberName="Project&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static T Project&lt;T&gt; (T entity, string[] columns);" />
+      <MemberSignature Language="C#" Value="public static T Project&lt;T&gt; (T entity, params string[] columns);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!T Project&lt;T&gt;(!!T entity, string[] columns) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.Table.TableQuery.Project``1(``0,System.String[])" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Project(Of T) (entity As T, ParamArray columns As String()) As T" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -394,11 +380,10 @@
       <MemberSignature Language="C#" Value="public Microsoft.WindowsAzure.Storage.Table.TableQuery Select (System.Collections.Generic.IList&lt;string&gt; columns);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.WindowsAzure.Storage.Table.TableQuery Select(class System.Collections.Generic.IList`1&lt;string&gt; columns) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.Table.TableQuery.Select(System.Collections.Generic.IList{System.String})" />
+      <MemberSignature Language="VB.NET" Value="Public Function Select (columns As IList(Of String)) As TableQuery" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -420,11 +405,10 @@
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;string&gt; SelectColumns { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;string&gt; SelectColumns" />
       <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Storage.Table.TableQuery.SelectColumns" />
+      <MemberSignature Language="VB.NET" Value="Public Property SelectColumns As IList(Of String)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -442,11 +426,10 @@
       <MemberSignature Language="C#" Value="public Microsoft.WindowsAzure.Storage.Table.TableQuery Take (Nullable&lt;int&gt; take);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.WindowsAzure.Storage.Table.TableQuery Take(valuetype System.Nullable`1&lt;int32&gt; take) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.Table.TableQuery.Take(System.Nullable{System.Int32})" />
+      <MemberSignature Language="VB.NET" Value="Public Function Take (take As Nullable(Of Integer)) As TableQuery" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -468,11 +451,10 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; TakeCount { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; TakeCount" />
       <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Storage.Table.TableQuery.TakeCount" />
+      <MemberSignature Language="VB.NET" Value="Public Property TakeCount As Nullable(Of Integer)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -490,11 +472,10 @@
       <MemberSignature Language="C#" Value="public Microsoft.WindowsAzure.Storage.Table.TableQuery Where (string filter);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.WindowsAzure.Storage.Table.TableQuery Where(string filter) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.Table.TableQuery.Where(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Where (filter As String) As TableQuery" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

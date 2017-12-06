@@ -2,10 +2,9 @@
   <TypeSignature Language="C#" Value="public class CloudAppendBlob : Microsoft.WindowsAzure.Storage.Blob.CloudBlob, Microsoft.WindowsAzure.Storage.Blob.ICloudBlob" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CloudAppendBlob extends Microsoft.WindowsAzure.Storage.Blob.CloudBlob implements class Microsoft.WindowsAzure.Storage.Blob.ICloudBlob, class Microsoft.WindowsAzure.Storage.Blob.IListBlobItem" />
   <TypeSignature Language="DocId" Value="T:Microsoft.WindowsAzure.Storage.Blob.CloudAppendBlob" />
+  <TypeSignature Language="VB.NET" Value="Public Class CloudAppendBlob&#xA;Inherits CloudBlob&#xA;Implements ICloudBlob" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-    <AssemblyVersion>8.1.1.0</AssemblyVersion>
-    <AssemblyVersion>8.1.3.0</AssemblyVersion>
     <AssemblyVersion>8.4.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
@@ -27,11 +26,10 @@
       <MemberSignature Language="C#" Value="public CloudAppendBlob (Uri blobAbsoluteUri);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Uri blobAbsoluteUri) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.Blob.CloudAppendBlob.#ctor(System.Uri)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (blobAbsoluteUri As Uri)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -49,11 +47,10 @@
       <MemberSignature Language="C#" Value="public CloudAppendBlob (Uri blobAbsoluteUri, Microsoft.WindowsAzure.Storage.Auth.StorageCredentials credentials);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Uri blobAbsoluteUri, class Microsoft.WindowsAzure.Storage.Auth.StorageCredentials credentials) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.Blob.CloudAppendBlob.#ctor(System.Uri,Microsoft.WindowsAzure.Storage.Auth.StorageCredentials)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (blobAbsoluteUri As Uri, credentials As StorageCredentials)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -73,11 +70,10 @@
       <MemberSignature Language="C#" Value="public CloudAppendBlob (Microsoft.WindowsAzure.Storage.StorageUri blobAbsoluteUri, Nullable&lt;DateTimeOffset&gt; snapshotTime, Microsoft.WindowsAzure.Storage.Auth.StorageCredentials credentials);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.WindowsAzure.Storage.StorageUri blobAbsoluteUri, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; snapshotTime, class Microsoft.WindowsAzure.Storage.Auth.StorageCredentials credentials) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.Blob.CloudAppendBlob.#ctor(Microsoft.WindowsAzure.Storage.StorageUri,System.Nullable{System.DateTimeOffset},Microsoft.WindowsAzure.Storage.Auth.StorageCredentials)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (blobAbsoluteUri As StorageUri, snapshotTime As Nullable(Of DateTimeOffset), credentials As StorageCredentials)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -99,11 +95,10 @@
       <MemberSignature Language="C#" Value="public CloudAppendBlob (Uri blobAbsoluteUri, Nullable&lt;DateTimeOffset&gt; snapshotTime, Microsoft.WindowsAzure.Storage.Auth.StorageCredentials credentials);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Uri blobAbsoluteUri, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; snapshotTime, class Microsoft.WindowsAzure.Storage.Auth.StorageCredentials credentials) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.Blob.CloudAppendBlob.#ctor(System.Uri,System.Nullable{System.DateTimeOffset},Microsoft.WindowsAzure.Storage.Auth.StorageCredentials)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (blobAbsoluteUri As Uri, snapshotTime As Nullable(Of DateTimeOffset), credentials As StorageCredentials)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -128,8 +123,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -169,11 +162,10 @@
       <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;long&gt; AppendBlockAsync (System.IO.Stream blockData, string contentMD5 = null);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;int64&gt; AppendBlockAsync(class System.IO.Stream blockData, string contentMD5) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.Blob.CloudAppendBlob.AppendBlockAsync(System.IO.Stream,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function AppendBlockAsync (blockData As Stream, Optional contentMD5 As String = null) As Task(Of Long)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -210,8 +202,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -250,8 +240,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -294,8 +282,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -340,8 +326,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -380,11 +364,10 @@
       <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task AppendFromByteArrayAsync (byte[] buffer, int index, int count);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task AppendFromByteArrayAsync(unsigned int8[] buffer, int32 index, int32 count) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.Blob.CloudAppendBlob.AppendFromByteArrayAsync(System.Byte[],System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function AppendFromByteArrayAsync (buffer As Byte(), index As Integer, count As Integer) As Task" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -420,8 +403,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -459,8 +440,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -503,8 +482,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -549,8 +526,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -585,11 +560,10 @@
       <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task AppendFromFileAsync (string path);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task AppendFromFileAsync(string path) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.Blob.CloudAppendBlob.AppendFromFileAsync(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function AppendFromFileAsync (path As String) As Task" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -621,8 +595,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -656,8 +628,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -696,8 +666,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -738,8 +706,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -777,8 +743,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -815,11 +779,10 @@
       <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task AppendFromStreamAsync (System.IO.Stream source);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task AppendFromStreamAsync(class System.IO.Stream source) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.Blob.CloudAppendBlob.AppendFromStreamAsync(System.IO.Stream)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function AppendFromStreamAsync (source As Stream) As Task" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -848,11 +811,10 @@
       <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task AppendFromStreamAsync (System.IO.Stream source, long length);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task AppendFromStreamAsync(class System.IO.Stream source, int64 length) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.Blob.CloudAppendBlob.AppendFromStreamAsync(System.IO.Stream,System.Int64)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function AppendFromStreamAsync (source As Stream, length As Long) As Task" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -886,8 +848,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -921,8 +881,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -958,8 +916,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -998,8 +954,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1040,8 +994,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1082,8 +1034,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1126,8 +1076,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1164,11 +1112,10 @@
       <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task AppendTextAsync (string content);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task AppendTextAsync(string content) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.Blob.CloudAppendBlob.AppendTextAsync(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function AppendTextAsync (content As String) As Task" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1199,8 +1146,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1233,8 +1178,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1275,8 +1218,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1316,11 +1257,10 @@
       <MemberSignature Language="C#" Value="public virtual Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginAppendBlock (System.IO.Stream blockData, AsyncCallback callback, object state);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginAppendBlock(class System.IO.Stream blockData, class System.AsyncCallback callback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.Blob.CloudAppendBlob.BeginAppendBlock(System.IO.Stream,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function BeginAppendBlock (blockData As Stream, callback As AsyncCallback, state As Object) As ICancellableAsyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1351,11 +1291,10 @@
       <MemberSignature Language="C#" Value="public virtual Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginAppendBlock (System.IO.Stream blockData, string contentMD5, AsyncCallback callback, object state);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginAppendBlock(class System.IO.Stream blockData, string contentMD5, class System.AsyncCallback callback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.Blob.CloudAppendBlob.BeginAppendBlock(System.IO.Stream,System.String,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function BeginAppendBlock (blockData As Stream, contentMD5 As String, callback As AsyncCallback, state As Object) As ICancellableAsyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1396,8 +1335,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1441,11 +1378,10 @@
       <MemberSignature Language="C#" Value="public virtual Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginAppendFromByteArray (byte[] buffer, int index, int count, AsyncCallback callback, object state);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginAppendFromByteArray(unsigned int8[] buffer, int32 index, int32 count, class System.AsyncCallback callback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.Blob.CloudAppendBlob.BeginAppendFromByteArray(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function BeginAppendFromByteArray (buffer As Byte(), index As Integer, count As Integer, callback As AsyncCallback, state As Object) As ICancellableAsyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1485,8 +1421,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1530,11 +1464,10 @@
       <MemberSignature Language="C#" Value="public virtual Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginAppendFromFile (string path, AsyncCallback callback, object state);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginAppendFromFile(string path, class System.AsyncCallback callback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.Blob.CloudAppendBlob.BeginAppendFromFile(System.String,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function BeginAppendFromFile (path As String, callback As AsyncCallback, state As Object) As ICancellableAsyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1571,8 +1504,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1612,11 +1543,10 @@
       <MemberSignature Language="C#" Value="public virtual Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginAppendFromStream (System.IO.Stream source, AsyncCallback callback, object state);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginAppendFromStream(class System.IO.Stream source, class System.AsyncCallback callback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.Blob.CloudAppendBlob.BeginAppendFromStream(System.IO.Stream,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function BeginAppendFromStream (source As Stream, callback As AsyncCallback, state As Object) As ICancellableAsyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1649,11 +1579,10 @@
       <MemberSignature Language="C#" Value="public virtual Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginAppendFromStream (System.IO.Stream source, long length, AsyncCallback callback, object state);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginAppendFromStream(class System.IO.Stream source, int64 length, class System.AsyncCallback callback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.Blob.CloudAppendBlob.BeginAppendFromStream(System.IO.Stream,System.Int64,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function BeginAppendFromStream (source As Stream, length As Long, callback As AsyncCallback, state As Object) As ICancellableAsyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1691,8 +1620,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1735,8 +1662,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1778,11 +1703,10 @@
       <MemberSignature Language="C#" Value="public virtual Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginAppendText (string content, AsyncCallback callback, object state);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginAppendText(string content, class System.AsyncCallback callback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.Blob.CloudAppendBlob.BeginAppendText(System.String,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function BeginAppendText (content As String, callback As AsyncCallback, state As Object) As ICancellableAsyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1817,8 +1741,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1860,11 +1782,10 @@
       <MemberSignature Language="C#" Value="public virtual Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginCreateOrReplace (AsyncCallback callback, object state);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginCreateOrReplace(class System.AsyncCallback callback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.Blob.CloudAppendBlob.BeginCreateOrReplace(System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function BeginCreateOrReplace (callback As AsyncCallback, state As Object) As ICancellableAsyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1897,8 +1818,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1934,11 +1853,10 @@
       <MemberSignature Language="C#" Value="public virtual Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginCreateSnapshot (AsyncCallback callback, object state);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginCreateSnapshot(class System.AsyncCallback callback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.Blob.CloudAppendBlob.BeginCreateSnapshot(System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function BeginCreateSnapshot (callback As AsyncCallback, state As Object) As ICancellableAsyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1970,8 +1888,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -2008,11 +1924,10 @@
       <MemberSignature Language="C#" Value="public virtual Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginDownloadText (AsyncCallback callback, object state);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginDownloadText(class System.AsyncCallback callback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.Blob.CloudAppendBlob.BeginDownloadText(System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function BeginDownloadText (callback As AsyncCallback, state As Object) As ICancellableAsyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -2044,8 +1959,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -2082,11 +1995,10 @@
       <MemberSignature Language="C#" Value="public virtual Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginOpenWrite (bool createNew, AsyncCallback callback, object state);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginOpenWrite(bool createNew, class System.AsyncCallback callback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.Blob.CloudAppendBlob.BeginOpenWrite(System.Boolean,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function BeginOpenWrite (createNew As Boolean, callback As AsyncCallback, state As Object) As ICancellableAsyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -2124,8 +2036,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -2167,11 +2077,10 @@
       <MemberSignature Language="C#" Value="public virtual Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginStartCopy (Microsoft.WindowsAzure.Storage.Blob.CloudAppendBlob source, AsyncCallback callback, object state);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginStartCopy(class Microsoft.WindowsAzure.Storage.Blob.CloudAppendBlob source, class System.AsyncCallback callback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.Blob.CloudAppendBlob.BeginStartCopy(Microsoft.WindowsAzure.Storage.Blob.CloudAppendBlob,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function BeginStartCopy (source As CloudAppendBlob, callback As AsyncCallback, state As Object) As ICancellableAsyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -2205,8 +2114,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -2245,11 +2152,10 @@
       <MemberSignature Language="C#" Value="public virtual Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginUploadFromByteArray (byte[] buffer, int index, int count, AsyncCallback callback, object state);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginUploadFromByteArray(unsigned int8[] buffer, int32 index, int32 count, class System.AsyncCallback callback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.Blob.CloudAppendBlob.BeginUploadFromByteArray(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function BeginUploadFromByteArray (buffer As Byte(), index As Integer, count As Integer, callback As AsyncCallback, state As Object) As ICancellableAsyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -2290,8 +2196,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -2336,11 +2240,10 @@
       <MemberSignature Language="C#" Value="public virtual Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginUploadFromFile (string path, AsyncCallback callback, object state);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginUploadFromFile(string path, class System.AsyncCallback callback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.Blob.CloudAppendBlob.BeginUploadFromFile(System.String,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function BeginUploadFromFile (path As String, callback As AsyncCallback, state As Object) As ICancellableAsyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -2378,8 +2281,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -2420,11 +2321,10 @@
       <MemberSignature Language="C#" Value="public virtual Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginUploadFromStream (System.IO.Stream source, AsyncCallback callback, object state);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginUploadFromStream(class System.IO.Stream source, class System.AsyncCallback callback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.Blob.CloudAppendBlob.BeginUploadFromStream(System.IO.Stream,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function BeginUploadFromStream (source As Stream, callback As AsyncCallback, state As Object) As ICancellableAsyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -2459,11 +2359,10 @@
       <MemberSignature Language="C#" Value="public virtual Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginUploadFromStream (System.IO.Stream source, long length, AsyncCallback callback, object state);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginUploadFromStream(class System.IO.Stream source, int64 length, class System.AsyncCallback callback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.Blob.CloudAppendBlob.BeginUploadFromStream(System.IO.Stream,System.Int64,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function BeginUploadFromStream (source As Stream, length As Long, callback As AsyncCallback, state As Object) As ICancellableAsyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -2503,8 +2402,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -2548,8 +2445,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -2592,11 +2487,10 @@
       <MemberSignature Language="C#" Value="public virtual Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginUploadText (string content, AsyncCallback callback, object state);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginUploadText(string content, class System.AsyncCallback callback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.Blob.CloudAppendBlob.BeginUploadText(System.String,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function BeginUploadText (content As String, callback As AsyncCallback, state As Object) As ICancellableAsyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -2633,8 +2527,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -2680,8 +2572,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -2712,11 +2602,10 @@
       <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task CreateOrReplaceAsync ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task CreateOrReplaceAsync() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.Blob.CloudAppendBlob.CreateOrReplaceAsync" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function CreateOrReplaceAsync () As Task" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -2744,8 +2633,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -2776,8 +2663,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -2812,8 +2697,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -2850,8 +2733,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -2884,11 +2765,10 @@
       <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Storage.Blob.CloudAppendBlob&gt; CreateSnapshotAsync ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.WindowsAzure.Storage.Blob.CloudAppendBlob&gt; CreateSnapshotAsync() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.Blob.CloudAppendBlob.CreateSnapshotAsync" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function CreateSnapshotAsync () As Task(Of CloudAppendBlob)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -2915,8 +2795,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -2946,8 +2824,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -2983,8 +2859,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -3022,8 +2896,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -3056,11 +2928,10 @@
       <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;string&gt; DownloadTextAsync ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;string&gt; DownloadTextAsync() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.Blob.CloudAppendBlob.DownloadTextAsync" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function DownloadTextAsync () As Task(Of String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -3087,8 +2958,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -3118,8 +2987,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -3155,8 +3022,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -3191,11 +3056,10 @@
       <MemberSignature Language="C#" Value="public virtual long EndAppendBlock (IAsyncResult asyncResult);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int64 EndAppendBlock(class System.IAsyncResult asyncResult) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.Blob.CloudAppendBlob.EndAppendBlock(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function EndAppendBlock (asyncResult As IAsyncResult) As Long" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -3217,11 +3081,10 @@
       <MemberSignature Language="C#" Value="public virtual void EndAppendFromByteArray (IAsyncResult asyncResult);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void EndAppendFromByteArray(class System.IAsyncResult asyncResult) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.Blob.CloudAppendBlob.EndAppendFromByteArray(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub EndAppendFromByteArray (asyncResult As IAsyncResult)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -3242,11 +3105,10 @@
       <MemberSignature Language="C#" Value="public virtual void EndAppendFromFile (IAsyncResult asyncResult);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void EndAppendFromFile(class System.IAsyncResult asyncResult) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.Blob.CloudAppendBlob.EndAppendFromFile(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub EndAppendFromFile (asyncResult As IAsyncResult)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -3269,11 +3131,10 @@
       <MemberSignature Language="C#" Value="public virtual void EndAppendFromStream (IAsyncResult asyncResult);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void EndAppendFromStream(class System.IAsyncResult asyncResult) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.Blob.CloudAppendBlob.EndAppendFromStream(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub EndAppendFromStream (asyncResult As IAsyncResult)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -3294,11 +3155,10 @@
       <MemberSignature Language="C#" Value="public virtual void EndAppendText (IAsyncResult asyncResult);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void EndAppendText(class System.IAsyncResult asyncResult) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.Blob.CloudAppendBlob.EndAppendText(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub EndAppendText (asyncResult As IAsyncResult)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -3320,11 +3180,10 @@
       <MemberSignature Language="C#" Value="public virtual void EndCreateOrReplace (IAsyncResult asyncResult);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void EndCreateOrReplace(class System.IAsyncResult asyncResult) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.Blob.CloudAppendBlob.EndCreateOrReplace(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub EndCreateOrReplace (asyncResult As IAsyncResult)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -3345,11 +3204,10 @@
       <MemberSignature Language="C#" Value="public virtual Microsoft.WindowsAzure.Storage.Blob.CloudAppendBlob EndCreateSnapshot (IAsyncResult asyncResult);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.WindowsAzure.Storage.Blob.CloudAppendBlob EndCreateSnapshot(class System.IAsyncResult asyncResult) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.Blob.CloudAppendBlob.EndCreateSnapshot(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function EndCreateSnapshot (asyncResult As IAsyncResult) As CloudAppendBlob" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -3371,11 +3229,10 @@
       <MemberSignature Language="C#" Value="public virtual string EndDownloadText (IAsyncResult asyncResult);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string EndDownloadText(class System.IAsyncResult asyncResult) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.Blob.CloudAppendBlob.EndDownloadText(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function EndDownloadText (asyncResult As IAsyncResult) As String" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -3397,11 +3254,10 @@
       <MemberSignature Language="C#" Value="public virtual Microsoft.WindowsAzure.Storage.Blob.CloudBlobStream EndOpenWrite (IAsyncResult asyncResult);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.WindowsAzure.Storage.Blob.CloudBlobStream EndOpenWrite(class System.IAsyncResult asyncResult) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.Blob.CloudAppendBlob.EndOpenWrite(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function EndOpenWrite (asyncResult As IAsyncResult) As CloudBlobStream" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -3423,11 +3279,10 @@
       <MemberSignature Language="C#" Value="public virtual void EndUploadFromByteArray (IAsyncResult asyncResult);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void EndUploadFromByteArray(class System.IAsyncResult asyncResult) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.Blob.CloudAppendBlob.EndUploadFromByteArray(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub EndUploadFromByteArray (asyncResult As IAsyncResult)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -3450,11 +3305,10 @@
       <MemberSignature Language="C#" Value="public virtual void EndUploadFromFile (IAsyncResult asyncResult);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void EndUploadFromFile(class System.IAsyncResult asyncResult) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.Blob.CloudAppendBlob.EndUploadFromFile(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub EndUploadFromFile (asyncResult As IAsyncResult)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -3477,11 +3331,10 @@
       <MemberSignature Language="C#" Value="public virtual void EndUploadFromStream (IAsyncResult asyncResult);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void EndUploadFromStream(class System.IAsyncResult asyncResult) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.Blob.CloudAppendBlob.EndUploadFromStream(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub EndUploadFromStream (asyncResult As IAsyncResult)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -3502,11 +3355,10 @@
       <MemberSignature Language="C#" Value="public virtual void EndUploadText (IAsyncResult asyncResult);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void EndUploadText(class System.IAsyncResult asyncResult) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.Blob.CloudAppendBlob.EndUploadText(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub EndUploadText (asyncResult As IAsyncResult)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -3531,8 +3383,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -3570,11 +3420,10 @@
       <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Storage.Blob.CloudBlobStream&gt; OpenWriteAsync (bool createNew);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.WindowsAzure.Storage.Blob.CloudBlobStream&gt; OpenWriteAsync(bool createNew) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.Blob.CloudAppendBlob.OpenWriteAsync(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function OpenWriteAsync (createNew As Boolean) As Task(Of CloudBlobStream)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -3608,8 +3457,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -3645,8 +3492,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -3687,8 +3532,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -3731,8 +3574,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -3770,11 +3611,10 @@
       <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;string&gt; StartCopyAsync (Microsoft.WindowsAzure.Storage.Blob.CloudAppendBlob source);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;string&gt; StartCopyAsync(class Microsoft.WindowsAzure.Storage.Blob.CloudAppendBlob source) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.Blob.CloudAppendBlob.StartCopyAsync(Microsoft.WindowsAzure.Storage.Blob.CloudAppendBlob)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function StartCopyAsync (source As CloudAppendBlob) As Task(Of String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -3804,8 +3644,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -3837,8 +3675,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -3876,8 +3712,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -3914,11 +3748,10 @@
       <MemberSignature Language="C#" Value="public int StreamWriteSizeInBytes { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 StreamWriteSizeInBytes" />
       <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Storage.Blob.CloudAppendBlob.StreamWriteSizeInBytes" />
+      <MemberSignature Language="VB.NET" Value="Public Property StreamWriteSizeInBytes As Integer" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -3939,8 +3772,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -3980,11 +3811,10 @@
       <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task UploadFromByteArrayAsync (byte[] buffer, int index, int count);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task UploadFromByteArrayAsync(unsigned int8[] buffer, int32 index, int32 count) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.Blob.CloudAppendBlob.UploadFromByteArrayAsync(System.Byte[],System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function UploadFromByteArrayAsync (buffer As Byte(), index As Integer, count As Integer) As Task" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -4021,8 +3851,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -4061,8 +3889,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -4106,8 +3932,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -4153,8 +3977,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -4190,11 +4012,10 @@
       <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task UploadFromFileAsync (string path);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task UploadFromFileAsync(string path) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.Blob.CloudAppendBlob.UploadFromFileAsync(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function UploadFromFileAsync (path As String) As Task" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -4227,8 +4048,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -4263,8 +4082,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -4304,8 +4121,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -4347,8 +4162,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -4387,8 +4200,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -4426,11 +4237,10 @@
       <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task UploadFromStreamAsync (System.IO.Stream source);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task UploadFromStreamAsync(class System.IO.Stream source) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.Blob.CloudAppendBlob.UploadFromStreamAsync(System.IO.Stream)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function UploadFromStreamAsync (source As Stream) As Task" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -4459,11 +4269,10 @@
       <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task UploadFromStreamAsync (System.IO.Stream source, long length);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task UploadFromStreamAsync(class System.IO.Stream source, int64 length) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.Blob.CloudAppendBlob.UploadFromStreamAsync(System.IO.Stream,System.Int64)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function UploadFromStreamAsync (source As Stream, length As Long) As Task" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -4497,8 +4306,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -4532,8 +4339,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -4569,8 +4374,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -4610,8 +4413,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -4653,8 +4454,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -4696,8 +4495,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -4741,8 +4538,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -4780,11 +4575,10 @@
       <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task UploadTextAsync (string content);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task UploadTextAsync(string content) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.Blob.CloudAppendBlob.UploadTextAsync(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function UploadTextAsync (content As String) As Task" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -4817,8 +4611,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -4854,8 +4646,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -4897,8 +4687,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>

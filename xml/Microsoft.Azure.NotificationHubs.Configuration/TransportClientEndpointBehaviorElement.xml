@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public class TransportClientEndpointBehaviorElement : System.ServiceModel.Configuration.BehaviorExtensionElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TransportClientEndpointBehaviorElement extends System.ServiceModel.Configuration.BehaviorExtensionElement" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.NotificationHubs.Configuration.TransportClientEndpointBehaviorElement" />
+  <TypeSignature Language="VB.NET" Value="Public Class TransportClientEndpointBehaviorElement&#xA;Inherits BehaviorExtensionElement" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
     <AssemblyVersion>2.16.0.0</AssemblyVersion>
@@ -21,10 +22,11 @@
       <MemberSignature Language="C#" Value="public TransportClientEndpointBehaviorElement ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.NotificationHubs.Configuration.TransportClientEndpointBehaviorElement.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -36,10 +38,11 @@
       <MemberSignature Language="C#" Value="public override Type BehaviorType { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Type BehaviorType" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.NotificationHubs.Configuration.TransportClientEndpointBehaviorElement.BehaviorType" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property BehaviorType As Type" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Type</ReturnType>
@@ -58,10 +61,11 @@
       <MemberSignature Language="C#" Value="public override void CopyFrom (System.ServiceModel.Configuration.ServiceModelExtensionElement from);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void CopyFrom(class System.ServiceModel.Configuration.ServiceModelExtensionElement from) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.NotificationHubs.Configuration.TransportClientEndpointBehaviorElement.CopyFrom(System.ServiceModel.Configuration.ServiceModelExtensionElement)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub CopyFrom (from As ServiceModelExtensionElement)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -81,10 +85,11 @@
       <MemberSignature Language="C#" Value="protected override object CreateBehavior ();" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance object CreateBehavior() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.NotificationHubs.Configuration.TransportClientEndpointBehaviorElement.CreateBehavior" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function CreateBehavior () As Object" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Object</ReturnType>
@@ -104,10 +109,11 @@
       <MemberSignature Language="C#" Value="protected override System.Configuration.ConfigurationPropertyCollection Properties { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Configuration.ConfigurationPropertyCollection Properties" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.NotificationHubs.Configuration.TransportClientEndpointBehaviorElement.Properties" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides ReadOnly Property Properties As ConfigurationPropertyCollection" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Configuration.ConfigurationPropertyCollection</ReturnType>
@@ -126,10 +132,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.NotificationHubs.Configuration.TokenProviderElement TokenProvider { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.NotificationHubs.Configuration.TokenProviderElement TokenProvider" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.NotificationHubs.Configuration.TransportClientEndpointBehaviorElement.TokenProvider" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TokenProvider As TokenProviderElement" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>

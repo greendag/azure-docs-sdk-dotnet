@@ -2,10 +2,10 @@
   <TypeSignature Language="C#" Value="public interface ICommunicationClient" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ICommunicationClient" />
   <TypeSignature Language="DocId" Value="T:Microsoft.ServiceFabric.Services.Communication.Client.ICommunicationClient" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ICommunicationClient" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.ServiceFabric.Services</AssemblyName>
-    <AssemblyVersion>5.0.0.0</AssemblyVersion>
-    <AssemblyVersion>255.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Interfaces />
   <Docs>
@@ -19,11 +19,11 @@
       <MemberSignature Language="C#" Value="public System.Fabric.ResolvedServiceEndpoint Endpoint { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Fabric.ResolvedServiceEndpoint Endpoint" />
       <MemberSignature Language="DocId" Value="P:Microsoft.ServiceFabric.Services.Communication.Client.ICommunicationClient.Endpoint" />
+      <MemberSignature Language="VB.NET" Value="Public Property Endpoint As ResolvedServiceEndpoint" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Services</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Fabric.ResolvedServiceEndpoint</ReturnType>
@@ -42,11 +42,11 @@
       <MemberSignature Language="C#" Value="public string ListenerName { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string ListenerName" />
       <MemberSignature Language="DocId" Value="P:Microsoft.ServiceFabric.Services.Communication.Client.ICommunicationClient.ListenerName" />
+      <MemberSignature Language="VB.NET" Value="Public Property ListenerName As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Services</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -64,11 +64,11 @@
       <MemberSignature Language="C#" Value="public System.Fabric.ResolvedServicePartition ResolvedServicePartition { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Fabric.ResolvedServicePartition ResolvedServicePartition" />
       <MemberSignature Language="DocId" Value="P:Microsoft.ServiceFabric.Services.Communication.Client.ICommunicationClient.ResolvedServicePartition" />
+      <MemberSignature Language="VB.NET" Value="Public Property ResolvedServicePartition As ResolvedServicePartition" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Services</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Fabric.ResolvedServicePartition</ReturnType>

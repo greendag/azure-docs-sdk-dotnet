@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public class BackupServicesManagementClient : Hyak.Common.ServiceClient&lt;Microsoft.Azure.Management.BackupServices.BackupServicesManagementClient&gt;, IDisposable, Microsoft.Azure.Management.BackupServices.IBackupServicesManagementClient" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit BackupServicesManagementClient extends Hyak.Common.ServiceClient`1&lt;class Microsoft.Azure.Management.BackupServices.BackupServicesManagementClient&gt; implements class Microsoft.Azure.Management.BackupServices.IBackupServicesManagementClient, class System.IDisposable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.BackupServices.BackupServicesManagementClient" />
+  <TypeSignature Language="VB.NET" Value="Public Class BackupServicesManagementClient&#xA;Inherits ServiceClient(Of BackupServicesManagementClient)&#xA;Implements IBackupServicesManagementClient, IDisposable" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.BackupServicesManagement</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -29,10 +30,11 @@
       <MemberSignature Language="C#" Value="public BackupServicesManagementClient ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.BackupServices.BackupServicesManagementClient.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.BackupServicesManagement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -47,10 +49,11 @@
       <MemberSignature Language="C#" Value="public BackupServicesManagementClient (Microsoft.Azure.SubscriptionCloudCredentials credentials);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Azure.SubscriptionCloudCredentials credentials) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.BackupServices.BackupServicesManagementClient.#ctor(Microsoft.Azure.SubscriptionCloudCredentials)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (credentials As SubscriptionCloudCredentials)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.BackupServicesManagement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="credentials" Type="Microsoft.Azure.SubscriptionCloudCredentials" />
@@ -74,8 +77,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.BackupServices.BackupServicesManagementClient.#ctor(System.Net.Http.HttpClient)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.BackupServicesManagement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="httpClient" Type="System.Net.Http.HttpClient" />
@@ -97,8 +100,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.BackupServices.BackupServicesManagementClient.#ctor(Microsoft.Azure.SubscriptionCloudCredentials,System.Net.Http.HttpClient)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.BackupServicesManagement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="credentials" Type="Microsoft.Azure.SubscriptionCloudCredentials" />
@@ -124,10 +127,11 @@
       <MemberSignature Language="C#" Value="public BackupServicesManagementClient (Microsoft.Azure.SubscriptionCloudCredentials credentials, Uri baseUri);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Azure.SubscriptionCloudCredentials credentials, class System.Uri baseUri) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.BackupServices.BackupServicesManagementClient.#ctor(Microsoft.Azure.SubscriptionCloudCredentials,System.Uri)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (credentials As SubscriptionCloudCredentials, baseUri As Uri)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.BackupServicesManagement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="credentials" Type="Microsoft.Azure.SubscriptionCloudCredentials" />
@@ -156,8 +160,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.BackupServices.BackupServicesManagementClient.#ctor(Microsoft.Azure.SubscriptionCloudCredentials,System.Uri,System.Net.Http.HttpClient)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.BackupServicesManagement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="credentials" Type="Microsoft.Azure.SubscriptionCloudCredentials" />
@@ -188,10 +192,11 @@
       <MemberSignature Language="C#" Value="public string ApiVersion { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string ApiVersion" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.BackupServices.BackupServicesManagementClient.ApiVersion" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ApiVersion As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.BackupServicesManagement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -208,10 +213,11 @@
       <MemberSignature Language="C#" Value="public virtual Microsoft.Azure.Management.BackupServices.IBackUpOperations BackUp { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.BackupServices.IBackUpOperations BackUp" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.BackupServices.BackupServicesManagementClient.BackUp" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property BackUp As IBackUpOperations" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.BackupServicesManagement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.BackupServices.IBackUpOperations</ReturnType>
@@ -228,10 +234,11 @@
       <MemberSignature Language="C#" Value="public Uri BaseUri { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Uri BaseUri" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.BackupServices.BackupServicesManagementClient.BaseUri" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BaseUri As Uri" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.BackupServicesManagement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Uri</ReturnType>
@@ -248,10 +255,11 @@
       <MemberSignature Language="C#" Value="protected override void Clone (Hyak.Common.ServiceClient&lt;Microsoft.Azure.Management.BackupServices.BackupServicesManagementClient&gt; client);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void Clone(class Hyak.Common.ServiceClient`1&lt;class Microsoft.Azure.Management.BackupServices.BackupServicesManagementClient&gt; client) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.BackupServices.BackupServicesManagementClient.Clone(Hyak.Common.ServiceClient{Microsoft.Azure.Management.BackupServices.BackupServicesManagementClient})" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub Clone (client As ServiceClient(Of BackupServicesManagementClient))" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.BackupServicesManagement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -274,10 +282,11 @@
       <MemberSignature Language="C#" Value="public virtual Microsoft.Azure.Management.BackupServices.IContainerOperations Container { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.BackupServices.IContainerOperations Container" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.BackupServices.BackupServicesManagementClient.Container" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Container As IContainerOperations" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.BackupServicesManagement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.BackupServices.IContainerOperations</ReturnType>
@@ -294,10 +303,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.SubscriptionCloudCredentials Credentials { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.SubscriptionCloudCredentials Credentials" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.BackupServices.BackupServicesManagementClient.Credentials" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Credentials As SubscriptionCloudCredentials" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.BackupServicesManagement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.SubscriptionCloudCredentials</ReturnType>
@@ -316,10 +326,11 @@
       <MemberSignature Language="C#" Value="public virtual Microsoft.Azure.Management.BackupServices.ICSMProtectionPolicyOperations CSMProtectionPolicy { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.BackupServices.ICSMProtectionPolicyOperations CSMProtectionPolicy" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.BackupServices.BackupServicesManagementClient.CSMProtectionPolicy" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property CSMProtectionPolicy As ICSMProtectionPolicyOperations" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.BackupServicesManagement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.BackupServices.ICSMProtectionPolicyOperations</ReturnType>
@@ -337,10 +348,11 @@
       <MemberSignature Language="C#" Value="public virtual Microsoft.Azure.Management.BackupServices.IDataSourceOperations DataSource { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.BackupServices.IDataSourceOperations DataSource" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.BackupServices.BackupServicesManagementClient.DataSource" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property DataSource As IDataSourceOperations" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.BackupServicesManagement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.BackupServices.IDataSourceOperations</ReturnType>
@@ -357,10 +369,11 @@
       <MemberSignature Language="C#" Value="public virtual Microsoft.Azure.Management.BackupServices.IJobOperations Job { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.BackupServices.IJobOperations Job" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.BackupServices.BackupServicesManagementClient.Job" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Job As IJobOperations" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.BackupServicesManagement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.BackupServices.IJobOperations</ReturnType>
@@ -377,10 +390,11 @@
       <MemberSignature Language="C#" Value="public int LongRunningOperationInitialTimeout { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 LongRunningOperationInitialTimeout" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.BackupServices.BackupServicesManagementClient.LongRunningOperationInitialTimeout" />
+      <MemberSignature Language="VB.NET" Value="Public Property LongRunningOperationInitialTimeout As Integer" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.BackupServicesManagement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -397,10 +411,11 @@
       <MemberSignature Language="C#" Value="public int LongRunningOperationRetryTimeout { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 LongRunningOperationRetryTimeout" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.BackupServices.BackupServicesManagementClient.LongRunningOperationRetryTimeout" />
+      <MemberSignature Language="VB.NET" Value="Public Property LongRunningOperationRetryTimeout As Integer" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.BackupServicesManagement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -417,10 +432,11 @@
       <MemberSignature Language="C#" Value="public virtual Microsoft.Azure.Management.BackupServices.IOperationStatus OperationStatus { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.BackupServices.IOperationStatus OperationStatus" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.BackupServices.BackupServicesManagementClient.OperationStatus" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property OperationStatus As IOperationStatus" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.BackupServicesManagement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.BackupServices.IOperationStatus</ReturnType>
@@ -437,10 +453,11 @@
       <MemberSignature Language="C#" Value="public virtual Microsoft.Azure.Management.BackupServices.IProtectableObjectOperations ProtectableObject { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.BackupServices.IProtectableObjectOperations ProtectableObject" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.BackupServices.BackupServicesManagementClient.ProtectableObject" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property ProtectableObject As IProtectableObjectOperations" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.BackupServicesManagement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.BackupServices.IProtectableObjectOperations</ReturnType>
@@ -458,10 +475,11 @@
       <MemberSignature Language="C#" Value="public virtual Microsoft.Azure.Management.BackupServices.IRecoveryPointOperations RecoveryPoint { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.BackupServices.IRecoveryPointOperations RecoveryPoint" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.BackupServices.BackupServicesManagementClient.RecoveryPoint" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property RecoveryPoint As IRecoveryPointOperations" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.BackupServicesManagement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.BackupServices.IRecoveryPointOperations</ReturnType>
@@ -479,10 +497,11 @@
       <MemberSignature Language="C#" Value="public virtual Microsoft.Azure.Management.BackupServices.IRestoreOperations Restore { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.BackupServices.IRestoreOperations Restore" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.BackupServices.BackupServicesManagementClient.Restore" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Restore As IRestoreOperations" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.BackupServicesManagement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.BackupServices.IRestoreOperations</ReturnType>

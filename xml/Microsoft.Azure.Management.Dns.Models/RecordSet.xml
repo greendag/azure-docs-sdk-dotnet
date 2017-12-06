@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public class RecordSet" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit RecordSet extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Dns.Models.RecordSet" />
+  <TypeSignature Language="VB.NET" Value="Public Class RecordSet" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Dns</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -27,10 +28,11 @@
       <MemberSignature Language="C#" Value="public RecordSet ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Dns.Models.RecordSet.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Dns</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -46,8 +48,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Dns.Models.RecordSet.#ctor(System.String,System.String,System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.String},System.Nullable{System.Int64},System.Collections.Generic.IList{Microsoft.Azure.Management.Dns.Models.ARecord},System.Collections.Generic.IList{Microsoft.Azure.Management.Dns.Models.AaaaRecord},System.Collections.Generic.IList{Microsoft.Azure.Management.Dns.Models.MxRecord},System.Collections.Generic.IList{Microsoft.Azure.Management.Dns.Models.NsRecord},System.Collections.Generic.IList{Microsoft.Azure.Management.Dns.Models.PtrRecord},System.Collections.Generic.IList{Microsoft.Azure.Management.Dns.Models.SrvRecord},System.Collections.Generic.IList{Microsoft.Azure.Management.Dns.Models.TxtRecord},Microsoft.Azure.Management.Dns.Models.CnameRecord,Microsoft.Azure.Management.Dns.Models.SoaRecord)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Dns</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="id" Type="System.String" />
@@ -102,10 +104,11 @@
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Dns.Models.AaaaRecord&gt; AaaaRecords { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.Dns.Models.AaaaRecord&gt; AaaaRecords" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Dns.Models.RecordSet.AaaaRecords" />
+      <MemberSignature Language="VB.NET" Value="Public Property AaaaRecords As IList(Of AaaaRecord)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Dns</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -127,10 +130,11 @@
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Dns.Models.ARecord&gt; ARecords { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.Dns.Models.ARecord&gt; ARecords" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Dns.Models.RecordSet.ARecords" />
+      <MemberSignature Language="VB.NET" Value="Public Property ARecords As IList(Of ARecord)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Dns</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -152,10 +156,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.Dns.Models.CnameRecord CnameRecord { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.Dns.Models.CnameRecord CnameRecord" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Dns.Models.RecordSet.CnameRecord" />
+      <MemberSignature Language="VB.NET" Value="Public Property CnameRecord As CnameRecord" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Dns</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -177,10 +182,11 @@
       <MemberSignature Language="C#" Value="public string Etag { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Etag" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Dns.Models.RecordSet.Etag" />
+      <MemberSignature Language="VB.NET" Value="Public Property Etag As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Dns</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -202,10 +208,11 @@
       <MemberSignature Language="C#" Value="public string Id { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Id" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Dns.Models.RecordSet.Id" />
+      <MemberSignature Language="VB.NET" Value="Public Property Id As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Dns</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -227,10 +234,11 @@
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,string&gt; Metadata { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, string&gt; Metadata" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Dns.Models.RecordSet.Metadata" />
+      <MemberSignature Language="VB.NET" Value="Public Property Metadata As IDictionary(Of String, String)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Dns</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -252,10 +260,11 @@
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Dns.Models.MxRecord&gt; MxRecords { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.Dns.Models.MxRecord&gt; MxRecords" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Dns.Models.RecordSet.MxRecords" />
+      <MemberSignature Language="VB.NET" Value="Public Property MxRecords As IList(Of MxRecord)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Dns</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -277,10 +286,11 @@
       <MemberSignature Language="C#" Value="public string Name { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Name" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Dns.Models.RecordSet.Name" />
+      <MemberSignature Language="VB.NET" Value="Public Property Name As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Dns</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -302,10 +312,11 @@
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Dns.Models.NsRecord&gt; NsRecords { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.Dns.Models.NsRecord&gt; NsRecords" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Dns.Models.RecordSet.NsRecords" />
+      <MemberSignature Language="VB.NET" Value="Public Property NsRecords As IList(Of NsRecord)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Dns</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -327,10 +338,11 @@
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Dns.Models.PtrRecord&gt; PtrRecords { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.Dns.Models.PtrRecord&gt; PtrRecords" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Dns.Models.RecordSet.PtrRecords" />
+      <MemberSignature Language="VB.NET" Value="Public Property PtrRecords As IList(Of PtrRecord)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Dns</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -352,10 +364,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.Dns.Models.SoaRecord SoaRecord { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.Dns.Models.SoaRecord SoaRecord" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Dns.Models.RecordSet.SoaRecord" />
+      <MemberSignature Language="VB.NET" Value="Public Property SoaRecord As SoaRecord" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Dns</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -377,10 +390,11 @@
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Dns.Models.SrvRecord&gt; SrvRecords { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.Dns.Models.SrvRecord&gt; SrvRecords" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Dns.Models.RecordSet.SrvRecords" />
+      <MemberSignature Language="VB.NET" Value="Public Property SrvRecords As IList(Of SrvRecord)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Dns</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -402,10 +416,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;long&gt; TTL { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int64&gt; TTL" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Dns.Models.RecordSet.TTL" />
+      <MemberSignature Language="VB.NET" Value="Public Property TTL As Nullable(Of Long)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Dns</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -428,10 +443,11 @@
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Dns.Models.TxtRecord&gt; TxtRecords { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.Dns.Models.TxtRecord&gt; TxtRecords" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Dns.Models.RecordSet.TxtRecords" />
+      <MemberSignature Language="VB.NET" Value="Public Property TxtRecords As IList(Of TxtRecord)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Dns</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -453,10 +469,11 @@
       <MemberSignature Language="C#" Value="public string Type { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Type" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Dns.Models.RecordSet.Type" />
+      <MemberSignature Language="VB.NET" Value="Public Property Type As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Dns</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>

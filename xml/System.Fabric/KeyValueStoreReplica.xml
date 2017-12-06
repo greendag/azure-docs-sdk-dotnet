@@ -2,10 +2,10 @@
   <TypeSignature Language="C#" Value="public class KeyValueStoreReplica : System.Fabric.IStatefulServiceReplica" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit KeyValueStoreReplica extends System.Object implements class System.Fabric.IStatefulServiceReplica" />
   <TypeSignature Language="DocId" Value="T:System.Fabric.KeyValueStoreReplica" />
+  <TypeSignature Language="VB.NET" Value="Public Class KeyValueStoreReplica&#xA;Implements IStatefulServiceReplica" />
   <AssemblyInfo>
     <AssemblyName>System.Fabric</AssemblyName>
-    <AssemblyVersion>5.0.0.0</AssemblyVersion>
-    <AssemblyVersion>255.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -27,11 +27,11 @@
       <MemberSignature Language="C#" Value="public KeyValueStoreReplica (string storeName);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string storeName) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.KeyValueStoreReplica.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (storeName As String)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="storeName" Type="System.String" />
@@ -54,9 +54,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.KeyValueStoreReplica.#ctor(System.String,System.Fabric.LocalStoreSettings)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="storeName" Type="System.String" />
@@ -81,9 +80,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.KeyValueStoreReplica.#ctor(System.String,System.Fabric.ReplicatorSettings)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="storeName" Type="System.String" />
@@ -110,9 +108,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.KeyValueStoreReplica.#ctor(System.String,System.Fabric.LocalStoreSettings,System.Fabric.ReplicatorSettings)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="storeName" Type="System.String" />
@@ -141,9 +138,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.KeyValueStoreReplica.#ctor(System.String,System.Fabric.LocalStoreSettings,System.Fabric.ReplicatorSettings,System.Fabric.KeyValueStoreReplica.SecondaryNotificationMode)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="storeName" Type="System.String" />
@@ -178,9 +174,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.KeyValueStoreReplica.#ctor(System.String,System.Fabric.LocalStoreSettings,System.Fabric.ReplicatorSettings,System.Fabric.KeyValueStoreReplicaSettings)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="storeName" Type="System.String" />
@@ -203,11 +198,11 @@
       <MemberSignature Language="C#" Value="public void Abort ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Abort() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.KeyValueStoreReplica.Abort" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Abort ()" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -226,9 +221,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.KeyValueStoreReplica.Add(System.Fabric.TransactionBase,System.String,System.Byte[])" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -258,11 +252,11 @@
       <MemberSignature Language="C#" Value="public void Backup (string backupDirectory);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Backup(string backupDirectory) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.KeyValueStoreReplica.Backup(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Backup (backupDirectory As String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -297,11 +291,11 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task BackupAsync (string backupDirectory, System.Fabric.StoreBackupOption backupOption, Func&lt;System.Fabric.StoreBackupInfo,System.Threading.Tasks.Task&lt;bool&gt;&gt; postBackupAsyncFunc);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task BackupAsync(string backupDirectory, valuetype System.Fabric.StoreBackupOption backupOption, class System.Func`2&lt;class System.Fabric.StoreBackupInfo, class System.Threading.Tasks.Task`1&lt;bool&gt;&gt; postBackupAsyncFunc) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.KeyValueStoreReplica.BackupAsync(System.String,System.Fabric.StoreBackupOption,System.Func{System.Fabric.StoreBackupInfo,System.Threading.Tasks.Task{System.Boolean}})" />
+      <MemberSignature Language="VB.NET" Value="Public Function BackupAsync (backupDirectory As String, backupOption As StoreBackupOption, postBackupAsyncFunc As Func(Of StoreBackupInfo, Task(Of Boolean))) As Task" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -400,6 +394,20 @@
                 return await CopyBackupToAzureBlobStorage(info);
             }
             </code></example>
+        <example>
+            Below is an example of a simple implementation of <b>postBackupAsyncFunc</b><code>
+            private async Task&lt;bool&gt; SimplePostBackupHandler(StoreBackupInfo info)
+            {
+                return await CopyBackupToAzureBlobStorage(info);
+            }
+            </code></example>
+        <example>
+            Below is an example of a simple implementation of <b>postBackupAsyncFunc</b><code>
+            private async Task&lt;bool&gt; SimplePostBackupHandler(StoreBackupInfo info)
+            {
+                return await CopyBackupToAzureBlobStorage(info);
+            }
+            </code></example>
       </Docs>
     </Member>
     <Member MemberName="BackupAsync">
@@ -408,9 +416,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.KeyValueStoreReplica.BackupAsync(System.String,System.Fabric.StoreBackupOption,System.Func{System.Fabric.StoreBackupInfo,System.Threading.Tasks.Task{System.Boolean}},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -511,6 +518,20 @@
                 return await CopyBackupToAzureBlobStorage(info);
             }
             </code></example>
+        <example>
+            Below is an example of a simple implementation of <b>postBackupAsyncFunc</b><code>
+            private async Task&lt;bool&gt; SimplePostBackupHandler(StoreBackupInfo info)
+            {
+                return await CopyBackupToAzureBlobStorage(info);
+            }
+            </code></example>
+        <example>
+            Below is an example of a simple implementation of <b>postBackupAsyncFunc</b><code>
+            private async Task&lt;bool&gt; SimplePostBackupHandler(StoreBackupInfo info)
+            {
+                return await CopyBackupToAzureBlobStorage(info);
+            }
+            </code></example>
       </Docs>
     </Member>
     <Member MemberName="ChangeRoleAsync">
@@ -519,13 +540,12 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.KeyValueStoreReplica.ChangeRoleAsync(System.Fabric.ReplicaRole,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(System.Fabric.KeyValueStoreReplica/&lt;ChangeRoleAsync&gt;d__51))</AttributeName>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(System.Fabric.KeyValueStoreReplica/&lt;ChangeRoleAsync&gt;d__57))</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -560,13 +580,12 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.KeyValueStoreReplica.CloseAsync(System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(System.Fabric.KeyValueStoreReplica/&lt;CloseAsync&gt;d__52))</AttributeName>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(System.Fabric.KeyValueStoreReplica/&lt;CloseAsync&gt;d__58))</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -596,9 +615,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.KeyValueStoreReplica.Contains(System.Fabric.TransactionBase,System.String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -628,11 +646,11 @@
       <MemberSignature Language="C#" Value="public System.Fabric.Transaction CreateTransaction ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Fabric.Transaction CreateTransaction() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.KeyValueStoreReplica.CreateTransaction" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateTransaction () As Transaction" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Fabric.Transaction</ReturnType>
@@ -652,11 +670,11 @@
       <MemberSignature Language="C#" Value="public System.Fabric.Transaction CreateTransaction (System.Fabric.KeyValueStoreTransactionSettings settings);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Fabric.Transaction CreateTransaction(class System.Fabric.KeyValueStoreTransactionSettings settings) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.KeyValueStoreReplica.CreateTransaction(System.Fabric.KeyValueStoreTransactionSettings)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateTransaction (settings As KeyValueStoreTransactionSettings) As Transaction" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Fabric.Transaction</ReturnType>
@@ -681,11 +699,11 @@
       <MemberSignature Language="C#" Value="public event EventHandler DataLossReported;" />
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler DataLossReported" />
       <MemberSignature Language="DocId" Value="E:System.Fabric.KeyValueStoreReplica.DataLossReported" />
+      <MemberSignature Language="VB.NET" Value="Public Event DataLossReported As EventHandler " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.EventHandler</ReturnType>
@@ -703,9 +721,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.KeyValueStoreReplica.Enumerate(System.Fabric.TransactionBase)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerator&lt;System.Fabric.KeyValueStoreItem&gt;</ReturnType>
@@ -736,9 +753,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.KeyValueStoreReplica.Enumerate(System.Fabric.TransactionBase,System.String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerator&lt;System.Fabric.KeyValueStoreItem&gt;</ReturnType>
@@ -776,9 +792,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.KeyValueStoreReplica.Enumerate(System.Fabric.TransactionBase,System.String,System.Boolean)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerator&lt;System.Fabric.KeyValueStoreItem&gt;</ReturnType>
@@ -809,9 +824,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.KeyValueStoreReplica.EnumerateMetadata(System.Fabric.TransactionBase)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerator&lt;System.Fabric.KeyValueStoreItemMetadata&gt;</ReturnType>
@@ -838,9 +852,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.KeyValueStoreReplica.EnumerateMetadata(System.Fabric.TransactionBase,System.String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerator&lt;System.Fabric.KeyValueStoreItemMetadata&gt;</ReturnType>
@@ -873,9 +886,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.KeyValueStoreReplica.EnumerateMetadata(System.Fabric.TransactionBase,System.String,System.Boolean)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerator&lt;System.Fabric.KeyValueStoreItemMetadata&gt;</ReturnType>
@@ -902,9 +914,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.KeyValueStoreReplica.Get(System.Fabric.TransactionBase,System.String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Fabric.KeyValueStoreItem</ReturnType>
@@ -933,11 +944,11 @@
       <MemberSignature Language="C#" Value="public System.Fabric.Epoch GetCurrentEpoch ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype System.Fabric.Epoch GetCurrentEpoch() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.KeyValueStoreReplica.GetCurrentEpoch" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetCurrentEpoch () As Epoch" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Fabric.Epoch</ReturnType>
@@ -959,9 +970,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.KeyValueStoreReplica.GetMetadata(System.Fabric.TransactionBase,System.String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Fabric.KeyValueStoreItemMetadata</ReturnType>
@@ -992,9 +1002,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.KeyValueStoreReplica.GetValue(System.Fabric.TransactionBase,System.String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Byte[]</ReturnType>
@@ -1023,11 +1032,11 @@
       <MemberSignature Language="C#" Value="public const long IgnoreSequenceNumberCheck = 0;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal int64 IgnoreSequenceNumberCheck = (0)" />
       <MemberSignature Language="DocId" Value="F:System.Fabric.KeyValueStoreReplica.IgnoreSequenceNumberCheck" />
+      <MemberSignature Language="VB.NET" Value="Public Const IgnoreSequenceNumberCheck As Long  = 0" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int64</ReturnType>
@@ -1052,11 +1061,11 @@
       <MemberSignature Language="C#" Value="public void Initialize (System.Fabric.StatefulServiceInitializationParameters initializationParameters);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Initialize(class System.Fabric.StatefulServiceInitializationParameters initializationParameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.KeyValueStoreReplica.Initialize(System.Fabric.StatefulServiceInitializationParameters)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Initialize (initializationParameters As StatefulServiceInitializationParameters)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1082,11 +1091,11 @@
       <MemberSignature Language="C#" Value="public System.Fabric.KeyValueStoreReplicaSettings KeyValueStoreReplicaSettings { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Fabric.KeyValueStoreReplicaSettings KeyValueStoreReplicaSettings" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.KeyValueStoreReplica.KeyValueStoreReplicaSettings" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property KeyValueStoreReplicaSettings As KeyValueStoreReplicaSettings" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Fabric.KeyValueStoreReplicaSettings</ReturnType>
@@ -1105,11 +1114,11 @@
       <MemberSignature Language="C#" Value="public System.Fabric.LocalStoreSettings LocalStoreSettings { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Fabric.LocalStoreSettings LocalStoreSettings" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.KeyValueStoreReplica.LocalStoreSettings" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LocalStoreSettings As LocalStoreSettings" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Fabric.LocalStoreSettings</ReturnType>
@@ -1128,11 +1137,11 @@
       <MemberSignature Language="C#" Value="public System.Fabric.KeyValueStoreReplica.SecondaryNotificationMode NotificationMode { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Fabric.KeyValueStoreReplica/SecondaryNotificationMode NotificationMode" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.KeyValueStoreReplica.NotificationMode" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NotificationMode As KeyValueStoreReplica.SecondaryNotificationMode" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Fabric.KeyValueStoreReplica+SecondaryNotificationMode</ReturnType>
@@ -1151,11 +1160,11 @@
       <MemberSignature Language="C#" Value="protected virtual void OnAbort ();" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnAbort() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.KeyValueStoreReplica.OnAbort" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnAbort ()" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1174,9 +1183,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.KeyValueStoreReplica.OnChangeRoleAsync(System.Fabric.ReplicaRole,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
@@ -1209,9 +1217,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.KeyValueStoreReplica.OnCloseAsync(System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -1236,11 +1243,11 @@
       <MemberSignature Language="C#" Value="protected virtual void OnCopyComplete (System.Fabric.KeyValueStoreEnumerator enumerator);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnCopyComplete(class System.Fabric.KeyValueStoreEnumerator enumerator) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.KeyValueStoreReplica.OnCopyComplete(System.Fabric.KeyValueStoreEnumerator)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnCopyComplete (enumerator As KeyValueStoreEnumerator)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1267,9 +1274,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.KeyValueStoreReplica.OnDataLossAsync(System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Boolean&gt;</ReturnType>
@@ -1291,11 +1297,11 @@
       <MemberSignature Language="C#" Value="protected virtual void OnDatalossReported (EventArgs args);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnDatalossReported(class System.EventArgs args) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.KeyValueStoreReplica.OnDatalossReported(System.EventArgs)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnDatalossReported (args As EventArgs)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1318,11 +1324,11 @@
       <MemberSignature Language="C#" Value="protected virtual void OnInitialize (System.Fabric.StatefulServiceInitializationParameters initializationParameters);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnInitialize(class System.Fabric.StatefulServiceInitializationParameters initializationParameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.KeyValueStoreReplica.OnInitialize(System.Fabric.StatefulServiceInitializationParameters)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnInitialize (initializationParameters As StatefulServiceInitializationParameters)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1346,9 +1352,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.KeyValueStoreReplica.OnOpenAsync(System.Fabric.ReplicaOpenMode,System.Fabric.IStatefulServicePartition,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -1381,11 +1386,11 @@
       <MemberSignature Language="C#" Value="protected virtual void OnReplicationOperation (System.Collections.Generic.IEnumerator&lt;System.Fabric.KeyValueStoreNotification&gt; enumerator);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnReplicationOperation(class System.Collections.Generic.IEnumerator`1&lt;class System.Fabric.KeyValueStoreNotification&gt; enumerator) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.KeyValueStoreReplica.OnReplicationOperation(System.Collections.Generic.IEnumerator{System.Fabric.KeyValueStoreNotification})" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnReplicationOperation (enumerator As IEnumerator(Of KeyValueStoreNotification))" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1407,19 +1412,43 @@
         </remarks>
       </Docs>
     </Member>
+    <Member MemberName="OnRestoreCompletedAsync">
+      <MemberSignature Language="C#" Value="protected virtual System.Threading.Tasks.Task OnRestoreCompletedAsync (System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance class System.Threading.Tasks.Task OnRestoreCompletedAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Fabric.KeyValueStoreReplica.OnRestoreCompletedAsync(System.Threading.CancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken">The token used to check for cancellation of the operation.</param>
+        <summary>
+            Signals that the replica's state was successfully restored by the system.
+            This is invoked only when system internally triggers a restore via the Backup Restore service.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="OpenAsync">
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Fabric.IReplicator&gt; OpenAsync (System.Fabric.ReplicaOpenMode openMode, System.Fabric.IStatefulServicePartition partition, System.Threading.CancellationToken cancellationToken);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class System.Fabric.IReplicator&gt; OpenAsync(valuetype System.Fabric.ReplicaOpenMode openMode, class System.Fabric.IStatefulServicePartition partition, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.KeyValueStoreReplica.OpenAsync(System.Fabric.ReplicaOpenMode,System.Fabric.IStatefulServicePartition,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(System.Fabric.KeyValueStoreReplica/&lt;OpenAsync&gt;d__50))</AttributeName>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(System.Fabric.KeyValueStoreReplica/&lt;OpenAsync&gt;d__56))</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1458,9 +1487,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.KeyValueStoreReplica.Remove(System.Fabric.TransactionBase,System.String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1488,9 +1516,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.KeyValueStoreReplica.Remove(System.Fabric.TransactionBase,System.String,System.Int64)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1520,11 +1547,11 @@
       <MemberSignature Language="C#" Value="public System.Fabric.ReplicatorSettings ReplicatorSettings { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Fabric.ReplicatorSettings ReplicatorSettings" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.KeyValueStoreReplica.ReplicatorSettings" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ReplicatorSettings As ReplicatorSettings" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Fabric.ReplicatorSettings</ReturnType>
@@ -1543,11 +1570,11 @@
       <MemberSignature Language="C#" Value="public void Restore (string backupDirectory);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Restore(string backupDirectory) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.KeyValueStoreReplica.Restore(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Restore (backupDirectory As String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1577,11 +1604,11 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task RestoreAsync (string backupDirectory);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task RestoreAsync(string backupDirectory) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.KeyValueStoreReplica.RestoreAsync(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function RestoreAsync (backupDirectory As String) As Task" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -1626,9 +1653,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.KeyValueStoreReplica.RestoreAsync(System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -1677,9 +1703,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.KeyValueStoreReplica.RestoreAsync(System.String,System.Fabric.RestoreSettings,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -1728,11 +1753,11 @@
       <MemberSignature Language="C#" Value="public string StoreName { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string StoreName" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.KeyValueStoreReplica.StoreName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StoreName As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -1755,9 +1780,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.KeyValueStoreReplica.TryAdd(System.Fabric.TransactionBase,System.String,System.Byte[])" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1784,9 +1808,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.KeyValueStoreReplica.TryGet(System.Fabric.TransactionBase,System.String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Fabric.KeyValueStoreItem</ReturnType>
@@ -1811,9 +1834,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.KeyValueStoreReplica.TryGetMetadata(System.Fabric.TransactionBase,System.String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Fabric.KeyValueStoreItemMetadata</ReturnType>
@@ -1838,9 +1860,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.KeyValueStoreReplica.TryGetValue(System.Fabric.TransactionBase,System.String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Byte[]</ReturnType>
@@ -1865,9 +1886,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.KeyValueStoreReplica.TryRemove(System.Fabric.TransactionBase,System.String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1892,9 +1912,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.KeyValueStoreReplica.TryRemove(System.Fabric.TransactionBase,System.String,System.Int64)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1921,9 +1940,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.KeyValueStoreReplica.TryUpdate(System.Fabric.TransactionBase,System.String,System.Byte[])" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1950,9 +1968,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.KeyValueStoreReplica.TryUpdate(System.Fabric.TransactionBase,System.String,System.Byte[],System.Int64)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1981,9 +1998,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.KeyValueStoreReplica.Update(System.Fabric.TransactionBase,System.String,System.Byte[])" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -2015,9 +2031,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.KeyValueStoreReplica.Update(System.Fabric.TransactionBase,System.String,System.Byte[],System.Int64)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -2051,11 +2066,11 @@
       <MemberSignature Language="C#" Value="public void UpdateReplicatorSettings (System.Fabric.ReplicatorSettings settings);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void UpdateReplicatorSettings(class System.Fabric.ReplicatorSettings settings) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.KeyValueStoreReplica.UpdateReplicatorSettings(System.Fabric.ReplicatorSettings)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub UpdateReplicatorSettings (settings As ReplicatorSettings)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>

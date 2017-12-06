@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public static class VaultsOperationsExtensions" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit VaultsOperationsExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.KeyVault.Fluent.VaultsOperationsExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module VaultsOperationsExtensions" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.KeyVault.Fluent</AssemblyName>
     <AssemblyVersion>1.0.0.60</AssemblyVersion>
@@ -21,10 +22,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.KeyVault.Fluent.Models.VaultInner CreateOrUpdate (this Microsoft.Azure.Management.KeyVault.Fluent.IVaultsOperations operations, string resourceGroupName, string vaultName, Microsoft.Azure.Management.KeyVault.Fluent.Models.VaultCreateOrUpdateParametersInner parameters);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.KeyVault.Fluent.Models.VaultInner CreateOrUpdate(class Microsoft.Azure.Management.KeyVault.Fluent.IVaultsOperations operations, string resourceGroupName, string vaultName, class Microsoft.Azure.Management.KeyVault.Fluent.Models.VaultCreateOrUpdateParametersInner parameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.KeyVault.Fluent.VaultsOperationsExtensions.CreateOrUpdate(Microsoft.Azure.Management.KeyVault.Fluent.IVaultsOperations,System.String,System.String,Microsoft.Azure.Management.KeyVault.Fluent.Models.VaultCreateOrUpdateParametersInner)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function CreateOrUpdate (operations As IVaultsOperations, resourceGroupName As String, vaultName As String, parameters As VaultCreateOrUpdateParametersInner) As VaultInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.KeyVault.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.KeyVault.Fluent.Models.VaultInner</ReturnType>
@@ -61,8 +63,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.KeyVault.Fluent.VaultsOperationsExtensions.CreateOrUpdateAsync(Microsoft.Azure.Management.KeyVault.Fluent.IVaultsOperations,System.String,System.String,Microsoft.Azure.Management.KeyVault.Fluent.Models.VaultCreateOrUpdateParametersInner,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.KeyVault.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -106,10 +108,11 @@
       <MemberSignature Language="C#" Value="public static void Delete (this Microsoft.Azure.Management.KeyVault.Fluent.IVaultsOperations operations, string resourceGroupName, string vaultName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Delete(class Microsoft.Azure.Management.KeyVault.Fluent.IVaultsOperations operations, string resourceGroupName, string vaultName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.KeyVault.Fluent.VaultsOperationsExtensions.Delete(Microsoft.Azure.Management.KeyVault.Fluent.IVaultsOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub Delete (operations As IVaultsOperations, resourceGroupName As String, vaultName As String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.KeyVault.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -141,8 +144,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.KeyVault.Fluent.VaultsOperationsExtensions.DeleteAsync(Microsoft.Azure.Management.KeyVault.Fluent.IVaultsOperations,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.KeyVault.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -182,10 +185,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.KeyVault.Fluent.Models.VaultInner Get (this Microsoft.Azure.Management.KeyVault.Fluent.IVaultsOperations operations, string resourceGroupName, string vaultName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.KeyVault.Fluent.Models.VaultInner Get(class Microsoft.Azure.Management.KeyVault.Fluent.IVaultsOperations operations, string resourceGroupName, string vaultName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.KeyVault.Fluent.VaultsOperationsExtensions.Get(Microsoft.Azure.Management.KeyVault.Fluent.IVaultsOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Get (operations As IVaultsOperations, resourceGroupName As String, vaultName As String) As VaultInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.KeyVault.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.KeyVault.Fluent.Models.VaultInner</ReturnType>
@@ -218,8 +222,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.KeyVault.Fluent.VaultsOperationsExtensions.GetAsync(Microsoft.Azure.Management.KeyVault.Fluent.IVaultsOperations,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.KeyVault.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -259,10 +263,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.KeyVault.Fluent.Models.VaultInner&gt; List (this Microsoft.Azure.Management.KeyVault.Fluent.IVaultsOperations operations, Nullable&lt;int&gt; top = null);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.KeyVault.Fluent.Models.VaultInner&gt; List(class Microsoft.Azure.Management.KeyVault.Fluent.IVaultsOperations operations, valuetype System.Nullable`1&lt;int32&gt; top) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.KeyVault.Fluent.VaultsOperationsExtensions.List(Microsoft.Azure.Management.KeyVault.Fluent.IVaultsOperations,System.Nullable{System.Int32})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function List (operations As IVaultsOperations, Optional top As Nullable(Of Integer) = null) As IPage(Of VaultInner)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.KeyVault.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.KeyVault.Fluent.Models.VaultInner&gt;</ReturnType>
@@ -292,8 +297,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.KeyVault.Fluent.VaultsOperationsExtensions.ListAsync(Microsoft.Azure.Management.KeyVault.Fluent.IVaultsOperations,System.Nullable{System.Int32},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.KeyVault.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -330,10 +335,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.KeyVault.Fluent.Models.VaultInner&gt; ListByResourceGroup (this Microsoft.Azure.Management.KeyVault.Fluent.IVaultsOperations operations, string resourceGroupName, Nullable&lt;int&gt; top = null);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.KeyVault.Fluent.Models.VaultInner&gt; ListByResourceGroup(class Microsoft.Azure.Management.KeyVault.Fluent.IVaultsOperations operations, string resourceGroupName, valuetype System.Nullable`1&lt;int32&gt; top) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.KeyVault.Fluent.VaultsOperationsExtensions.ListByResourceGroup(Microsoft.Azure.Management.KeyVault.Fluent.IVaultsOperations,System.String,System.Nullable{System.Int32})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListByResourceGroup (operations As IVaultsOperations, resourceGroupName As String, Optional top As Nullable(Of Integer) = null) As IPage(Of VaultInner)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.KeyVault.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.KeyVault.Fluent.Models.VaultInner&gt;</ReturnType>
@@ -367,8 +373,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.KeyVault.Fluent.VaultsOperationsExtensions.ListByResourceGroupAsync(Microsoft.Azure.Management.KeyVault.Fluent.IVaultsOperations,System.String,System.Nullable{System.Int32},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.KeyVault.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -409,10 +415,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.KeyVault.Fluent.Models.VaultInner&gt; ListByResourceGroupNext (this Microsoft.Azure.Management.KeyVault.Fluent.IVaultsOperations operations, string nextPageLink);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.KeyVault.Fluent.Models.VaultInner&gt; ListByResourceGroupNext(class Microsoft.Azure.Management.KeyVault.Fluent.IVaultsOperations operations, string nextPageLink) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.KeyVault.Fluent.VaultsOperationsExtensions.ListByResourceGroupNext(Microsoft.Azure.Management.KeyVault.Fluent.IVaultsOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListByResourceGroupNext (operations As IVaultsOperations, nextPageLink As String) As IPage(Of VaultInner)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.KeyVault.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.KeyVault.Fluent.Models.VaultInner&gt;</ReturnType>
@@ -442,8 +449,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.KeyVault.Fluent.VaultsOperationsExtensions.ListByResourceGroupNextAsync(Microsoft.Azure.Management.KeyVault.Fluent.IVaultsOperations,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.KeyVault.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -480,10 +487,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.KeyVault.Fluent.Models.VaultInner&gt; ListNext (this Microsoft.Azure.Management.KeyVault.Fluent.IVaultsOperations operations, string nextPageLink);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.KeyVault.Fluent.Models.VaultInner&gt; ListNext(class Microsoft.Azure.Management.KeyVault.Fluent.IVaultsOperations operations, string nextPageLink) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.KeyVault.Fluent.VaultsOperationsExtensions.ListNext(Microsoft.Azure.Management.KeyVault.Fluent.IVaultsOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListNext (operations As IVaultsOperations, nextPageLink As String) As IPage(Of VaultInner)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.KeyVault.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.KeyVault.Fluent.Models.VaultInner&gt;</ReturnType>
@@ -513,8 +521,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.KeyVault.Fluent.VaultsOperationsExtensions.ListNextAsync(Microsoft.Azure.Management.KeyVault.Fluent.IVaultsOperations,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.KeyVault.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>

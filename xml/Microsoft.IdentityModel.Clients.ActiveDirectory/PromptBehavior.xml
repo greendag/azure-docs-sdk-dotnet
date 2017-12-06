@@ -2,9 +2,9 @@
   <TypeSignature Language="C#" Value="public enum PromptBehavior" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed PromptBehavior extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.IdentityModel.Clients.ActiveDirectory.PromptBehavior" />
+  <TypeSignature Language="VB.NET" Value="Public Enum PromptBehavior" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory.Platform</AssemblyName>
-    <AssemblyVersion>3.13.9.1126</AssemblyVersion>
     <AssemblyVersion>3.16.0.14</AssemblyVersion>
   </AssemblyInfo>
   <Base>
@@ -22,15 +22,16 @@
       <MemberSignature Language="C#" Value="Always" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.IdentityModel.Clients.ActiveDirectory.PromptBehavior Always = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.IdentityModel.Clients.ActiveDirectory.PromptBehavior.Always" />
+      <MemberSignature Language="VB.NET" Value="Always" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory.Platform</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.IdentityModel.Clients.ActiveDirectory.PromptBehavior</ReturnType>
       </ReturnValue>
+      <MemberValue>1</MemberValue>
       <Docs>
         <summary>
             The user will be prompted for credentials even if there is a token that meets the requirements
@@ -42,15 +43,16 @@
       <MemberSignature Language="C#" Value="Auto" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.IdentityModel.Clients.ActiveDirectory.PromptBehavior Auto = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.IdentityModel.Clients.ActiveDirectory.PromptBehavior.Auto" />
+      <MemberSignature Language="VB.NET" Value="Auto" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory.Platform</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.IdentityModel.Clients.ActiveDirectory.PromptBehavior</ReturnType>
       </ReturnValue>
+      <MemberValue>0</MemberValue>
       <Docs>
         <summary>
             Acquire token will prompt the user for credentials only when necessary.  If a token
@@ -62,15 +64,16 @@
       <MemberSignature Language="C#" Value="Never" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.IdentityModel.Clients.ActiveDirectory.PromptBehavior Never = int32(2)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.IdentityModel.Clients.ActiveDirectory.PromptBehavior.Never" />
+      <MemberSignature Language="VB.NET" Value="Never" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory.Platform</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.IdentityModel.Clients.ActiveDirectory.PromptBehavior</ReturnType>
       </ReturnValue>
+      <MemberValue>2</MemberValue>
       <Docs>
         <summary>
             The user will not be prompted for credentials.  If prompting is necessary then the AcquireToken request
@@ -82,15 +85,16 @@
       <MemberSignature Language="C#" Value="RefreshSession" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.IdentityModel.Clients.ActiveDirectory.PromptBehavior RefreshSession = int32(3)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.IdentityModel.Clients.ActiveDirectory.PromptBehavior.RefreshSession" />
+      <MemberSignature Language="VB.NET" Value="RefreshSession" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory.Platform</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.IdentityModel.Clients.ActiveDirectory.PromptBehavior</ReturnType>
       </ReturnValue>
+      <MemberValue>3</MemberValue>
       <Docs>
         <summary>
             Re-authorizes (through displaying webview) the resource usage, making sure that the resulting access

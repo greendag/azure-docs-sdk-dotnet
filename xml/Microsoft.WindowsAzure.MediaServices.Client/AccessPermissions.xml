@@ -2,9 +2,10 @@
   <TypeSignature Language="C#" Value="public enum AccessPermissions" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed AccessPermissions extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.WindowsAzure.MediaServices.Client.AccessPermissions" />
+  <TypeSignature Language="VB.NET" Value="Public Enum AccessPermissions" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client</AssemblyName>
-    <AssemblyVersion>3.8.0.5</AssemblyVersion>
+    <AssemblyVersion>4.0.0.4</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
@@ -23,14 +24,16 @@
       <MemberSignature Language="C#" Value="Delete" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.WindowsAzure.MediaServices.Client.AccessPermissions Delete = int32(4)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.MediaServices.Client.AccessPermissions.Delete" />
+      <MemberSignature Language="VB.NET" Value="Delete" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.MediaServices.Client.AccessPermissions</ReturnType>
       </ReturnValue>
+      <MemberValue>4</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -39,14 +42,16 @@
       <MemberSignature Language="C#" Value="List" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.WindowsAzure.MediaServices.Client.AccessPermissions List = int32(8)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.MediaServices.Client.AccessPermissions.List" />
+      <MemberSignature Language="VB.NET" Value="List" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.MediaServices.Client.AccessPermissions</ReturnType>
       </ReturnValue>
+      <MemberValue>8</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -55,14 +60,16 @@
       <MemberSignature Language="C#" Value="None" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.WindowsAzure.MediaServices.Client.AccessPermissions None = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.MediaServices.Client.AccessPermissions.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.MediaServices.Client.AccessPermissions</ReturnType>
       </ReturnValue>
+      <MemberValue>0</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -71,14 +78,16 @@
       <MemberSignature Language="C#" Value="Read" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.WindowsAzure.MediaServices.Client.AccessPermissions Read = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.MediaServices.Client.AccessPermissions.Read" />
+      <MemberSignature Language="VB.NET" Value="Read" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.MediaServices.Client.AccessPermissions</ReturnType>
       </ReturnValue>
+      <MemberValue>1</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -87,14 +96,16 @@
       <MemberSignature Language="C#" Value="Write" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.WindowsAzure.MediaServices.Client.AccessPermissions Write = int32(2)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.MediaServices.Client.AccessPermissions.Write" />
+      <MemberSignature Language="VB.NET" Value="Write" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.MediaServices.Client.AccessPermissions</ReturnType>
       </ReturnValue>
+      <MemberValue>2</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>

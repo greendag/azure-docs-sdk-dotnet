@@ -2,10 +2,9 @@
   <TypeSignature Language="C#" Value="public enum SharedAccessFilePermissions" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SharedAccessFilePermissions extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.WindowsAzure.Storage.File.SharedAccessFilePermissions" />
+  <TypeSignature Language="VB.NET" Value="Public Enum SharedAccessFilePermissions" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-    <AssemblyVersion>8.1.1.0</AssemblyVersion>
-    <AssemblyVersion>8.1.3.0</AssemblyVersion>
     <AssemblyVersion>8.4.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
@@ -27,16 +26,16 @@
       <MemberSignature Language="C#" Value="Create" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.WindowsAzure.Storage.File.SharedAccessFilePermissions Create = int32(16)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.File.SharedAccessFilePermissions.Create" />
+      <MemberSignature Language="VB.NET" Value="Create" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.Storage.File.SharedAccessFilePermissions</ReturnType>
       </ReturnValue>
+      <MemberValue>16</MemberValue>
       <Docs>
         <summary>
             Create access granted.
@@ -47,16 +46,16 @@
       <MemberSignature Language="C#" Value="Delete" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.WindowsAzure.Storage.File.SharedAccessFilePermissions Delete = int32(4)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.File.SharedAccessFilePermissions.Delete" />
+      <MemberSignature Language="VB.NET" Value="Delete" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.Storage.File.SharedAccessFilePermissions</ReturnType>
       </ReturnValue>
+      <MemberValue>4</MemberValue>
       <Docs>
         <summary>
             Delete access granted for files.
@@ -67,16 +66,16 @@
       <MemberSignature Language="C#" Value="List" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.WindowsAzure.Storage.File.SharedAccessFilePermissions List = int32(8)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.File.SharedAccessFilePermissions.List" />
+      <MemberSignature Language="VB.NET" Value="List" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.Storage.File.SharedAccessFilePermissions</ReturnType>
       </ReturnValue>
+      <MemberValue>8</MemberValue>
       <Docs>
         <summary>
             List access granted.
@@ -87,16 +86,16 @@
       <MemberSignature Language="C#" Value="None" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.WindowsAzure.Storage.File.SharedAccessFilePermissions None = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.File.SharedAccessFilePermissions.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.Storage.File.SharedAccessFilePermissions</ReturnType>
       </ReturnValue>
+      <MemberValue>0</MemberValue>
       <Docs>
         <summary>
             No shared access granted.
@@ -107,16 +106,16 @@
       <MemberSignature Language="C#" Value="Read" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.WindowsAzure.Storage.File.SharedAccessFilePermissions Read = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.File.SharedAccessFilePermissions.Read" />
+      <MemberSignature Language="VB.NET" Value="Read" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.Storage.File.SharedAccessFilePermissions</ReturnType>
       </ReturnValue>
+      <MemberValue>1</MemberValue>
       <Docs>
         <summary>
             Read access granted.
@@ -127,16 +126,16 @@
       <MemberSignature Language="C#" Value="Write" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.WindowsAzure.Storage.File.SharedAccessFilePermissions Write = int32(2)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.File.SharedAccessFilePermissions.Write" />
+      <MemberSignature Language="VB.NET" Value="Write" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.Storage.File.SharedAccessFilePermissions</ReturnType>
       </ReturnValue>
+      <MemberValue>2</MemberValue>
       <Docs>
         <summary>
             Write access granted.

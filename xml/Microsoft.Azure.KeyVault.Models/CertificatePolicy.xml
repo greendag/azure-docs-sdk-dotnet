@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public class CertificatePolicy" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CertificatePolicy extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.KeyVault.Models.CertificatePolicy" />
+  <TypeSignature Language="VB.NET" Value="Public Class CertificatePolicy" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.KeyVault</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -21,10 +22,11 @@
       <MemberSignature Language="C#" Value="public CertificatePolicy ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.KeyVault.Models.CertificatePolicy.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.KeyVault</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -40,8 +42,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.KeyVault.Models.CertificatePolicy.#ctor(System.String,Microsoft.Azure.KeyVault.Models.KeyProperties,Microsoft.Azure.KeyVault.Models.SecretProperties,Microsoft.Azure.KeyVault.Models.X509CertificateProperties,System.Collections.Generic.IList{Microsoft.Azure.KeyVault.Models.LifetimeAction},Microsoft.Azure.KeyVault.Models.IssuerParameters,Microsoft.Azure.KeyVault.Models.CertificateAttributes)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.KeyVault</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="id" Type="System.String" />
@@ -75,10 +77,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.KeyVault.Models.CertificateAttributes Attributes { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.KeyVault.Models.CertificateAttributes Attributes" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.KeyVault.Models.CertificatePolicy.Attributes" />
+      <MemberSignature Language="VB.NET" Value="Public Property Attributes As CertificateAttributes" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.KeyVault</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -100,10 +103,11 @@
       <MemberSignature Language="C#" Value="public string Id { get; protected set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Id" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.KeyVault.Models.CertificatePolicy.Id" />
+      <MemberSignature Language="VB.NET" Value="Public Property Id As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.KeyVault</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -125,10 +129,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.KeyVault.Models.IssuerParameters IssuerParameters { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.KeyVault.Models.IssuerParameters IssuerParameters" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.KeyVault.Models.CertificatePolicy.IssuerParameters" />
+      <MemberSignature Language="VB.NET" Value="Public Property IssuerParameters As IssuerParameters" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.KeyVault</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -151,10 +156,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.KeyVault.Models.KeyProperties KeyProperties { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.KeyVault.Models.KeyProperties KeyProperties" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.KeyVault.Models.CertificatePolicy.KeyProperties" />
+      <MemberSignature Language="VB.NET" Value="Public Property KeyProperties As KeyProperties" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.KeyVault</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -176,10 +182,11 @@
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.KeyVault.Models.LifetimeAction&gt; LifetimeActions { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.KeyVault.Models.LifetimeAction&gt; LifetimeActions" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.KeyVault.Models.CertificatePolicy.LifetimeActions" />
+      <MemberSignature Language="VB.NET" Value="Public Property LifetimeActions As IList(Of LifetimeAction)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.KeyVault</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -202,10 +209,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.KeyVault.Models.SecretProperties SecretProperties { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.KeyVault.Models.SecretProperties SecretProperties" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.KeyVault.Models.CertificatePolicy.SecretProperties" />
+      <MemberSignature Language="VB.NET" Value="Public Property SecretProperties As SecretProperties" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.KeyVault</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -227,10 +235,11 @@
       <MemberSignature Language="C#" Value="public virtual void Validate ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Validate() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.KeyVault.Models.CertificatePolicy.Validate" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub Validate ()" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.KeyVault</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -250,10 +259,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.KeyVault.Models.X509CertificateProperties X509CertificateProperties { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.KeyVault.Models.X509CertificateProperties X509CertificateProperties" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.KeyVault.Models.CertificatePolicy.X509CertificateProperties" />
+      <MemberSignature Language="VB.NET" Value="Public Property X509CertificateProperties As X509CertificateProperties" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.KeyVault</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>

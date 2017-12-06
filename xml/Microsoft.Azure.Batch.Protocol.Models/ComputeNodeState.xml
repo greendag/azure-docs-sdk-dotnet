@@ -2,12 +2,11 @@
   <TypeSignature Language="C#" Value="public enum ComputeNodeState" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ComputeNodeState extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Batch.Protocol.Models.ComputeNodeState" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ComputeNodeState" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-    <AssemblyVersion>6.1.0.0</AssemblyVersion>
-    <AssemblyVersion>7.0.0.0</AssemblyVersion>
-    <AssemblyVersion>7.0.1.0</AssemblyVersion>
     <AssemblyVersion>7.1.0.0</AssemblyVersion>
+    <AssemblyVersion>8.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
@@ -28,13 +27,12 @@
       <MemberSignature Language="C#" Value="Creating" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Batch.Protocol.Models.ComputeNodeState Creating = int32(5)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Batch.Protocol.Models.ComputeNodeState.Creating" />
+      <MemberSignature Language="VB.NET" Value="Creating" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -44,6 +42,7 @@
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Batch.Protocol.Models.ComputeNodeState</ReturnType>
       </ReturnValue>
+      <MemberValue>5</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -52,13 +51,12 @@
       <MemberSignature Language="C#" Value="Idle" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Batch.Protocol.Models.ComputeNodeState Idle = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Batch.Protocol.Models.ComputeNodeState.Idle" />
+      <MemberSignature Language="VB.NET" Value="Idle" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -68,6 +66,7 @@
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Batch.Protocol.Models.ComputeNodeState</ReturnType>
       </ReturnValue>
+      <MemberValue>0</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -76,13 +75,12 @@
       <MemberSignature Language="C#" Value="LeavingPool" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Batch.Protocol.Models.ComputeNodeState LeavingPool = int32(10)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Batch.Protocol.Models.ComputeNodeState.LeavingPool" />
+      <MemberSignature Language="VB.NET" Value="LeavingPool" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -92,6 +90,7 @@
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Batch.Protocol.Models.ComputeNodeState</ReturnType>
       </ReturnValue>
+      <MemberValue>10</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -100,13 +99,12 @@
       <MemberSignature Language="C#" Value="Offline" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Batch.Protocol.Models.ComputeNodeState Offline = int32(11)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Batch.Protocol.Models.ComputeNodeState.Offline" />
+      <MemberSignature Language="VB.NET" Value="Offline" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -116,6 +114,7 @@
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Batch.Protocol.Models.ComputeNodeState</ReturnType>
       </ReturnValue>
+      <MemberValue>11</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -124,12 +123,12 @@
       <MemberSignature Language="C#" Value="Preempted" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Batch.Protocol.Models.ComputeNodeState Preempted = int32(12)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Batch.Protocol.Models.ComputeNodeState.Preempted" />
+      <MemberSignature Language="VB.NET" Value="Preempted" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -139,6 +138,7 @@
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Batch.Protocol.Models.ComputeNodeState</ReturnType>
       </ReturnValue>
+      <MemberValue>12</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -147,13 +147,12 @@
       <MemberSignature Language="C#" Value="Rebooting" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Batch.Protocol.Models.ComputeNodeState Rebooting = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Batch.Protocol.Models.ComputeNodeState.Rebooting" />
+      <MemberSignature Language="VB.NET" Value="Rebooting" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -163,6 +162,7 @@
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Batch.Protocol.Models.ComputeNodeState</ReturnType>
       </ReturnValue>
+      <MemberValue>1</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -171,13 +171,12 @@
       <MemberSignature Language="C#" Value="Reimaging" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Batch.Protocol.Models.ComputeNodeState Reimaging = int32(2)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Batch.Protocol.Models.ComputeNodeState.Reimaging" />
+      <MemberSignature Language="VB.NET" Value="Reimaging" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -187,6 +186,7 @@
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Batch.Protocol.Models.ComputeNodeState</ReturnType>
       </ReturnValue>
+      <MemberValue>2</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -195,13 +195,12 @@
       <MemberSignature Language="C#" Value="Running" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Batch.Protocol.Models.ComputeNodeState Running = int32(3)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Batch.Protocol.Models.ComputeNodeState.Running" />
+      <MemberSignature Language="VB.NET" Value="Running" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -211,6 +210,7 @@
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Batch.Protocol.Models.ComputeNodeState</ReturnType>
       </ReturnValue>
+      <MemberValue>3</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -219,13 +219,12 @@
       <MemberSignature Language="C#" Value="Starting" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Batch.Protocol.Models.ComputeNodeState Starting = int32(6)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Batch.Protocol.Models.ComputeNodeState.Starting" />
+      <MemberSignature Language="VB.NET" Value="Starting" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -235,6 +234,7 @@
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Batch.Protocol.Models.ComputeNodeState</ReturnType>
       </ReturnValue>
+      <MemberValue>6</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -243,13 +243,12 @@
       <MemberSignature Language="C#" Value="StartTaskFailed" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Batch.Protocol.Models.ComputeNodeState StartTaskFailed = int32(8)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Batch.Protocol.Models.ComputeNodeState.StartTaskFailed" />
+      <MemberSignature Language="VB.NET" Value="StartTaskFailed" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -259,6 +258,7 @@
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Batch.Protocol.Models.ComputeNodeState</ReturnType>
       </ReturnValue>
+      <MemberValue>8</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -267,13 +267,12 @@
       <MemberSignature Language="C#" Value="Unknown" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Batch.Protocol.Models.ComputeNodeState Unknown = int32(9)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Batch.Protocol.Models.ComputeNodeState.Unknown" />
+      <MemberSignature Language="VB.NET" Value="Unknown" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -283,6 +282,7 @@
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Batch.Protocol.Models.ComputeNodeState</ReturnType>
       </ReturnValue>
+      <MemberValue>9</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -291,13 +291,12 @@
       <MemberSignature Language="C#" Value="Unusable" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Batch.Protocol.Models.ComputeNodeState Unusable = int32(4)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Batch.Protocol.Models.ComputeNodeState.Unusable" />
+      <MemberSignature Language="VB.NET" Value="Unusable" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -307,6 +306,7 @@
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Batch.Protocol.Models.ComputeNodeState</ReturnType>
       </ReturnValue>
+      <MemberValue>4</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -315,13 +315,12 @@
       <MemberSignature Language="C#" Value="WaitingForStartTask" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Batch.Protocol.Models.ComputeNodeState WaitingForStartTask = int32(7)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Batch.Protocol.Models.ComputeNodeState.WaitingForStartTask" />
+      <MemberSignature Language="VB.NET" Value="WaitingForStartTask" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -331,6 +330,7 @@
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Batch.Protocol.Models.ComputeNodeState</ReturnType>
       </ReturnValue>
+      <MemberValue>7</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>

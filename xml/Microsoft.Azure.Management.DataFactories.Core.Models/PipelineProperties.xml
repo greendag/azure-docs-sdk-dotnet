@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public class PipelineProperties" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit PipelineProperties extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.DataFactories.Core.Models.PipelineProperties" />
+  <TypeSignature Language="VB.NET" Value="Public Class PipelineProperties" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -21,10 +22,11 @@
       <MemberSignature Language="C#" Value="public PipelineProperties ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataFactories.Core.Models.PipelineProperties.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -38,10 +40,11 @@
       <MemberSignature Language="C#" Value="public PipelineProperties (System.Collections.Generic.IList&lt;Microsoft.Azure.Management.DataFactories.Core.Models.Activity&gt; activities);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.DataFactories.Core.Models.Activity&gt; activities) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataFactories.Core.Models.PipelineProperties.#ctor(System.Collections.Generic.IList{Microsoft.Azure.Management.DataFactories.Core.Models.Activity})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (activities As IList(Of Activity))" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="activities" Type="System.Collections.Generic.IList&lt;Microsoft.Azure.Management.DataFactories.Core.Models.Activity&gt;" />
@@ -59,10 +62,11 @@
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.Management.DataFactories.Core.Models.Activity&gt; Activities { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.DataFactories.Core.Models.Activity&gt; Activities" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactories.Core.Models.PipelineProperties.Activities" />
+      <MemberSignature Language="VB.NET" Value="Public Property Activities As IList(Of Activity)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Azure.Management.DataFactories.Core.Models.Activity&gt;</ReturnType>
@@ -79,10 +83,11 @@
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.Management.DataFactories.Core.Models.Dataset&gt; Datasets { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.DataFactories.Core.Models.Dataset&gt; Datasets" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactories.Core.Models.PipelineProperties.Datasets" />
+      <MemberSignature Language="VB.NET" Value="Public Property Datasets As IList(Of Dataset)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Azure.Management.DataFactories.Core.Models.Dataset&gt;</ReturnType>
@@ -103,10 +108,11 @@
       <MemberSignature Language="C#" Value="public string Description { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Description" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactories.Core.Models.PipelineProperties.Description" />
+      <MemberSignature Language="VB.NET" Value="Public Property Description As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -123,10 +129,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; End { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; End" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactories.Core.Models.PipelineProperties.End" />
+      <MemberSignature Language="VB.NET" Value="Public Property End As Nullable(Of DateTime)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
@@ -146,10 +153,11 @@
       <MemberSignature Language="C#" Value="public string ErrorMessage { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string ErrorMessage" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactories.Core.Models.PipelineProperties.ErrorMessage" />
+      <MemberSignature Language="VB.NET" Value="Public Property ErrorMessage As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -166,10 +174,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;TimeSpan&gt; ExpirationTime { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.TimeSpan&gt; ExpirationTime" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactories.Core.Models.PipelineProperties.ExpirationTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExpirationTime As Nullable(Of TimeSpan)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.TimeSpan&gt;</ReturnType>
@@ -189,10 +198,11 @@
       <MemberSignature Language="C#" Value="public string HubName { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string HubName" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactories.Core.Models.PipelineProperties.HubName" />
+      <MemberSignature Language="VB.NET" Value="Public Property HubName As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -209,10 +219,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; IsPaused { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; IsPaused" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactories.Core.Models.PipelineProperties.IsPaused" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsPaused As Nullable(Of Boolean)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
@@ -230,10 +241,11 @@
       <MemberSignature Language="C#" Value="public string PipelineMode { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string PipelineMode" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactories.Core.Models.PipelineProperties.PipelineMode" />
+      <MemberSignature Language="VB.NET" Value="Public Property PipelineMode As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -251,10 +263,11 @@
       <MemberSignature Language="C#" Value="public string ProvisioningState { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string ProvisioningState" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactories.Core.Models.PipelineProperties.ProvisioningState" />
+      <MemberSignature Language="VB.NET" Value="Public Property ProvisioningState As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -271,10 +284,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.DataFactories.Common.Models.PipelineRuntimeInfo RuntimeInfo { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.DataFactories.Common.Models.PipelineRuntimeInfo RuntimeInfo" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactories.Core.Models.PipelineProperties.RuntimeInfo" />
+      <MemberSignature Language="VB.NET" Value="Public Property RuntimeInfo As PipelineRuntimeInfo" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.DataFactories.Common.Models.PipelineRuntimeInfo</ReturnType>
@@ -291,10 +305,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; Start { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; Start" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactories.Core.Models.PipelineProperties.Start" />
+      <MemberSignature Language="VB.NET" Value="Public Property Start As Nullable(Of DateTime)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>

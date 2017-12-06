@@ -2,12 +2,11 @@
   <TypeSignature Language="C#" Value="public class StartTask" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit StartTask extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Batch.Protocol.Models.StartTask" />
+  <TypeSignature Language="VB.NET" Value="Public Class StartTask" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-    <AssemblyVersion>6.1.0.0</AssemblyVersion>
-    <AssemblyVersion>7.0.0.0</AssemblyVersion>
-    <AssemblyVersion>7.0.1.0</AssemblyVersion>
     <AssemblyVersion>7.1.0.0</AssemblyVersion>
+    <AssemblyVersion>8.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -25,13 +24,12 @@
       <MemberSignature Language="C#" Value="public StartTask ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Batch.Protocol.Models.StartTask.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -42,19 +40,17 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public StartTask (string commandLine, System.Collections.Generic.IList&lt;Microsoft.Azure.Batch.Protocol.Models.ResourceFile&gt; resourceFiles = null, System.Collections.Generic.IList&lt;Microsoft.Azure.Batch.Protocol.Models.EnvironmentSetting&gt; environmentSettings = null, Microsoft.Azure.Batch.Protocol.Models.UserIdentity userIdentity = null, Nullable&lt;int&gt; maxTaskRetryCount = null, Nullable&lt;bool&gt; waitForSuccess = null);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string commandLine, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Batch.Protocol.Models.ResourceFile&gt; resourceFiles, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Batch.Protocol.Models.EnvironmentSetting&gt; environmentSettings, class Microsoft.Azure.Batch.Protocol.Models.UserIdentity userIdentity, valuetype System.Nullable`1&lt;int32&gt; maxTaskRetryCount, valuetype System.Nullable`1&lt;bool&gt; waitForSuccess) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Batch.Protocol.Models.StartTask.#ctor(System.String,System.Collections.Generic.IList{Microsoft.Azure.Batch.Protocol.Models.ResourceFile},System.Collections.Generic.IList{Microsoft.Azure.Batch.Protocol.Models.EnvironmentSetting},Microsoft.Azure.Batch.Protocol.Models.UserIdentity,System.Nullable{System.Int32},System.Nullable{System.Boolean})" />
+      <MemberSignature Language="C#" Value="public StartTask (string commandLine, Microsoft.Azure.Batch.Protocol.Models.TaskContainerSettings containerSettings = null, System.Collections.Generic.IList&lt;Microsoft.Azure.Batch.Protocol.Models.ResourceFile&gt; resourceFiles = null, System.Collections.Generic.IList&lt;Microsoft.Azure.Batch.Protocol.Models.EnvironmentSetting&gt; environmentSettings = null, Microsoft.Azure.Batch.Protocol.Models.UserIdentity userIdentity = null, Nullable&lt;int&gt; maxTaskRetryCount = null, Nullable&lt;bool&gt; waitForSuccess = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string commandLine, class Microsoft.Azure.Batch.Protocol.Models.TaskContainerSettings containerSettings, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Batch.Protocol.Models.ResourceFile&gt; resourceFiles, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Batch.Protocol.Models.EnvironmentSetting&gt; environmentSettings, class Microsoft.Azure.Batch.Protocol.Models.UserIdentity userIdentity, valuetype System.Nullable`1&lt;int32&gt; maxTaskRetryCount, valuetype System.Nullable`1&lt;bool&gt; waitForSuccess) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Batch.Protocol.Models.StartTask.#ctor(System.String,Microsoft.Azure.Batch.Protocol.Models.TaskContainerSettings,System.Collections.Generic.IList{Microsoft.Azure.Batch.Protocol.Models.ResourceFile},System.Collections.Generic.IList{Microsoft.Azure.Batch.Protocol.Models.EnvironmentSetting},Microsoft.Azure.Batch.Protocol.Models.UserIdentity,System.Nullable{System.Int32},System.Nullable{System.Boolean})" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
-        <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="commandLine" Type="System.String" />
+        <Parameter Name="containerSettings" Type="Microsoft.Azure.Batch.Protocol.Models.TaskContainerSettings" />
         <Parameter Name="resourceFiles" Type="System.Collections.Generic.IList&lt;Microsoft.Azure.Batch.Protocol.Models.ResourceFile&gt;" />
         <Parameter Name="environmentSettings" Type="System.Collections.Generic.IList&lt;Microsoft.Azure.Batch.Protocol.Models.EnvironmentSetting&gt;" />
         <Parameter Name="userIdentity" Type="Microsoft.Azure.Batch.Protocol.Models.UserIdentity" />
@@ -64,6 +60,8 @@
       <Docs>
         <param name="commandLine">The command line of the start
             task.</param>
+        <param name="containerSettings">The settings for the container
+            under which the start task runs.</param>
         <param name="resourceFiles">A list of files that the Batch service
             will download to the compute node before running the command
             line.</param>
@@ -87,13 +85,12 @@
       <MemberSignature Language="C#" Value="public string CommandLine { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string CommandLine" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Batch.Protocol.Models.StartTask.CommandLine" />
+      <MemberSignature Language="VB.NET" Value="Public Property CommandLine As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -117,17 +114,49 @@
             </remarks>
       </Docs>
     </Member>
+    <Member MemberName="ContainerSettings">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.Batch.Protocol.Models.TaskContainerSettings ContainerSettings { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Batch.Protocol.Models.TaskContainerSettings ContainerSettings" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Batch.Protocol.Models.StartTask.ContainerSettings" />
+      <MemberSignature Language="VB.NET" Value="Public Property ContainerSettings As TaskContainerSettings" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="containerSettings")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Batch.Protocol.Models.TaskContainerSettings</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the settings for the container under which the start
+            task runs.
+            </summary>
+        <value>To be added.</value>
+        <remarks>
+            When this is specified, all directories recursively below the
+            AZ_BATCH_NODE_ROOT_DIR (the root of Azure Batch directories on the
+            node) are mapped into the container, all task environment variables
+            are mapped into the container, and the task command line is
+            executed in the container.
+            </remarks>
+      </Docs>
+    </Member>
     <Member MemberName="EnvironmentSettings">
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.Batch.Protocol.Models.EnvironmentSetting&gt; EnvironmentSettings { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Batch.Protocol.Models.EnvironmentSetting&gt; EnvironmentSettings" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Batch.Protocol.Models.StartTask.EnvironmentSettings" />
+      <MemberSignature Language="VB.NET" Value="Public Property EnvironmentSettings As IList(Of EnvironmentSetting)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -150,13 +179,12 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; MaxTaskRetryCount { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; MaxTaskRetryCount" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Batch.Protocol.Models.StartTask.MaxTaskRetryCount" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaxTaskRetryCount As Nullable(Of Integer)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -187,13 +215,12 @@
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.Batch.Protocol.Models.ResourceFile&gt; ResourceFiles { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Batch.Protocol.Models.ResourceFile&gt; ResourceFiles" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Batch.Protocol.Models.StartTask.ResourceFiles" />
+      <MemberSignature Language="VB.NET" Value="Public Property ResourceFiles As IList(Of ResourceFile)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -209,20 +236,22 @@
             to the compute node before running the command line.
             </summary>
         <value>To be added.</value>
-        <remarks>To be added.</remarks>
+        <remarks>
+            Files listed under this element are located in the task's working
+            directory.
+            </remarks>
       </Docs>
     </Member>
     <Member MemberName="UserIdentity">
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Batch.Protocol.Models.UserIdentity UserIdentity { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Batch.Protocol.Models.UserIdentity UserIdentity" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Batch.Protocol.Models.StartTask.UserIdentity" />
+      <MemberSignature Language="VB.NET" Value="Public Property UserIdentity As UserIdentity" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -247,13 +276,12 @@
       <MemberSignature Language="C#" Value="public virtual void Validate ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Validate() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Batch.Protocol.Models.StartTask.Validate" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub Validate ()" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -273,13 +301,12 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; WaitForSuccess { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; WaitForSuccess" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Batch.Protocol.Models.StartTask.WaitForSuccess" />
+      <MemberSignature Language="VB.NET" Value="Public Property WaitForSuccess As Nullable(Of Boolean)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -302,8 +329,8 @@
             (maxTaskRetryCount). If the task has still not completed
             successfully after all retries, then the Batch service marks the
             compute node unusable, and will not schedule tasks to it. This
-            condition can be detected via the node state and scheduling error
-            detail. If false, the Batch service will not wait for the start
+            condition can be detected via the node state and failure info
+            details. If false, the Batch service will not wait for the start
             task to complete. In this case, other tasks can start executing on
             the compute node while the start task is still running; and even if
             the start task fails, new tasks will continue to be scheduled on

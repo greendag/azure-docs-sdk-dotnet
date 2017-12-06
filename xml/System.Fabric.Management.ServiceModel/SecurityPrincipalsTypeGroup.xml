@@ -2,10 +2,10 @@
   <TypeSignature Language="C#" Value="public class SecurityPrincipalsTypeGroup" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SecurityPrincipalsTypeGroup extends System.Object" />
   <TypeSignature Language="DocId" Value="T:System.Fabric.Management.ServiceModel.SecurityPrincipalsTypeGroup" />
+  <TypeSignature Language="VB.NET" Value="Public Class SecurityPrincipalsTypeGroup" />
   <AssemblyInfo>
     <AssemblyName>System.Fabric.Management.ServiceModel</AssemblyName>
-    <AssemblyVersion>5.0.0.0</AssemblyVersion>
-    <AssemblyVersion>255.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -31,11 +31,11 @@
       <MemberSignature Language="C#" Value="public SecurityPrincipalsTypeGroup ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.Management.ServiceModel.SecurityPrincipalsTypeGroup.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric.Management.ServiceModel</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -47,11 +47,11 @@
       <MemberSignature Language="C#" Value="public object[] Membership { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object[] Membership" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Management.ServiceModel.SecurityPrincipalsTypeGroup.Membership" />
+      <MemberSignature Language="VB.NET" Value="Public Property Membership As Object()" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric.Management.ServiceModel</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -77,11 +77,11 @@
       <MemberSignature Language="C#" Value="public string Name { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Name" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Management.ServiceModel.SecurityPrincipalsTypeGroup.Name" />
+      <MemberSignature Language="VB.NET" Value="Public Property Name As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric.Management.ServiceModel</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -101,11 +101,11 @@
       <MemberSignature Language="C#" Value="public System.Fabric.Management.ServiceModel.SecurityPrincipalsTypeGroupNTLMAuthenticationPolicy NTLMAuthenticationPolicy { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Fabric.Management.ServiceModel.SecurityPrincipalsTypeGroupNTLMAuthenticationPolicy NTLMAuthenticationPolicy" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Management.ServiceModel.SecurityPrincipalsTypeGroup.NTLMAuthenticationPolicy" />
+      <MemberSignature Language="VB.NET" Value="Public Property NTLMAuthenticationPolicy As SecurityPrincipalsTypeGroupNTLMAuthenticationPolicy" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric.Management.ServiceModel</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Fabric.Management.ServiceModel.SecurityPrincipalsTypeGroupNTLMAuthenticationPolicy</ReturnType>

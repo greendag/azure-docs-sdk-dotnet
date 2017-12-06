@@ -2,10 +2,10 @@
   <TypeSignature Language="C#" Value="public abstract class ServiceProxy : Microsoft.ServiceFabric.Services.Remoting.Builder.ProxyBase, Microsoft.ServiceFabric.Services.Remoting.Client.IServiceProxy" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit ServiceProxy extends Microsoft.ServiceFabric.Services.Remoting.Builder.ProxyBase implements class Microsoft.ServiceFabric.Services.Remoting.Client.IServiceProxy" />
   <TypeSignature Language="DocId" Value="T:Microsoft.ServiceFabric.Services.Remoting.Client.ServiceProxy" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class ServiceProxy&#xA;Inherits ProxyBase&#xA;Implements IServiceProxy" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.ServiceFabric.Services.Remoting</AssemblyName>
-    <AssemblyVersion>5.0.0.0</AssemblyVersion>
-    <AssemblyVersion>255.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Microsoft.ServiceFabric.Services.Remoting.Builder.ProxyBase</BaseTypeName>
@@ -26,11 +26,11 @@
       <MemberSignature Language="C#" Value="protected ServiceProxy ();" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Services.Remoting.Client.ServiceProxy.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Services.Remoting</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -44,9 +44,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Services.Remoting.Client.ServiceProxy.Create``1(System.Uri,Microsoft.ServiceFabric.Services.Client.ServicePartitionKey,Microsoft.ServiceFabric.Services.Communication.Client.TargetReplicaSelector,System.String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Services.Remoting</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>TServiceInterface</ReturnType>
@@ -85,11 +84,11 @@
       <MemberSignature Language="C#" Value="public Type ServiceInterfaceType { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Type ServiceInterfaceType" />
       <MemberSignature Language="DocId" Value="P:Microsoft.ServiceFabric.Services.Remoting.Client.ServiceProxy.ServiceInterfaceType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ServiceInterfaceType As Type" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Services.Remoting</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Type</ReturnType>
@@ -103,21 +102,42 @@
       </Docs>
     </Member>
     <Member MemberName="ServicePartitionClient">
-      <MemberSignature Language="C#" Value="public Microsoft.ServiceFabric.Services.Remoting.Client.IServiceRemotingPartitionClient ServicePartitionClient { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.ServiceFabric.Services.Remoting.Client.IServiceRemotingPartitionClient ServicePartitionClient" />
+      <MemberSignature Language="C#" Value="public Microsoft.ServiceFabric.Services.Remoting.V1.Client.IServiceRemotingPartitionClient ServicePartitionClient { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.ServiceFabric.Services.Remoting.V1.Client.IServiceRemotingPartitionClient ServicePartitionClient" />
       <MemberSignature Language="DocId" Value="P:Microsoft.ServiceFabric.Services.Remoting.Client.ServiceProxy.ServicePartitionClient" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ServicePartitionClient As IServiceRemotingPartitionClient" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Services.Remoting</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Microsoft.ServiceFabric.Services.Remoting.Client.IServiceRemotingPartitionClient</ReturnType>
+        <ReturnType>Microsoft.ServiceFabric.Services.Remoting.V1.Client.IServiceRemotingPartitionClient</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-            The service partition client used to send requests to the service.
+            The V1 Service partition client used to send requests to the service.
+            </summary>
+        <value>ServicePartitionClient used by the ServiceProxy</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ServicePartitionClient2">
+      <MemberSignature Language="C#" Value="public Microsoft.ServiceFabric.Services.Remoting.V2.Client.IServiceRemotingPartitionClient ServicePartitionClient2 { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.ServiceFabric.Services.Remoting.V2.Client.IServiceRemotingPartitionClient ServicePartitionClient2" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ServiceFabric.Services.Remoting.Client.ServiceProxy.ServicePartitionClient2" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ServicePartitionClient2 As IServiceRemotingPartitionClient" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.ServiceFabric.Services.Remoting</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.ServiceFabric.Services.Remoting.V2.Client.IServiceRemotingPartitionClient</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The V2 Service partition client used to send requests to the service.
             </summary>
         <value>ServicePartitionClient used by the ServiceProxy</value>
         <remarks>To be added.</remarks>

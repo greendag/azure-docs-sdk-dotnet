@@ -2,9 +2,9 @@
   <TypeSignature Language="C#" Value="public sealed class AuthenticationContext" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed AuthenticationContext extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class AuthenticationContext" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-    <AssemblyVersion>3.13.9.1126</AssemblyVersion>
     <AssemblyVersion>3.16.0.14</AssemblyVersion>
   </AssemblyInfo>
   <Base>
@@ -22,10 +22,10 @@
       <MemberSignature Language="C#" Value="public AuthenticationContext (string authority);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string authority) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (authority As String)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -47,7 +47,6 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -68,10 +67,10 @@
       <MemberSignature Language="C#" Value="public AuthenticationContext (string authority, bool validateAuthority);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string authority, bool validateAuthority) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext.#ctor(System.String,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (authority As String, validateAuthority As Boolean)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -95,7 +94,6 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -118,10 +116,10 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.IdentityModel.Clients.ActiveDirectory.DeviceCodeResult&gt; AcquireDeviceCodeAsync (string resource, string clientId);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class Microsoft.IdentityModel.Clients.ActiveDirectory.DeviceCodeResult&gt; AcquireDeviceCodeAsync(string resource, string clientId) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext.AcquireDeviceCodeAsync(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AcquireDeviceCodeAsync (resource As String, clientId As String) As Task(Of DeviceCodeResult)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -150,10 +148,10 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.IdentityModel.Clients.ActiveDirectory.DeviceCodeResult&gt; AcquireDeviceCodeAsync (string resource, string clientId, string extraQueryParameters);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class Microsoft.IdentityModel.Clients.ActiveDirectory.DeviceCodeResult&gt; AcquireDeviceCodeAsync(string resource, string clientId, string extraQueryParameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext.AcquireDeviceCodeAsync(System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AcquireDeviceCodeAsync (resource As String, clientId As String, extraQueryParameters As String) As Task(Of DeviceCodeResult)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -187,7 +185,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -219,7 +216,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -248,10 +244,10 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult&gt; AcquireTokenAsync (string resource, Microsoft.IdentityModel.Clients.ActiveDirectory.IClientAssertionCertificate clientCertificate);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult&gt; AcquireTokenAsync(string resource, class Microsoft.IdentityModel.Clients.ActiveDirectory.IClientAssertionCertificate clientCertificate) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext.AcquireTokenAsync(System.String,Microsoft.IdentityModel.Clients.ActiveDirectory.IClientAssertionCertificate)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AcquireTokenAsync (resource As String, clientCertificate As IClientAssertionCertificate) As Task(Of AuthenticationResult)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -283,7 +279,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -317,7 +312,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -351,7 +345,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -385,7 +378,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -416,10 +408,10 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult&gt; AcquireTokenAsync (string resource, string clientId, Uri redirectUri, Microsoft.IdentityModel.Clients.ActiveDirectory.IPlatformParameters parameters);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult&gt; AcquireTokenAsync(string resource, string clientId, class System.Uri redirectUri, class Microsoft.IdentityModel.Clients.ActiveDirectory.IPlatformParameters parameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext.AcquireTokenAsync(System.String,System.String,System.Uri,Microsoft.IdentityModel.Clients.ActiveDirectory.IPlatformParameters)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AcquireTokenAsync (resource As String, clientId As String, redirectUri As Uri, parameters As IPlatformParameters) As Task(Of AuthenticationResult)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -452,10 +444,10 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult&gt; AcquireTokenAsync (string resource, string clientId, Uri redirectUri, Microsoft.IdentityModel.Clients.ActiveDirectory.IPlatformParameters parameters, Microsoft.IdentityModel.Clients.ActiveDirectory.UserIdentifier userId);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult&gt; AcquireTokenAsync(string resource, string clientId, class System.Uri redirectUri, class Microsoft.IdentityModel.Clients.ActiveDirectory.IPlatformParameters parameters, class Microsoft.IdentityModel.Clients.ActiveDirectory.UserIdentifier userId) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext.AcquireTokenAsync(System.String,System.String,System.Uri,Microsoft.IdentityModel.Clients.ActiveDirectory.IPlatformParameters,Microsoft.IdentityModel.Clients.ActiveDirectory.UserIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AcquireTokenAsync (resource As String, clientId As String, redirectUri As Uri, parameters As IPlatformParameters, userId As UserIdentifier) As Task(Of AuthenticationResult)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -491,10 +483,10 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult&gt; AcquireTokenAsync (string resource, string clientId, Uri redirectUri, Microsoft.IdentityModel.Clients.ActiveDirectory.IPlatformParameters parameters, Microsoft.IdentityModel.Clients.ActiveDirectory.UserIdentifier userId, string extraQueryParameters);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult&gt; AcquireTokenAsync(string resource, string clientId, class System.Uri redirectUri, class Microsoft.IdentityModel.Clients.ActiveDirectory.IPlatformParameters parameters, class Microsoft.IdentityModel.Clients.ActiveDirectory.UserIdentifier userId, string extraQueryParameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext.AcquireTokenAsync(System.String,System.String,System.Uri,Microsoft.IdentityModel.Clients.ActiveDirectory.IPlatformParameters,Microsoft.IdentityModel.Clients.ActiveDirectory.UserIdentifier,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AcquireTokenAsync (resource As String, clientId As String, redirectUri As Uri, parameters As IPlatformParameters, userId As UserIdentifier, extraQueryParameters As String) As Task(Of AuthenticationResult)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -532,6 +524,7 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult&gt; AcquireTokenAsync (string resource, string clientId, Uri redirectUri, Microsoft.IdentityModel.Clients.ActiveDirectory.IPlatformParameters parameters, Microsoft.IdentityModel.Clients.ActiveDirectory.UserIdentifier userId, string extraQueryParameters, string claims);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult&gt; AcquireTokenAsync(string resource, string clientId, class System.Uri redirectUri, class Microsoft.IdentityModel.Clients.ActiveDirectory.IPlatformParameters parameters, class Microsoft.IdentityModel.Clients.ActiveDirectory.UserIdentifier userId, string extraQueryParameters, string claims) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext.AcquireTokenAsync(System.String,System.String,System.Uri,Microsoft.IdentityModel.Clients.ActiveDirectory.IPlatformParameters,Microsoft.IdentityModel.Clients.ActiveDirectory.UserIdentifier,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AcquireTokenAsync (resource As String, clientId As String, redirectUri As Uri, parameters As IPlatformParameters, userId As UserIdentifier, extraQueryParameters As String, claims As String) As Task(Of AuthenticationResult)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
@@ -576,7 +569,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -611,7 +603,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -643,10 +634,10 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult&gt; AcquireTokenByAuthorizationCodeAsync (string authorizationCode, Uri redirectUri, Microsoft.IdentityModel.Clients.ActiveDirectory.IClientAssertionCertificate clientCertificate);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult&gt; AcquireTokenByAuthorizationCodeAsync(string authorizationCode, class System.Uri redirectUri, class Microsoft.IdentityModel.Clients.ActiveDirectory.IClientAssertionCertificate clientCertificate) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext.AcquireTokenByAuthorizationCodeAsync(System.String,System.Uri,Microsoft.IdentityModel.Clients.ActiveDirectory.IClientAssertionCertificate)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AcquireTokenByAuthorizationCodeAsync (authorizationCode As String, redirectUri As Uri, clientCertificate As IClientAssertionCertificate) As Task(Of AuthenticationResult)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -681,7 +672,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -718,7 +708,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -752,10 +741,10 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult&gt; AcquireTokenByAuthorizationCodeAsync (string authorizationCode, Uri redirectUri, Microsoft.IdentityModel.Clients.ActiveDirectory.IClientAssertionCertificate clientCertificate, string resource);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult&gt; AcquireTokenByAuthorizationCodeAsync(string authorizationCode, class System.Uri redirectUri, class Microsoft.IdentityModel.Clients.ActiveDirectory.IClientAssertionCertificate clientCertificate, string resource) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext.AcquireTokenByAuthorizationCodeAsync(System.String,System.Uri,Microsoft.IdentityModel.Clients.ActiveDirectory.IClientAssertionCertificate,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AcquireTokenByAuthorizationCodeAsync (authorizationCode As String, redirectUri As Uri, clientCertificate As IClientAssertionCertificate, resource As String) As Task(Of AuthenticationResult)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -792,7 +781,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -820,10 +808,10 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult&gt; AcquireTokenSilentAsync (string resource, string clientId);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult&gt; AcquireTokenSilentAsync(string resource, string clientId) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext.AcquireTokenSilentAsync(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AcquireTokenSilentAsync (resource As String, clientId As String) As Task(Of AuthenticationResult)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -855,7 +843,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -889,7 +876,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -920,10 +906,10 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult&gt; AcquireTokenSilentAsync (string resource, Microsoft.IdentityModel.Clients.ActiveDirectory.IClientAssertionCertificate clientCertificate, Microsoft.IdentityModel.Clients.ActiveDirectory.UserIdentifier userId);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult&gt; AcquireTokenSilentAsync(string resource, class Microsoft.IdentityModel.Clients.ActiveDirectory.IClientAssertionCertificate clientCertificate, class Microsoft.IdentityModel.Clients.ActiveDirectory.UserIdentifier userId) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext.AcquireTokenSilentAsync(System.String,Microsoft.IdentityModel.Clients.ActiveDirectory.IClientAssertionCertificate,Microsoft.IdentityModel.Clients.ActiveDirectory.UserIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AcquireTokenSilentAsync (resource As String, clientCertificate As IClientAssertionCertificate, userId As UserIdentifier) As Task(Of AuthenticationResult)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -954,10 +940,10 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult&gt; AcquireTokenSilentAsync (string resource, string clientId, Microsoft.IdentityModel.Clients.ActiveDirectory.UserIdentifier userId);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult&gt; AcquireTokenSilentAsync(string resource, string clientId, class Microsoft.IdentityModel.Clients.ActiveDirectory.UserIdentifier userId) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext.AcquireTokenSilentAsync(System.String,System.String,Microsoft.IdentityModel.Clients.ActiveDirectory.UserIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AcquireTokenSilentAsync (resource As String, clientId As String, userId As UserIdentifier) As Task(Of AuthenticationResult)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -988,10 +974,10 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult&gt; AcquireTokenSilentAsync (string resource, string clientId, Microsoft.IdentityModel.Clients.ActiveDirectory.UserIdentifier userId, Microsoft.IdentityModel.Clients.ActiveDirectory.IPlatformParameters parameters);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult&gt; AcquireTokenSilentAsync(string resource, string clientId, class Microsoft.IdentityModel.Clients.ActiveDirectory.UserIdentifier userId, class Microsoft.IdentityModel.Clients.ActiveDirectory.IPlatformParameters parameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext.AcquireTokenSilentAsync(System.String,System.String,Microsoft.IdentityModel.Clients.ActiveDirectory.UserIdentifier,Microsoft.IdentityModel.Clients.ActiveDirectory.IPlatformParameters)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AcquireTokenSilentAsync (resource As String, clientId As String, userId As UserIdentifier, parameters As IPlatformParameters) As Task(Of AuthenticationResult)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1024,10 +1010,10 @@
       <MemberSignature Language="C#" Value="public string Authority { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Authority" />
       <MemberSignature Language="DocId" Value="P:Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext.Authority" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Authority As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1045,10 +1031,10 @@
       <MemberSignature Language="C#" Value="public Guid CorrelationId { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Guid CorrelationId" />
       <MemberSignature Language="DocId" Value="P:Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext.CorrelationId" />
+      <MemberSignature Language="VB.NET" Value="Public Property CorrelationId As Guid" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1067,10 +1053,10 @@
       <MemberSignature Language="C#" Value="public bool ExtendedLifeTimeEnabled { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool ExtendedLifeTimeEnabled" />
       <MemberSignature Language="DocId" Value="P:Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext.ExtendedLifeTimeEnabled" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExtendedLifeTimeEnabled As Boolean" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1088,10 +1074,10 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Uri&gt; GetAuthorizationRequestUrlAsync (string resource, string clientId, Uri redirectUri, Microsoft.IdentityModel.Clients.ActiveDirectory.UserIdentifier userId, string extraQueryParameters);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class System.Uri&gt; GetAuthorizationRequestUrlAsync(string resource, string clientId, class System.Uri redirectUri, class Microsoft.IdentityModel.Clients.ActiveDirectory.UserIdentifier userId, string extraQueryParameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext.GetAuthorizationRequestUrlAsync(System.String,System.String,System.Uri,Microsoft.IdentityModel.Clients.ActiveDirectory.UserIdentifier,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetAuthorizationRequestUrlAsync (resource As String, clientId As String, redirectUri As Uri, userId As UserIdentifier, extraQueryParameters As String) As Task(Of Uri)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1126,6 +1112,7 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Uri&gt; GetAuthorizationRequestUrlAsync (string resource, string clientId, Uri redirectUri, Microsoft.IdentityModel.Clients.ActiveDirectory.UserIdentifier userId, string extraQueryParameters, string claims);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class System.Uri&gt; GetAuthorizationRequestUrlAsync(string resource, string clientId, class System.Uri redirectUri, class Microsoft.IdentityModel.Clients.ActiveDirectory.UserIdentifier userId, string extraQueryParameters, string claims) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext.GetAuthorizationRequestUrlAsync(System.String,System.String,System.Uri,Microsoft.IdentityModel.Clients.ActiveDirectory.UserIdentifier,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetAuthorizationRequestUrlAsync (resource As String, clientId As String, redirectUri As Uri, userId As UserIdentifier, extraQueryParameters As String, claims As String) As Task(Of Uri)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
@@ -1165,10 +1152,10 @@
       <MemberSignature Language="C#" Value="public Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache TokenCache { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache TokenCache" />
       <MemberSignature Language="DocId" Value="P:Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext.TokenCache" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TokenCache As TokenCache" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1189,10 +1176,10 @@
       <MemberSignature Language="C#" Value="public bool ValidateAuthority { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool ValidateAuthority" />
       <MemberSignature Language="DocId" Value="P:Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext.ValidateAuthority" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ValidateAuthority As Boolean" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

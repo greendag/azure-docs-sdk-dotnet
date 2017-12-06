@@ -2,9 +2,10 @@
   <TypeSignature Language="C#" Value="public enum ReservedUnitType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ReservedUnitType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.WindowsAzure.MediaServices.Client.ReservedUnitType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ReservedUnitType" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client</AssemblyName>
-    <AssemblyVersion>3.8.0.5</AssemblyVersion>
+    <AssemblyVersion>4.0.0.4</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
@@ -18,14 +19,16 @@
       <MemberSignature Language="C#" Value="Basic" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.WindowsAzure.MediaServices.Client.ReservedUnitType Basic = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.MediaServices.Client.ReservedUnitType.Basic" />
+      <MemberSignature Language="VB.NET" Value="Basic" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.MediaServices.Client.ReservedUnitType</ReturnType>
       </ReturnValue>
+      <MemberValue>0</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -34,14 +37,16 @@
       <MemberSignature Language="C#" Value="Premium" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.WindowsAzure.MediaServices.Client.ReservedUnitType Premium = int32(2)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.MediaServices.Client.ReservedUnitType.Premium" />
+      <MemberSignature Language="VB.NET" Value="Premium" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.MediaServices.Client.ReservedUnitType</ReturnType>
       </ReturnValue>
+      <MemberValue>2</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -50,14 +55,16 @@
       <MemberSignature Language="C#" Value="Standard" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.WindowsAzure.MediaServices.Client.ReservedUnitType Standard = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.MediaServices.Client.ReservedUnitType.Standard" />
+      <MemberSignature Language="VB.NET" Value="Standard" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.MediaServices.Client.ReservedUnitType</ReturnType>
       </ReturnValue>
+      <MemberValue>1</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>

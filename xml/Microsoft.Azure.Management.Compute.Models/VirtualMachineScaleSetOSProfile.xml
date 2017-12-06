@@ -2,9 +2,9 @@
   <TypeSignature Language="C#" Value="public class VirtualMachineScaleSetOSProfile" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit VirtualMachineScaleSetOSProfile extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Compute.Models.VirtualMachineScaleSetOSProfile" />
+  <TypeSignature Language="VB.NET" Value="Public Class VirtualMachineScaleSetOSProfile" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-    <AssemblyVersion>14.0.0.0</AssemblyVersion>
     <AssemblyVersion>16.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
@@ -22,10 +22,10 @@
       <MemberSignature Language="C#" Value="public VirtualMachineScaleSetOSProfile ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Models.VirtualMachineScaleSetOSProfile.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
@@ -44,7 +44,6 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -79,10 +78,10 @@
       <MemberSignature Language="C#" Value="public string AdminPassword { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string AdminPassword" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Compute.Models.VirtualMachineScaleSetOSProfile.AdminPassword" />
+      <MemberSignature Language="VB.NET" Value="Public Property AdminPassword As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -105,10 +104,10 @@
       <MemberSignature Language="C#" Value="public string AdminUsername { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string AdminUsername" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Compute.Models.VirtualMachineScaleSetOSProfile.AdminUsername" />
+      <MemberSignature Language="VB.NET" Value="Public Property AdminUsername As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -131,10 +130,10 @@
       <MemberSignature Language="C#" Value="public string ComputerNamePrefix { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string ComputerNamePrefix" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Compute.Models.VirtualMachineScaleSetOSProfile.ComputerNamePrefix" />
+      <MemberSignature Language="VB.NET" Value="Public Property ComputerNamePrefix As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -157,10 +156,10 @@
       <MemberSignature Language="C#" Value="public string CustomData { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string CustomData" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Compute.Models.VirtualMachineScaleSetOSProfile.CustomData" />
+      <MemberSignature Language="VB.NET" Value="Public Property CustomData As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -183,10 +182,10 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.Compute.Models.LinuxConfiguration LinuxConfiguration { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.Compute.Models.LinuxConfiguration LinuxConfiguration" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Compute.Models.VirtualMachineScaleSetOSProfile.LinuxConfiguration" />
+      <MemberSignature Language="VB.NET" Value="Public Property LinuxConfiguration As LinuxConfiguration" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -209,10 +208,10 @@
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Compute.Models.VaultSecretGroup&gt; Secrets { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.Compute.Models.VaultSecretGroup&gt; Secrets" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Compute.Models.VirtualMachineScaleSetOSProfile.Secrets" />
+      <MemberSignature Language="VB.NET" Value="Public Property Secrets As IList(Of VaultSecretGroup)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -235,10 +234,10 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.Compute.Models.WindowsConfiguration WindowsConfiguration { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.Compute.Models.WindowsConfiguration WindowsConfiguration" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Compute.Models.VirtualMachineScaleSetOSProfile.WindowsConfiguration" />
+      <MemberSignature Language="VB.NET" Value="Public Property WindowsConfiguration As WindowsConfiguration" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>

@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public interface IServersOperations" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IServersOperations" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Sql.Fluent.IServersOperations" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IServersOperations" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
     <AssemblyVersion>1.0.0.60</AssemblyVersion>
@@ -20,8 +21,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Sql.Fluent.IServersOperations.CreateOrUpdateFirewallRuleWithHttpMessagesAsync(System.String,System.String,System.String,Microsoft.Azure.Management.Sql.Fluent.Models.ServerFirewallRuleInner,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.AzureOperationResponse&lt;Microsoft.Azure.Management.Sql.Fluent.Models.ServerFirewallRuleInner&gt;&gt;</ReturnType>
@@ -77,8 +78,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Sql.Fluent.IServersOperations.CreateOrUpdateWithHttpMessagesAsync(System.String,System.String,Microsoft.Azure.Management.Sql.Fluent.Models.ServerInner,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.AzureOperationResponse&lt;Microsoft.Azure.Management.Sql.Fluent.Models.ServerInner&gt;&gt;</ReturnType>
@@ -130,8 +131,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Sql.Fluent.IServersOperations.DeleteFirewallRuleWithHttpMessagesAsync(System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.AzureOperationResponse&gt;</ReturnType>
@@ -180,8 +181,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Sql.Fluent.IServersOperations.DeleteWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.AzureOperationResponse&gt;</ReturnType>
@@ -226,8 +227,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Sql.Fluent.IServersOperations.GetByResourceGroupWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.AzureOperationResponse&lt;Microsoft.Azure.Management.Sql.Fluent.Models.ServerInner&gt;&gt;</ReturnType>
@@ -275,8 +276,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Sql.Fluent.IServersOperations.GetFirewallRuleWithHttpMessagesAsync(System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.AzureOperationResponse&lt;Microsoft.Azure.Management.Sql.Fluent.Models.ServerFirewallRuleInner&gt;&gt;</ReturnType>
@@ -328,8 +329,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Sql.Fluent.IServersOperations.GetServiceObjectiveWithHttpMessagesAsync(System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.AzureOperationResponse&lt;Microsoft.Azure.Management.Sql.Fluent.Models.ServiceObjectiveInner&gt;&gt;</ReturnType>
@@ -381,8 +382,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Sql.Fluent.IServersOperations.ListByResourceGroupWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.AzureOperationResponse&lt;System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Management.Sql.Fluent.Models.ServerInner&gt;&gt;&gt;</ReturnType>
@@ -426,8 +427,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Sql.Fluent.IServersOperations.ListFirewallRulesWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.AzureOperationResponse&lt;System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Management.Sql.Fluent.Models.ServerFirewallRuleInner&gt;&gt;&gt;</ReturnType>
@@ -475,8 +476,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Sql.Fluent.IServersOperations.ListServiceObjectivesWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.AzureOperationResponse&lt;System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Management.Sql.Fluent.Models.ServiceObjectiveInner&gt;&gt;&gt;</ReturnType>
@@ -524,8 +525,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Sql.Fluent.IServersOperations.ListUsagesWithHttpMessagesAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.AzureOperationResponse&lt;System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Management.Sql.Fluent.Models.ServerMetric&gt;&gt;&gt;</ReturnType>
@@ -573,8 +574,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Sql.Fluent.IServersOperations.ListWithHttpMessagesAsync(System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.AzureOperationResponse&lt;System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Management.Sql.Fluent.Models.ServerInner&gt;&gt;&gt;</ReturnType>

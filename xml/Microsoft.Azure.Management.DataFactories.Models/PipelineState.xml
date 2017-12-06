@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public static class PipelineState" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit PipelineState extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.DataFactories.Models.PipelineState" />
+  <TypeSignature Language="VB.NET" Value="Public Class PipelineState" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -21,10 +22,11 @@
       <MemberSignature Language="C#" Value="public const string Completed;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string Completed" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.DataFactories.Models.PipelineState.Completed" />
+      <MemberSignature Language="VB.NET" Value="Public Const Completed As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -41,10 +43,11 @@
       <MemberSignature Language="C#" Value="public const string Deleting;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string Deleting" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.DataFactories.Models.PipelineState.Deleting" />
+      <MemberSignature Language="VB.NET" Value="Public Const Deleting As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -60,10 +63,11 @@
       <MemberSignature Language="C#" Value="public const string Inactive;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string Inactive" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.DataFactories.Models.PipelineState.Inactive" />
+      <MemberSignature Language="VB.NET" Value="Public Const Inactive As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -80,10 +84,11 @@
       <MemberSignature Language="C#" Value="public const string Initializing;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string Initializing" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.DataFactories.Models.PipelineState.Initializing" />
+      <MemberSignature Language="VB.NET" Value="Public Const Initializing As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -99,10 +104,11 @@
       <MemberSignature Language="C#" Value="public const string NotSpecified;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string NotSpecified" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.DataFactories.Models.PipelineState.NotSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Const NotSpecified As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -118,10 +124,11 @@
       <MemberSignature Language="C#" Value="public const string Paused;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string Paused" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.DataFactories.Models.PipelineState.Paused" />
+      <MemberSignature Language="VB.NET" Value="Public Const Paused As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -137,10 +144,11 @@
       <MemberSignature Language="C#" Value="public const string Running;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string Running" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.DataFactories.Models.PipelineState.Running" />
+      <MemberSignature Language="VB.NET" Value="Public Const Running As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -156,10 +164,11 @@
       <MemberSignature Language="C#" Value="public const string Updating;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string Updating" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.DataFactories.Models.PipelineState.Updating" />
+      <MemberSignature Language="VB.NET" Value="Public Const Updating As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

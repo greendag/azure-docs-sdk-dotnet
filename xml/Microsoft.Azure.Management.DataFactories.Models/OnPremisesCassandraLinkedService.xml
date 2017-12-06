@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public class OnPremisesCassandraLinkedService : Microsoft.Azure.Management.DataFactories.Models.LinkedServiceTypeProperties" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit OnPremisesCassandraLinkedService extends Microsoft.Azure.Management.DataFactories.Models.LinkedServiceTypeProperties" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.DataFactories.Models.OnPremisesCassandraLinkedService" />
+  <TypeSignature Language="VB.NET" Value="Public Class OnPremisesCassandraLinkedService&#xA;Inherits LinkedServiceTypeProperties" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -26,10 +27,11 @@
       <MemberSignature Language="C#" Value="public OnPremisesCassandraLinkedService ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataFactories.Models.OnPremisesCassandraLinkedService.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -43,10 +45,11 @@
       <MemberSignature Language="C#" Value="public OnPremisesCassandraLinkedService (string host, string authenticationType, string gatewayName);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string host, string authenticationType, string gatewayName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataFactories.Models.OnPremisesCassandraLinkedService.#ctor(System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (host As String, authenticationType As String, gatewayName As String)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="host" Type="System.String" />
@@ -68,10 +71,11 @@
       <MemberSignature Language="C#" Value="public string AuthenticationType { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string AuthenticationType" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactories.Models.OnPremisesCassandraLinkedService.AuthenticationType" />
+      <MemberSignature Language="VB.NET" Value="Public Property AuthenticationType As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -93,10 +97,11 @@
       <MemberSignature Language="C#" Value="public string EncryptedCredential { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string EncryptedCredential" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactories.Models.OnPremisesCassandraLinkedService.EncryptedCredential" />
+      <MemberSignature Language="VB.NET" Value="Public Property EncryptedCredential As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -113,10 +118,11 @@
       <MemberSignature Language="C#" Value="public string GatewayName { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string GatewayName" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactories.Models.OnPremisesCassandraLinkedService.GatewayName" />
+      <MemberSignature Language="VB.NET" Value="Public Property GatewayName As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -138,10 +144,11 @@
       <MemberSignature Language="C#" Value="public string Host { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Host" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactories.Models.OnPremisesCassandraLinkedService.Host" />
+      <MemberSignature Language="VB.NET" Value="Public Property Host As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -165,10 +172,11 @@
       <MemberSignature Language="C#" Value="public string Password { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Password" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactories.Models.OnPremisesCassandraLinkedService.Password" />
+      <MemberSignature Language="VB.NET" Value="Public Property Password As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -185,10 +193,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; Port { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; Port" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactories.Models.OnPremisesCassandraLinkedService.Port" />
+      <MemberSignature Language="VB.NET" Value="Public Property Port As Nullable(Of Integer)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
@@ -205,10 +214,11 @@
       <MemberSignature Language="C#" Value="public string Username { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Username" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactories.Models.OnPremisesCassandraLinkedService.Username" />
+      <MemberSignature Language="VB.NET" Value="Public Property Username As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

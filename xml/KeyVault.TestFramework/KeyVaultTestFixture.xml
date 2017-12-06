@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public class KeyVaultTestFixture : IDisposable" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit KeyVaultTestFixture extends System.Object implements class System.IDisposable" />
   <TypeSignature Language="DocId" Value="T:KeyVault.TestFramework.KeyVaultTestFixture" />
+  <TypeSignature Language="VB.NET" Value="Public Class KeyVaultTestFixture&#xA;Implements IDisposable" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.KeyVault.TestFramework</AssemblyName>
     <AssemblyVersion>2.0.2.0</AssemblyVersion>
@@ -23,10 +24,11 @@
       <MemberSignature Language="C#" Value="public KeyVaultTestFixture ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:KeyVault.TestFramework.KeyVaultTestFixture.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.2.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.KeyVault.TestFramework</AssemblyName>
+        <AssemblyVersion>2.0.2.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -38,10 +40,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.IdentityModel.Clients.ActiveDirectory.ClientCredential clientCredential;" />
       <MemberSignature Language="ILAsm" Value=".field public class Microsoft.IdentityModel.Clients.ActiveDirectory.ClientCredential clientCredential" />
       <MemberSignature Language="DocId" Value="F:KeyVault.TestFramework.KeyVaultTestFixture.clientCredential" />
+      <MemberSignature Language="VB.NET" Value="Public clientCredential As ClientCredential " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.2.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.KeyVault.TestFramework</AssemblyName>
+        <AssemblyVersion>2.0.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.IdentityModel.Clients.ActiveDirectory.ClientCredential</ReturnType>
@@ -55,10 +58,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.KeyVault.KeyVaultClient CreateKeyVaultClient ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Azure.KeyVault.KeyVaultClient CreateKeyVaultClient() cil managed" />
       <MemberSignature Language="DocId" Value="M:KeyVault.TestFramework.KeyVaultTestFixture.CreateKeyVaultClient" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateKeyVaultClient () As KeyVaultClient" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.2.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.KeyVault.TestFramework</AssemblyName>
+        <AssemblyVersion>2.0.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.KeyVault.KeyVaultClient</ReturnType>
@@ -74,10 +78,11 @@
       <MemberSignature Language="C#" Value="public void Dispose ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Dispose() cil managed" />
       <MemberSignature Language="DocId" Value="M:KeyVault.TestFramework.KeyVaultTestFixture.Dispose" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Dispose ()" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.2.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.KeyVault.TestFramework</AssemblyName>
+        <AssemblyVersion>2.0.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -92,10 +97,11 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;string&gt; GetAccessToken (string authority, string resource, string scope);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;string&gt; GetAccessToken(string authority, string resource, string scope) cil managed" />
       <MemberSignature Language="DocId" Value="M:KeyVault.TestFramework.KeyVaultTestFixture.GetAccessToken(System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetAccessToken (authority As String, resource As String, scope As String) As Task(Of String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.2.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.KeyVault.TestFramework</AssemblyName>
+        <AssemblyVersion>2.0.2.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -119,33 +125,15 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="GetHandlers">
-      <MemberSignature Language="C#" Value="public System.Net.Http.DelegatingHandler[] GetHandlers ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Net.Http.DelegatingHandler[] GetHandlers() cil managed" />
-      <MemberSignature Language="DocId" Value="M:KeyVault.TestFramework.KeyVaultTestFixture.GetHandlers" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyVersion>2.0.2.0</AssemblyVersion>
-        <AssemblyName>Microsoft.Azure.KeyVault.TestFramework</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Net.Http.DelegatingHandler[]</ReturnType>
-      </ReturnValue>
-      <Parameters />
-      <Docs>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="Initialize">
       <MemberSignature Language="C#" Value="public void Initialize (string className);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Initialize(string className) cil managed" />
       <MemberSignature Language="DocId" Value="M:KeyVault.TestFramework.KeyVaultTestFixture.Initialize(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Initialize (className As String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.2.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.KeyVault.TestFramework</AssemblyName>
+        <AssemblyVersion>2.0.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -163,10 +151,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.KeyVault.KeyIdentifier keyIdentifier;" />
       <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Azure.KeyVault.KeyIdentifier keyIdentifier" />
       <MemberSignature Language="DocId" Value="F:KeyVault.TestFramework.KeyVaultTestFixture.keyIdentifier" />
+      <MemberSignature Language="VB.NET" Value="Public keyIdentifier As KeyIdentifier " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.2.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.KeyVault.TestFramework</AssemblyName>
+        <AssemblyVersion>2.0.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.KeyVault.KeyIdentifier</ReturnType>
@@ -180,10 +169,11 @@
       <MemberSignature Language="C#" Value="public string keyName;" />
       <MemberSignature Language="ILAsm" Value=".field public string keyName" />
       <MemberSignature Language="DocId" Value="F:KeyVault.TestFramework.KeyVaultTestFixture.keyName" />
+      <MemberSignature Language="VB.NET" Value="Public keyName As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.2.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.KeyVault.TestFramework</AssemblyName>
+        <AssemblyVersion>2.0.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -197,10 +187,11 @@
       <MemberSignature Language="C#" Value="public string keyVersion;" />
       <MemberSignature Language="ILAsm" Value=".field public string keyVersion" />
       <MemberSignature Language="DocId" Value="F:KeyVault.TestFramework.KeyVaultTestFixture.keyVersion" />
+      <MemberSignature Language="VB.NET" Value="Public keyVersion As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.2.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.KeyVault.TestFramework</AssemblyName>
+        <AssemblyVersion>2.0.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -214,10 +205,11 @@
       <MemberSignature Language="C#" Value="public bool standardVaultOnly;" />
       <MemberSignature Language="ILAsm" Value=".field public bool standardVaultOnly" />
       <MemberSignature Language="DocId" Value="F:KeyVault.TestFramework.KeyVaultTestFixture.standardVaultOnly" />
+      <MemberSignature Language="VB.NET" Value="Public standardVaultOnly As Boolean " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.2.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.KeyVault.TestFramework</AssemblyName>
+        <AssemblyVersion>2.0.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -231,10 +223,11 @@
       <MemberSignature Language="C#" Value="public string vaultAddress;" />
       <MemberSignature Language="ILAsm" Value=".field public string vaultAddress" />
       <MemberSignature Language="DocId" Value="F:KeyVault.TestFramework.KeyVaultTestFixture.vaultAddress" />
+      <MemberSignature Language="VB.NET" Value="Public vaultAddress As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.2.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.KeyVault.TestFramework</AssemblyName>
+        <AssemblyVersion>2.0.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

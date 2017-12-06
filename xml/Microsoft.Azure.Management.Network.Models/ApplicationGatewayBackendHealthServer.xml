@@ -2,9 +2,9 @@
   <TypeSignature Language="C#" Value="public class ApplicationGatewayBackendHealthServer" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ApplicationGatewayBackendHealthServer extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Network.Models.ApplicationGatewayBackendHealthServer" />
+  <TypeSignature Language="VB.NET" Value="Public Class ApplicationGatewayBackendHealthServer" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-    <AssemblyVersion>9.1.0.0</AssemblyVersion>
     <AssemblyVersion>14.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
@@ -22,10 +22,10 @@
       <MemberSignature Language="C#" Value="public ApplicationGatewayBackendHealthServer ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.Models.ApplicationGatewayBackendHealthServer.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
@@ -41,6 +41,7 @@
       <MemberSignature Language="C#" Value="public ApplicationGatewayBackendHealthServer (string address = null, Microsoft.Azure.Management.Network.Models.NetworkInterfaceIPConfiguration ipConfiguration = null, string health = null);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string address, class Microsoft.Azure.Management.Network.Models.NetworkInterfaceIPConfiguration ipConfiguration, string health) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.Models.ApplicationGatewayBackendHealthServer.#ctor(System.String,Microsoft.Azure.Management.Network.Models.NetworkInterfaceIPConfiguration,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (Optional address As String = null, Optional ipConfiguration As NetworkInterfaceIPConfiguration = null, Optional health As String = null)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
@@ -64,42 +65,14 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public ApplicationGatewayBackendHealthServer (string address = null, Microsoft.Azure.Management.Network.Models.SubResource ipConfiguration = null, string health = null);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string address, class Microsoft.Azure.Management.Network.Models.SubResource ipConfiguration, string health) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.Models.ApplicationGatewayBackendHealthServer.#ctor(System.String,Microsoft.Azure.Management.Network.Models.SubResource,System.String)" />
-      <MemberType>Constructor</MemberType>
-      <AssemblyInfo>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
-        <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-      </AssemblyInfo>
-      <Parameters>
-        <Parameter Name="address" Type="System.String" />
-        <Parameter Name="ipConfiguration" Type="Microsoft.Azure.Management.Network.Models.SubResource" />
-        <Parameter Name="health" Type="System.String" />
-      </Parameters>
-      <Docs>
-        <param name="address">IP address or FQDN of backend server.</param>
-        <param name="ipConfiguration">Reference of IP configuration of
-            backend server.</param>
-        <param name="health">Health of backend server. Possible values are:
-            'Unknown', 'Up', 'Down', and 'Partial'. Possible values include:
-            'Unknown', 'Up', 'Down', 'Partial'</param>
-        <summary>
-            Initializes a new instance of the
-            ApplicationGatewayBackendHealthServer class.
-            </summary>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="Address">
       <MemberSignature Language="C#" Value="public string Address { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Address" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Network.Models.ApplicationGatewayBackendHealthServer.Address" />
+      <MemberSignature Language="VB.NET" Value="Public Property Address As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -122,10 +95,10 @@
       <MemberSignature Language="C#" Value="public string Health { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Health" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Network.Models.ApplicationGatewayBackendHealthServer.Health" />
+      <MemberSignature Language="VB.NET" Value="Public Property Health As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -149,10 +122,10 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.Network.Models.NetworkInterfaceIPConfiguration IpConfiguration { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.Network.Models.NetworkInterfaceIPConfiguration IpConfiguration" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Network.Models.ApplicationGatewayBackendHealthServer.IpConfiguration" />
+      <MemberSignature Language="VB.NET" Value="Public Property IpConfiguration As NetworkInterfaceIPConfiguration" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>

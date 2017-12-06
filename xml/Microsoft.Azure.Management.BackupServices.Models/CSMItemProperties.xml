@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public class CSMItemProperties" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CSMItemProperties extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.BackupServices.Models.CSMItemProperties" />
+  <TypeSignature Language="VB.NET" Value="Public Class CSMItemProperties" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.BackupServicesManagement</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -21,10 +22,11 @@
       <MemberSignature Language="C#" Value="public CSMItemProperties ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.BackupServices.Models.CSMItemProperties.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.BackupServicesManagement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -38,10 +40,11 @@
       <MemberSignature Language="C#" Value="public string ContainerId { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string ContainerId" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.BackupServices.Models.CSMItemProperties.ContainerId" />
+      <MemberSignature Language="VB.NET" Value="Public Property ContainerId As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.BackupServicesManagement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -58,10 +61,11 @@
       <MemberSignature Language="C#" Value="public string FriendlyName { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string FriendlyName" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.BackupServices.Models.CSMItemProperties.FriendlyName" />
+      <MemberSignature Language="VB.NET" Value="Public Property FriendlyName As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.BackupServicesManagement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -78,10 +82,11 @@
       <MemberSignature Language="C#" Value="public string ItemType { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string ItemType" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.BackupServices.Models.CSMItemProperties.ItemType" />
+      <MemberSignature Language="VB.NET" Value="Public Property ItemType As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.BackupServicesManagement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -98,10 +103,11 @@
       <MemberSignature Language="C#" Value="public string Status { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Status" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.BackupServices.Models.CSMItemProperties.Status" />
+      <MemberSignature Language="VB.NET" Value="Public Property Status As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.BackupServicesManagement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

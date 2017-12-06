@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public class JsonWebKey" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit JsonWebKey extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.KeyVault.WebKey.JsonWebKey" />
+  <TypeSignature Language="VB.NET" Value="Public Class JsonWebKey" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.KeyVault.WebKey</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -24,10 +25,11 @@
       <MemberSignature Language="C#" Value="public JsonWebKey ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.KeyVault.WebKey.JsonWebKey.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.KeyVault.WebKey</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -44,10 +46,11 @@
       <MemberSignature Language="C#" Value="public JsonWebKey (System.Security.Cryptography.Aes aesProvider);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Security.Cryptography.Aes aesProvider) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.KeyVault.WebKey.JsonWebKey.#ctor(System.Security.Cryptography.Aes)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (aesProvider As Aes)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.KeyVault.WebKey</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="aesProvider" Type="System.Security.Cryptography.Aes" />
@@ -64,8 +67,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.KeyVault.WebKey.JsonWebKey.#ctor(System.Security.Cryptography.RSAParameters)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.KeyVault.WebKey</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="rsaParameters" Type="System.Security.Cryptography.RSAParameters" />
@@ -80,10 +83,11 @@
       <MemberSignature Language="C#" Value="public JsonWebKey (System.Security.Cryptography.RSA rsaProvider, bool includePrivateParameters = false);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Security.Cryptography.RSA rsaProvider, bool includePrivateParameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.KeyVault.WebKey.JsonWebKey.#ctor(System.Security.Cryptography.RSA,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (rsaProvider As RSA, Optional includePrivateParameters As Boolean = false)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.KeyVault.WebKey</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="rsaProvider" Type="System.Security.Cryptography.RSA" />
@@ -100,10 +104,11 @@
       <MemberSignature Language="C#" Value="public void CanonicalizeRSA ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void CanonicalizeRSA() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.KeyVault.WebKey.JsonWebKey.CanonicalizeRSA" />
+      <MemberSignature Language="VB.NET" Value="Public Sub CanonicalizeRSA ()" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.KeyVault.WebKey</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -118,10 +123,11 @@
       <MemberSignature Language="C#" Value="public void ClearMemory ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void ClearMemory() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.KeyVault.WebKey.JsonWebKey.ClearMemory" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ClearMemory ()" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.KeyVault.WebKey</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -136,10 +142,11 @@
       <MemberSignature Language="C#" Value="public byte[] D { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance unsigned int8[] D" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.KeyVault.WebKey.JsonWebKey.D" />
+      <MemberSignature Language="VB.NET" Value="Public Property D As Byte()" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.KeyVault.WebKey</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -162,10 +169,11 @@
       <MemberSignature Language="C#" Value="public byte[] DP { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance unsigned int8[] DP" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.KeyVault.WebKey.JsonWebKey.DP" />
+      <MemberSignature Language="VB.NET" Value="Public Property DP As Byte()" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.KeyVault.WebKey</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -188,10 +196,11 @@
       <MemberSignature Language="C#" Value="public byte[] DQ { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance unsigned int8[] DQ" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.KeyVault.WebKey.JsonWebKey.DQ" />
+      <MemberSignature Language="VB.NET" Value="Public Property DQ As Byte()" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.KeyVault.WebKey</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -214,10 +223,11 @@
       <MemberSignature Language="C#" Value="public byte[] E { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance unsigned int8[] E" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.KeyVault.WebKey.JsonWebKey.E" />
+      <MemberSignature Language="VB.NET" Value="Public Property E As Byte()" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.KeyVault.WebKey</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -240,10 +250,11 @@
       <MemberSignature Language="C#" Value="public bool Equals (Microsoft.Azure.KeyVault.WebKey.JsonWebKey other);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool Equals(class Microsoft.Azure.KeyVault.WebKey.JsonWebKey other) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.KeyVault.WebKey.JsonWebKey.Equals(Microsoft.Azure.KeyVault.WebKey.JsonWebKey)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Equals (other As JsonWebKey) As Boolean" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.KeyVault.WebKey</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -262,10 +273,11 @@
       <MemberSignature Language="C#" Value="public override bool Equals (object obj);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.KeyVault.WebKey.JsonWebKey.Equals(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.KeyVault.WebKey</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -284,10 +296,11 @@
       <MemberSignature Language="C#" Value="public override int GetHashCode ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.KeyVault.WebKey.JsonWebKey.GetHashCode" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.KeyVault.WebKey</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -303,10 +316,11 @@
       <MemberSignature Language="C#" Value="public virtual bool HasPrivateKey ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool HasPrivateKey() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.KeyVault.WebKey.JsonWebKey.HasPrivateKey" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function HasPrivateKey () As Boolean" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.KeyVault.WebKey</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -322,10 +336,11 @@
       <MemberSignature Language="C#" Value="public virtual bool IsValid ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool IsValid() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.KeyVault.WebKey.JsonWebKey.IsValid" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function IsValid () As Boolean" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.KeyVault.WebKey</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -341,10 +356,11 @@
       <MemberSignature Language="C#" Value="public byte[] K { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance unsigned int8[] K" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.KeyVault.WebKey.JsonWebKey.K" />
+      <MemberSignature Language="VB.NET" Value="Public Property K As Byte()" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.KeyVault.WebKey</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -367,10 +383,11 @@
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;string&gt; KeyOps { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;string&gt; KeyOps" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.KeyVault.WebKey.JsonWebKey.KeyOps" />
+      <MemberSignature Language="VB.NET" Value="Public Property KeyOps As IList(Of String)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.KeyVault.WebKey</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -390,10 +407,11 @@
       <MemberSignature Language="C#" Value="public string Kid { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Kid" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.KeyVault.WebKey.JsonWebKey.Kid" />
+      <MemberSignature Language="VB.NET" Value="Public Property Kid As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.KeyVault.WebKey</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -413,10 +431,11 @@
       <MemberSignature Language="C#" Value="public string Kty { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Kty" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.KeyVault.WebKey.JsonWebKey.Kty" />
+      <MemberSignature Language="VB.NET" Value="Public Property Kty As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.KeyVault.WebKey</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -436,10 +455,11 @@
       <MemberSignature Language="C#" Value="public byte[] N { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance unsigned int8[] N" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.KeyVault.WebKey.JsonWebKey.N" />
+      <MemberSignature Language="VB.NET" Value="Public Property N As Byte()" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.KeyVault.WebKey</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -462,10 +482,11 @@
       <MemberSignature Language="C#" Value="public byte[] P { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance unsigned int8[] P" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.KeyVault.WebKey.JsonWebKey.P" />
+      <MemberSignature Language="VB.NET" Value="Public Property P As Byte()" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.KeyVault.WebKey</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -488,10 +509,11 @@
       <MemberSignature Language="C#" Value="public byte[] Q { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance unsigned int8[] Q" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.KeyVault.WebKey.JsonWebKey.Q" />
+      <MemberSignature Language="VB.NET" Value="Public Property Q As Byte()" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.KeyVault.WebKey</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -514,10 +536,11 @@
       <MemberSignature Language="C#" Value="public byte[] QI { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance unsigned int8[] QI" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.KeyVault.WebKey.JsonWebKey.QI" />
+      <MemberSignature Language="VB.NET" Value="Public Property QI As Byte()" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.KeyVault.WebKey</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -540,10 +563,11 @@
       <MemberSignature Language="C#" Value="public byte[] T { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance unsigned int8[] T" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.KeyVault.WebKey.JsonWebKey.T" />
+      <MemberSignature Language="VB.NET" Value="Public Property T As Byte()" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.KeyVault.WebKey</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -566,10 +590,11 @@
       <MemberSignature Language="C#" Value="public System.Security.Cryptography.Aes ToAes ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Security.Cryptography.Aes ToAes() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.KeyVault.WebKey.JsonWebKey.ToAes" />
+      <MemberSignature Language="VB.NET" Value="Public Function ToAes () As Aes" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.KeyVault.WebKey</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Security.Cryptography.Aes</ReturnType>
@@ -585,10 +610,11 @@
       <MemberSignature Language="C#" Value="public System.Security.Cryptography.RSA ToRSA (bool includePrivateParameters = false);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Security.Cryptography.RSA ToRSA(bool includePrivateParameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.KeyVault.WebKey.JsonWebKey.ToRSA(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ToRSA (Optional includePrivateParameters As Boolean = false) As RSA" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.KeyVault.WebKey</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Security.Cryptography.RSA</ReturnType>
@@ -607,10 +633,11 @@
       <MemberSignature Language="C#" Value="public System.Security.Cryptography.RSAParameters ToRSAParameters (bool includePrivateParameters = false);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype System.Security.Cryptography.RSAParameters ToRSAParameters(bool includePrivateParameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.KeyVault.WebKey.JsonWebKey.ToRSAParameters(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ToRSAParameters (Optional includePrivateParameters As Boolean = false) As RSAParameters" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.KeyVault.WebKey</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Security.Cryptography.RSAParameters</ReturnType>
@@ -629,10 +656,11 @@
       <MemberSignature Language="C#" Value="public override string ToString ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.KeyVault.WebKey.JsonWebKey.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.KeyVault.WebKey</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

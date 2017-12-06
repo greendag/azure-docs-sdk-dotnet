@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public static class ElasticPoolsOperationsExtensions" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit ElasticPoolsOperationsExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Sql.Fluent.ElasticPoolsOperationsExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module ElasticPoolsOperationsExtensions" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
     <AssemblyVersion>1.0.0.60</AssemblyVersion>
@@ -21,10 +22,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Sql.Fluent.Models.ElasticPoolInner BeginCreateOrUpdate (this Microsoft.Azure.Management.Sql.Fluent.IElasticPoolsOperations operations, string resourceGroupName, string serverName, string elasticPoolName, Microsoft.Azure.Management.Sql.Fluent.Models.ElasticPoolInner parameters);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Sql.Fluent.Models.ElasticPoolInner BeginCreateOrUpdate(class Microsoft.Azure.Management.Sql.Fluent.IElasticPoolsOperations operations, string resourceGroupName, string serverName, string elasticPoolName, class Microsoft.Azure.Management.Sql.Fluent.Models.ElasticPoolInner parameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Sql.Fluent.ElasticPoolsOperationsExtensions.BeginCreateOrUpdate(Microsoft.Azure.Management.Sql.Fluent.IElasticPoolsOperations,System.String,System.String,System.String,Microsoft.Azure.Management.Sql.Fluent.Models.ElasticPoolInner)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginCreateOrUpdate (operations As IElasticPoolsOperations, resourceGroupName As String, serverName As String, elasticPoolName As String, parameters As ElasticPoolInner) As ElasticPoolInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Sql.Fluent.Models.ElasticPoolInner</ReturnType>
@@ -68,8 +70,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Sql.Fluent.ElasticPoolsOperationsExtensions.BeginCreateOrUpdateAsync(Microsoft.Azure.Management.Sql.Fluent.IElasticPoolsOperations,System.String,System.String,System.String,Microsoft.Azure.Management.Sql.Fluent.Models.ElasticPoolInner,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -120,10 +122,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Sql.Fluent.Models.ElasticPoolInner CreateOrUpdate (this Microsoft.Azure.Management.Sql.Fluent.IElasticPoolsOperations operations, string resourceGroupName, string serverName, string elasticPoolName, Microsoft.Azure.Management.Sql.Fluent.Models.ElasticPoolInner parameters);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Sql.Fluent.Models.ElasticPoolInner CreateOrUpdate(class Microsoft.Azure.Management.Sql.Fluent.IElasticPoolsOperations operations, string resourceGroupName, string serverName, string elasticPoolName, class Microsoft.Azure.Management.Sql.Fluent.Models.ElasticPoolInner parameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Sql.Fluent.ElasticPoolsOperationsExtensions.CreateOrUpdate(Microsoft.Azure.Management.Sql.Fluent.IElasticPoolsOperations,System.String,System.String,System.String,Microsoft.Azure.Management.Sql.Fluent.Models.ElasticPoolInner)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function CreateOrUpdate (operations As IElasticPoolsOperations, resourceGroupName As String, serverName As String, elasticPoolName As String, parameters As ElasticPoolInner) As ElasticPoolInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Sql.Fluent.Models.ElasticPoolInner</ReturnType>
@@ -167,8 +170,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Sql.Fluent.ElasticPoolsOperationsExtensions.CreateOrUpdateAsync(Microsoft.Azure.Management.Sql.Fluent.IElasticPoolsOperations,System.String,System.String,System.String,Microsoft.Azure.Management.Sql.Fluent.Models.ElasticPoolInner,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -219,10 +222,11 @@
       <MemberSignature Language="C#" Value="public static void Delete (this Microsoft.Azure.Management.Sql.Fluent.IElasticPoolsOperations operations, string resourceGroupName, string serverName, string elasticPoolName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Delete(class Microsoft.Azure.Management.Sql.Fluent.IElasticPoolsOperations operations, string resourceGroupName, string serverName, string elasticPoolName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Sql.Fluent.ElasticPoolsOperationsExtensions.Delete(Microsoft.Azure.Management.Sql.Fluent.IElasticPoolsOperations,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub Delete (operations As IElasticPoolsOperations, resourceGroupName As String, serverName As String, elasticPoolName As String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -259,8 +263,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Sql.Fluent.ElasticPoolsOperationsExtensions.DeleteAsync(Microsoft.Azure.Management.Sql.Fluent.IElasticPoolsOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -305,10 +309,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Sql.Fluent.Models.ElasticPoolInner Get (this Microsoft.Azure.Management.Sql.Fluent.IElasticPoolsOperations operations, string resourceGroupName, string serverName, string elasticPoolName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Sql.Fluent.Models.ElasticPoolInner Get(class Microsoft.Azure.Management.Sql.Fluent.IElasticPoolsOperations operations, string resourceGroupName, string serverName, string elasticPoolName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Sql.Fluent.ElasticPoolsOperationsExtensions.Get(Microsoft.Azure.Management.Sql.Fluent.IElasticPoolsOperations,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Get (operations As IElasticPoolsOperations, resourceGroupName As String, serverName As String, elasticPoolName As String) As ElasticPoolInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Sql.Fluent.Models.ElasticPoolInner</ReturnType>
@@ -346,8 +351,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Sql.Fluent.ElasticPoolsOperationsExtensions.GetAsync(Microsoft.Azure.Management.Sql.Fluent.IElasticPoolsOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -392,10 +397,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Sql.Fluent.Models.DatabaseInner GetDatabase (this Microsoft.Azure.Management.Sql.Fluent.IElasticPoolsOperations operations, string resourceGroupName, string serverName, string elasticPoolName, string databaseName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Sql.Fluent.Models.DatabaseInner GetDatabase(class Microsoft.Azure.Management.Sql.Fluent.IElasticPoolsOperations operations, string resourceGroupName, string serverName, string elasticPoolName, string databaseName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Sql.Fluent.ElasticPoolsOperationsExtensions.GetDatabase(Microsoft.Azure.Management.Sql.Fluent.IElasticPoolsOperations,System.String,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetDatabase (operations As IElasticPoolsOperations, resourceGroupName As String, serverName As String, elasticPoolName As String, databaseName As String) As DatabaseInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Sql.Fluent.Models.DatabaseInner</ReturnType>
@@ -438,8 +444,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Sql.Fluent.ElasticPoolsOperationsExtensions.GetDatabaseAsync(Microsoft.Azure.Management.Sql.Fluent.IElasticPoolsOperations,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -489,10 +495,11 @@
       <MemberSignature Language="C#" Value="public static System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Management.Sql.Fluent.Models.ElasticPoolActivityInner&gt; ListActivity (this Microsoft.Azure.Management.Sql.Fluent.IElasticPoolsOperations operations, string resourceGroupName, string serverName, string elasticPoolName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Azure.Management.Sql.Fluent.Models.ElasticPoolActivityInner&gt; ListActivity(class Microsoft.Azure.Management.Sql.Fluent.IElasticPoolsOperations operations, string resourceGroupName, string serverName, string elasticPoolName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Sql.Fluent.ElasticPoolsOperationsExtensions.ListActivity(Microsoft.Azure.Management.Sql.Fluent.IElasticPoolsOperations,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListActivity (operations As IElasticPoolsOperations, resourceGroupName As String, serverName As String, elasticPoolName As String) As IEnumerable(Of ElasticPoolActivityInner)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Management.Sql.Fluent.Models.ElasticPoolActivityInner&gt;</ReturnType>
@@ -531,8 +538,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Sql.Fluent.ElasticPoolsOperationsExtensions.ListActivityAsync(Microsoft.Azure.Management.Sql.Fluent.IElasticPoolsOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -578,10 +585,11 @@
       <MemberSignature Language="C#" Value="public static System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Management.Sql.Fluent.Models.ElasticPoolInner&gt; ListByServer (this Microsoft.Azure.Management.Sql.Fluent.IElasticPoolsOperations operations, string resourceGroupName, string serverName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Azure.Management.Sql.Fluent.Models.ElasticPoolInner&gt; ListByServer(class Microsoft.Azure.Management.Sql.Fluent.IElasticPoolsOperations operations, string resourceGroupName, string serverName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Sql.Fluent.ElasticPoolsOperationsExtensions.ListByServer(Microsoft.Azure.Management.Sql.Fluent.IElasticPoolsOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListByServer (operations As IElasticPoolsOperations, resourceGroupName As String, serverName As String) As IEnumerable(Of ElasticPoolInner)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Management.Sql.Fluent.Models.ElasticPoolInner&gt;</ReturnType>
@@ -615,8 +623,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Sql.Fluent.ElasticPoolsOperationsExtensions.ListByServerAsync(Microsoft.Azure.Management.Sql.Fluent.IElasticPoolsOperations,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -657,10 +665,11 @@
       <MemberSignature Language="C#" Value="public static System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Management.Sql.Fluent.Models.ElasticPoolDatabaseActivityInner&gt; ListDatabaseActivity (this Microsoft.Azure.Management.Sql.Fluent.IElasticPoolsOperations operations, string resourceGroupName, string serverName, string elasticPoolName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Azure.Management.Sql.Fluent.Models.ElasticPoolDatabaseActivityInner&gt; ListDatabaseActivity(class Microsoft.Azure.Management.Sql.Fluent.IElasticPoolsOperations operations, string resourceGroupName, string serverName, string elasticPoolName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Sql.Fluent.ElasticPoolsOperationsExtensions.ListDatabaseActivity(Microsoft.Azure.Management.Sql.Fluent.IElasticPoolsOperations,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListDatabaseActivity (operations As IElasticPoolsOperations, resourceGroupName As String, serverName As String, elasticPoolName As String) As IEnumerable(Of ElasticPoolDatabaseActivityInner)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Management.Sql.Fluent.Models.ElasticPoolDatabaseActivityInner&gt;</ReturnType>
@@ -699,8 +708,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Sql.Fluent.ElasticPoolsOperationsExtensions.ListDatabaseActivityAsync(Microsoft.Azure.Management.Sql.Fluent.IElasticPoolsOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -746,10 +755,11 @@
       <MemberSignature Language="C#" Value="public static System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Management.Sql.Fluent.Models.DatabaseInner&gt; ListDatabases (this Microsoft.Azure.Management.Sql.Fluent.IElasticPoolsOperations operations, string resourceGroupName, string serverName, string elasticPoolName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Azure.Management.Sql.Fluent.Models.DatabaseInner&gt; ListDatabases(class Microsoft.Azure.Management.Sql.Fluent.IElasticPoolsOperations operations, string resourceGroupName, string serverName, string elasticPoolName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Sql.Fluent.ElasticPoolsOperationsExtensions.ListDatabases(Microsoft.Azure.Management.Sql.Fluent.IElasticPoolsOperations,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListDatabases (operations As IElasticPoolsOperations, resourceGroupName As String, serverName As String, elasticPoolName As String) As IEnumerable(Of DatabaseInner)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Management.Sql.Fluent.Models.DatabaseInner&gt;</ReturnType>
@@ -788,8 +798,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Sql.Fluent.ElasticPoolsOperationsExtensions.ListDatabasesAsync(Microsoft.Azure.Management.Sql.Fluent.IElasticPoolsOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>

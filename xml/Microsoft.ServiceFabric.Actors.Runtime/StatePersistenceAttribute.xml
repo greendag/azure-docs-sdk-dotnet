@@ -2,10 +2,10 @@
   <TypeSignature Language="C#" Value="public sealed class StatePersistenceAttribute : Attribute" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit StatePersistenceAttribute extends System.Attribute" />
   <TypeSignature Language="DocId" Value="T:Microsoft.ServiceFabric.Actors.Runtime.StatePersistenceAttribute" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class StatePersistenceAttribute&#xA;Inherits Attribute" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.ServiceFabric.Actors</AssemblyName>
-    <AssemblyVersion>5.0.0.0</AssemblyVersion>
-    <AssemblyVersion>255.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Attribute</BaseTypeName>
@@ -13,15 +13,18 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>System.AttributeUsage(System.AttributeTargets.Class)</AttributeName>
+      <AttributeName>System.AttributeUsage(System.AttributeTargets.Class, Inherited=false)</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
     <summary>
-            Indicates whether actor state should be volatile (in-memory only), persisted, or not stored at all.
+            Indicates whether the actor state should be volatile (in-memory only), persisted, or not stored at all.
             The store type given to this attribute must match the type of state provider used in the actor service.
             </summary>
-    <remarks>To be added.</remarks>
+    <remarks>
+            The StatePersistence attribute is not inherited by derived class, each Actor type must provide its StatePersistence level,
+            If an Actor type doesn't specify a StatePersistence attribute, actor state is not replicated or written to disk.
+            </remarks>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -30,9 +33,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Actors.Runtime.StatePersistenceAttribute.#ctor(Microsoft.ServiceFabric.Actors.Runtime.StatePersistence)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Actors</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="statePersistence" Type="Microsoft.ServiceFabric.Actors.Runtime.StatePersistence" />
@@ -48,11 +50,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.ServiceFabric.Actors.Runtime.StatePersistence StatePersistence { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.ServiceFabric.Actors.Runtime.StatePersistence StatePersistence" />
       <MemberSignature Language="DocId" Value="P:Microsoft.ServiceFabric.Actors.Runtime.StatePersistenceAttribute.StatePersistence" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StatePersistence As StatePersistence" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Actors</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.ServiceFabric.Actors.Runtime.StatePersistence</ReturnType>

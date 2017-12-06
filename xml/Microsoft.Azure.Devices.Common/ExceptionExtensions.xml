@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public static class ExceptionExtensions" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit ExceptionExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Devices.Common.ExceptionExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module ExceptionExtensions" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -16,13 +17,14 @@
   </Docs>
   <Members>
     <Member MemberName="CheckIotHubErrorCode">
-      <MemberSignature Language="C#" Value="public static bool CheckIotHubErrorCode (this Exception ex, Microsoft.Azure.Devices.Common.Exceptions.ErrorCode[] errorCodeList);" />
+      <MemberSignature Language="C#" Value="public static bool CheckIotHubErrorCode (this Exception ex, params Microsoft.Azure.Devices.Common.Exceptions.ErrorCode[] errorCodeList);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool CheckIotHubErrorCode(class System.Exception ex, valuetype Microsoft.Azure.Devices.Common.Exceptions.ErrorCode[] errorCodeList) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Devices.Common.ExceptionExtensions.CheckIotHubErrorCode(System.Exception,Microsoft.Azure.Devices.Common.Exceptions.ErrorCode[])" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function CheckIotHubErrorCode (ex As Exception, ParamArray errorCodeList As ErrorCode()) As Boolean" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -51,8 +53,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Devices.Common.ExceptionExtensions.DisablePrepareForRethrow(System.Exception)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Exception</ReturnType>
@@ -73,8 +75,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Devices.Common.ExceptionExtensions.GetReferenceCode(System.Exception)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -95,8 +97,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Devices.Common.ExceptionExtensions.IsFatal(System.Exception)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -117,8 +119,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Devices.Common.ExceptionExtensions.PrepareForRethrow(System.Exception)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Exception</ReturnType>
@@ -139,8 +141,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Devices.Common.ExceptionExtensions.ToStringSlim(System.Exception)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -161,8 +163,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Devices.Common.ExceptionExtensions.Unwind(System.Exception)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -183,13 +185,13 @@
       </Docs>
     </Member>
     <Member MemberName="Unwind">
-      <MemberSignature Language="C#" Value="public static System.Collections.Generic.IEnumerable&lt;Exception&gt; Unwind (this Exception exception, Type[] targetTypes);" />
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.IEnumerable&lt;Exception&gt; Unwind (this Exception exception, params Type[] targetTypes);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.IEnumerable`1&lt;class System.Exception&gt; Unwind(class System.Exception exception, class System.Type[] targetTypes) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Devices.Common.ExceptionExtensions.Unwind(System.Exception,System.Type[])" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;System.Exception&gt;</ReturnType>
@@ -218,8 +220,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Devices.Common.ExceptionExtensions.Unwind``1(System.Exception)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;TException&gt;</ReturnType>

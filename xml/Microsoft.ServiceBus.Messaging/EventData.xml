@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public sealed class EventData : IDisposable" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit EventData extends System.Object implements class System.IDisposable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.ServiceBus.Messaging.EventData" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class EventData&#xA;Implements IDisposable" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.ServiceBus</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>
@@ -24,10 +25,11 @@
       <MemberSignature Language="C#" Value="public EventData ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.EventData.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -39,10 +41,11 @@
       <MemberSignature Language="C#" Value="public EventData (byte[] byteArray);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(unsigned int8[] byteArray) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.EventData.#ctor(System.Byte[])" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (byteArray As Byte())" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="byteArray" Type="System.Byte[]" />
@@ -66,10 +69,11 @@
       <MemberSignature Language="C#" Value="public EventData (System.Collections.Generic.IList&lt;ArraySegment&lt;byte&gt;&gt; arraySegments);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Collections.Generic.IList`1&lt;valuetype System.ArraySegment`1&lt;unsigned int8&gt;&gt; arraySegments) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.EventData.#ctor(System.Collections.Generic.IList{System.ArraySegment{System.Byte}})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (arraySegments As IList(Of ArraySegment(Of Byte)))" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="arraySegments" Type="System.Collections.Generic.IList&lt;System.ArraySegment&lt;System.Byte&gt;&gt;" />
@@ -99,8 +103,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.EventData.#ctor(System.IO.Stream)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="stream" Type="System.IO.Stream" />
@@ -116,10 +120,11 @@
       <MemberSignature Language="C#" Value="public EventData (object content, System.Runtime.Serialization.XmlObjectSerializer serializer);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(object content, class System.Runtime.Serialization.XmlObjectSerializer serializer) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.EventData.#ctor(System.Object,System.Runtime.Serialization.XmlObjectSerializer)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (content As Object, serializer As XmlObjectSerializer)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="content" Type="System.Object" />
@@ -140,10 +145,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.ServiceBus.Messaging.EventData Clone ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.ServiceBus.Messaging.EventData Clone() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.EventData.Clone" />
+      <MemberSignature Language="VB.NET" Value="Public Function Clone () As EventData" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.ServiceBus.Messaging.EventData</ReturnType>
@@ -159,10 +165,11 @@
       <MemberSignature Language="C#" Value="public void Dispose ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Dispose() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.EventData.Dispose" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Dispose ()" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -177,10 +184,11 @@
       <MemberSignature Language="C#" Value="public DateTime EnqueuedTimeUtc { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime EnqueuedTimeUtc" />
       <MemberSignature Language="DocId" Value="P:Microsoft.ServiceBus.Messaging.EventData.EnqueuedTimeUtc" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EnqueuedTimeUtc As DateTime" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.DateTime</ReturnType>
@@ -195,10 +203,11 @@
       <MemberSignature Language="C#" Value="public System.IO.Stream GetBodyStream ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IO.Stream GetBodyStream() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.EventData.GetBodyStream" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetBodyStream () As Stream" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.IO.Stream</ReturnType>
@@ -214,10 +223,11 @@
       <MemberSignature Language="C#" Value="public byte[] GetBytes ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance unsigned int8[] GetBytes() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.EventData.GetBytes" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetBytes () As Byte()" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Byte[]</ReturnType>
@@ -233,10 +243,11 @@
       <MemberSignature Language="C#" Value="public string Offset { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Offset" />
       <MemberSignature Language="DocId" Value="P:Microsoft.ServiceBus.Messaging.EventData.Offset" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Offset As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -252,10 +263,11 @@
       <MemberSignature Language="C#" Value="public string PartitionKey { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string PartitionKey" />
       <MemberSignature Language="DocId" Value="P:Microsoft.ServiceBus.Messaging.EventData.PartitionKey" />
+      <MemberSignature Language="VB.NET" Value="Public Property PartitionKey As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -270,10 +282,11 @@
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,object&gt; Properties { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, object&gt; Properties" />
       <MemberSignature Language="DocId" Value="P:Microsoft.ServiceBus.Messaging.EventData.Properties" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Properties As IDictionary(Of String, Object)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.Object&gt;</ReturnType>
@@ -288,10 +301,11 @@
       <MemberSignature Language="C#" Value="public long SequenceNumber { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int64 SequenceNumber" />
       <MemberSignature Language="DocId" Value="P:Microsoft.ServiceBus.Messaging.EventData.SequenceNumber" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SequenceNumber As Long" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int64</ReturnType>
@@ -306,10 +320,11 @@
       <MemberSignature Language="C#" Value="public long SerializedSizeInBytes { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int64 SerializedSizeInBytes" />
       <MemberSignature Language="DocId" Value="P:Microsoft.ServiceBus.Messaging.EventData.SerializedSizeInBytes" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SerializedSizeInBytes As Long" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int64</ReturnType>
@@ -324,10 +339,11 @@
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,object&gt; SystemProperties { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, object&gt; SystemProperties" />
       <MemberSignature Language="DocId" Value="P:Microsoft.ServiceBus.Messaging.EventData.SystemProperties" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SystemProperties As IDictionary(Of String, Object)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.Object&gt;</ReturnType>

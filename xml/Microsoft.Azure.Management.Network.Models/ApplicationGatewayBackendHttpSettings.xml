@@ -2,9 +2,9 @@
   <TypeSignature Language="C#" Value="public class ApplicationGatewayBackendHttpSettings : Microsoft.Azure.Management.Network.Models.SubResource" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ApplicationGatewayBackendHttpSettings extends Microsoft.Azure.Management.Network.Models.SubResource" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Network.Models.ApplicationGatewayBackendHttpSettings" />
+  <TypeSignature Language="VB.NET" Value="Public Class ApplicationGatewayBackendHttpSettings&#xA;Inherits SubResource" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-    <AssemblyVersion>9.1.0.0</AssemblyVersion>
     <AssemblyVersion>14.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
@@ -27,10 +27,10 @@
       <MemberSignature Language="C#" Value="public ApplicationGatewayBackendHttpSettings ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.Models.ApplicationGatewayBackendHttpSettings.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
@@ -43,64 +43,10 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public ApplicationGatewayBackendHttpSettings (string id = null, Nullable&lt;int&gt; port = null, string protocol = null, string cookieBasedAffinity = null, Nullable&lt;int&gt; requestTimeout = null, Microsoft.Azure.Management.Network.Models.SubResource probe = null, System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Network.Models.SubResource&gt; authenticationCertificates = null, string provisioningState = null, Microsoft.Azure.Management.Network.Models.ApplicationGatewayConnectionDraining connectionDraining = null, string name = null, string etag = null);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string id, valuetype System.Nullable`1&lt;int32&gt; port, string protocol, string cookieBasedAffinity, valuetype System.Nullable`1&lt;int32&gt; requestTimeout, class Microsoft.Azure.Management.Network.Models.SubResource probe, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.Network.Models.SubResource&gt; authenticationCertificates, string provisioningState, class Microsoft.Azure.Management.Network.Models.ApplicationGatewayConnectionDraining connectionDraining, string name, string etag) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.Models.ApplicationGatewayBackendHttpSettings.#ctor(System.String,System.Nullable{System.Int32},System.String,System.String,System.Nullable{System.Int32},Microsoft.Azure.Management.Network.Models.SubResource,System.Collections.Generic.IList{Microsoft.Azure.Management.Network.Models.SubResource},System.String,Microsoft.Azure.Management.Network.Models.ApplicationGatewayConnectionDraining,System.String,System.String)" />
-      <MemberType>Constructor</MemberType>
-      <AssemblyInfo>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
-        <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-      </AssemblyInfo>
-      <Parameters>
-        <Parameter Name="id" Type="System.String" />
-        <Parameter Name="port" Type="System.Nullable&lt;System.Int32&gt;" />
-        <Parameter Name="protocol" Type="System.String" />
-        <Parameter Name="cookieBasedAffinity" Type="System.String" />
-        <Parameter Name="requestTimeout" Type="System.Nullable&lt;System.Int32&gt;" />
-        <Parameter Name="probe" Type="Microsoft.Azure.Management.Network.Models.SubResource" />
-        <Parameter Name="authenticationCertificates" Type="System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Network.Models.SubResource&gt;" />
-        <Parameter Name="provisioningState" Type="System.String" />
-        <Parameter Name="connectionDraining" Type="Microsoft.Azure.Management.Network.Models.ApplicationGatewayConnectionDraining" />
-        <Parameter Name="name" Type="System.String" />
-        <Parameter Name="etag" Type="System.String" />
-      </Parameters>
-      <Docs>
-        <param name="id">Resource ID.</param>
-        <param name="port">Port</param>
-        <param name="protocol">Protocol. Possible values are: 'Http' and
-            'Https'. Possible values include: 'Http', 'Https'</param>
-        <param name="cookieBasedAffinity">Cookie based affinity. Possible
-            values are: 'Enabled' and 'Disabled'. Possible values include:
-            'Enabled', 'Disabled'</param>
-        <param name="requestTimeout">Request timeout in seconds.
-            Application Gateway will fail the request if response is not
-            received within RequestTimeout. Acceptable values are from 1 second
-            to 86400 seconds.</param>
-        <param name="probe">Probe resource of an application
-            gateway.</param>
-        <param name="authenticationCertificates">Array of references to
-            application gateway authentication certificates.</param>
-        <param name="provisioningState">Provisioning state of the backend
-            http settings resource. Possible values are: 'Updating',
-            'Deleting', and 'Failed'.</param>
-        <param name="connectionDraining">Connection draining of the backend
-            http settings resource.</param>
-        <param name="name">Name of the resource that is unique within a
-            resource group. This name can be used to access the
-            resource.</param>
-        <param name="etag">A unique read-only string that changes whenever
-            the resource is updated.</param>
-        <summary>
-            Initializes a new instance of the
-            ApplicationGatewayBackendHttpSettings class.
-            </summary>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName=".ctor">
       <MemberSignature Language="C#" Value="public ApplicationGatewayBackendHttpSettings (string id = null, Nullable&lt;int&gt; port = null, string protocol = null, string cookieBasedAffinity = null, Nullable&lt;int&gt; requestTimeout = null, Microsoft.Azure.Management.Network.Models.SubResource probe = null, System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Network.Models.SubResource&gt; authenticationCertificates = null, Microsoft.Azure.Management.Network.Models.ApplicationGatewayConnectionDraining connectionDraining = null, string hostName = null, Nullable&lt;bool&gt; pickHostNameFromBackendAddress = null, string affinityCookieName = null, Nullable&lt;bool&gt; probeEnabled = null, string path = null, string provisioningState = null, string name = null, string etag = null, string type = null);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string id, valuetype System.Nullable`1&lt;int32&gt; port, string protocol, string cookieBasedAffinity, valuetype System.Nullable`1&lt;int32&gt; requestTimeout, class Microsoft.Azure.Management.Network.Models.SubResource probe, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.Network.Models.SubResource&gt; authenticationCertificates, class Microsoft.Azure.Management.Network.Models.ApplicationGatewayConnectionDraining connectionDraining, string hostName, valuetype System.Nullable`1&lt;bool&gt; pickHostNameFromBackendAddress, string affinityCookieName, valuetype System.Nullable`1&lt;bool&gt; probeEnabled, string path, string provisioningState, string name, string etag, string type) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.Models.ApplicationGatewayBackendHttpSettings.#ctor(System.String,System.Nullable{System.Int32},System.String,System.String,System.Nullable{System.Int32},Microsoft.Azure.Management.Network.Models.SubResource,System.Collections.Generic.IList{Microsoft.Azure.Management.Network.Models.SubResource},Microsoft.Azure.Management.Network.Models.ApplicationGatewayConnectionDraining,System.String,System.Nullable{System.Boolean},System.String,System.Nullable{System.Boolean},System.String,System.String,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (Optional id As String = null, Optional port As Nullable(Of Integer) = null, Optional protocol As String = null, Optional cookieBasedAffinity As String = null, Optional requestTimeout As Nullable(Of Integer) = null, Optional probe As SubResource = null, Optional authenticationCertificates As IList(Of SubResource) = null, Optional connectionDraining As ApplicationGatewayConnectionDraining = null, Optional hostName As String = null, Optional pickHostNameFromBackendAddress As Nullable(Of Boolean) = null, Optional affinityCookieName As String = null, Optional probeEnabled As Nullable(Of Boolean) = null, Optional path As String = null, Optional provisioningState As String = null, Optional name As String = null, Optional etag As String = null, Optional type As String = null)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
@@ -174,6 +120,7 @@
       <MemberSignature Language="C#" Value="public string AffinityCookieName { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string AffinityCookieName" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Network.Models.ApplicationGatewayBackendHttpSettings.AffinityCookieName" />
+      <MemberSignature Language="VB.NET" Value="Public Property AffinityCookieName As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
@@ -199,10 +146,10 @@
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Network.Models.SubResource&gt; AuthenticationCertificates { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.Network.Models.SubResource&gt; AuthenticationCertificates" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Network.Models.ApplicationGatewayBackendHttpSettings.AuthenticationCertificates" />
+      <MemberSignature Language="VB.NET" Value="Public Property AuthenticationCertificates As IList(Of SubResource)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -226,10 +173,10 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.Network.Models.ApplicationGatewayConnectionDraining ConnectionDraining { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.Network.Models.ApplicationGatewayConnectionDraining ConnectionDraining" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Network.Models.ApplicationGatewayBackendHttpSettings.ConnectionDraining" />
+      <MemberSignature Language="VB.NET" Value="Public Property ConnectionDraining As ApplicationGatewayConnectionDraining" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -253,10 +200,10 @@
       <MemberSignature Language="C#" Value="public string CookieBasedAffinity { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string CookieBasedAffinity" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Network.Models.ApplicationGatewayBackendHttpSettings.CookieBasedAffinity" />
+      <MemberSignature Language="VB.NET" Value="Public Property CookieBasedAffinity As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -280,10 +227,10 @@
       <MemberSignature Language="C#" Value="public string Etag { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Etag" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Network.Models.ApplicationGatewayBackendHttpSettings.Etag" />
+      <MemberSignature Language="VB.NET" Value="Public Property Etag As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -307,6 +254,7 @@
       <MemberSignature Language="C#" Value="public string HostName { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string HostName" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Network.Models.ApplicationGatewayBackendHttpSettings.HostName" />
+      <MemberSignature Language="VB.NET" Value="Public Property HostName As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
@@ -332,10 +280,10 @@
       <MemberSignature Language="C#" Value="public string Name { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Name" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Network.Models.ApplicationGatewayBackendHttpSettings.Name" />
+      <MemberSignature Language="VB.NET" Value="Public Property Name As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -359,6 +307,7 @@
       <MemberSignature Language="C#" Value="public string Path { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Path" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Network.Models.ApplicationGatewayBackendHttpSettings.Path" />
+      <MemberSignature Language="VB.NET" Value="Public Property Path As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
@@ -386,6 +335,7 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; PickHostNameFromBackendAddress { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; PickHostNameFromBackendAddress" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Network.Models.ApplicationGatewayBackendHttpSettings.PickHostNameFromBackendAddress" />
+      <MemberSignature Language="VB.NET" Value="Public Property PickHostNameFromBackendAddress As Nullable(Of Boolean)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
@@ -412,10 +362,10 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; Port { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; Port" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Network.Models.ApplicationGatewayBackendHttpSettings.Port" />
+      <MemberSignature Language="VB.NET" Value="Public Property Port As Nullable(Of Integer)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -438,10 +388,10 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.Network.Models.SubResource Probe { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.Network.Models.SubResource Probe" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Network.Models.ApplicationGatewayBackendHttpSettings.Probe" />
+      <MemberSignature Language="VB.NET" Value="Public Property Probe As SubResource" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -464,6 +414,7 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; ProbeEnabled { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; ProbeEnabled" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Network.Models.ApplicationGatewayBackendHttpSettings.ProbeEnabled" />
+      <MemberSignature Language="VB.NET" Value="Public Property ProbeEnabled As Nullable(Of Boolean)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
@@ -489,10 +440,10 @@
       <MemberSignature Language="C#" Value="public string Protocol { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Protocol" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Network.Models.ApplicationGatewayBackendHttpSettings.Protocol" />
+      <MemberSignature Language="VB.NET" Value="Public Property Protocol As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -515,10 +466,10 @@
       <MemberSignature Language="C#" Value="public string ProvisioningState { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string ProvisioningState" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Network.Models.ApplicationGatewayBackendHttpSettings.ProvisioningState" />
+      <MemberSignature Language="VB.NET" Value="Public Property ProvisioningState As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -543,10 +494,10 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; RequestTimeout { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; RequestTimeout" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Network.Models.ApplicationGatewayBackendHttpSettings.RequestTimeout" />
+      <MemberSignature Language="VB.NET" Value="Public Property RequestTimeout As Nullable(Of Integer)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -571,6 +522,7 @@
       <MemberSignature Language="C#" Value="public string Type { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Type" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Network.Models.ApplicationGatewayBackendHttpSettings.Type" />
+      <MemberSignature Language="VB.NET" Value="Public Property Type As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
@@ -596,10 +548,10 @@
       <MemberSignature Language="C#" Value="public virtual void Validate ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Validate() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.Models.ApplicationGatewayBackendHttpSettings.Validate" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub Validate ()" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

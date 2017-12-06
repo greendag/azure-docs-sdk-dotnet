@@ -2,10 +2,9 @@
   <TypeSignature Language="C#" Value="public static class TableErrorCodeStrings" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit TableErrorCodeStrings extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.WindowsAzure.Storage.Table.Protocol.TableErrorCodeStrings" />
+  <TypeSignature Language="VB.NET" Value="Public Class TableErrorCodeStrings" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-    <AssemblyVersion>8.1.1.0</AssemblyVersion>
-    <AssemblyVersion>8.1.3.0</AssemblyVersion>
     <AssemblyVersion>8.4.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
@@ -23,11 +22,10 @@
       <MemberSignature Language="C#" Value="public static readonly string BatchOperationNotSupported;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly string BatchOperationNotSupported" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Table.Protocol.TableErrorCodeStrings.BatchOperationNotSupported" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly BatchOperationNotSupported As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -44,11 +42,10 @@
       <MemberSignature Language="C#" Value="public static readonly string DuplicateKeyPropertySpecified;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly string DuplicateKeyPropertySpecified" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Table.Protocol.TableErrorCodeStrings.DuplicateKeyPropertySpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly DuplicateKeyPropertySpecified As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -65,11 +62,10 @@
       <MemberSignature Language="C#" Value="public static readonly string DuplicatePropertiesSpecified;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly string DuplicatePropertiesSpecified" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Table.Protocol.TableErrorCodeStrings.DuplicatePropertiesSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly DuplicatePropertiesSpecified As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -86,11 +82,10 @@
       <MemberSignature Language="C#" Value="public static readonly string EntityAlreadyExists;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly string EntityAlreadyExists" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Table.Protocol.TableErrorCodeStrings.EntityAlreadyExists" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly EntityAlreadyExists As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -107,11 +102,10 @@
       <MemberSignature Language="C#" Value="public static readonly string EntityNotFound;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly string EntityNotFound" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Table.Protocol.TableErrorCodeStrings.EntityNotFound" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly EntityNotFound As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -128,11 +122,10 @@
       <MemberSignature Language="C#" Value="public static readonly string EntityTooLarge;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly string EntityTooLarge" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Table.Protocol.TableErrorCodeStrings.EntityTooLarge" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly EntityTooLarge As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -149,11 +142,10 @@
       <MemberSignature Language="C#" Value="public static readonly string HostInformationNotPresent;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly string HostInformationNotPresent" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Table.Protocol.TableErrorCodeStrings.HostInformationNotPresent" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HostInformationNotPresent As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -170,11 +162,10 @@
       <MemberSignature Language="C#" Value="public static readonly string InvalidValueType;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly string InvalidValueType" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Table.Protocol.TableErrorCodeStrings.InvalidValueType" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly InvalidValueType As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -191,11 +182,10 @@
       <MemberSignature Language="C#" Value="public static readonly string JsonFormatNotSupported;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly string JsonFormatNotSupported" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Table.Protocol.TableErrorCodeStrings.JsonFormatNotSupported" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly JsonFormatNotSupported As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -212,11 +202,10 @@
       <MemberSignature Language="C#" Value="public static readonly string MethodNotAllowed;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly string MethodNotAllowed" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Table.Protocol.TableErrorCodeStrings.MethodNotAllowed" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MethodNotAllowed As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -233,11 +222,10 @@
       <MemberSignature Language="C#" Value="public static readonly string NotImplemented;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly string NotImplemented" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Table.Protocol.TableErrorCodeStrings.NotImplemented" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly NotImplemented As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -254,11 +242,10 @@
       <MemberSignature Language="C#" Value="public static readonly string OperatorInvalid;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly string OperatorInvalid" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Table.Protocol.TableErrorCodeStrings.OperatorInvalid" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly OperatorInvalid As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -275,11 +262,10 @@
       <MemberSignature Language="C#" Value="public static readonly string PartitionKeyNotSpecified;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly string PartitionKeyNotSpecified" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Table.Protocol.TableErrorCodeStrings.PartitionKeyNotSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PartitionKeyNotSpecified As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -296,11 +282,10 @@
       <MemberSignature Language="C#" Value="public static readonly string PartitionKeyPropertyCannotBeUpdated;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly string PartitionKeyPropertyCannotBeUpdated" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Table.Protocol.TableErrorCodeStrings.PartitionKeyPropertyCannotBeUpdated" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PartitionKeyPropertyCannotBeUpdated As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -317,11 +302,10 @@
       <MemberSignature Language="C#" Value="public static readonly string PrimaryKeyPropertyIsInvalidType;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly string PrimaryKeyPropertyIsInvalidType" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Table.Protocol.TableErrorCodeStrings.PrimaryKeyPropertyIsInvalidType" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PrimaryKeyPropertyIsInvalidType As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -338,11 +322,10 @@
       <MemberSignature Language="C#" Value="public static readonly string PropertiesNeedValue;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly string PropertiesNeedValue" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Table.Protocol.TableErrorCodeStrings.PropertiesNeedValue" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PropertiesNeedValue As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -359,11 +342,10 @@
       <MemberSignature Language="C#" Value="public static readonly string PropertyNameInvalid;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly string PropertyNameInvalid" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Table.Protocol.TableErrorCodeStrings.PropertyNameInvalid" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PropertyNameInvalid As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -380,11 +362,10 @@
       <MemberSignature Language="C#" Value="public static readonly string PropertyNameTooLong;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly string PropertyNameTooLong" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Table.Protocol.TableErrorCodeStrings.PropertyNameTooLong" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PropertyNameTooLong As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -401,11 +382,10 @@
       <MemberSignature Language="C#" Value="public static readonly string PropertyValueTooLarge;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly string PropertyValueTooLarge" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Table.Protocol.TableErrorCodeStrings.PropertyValueTooLarge" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PropertyValueTooLarge As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -422,11 +402,10 @@
       <MemberSignature Language="C#" Value="public static readonly string TableAlreadyExists;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly string TableAlreadyExists" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Table.Protocol.TableErrorCodeStrings.TableAlreadyExists" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TableAlreadyExists As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -443,11 +422,10 @@
       <MemberSignature Language="C#" Value="public static readonly string TableBeingDeleted;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly string TableBeingDeleted" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Table.Protocol.TableErrorCodeStrings.TableBeingDeleted" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TableBeingDeleted As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -464,11 +442,10 @@
       <MemberSignature Language="C#" Value="public static readonly string TableHasNoProperties;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly string TableHasNoProperties" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Table.Protocol.TableErrorCodeStrings.TableHasNoProperties" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TableHasNoProperties As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -485,11 +462,10 @@
       <MemberSignature Language="C#" Value="public static readonly string TableHasNoSuchProperty;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly string TableHasNoSuchProperty" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Table.Protocol.TableErrorCodeStrings.TableHasNoSuchProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TableHasNoSuchProperty As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -506,11 +482,10 @@
       <MemberSignature Language="C#" Value="public static readonly string TableNotFound;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly string TableNotFound" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Table.Protocol.TableErrorCodeStrings.TableNotFound" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TableNotFound As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -527,11 +502,10 @@
       <MemberSignature Language="C#" Value="public static readonly string TableServerOutOfMemory;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly string TableServerOutOfMemory" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Table.Protocol.TableErrorCodeStrings.TableServerOutOfMemory" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TableServerOutOfMemory As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -548,11 +522,10 @@
       <MemberSignature Language="C#" Value="public static readonly string TooManyProperties;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly string TooManyProperties" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Table.Protocol.TableErrorCodeStrings.TooManyProperties" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TooManyProperties As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -569,11 +542,10 @@
       <MemberSignature Language="C#" Value="public static readonly string UpdateConditionNotSatisfied;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly string UpdateConditionNotSatisfied" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Table.Protocol.TableErrorCodeStrings.UpdateConditionNotSatisfied" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly UpdateConditionNotSatisfied As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -590,11 +562,10 @@
       <MemberSignature Language="C#" Value="public static readonly string XMethodIncorrectCount;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly string XMethodIncorrectCount" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Table.Protocol.TableErrorCodeStrings.XMethodIncorrectCount" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly XMethodIncorrectCount As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -611,11 +582,10 @@
       <MemberSignature Language="C#" Value="public static readonly string XMethodIncorrectValue;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly string XMethodIncorrectValue" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Table.Protocol.TableErrorCodeStrings.XMethodIncorrectValue" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly XMethodIncorrectValue As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -632,11 +602,10 @@
       <MemberSignature Language="C#" Value="public static readonly string XMethodNotUsingPost;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly string XMethodNotUsingPost" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Table.Protocol.TableErrorCodeStrings.XMethodNotUsingPost" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly XMethodNotUsingPost As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

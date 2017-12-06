@@ -2,12 +2,11 @@
   <TypeSignature Language="C#" Value="public class JobSpecification" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit JobSpecification extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Batch.Protocol.Models.JobSpecification" />
+  <TypeSignature Language="VB.NET" Value="Public Class JobSpecification" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-    <AssemblyVersion>6.1.0.0</AssemblyVersion>
-    <AssemblyVersion>7.0.0.0</AssemblyVersion>
-    <AssemblyVersion>7.0.1.0</AssemblyVersion>
     <AssemblyVersion>7.1.0.0</AssemblyVersion>
+    <AssemblyVersion>8.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -24,13 +23,12 @@
       <MemberSignature Language="C#" Value="public JobSpecification ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Batch.Protocol.Models.JobSpecification.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -47,10 +45,8 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="poolInfo" Type="Microsoft.Azure.Batch.Protocol.Models.PoolInformation" />
@@ -73,16 +69,18 @@
             schedule.</param>
         <param name="displayName">The display name for jobs created under
             this schedule.</param>
-        <param name="usesTaskDependencies">The flag that determines if this
-            job will use tasks with dependencies.</param>
+        <param name="usesTaskDependencies">Whether tasks in the job can
+            define dependencies on each other. The default is false.</param>
         <param name="onAllTasksComplete">The action the Batch service
             should take when all tasks in a job created under this schedule are
             in the completed state.</param>
         <param name="onTaskFailure">The action the Batch service should
             take when any task fails in a job created under this schedule. A
-            task is considered to have failed if it completes with a non-zero
-            exit code and has exhausted its retry count, or if it had a
-            scheduling error.</param>
+            task is considered to have failed if it have failed if has a
+            failureInfo. A failureInfo is set if the task completes with a
+            non-zero exit code after exhausting its retry count, or if there
+            was an error starting the task, for example due to a resource file
+            download error.</param>
         <param name="constraints">The execution constraints for jobs
             created under this schedule.</param>
         <param name="jobManagerTask">The details of a Job Manager task to
@@ -107,13 +105,12 @@
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.Batch.Protocol.Models.EnvironmentSetting&gt; CommonEnvironmentSettings { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Batch.Protocol.Models.EnvironmentSetting&gt; CommonEnvironmentSettings" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Batch.Protocol.Models.JobSpecification.CommonEnvironmentSettings" />
+      <MemberSignature Language="VB.NET" Value="Public Property CommonEnvironmentSettings As IList(Of EnvironmentSetting)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -141,13 +138,12 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Batch.Protocol.Models.JobConstraints Constraints { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Batch.Protocol.Models.JobConstraints Constraints" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Batch.Protocol.Models.JobSpecification.Constraints" />
+      <MemberSignature Language="VB.NET" Value="Public Property Constraints As JobConstraints" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -170,13 +166,12 @@
       <MemberSignature Language="C#" Value="public string DisplayName { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string DisplayName" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Batch.Protocol.Models.JobSpecification.DisplayName" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayName As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -201,13 +196,12 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Batch.Protocol.Models.JobManagerTask JobManagerTask { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Batch.Protocol.Models.JobManagerTask JobManagerTask" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Batch.Protocol.Models.JobSpecification.JobManagerTask" />
+      <MemberSignature Language="VB.NET" Value="Public Property JobManagerTask As JobManagerTask" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -236,13 +230,12 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Batch.Protocol.Models.JobPreparationTask JobPreparationTask { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Batch.Protocol.Models.JobPreparationTask JobPreparationTask" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Batch.Protocol.Models.JobSpecification.JobPreparationTask" />
+      <MemberSignature Language="VB.NET" Value="Public Property JobPreparationTask As JobPreparationTask" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -269,13 +262,12 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Batch.Protocol.Models.JobReleaseTask JobReleaseTask { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Batch.Protocol.Models.JobReleaseTask JobReleaseTask" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Batch.Protocol.Models.JobSpecification.JobReleaseTask" />
+      <MemberSignature Language="VB.NET" Value="Public Property JobReleaseTask As JobReleaseTask" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -306,13 +298,12 @@
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.Batch.Protocol.Models.MetadataItem&gt; Metadata { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Batch.Protocol.Models.MetadataItem&gt; Metadata" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Batch.Protocol.Models.JobSpecification.Metadata" />
+      <MemberSignature Language="VB.NET" Value="Public Property Metadata As IList(Of MetadataItem)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -338,13 +329,12 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Azure.Batch.Protocol.Models.OnAllTasksComplete&gt; OnAllTasksComplete { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Azure.Batch.Protocol.Models.OnAllTasksComplete&gt; OnAllTasksComplete" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Batch.Protocol.Models.JobSpecification.OnAllTasksComplete" />
+      <MemberSignature Language="VB.NET" Value="Public Property OnAllTasksComplete As Nullable(Of OnAllTasksComplete)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -376,13 +366,12 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Azure.Batch.Protocol.Models.OnTaskFailure&gt; OnTaskFailure { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Azure.Batch.Protocol.Models.OnTaskFailure&gt; OnTaskFailure" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Batch.Protocol.Models.JobSpecification.OnTaskFailure" />
+      <MemberSignature Language="VB.NET" Value="Public Property OnTaskFailure As Nullable(Of OnTaskFailure)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -396,8 +385,10 @@
         <summary>
             Gets or sets the action the Batch service should take when any task
             fails in a job created under this schedule. A task is considered to
-            have failed if it completes with a non-zero exit code and has
-            exhausted its retry count, or if it had a scheduling error.
+            have failed if it have failed if has a failureInfo. A failureInfo
+            is set if the task completes with a non-zero exit code after
+            exhausting its retry count, or if there was an error starting the
+            task, for example due to a resource file download error.
             </summary>
         <value>To be added.</value>
         <remarks>
@@ -410,13 +401,12 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Batch.Protocol.Models.PoolInformation PoolInfo { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Batch.Protocol.Models.PoolInformation PoolInfo" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Batch.Protocol.Models.JobSpecification.PoolInfo" />
+      <MemberSignature Language="VB.NET" Value="Public Property PoolInfo As PoolInformation" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -439,13 +429,12 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; Priority { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; Priority" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Batch.Protocol.Models.JobSpecification.Priority" />
+      <MemberSignature Language="VB.NET" Value="Public Property Priority As Nullable(Of Integer)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -473,13 +462,12 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; UsesTaskDependencies { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; UsesTaskDependencies" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Batch.Protocol.Models.JobSpecification.UsesTaskDependencies" />
+      <MemberSignature Language="VB.NET" Value="Public Property UsesTaskDependencies As Nullable(Of Boolean)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -491,8 +479,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-            Gets or sets the flag that determines if this job will use tasks
-            with dependencies.
+            Gets or sets whether tasks in the job can define dependencies on
+            each other. The default is false.
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -502,13 +490,12 @@
       <MemberSignature Language="C#" Value="public virtual void Validate ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Validate() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Batch.Protocol.Models.JobSpecification.Validate" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub Validate ()" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>

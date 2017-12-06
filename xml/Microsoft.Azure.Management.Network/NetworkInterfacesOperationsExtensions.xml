@@ -2,9 +2,9 @@
   <TypeSignature Language="C#" Value="public static class NetworkInterfacesOperationsExtensions" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit NetworkInterfacesOperationsExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Network.NetworkInterfacesOperationsExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module NetworkInterfacesOperationsExtensions" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-    <AssemblyVersion>9.1.0.0</AssemblyVersion>
     <AssemblyVersion>14.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
@@ -22,10 +22,10 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Network.Models.NetworkInterface BeginCreateOrUpdate (this Microsoft.Azure.Management.Network.INetworkInterfacesOperations operations, string resourceGroupName, string networkInterfaceName, Microsoft.Azure.Management.Network.Models.NetworkInterface parameters);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Network.Models.NetworkInterface BeginCreateOrUpdate(class Microsoft.Azure.Management.Network.INetworkInterfacesOperations operations, string resourceGroupName, string networkInterfaceName, class Microsoft.Azure.Management.Network.Models.NetworkInterface parameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.NetworkInterfacesOperationsExtensions.BeginCreateOrUpdate(Microsoft.Azure.Management.Network.INetworkInterfacesOperations,System.String,System.String,Microsoft.Azure.Management.Network.Models.NetworkInterface)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginCreateOrUpdate (operations As INetworkInterfacesOperations, resourceGroupName As String, networkInterfaceName As String, parameters As NetworkInterface) As NetworkInterface" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -64,7 +64,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -109,10 +108,10 @@
       <MemberSignature Language="C#" Value="public static void BeginDelete (this Microsoft.Azure.Management.Network.INetworkInterfacesOperations operations, string resourceGroupName, string networkInterfaceName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void BeginDelete(class Microsoft.Azure.Management.Network.INetworkInterfacesOperations operations, string resourceGroupName, string networkInterfaceName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.NetworkInterfacesOperationsExtensions.BeginDelete(Microsoft.Azure.Management.Network.INetworkInterfacesOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub BeginDelete (operations As INetworkInterfacesOperations, resourceGroupName As String, networkInterfaceName As String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -146,7 +145,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -187,10 +185,10 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Network.Models.EffectiveRouteListResult BeginGetEffectiveRouteTable (this Microsoft.Azure.Management.Network.INetworkInterfacesOperations operations, string resourceGroupName, string networkInterfaceName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Network.Models.EffectiveRouteListResult BeginGetEffectiveRouteTable(class Microsoft.Azure.Management.Network.INetworkInterfacesOperations operations, string resourceGroupName, string networkInterfaceName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.NetworkInterfacesOperationsExtensions.BeginGetEffectiveRouteTable(Microsoft.Azure.Management.Network.INetworkInterfacesOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginGetEffectiveRouteTable (operations As INetworkInterfacesOperations, resourceGroupName As String, networkInterfaceName As String) As EffectiveRouteListResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -225,7 +223,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -266,10 +263,10 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Network.Models.EffectiveNetworkSecurityGroupListResult BeginListEffectiveNetworkSecurityGroups (this Microsoft.Azure.Management.Network.INetworkInterfacesOperations operations, string resourceGroupName, string networkInterfaceName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Network.Models.EffectiveNetworkSecurityGroupListResult BeginListEffectiveNetworkSecurityGroups(class Microsoft.Azure.Management.Network.INetworkInterfacesOperations operations, string resourceGroupName, string networkInterfaceName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.NetworkInterfacesOperationsExtensions.BeginListEffectiveNetworkSecurityGroups(Microsoft.Azure.Management.Network.INetworkInterfacesOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginListEffectiveNetworkSecurityGroups (operations As INetworkInterfacesOperations, resourceGroupName As String, networkInterfaceName As String) As EffectiveNetworkSecurityGroupListResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -304,7 +301,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -345,10 +341,10 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Network.Models.NetworkInterface CreateOrUpdate (this Microsoft.Azure.Management.Network.INetworkInterfacesOperations operations, string resourceGroupName, string networkInterfaceName, Microsoft.Azure.Management.Network.Models.NetworkInterface parameters);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Network.Models.NetworkInterface CreateOrUpdate(class Microsoft.Azure.Management.Network.INetworkInterfacesOperations operations, string resourceGroupName, string networkInterfaceName, class Microsoft.Azure.Management.Network.Models.NetworkInterface parameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.NetworkInterfacesOperationsExtensions.CreateOrUpdate(Microsoft.Azure.Management.Network.INetworkInterfacesOperations,System.String,System.String,Microsoft.Azure.Management.Network.Models.NetworkInterface)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function CreateOrUpdate (operations As INetworkInterfacesOperations, resourceGroupName As String, networkInterfaceName As String, parameters As NetworkInterface) As NetworkInterface" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -387,7 +383,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -432,10 +427,10 @@
       <MemberSignature Language="C#" Value="public static void Delete (this Microsoft.Azure.Management.Network.INetworkInterfacesOperations operations, string resourceGroupName, string networkInterfaceName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Delete(class Microsoft.Azure.Management.Network.INetworkInterfacesOperations operations, string resourceGroupName, string networkInterfaceName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.NetworkInterfacesOperationsExtensions.Delete(Microsoft.Azure.Management.Network.INetworkInterfacesOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub Delete (operations As INetworkInterfacesOperations, resourceGroupName As String, networkInterfaceName As String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -469,7 +464,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -510,10 +504,10 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Network.Models.NetworkInterface Get (this Microsoft.Azure.Management.Network.INetworkInterfacesOperations operations, string resourceGroupName, string networkInterfaceName, string expand = null);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Network.Models.NetworkInterface Get(class Microsoft.Azure.Management.Network.INetworkInterfacesOperations operations, string resourceGroupName, string networkInterfaceName, string expand) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.NetworkInterfacesOperationsExtensions.Get(Microsoft.Azure.Management.Network.INetworkInterfacesOperations,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Get (operations As INetworkInterfacesOperations, resourceGroupName As String, networkInterfaceName As String, Optional expand As String = null) As NetworkInterface" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -552,7 +546,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -597,10 +590,10 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Network.Models.EffectiveRouteListResult GetEffectiveRouteTable (this Microsoft.Azure.Management.Network.INetworkInterfacesOperations operations, string resourceGroupName, string networkInterfaceName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Network.Models.EffectiveRouteListResult GetEffectiveRouteTable(class Microsoft.Azure.Management.Network.INetworkInterfacesOperations operations, string resourceGroupName, string networkInterfaceName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.NetworkInterfacesOperationsExtensions.GetEffectiveRouteTable(Microsoft.Azure.Management.Network.INetworkInterfacesOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetEffectiveRouteTable (operations As INetworkInterfacesOperations, resourceGroupName As String, networkInterfaceName As String) As EffectiveRouteListResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -635,7 +628,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -676,10 +668,10 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Network.Models.NetworkInterface GetVirtualMachineScaleSetNetworkInterface (this Microsoft.Azure.Management.Network.INetworkInterfacesOperations operations, string resourceGroupName, string virtualMachineScaleSetName, string virtualmachineIndex, string networkInterfaceName, string expand = null);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Network.Models.NetworkInterface GetVirtualMachineScaleSetNetworkInterface(class Microsoft.Azure.Management.Network.INetworkInterfacesOperations operations, string resourceGroupName, string virtualMachineScaleSetName, string virtualmachineIndex, string networkInterfaceName, string expand) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.NetworkInterfacesOperationsExtensions.GetVirtualMachineScaleSetNetworkInterface(Microsoft.Azure.Management.Network.INetworkInterfacesOperations,System.String,System.String,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetVirtualMachineScaleSetNetworkInterface (operations As INetworkInterfacesOperations, resourceGroupName As String, virtualMachineScaleSetName As String, virtualmachineIndex As String, networkInterfaceName As String, Optional expand As String = null) As NetworkInterface" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -726,7 +718,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -779,10 +770,10 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Network.Models.NetworkInterface&gt; List (this Microsoft.Azure.Management.Network.INetworkInterfacesOperations operations, string resourceGroupName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Network.Models.NetworkInterface&gt; List(class Microsoft.Azure.Management.Network.INetworkInterfacesOperations operations, string resourceGroupName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.NetworkInterfacesOperationsExtensions.List(Microsoft.Azure.Management.Network.INetworkInterfacesOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function List (operations As INetworkInterfacesOperations, resourceGroupName As String) As IPage(Of NetworkInterface)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -810,10 +801,10 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Network.Models.NetworkInterface&gt; ListAll (this Microsoft.Azure.Management.Network.INetworkInterfacesOperations operations);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Network.Models.NetworkInterface&gt; ListAll(class Microsoft.Azure.Management.Network.INetworkInterfacesOperations operations) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.NetworkInterfacesOperationsExtensions.ListAll(Microsoft.Azure.Management.Network.INetworkInterfacesOperations)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListAll (operations As INetworkInterfacesOperations) As IPage(Of NetworkInterface)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -840,7 +831,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -873,10 +863,10 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Network.Models.NetworkInterface&gt; ListAllNext (this Microsoft.Azure.Management.Network.INetworkInterfacesOperations operations, string nextPageLink);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Network.Models.NetworkInterface&gt; ListAllNext(class Microsoft.Azure.Management.Network.INetworkInterfacesOperations operations, string nextPageLink) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.NetworkInterfacesOperationsExtensions.ListAllNext(Microsoft.Azure.Management.Network.INetworkInterfacesOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListAllNext (operations As INetworkInterfacesOperations, nextPageLink As String) As IPage(Of NetworkInterface)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -907,7 +897,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -947,7 +936,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -984,10 +972,10 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Network.Models.EffectiveNetworkSecurityGroupListResult ListEffectiveNetworkSecurityGroups (this Microsoft.Azure.Management.Network.INetworkInterfacesOperations operations, string resourceGroupName, string networkInterfaceName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Network.Models.EffectiveNetworkSecurityGroupListResult ListEffectiveNetworkSecurityGroups(class Microsoft.Azure.Management.Network.INetworkInterfacesOperations operations, string resourceGroupName, string networkInterfaceName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.NetworkInterfacesOperationsExtensions.ListEffectiveNetworkSecurityGroups(Microsoft.Azure.Management.Network.INetworkInterfacesOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListEffectiveNetworkSecurityGroups (operations As INetworkInterfacesOperations, resourceGroupName As String, networkInterfaceName As String) As EffectiveNetworkSecurityGroupListResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1022,7 +1010,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1063,10 +1050,10 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Network.Models.NetworkInterface&gt; ListNext (this Microsoft.Azure.Management.Network.INetworkInterfacesOperations operations, string nextPageLink);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Network.Models.NetworkInterface&gt; ListNext(class Microsoft.Azure.Management.Network.INetworkInterfacesOperations operations, string nextPageLink) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.NetworkInterfacesOperationsExtensions.ListNext(Microsoft.Azure.Management.Network.INetworkInterfacesOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListNext (operations As INetworkInterfacesOperations, nextPageLink As String) As IPage(Of NetworkInterface)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1097,7 +1084,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1134,10 +1120,10 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Network.Models.NetworkInterface&gt; ListVirtualMachineScaleSetNetworkInterfaces (this Microsoft.Azure.Management.Network.INetworkInterfacesOperations operations, string resourceGroupName, string virtualMachineScaleSetName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Network.Models.NetworkInterface&gt; ListVirtualMachineScaleSetNetworkInterfaces(class Microsoft.Azure.Management.Network.INetworkInterfacesOperations operations, string resourceGroupName, string virtualMachineScaleSetName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.NetworkInterfacesOperationsExtensions.ListVirtualMachineScaleSetNetworkInterfaces(Microsoft.Azure.Management.Network.INetworkInterfacesOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListVirtualMachineScaleSetNetworkInterfaces (operations As INetworkInterfacesOperations, resourceGroupName As String, virtualMachineScaleSetName As String) As IPage(Of NetworkInterface)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1172,7 +1158,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1213,10 +1198,10 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Network.Models.NetworkInterface&gt; ListVirtualMachineScaleSetNetworkInterfacesNext (this Microsoft.Azure.Management.Network.INetworkInterfacesOperations operations, string nextPageLink);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Network.Models.NetworkInterface&gt; ListVirtualMachineScaleSetNetworkInterfacesNext(class Microsoft.Azure.Management.Network.INetworkInterfacesOperations operations, string nextPageLink) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.NetworkInterfacesOperationsExtensions.ListVirtualMachineScaleSetNetworkInterfacesNext(Microsoft.Azure.Management.Network.INetworkInterfacesOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListVirtualMachineScaleSetNetworkInterfacesNext (operations As INetworkInterfacesOperations, nextPageLink As String) As IPage(Of NetworkInterface)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1247,7 +1232,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1284,10 +1268,10 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Network.Models.NetworkInterface&gt; ListVirtualMachineScaleSetVMNetworkInterfaces (this Microsoft.Azure.Management.Network.INetworkInterfacesOperations operations, string resourceGroupName, string virtualMachineScaleSetName, string virtualmachineIndex);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Network.Models.NetworkInterface&gt; ListVirtualMachineScaleSetVMNetworkInterfaces(class Microsoft.Azure.Management.Network.INetworkInterfacesOperations operations, string resourceGroupName, string virtualMachineScaleSetName, string virtualmachineIndex) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.NetworkInterfacesOperationsExtensions.ListVirtualMachineScaleSetVMNetworkInterfaces(Microsoft.Azure.Management.Network.INetworkInterfacesOperations,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListVirtualMachineScaleSetVMNetworkInterfaces (operations As INetworkInterfacesOperations, resourceGroupName As String, virtualMachineScaleSetName As String, virtualmachineIndex As String) As IPage(Of NetworkInterface)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1327,7 +1311,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1373,10 +1356,10 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Network.Models.NetworkInterface&gt; ListVirtualMachineScaleSetVMNetworkInterfacesNext (this Microsoft.Azure.Management.Network.INetworkInterfacesOperations operations, string nextPageLink);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Network.Models.NetworkInterface&gt; ListVirtualMachineScaleSetVMNetworkInterfacesNext(class Microsoft.Azure.Management.Network.INetworkInterfacesOperations operations, string nextPageLink) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.NetworkInterfacesOperationsExtensions.ListVirtualMachineScaleSetVMNetworkInterfacesNext(Microsoft.Azure.Management.Network.INetworkInterfacesOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListVirtualMachineScaleSetVMNetworkInterfacesNext (operations As INetworkInterfacesOperations, nextPageLink As String) As IPage(Of NetworkInterface)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1408,7 +1391,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>

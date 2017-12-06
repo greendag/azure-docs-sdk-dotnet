@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public class JsonFormat : Microsoft.Azure.Management.DataFactories.Models.StorageFormat" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit JsonFormat extends Microsoft.Azure.Management.DataFactories.Models.StorageFormat" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.DataFactories.Models.JsonFormat" />
+  <TypeSignature Language="VB.NET" Value="Public Class JsonFormat&#xA;Inherits StorageFormat" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -21,10 +22,11 @@
       <MemberSignature Language="C#" Value="public JsonFormat ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataFactories.Models.JsonFormat.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -36,10 +38,11 @@
       <MemberSignature Language="C#" Value="public string EncodingName { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string EncodingName" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactories.Models.JsonFormat.EncodingName" />
+      <MemberSignature Language="VB.NET" Value="Public Property EncodingName As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -59,10 +62,11 @@
       <MemberSignature Language="C#" Value="public string FilePattern { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string FilePattern" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactories.Models.JsonFormat.FilePattern" />
+      <MemberSignature Language="VB.NET" Value="Public Property FilePattern As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -82,10 +86,11 @@
       <MemberSignature Language="C#" Value="public string JsonNodeReference { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string JsonNodeReference" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactories.Models.JsonFormat.JsonNodeReference" />
+      <MemberSignature Language="VB.NET" Value="Public Property JsonNodeReference As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -103,10 +108,11 @@
       <MemberSignature Language="C#" Value="public System.Collections.Generic.Dictionary&lt;string,string&gt; JsonPathDefinition { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.Dictionary`2&lt;string, string&gt; JsonPathDefinition" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactories.Models.JsonFormat.JsonPathDefinition" />
+      <MemberSignature Language="VB.NET" Value="Public Property JsonPathDefinition As Dictionary(Of String, String)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.String&gt;</ReturnType>
@@ -124,10 +130,11 @@
       <MemberSignature Language="C#" Value="public string NestingSeparator { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string NestingSeparator" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactories.Models.JsonFormat.NestingSeparator" />
+      <MemberSignature Language="VB.NET" Value="Public Property NestingSeparator As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

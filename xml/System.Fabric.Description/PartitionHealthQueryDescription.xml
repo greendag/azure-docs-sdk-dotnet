@@ -2,10 +2,10 @@
   <TypeSignature Language="C#" Value="public sealed class PartitionHealthQueryDescription" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit PartitionHealthQueryDescription extends System.Object" />
   <TypeSignature Language="DocId" Value="T:System.Fabric.Description.PartitionHealthQueryDescription" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class PartitionHealthQueryDescription" />
   <AssemblyInfo>
     <AssemblyName>System.Fabric</AssemblyName>
-    <AssemblyVersion>5.0.0.0</AssemblyVersion>
-    <AssemblyVersion>255.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -23,11 +23,11 @@
       <MemberSignature Language="C#" Value="public PartitionHealthQueryDescription (Guid partitionId);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.Guid partitionId) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.Description.PartitionHealthQueryDescription.#ctor(System.Guid)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (partitionId As Guid)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="partitionId" Type="System.Guid" />
@@ -46,11 +46,11 @@
       <MemberSignature Language="C#" Value="public System.Fabric.Health.HealthEventsFilter EventsFilter { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Fabric.Health.HealthEventsFilter EventsFilter" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Description.PartitionHealthQueryDescription.EventsFilter" />
+      <MemberSignature Language="VB.NET" Value="Public Property EventsFilter As HealthEventsFilter" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Fabric.Health.HealthEventsFilter</ReturnType>
@@ -74,11 +74,11 @@
       <MemberSignature Language="C#" Value="public System.Fabric.Health.ApplicationHealthPolicy HealthPolicy { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Fabric.Health.ApplicationHealthPolicy HealthPolicy" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Description.PartitionHealthQueryDescription.HealthPolicy" />
+      <MemberSignature Language="VB.NET" Value="Public Property HealthPolicy As ApplicationHealthPolicy" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Fabric.Health.ApplicationHealthPolicy</ReturnType>
@@ -98,10 +98,11 @@
       <MemberSignature Language="C#" Value="public System.Fabric.Health.PartitionHealthStatisticsFilter HealthStatisticsFilter { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Fabric.Health.PartitionHealthStatisticsFilter HealthStatisticsFilter" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Description.PartitionHealthQueryDescription.HealthStatisticsFilter" />
+      <MemberSignature Language="VB.NET" Value="Public Property HealthStatisticsFilter As PartitionHealthStatisticsFilter" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Fabric</AssemblyName>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Fabric.Health.PartitionHealthStatisticsFilter</ReturnType>
@@ -123,11 +124,11 @@
       <MemberSignature Language="C#" Value="public Guid PartitionId { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Guid PartitionId" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Description.PartitionHealthQueryDescription.PartitionId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PartitionId As Guid" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Guid</ReturnType>
@@ -146,11 +147,11 @@
       <MemberSignature Language="C#" Value="public System.Fabric.Health.ReplicaHealthStatesFilter ReplicasFilter { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Fabric.Health.ReplicaHealthStatesFilter ReplicasFilter" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Description.PartitionHealthQueryDescription.ReplicasFilter" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReplicasFilter As ReplicaHealthStatesFilter" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Fabric.Health.ReplicaHealthStatesFilter</ReturnType>
@@ -174,11 +175,11 @@
       <MemberSignature Language="C#" Value="public override string ToString ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.Description.PartitionHealthQueryDescription.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

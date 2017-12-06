@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public interface IAutomationAccountOperations" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IAutomationAccountOperations" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Automation.IAutomationAccountOperations" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IAutomationAccountOperations" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -18,8 +19,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Automation.IAutomationAccountOperations.CreateOrUpdateAsync(System.String,Microsoft.Azure.Management.Automation.Models.AutomationAccountCreateOrUpdateParameters,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.AutomationAccountCreateOrUpdateResponse&gt;</ReturnType>
@@ -44,8 +45,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Automation.IAutomationAccountOperations.DeleteAsync(System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.AzureOperationResponse&gt;</ReturnType>
@@ -70,8 +71,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Automation.IAutomationAccountOperations.GetAsync(System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.AutomationAccountGetResponse&gt;</ReturnType>
@@ -96,8 +97,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Automation.IAutomationAccountOperations.ListAsync(System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.AutomationAccountListResponse&gt;</ReturnType>
@@ -120,8 +121,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Automation.IAutomationAccountOperations.ListNextAsync(System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.AutomationAccountListResponse&gt;</ReturnType>
@@ -144,8 +145,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Automation.IAutomationAccountOperations.PatchAsync(System.String,Microsoft.Azure.Management.Automation.Models.AutomationAccountPatchParameters,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.AutomationAccountPatchResponse&gt;</ReturnType>

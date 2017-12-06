@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public interface IApplicationPackageOperations" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IApplicationPackageOperations" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Batch.Fluent.IApplicationPackageOperations" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IApplicationPackageOperations" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Batch.Fluent</AssemblyName>
     <AssemblyVersion>1.0.0.60</AssemblyVersion>
@@ -20,8 +21,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Batch.Fluent.IApplicationPackageOperations.ActivateWithHttpMessagesAsync(System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Batch.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.AzureOperationResponse&gt;</ReturnType>
@@ -76,8 +77,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Batch.Fluent.IApplicationPackageOperations.CreateWithHttpMessagesAsync(System.String,System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Batch.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.AzureOperationResponse&lt;Microsoft.Azure.Management.Batch.Fluent.Models.ApplicationPackageInner&gt;&gt;</ReturnType>
@@ -131,8 +132,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Batch.Fluent.IApplicationPackageOperations.DeleteWithHttpMessagesAsync(System.String,System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Batch.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.AzureOperationResponse&gt;</ReturnType>
@@ -184,8 +185,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Batch.Fluent.IApplicationPackageOperations.GetWithHttpMessagesAsync(System.String,System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Batch.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.AzureOperationResponse&lt;Microsoft.Azure.Management.Batch.Fluent.Models.ApplicationPackageInner&gt;&gt;</ReturnType>

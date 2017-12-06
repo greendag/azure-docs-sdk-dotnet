@@ -2,9 +2,10 @@
   <TypeSignature Language="C#" Value="public static class EncryptionUtils" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit EncryptionUtils extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.WindowsAzure.MediaServices.Client.EncryptionUtils" />
+  <TypeSignature Language="VB.NET" Value="Public Class EncryptionUtils" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client.Common.FileEncryption</AssemblyName>
-    <AssemblyVersion>3.8.0.5</AssemblyVersion>
+    <AssemblyVersion>4.0.0.4</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -19,10 +20,11 @@
       <MemberSignature Language="C#" Value="public static string CalculateChecksum (byte[] contentKey, Guid keyId);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string CalculateChecksum(unsigned int8[] contentKey, valuetype System.Guid keyId) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.MediaServices.Client.EncryptionUtils.CalculateChecksum(System.Byte[],System.Guid)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CalculateChecksum (contentKey As Byte(), keyId As Guid) As String" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client.Common.FileEncryption</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -43,10 +45,11 @@
       <MemberSignature Language="C#" Value="public static byte[] DecryptSymmetricKey (System.Security.Cryptography.X509Certificates.X509Certificate2 cert, byte[] encryptedData);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig unsigned int8[] DecryptSymmetricKey(class System.Security.Cryptography.X509Certificates.X509Certificate2 cert, unsigned int8[] encryptedData) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.MediaServices.Client.EncryptionUtils.DecryptSymmetricKey(System.Security.Cryptography.X509Certificates.X509Certificate2,System.Byte[])" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function DecryptSymmetricKey (cert As X509Certificate2, encryptedData As Byte()) As Byte()" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client.Common.FileEncryption</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Byte[]</ReturnType>
@@ -67,10 +70,11 @@
       <MemberSignature Language="C#" Value="public static byte[] EncryptSymmetricKey (System.Security.Cryptography.X509Certificates.X509Certificate2 cert, System.Security.Cryptography.SymmetricAlgorithm aes);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig unsigned int8[] EncryptSymmetricKey(class System.Security.Cryptography.X509Certificates.X509Certificate2 cert, class System.Security.Cryptography.SymmetricAlgorithm aes) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.MediaServices.Client.EncryptionUtils.EncryptSymmetricKey(System.Security.Cryptography.X509Certificates.X509Certificate2,System.Security.Cryptography.SymmetricAlgorithm)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function EncryptSymmetricKey (cert As X509Certificate2, aes As SymmetricAlgorithm) As Byte()" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client.Common.FileEncryption</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Byte[]</ReturnType>
@@ -91,10 +95,11 @@
       <MemberSignature Language="C#" Value="public static byte[] EncryptSymmetricKeyData (System.Security.Cryptography.X509Certificates.X509Certificate2 cert, byte[] keyData);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig unsigned int8[] EncryptSymmetricKeyData(class System.Security.Cryptography.X509Certificates.X509Certificate2 cert, unsigned int8[] keyData) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.MediaServices.Client.EncryptionUtils.EncryptSymmetricKeyData(System.Security.Cryptography.X509Certificates.X509Certificate2,System.Byte[])" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function EncryptSymmetricKeyData (cert As X509Certificate2, keyData As Byte()) As Byte()" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client.Common.FileEncryption</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Byte[]</ReturnType>
@@ -115,10 +120,11 @@
       <MemberSignature Language="C#" Value="public static void EraseKey (byte[] keyToErase);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void EraseKey(unsigned int8[] keyToErase) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.MediaServices.Client.EncryptionUtils.EraseKey(System.Byte[])" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub EraseKey (keyToErase As Byte())" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client.Common.FileEncryption</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -136,10 +142,11 @@
       <MemberSignature Language="C#" Value="public static System.Security.Cryptography.X509Certificates.X509Certificate2 GetCertificateFromStore (string certificateThumbprint);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Security.Cryptography.X509Certificates.X509Certificate2 GetCertificateFromStore(string certificateThumbprint) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.MediaServices.Client.EncryptionUtils.GetCertificateFromStore(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetCertificateFromStore (certificateThumbprint As String) As X509Certificate2" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client.Common.FileEncryption</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Security.Cryptography.X509Certificates.X509Certificate2</ReturnType>
@@ -158,10 +165,11 @@
       <MemberSignature Language="C#" Value="public static System.Security.Cryptography.X509Certificates.X509Certificate2 GetCertificateFromStore (string certificateThumbprint, System.Security.Cryptography.X509Certificates.StoreLocation location);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Security.Cryptography.X509Certificates.X509Certificate2 GetCertificateFromStore(string certificateThumbprint, valuetype System.Security.Cryptography.X509Certificates.StoreLocation location) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.MediaServices.Client.EncryptionUtils.GetCertificateFromStore(System.String,System.Security.Cryptography.X509Certificates.StoreLocation)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetCertificateFromStore (certificateThumbprint As String, location As StoreLocation) As X509Certificate2" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client.Common.FileEncryption</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Security.Cryptography.X509Certificates.X509Certificate2</ReturnType>
@@ -182,10 +190,11 @@
       <MemberSignature Language="C#" Value="public static Guid GetKeyIdAsGuid (string keyIdentifier);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Guid GetKeyIdAsGuid(string keyIdentifier) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.MediaServices.Client.EncryptionUtils.GetKeyIdAsGuid(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetKeyIdAsGuid (keyIdentifier As String) As Guid" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client.Common.FileEncryption</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Guid</ReturnType>
@@ -204,10 +213,11 @@
       <MemberSignature Language="C#" Value="public static string GetKeyIdentifierAsString (Guid keyIdentifier);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetKeyIdentifierAsString(valuetype System.Guid keyIdentifier) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.MediaServices.Client.EncryptionUtils.GetKeyIdentifierAsString(System.Guid)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetKeyIdentifierAsString (keyIdentifier As Guid) As String" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client.Common.FileEncryption</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -226,10 +236,11 @@
       <MemberSignature Language="C#" Value="public const int IVSizeInBytesForAesCbc = 16;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal int32 IVSizeInBytesForAesCbc = (16)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.MediaServices.Client.EncryptionUtils.IVSizeInBytesForAesCbc" />
+      <MemberSignature Language="VB.NET" Value="Public Const IVSizeInBytesForAesCbc As Integer  = 16" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client.Common.FileEncryption</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -244,10 +255,11 @@
       <MemberSignature Language="C#" Value="public const int KeySizeInBitsForAes128 = 128;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal int32 KeySizeInBitsForAes128 = (128)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.MediaServices.Client.EncryptionUtils.KeySizeInBitsForAes128" />
+      <MemberSignature Language="VB.NET" Value="Public Const KeySizeInBitsForAes128 As Integer  = 128" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client.Common.FileEncryption</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -262,10 +274,11 @@
       <MemberSignature Language="C#" Value="public const int KeySizeInBitsForAes256 = 256;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal int32 KeySizeInBitsForAes256 = (256)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.MediaServices.Client.EncryptionUtils.KeySizeInBitsForAes256" />
+      <MemberSignature Language="VB.NET" Value="Public Const KeySizeInBitsForAes256 As Integer  = 256" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client.Common.FileEncryption</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -280,10 +293,11 @@
       <MemberSignature Language="C#" Value="public const int KeySizeInBytesForAes128 = 16;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal int32 KeySizeInBytesForAes128 = (16)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.MediaServices.Client.EncryptionUtils.KeySizeInBytesForAes128" />
+      <MemberSignature Language="VB.NET" Value="Public Const KeySizeInBytesForAes128 As Integer  = 16" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client.Common.FileEncryption</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -298,10 +312,11 @@
       <MemberSignature Language="C#" Value="public const int KeySizeInBytesForAes256 = 32;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal int32 KeySizeInBytesForAes256 = (32)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.MediaServices.Client.EncryptionUtils.KeySizeInBytesForAes256" />
+      <MemberSignature Language="VB.NET" Value="Public Const KeySizeInBytesForAes256 As Integer  = 32" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client.Common.FileEncryption</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -316,10 +331,11 @@
       <MemberSignature Language="C#" Value="public static void SaveCertificateToStore (System.Security.Cryptography.X509Certificates.X509Certificate2 certToStore);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SaveCertificateToStore(class System.Security.Cryptography.X509Certificates.X509Certificate2 certToStore) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.MediaServices.Client.EncryptionUtils.SaveCertificateToStore(System.Security.Cryptography.X509Certificates.X509Certificate2)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub SaveCertificateToStore (certToStore As X509Certificate2)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client.Common.FileEncryption</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>

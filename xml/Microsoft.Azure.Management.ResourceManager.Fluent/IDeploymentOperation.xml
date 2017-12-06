@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public interface IDeploymentOperation : Microsoft.Azure.Management.ResourceManager.Fluent.Core.IHasInner&lt;Microsoft.Azure.Management.ResourceManager.Fluent.Models.DeploymentOperationInner&gt;, Microsoft.Azure.Management.ResourceManager.Fluent.Core.ResourceActions.IIndexable, Microsoft.Azure.Management.ResourceManager.Fluent.Core.ResourceActions.IRefreshable&lt;Microsoft.Azure.Management.ResourceManager.Fluent.IDeploymentOperation&gt;" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IDeploymentOperation implements class Microsoft.Azure.Management.ResourceManager.Fluent.Core.IHasInner`1&lt;class Microsoft.Azure.Management.ResourceManager.Fluent.Models.DeploymentOperationInner&gt;, class Microsoft.Azure.Management.ResourceManager.Fluent.Core.ResourceActions.IIndexable, class Microsoft.Azure.Management.ResourceManager.Fluent.Core.ResourceActions.IRefreshable`1&lt;class Microsoft.Azure.Management.ResourceManager.Fluent.IDeploymentOperation&gt;" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.ResourceManager.Fluent.IDeploymentOperation" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IDeploymentOperation&#xA;Implements IHasInner(Of DeploymentOperationInner), IIndexable, IRefreshable(Of IDeploymentOperation)" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.ResourceManager.Fluent</AssemblyName>
     <AssemblyVersion>1.0.0.60</AssemblyVersion>
@@ -28,10 +29,11 @@
       <MemberSignature Language="C#" Value="public string OperationId { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string OperationId" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.ResourceManager.Fluent.IDeploymentOperation.OperationId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OperationId As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -46,10 +48,11 @@
       <MemberSignature Language="C#" Value="public string ProvisioningState { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string ProvisioningState" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.ResourceManager.Fluent.IDeploymentOperation.ProvisioningState" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProvisioningState As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -64,10 +67,11 @@
       <MemberSignature Language="C#" Value="public string StatusCode { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string StatusCode" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.ResourceManager.Fluent.IDeploymentOperation.StatusCode" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StatusCode As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -82,10 +86,11 @@
       <MemberSignature Language="C#" Value="public object StatusMessage { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object StatusMessage" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.ResourceManager.Fluent.IDeploymentOperation.StatusMessage" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StatusMessage As Object" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Object</ReturnType>
@@ -100,10 +105,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.ResourceManager.Fluent.Models.TargetResource TargetResource { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.ResourceManager.Fluent.Models.TargetResource TargetResource" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.ResourceManager.Fluent.IDeploymentOperation.TargetResource" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TargetResource As TargetResource" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.ResourceManager.Fluent.Models.TargetResource</ReturnType>
@@ -118,10 +124,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; Timestamp { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; Timestamp" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.ResourceManager.Fluent.IDeploymentOperation.Timestamp" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Timestamp As Nullable(Of DateTime)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>

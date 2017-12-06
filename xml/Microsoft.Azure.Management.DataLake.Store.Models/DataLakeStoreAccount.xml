@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public class DataLakeStoreAccount : Microsoft.Azure.Management.DataLake.Store.Models.Resource" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DataLakeStoreAccount extends Microsoft.Azure.Management.DataLake.Store.Models.Resource" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.DataLake.Store.Models.DataLakeStoreAccount" />
+  <TypeSignature Language="VB.NET" Value="Public Class DataLakeStoreAccount&#xA;Inherits Resource" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.DataLake.Store</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -26,103 +27,14 @@
       <MemberSignature Language="C#" Value="public DataLakeStoreAccount ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataLake.Store.Models.DataLakeStoreAccount.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataLake.Store</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>
-            Initializes a new instance of the DataLakeStoreAccount class.
-            </summary>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public DataLakeStoreAccount (string location, string id = null, string name = null, string type = null, System.Collections.Generic.IDictionary&lt;string,string&gt; tags = null, Microsoft.Azure.Management.DataLake.Store.Models.EncryptionIdentity identity = null, Nullable&lt;Microsoft.Azure.Management.DataLake.Store.Models.DataLakeStoreAccountStatus&gt; provisioningState = null, Nullable&lt;Microsoft.Azure.Management.DataLake.Store.Models.DataLakeStoreAccountState&gt; state = null, Nullable&lt;DateTime&gt; creationTime = null, Nullable&lt;Microsoft.Azure.Management.DataLake.Store.Models.EncryptionState&gt; encryptionState = null, Nullable&lt;Microsoft.Azure.Management.DataLake.Store.Models.EncryptionProvisioningState&gt; encryptionProvisioningState = null, Microsoft.Azure.Management.DataLake.Store.Models.EncryptionConfig encryptionConfig = null, Nullable&lt;Microsoft.Azure.Management.DataLake.Store.Models.FirewallState&gt; firewallState = null, System.Collections.Generic.IList&lt;Microsoft.Azure.Management.DataLake.Store.Models.FirewallRule&gt; firewallRules = null, Nullable&lt;Microsoft.Azure.Management.DataLake.Store.Models.TrustedIdProviderState&gt; trustedIdProviderState = null, System.Collections.Generic.IList&lt;Microsoft.Azure.Management.DataLake.Store.Models.TrustedIdProvider&gt; trustedIdProviders = null, Nullable&lt;DateTime&gt; lastModifiedTime = null, string endpoint = null, string defaultGroup = null, Nullable&lt;Microsoft.Azure.Management.DataLake.Store.Models.TierType&gt; newTier = null, Nullable&lt;Microsoft.Azure.Management.DataLake.Store.Models.TierType&gt; currentTier = null, Nullable&lt;Microsoft.Azure.Management.DataLake.Store.Models.FirewallAllowAzureIpsState&gt; firewallAllowAzureIps = null);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string location, string id, string name, string type, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags, class Microsoft.Azure.Management.DataLake.Store.Models.EncryptionIdentity identity, valuetype System.Nullable`1&lt;valuetype Microsoft.Azure.Management.DataLake.Store.Models.DataLakeStoreAccountStatus&gt; provisioningState, valuetype System.Nullable`1&lt;valuetype Microsoft.Azure.Management.DataLake.Store.Models.DataLakeStoreAccountState&gt; state, valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; creationTime, valuetype System.Nullable`1&lt;valuetype Microsoft.Azure.Management.DataLake.Store.Models.EncryptionState&gt; encryptionState, valuetype System.Nullable`1&lt;valuetype Microsoft.Azure.Management.DataLake.Store.Models.EncryptionProvisioningState&gt; encryptionProvisioningState, class Microsoft.Azure.Management.DataLake.Store.Models.EncryptionConfig encryptionConfig, valuetype System.Nullable`1&lt;valuetype Microsoft.Azure.Management.DataLake.Store.Models.FirewallState&gt; firewallState, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.DataLake.Store.Models.FirewallRule&gt; firewallRules, valuetype System.Nullable`1&lt;valuetype Microsoft.Azure.Management.DataLake.Store.Models.TrustedIdProviderState&gt; trustedIdProviderState, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.DataLake.Store.Models.TrustedIdProvider&gt; trustedIdProviders, valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; lastModifiedTime, string endpoint, string defaultGroup, valuetype System.Nullable`1&lt;valuetype Microsoft.Azure.Management.DataLake.Store.Models.TierType&gt; newTier, valuetype System.Nullable`1&lt;valuetype Microsoft.Azure.Management.DataLake.Store.Models.TierType&gt; currentTier, valuetype System.Nullable`1&lt;valuetype Microsoft.Azure.Management.DataLake.Store.Models.FirewallAllowAzureIpsState&gt; firewallAllowAzureIps) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataLake.Store.Models.DataLakeStoreAccount.#ctor(System.String,System.String,System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.String},Microsoft.Azure.Management.DataLake.Store.Models.EncryptionIdentity,System.Nullable{Microsoft.Azure.Management.DataLake.Store.Models.DataLakeStoreAccountStatus},System.Nullable{Microsoft.Azure.Management.DataLake.Store.Models.DataLakeStoreAccountState},System.Nullable{System.DateTime},System.Nullable{Microsoft.Azure.Management.DataLake.Store.Models.EncryptionState},System.Nullable{Microsoft.Azure.Management.DataLake.Store.Models.EncryptionProvisioningState},Microsoft.Azure.Management.DataLake.Store.Models.EncryptionConfig,System.Nullable{Microsoft.Azure.Management.DataLake.Store.Models.FirewallState},System.Collections.Generic.IList{Microsoft.Azure.Management.DataLake.Store.Models.FirewallRule},System.Nullable{Microsoft.Azure.Management.DataLake.Store.Models.TrustedIdProviderState},System.Collections.Generic.IList{Microsoft.Azure.Management.DataLake.Store.Models.TrustedIdProvider},System.Nullable{System.DateTime},System.String,System.String,System.Nullable{Microsoft.Azure.Management.DataLake.Store.Models.TierType},System.Nullable{Microsoft.Azure.Management.DataLake.Store.Models.TierType},System.Nullable{Microsoft.Azure.Management.DataLake.Store.Models.FirewallAllowAzureIpsState})" />
-      <MemberType>Constructor</MemberType>
-      <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
-        <AssemblyName>Microsoft.Azure.Management.DataLake.Store</AssemblyName>
-      </AssemblyInfo>
-      <Parameters>
-        <Parameter Name="location" Type="System.String" />
-        <Parameter Name="id" Type="System.String" />
-        <Parameter Name="name" Type="System.String" />
-        <Parameter Name="type" Type="System.String" />
-        <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" />
-        <Parameter Name="identity" Type="Microsoft.Azure.Management.DataLake.Store.Models.EncryptionIdentity" />
-        <Parameter Name="provisioningState" Type="System.Nullable&lt;Microsoft.Azure.Management.DataLake.Store.Models.DataLakeStoreAccountStatus&gt;" />
-        <Parameter Name="state" Type="System.Nullable&lt;Microsoft.Azure.Management.DataLake.Store.Models.DataLakeStoreAccountState&gt;" />
-        <Parameter Name="creationTime" Type="System.Nullable&lt;System.DateTime&gt;" />
-        <Parameter Name="encryptionState" Type="System.Nullable&lt;Microsoft.Azure.Management.DataLake.Store.Models.EncryptionState&gt;" />
-        <Parameter Name="encryptionProvisioningState" Type="System.Nullable&lt;Microsoft.Azure.Management.DataLake.Store.Models.EncryptionProvisioningState&gt;" />
-        <Parameter Name="encryptionConfig" Type="Microsoft.Azure.Management.DataLake.Store.Models.EncryptionConfig" />
-        <Parameter Name="firewallState" Type="System.Nullable&lt;Microsoft.Azure.Management.DataLake.Store.Models.FirewallState&gt;" />
-        <Parameter Name="firewallRules" Type="System.Collections.Generic.IList&lt;Microsoft.Azure.Management.DataLake.Store.Models.FirewallRule&gt;" />
-        <Parameter Name="trustedIdProviderState" Type="System.Nullable&lt;Microsoft.Azure.Management.DataLake.Store.Models.TrustedIdProviderState&gt;" />
-        <Parameter Name="trustedIdProviders" Type="System.Collections.Generic.IList&lt;Microsoft.Azure.Management.DataLake.Store.Models.TrustedIdProvider&gt;" />
-        <Parameter Name="lastModifiedTime" Type="System.Nullable&lt;System.DateTime&gt;" />
-        <Parameter Name="endpoint" Type="System.String" />
-        <Parameter Name="defaultGroup" Type="System.String" />
-        <Parameter Name="newTier" Type="System.Nullable&lt;Microsoft.Azure.Management.DataLake.Store.Models.TierType&gt;" />
-        <Parameter Name="currentTier" Type="System.Nullable&lt;Microsoft.Azure.Management.DataLake.Store.Models.TierType&gt;" />
-        <Parameter Name="firewallAllowAzureIps" Type="System.Nullable&lt;Microsoft.Azure.Management.DataLake.Store.Models.FirewallAllowAzureIpsState&gt;" />
-      </Parameters>
-      <Docs>
-        <param name="location">Resource location</param>
-        <param name="id">Resource Id</param>
-        <param name="name">Resource name</param>
-        <param name="type">Resource type</param>
-        <param name="tags">Resource tags</param>
-        <param name="identity">The Key Vault encryption identity, if
-            any.</param>
-        <param name="provisioningState">the status of the Data Lake Store
-            account while being provisioned. Possible values include: 'Failed',
-            'Creating', 'Running', 'Succeeded', 'Patching', 'Suspending',
-            'Resuming', 'Deleting', 'Deleted'</param>
-        <param name="state">the status of the Data Lake Store account after
-            provisioning has completed. Possible values include: 'Active',
-            'Suspended'</param>
-        <param name="creationTime">the account creation time.</param>
-        <param name="encryptionState">The current state of encryption for
-            this Data Lake store account. Possible values include: 'Enabled',
-            'Disabled'</param>
-        <param name="encryptionProvisioningState">The current state of
-            encryption provisioning for this Data Lake store account. Possible
-            values include: 'Creating', 'Succeeded'</param>
-        <param name="encryptionConfig">The Key Vault encryption
-            configuration.</param>
-        <param name="firewallState">The current state of the IP address
-            firewall for this Data Lake store account. Possible values include:
-            'Enabled', 'Disabled'</param>
-        <param name="firewallRules">The list of firewall rules associated
-            with this Data Lake store account.</param>
-        <param name="trustedIdProviderState">The current state of the
-            trusted identity provider feature for this Data Lake store account.
-            Possible values include: 'Enabled', 'Disabled'</param>
-        <param name="trustedIdProviders">The list of trusted identity
-            providers associated with this Data Lake store account.</param>
-        <param name="lastModifiedTime">the account last modified
-            time.</param>
-        <param name="endpoint">the gateway host.</param>
-        <param name="defaultGroup">the default owner group for all new
-            folders and files created in the Data Lake Store account.</param>
-        <param name="newTier">the commitment tier to use for next month.
-            Possible values include: 'Consumption', 'Commitment_1TB',
-            'Commitment_10TB', 'Commitment_100TB', 'Commitment_500TB',
-            'Commitment_1PB', 'Commitment_5PB'</param>
-        <param name="currentTier">the commitment tier in use for the
-            current month. Possible values include: 'Consumption',
-            'Commitment_1TB', 'Commitment_10TB', 'Commitment_100TB',
-            'Commitment_500TB', 'Commitment_1PB', 'Commitment_5PB'</param>
-        <param name="firewallAllowAzureIps">The current state of allowing
-            or disallowing IPs originating within Azure through the firewall.
-            If the firewall is disabled, this is not enforced. Possible values
-            include: 'Enabled', 'Disabled'</param>
         <summary>
             Initializes a new instance of the DataLakeStoreAccount class.
             </summary>
@@ -226,6 +138,7 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;Guid&gt; AccountId { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.Guid&gt; AccountId" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataLake.Store.Models.DataLakeStoreAccount.AccountId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AccountId As Nullable(Of Guid)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataLake.Store</AssemblyName>
@@ -252,10 +165,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; CreationTime { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; CreationTime" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataLake.Store.Models.DataLakeStoreAccount.CreationTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CreationTime As Nullable(Of DateTime)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataLake.Store</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -277,10 +191,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Azure.Management.DataLake.Store.Models.TierType&gt; CurrentTier { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Azure.Management.DataLake.Store.Models.TierType&gt; CurrentTier" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataLake.Store.Models.DataLakeStoreAccount.CurrentTier" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CurrentTier As Nullable(Of TierType)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataLake.Store</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -305,10 +220,11 @@
       <MemberSignature Language="C#" Value="public string DefaultGroup { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string DefaultGroup" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataLake.Store.Models.DataLakeStoreAccount.DefaultGroup" />
+      <MemberSignature Language="VB.NET" Value="Public Property DefaultGroup As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataLake.Store</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -331,10 +247,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.DataLake.Store.Models.EncryptionConfig EncryptionConfig { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.DataLake.Store.Models.EncryptionConfig EncryptionConfig" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataLake.Store.Models.DataLakeStoreAccount.EncryptionConfig" />
+      <MemberSignature Language="VB.NET" Value="Public Property EncryptionConfig As EncryptionConfig" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataLake.Store</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -356,10 +273,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Azure.Management.DataLake.Store.Models.EncryptionProvisioningState&gt; EncryptionProvisioningState { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Azure.Management.DataLake.Store.Models.EncryptionProvisioningState&gt; EncryptionProvisioningState" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataLake.Store.Models.DataLakeStoreAccount.EncryptionProvisioningState" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EncryptionProvisioningState As Nullable(Of EncryptionProvisioningState)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataLake.Store</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -383,10 +301,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Azure.Management.DataLake.Store.Models.EncryptionState&gt; EncryptionState { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Azure.Management.DataLake.Store.Models.EncryptionState&gt; EncryptionState" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataLake.Store.Models.DataLakeStoreAccount.EncryptionState" />
+      <MemberSignature Language="VB.NET" Value="Public Property EncryptionState As Nullable(Of EncryptionState)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataLake.Store</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -409,10 +328,11 @@
       <MemberSignature Language="C#" Value="public string Endpoint { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Endpoint" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataLake.Store.Models.DataLakeStoreAccount.Endpoint" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Endpoint As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataLake.Store</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -434,10 +354,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Azure.Management.DataLake.Store.Models.FirewallAllowAzureIpsState&gt; FirewallAllowAzureIps { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Azure.Management.DataLake.Store.Models.FirewallAllowAzureIpsState&gt; FirewallAllowAzureIps" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataLake.Store.Models.DataLakeStoreAccount.FirewallAllowAzureIps" />
+      <MemberSignature Language="VB.NET" Value="Public Property FirewallAllowAzureIps As Nullable(Of FirewallAllowAzureIpsState)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataLake.Store</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -462,10 +383,11 @@
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.Management.DataLake.Store.Models.FirewallRule&gt; FirewallRules { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.DataLake.Store.Models.FirewallRule&gt; FirewallRules" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataLake.Store.Models.DataLakeStoreAccount.FirewallRules" />
+      <MemberSignature Language="VB.NET" Value="Public Property FirewallRules As IList(Of FirewallRule)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataLake.Store</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -488,10 +410,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Azure.Management.DataLake.Store.Models.FirewallState&gt; FirewallState { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Azure.Management.DataLake.Store.Models.FirewallState&gt; FirewallState" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataLake.Store.Models.DataLakeStoreAccount.FirewallState" />
+      <MemberSignature Language="VB.NET" Value="Public Property FirewallState As Nullable(Of FirewallState)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataLake.Store</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -515,10 +438,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.DataLake.Store.Models.EncryptionIdentity Identity { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.DataLake.Store.Models.EncryptionIdentity Identity" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataLake.Store.Models.DataLakeStoreAccount.Identity" />
+      <MemberSignature Language="VB.NET" Value="Public Property Identity As EncryptionIdentity" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataLake.Store</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -540,10 +464,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; LastModifiedTime { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; LastModifiedTime" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataLake.Store.Models.DataLakeStoreAccount.LastModifiedTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LastModifiedTime As Nullable(Of DateTime)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataLake.Store</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -565,10 +490,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Azure.Management.DataLake.Store.Models.TierType&gt; NewTier { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Azure.Management.DataLake.Store.Models.TierType&gt; NewTier" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataLake.Store.Models.DataLakeStoreAccount.NewTier" />
+      <MemberSignature Language="VB.NET" Value="Public Property NewTier As Nullable(Of TierType)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataLake.Store</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -593,10 +519,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Azure.Management.DataLake.Store.Models.DataLakeStoreAccountStatus&gt; ProvisioningState { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Azure.Management.DataLake.Store.Models.DataLakeStoreAccountStatus&gt; ProvisioningState" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataLake.Store.Models.DataLakeStoreAccount.ProvisioningState" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProvisioningState As Nullable(Of DataLakeStoreAccountStatus)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataLake.Store</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -621,10 +548,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Azure.Management.DataLake.Store.Models.DataLakeStoreAccountState&gt; State { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Azure.Management.DataLake.Store.Models.DataLakeStoreAccountState&gt; State" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataLake.Store.Models.DataLakeStoreAccount.State" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property State As Nullable(Of DataLakeStoreAccountState)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataLake.Store</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -647,10 +575,11 @@
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.Management.DataLake.Store.Models.TrustedIdProvider&gt; TrustedIdProviders { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.DataLake.Store.Models.TrustedIdProvider&gt; TrustedIdProviders" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataLake.Store.Models.DataLakeStoreAccount.TrustedIdProviders" />
+      <MemberSignature Language="VB.NET" Value="Public Property TrustedIdProviders As IList(Of TrustedIdProvider)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataLake.Store</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -673,10 +602,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Azure.Management.DataLake.Store.Models.TrustedIdProviderState&gt; TrustedIdProviderState { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Azure.Management.DataLake.Store.Models.TrustedIdProviderState&gt; TrustedIdProviderState" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataLake.Store.Models.DataLakeStoreAccount.TrustedIdProviderState" />
+      <MemberSignature Language="VB.NET" Value="Public Property TrustedIdProviderState As Nullable(Of TrustedIdProviderState)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataLake.Store</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -700,10 +630,11 @@
       <MemberSignature Language="C#" Value="public override void Validate ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void Validate() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataLake.Store.Models.DataLakeStoreAccount.Validate" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub Validate ()" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataLake.Store</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>

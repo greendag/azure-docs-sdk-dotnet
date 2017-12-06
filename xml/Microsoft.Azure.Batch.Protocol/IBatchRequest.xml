@@ -2,12 +2,11 @@
   <TypeSignature Language="C#" Value="public interface IBatchRequest" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IBatchRequest" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Batch.Protocol.IBatchRequest" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IBatchRequest" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-    <AssemblyVersion>6.1.0.0</AssemblyVersion>
-    <AssemblyVersion>7.0.0.0</AssemblyVersion>
-    <AssemblyVersion>7.0.1.0</AssemblyVersion>
     <AssemblyVersion>7.1.0.0</AssemblyVersion>
+    <AssemblyVersion>8.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Interfaces />
   <Docs>
@@ -21,13 +20,12 @@
       <MemberSignature Language="C#" Value="public System.Threading.CancellationToken CancellationToken { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Threading.CancellationToken CancellationToken" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Batch.Protocol.IBatchRequest.CancellationToken" />
+      <MemberSignature Language="VB.NET" Value="Public Property CancellationToken As CancellationToken" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.CancellationToken</ReturnType>
@@ -50,13 +48,12 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Batch.ClientRequestIdProvider ClientRequestIdProvider { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Batch.ClientRequestIdProvider ClientRequestIdProvider" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Batch.Protocol.IBatchRequest.ClientRequestIdProvider" />
+      <MemberSignature Language="VB.NET" Value="Public Property ClientRequestIdProvider As ClientRequestIdProvider" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Batch.ClientRequestIdProvider</ReturnType>
@@ -73,13 +70,12 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Batch.Common.OperationContext OperationContext { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Batch.Common.OperationContext OperationContext" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Batch.Protocol.IBatchRequest.OperationContext" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OperationContext As OperationContext" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Batch.Common.OperationContext</ReturnType>
@@ -96,13 +92,12 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Batch.Protocol.Models.IOptions Options { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Batch.Protocol.Models.IOptions Options" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Batch.Protocol.IBatchRequest.Options" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Options As IOptions" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Batch.Protocol.Models.IOptions</ReturnType>
@@ -119,13 +114,12 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Batch.Protocol.BatchServiceClient RestClient { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Batch.Protocol.BatchServiceClient RestClient" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Batch.Protocol.IBatchRequest.RestClient" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RestClient As BatchServiceClient" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Batch.Protocol.BatchServiceClient</ReturnType>
@@ -142,13 +136,12 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Batch.Common.IRetryPolicy RetryPolicy { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Batch.Common.IRetryPolicy RetryPolicy" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Batch.Protocol.IBatchRequest.RetryPolicy" />
+      <MemberSignature Language="VB.NET" Value="Public Property RetryPolicy As IRetryPolicy" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Batch.Common.IRetryPolicy</ReturnType>
@@ -166,13 +159,12 @@
       <MemberSignature Language="C#" Value="public TimeSpan Timeout { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.TimeSpan Timeout" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Batch.Protocol.IBatchRequest.Timeout" />
+      <MemberSignature Language="VB.NET" Value="Public Property Timeout As TimeSpan" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.TimeSpan</ReturnType>

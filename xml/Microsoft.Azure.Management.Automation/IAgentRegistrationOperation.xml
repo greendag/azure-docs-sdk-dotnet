@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public interface IAgentRegistrationOperation" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IAgentRegistrationOperation" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Automation.IAgentRegistrationOperation" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IAgentRegistrationOperation" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -18,8 +19,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Automation.IAgentRegistrationOperation.GetAsync(System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.AgentRegistrationGetResponse&gt;</ReturnType>
@@ -44,8 +45,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Automation.IAgentRegistrationOperation.RegenerateKeyAsync(System.String,System.String,Microsoft.Azure.Management.Automation.Models.AgentRegistrationRegenerateKeyParameter,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.AgentRegistrationRegenerateKeyResponse&gt;</ReturnType>

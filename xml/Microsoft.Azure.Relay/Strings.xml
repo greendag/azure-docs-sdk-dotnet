@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public class Strings" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Strings extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Relay.Strings" />
+  <TypeSignature Language="VB.NET" Value="Public Class Strings" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -26,10 +27,11 @@
       <MemberSignature Language="C#" Value="public static string AcceptHandlerException { get; }" />
       <MemberSignature Language="ILAsm" Value=".property string AcceptHandlerException" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Relay.Strings.AcceptHandlerException" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property AcceptHandlerException As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -46,10 +48,11 @@
       <MemberSignature Language="C#" Value="public static string ArgumentInvalidCombination { get; }" />
       <MemberSignature Language="ILAsm" Value=".property string ArgumentInvalidCombination" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Relay.Strings.ArgumentInvalidCombination" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ArgumentInvalidCombination As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -66,10 +69,11 @@
       <MemberSignature Language="C#" Value="public static string ArgumentOutOfRange { get; }" />
       <MemberSignature Language="ILAsm" Value=".property string ArgumentOutOfRange" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Relay.Strings.ArgumentOutOfRange" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ArgumentOutOfRange As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -86,10 +90,11 @@
       <MemberSignature Language="C#" Value="public static string ArgumentStringTooBig { get; }" />
       <MemberSignature Language="ILAsm" Value=".property string ArgumentStringTooBig" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Relay.Strings.ArgumentStringTooBig" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ArgumentStringTooBig As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -106,10 +111,11 @@
       <MemberSignature Language="C#" Value="public static string CharacterReservedForUriScheme { get; }" />
       <MemberSignature Language="ILAsm" Value=".property string CharacterReservedForUriScheme" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Relay.Strings.CharacterReservedForUriScheme" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property CharacterReservedForUriScheme As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -126,10 +132,11 @@
       <MemberSignature Language="C#" Value="public static string ConnectionStringMustIncludeEntityPath { get; }" />
       <MemberSignature Language="ILAsm" Value=".property string ConnectionStringMustIncludeEntityPath" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Relay.Strings.ConnectionStringMustIncludeEntityPath" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ConnectionStringMustIncludeEntityPath As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -146,10 +153,11 @@
       <MemberSignature Language="C#" Value="public static string ConnectionStringMustIncludeTokenProviderSettings { get; }" />
       <MemberSignature Language="ILAsm" Value=".property string ConnectionStringMustIncludeTokenProviderSettings" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Relay.Strings.ConnectionStringMustIncludeTokenProviderSettings" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ConnectionStringMustIncludeTokenProviderSettings As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -166,10 +174,11 @@
       <MemberSignature Language="C#" Value="public static string ConnectionStringMustNotIncludeEntityPath { get; }" />
       <MemberSignature Language="ILAsm" Value=".property string ConnectionStringMustNotIncludeEntityPath" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Relay.Strings.ConnectionStringMustNotIncludeEntityPath" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ConnectionStringMustNotIncludeEntityPath As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -186,10 +195,11 @@
       <MemberSignature Language="C#" Value="public static string ConnectionStringParameterValueMissing { get; }" />
       <MemberSignature Language="ILAsm" Value=".property string ConnectionStringParameterValueMissing" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Relay.Strings.ConnectionStringParameterValueMissing" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ConnectionStringParameterValueMissing As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -206,10 +216,11 @@
       <MemberSignature Language="C#" Value="public static string ConnectionStringUnknownParameter { get; }" />
       <MemberSignature Language="ILAsm" Value=".property string ConnectionStringUnknownParameter" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Relay.Strings.ConnectionStringUnknownParameter" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ConnectionStringUnknownParameter As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -226,10 +237,11 @@
       <MemberSignature Language="C#" Value="public static System.Globalization.CultureInfo Culture { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property class System.Globalization.CultureInfo Culture" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Relay.Strings.Culture" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Property Culture As CultureInfo" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -252,10 +264,11 @@
       <MemberSignature Language="C#" Value="public static string DuplicateConnectionId { get; }" />
       <MemberSignature Language="ILAsm" Value=".property string DuplicateConnectionId" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Relay.Strings.DuplicateConnectionId" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property DuplicateConnectionId As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -272,10 +285,11 @@
       <MemberSignature Language="C#" Value="public static string EntityClosedOrAborted { get; }" />
       <MemberSignature Language="ILAsm" Value=".property string EntityClosedOrAborted" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Relay.Strings.EntityClosedOrAborted" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property EntityClosedOrAborted As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -292,10 +306,11 @@
       <MemberSignature Language="C#" Value="public static string EntityNameLengthExceedsLimit { get; }" />
       <MemberSignature Language="ILAsm" Value=".property string EntityNameLengthExceedsLimit" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Relay.Strings.EntityNameLengthExceedsLimit" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property EntityNameLengthExceedsLimit As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -312,10 +327,11 @@
       <MemberSignature Language="C#" Value="public static string InstanceAlreadyRunning { get; }" />
       <MemberSignature Language="ILAsm" Value=".property string InstanceAlreadyRunning" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Relay.Strings.InstanceAlreadyRunning" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property InstanceAlreadyRunning As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -332,10 +348,11 @@
       <MemberSignature Language="C#" Value="public static string InvalidAddressPath { get; }" />
       <MemberSignature Language="ILAsm" Value=".property string InvalidAddressPath" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Relay.Strings.InvalidAddressPath" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property InvalidAddressPath As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -352,10 +369,11 @@
       <MemberSignature Language="C#" Value="public static string InvalidAsyncResult { get; }" />
       <MemberSignature Language="ILAsm" Value=".property string InvalidAsyncResult" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Relay.Strings.InvalidAsyncResult" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property InvalidAsyncResult As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -372,10 +390,11 @@
       <MemberSignature Language="C#" Value="public static string InvalidEncoding { get; }" />
       <MemberSignature Language="ILAsm" Value=".property string InvalidEncoding" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Relay.Strings.InvalidEncoding" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property InvalidEncoding As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -392,10 +411,11 @@
       <MemberSignature Language="C#" Value="public static string InvalidEntityNameFormatWithSlash { get; }" />
       <MemberSignature Language="ILAsm" Value=".property string InvalidEntityNameFormatWithSlash" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Relay.Strings.InvalidEntityNameFormatWithSlash" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property InvalidEntityNameFormatWithSlash As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -412,10 +432,11 @@
       <MemberSignature Language="C#" Value="public static string InvalidUriScheme { get; }" />
       <MemberSignature Language="ILAsm" Value=".property string InvalidUriScheme" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Relay.Strings.InvalidUriScheme" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property InvalidUriScheme As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -432,10 +453,11 @@
       <MemberSignature Language="C#" Value="public static string net_InvalidStatus { get; }" />
       <MemberSignature Language="ILAsm" Value=".property string net_InvalidStatus" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Relay.Strings.net_InvalidStatus" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property net_InvalidStatus As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -452,10 +474,11 @@
       <MemberSignature Language="C#" Value="public static string net_log_exception { get; }" />
       <MemberSignature Language="ILAsm" Value=".property string net_log_exception" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Relay.Strings.net_log_exception" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property net_log_exception As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -472,10 +495,11 @@
       <MemberSignature Language="C#" Value="public static string net_securityprotocolnotsupported { get; }" />
       <MemberSignature Language="ILAsm" Value=".property string net_securityprotocolnotsupported" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Relay.Strings.net_securityprotocolnotsupported" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property net_securityprotocolnotsupported As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -492,10 +516,11 @@
       <MemberSignature Language="C#" Value="public static string net_uri_NotAbsolute { get; }" />
       <MemberSignature Language="ILAsm" Value=".property string net_uri_NotAbsolute" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Relay.Strings.net_uri_NotAbsolute" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property net_uri_NotAbsolute As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -512,10 +537,11 @@
       <MemberSignature Language="C#" Value="public static string net_WebHeaderInvalidControlChars { get; }" />
       <MemberSignature Language="ILAsm" Value=".property string net_WebHeaderInvalidControlChars" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Relay.Strings.net_WebHeaderInvalidControlChars" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property net_WebHeaderInvalidControlChars As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -532,10 +558,11 @@
       <MemberSignature Language="C#" Value="public static string net_WebSockets_AcceptUnsupportedProtocol { get; }" />
       <MemberSignature Language="ILAsm" Value=".property string net_WebSockets_AcceptUnsupportedProtocol" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Relay.Strings.net_WebSockets_AcceptUnsupportedProtocol" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property net_WebSockets_AcceptUnsupportedProtocol As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -552,10 +579,11 @@
       <MemberSignature Language="C#" Value="public static string net_Websockets_AlreadyOneOutstandingOperation { get; }" />
       <MemberSignature Language="ILAsm" Value=".property string net_Websockets_AlreadyOneOutstandingOperation" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Relay.Strings.net_Websockets_AlreadyOneOutstandingOperation" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property net_Websockets_AlreadyOneOutstandingOperation As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -572,10 +600,11 @@
       <MemberSignature Language="C#" Value="public static string net_WebSockets_AlreadyStarted { get; }" />
       <MemberSignature Language="ILAsm" Value=".property string net_WebSockets_AlreadyStarted" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Relay.Strings.net_WebSockets_AlreadyStarted" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property net_WebSockets_AlreadyStarted As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -592,10 +621,11 @@
       <MemberSignature Language="C#" Value="public static string net_WebSockets_Argument_InvalidMessageType { get; }" />
       <MemberSignature Language="ILAsm" Value=".property string net_WebSockets_Argument_InvalidMessageType" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Relay.Strings.net_WebSockets_Argument_InvalidMessageType" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property net_WebSockets_Argument_InvalidMessageType As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -612,10 +642,11 @@
       <MemberSignature Language="C#" Value="public static string net_WebSockets_ArgumentOutOfRange_InternalBuffer { get; }" />
       <MemberSignature Language="ILAsm" Value=".property string net_WebSockets_ArgumentOutOfRange_InternalBuffer" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Relay.Strings.net_WebSockets_ArgumentOutOfRange_InternalBuffer" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property net_WebSockets_ArgumentOutOfRange_InternalBuffer As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -632,10 +663,11 @@
       <MemberSignature Language="C#" Value="public static string net_WebSockets_ArgumentOutOfRange_TooBig { get; }" />
       <MemberSignature Language="ILAsm" Value=".property string net_WebSockets_ArgumentOutOfRange_TooBig" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Relay.Strings.net_WebSockets_ArgumentOutOfRange_TooBig" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property net_WebSockets_ArgumentOutOfRange_TooBig As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -652,10 +684,11 @@
       <MemberSignature Language="C#" Value="public static string net_WebSockets_ArgumentOutOfRange_TooSmall { get; }" />
       <MemberSignature Language="ILAsm" Value=".property string net_WebSockets_ArgumentOutOfRange_TooSmall" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Relay.Strings.net_WebSockets_ArgumentOutOfRange_TooSmall" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property net_WebSockets_ArgumentOutOfRange_TooSmall As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -672,10 +705,11 @@
       <MemberSignature Language="C#" Value="public static string net_WebSockets_Connect101Expected { get; }" />
       <MemberSignature Language="ILAsm" Value=".property string net_WebSockets_Connect101Expected" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Relay.Strings.net_WebSockets_Connect101Expected" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property net_WebSockets_Connect101Expected As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -692,10 +726,11 @@
       <MemberSignature Language="C#" Value="public static string net_WebSockets_Generic { get; }" />
       <MemberSignature Language="ILAsm" Value=".property string net_WebSockets_Generic" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Relay.Strings.net_WebSockets_Generic" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property net_WebSockets_Generic As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -712,10 +747,11 @@
       <MemberSignature Language="C#" Value="public static string net_WebSockets_InvalidCharInProtocolString { get; }" />
       <MemberSignature Language="ILAsm" Value=".property string net_WebSockets_InvalidCharInProtocolString" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Relay.Strings.net_WebSockets_InvalidCharInProtocolString" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property net_WebSockets_InvalidCharInProtocolString As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -732,10 +768,11 @@
       <MemberSignature Language="C#" Value="public static string net_WebSockets_InvalidCloseStatusCode { get; }" />
       <MemberSignature Language="ILAsm" Value=".property string net_WebSockets_InvalidCloseStatusCode" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Relay.Strings.net_WebSockets_InvalidCloseStatusCode" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property net_WebSockets_InvalidCloseStatusCode As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -752,10 +789,11 @@
       <MemberSignature Language="C#" Value="public static string net_WebSockets_InvalidCloseStatusDescription { get; }" />
       <MemberSignature Language="ILAsm" Value=".property string net_WebSockets_InvalidCloseStatusDescription" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Relay.Strings.net_WebSockets_InvalidCloseStatusDescription" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property net_WebSockets_InvalidCloseStatusDescription As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -772,10 +810,11 @@
       <MemberSignature Language="C#" Value="public static string net_WebSockets_InvalidEmptySubProtocol { get; }" />
       <MemberSignature Language="ILAsm" Value=".property string net_WebSockets_InvalidEmptySubProtocol" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Relay.Strings.net_WebSockets_InvalidEmptySubProtocol" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property net_WebSockets_InvalidEmptySubProtocol As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -792,10 +831,11 @@
       <MemberSignature Language="C#" Value="public static string net_WebSockets_InvalidRegistration { get; }" />
       <MemberSignature Language="ILAsm" Value=".property string net_WebSockets_InvalidRegistration" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Relay.Strings.net_WebSockets_InvalidRegistration" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property net_WebSockets_InvalidRegistration As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -812,10 +852,11 @@
       <MemberSignature Language="C#" Value="public static string net_WebSockets_InvalidResponseHeader { get; }" />
       <MemberSignature Language="ILAsm" Value=".property string net_WebSockets_InvalidResponseHeader" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Relay.Strings.net_WebSockets_InvalidResponseHeader" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property net_WebSockets_InvalidResponseHeader As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -832,10 +873,11 @@
       <MemberSignature Language="C#" Value="public static string net_WebSockets_InvalidState { get; }" />
       <MemberSignature Language="ILAsm" Value=".property string net_WebSockets_InvalidState" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Relay.Strings.net_WebSockets_InvalidState" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property net_WebSockets_InvalidState As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -852,10 +894,11 @@
       <MemberSignature Language="C#" Value="public static string net_WebSockets_InvalidState_ClosedOrAborted { get; }" />
       <MemberSignature Language="ILAsm" Value=".property string net_WebSockets_InvalidState_ClosedOrAborted" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Relay.Strings.net_WebSockets_InvalidState_ClosedOrAborted" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property net_WebSockets_InvalidState_ClosedOrAborted As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -872,10 +915,11 @@
       <MemberSignature Language="C#" Value="public static string net_WebSockets_NoDuplicateProtocol { get; }" />
       <MemberSignature Language="ILAsm" Value=".property string net_WebSockets_NoDuplicateProtocol" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Relay.Strings.net_WebSockets_NoDuplicateProtocol" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property net_WebSockets_NoDuplicateProtocol As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -892,10 +936,11 @@
       <MemberSignature Language="C#" Value="public static string net_WebSockets_NotConnected { get; }" />
       <MemberSignature Language="ILAsm" Value=".property string net_WebSockets_NotConnected" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Relay.Strings.net_WebSockets_NotConnected" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property net_WebSockets_NotConnected As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -912,10 +957,11 @@
       <MemberSignature Language="C#" Value="public static string net_WebSockets_ReasonNotNull { get; }" />
       <MemberSignature Language="ILAsm" Value=".property string net_WebSockets_ReasonNotNull" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Relay.Strings.net_WebSockets_ReasonNotNull" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property net_WebSockets_ReasonNotNull As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -932,10 +978,11 @@
       <MemberSignature Language="C#" Value="public static string net_WebSockets_Scheme { get; }" />
       <MemberSignature Language="ILAsm" Value=".property string net_WebSockets_Scheme" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Relay.Strings.net_WebSockets_Scheme" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property net_WebSockets_Scheme As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -952,10 +999,11 @@
       <MemberSignature Language="C#" Value="public static string net_WebSockets_UnsupportedPlatform { get; }" />
       <MemberSignature Language="ILAsm" Value=".property string net_WebSockets_UnsupportedPlatform" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Relay.Strings.net_WebSockets_UnsupportedPlatform" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property net_WebSockets_UnsupportedPlatform As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -972,10 +1020,11 @@
       <MemberSignature Language="C#" Value="public static string net_webstatus_ConnectFailure { get; }" />
       <MemberSignature Language="ILAsm" Value=".property string net_webstatus_ConnectFailure" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Relay.Strings.net_webstatus_ConnectFailure" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property net_webstatus_ConnectFailure As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -992,10 +1041,11 @@
       <MemberSignature Language="C#" Value="public static string NotValidAbsoluteUri { get; }" />
       <MemberSignature Language="ILAsm" Value=".property string NotValidAbsoluteUri" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Relay.Strings.NotValidAbsoluteUri" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property NotValidAbsoluteUri As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -1012,10 +1062,11 @@
       <MemberSignature Language="C#" Value="public static string NotValidTimeSpan { get; }" />
       <MemberSignature Language="ILAsm" Value=".property string NotValidTimeSpan" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Relay.Strings.NotValidTimeSpan" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property NotValidTimeSpan As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -1032,10 +1083,11 @@
       <MemberSignature Language="C#" Value="public static string ObjectClosedOrAborted { get; }" />
       <MemberSignature Language="ILAsm" Value=".property string ObjectClosedOrAborted" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Relay.Strings.ObjectClosedOrAborted" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ObjectClosedOrAborted As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -1052,10 +1104,11 @@
       <MemberSignature Language="C#" Value="public static string ObjectIsReadOnly { get; }" />
       <MemberSignature Language="ILAsm" Value=".property string ObjectIsReadOnly" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Relay.Strings.ObjectIsReadOnly" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ObjectIsReadOnly As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -1072,10 +1125,11 @@
       <MemberSignature Language="C#" Value="public static string ObjectNotOpened { get; }" />
       <MemberSignature Language="ILAsm" Value=".property string ObjectNotOpened" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Relay.Strings.ObjectNotOpened" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ObjectNotOpened As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -1092,10 +1146,11 @@
       <MemberSignature Language="C#" Value="public static string RequestTimedOut { get; }" />
       <MemberSignature Language="ILAsm" Value=".property string RequestTimedOut" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Relay.Strings.RequestTimedOut" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property RequestTimedOut As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -1112,10 +1167,11 @@
       <MemberSignature Language="C#" Value="public static System.Resources.ResourceManager ResourceManager { get; }" />
       <MemberSignature Language="ILAsm" Value=".property class System.Resources.ResourceManager ResourceManager" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Relay.Strings.ResourceManager" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ResourceManager As ResourceManager" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1137,10 +1193,11 @@
       <MemberSignature Language="C#" Value="public static string SasTokenShouldBeAlone { get; }" />
       <MemberSignature Language="ILAsm" Value=".property string SasTokenShouldBeAlone" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Relay.Strings.SasTokenShouldBeAlone" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property SasTokenShouldBeAlone As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -1157,10 +1214,11 @@
       <MemberSignature Language="C#" Value="public static string TimeoutMustBeNonNegative { get; }" />
       <MemberSignature Language="ILAsm" Value=".property string TimeoutMustBeNonNegative" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Relay.Strings.TimeoutMustBeNonNegative" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property TimeoutMustBeNonNegative As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -1177,10 +1235,11 @@
       <MemberSignature Language="C#" Value="public static string TimeoutMustBePositive { get; }" />
       <MemberSignature Language="ILAsm" Value=".property string TimeoutMustBePositive" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Relay.Strings.TimeoutMustBePositive" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property TimeoutMustBePositive As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -1197,10 +1256,11 @@
       <MemberSignature Language="C#" Value="public static string TokenMissingAudience { get; }" />
       <MemberSignature Language="ILAsm" Value=".property string TokenMissingAudience" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Relay.Strings.TokenMissingAudience" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property TokenMissingAudience As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -1217,10 +1277,11 @@
       <MemberSignature Language="C#" Value="public static string TokenMissingExpiresOn { get; }" />
       <MemberSignature Language="ILAsm" Value=".property string TokenMissingExpiresOn" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Relay.Strings.TokenMissingExpiresOn" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property TokenMissingExpiresOn As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -1237,10 +1298,11 @@
       <MemberSignature Language="C#" Value="public static string TokenProviderRequired { get; }" />
       <MemberSignature Language="ILAsm" Value=".property string TokenProviderRequired" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Relay.Strings.TokenProviderRequired" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property TokenProviderRequired As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

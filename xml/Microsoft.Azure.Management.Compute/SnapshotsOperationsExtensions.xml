@@ -2,9 +2,9 @@
   <TypeSignature Language="C#" Value="public static class SnapshotsOperationsExtensions" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit SnapshotsOperationsExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Compute.SnapshotsOperationsExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module SnapshotsOperationsExtensions" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-    <AssemblyVersion>14.0.0.0</AssemblyVersion>
     <AssemblyVersion>16.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
@@ -25,7 +25,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -64,7 +63,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -109,10 +107,10 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Compute.Models.OperationStatusResponse BeginDelete (this Microsoft.Azure.Management.Compute.ISnapshotsOperations operations, string resourceGroupName, string snapshotName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Compute.Models.OperationStatusResponse BeginDelete(class Microsoft.Azure.Management.Compute.ISnapshotsOperations operations, string resourceGroupName, string snapshotName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.SnapshotsOperationsExtensions.BeginDelete(Microsoft.Azure.Management.Compute.ISnapshotsOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginDelete (operations As ISnapshotsOperations, resourceGroupName As String, snapshotName As String) As OperationStatusResponse" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -147,7 +145,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -191,7 +188,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -231,7 +227,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -277,10 +272,10 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Compute.Models.OperationStatusResponse BeginRevokeAccess (this Microsoft.Azure.Management.Compute.ISnapshotsOperations operations, string resourceGroupName, string snapshotName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Compute.Models.OperationStatusResponse BeginRevokeAccess(class Microsoft.Azure.Management.Compute.ISnapshotsOperations operations, string resourceGroupName, string snapshotName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.SnapshotsOperationsExtensions.BeginRevokeAccess(Microsoft.Azure.Management.Compute.ISnapshotsOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginRevokeAccess (operations As ISnapshotsOperations, resourceGroupName As String, snapshotName As String) As OperationStatusResponse" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -315,7 +310,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -359,7 +353,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -398,7 +391,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -446,7 +438,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -485,7 +476,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -530,10 +520,10 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Compute.Models.OperationStatusResponse Delete (this Microsoft.Azure.Management.Compute.ISnapshotsOperations operations, string resourceGroupName, string snapshotName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Compute.Models.OperationStatusResponse Delete(class Microsoft.Azure.Management.Compute.ISnapshotsOperations operations, string resourceGroupName, string snapshotName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.SnapshotsOperationsExtensions.Delete(Microsoft.Azure.Management.Compute.ISnapshotsOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Delete (operations As ISnapshotsOperations, resourceGroupName As String, snapshotName As String) As OperationStatusResponse" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -568,7 +558,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -609,10 +598,10 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Compute.Models.Snapshot Get (this Microsoft.Azure.Management.Compute.ISnapshotsOperations operations, string resourceGroupName, string snapshotName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Compute.Models.Snapshot Get(class Microsoft.Azure.Management.Compute.ISnapshotsOperations operations, string resourceGroupName, string snapshotName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.SnapshotsOperationsExtensions.Get(Microsoft.Azure.Management.Compute.ISnapshotsOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Get (operations As ISnapshotsOperations, resourceGroupName As String, snapshotName As String) As Snapshot" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -647,7 +636,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -691,7 +679,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -731,7 +718,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -777,10 +763,10 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Compute.Models.Snapshot&gt; List (this Microsoft.Azure.Management.Compute.ISnapshotsOperations operations);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Compute.Models.Snapshot&gt; List(class Microsoft.Azure.Management.Compute.ISnapshotsOperations operations) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.SnapshotsOperationsExtensions.List(Microsoft.Azure.Management.Compute.ISnapshotsOperations)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function List (operations As ISnapshotsOperations) As IPage(Of Snapshot)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -807,7 +793,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -840,10 +825,10 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Compute.Models.Snapshot&gt; ListByResourceGroup (this Microsoft.Azure.Management.Compute.ISnapshotsOperations operations, string resourceGroupName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Compute.Models.Snapshot&gt; ListByResourceGroup(class Microsoft.Azure.Management.Compute.ISnapshotsOperations operations, string resourceGroupName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.SnapshotsOperationsExtensions.ListByResourceGroup(Microsoft.Azure.Management.Compute.ISnapshotsOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListByResourceGroup (operations As ISnapshotsOperations, resourceGroupName As String) As IPage(Of Snapshot)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -874,7 +859,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -911,10 +895,10 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Compute.Models.Snapshot&gt; ListByResourceGroupNext (this Microsoft.Azure.Management.Compute.ISnapshotsOperations operations, string nextPageLink);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Compute.Models.Snapshot&gt; ListByResourceGroupNext(class Microsoft.Azure.Management.Compute.ISnapshotsOperations operations, string nextPageLink) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.SnapshotsOperationsExtensions.ListByResourceGroupNext(Microsoft.Azure.Management.Compute.ISnapshotsOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListByResourceGroupNext (operations As ISnapshotsOperations, nextPageLink As String) As IPage(Of Snapshot)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -945,7 +929,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -982,10 +965,10 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Compute.Models.Snapshot&gt; ListNext (this Microsoft.Azure.Management.Compute.ISnapshotsOperations operations, string nextPageLink);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Compute.Models.Snapshot&gt; ListNext(class Microsoft.Azure.Management.Compute.ISnapshotsOperations operations, string nextPageLink) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.SnapshotsOperationsExtensions.ListNext(Microsoft.Azure.Management.Compute.ISnapshotsOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListNext (operations As ISnapshotsOperations, nextPageLink As String) As IPage(Of Snapshot)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1016,7 +999,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1053,10 +1035,10 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Compute.Models.OperationStatusResponse RevokeAccess (this Microsoft.Azure.Management.Compute.ISnapshotsOperations operations, string resourceGroupName, string snapshotName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Compute.Models.OperationStatusResponse RevokeAccess(class Microsoft.Azure.Management.Compute.ISnapshotsOperations operations, string resourceGroupName, string snapshotName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.SnapshotsOperationsExtensions.RevokeAccess(Microsoft.Azure.Management.Compute.ISnapshotsOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function RevokeAccess (operations As ISnapshotsOperations, resourceGroupName As String, snapshotName As String) As OperationStatusResponse" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1091,7 +1073,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1135,7 +1116,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1174,7 +1154,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>

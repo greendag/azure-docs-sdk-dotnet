@@ -2,9 +2,9 @@
   <TypeSignature Language="C#" Value="public class ApplicationGatewayUrlPathMap : Microsoft.Azure.Management.Network.Models.SubResource" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ApplicationGatewayUrlPathMap extends Microsoft.Azure.Management.Network.Models.SubResource" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Network.Models.ApplicationGatewayUrlPathMap" />
+  <TypeSignature Language="VB.NET" Value="Public Class ApplicationGatewayUrlPathMap&#xA;Inherits SubResource" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-    <AssemblyVersion>9.1.0.0</AssemblyVersion>
     <AssemblyVersion>14.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
@@ -28,10 +28,10 @@
       <MemberSignature Language="C#" Value="public ApplicationGatewayUrlPathMap ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.Models.ApplicationGatewayUrlPathMap.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
@@ -44,49 +44,10 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public ApplicationGatewayUrlPathMap (string id = null, Microsoft.Azure.Management.Network.Models.SubResource defaultBackendAddressPool = null, Microsoft.Azure.Management.Network.Models.SubResource defaultBackendHttpSettings = null, System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Network.Models.ApplicationGatewayPathRule&gt; pathRules = null, string provisioningState = null, string name = null, string etag = null);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string id, class Microsoft.Azure.Management.Network.Models.SubResource defaultBackendAddressPool, class Microsoft.Azure.Management.Network.Models.SubResource defaultBackendHttpSettings, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.Network.Models.ApplicationGatewayPathRule&gt; pathRules, string provisioningState, string name, string etag) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.Models.ApplicationGatewayUrlPathMap.#ctor(System.String,Microsoft.Azure.Management.Network.Models.SubResource,Microsoft.Azure.Management.Network.Models.SubResource,System.Collections.Generic.IList{Microsoft.Azure.Management.Network.Models.ApplicationGatewayPathRule},System.String,System.String,System.String)" />
-      <MemberType>Constructor</MemberType>
-      <AssemblyInfo>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
-        <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-      </AssemblyInfo>
-      <Parameters>
-        <Parameter Name="id" Type="System.String" />
-        <Parameter Name="defaultBackendAddressPool" Type="Microsoft.Azure.Management.Network.Models.SubResource" />
-        <Parameter Name="defaultBackendHttpSettings" Type="Microsoft.Azure.Management.Network.Models.SubResource" />
-        <Parameter Name="pathRules" Type="System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Network.Models.ApplicationGatewayPathRule&gt;" />
-        <Parameter Name="provisioningState" Type="System.String" />
-        <Parameter Name="name" Type="System.String" />
-        <Parameter Name="etag" Type="System.String" />
-      </Parameters>
-      <Docs>
-        <param name="id">Resource ID.</param>
-        <param name="defaultBackendAddressPool">Default backend address
-            pool resource of URL path map.</param>
-        <param name="defaultBackendHttpSettings">Default backend http
-            settings resource of URL path map.</param>
-        <param name="pathRules">Path rule of URL path map resource.</param>
-        <param name="provisioningState">Provisioning state of the backend
-            http settings resource. Possible values are: 'Updating',
-            'Deleting', and 'Failed'.</param>
-        <param name="name">Name of the resource that is unique within a
-            resource group. This name can be used to access the
-            resource.</param>
-        <param name="etag">A unique read-only string that changes whenever
-            the resource is updated.</param>
-        <summary>
-            Initializes a new instance of the ApplicationGatewayUrlPathMap
-            class.
-            </summary>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName=".ctor">
       <MemberSignature Language="C#" Value="public ApplicationGatewayUrlPathMap (string id = null, Microsoft.Azure.Management.Network.Models.SubResource defaultBackendAddressPool = null, Microsoft.Azure.Management.Network.Models.SubResource defaultBackendHttpSettings = null, Microsoft.Azure.Management.Network.Models.SubResource defaultRedirectConfiguration = null, System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Network.Models.ApplicationGatewayPathRule&gt; pathRules = null, string provisioningState = null, string name = null, string etag = null, string type = null);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string id, class Microsoft.Azure.Management.Network.Models.SubResource defaultBackendAddressPool, class Microsoft.Azure.Management.Network.Models.SubResource defaultBackendHttpSettings, class Microsoft.Azure.Management.Network.Models.SubResource defaultRedirectConfiguration, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.Network.Models.ApplicationGatewayPathRule&gt; pathRules, string provisioningState, string name, string etag, string type) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.Models.ApplicationGatewayUrlPathMap.#ctor(System.String,Microsoft.Azure.Management.Network.Models.SubResource,Microsoft.Azure.Management.Network.Models.SubResource,Microsoft.Azure.Management.Network.Models.SubResource,System.Collections.Generic.IList{Microsoft.Azure.Management.Network.Models.ApplicationGatewayPathRule},System.String,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (Optional id As String = null, Optional defaultBackendAddressPool As SubResource = null, Optional defaultBackendHttpSettings As SubResource = null, Optional defaultRedirectConfiguration As SubResource = null, Optional pathRules As IList(Of ApplicationGatewayPathRule) = null, Optional provisioningState As String = null, Optional name As String = null, Optional etag As String = null, Optional type As String = null)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
@@ -132,10 +93,10 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.Network.Models.SubResource DefaultBackendAddressPool { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.Network.Models.SubResource DefaultBackendAddressPool" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Network.Models.ApplicationGatewayUrlPathMap.DefaultBackendAddressPool" />
+      <MemberSignature Language="VB.NET" Value="Public Property DefaultBackendAddressPool As SubResource" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -158,10 +119,10 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.Network.Models.SubResource DefaultBackendHttpSettings { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.Network.Models.SubResource DefaultBackendHttpSettings" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Network.Models.ApplicationGatewayUrlPathMap.DefaultBackendHttpSettings" />
+      <MemberSignature Language="VB.NET" Value="Public Property DefaultBackendHttpSettings As SubResource" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -185,6 +146,7 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.Network.Models.SubResource DefaultRedirectConfiguration { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.Network.Models.SubResource DefaultRedirectConfiguration" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Network.Models.ApplicationGatewayUrlPathMap.DefaultRedirectConfiguration" />
+      <MemberSignature Language="VB.NET" Value="Public Property DefaultRedirectConfiguration As SubResource" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
@@ -211,10 +173,10 @@
       <MemberSignature Language="C#" Value="public string Etag { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Etag" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Network.Models.ApplicationGatewayUrlPathMap.Etag" />
+      <MemberSignature Language="VB.NET" Value="Public Property Etag As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -238,10 +200,10 @@
       <MemberSignature Language="C#" Value="public string Name { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Name" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Network.Models.ApplicationGatewayUrlPathMap.Name" />
+      <MemberSignature Language="VB.NET" Value="Public Property Name As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -265,10 +227,10 @@
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Network.Models.ApplicationGatewayPathRule&gt; PathRules { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.Network.Models.ApplicationGatewayPathRule&gt; PathRules" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Network.Models.ApplicationGatewayUrlPathMap.PathRules" />
+      <MemberSignature Language="VB.NET" Value="Public Property PathRules As IList(Of ApplicationGatewayPathRule)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -291,10 +253,10 @@
       <MemberSignature Language="C#" Value="public string ProvisioningState { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string ProvisioningState" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Network.Models.ApplicationGatewayUrlPathMap.ProvisioningState" />
+      <MemberSignature Language="VB.NET" Value="Public Property ProvisioningState As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -319,6 +281,7 @@
       <MemberSignature Language="C#" Value="public string Type { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Type" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Network.Models.ApplicationGatewayUrlPathMap.Type" />
+      <MemberSignature Language="VB.NET" Value="Public Property Type As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>

@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public class DscReportResource" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DscReportResource extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Automation.Specification.Models.DscReportResource" />
+  <TypeSignature Language="VB.NET" Value="Public Class DscReportResource" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -19,10 +20,11 @@
       <MemberSignature Language="C#" Value="public DscReportResource ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Automation.Specification.Models.DscReportResource.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -34,10 +36,11 @@
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Automation.Specification.Models.DscReportResourceNavigation&gt; DependsOn { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.Automation.Specification.Models.DscReportResourceNavigation&gt; DependsOn" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Automation.Specification.Models.DscReportResource.DependsOn" />
+      <MemberSignature Language="VB.NET" Value="Public Property DependsOn As IList(Of DscReportResourceNavigation)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Automation.Specification.Models.DscReportResourceNavigation&gt;</ReturnType>
@@ -52,10 +55,11 @@
       <MemberSignature Language="C#" Value="public double DurationInSeconds { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance float64 DurationInSeconds" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Automation.Specification.Models.DscReportResource.DurationInSeconds" />
+      <MemberSignature Language="VB.NET" Value="Public Property DurationInSeconds As Double" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Double</ReturnType>
@@ -70,10 +74,11 @@
       <MemberSignature Language="C#" Value="public string Error { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Error" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Automation.Specification.Models.DscReportResource.Error" />
+      <MemberSignature Language="VB.NET" Value="Public Property Error As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -88,10 +93,11 @@
       <MemberSignature Language="C#" Value="public string ModuleName { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string ModuleName" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Automation.Specification.Models.DscReportResource.ModuleName" />
+      <MemberSignature Language="VB.NET" Value="Public Property ModuleName As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -106,10 +112,11 @@
       <MemberSignature Language="C#" Value="public string ModuleVersion { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string ModuleVersion" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Automation.Specification.Models.DscReportResource.ModuleVersion" />
+      <MemberSignature Language="VB.NET" Value="Public Property ModuleVersion As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -124,10 +131,11 @@
       <MemberSignature Language="C#" Value="public string ReportResourceId { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string ReportResourceId" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Automation.Specification.Models.DscReportResource.ReportResourceId" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReportResourceId As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -142,10 +150,11 @@
       <MemberSignature Language="C#" Value="public string ResourceName { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string ResourceName" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Automation.Specification.Models.DscReportResource.ResourceName" />
+      <MemberSignature Language="VB.NET" Value="Public Property ResourceName As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -160,10 +169,11 @@
       <MemberSignature Language="C#" Value="public string SourceInfo { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string SourceInfo" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Automation.Specification.Models.DscReportResource.SourceInfo" />
+      <MemberSignature Language="VB.NET" Value="Public Property SourceInfo As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -178,10 +188,11 @@
       <MemberSignature Language="C#" Value="public DateTimeOffset StartDate { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTimeOffset StartDate" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Automation.Specification.Models.DscReportResource.StartDate" />
+      <MemberSignature Language="VB.NET" Value="Public Property StartDate As DateTimeOffset" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.DateTimeOffset</ReturnType>
@@ -196,10 +207,11 @@
       <MemberSignature Language="C#" Value="public string Status { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Status" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Automation.Specification.Models.DscReportResource.Status" />
+      <MemberSignature Language="VB.NET" Value="Public Property Status As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

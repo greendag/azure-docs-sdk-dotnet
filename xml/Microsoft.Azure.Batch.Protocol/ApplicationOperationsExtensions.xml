@@ -2,12 +2,11 @@
   <TypeSignature Language="C#" Value="public static class ApplicationOperationsExtensions" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit ApplicationOperationsExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Batch.Protocol.ApplicationOperationsExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module ApplicationOperationsExtensions" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-    <AssemblyVersion>6.1.0.0</AssemblyVersion>
-    <AssemblyVersion>7.0.0.0</AssemblyVersion>
-    <AssemblyVersion>7.0.1.0</AssemblyVersion>
     <AssemblyVersion>7.1.0.0</AssemblyVersion>
+    <AssemblyVersion>8.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -27,10 +26,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Batch.Protocol.Models.ApplicationSummary</ReturnType>
@@ -54,7 +51,13 @@
             Gets information about the specified application.
             </summary>
         <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <remarks>
+            This operation returns only applications and versions that are available
+            for use on compute nodes; that is, that can be used in an application
+            package reference. For administrator information about applications and
+            versions that are not yet available to compute nodes, use the Azure portal
+            or the Azure Resource Manager API.
+            </remarks>
       </Docs>
     </Member>
     <Member MemberName="GetAsync">
@@ -64,10 +67,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -100,7 +101,13 @@
             Gets information about the specified application.
             </summary>
         <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <remarks>
+            This operation returns only applications and versions that are available
+            for use on compute nodes; that is, that can be used in an application
+            package reference. For administrator information about applications and
+            versions that are not yet available to compute nodes, use the Azure portal
+            or the Azure Resource Manager API.
+            </remarks>
       </Docs>
     </Member>
     <Member MemberName="List">
@@ -110,10 +117,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Batch.Protocol.Models.ApplicationSummary&gt;</ReturnType>
@@ -149,10 +154,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -197,10 +200,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Batch.Protocol.Models.ApplicationSummary&gt;</ReturnType>
@@ -240,10 +241,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>

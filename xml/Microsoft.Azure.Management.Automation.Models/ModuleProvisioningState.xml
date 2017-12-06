@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public enum ModuleProvisioningState" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ModuleProvisioningState extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Automation.Models.ModuleProvisioningState" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ModuleProvisioningState" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -18,14 +19,16 @@
       <MemberSignature Language="C#" Value="ActivitiesStored" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Management.Automation.Models.ModuleProvisioningState ActivitiesStored = int32(10)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.Automation.Models.ModuleProvisioningState.ActivitiesStored" />
+      <MemberSignature Language="VB.NET" Value="ActivitiesStored" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Automation.Models.ModuleProvisioningState</ReturnType>
       </ReturnValue>
+      <MemberValue>10</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -34,14 +37,16 @@
       <MemberSignature Language="C#" Value="Cancelled" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Management.Automation.Models.ModuleProvisioningState Cancelled = int32(14)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.Automation.Models.ModuleProvisioningState.Cancelled" />
+      <MemberSignature Language="VB.NET" Value="Cancelled" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Automation.Models.ModuleProvisioningState</ReturnType>
       </ReturnValue>
+      <MemberValue>14</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -50,14 +55,16 @@
       <MemberSignature Language="C#" Value="ConnectionTypeImported" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Management.Automation.Models.ModuleProvisioningState ConnectionTypeImported = int32(7)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.Automation.Models.ModuleProvisioningState.ConnectionTypeImported" />
+      <MemberSignature Language="VB.NET" Value="ConnectionTypeImported" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Automation.Models.ModuleProvisioningState</ReturnType>
       </ReturnValue>
+      <MemberValue>7</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -66,14 +73,16 @@
       <MemberSignature Language="C#" Value="ContentDownloaded" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Management.Automation.Models.ModuleProvisioningState ContentDownloaded = int32(5)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.Automation.Models.ModuleProvisioningState.ContentDownloaded" />
+      <MemberSignature Language="VB.NET" Value="ContentDownloaded" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Automation.Models.ModuleProvisioningState</ReturnType>
       </ReturnValue>
+      <MemberValue>5</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -82,14 +91,16 @@
       <MemberSignature Language="C#" Value="ContentRetrieved" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Management.Automation.Models.ModuleProvisioningState ContentRetrieved = int32(4)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.Automation.Models.ModuleProvisioningState.ContentRetrieved" />
+      <MemberSignature Language="VB.NET" Value="ContentRetrieved" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Automation.Models.ModuleProvisioningState</ReturnType>
       </ReturnValue>
+      <MemberValue>4</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -98,14 +109,16 @@
       <MemberSignature Language="C#" Value="ContentStored" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Management.Automation.Models.ModuleProvisioningState ContentStored = int32(8)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.Automation.Models.ModuleProvisioningState.ContentStored" />
+      <MemberSignature Language="VB.NET" Value="ContentStored" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Automation.Models.ModuleProvisioningState</ReturnType>
       </ReturnValue>
+      <MemberValue>8</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -114,14 +127,16 @@
       <MemberSignature Language="C#" Value="ContentValidated" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Management.Automation.Models.ModuleProvisioningState ContentValidated = int32(6)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.Automation.Models.ModuleProvisioningState.ContentValidated" />
+      <MemberSignature Language="VB.NET" Value="ContentValidated" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Automation.Models.ModuleProvisioningState</ReturnType>
       </ReturnValue>
+      <MemberValue>6</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -130,14 +145,16 @@
       <MemberSignature Language="C#" Value="Created" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Management.Automation.Models.ModuleProvisioningState Created = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.Automation.Models.ModuleProvisioningState.Created" />
+      <MemberSignature Language="VB.NET" Value="Created" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Automation.Models.ModuleProvisioningState</ReturnType>
       </ReturnValue>
+      <MemberValue>0</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -146,14 +163,16 @@
       <MemberSignature Language="C#" Value="Creating" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Management.Automation.Models.ModuleProvisioningState Creating = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.Automation.Models.ModuleProvisioningState.Creating" />
+      <MemberSignature Language="VB.NET" Value="Creating" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Automation.Models.ModuleProvisioningState</ReturnType>
       </ReturnValue>
+      <MemberValue>1</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -162,14 +181,16 @@
       <MemberSignature Language="C#" Value="Failed" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Management.Automation.Models.ModuleProvisioningState Failed = int32(13)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.Automation.Models.ModuleProvisioningState.Failed" />
+      <MemberSignature Language="VB.NET" Value="Failed" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Automation.Models.ModuleProvisioningState</ReturnType>
       </ReturnValue>
+      <MemberValue>13</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -178,14 +199,16 @@
       <MemberSignature Language="C#" Value="ModuleDataStored" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Management.Automation.Models.ModuleProvisioningState ModuleDataStored = int32(9)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.Automation.Models.ModuleProvisioningState.ModuleDataStored" />
+      <MemberSignature Language="VB.NET" Value="ModuleDataStored" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Automation.Models.ModuleProvisioningState</ReturnType>
       </ReturnValue>
+      <MemberValue>9</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -194,14 +217,16 @@
       <MemberSignature Language="C#" Value="ModuleImportRunbookComplete" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Management.Automation.Models.ModuleProvisioningState ModuleImportRunbookComplete = int32(11)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.Automation.Models.ModuleProvisioningState.ModuleImportRunbookComplete" />
+      <MemberSignature Language="VB.NET" Value="ModuleImportRunbookComplete" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Automation.Models.ModuleProvisioningState</ReturnType>
       </ReturnValue>
+      <MemberValue>11</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -210,14 +235,16 @@
       <MemberSignature Language="C#" Value="RunningImportModuleRunbook" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Management.Automation.Models.ModuleProvisioningState RunningImportModuleRunbook = int32(3)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.Automation.Models.ModuleProvisioningState.RunningImportModuleRunbook" />
+      <MemberSignature Language="VB.NET" Value="RunningImportModuleRunbook" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Automation.Models.ModuleProvisioningState</ReturnType>
       </ReturnValue>
+      <MemberValue>3</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -226,14 +253,16 @@
       <MemberSignature Language="C#" Value="StartingImportModuleRunbook" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Management.Automation.Models.ModuleProvisioningState StartingImportModuleRunbook = int32(2)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.Automation.Models.ModuleProvisioningState.StartingImportModuleRunbook" />
+      <MemberSignature Language="VB.NET" Value="StartingImportModuleRunbook" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Automation.Models.ModuleProvisioningState</ReturnType>
       </ReturnValue>
+      <MemberValue>2</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -242,14 +271,16 @@
       <MemberSignature Language="C#" Value="Succeeded" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Management.Automation.Models.ModuleProvisioningState Succeeded = int32(12)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.Automation.Models.ModuleProvisioningState.Succeeded" />
+      <MemberSignature Language="VB.NET" Value="Succeeded" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Automation.Models.ModuleProvisioningState</ReturnType>
       </ReturnValue>
+      <MemberValue>12</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -258,14 +289,16 @@
       <MemberSignature Language="C#" Value="Updating" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Management.Automation.Models.ModuleProvisioningState Updating = int32(15)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.Automation.Models.ModuleProvisioningState.Updating" />
+      <MemberSignature Language="VB.NET" Value="Updating" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Automation.Models.ModuleProvisioningState</ReturnType>
       </ReturnValue>
+      <MemberValue>15</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>

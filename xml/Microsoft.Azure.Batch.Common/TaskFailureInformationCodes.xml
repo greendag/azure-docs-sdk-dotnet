@@ -2,11 +2,11 @@
   <TypeSignature Language="C#" Value="public static class TaskFailureInformationCodes" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit TaskFailureInformationCodes extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Batch.Common.TaskFailureInformationCodes" />
+  <TypeSignature Language="VB.NET" Value="Public Class TaskFailureInformationCodes" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-    <AssemblyVersion>7.0.0.0</AssemblyVersion>
-    <AssemblyVersion>7.0.1.0</AssemblyVersion>
     <AssemblyVersion>7.1.0.0</AssemblyVersion>
+    <AssemblyVersion>8.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -23,12 +23,12 @@
       <MemberSignature Language="C#" Value="public const string ApplicationPackageError;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string ApplicationPackageError" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Batch.Common.TaskFailureInformationCodes.ApplicationPackageError" />
+      <MemberSignature Language="VB.NET" Value="Public Const ApplicationPackageError As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -44,12 +44,12 @@
       <MemberSignature Language="C#" Value="public const string BlobAccessDenied;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string BlobAccessDenied" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Batch.Common.TaskFailureInformationCodes.BlobAccessDenied" />
+      <MemberSignature Language="VB.NET" Value="Public Const BlobAccessDenied As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -65,12 +65,12 @@
       <MemberSignature Language="C#" Value="public const string BlobDownloadMiscError;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string BlobDownloadMiscError" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Batch.Common.TaskFailureInformationCodes.BlobDownloadMiscError" />
+      <MemberSignature Language="VB.NET" Value="Public Const BlobDownloadMiscError As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -86,12 +86,12 @@
       <MemberSignature Language="C#" Value="public const string BlobDownloadTimedOut;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string BlobDownloadTimedOut" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Batch.Common.TaskFailureInformationCodes.BlobDownloadTimedOut" />
+      <MemberSignature Language="VB.NET" Value="Public Const BlobDownloadTimedOut As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -107,12 +107,12 @@
       <MemberSignature Language="C#" Value="public const string BlobNotFound;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string BlobNotFound" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Batch.Common.TaskFailureInformationCodes.BlobNotFound" />
+      <MemberSignature Language="VB.NET" Value="Public Const BlobNotFound As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -128,12 +128,12 @@
       <MemberSignature Language="C#" Value="public const string CommandLaunchFailed;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string CommandLaunchFailed" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Batch.Common.TaskFailureInformationCodes.CommandLaunchFailed" />
+      <MemberSignature Language="VB.NET" Value="Public Const CommandLaunchFailed As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -149,12 +149,12 @@
       <MemberSignature Language="C#" Value="public const string CommandProgramNotFound;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string CommandProgramNotFound" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Batch.Common.TaskFailureInformationCodes.CommandProgramNotFound" />
+      <MemberSignature Language="VB.NET" Value="Public Const CommandProgramNotFound As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -170,12 +170,12 @@
       <MemberSignature Language="C#" Value="public const string DiskFull;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string DiskFull" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Batch.Common.TaskFailureInformationCodes.DiskFull" />
+      <MemberSignature Language="VB.NET" Value="Public Const DiskFull As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -191,12 +191,12 @@
       <MemberSignature Language="C#" Value="public const string ResourceDirectoryCreateFailed;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string ResourceDirectoryCreateFailed" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Batch.Common.TaskFailureInformationCodes.ResourceDirectoryCreateFailed" />
+      <MemberSignature Language="VB.NET" Value="Public Const ResourceDirectoryCreateFailed As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -212,12 +212,12 @@
       <MemberSignature Language="C#" Value="public const string ResourceFileCreateFailed;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string ResourceFileCreateFailed" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Batch.Common.TaskFailureInformationCodes.ResourceFileCreateFailed" />
+      <MemberSignature Language="VB.NET" Value="Public Const ResourceFileCreateFailed As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -233,12 +233,12 @@
       <MemberSignature Language="C#" Value="public const string ResourceFileWriteFailed;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string ResourceFileWriteFailed" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Batch.Common.TaskFailureInformationCodes.ResourceFileWriteFailed" />
+      <MemberSignature Language="VB.NET" Value="Public Const ResourceFileWriteFailed As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -254,12 +254,12 @@
       <MemberSignature Language="C#" Value="public const string TaskEnded;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string TaskEnded" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Batch.Common.TaskFailureInformationCodes.TaskEnded" />
+      <MemberSignature Language="VB.NET" Value="Public Const TaskEnded As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -275,12 +275,12 @@
       <MemberSignature Language="C#" Value="public const string Unknown;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string Unknown" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Batch.Common.TaskFailureInformationCodes.Unknown" />
+      <MemberSignature Language="VB.NET" Value="Public Const Unknown As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

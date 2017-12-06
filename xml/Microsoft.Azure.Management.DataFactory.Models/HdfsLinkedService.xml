@@ -2,9 +2,10 @@
   <TypeSignature Language="C#" Value="public class HdfsLinkedService : Microsoft.Azure.Management.DataFactory.Models.LinkedService" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit HdfsLinkedService extends Microsoft.Azure.Management.DataFactory.Models.LinkedService" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.DataFactory.Models.HdfsLinkedService" />
+  <TypeSignature Language="VB.NET" Value="Public Class HdfsLinkedService&#xA;Inherits LinkedService" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+    <AssemblyVersion>0.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Microsoft.Azure.Management.DataFactory.Models.LinkedService</BaseTypeName>
@@ -29,10 +30,11 @@
       <MemberSignature Language="C#" Value="public HdfsLinkedService ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataFactory.Models.HdfsLinkedService.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -46,10 +48,11 @@
       <MemberSignature Language="C#" Value="public HdfsLinkedService (object url, Microsoft.Azure.Management.DataFactory.Models.IntegrationRuntimeReference connectVia = null, string description = null, object authenticationType = null, object encryptedCredential = null, object userName = null, Microsoft.Azure.Management.DataFactory.Models.SecureString password = null);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(object url, class Microsoft.Azure.Management.DataFactory.Models.IntegrationRuntimeReference connectVia, string description, object authenticationType, object encryptedCredential, object userName, class Microsoft.Azure.Management.DataFactory.Models.SecureString password) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataFactory.Models.HdfsLinkedService.#ctor(System.Object,Microsoft.Azure.Management.DataFactory.Models.IntegrationRuntimeReference,System.String,System.Object,System.Object,System.Object,Microsoft.Azure.Management.DataFactory.Models.SecureString)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (url As Object, Optional connectVia As IntegrationRuntimeReference = null, Optional description As String = null, Optional authenticationType As Object = null, Optional encryptedCredential As Object = null, Optional userName As Object = null, Optional password As SecureString = null)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="url" Type="System.Object" />
@@ -86,10 +89,11 @@
       <MemberSignature Language="C#" Value="public object AuthenticationType { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object AuthenticationType" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactory.Models.HdfsLinkedService.AuthenticationType" />
+      <MemberSignature Language="VB.NET" Value="Public Property AuthenticationType As Object" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -113,10 +117,11 @@
       <MemberSignature Language="C#" Value="public object EncryptedCredential { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object EncryptedCredential" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactory.Models.HdfsLinkedService.EncryptedCredential" />
+      <MemberSignature Language="VB.NET" Value="Public Property EncryptedCredential As Object" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -140,10 +145,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.DataFactory.Models.SecureString Password { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.DataFactory.Models.SecureString Password" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactory.Models.HdfsLinkedService.Password" />
+      <MemberSignature Language="VB.NET" Value="Public Property Password As SecureString" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -165,10 +171,11 @@
       <MemberSignature Language="C#" Value="public object Url { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object Url" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactory.Models.HdfsLinkedService.Url" />
+      <MemberSignature Language="VB.NET" Value="Public Property Url As Object" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -192,10 +199,11 @@
       <MemberSignature Language="C#" Value="public object UserName { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object UserName" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactory.Models.HdfsLinkedService.UserName" />
+      <MemberSignature Language="VB.NET" Value="Public Property UserName As Object" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -218,10 +226,11 @@
       <MemberSignature Language="C#" Value="public override void Validate ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void Validate() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataFactory.Models.HdfsLinkedService.Validate" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub Validate ()" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>

@@ -2,9 +2,10 @@
   <TypeSignature Language="C#" Value="public class OperationBaseCollection" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit OperationBaseCollection extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.WindowsAzure.MediaServices.Client.OperationBaseCollection" />
+  <TypeSignature Language="VB.NET" Value="Public Class OperationBaseCollection" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client</AssemblyName>
-    <AssemblyVersion>3.8.0.5</AssemblyVersion>
+    <AssemblyVersion>4.0.0.4</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -19,10 +20,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.WindowsAzure.MediaServices.Client.IOperation GetOperation (string id);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.WindowsAzure.MediaServices.Client.IOperation GetOperation(string id) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.MediaServices.Client.OperationBaseCollection.GetOperation(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetOperation (id As String) As IOperation" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.MediaServices.Client.IOperation</ReturnType>

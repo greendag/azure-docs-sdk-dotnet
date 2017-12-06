@@ -2,15 +2,16 @@
   <TypeSignature Language="C#" Value="public class Document : Microsoft.Azure.Documents.Resource, System.Dynamic.IDynamicMetaObjectProvider" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Document extends Microsoft.Azure.Documents.Resource implements class System.Dynamic.IDynamicMetaObjectProvider" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Documents.Document" />
-  <AssemblyInfo>
-    <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
-    <AssemblyVersion>1.14.0.0</AssemblyVersion>
-    <AssemblyVersion>1.16.0.0</AssemblyVersion>
-    <AssemblyVersion>1.17.0.0</AssemblyVersion>
-  </AssemblyInfo>
+  <TypeSignature Language="VB.NET" Value="Public Class Document&#xA;Inherits Resource&#xA;Implements IDynamicMetaObjectProvider" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
-    <AssemblyVersion>1.5.0.0</AssemblyVersion>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+    <AssemblyVersion>1.7.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+    <AssemblyVersion>1.18.0.0</AssemblyVersion>
+    <AssemblyVersion>1.19.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Microsoft.Azure.Documents.Resource</BaseTypeName>
@@ -22,7 +23,7 @@
   </Interfaces>
   <Docs>
     <summary>
-            Represents a document in the Azure DocumentDB database service.
+            Represents a document in the Azure Cosmos DB service.
             </summary>
     <remarks> 
             A document is a structured JSON document. There is no set schema for the JSON documents, and a document may contain any 
@@ -35,21 +36,22 @@
       <MemberSignature Language="C#" Value="public Document ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.Document.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
-        <AssemblyVersion>1.16.0.0</AssemblyVersion>
-        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
-        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.18.0.0</AssemblyVersion>
+        <AssemblyVersion>1.19.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
         <summary>
-            Initializes a new instance of the <see cref="T:Microsoft.Azure.Documents.Document" /> class for the Azure DocumentDB database service.
+            Initializes a new instance of the <see cref="T:Microsoft.Azure.Documents.Document" /> class for the Azure Cosmos DB service.
             </summary>
         <remarks>To be added.</remarks>
       </Docs>
@@ -58,23 +60,24 @@
       <MemberSignature Language="C#" Value="public string AttachmentsLink { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string AttachmentsLink" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Documents.Document.AttachmentsLink" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AttachmentsLink As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
-        <AssemblyVersion>1.16.0.0</AssemblyVersion>
-        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
-        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.18.0.0</AssemblyVersion>
+        <AssemblyVersion>1.19.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-            Gets the self-link corresponding to attachments of the document from the Azure DocumentDB database service.
+            Gets the self-link corresponding to attachments of the document from the Azure Cosmos DB service.
             </summary>
         <value>
             The self-link corresponding to attachments of the document.
@@ -89,16 +92,17 @@
       <MemberSignature Language="C#" Value="System.Dynamic.DynamicMetaObject IDynamicMetaObjectProvider.GetMetaObject (System.Linq.Expressions.Expression parameter);" />
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Dynamic.DynamicMetaObject System.Dynamic.IDynamicMetaObjectProvider.GetMetaObject(class System.Linq.Expressions.Expression parameter) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.Document.System#Dynamic#IDynamicMetaObjectProvider#GetMetaObject(System.Linq.Expressions.Expression)" />
+      <MemberSignature Language="VB.NET" Value="Function GetMetaObject (parameter As Expression) As DynamicMetaObject Implements IDynamicMetaObjectProvider.GetMetaObject" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
-        <AssemblyVersion>1.16.0.0</AssemblyVersion>
-        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
-        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.18.0.0</AssemblyVersion>
+        <AssemblyVersion>1.19.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Dynamic.DynamicMetaObject</ReturnType>
@@ -117,16 +121,17 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; TimeToLive { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; TimeToLive" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Documents.Document.TimeToLive" />
+      <MemberSignature Language="VB.NET" Value="Public Property TimeToLive As Nullable(Of Integer)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
-        <AssemblyVersion>1.16.0.0</AssemblyVersion>
-        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
-        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.18.0.0</AssemblyVersion>
+        <AssemblyVersion>1.19.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -138,7 +143,7 @@
       </ReturnValue>
       <Docs>
         <summary>
-            Gets or sets the time to live in seconds of the document in the Azure DocumentDB database service.
+            Gets or sets the time to live in seconds of the document in the Azure Cosmos DB service.
             </summary>
         <value>
             It is an optional property. 
@@ -272,6 +277,42 @@
                 document.TimeToLive = 1000;
             ]]></code></example>
         <altmember cref="T:Microsoft.Azure.Documents.DocumentCollection" />
+        <example>
+            The example below removes 'ttl' from document content.
+            The document will inherit the collection's <see cref="P:Microsoft.Azure.Documents.DocumentCollection.DefaultTimeToLive" /> as its time-to-live value.
+            <code language="c#"><![CDATA[
+                document.TimeToLive = null;
+            ]]></code></example>
+        <example>
+            The example below ensures that the document should never expire regardless.
+            <code language="c#"><![CDATA[
+                document.TimeToLive = -1;
+            ]]></code></example>
+        <example>
+            The example below sets the time-to-live in seconds on a document.
+            The document will expire after 1000 seconds since its last write time when the collection's <see cref="P:Microsoft.Azure.Documents.DocumentCollection.DefaultTimeToLive" />
+            is not <c>null</c>.
+            <code language="c#"><![CDATA[
+                document.TimeToLive = 1000;
+            ]]></code></example>
+        <example>
+            The example below removes 'ttl' from document content.
+            The document will inherit the collection's <see cref="P:Microsoft.Azure.Documents.DocumentCollection.DefaultTimeToLive" /> as its time-to-live value.
+            <code language="c#"><![CDATA[
+                document.TimeToLive = null;
+            ]]></code></example>
+        <example>
+            The example below ensures that the document should never expire regardless.
+            <code language="c#"><![CDATA[
+                document.TimeToLive = -1;
+            ]]></code></example>
+        <example>
+            The example below sets the time-to-live in seconds on a document.
+            The document will expire after 1000 seconds since its last write time when the collection's <see cref="P:Microsoft.Azure.Documents.DocumentCollection.DefaultTimeToLive" />
+            is not <c>null</c>.
+            <code language="c#"><![CDATA[
+                document.TimeToLive = 1000;
+            ]]></code></example>
         <example>
             The example below removes 'ttl' from document content.
             The document will inherit the collection's <see cref="P:Microsoft.Azure.Documents.DocumentCollection.DefaultTimeToLive" /> as its time-to-live value.

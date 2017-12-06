@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public class SetProtectionRequestInput : Microsoft.Azure.Management.BackupServices.Models.ManagementBaseObject" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SetProtectionRequestInput extends Microsoft.Azure.Management.BackupServices.Models.ManagementBaseObject" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.BackupServices.Models.SetProtectionRequestInput" />
+  <TypeSignature Language="VB.NET" Value="Public Class SetProtectionRequestInput&#xA;Inherits ManagementBaseObject" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.BackupServicesManagement</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -21,10 +22,11 @@
       <MemberSignature Language="C#" Value="public SetProtectionRequestInput ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.BackupServices.Models.SetProtectionRequestInput.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.BackupServicesManagement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -38,10 +40,11 @@
       <MemberSignature Language="C#" Value="public SetProtectionRequestInput (System.Collections.Generic.List&lt;string&gt; protectableObjects, string protectableObjectType, string policyId);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Collections.Generic.List`1&lt;string&gt; protectableObjects, string protectableObjectType, string policyId) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.BackupServices.Models.SetProtectionRequestInput.#ctor(System.Collections.Generic.List{System.String},System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (protectableObjects As List(Of String), protectableObjectType As String, policyId As String)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.BackupServicesManagement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="protectableObjects" Type="System.Collections.Generic.List&lt;System.String&gt;" />
@@ -63,10 +66,11 @@
       <MemberSignature Language="C#" Value="public string PolicyId { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string PolicyId" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.BackupServices.Models.SetProtectionRequestInput.PolicyId" />
+      <MemberSignature Language="VB.NET" Value="Public Property PolicyId As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.BackupServicesManagement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -83,10 +87,11 @@
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;string&gt; ProtectableObjects { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;string&gt; ProtectableObjects" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.BackupServices.Models.SetProtectionRequestInput.ProtectableObjects" />
+      <MemberSignature Language="VB.NET" Value="Public Property ProtectableObjects As IList(Of String)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.BackupServicesManagement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;System.String&gt;</ReturnType>
@@ -103,10 +108,11 @@
       <MemberSignature Language="C#" Value="public string ProtectableObjectType { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string ProtectableObjectType" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.BackupServices.Models.SetProtectionRequestInput.ProtectableObjectType" />
+      <MemberSignature Language="VB.NET" Value="Public Property ProtectableObjectType As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.BackupServicesManagement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

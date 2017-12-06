@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public class TransferMetadata" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TransferMetadata extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.DataLake.Store.TransferMetadata" />
+  <TypeSignature Language="VB.NET" Value="Public Class TransferMetadata" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.DataLake.Store</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -26,10 +27,11 @@
       <MemberSignature Language="C#" Value="public void DeleteFile ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void DeleteFile() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataLake.Store.TransferMetadata.DeleteFile" />
+      <MemberSignature Language="VB.NET" Value="Public Sub DeleteFile ()" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataLake.Store</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -47,10 +49,11 @@
       <MemberSignature Language="C#" Value="public string Delimiter { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Delimiter" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataLake.Store.TransferMetadata.Delimiter" />
+      <MemberSignature Language="VB.NET" Value="Public Property Delimiter As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataLake.Store</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -74,10 +77,11 @@
       <MemberSignature Language="C#" Value="public int EncodingCodePage { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 EncodingCodePage" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataLake.Store.TransferMetadata.EncodingCodePage" />
+      <MemberSignature Language="VB.NET" Value="Public Property EncodingCodePage As Integer" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataLake.Store</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -101,10 +105,11 @@
       <MemberSignature Language="C#" Value="public long FileLength { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int64 FileLength" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataLake.Store.TransferMetadata.FileLength" />
+      <MemberSignature Language="VB.NET" Value="Public Property FileLength As Long" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataLake.Store</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -128,10 +133,11 @@
       <MemberSignature Language="C#" Value="public string InputFilePath { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string InputFilePath" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataLake.Store.TransferMetadata.InputFilePath" />
+      <MemberSignature Language="VB.NET" Value="Public Property InputFilePath As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataLake.Store</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -155,10 +161,11 @@
       <MemberSignature Language="C#" Value="public bool IsBinary { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool IsBinary" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataLake.Store.TransferMetadata.IsBinary" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsBinary As Boolean" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataLake.Store</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -182,10 +189,11 @@
       <MemberSignature Language="C#" Value="public bool IsDownload { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool IsDownload" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataLake.Store.TransferMetadata.IsDownload" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsDownload As Boolean" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataLake.Store</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -209,10 +217,11 @@
       <MemberSignature Language="C#" Value="public int SegmentCount { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 SegmentCount" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataLake.Store.TransferMetadata.SegmentCount" />
+      <MemberSignature Language="VB.NET" Value="Public Property SegmentCount As Integer" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataLake.Store</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -236,10 +245,11 @@
       <MemberSignature Language="C#" Value="public long SegmentLength { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int64 SegmentLength" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataLake.Store.TransferMetadata.SegmentLength" />
+      <MemberSignature Language="VB.NET" Value="Public Property SegmentLength As Long" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataLake.Store</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -263,10 +273,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.DataLake.Store.TransferSegmentMetadata[] Segments { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.DataLake.Store.TransferSegmentMetadata[] Segments" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataLake.Store.TransferMetadata.Segments" />
+      <MemberSignature Language="VB.NET" Value="Public Property Segments As TransferSegmentMetadata()" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataLake.Store</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -290,10 +301,11 @@
       <MemberSignature Language="C#" Value="public string SegmentStreamDirectory { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string SegmentStreamDirectory" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataLake.Store.TransferMetadata.SegmentStreamDirectory" />
+      <MemberSignature Language="VB.NET" Value="Public Property SegmentStreamDirectory As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataLake.Store</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -317,10 +329,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.DataLake.Store.SegmentTransferStatus Status { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Azure.Management.DataLake.Store.SegmentTransferStatus Status" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataLake.Store.TransferMetadata.Status" />
+      <MemberSignature Language="VB.NET" Value="Public Property Status As SegmentTransferStatus" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataLake.Store</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -346,10 +359,11 @@
       <MemberSignature Language="C#" Value="public string TargetStreamPath { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string TargetStreamPath" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataLake.Store.TransferMetadata.TargetStreamPath" />
+      <MemberSignature Language="VB.NET" Value="Public Property TargetStreamPath As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataLake.Store</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -373,10 +387,11 @@
       <MemberSignature Language="C#" Value="public string TransferId { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string TransferId" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataLake.Store.TransferMetadata.TransferId" />
+      <MemberSignature Language="VB.NET" Value="Public Property TransferId As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataLake.Store</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>

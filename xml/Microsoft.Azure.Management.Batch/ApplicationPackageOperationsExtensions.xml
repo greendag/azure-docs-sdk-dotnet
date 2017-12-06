@@ -2,9 +2,9 @@
   <TypeSignature Language="C#" Value="public static class ApplicationPackageOperationsExtensions" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit ApplicationPackageOperationsExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Batch.ApplicationPackageOperationsExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module ApplicationPackageOperationsExtensions" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Batch</AssemblyName>
-    <AssemblyVersion>4.0.0.0</AssemblyVersion>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
@@ -22,10 +22,10 @@
       <MemberSignature Language="C#" Value="public static void Activate (this Microsoft.Azure.Management.Batch.IApplicationPackageOperations operations, string resourceGroupName, string accountName, string applicationId, string version, string format);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Activate(class Microsoft.Azure.Management.Batch.IApplicationPackageOperations operations, string resourceGroupName, string accountName, string applicationId, string version, string format) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Batch.ApplicationPackageOperationsExtensions.Activate(Microsoft.Azure.Management.Batch.IApplicationPackageOperations,System.String,System.String,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub Activate (operations As IApplicationPackageOperations, resourceGroupName As String, accountName As String, applicationId As String, version As String, format As String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Batch</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -71,7 +71,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Batch</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -124,10 +123,10 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Batch.Models.ApplicationPackage Create (this Microsoft.Azure.Management.Batch.IApplicationPackageOperations operations, string resourceGroupName, string accountName, string applicationId, string version);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Batch.Models.ApplicationPackage Create(class Microsoft.Azure.Management.Batch.IApplicationPackageOperations operations, string resourceGroupName, string accountName, string applicationId, string version) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Batch.ApplicationPackageOperationsExtensions.Create(Microsoft.Azure.Management.Batch.IApplicationPackageOperations,System.String,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Create (operations As IApplicationPackageOperations, resourceGroupName As String, accountName As String, applicationId As String, version As String) As ApplicationPackage" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Batch</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -170,7 +169,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Batch</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -219,10 +217,10 @@
       <MemberSignature Language="C#" Value="public static void Delete (this Microsoft.Azure.Management.Batch.IApplicationPackageOperations operations, string resourceGroupName, string accountName, string applicationId, string version);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Delete(class Microsoft.Azure.Management.Batch.IApplicationPackageOperations operations, string resourceGroupName, string accountName, string applicationId, string version) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Batch.ApplicationPackageOperationsExtensions.Delete(Microsoft.Azure.Management.Batch.IApplicationPackageOperations,System.String,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub Delete (operations As IApplicationPackageOperations, resourceGroupName As String, accountName As String, applicationId As String, version As String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Batch</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -264,7 +262,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Batch</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -313,10 +310,10 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Batch.Models.ApplicationPackage Get (this Microsoft.Azure.Management.Batch.IApplicationPackageOperations operations, string resourceGroupName, string accountName, string applicationId, string version);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Batch.Models.ApplicationPackage Get(class Microsoft.Azure.Management.Batch.IApplicationPackageOperations operations, string resourceGroupName, string accountName, string applicationId, string version) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Batch.ApplicationPackageOperationsExtensions.Get(Microsoft.Azure.Management.Batch.IApplicationPackageOperations,System.String,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Get (operations As IApplicationPackageOperations, resourceGroupName As String, accountName As String, applicationId As String, version As String) As ApplicationPackage" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Batch</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -359,7 +356,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Batch</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>

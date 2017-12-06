@@ -2,10 +2,10 @@
   <TypeSignature Language="C#" Value="public sealed class ServiceGroupUpdateDescription" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ServiceGroupUpdateDescription extends System.Object" />
   <TypeSignature Language="DocId" Value="T:System.Fabric.Description.ServiceGroupUpdateDescription" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ServiceGroupUpdateDescription" />
   <AssemblyInfo>
     <AssemblyName>System.Fabric</AssemblyName>
-    <AssemblyVersion>5.0.0.0</AssemblyVersion>
-    <AssemblyVersion>255.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -22,11 +22,11 @@
       <MemberSignature Language="C#" Value="public ServiceGroupUpdateDescription ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.Description.ServiceGroupUpdateDescription.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -40,11 +40,11 @@
       <MemberSignature Language="C#" Value="public ServiceGroupUpdateDescription (System.Fabric.Description.ServiceUpdateDescription updateDescription);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Fabric.Description.ServiceUpdateDescription updateDescription) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.Description.ServiceGroupUpdateDescription.#ctor(System.Fabric.Description.ServiceUpdateDescription)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (updateDescription As ServiceUpdateDescription)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="updateDescription" Type="System.Fabric.Description.ServiceUpdateDescription" />
@@ -65,11 +65,11 @@
       <MemberSignature Language="C#" Value="public System.Fabric.Description.ServiceUpdateDescription ServiceUpdateDescription { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Fabric.Description.ServiceUpdateDescription ServiceUpdateDescription" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Description.ServiceGroupUpdateDescription.ServiceUpdateDescription" />
+      <MemberSignature Language="VB.NET" Value="Public Property ServiceUpdateDescription As ServiceUpdateDescription" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Fabric.Description.ServiceUpdateDescription</ReturnType>

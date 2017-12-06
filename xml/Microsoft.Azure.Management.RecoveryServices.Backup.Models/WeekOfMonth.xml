@@ -2,9 +2,9 @@
   <TypeSignature Language="C#" Value="public enum WeekOfMonth" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed WeekOfMonth extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.RecoveryServices.Backup.Models.WeekOfMonth" />
+  <TypeSignature Language="VB.NET" Value="Public Enum WeekOfMonth" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.RecoveryServices.Backup</AssemblyName>
-    <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
@@ -26,10 +26,10 @@
       <MemberSignature Language="C#" Value="First" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Management.RecoveryServices.Backup.Models.WeekOfMonth First = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.RecoveryServices.Backup.Models.WeekOfMonth.First" />
+      <MemberSignature Language="VB.NET" Value="First" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.RecoveryServices.Backup</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -40,6 +40,7 @@
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.RecoveryServices.Backup.Models.WeekOfMonth</ReturnType>
       </ReturnValue>
+      <MemberValue>0</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -48,10 +49,10 @@
       <MemberSignature Language="C#" Value="Fourth" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Management.RecoveryServices.Backup.Models.WeekOfMonth Fourth = int32(3)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.RecoveryServices.Backup.Models.WeekOfMonth.Fourth" />
+      <MemberSignature Language="VB.NET" Value="Fourth" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.RecoveryServices.Backup</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -62,6 +63,7 @@
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.RecoveryServices.Backup.Models.WeekOfMonth</ReturnType>
       </ReturnValue>
+      <MemberValue>3</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -70,10 +72,10 @@
       <MemberSignature Language="C#" Value="Last" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Management.RecoveryServices.Backup.Models.WeekOfMonth Last = int32(4)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.RecoveryServices.Backup.Models.WeekOfMonth.Last" />
+      <MemberSignature Language="VB.NET" Value="Last" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.RecoveryServices.Backup</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -84,6 +86,7 @@
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.RecoveryServices.Backup.Models.WeekOfMonth</ReturnType>
       </ReturnValue>
+      <MemberValue>4</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -92,10 +95,10 @@
       <MemberSignature Language="C#" Value="Second" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Management.RecoveryServices.Backup.Models.WeekOfMonth Second = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.RecoveryServices.Backup.Models.WeekOfMonth.Second" />
+      <MemberSignature Language="VB.NET" Value="Second" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.RecoveryServices.Backup</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -106,6 +109,7 @@
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.RecoveryServices.Backup.Models.WeekOfMonth</ReturnType>
       </ReturnValue>
+      <MemberValue>1</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -114,10 +118,10 @@
       <MemberSignature Language="C#" Value="Third" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Management.RecoveryServices.Backup.Models.WeekOfMonth Third = int32(2)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.RecoveryServices.Backup.Models.WeekOfMonth.Third" />
+      <MemberSignature Language="VB.NET" Value="Third" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.RecoveryServices.Backup</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -128,6 +132,7 @@
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.RecoveryServices.Backup.Models.WeekOfMonth</ReturnType>
       </ReturnValue>
+      <MemberValue>2</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>

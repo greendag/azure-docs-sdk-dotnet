@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public interface IBuilder&lt;T&gt;" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IBuilder`1&lt;T&gt;" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.ResourceManager.Fluent.IBuilder`1" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IBuilder(Of T)" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.ResourceManager.Fluent</AssemblyName>
     <AssemblyVersion>1.0.0.60</AssemblyVersion>
@@ -22,8 +23,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.Fluent.IBuilder`1.Create(Microsoft.Azure.Management.ResourceManager.Fluent.Core.RestClient,System.String,Microsoft.Azure.Management.ResourceManager.Fluent.IResourceGroup)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>T</ReturnType>

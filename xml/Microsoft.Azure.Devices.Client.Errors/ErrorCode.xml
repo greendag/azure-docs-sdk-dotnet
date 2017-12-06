@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public enum ErrorCode" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ErrorCode extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Devices.Client.Errors.ErrorCode" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ErrorCode" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Devices.Client</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -22,14 +23,16 @@
       <MemberSignature Language="C#" Value="AuthorizationRulesExceededQuota" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Devices.Client.Errors.ErrorCode AuthorizationRulesExceededQuota = int32(200)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Devices.Client.Errors.ErrorCode.AuthorizationRulesExceededQuota" />
+      <MemberSignature Language="VB.NET" Value="AuthorizationRulesExceededQuota" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices.Client</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Devices.Client.Errors.ErrorCode</ReturnType>
       </ReturnValue>
+      <MemberValue>200</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -38,14 +41,16 @@
       <MemberSignature Language="C#" Value="GarbageCollectionFailed" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Devices.Client.Errors.ErrorCode GarbageCollectionFailed = int32(107)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Devices.Client.Errors.ErrorCode.GarbageCollectionFailed" />
+      <MemberSignature Language="VB.NET" Value="GarbageCollectionFailed" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices.Client</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Devices.Client.Errors.ErrorCode</ReturnType>
       </ReturnValue>
+      <MemberValue>107</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -54,14 +59,16 @@
       <MemberSignature Language="C#" Value="InvalidEventHubAccessRight" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Devices.Client.Errors.ErrorCode InvalidEventHubAccessRight = int32(109)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Devices.Client.Errors.ErrorCode.InvalidEventHubAccessRight" />
+      <MemberSignature Language="VB.NET" Value="InvalidEventHubAccessRight" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices.Client</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Devices.Client.Errors.ErrorCode</ReturnType>
       </ReturnValue>
+      <MemberValue>109</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -70,14 +77,16 @@
       <MemberSignature Language="C#" Value="InvalidIotHubName" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Devices.Client.Errors.ErrorCode InvalidIotHubName = int32(201)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Devices.Client.Errors.ErrorCode.InvalidIotHubName" />
+      <MemberSignature Language="VB.NET" Value="InvalidIotHubName" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices.Client</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Devices.Client.Errors.ErrorCode</ReturnType>
       </ReturnValue>
+      <MemberValue>201</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -86,14 +95,16 @@
       <MemberSignature Language="C#" Value="InvalidOperationId" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Devices.Client.Errors.ErrorCode InvalidOperationId = int32(202)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Devices.Client.Errors.ErrorCode.InvalidOperationId" />
+      <MemberSignature Language="VB.NET" Value="InvalidOperationId" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices.Client</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Devices.Client.Errors.ErrorCode</ReturnType>
       </ReturnValue>
+      <MemberValue>202</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -102,14 +113,16 @@
       <MemberSignature Language="C#" Value="IotHubActivationFailed" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Devices.Client.Errors.ErrorCode IotHubActivationFailed = int32(300)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Devices.Client.Errors.ErrorCode.IotHubActivationFailed" />
+      <MemberSignature Language="VB.NET" Value="IotHubActivationFailed" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices.Client</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Devices.Client.Errors.ErrorCode</ReturnType>
       </ReturnValue>
+      <MemberValue>300</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -118,14 +131,16 @@
       <MemberSignature Language="C#" Value="IotHubDeletionFailed" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Devices.Client.Errors.ErrorCode IotHubDeletionFailed = int32(301)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Devices.Client.Errors.ErrorCode.IotHubDeletionFailed" />
+      <MemberSignature Language="VB.NET" Value="IotHubDeletionFailed" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices.Client</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Devices.Client.Errors.ErrorCode</ReturnType>
       </ReturnValue>
+      <MemberValue>301</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -134,14 +149,16 @@
       <MemberSignature Language="C#" Value="IotHubExportFailed" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Devices.Client.Errors.ErrorCode IotHubExportFailed = int32(302)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Devices.Client.Errors.ErrorCode.IotHubExportFailed" />
+      <MemberSignature Language="VB.NET" Value="IotHubExportFailed" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices.Client</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Devices.Client.Errors.ErrorCode</ReturnType>
       </ReturnValue>
+      <MemberValue>302</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -150,14 +167,16 @@
       <MemberSignature Language="C#" Value="IotHubImportFailed" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Devices.Client.Errors.ErrorCode IotHubImportFailed = int32(304)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Devices.Client.Errors.ErrorCode.IotHubImportFailed" />
+      <MemberSignature Language="VB.NET" Value="IotHubImportFailed" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices.Client</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Devices.Client.Errors.ErrorCode</ReturnType>
       </ReturnValue>
+      <MemberValue>304</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -166,14 +185,16 @@
       <MemberSignature Language="C#" Value="IotHubInvalidProperties" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Devices.Client.Errors.ErrorCode IotHubInvalidProperties = int32(310)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Devices.Client.Errors.ErrorCode.IotHubInvalidProperties" />
+      <MemberSignature Language="VB.NET" Value="IotHubInvalidProperties" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices.Client</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Devices.Client.Errors.ErrorCode</ReturnType>
       </ReturnValue>
+      <MemberValue>310</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -182,14 +203,16 @@
       <MemberSignature Language="C#" Value="IotHubInvalidStateTransition" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Devices.Client.Errors.ErrorCode IotHubInvalidStateTransition = int32(308)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Devices.Client.Errors.ErrorCode.IotHubInvalidStateTransition" />
+      <MemberSignature Language="VB.NET" Value="IotHubInvalidStateTransition" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices.Client</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Devices.Client.Errors.ErrorCode</ReturnType>
       </ReturnValue>
+      <MemberValue>308</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -198,14 +221,16 @@
       <MemberSignature Language="C#" Value="IotHubNameNotAvailable" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Devices.Client.Errors.ErrorCode IotHubNameNotAvailable = int32(203)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Devices.Client.Errors.ErrorCode.IotHubNameNotAvailable" />
+      <MemberSignature Language="VB.NET" Value="IotHubNameNotAvailable" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices.Client</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Devices.Client.Errors.ErrorCode</ReturnType>
       </ReturnValue>
+      <MemberValue>203</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -214,14 +239,16 @@
       <MemberSignature Language="C#" Value="IotHubNotFoundInDatabase" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Devices.Client.Errors.ErrorCode IotHubNotFoundInDatabase = int32(102)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Devices.Client.Errors.ErrorCode.IotHubNotFoundInDatabase" />
+      <MemberSignature Language="VB.NET" Value="IotHubNotFoundInDatabase" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices.Client</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Devices.Client.Errors.ErrorCode</ReturnType>
       </ReturnValue>
+      <MemberValue>102</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -230,14 +257,16 @@
       <MemberSignature Language="C#" Value="IotHubsExportFailed" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Devices.Client.Errors.ErrorCode IotHubsExportFailed = int32(303)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Devices.Client.Errors.ErrorCode.IotHubsExportFailed" />
+      <MemberSignature Language="VB.NET" Value="IotHubsExportFailed" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices.Client</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Devices.Client.Errors.ErrorCode</ReturnType>
       </ReturnValue>
+      <MemberValue>303</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -246,14 +275,16 @@
       <MemberSignature Language="C#" Value="IotHubsImportFailed" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Devices.Client.Errors.ErrorCode IotHubsImportFailed = int32(305)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Devices.Client.Errors.ErrorCode.IotHubsImportFailed" />
+      <MemberSignature Language="VB.NET" Value="IotHubsImportFailed" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices.Client</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Devices.Client.Errors.ErrorCode</ReturnType>
       </ReturnValue>
+      <MemberValue>305</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -262,14 +293,16 @@
       <MemberSignature Language="C#" Value="IotHubStateTransitionNotDefined" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Devices.Client.Errors.ErrorCode IotHubStateTransitionNotDefined = int32(309)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Devices.Client.Errors.ErrorCode.IotHubStateTransitionNotDefined" />
+      <MemberSignature Language="VB.NET" Value="IotHubStateTransitionNotDefined" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices.Client</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Devices.Client.Errors.ErrorCode</ReturnType>
       </ReturnValue>
+      <MemberValue>309</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -278,14 +311,16 @@
       <MemberSignature Language="C#" Value="IotHubUpdateFailed" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Devices.Client.Errors.ErrorCode IotHubUpdateFailed = int32(108)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Devices.Client.Errors.ErrorCode.IotHubUpdateFailed" />
+      <MemberSignature Language="VB.NET" Value="IotHubUpdateFailed" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices.Client</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Devices.Client.Errors.ErrorCode</ReturnType>
       </ReturnValue>
+      <MemberValue>108</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -294,14 +329,16 @@
       <MemberSignature Language="C#" Value="KeyNameNotFound" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Devices.Client.Errors.ErrorCode KeyNameNotFound = int32(400)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Devices.Client.Errors.ErrorCode.KeyNameNotFound" />
+      <MemberSignature Language="VB.NET" Value="KeyNameNotFound" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices.Client</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Devices.Client.Errors.ErrorCode</ReturnType>
       </ReturnValue>
+      <MemberValue>400</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -310,14 +347,16 @@
       <MemberSignature Language="C#" Value="MultipleMatchingResourcesFound" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Devices.Client.Errors.ErrorCode MultipleMatchingResourcesFound = int32(106)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Devices.Client.Errors.ErrorCode.MultipleMatchingResourcesFound" />
+      <MemberSignature Language="VB.NET" Value="MultipleMatchingResourcesFound" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices.Client</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Devices.Client.Errors.ErrorCode</ReturnType>
       </ReturnValue>
+      <MemberValue>106</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -326,14 +365,16 @@
       <MemberSignature Language="C#" Value="NoMatchingResourceFound" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Devices.Client.Errors.ErrorCode NoMatchingResourceFound = int32(105)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Devices.Client.Errors.ErrorCode.NoMatchingResourceFound" />
+      <MemberSignature Language="VB.NET" Value="NoMatchingResourceFound" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices.Client</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Devices.Client.Errors.ErrorCode</ReturnType>
       </ReturnValue>
+      <MemberValue>105</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -342,14 +383,16 @@
       <MemberSignature Language="C#" Value="NoMatchingResourcePoolFound" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Devices.Client.Errors.ErrorCode NoMatchingResourcePoolFound = int32(103)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Devices.Client.Errors.ErrorCode.NoMatchingResourcePoolFound" />
+      <MemberSignature Language="VB.NET" Value="NoMatchingResourcePoolFound" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices.Client</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Devices.Client.Errors.ErrorCode</ReturnType>
       </ReturnValue>
+      <MemberValue>103</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -358,14 +401,16 @@
       <MemberSignature Language="C#" Value="None" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Devices.Client.Errors.ErrorCode None = int32(-1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Devices.Client.Errors.ErrorCode.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices.Client</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Devices.Client.Errors.ErrorCode</ReturnType>
       </ReturnValue>
+      <MemberValue>-1</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -374,14 +419,16 @@
       <MemberSignature Language="C#" Value="OrchestrationRunningOnIotHub" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Devices.Client.Errors.ErrorCode OrchestrationRunningOnIotHub = int32(101)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Devices.Client.Errors.ErrorCode.OrchestrationRunningOnIotHub" />
+      <MemberSignature Language="VB.NET" Value="OrchestrationRunningOnIotHub" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices.Client</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Devices.Client.Errors.ErrorCode</ReturnType>
       </ReturnValue>
+      <MemberValue>101</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -390,14 +437,16 @@
       <MemberSignature Language="C#" Value="OrchestrationStateInvalid" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Devices.Client.Errors.ErrorCode OrchestrationStateInvalid = int32(100)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Devices.Client.Errors.ErrorCode.OrchestrationStateInvalid" />
+      <MemberSignature Language="VB.NET" Value="OrchestrationStateInvalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices.Client</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Devices.Client.Errors.ErrorCode</ReturnType>
       </ReturnValue>
+      <MemberValue>100</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -406,14 +455,16 @@
       <MemberSignature Language="C#" Value="ResourcePoolNotFound" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Devices.Client.Errors.ErrorCode ResourcePoolNotFound = int32(104)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Devices.Client.Errors.ErrorCode.ResourcePoolNotFound" />
+      <MemberSignature Language="VB.NET" Value="ResourcePoolNotFound" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices.Client</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Devices.Client.Errors.ErrorCode</ReturnType>
       </ReturnValue>
+      <MemberValue>104</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -422,14 +473,16 @@
       <MemberSignature Language="C#" Value="SystemPropertiesNotAllowed" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Devices.Client.Errors.ErrorCode SystemPropertiesNotAllowed = int32(204)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Devices.Client.Errors.ErrorCode.SystemPropertiesNotAllowed" />
+      <MemberSignature Language="VB.NET" Value="SystemPropertiesNotAllowed" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices.Client</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Devices.Client.Errors.ErrorCode</ReturnType>
       </ReturnValue>
+      <MemberValue>204</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -438,14 +491,16 @@
       <MemberSignature Language="C#" Value="WinFabApplicationCleanupNotAttempted" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Devices.Client.Errors.ErrorCode WinFabApplicationCleanupNotAttempted = int32(1000)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Devices.Client.Errors.ErrorCode.WinFabApplicationCleanupNotAttempted" />
+      <MemberSignature Language="VB.NET" Value="WinFabApplicationCleanupNotAttempted" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices.Client</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Devices.Client.Errors.ErrorCode</ReturnType>
       </ReturnValue>
+      <MemberValue>1000</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -454,14 +509,16 @@
       <MemberSignature Language="C#" Value="WinFabApplicationUpgradeFailed" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Devices.Client.Errors.ErrorCode WinFabApplicationUpgradeFailed = int32(306)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Devices.Client.Errors.ErrorCode.WinFabApplicationUpgradeFailed" />
+      <MemberSignature Language="VB.NET" Value="WinFabApplicationUpgradeFailed" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices.Client</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Devices.Client.Errors.ErrorCode</ReturnType>
       </ReturnValue>
+      <MemberValue>306</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -470,14 +527,16 @@
       <MemberSignature Language="C#" Value="WinFabClusterUpgradeFailed" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Devices.Client.Errors.ErrorCode WinFabClusterUpgradeFailed = int32(307)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Devices.Client.Errors.ErrorCode.WinFabClusterUpgradeFailed" />
+      <MemberSignature Language="VB.NET" Value="WinFabClusterUpgradeFailed" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices.Client</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Devices.Client.Errors.ErrorCode</ReturnType>
       </ReturnValue>
+      <MemberValue>307</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>

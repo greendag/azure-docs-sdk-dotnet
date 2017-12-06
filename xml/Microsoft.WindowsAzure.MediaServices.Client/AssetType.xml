@@ -2,9 +2,10 @@
   <TypeSignature Language="C#" Value="public enum AssetType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed AssetType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.WindowsAzure.MediaServices.Client.AssetType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum AssetType" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client</AssemblyName>
-    <AssemblyVersion>3.8.0.5</AssemblyVersion>
+    <AssemblyVersion>4.0.0.4</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
@@ -18,14 +19,16 @@
       <MemberSignature Language="C#" Value="MediaServicesHLS" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.WindowsAzure.MediaServices.Client.AssetType MediaServicesHLS = int32(4)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.MediaServices.Client.AssetType.MediaServicesHLS" />
+      <MemberSignature Language="VB.NET" Value="MediaServicesHLS" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.MediaServices.Client.AssetType</ReturnType>
       </ReturnValue>
+      <MemberValue>4</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -34,14 +37,16 @@
       <MemberSignature Language="C#" Value="MP4" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.WindowsAzure.MediaServices.Client.AssetType MP4 = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.MediaServices.Client.AssetType.MP4" />
+      <MemberSignature Language="VB.NET" Value="MP4" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.MediaServices.Client.AssetType</ReturnType>
       </ReturnValue>
+      <MemberValue>1</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -50,14 +55,16 @@
       <MemberSignature Language="C#" Value="MultiBitrateMP4" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.WindowsAzure.MediaServices.Client.AssetType MultiBitrateMP4 = int32(2)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.MediaServices.Client.AssetType.MultiBitrateMP4" />
+      <MemberSignature Language="VB.NET" Value="MultiBitrateMP4" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.MediaServices.Client.AssetType</ReturnType>
       </ReturnValue>
+      <MemberValue>2</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -66,14 +73,16 @@
       <MemberSignature Language="C#" Value="SmoothStreaming" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.WindowsAzure.MediaServices.Client.AssetType SmoothStreaming = int32(3)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.MediaServices.Client.AssetType.SmoothStreaming" />
+      <MemberSignature Language="VB.NET" Value="SmoothStreaming" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.MediaServices.Client.AssetType</ReturnType>
       </ReturnValue>
+      <MemberValue>3</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -82,14 +91,16 @@
       <MemberSignature Language="C#" Value="Unknown" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.WindowsAzure.MediaServices.Client.AssetType Unknown = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.MediaServices.Client.AssetType.Unknown" />
+      <MemberSignature Language="VB.NET" Value="Unknown" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.MediaServices.Client.AssetType</ReturnType>
       </ReturnValue>
+      <MemberValue>0</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>

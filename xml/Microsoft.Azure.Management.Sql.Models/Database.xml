@@ -2,13 +2,13 @@
   <TypeSignature Language="C#" Value="public class Database : Microsoft.Azure.Management.Sql.Models.TrackedResource" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Database extends Microsoft.Azure.Management.Sql.Models.TrackedResource" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Sql.Models.Database" />
+  <TypeSignature Language="VB.NET" Value="Public Class Database&#xA;Inherits TrackedResource" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Sql</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
-    <BaseTypeName>Microsoft.Azure.Management.Sql.Models.Resource</BaseTypeName>
-    <BaseTypeName FrameworkAlternate="azuremgmtsql-1.6.0-preview">Microsoft.Azure.Management.Sql.Models.TrackedResource</BaseTypeName>
+    <BaseTypeName>Microsoft.Azure.Management.Sql.Models.TrackedResource</BaseTypeName>
   </Base>
   <Interfaces />
   <Attributes>
@@ -27,10 +27,11 @@
       <MemberSignature Language="C#" Value="public Database ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Sql.Models.Database.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -41,149 +42,10 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public Database (string location, string name = null, string id = null, string type = null, System.Collections.Generic.IDictionary&lt;string,string&gt; tags = null, string kind = null, string collation = null, Nullable&lt;DateTime&gt; creationDate = null, Nullable&lt;long&gt; containmentState = null, Nullable&lt;Guid&gt; currentServiceObjectiveId = null, string databaseId = null, Nullable&lt;DateTime&gt; earliestRestoreDate = null, string createMode = null, string sourceDatabaseId = null, Nullable&lt;DateTime&gt; restorePointInTime = null, string edition = null, string maxSizeBytes = null, Nullable&lt;Guid&gt; requestedServiceObjectiveId = null, string requestedServiceObjectiveName = null, string serviceLevelObjective = null, string status = null, string elasticPoolName = null, string defaultSecondaryLocation = null, System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Sql.Models.ServiceTierAdvisor&gt; serviceTierAdvisors = null, System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Sql.Models.Schema&gt; schemas = null, System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Sql.Models.TransparentDataEncryption&gt; transparentDataEncryption = null, System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Sql.Models.RecommendedIndex&gt; recommendedIndex = null, Nullable&lt;Guid&gt; failoverGroupId = null, Nullable&lt;Microsoft.Azure.Management.Sql.Models.ReadScale&gt; readScale = null, string sampleName = null);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string location, string name, string id, string type, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags, string kind, string collation, valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; creationDate, valuetype System.Nullable`1&lt;int64&gt; containmentState, valuetype System.Nullable`1&lt;valuetype System.Guid&gt; currentServiceObjectiveId, string databaseId, valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; earliestRestoreDate, string createMode, string sourceDatabaseId, valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; restorePointInTime, string edition, string maxSizeBytes, valuetype System.Nullable`1&lt;valuetype System.Guid&gt; requestedServiceObjectiveId, string requestedServiceObjectiveName, string serviceLevelObjective, string status, string elasticPoolName, string defaultSecondaryLocation, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.Sql.Models.ServiceTierAdvisor&gt; serviceTierAdvisors, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.Sql.Models.Schema&gt; schemas, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.Sql.Models.TransparentDataEncryption&gt; transparentDataEncryption, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.Sql.Models.RecommendedIndex&gt; recommendedIndex, valuetype System.Nullable`1&lt;valuetype System.Guid&gt; failoverGroupId, valuetype System.Nullable`1&lt;valuetype Microsoft.Azure.Management.Sql.Models.ReadScale&gt; readScale, string sampleName) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Sql.Models.Database.#ctor(System.String,System.String,System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.String},System.String,System.String,System.Nullable{System.DateTime},System.Nullable{System.Int64},System.Nullable{System.Guid},System.String,System.Nullable{System.DateTime},System.String,System.String,System.Nullable{System.DateTime},System.String,System.String,System.Nullable{System.Guid},System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.IList{Microsoft.Azure.Management.Sql.Models.ServiceTierAdvisor},System.Collections.Generic.IList{Microsoft.Azure.Management.Sql.Models.Schema},System.Collections.Generic.IList{Microsoft.Azure.Management.Sql.Models.TransparentDataEncryption},System.Collections.Generic.IList{Microsoft.Azure.Management.Sql.Models.RecommendedIndex},System.Nullable{System.Guid},System.Nullable{Microsoft.Azure.Management.Sql.Models.ReadScale},System.String)" />
-      <MemberType>Constructor</MemberType>
-      <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-        <AssemblyName>Microsoft.Azure.Management.Sql</AssemblyName>
-      </AssemblyInfo>
-      <Parameters>
-        <Parameter Name="location" Type="System.String" />
-        <Parameter Name="name" Type="System.String" />
-        <Parameter Name="id" Type="System.String" />
-        <Parameter Name="type" Type="System.String" />
-        <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" />
-        <Parameter Name="kind" Type="System.String" />
-        <Parameter Name="collation" Type="System.String" />
-        <Parameter Name="creationDate" Type="System.Nullable&lt;System.DateTime&gt;" />
-        <Parameter Name="containmentState" Type="System.Nullable&lt;System.Int64&gt;" />
-        <Parameter Name="currentServiceObjectiveId" Type="System.Nullable&lt;System.Guid&gt;" />
-        <Parameter Name="databaseId" Type="System.String" />
-        <Parameter Name="earliestRestoreDate" Type="System.Nullable&lt;System.DateTime&gt;" />
-        <Parameter Name="createMode" Type="System.String" />
-        <Parameter Name="sourceDatabaseId" Type="System.String" />
-        <Parameter Name="restorePointInTime" Type="System.Nullable&lt;System.DateTime&gt;" />
-        <Parameter Name="edition" Type="System.String" />
-        <Parameter Name="maxSizeBytes" Type="System.String" />
-        <Parameter Name="requestedServiceObjectiveId" Type="System.Nullable&lt;System.Guid&gt;" />
-        <Parameter Name="requestedServiceObjectiveName" Type="System.String" />
-        <Parameter Name="serviceLevelObjective" Type="System.String" />
-        <Parameter Name="status" Type="System.String" />
-        <Parameter Name="elasticPoolName" Type="System.String" />
-        <Parameter Name="defaultSecondaryLocation" Type="System.String" />
-        <Parameter Name="serviceTierAdvisors" Type="System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Sql.Models.ServiceTierAdvisor&gt;" />
-        <Parameter Name="schemas" Type="System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Sql.Models.Schema&gt;" />
-        <Parameter Name="transparentDataEncryption" Type="System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Sql.Models.TransparentDataEncryption&gt;" />
-        <Parameter Name="recommendedIndex" Type="System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Sql.Models.RecommendedIndex&gt;" />
-        <Parameter Name="failoverGroupId" Type="System.Nullable&lt;System.Guid&gt;" />
-        <Parameter Name="readScale" Type="System.Nullable&lt;Microsoft.Azure.Management.Sql.Models.ReadScale&gt;" />
-        <Parameter Name="sampleName" Type="System.String" />
-      </Parameters>
-      <Docs>
-        <param name="location">Resource location</param>
-        <param name="name">Resource name</param>
-        <param name="id">Resource ID</param>
-        <param name="type">Resource type</param>
-        <param name="tags">Resource tags</param>
-        <param name="kind">Kind of database.  This is metadata used for the
-            Azure portal experience.</param>
-        <param name="collation">The collation of the database. If
-            createMode is not Default, this value is ignored.</param>
-        <param name="creationDate">The creation date of the database
-            (ISO8601 format).</param>
-        <param name="containmentState">The containment state of the
-            database.</param>
-        <param name="currentServiceObjectiveId">The current service level
-            objective ID of the database. This is the ID of the service level
-            objective that is currently active.</param>
-        <param name="databaseId">The ID of the database.</param>
-        <param name="earliestRestoreDate">This records the earliest start
-            date and time that restore is available for this database (ISO8601
-            format).</param>
-        <param name="createMode">Specifies the type of database to create.
-            If createMode is not set to Default, sourceDatabaseId must be
-            specified. If createMode is set to PointInTimeRestore, then
-            restorePointInTime must be specified. If createMode is set to
-            Restore, then sourceDatabaseDeletionDate must be specified.
-            Possible values include: 'Copy', 'Default', 'NonReadableSecondary',
-            'OnlineSecondary', 'PointInTimeRestore', 'Recovery',
-            'Restore'</param>
-        <param name="sourceDatabaseId">Conditional. If createMode is not
-            set to Default, then this value must be specified. Specifies the
-            resource ID of the source database. If createMode is
-            NonReadableSecondary or OnlineSecondary, the name of the source
-            database must be the same as this new database.</param>
-        <param name="restorePointInTime">Conditional. If createMode is set
-            to PointInTimeRestore, then this value must be specified. Specifies
-            the point in time (ISO8601 format) of the source database that will
-            be restored to create the new database. Must be greater than or
-            equal to the source database's earliestRestoreDate value.</param>
-        <param name="edition">The edition of the database. The
-            DatabaseEditions enumeration contains all the valid editions. If
-            createMode is NonReadableSecondary or OnlineSecondary, this value
-            is ignored. Possible values include: 'Web', 'Business', 'Basic',
-            'Standard', 'Premium', 'Free', 'Stretch', 'DataWarehouse',
-            'System'</param>
-        <param name="maxSizeBytes">The max size of the database expressed
-            in bytes. If createMode is not Default, this value is ignored.
-            Note: Only the following sizes are supported (in addition to
-            limitations being placed on each edition): { 100 MB | 500 MB |1 GB
-            | 5 GB | 10 GB | 20 GB | 30 GB … 150 GB | 200 GB … 500 GB }</param>
-        <param name="requestedServiceObjectiveId">The configured service
-            level objective ID of the database. This is the service level
-            objective that is in the process of being applied to the database.
-            Once successfully updated, it will match the value of
-            currentServiceObjectiveId property. If requestedServiceObjectiveId
-            and requestedServiceObjectiveName are both updated, the value of
-            requestedServiceObjectiveId overrides the value of
-            requestedServiceObjectiveName.</param>
-        <param name="requestedServiceObjectiveName">The name of the
-            configured service level objective of the database. This is the
-            service level objective that is in the process of being applied to
-            the database. Once successfully updated, it will match the value of
-            serviceLevelObjective property. Possible values include: 'Basic',
-            'S0', 'S1', 'S2', 'S3', 'P1', 'P2', 'P3', 'P4', 'P6', 'P11', 'P15',
-            'System', 'ElasticPool'</param>
-        <param name="serviceLevelObjective">The current service level
-            objective of the database. Possible values include: 'Basic', 'S0',
-            'S1', 'S2', 'S3', 'P1', 'P2', 'P3', 'P4', 'P6', 'P11', 'P15',
-            'System', 'ElasticPool'</param>
-        <param name="status">The status of the database.</param>
-        <param name="elasticPoolName">The name of the elastic pool the
-            database is in. If elasticPoolName and
-            requestedServiceObjectiveName are both updated, the value of
-            requestedServiceObjectiveName is ignored.</param>
-        <param name="defaultSecondaryLocation">The default secondary region
-            for this database.</param>
-        <param name="serviceTierAdvisors">The list of service tier advisors
-            for this database. Expanded property</param>
-        <param name="schemas">The schemas from this database.</param>
-        <param name="transparentDataEncryption">The transparent data
-            encryption info for this database.</param>
-        <param name="recommendedIndex">The recommended indices for this
-            database.</param>
-        <param name="failoverGroupId">The id indicating the failover group
-            containing this database.</param>
-        <param name="readScale">Conditional.  If the database is a
-            geo-secondary, readScale indicates whether read-only connections
-            are allowed to this database or not. Possible values include:
-            'Enabled', 'Disabled'</param>
-        <param name="sampleName">Indicates the name of the sample schema to
-            apply when creating this database. If createMode is not Default,
-            this value is ignored. Possible values include:
-            'AdventureWorksLT'</param>
-        <summary>
-            Initializes a new instance of the Database class.
-            </summary>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName=".ctor">
       <MemberSignature Language="C#" Value="public Database (string location, string id = null, string name = null, string type = null, System.Collections.Generic.IDictionary&lt;string,string&gt; tags = null, string kind = null, string collation = null, Nullable&lt;DateTime&gt; creationDate = null, Nullable&lt;long&gt; containmentState = null, Nullable&lt;Guid&gt; currentServiceObjectiveId = null, Nullable&lt;Guid&gt; databaseId = null, Nullable&lt;DateTime&gt; earliestRestoreDate = null, string createMode = null, string sourceDatabaseId = null, Nullable&lt;DateTime&gt; sourceDatabaseDeletionDate = null, Nullable&lt;DateTime&gt; restorePointInTime = null, string recoveryServicesRecoveryPointResourceId = null, string edition = null, string maxSizeBytes = null, Nullable&lt;Guid&gt; requestedServiceObjectiveId = null, string requestedServiceObjectiveName = null, string serviceLevelObjective = null, string status = null, string elasticPoolName = null, string defaultSecondaryLocation = null, System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Sql.Models.ServiceTierAdvisor&gt; serviceTierAdvisors = null, System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Sql.Models.TransparentDataEncryption&gt; transparentDataEncryption = null, System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Sql.Models.RecommendedIndex&gt; recommendedIndex = null, string failoverGroupId = null, Nullable&lt;Microsoft.Azure.Management.Sql.Models.ReadScale&gt; readScale = null, string sampleName = null);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string location, string id, string name, string type, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags, string kind, string collation, valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; creationDate, valuetype System.Nullable`1&lt;int64&gt; containmentState, valuetype System.Nullable`1&lt;valuetype System.Guid&gt; currentServiceObjectiveId, valuetype System.Nullable`1&lt;valuetype System.Guid&gt; databaseId, valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; earliestRestoreDate, string createMode, string sourceDatabaseId, valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; sourceDatabaseDeletionDate, valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; restorePointInTime, string recoveryServicesRecoveryPointResourceId, string edition, string maxSizeBytes, valuetype System.Nullable`1&lt;valuetype System.Guid&gt; requestedServiceObjectiveId, string requestedServiceObjectiveName, string serviceLevelObjective, string status, string elasticPoolName, string defaultSecondaryLocation, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.Sql.Models.ServiceTierAdvisor&gt; serviceTierAdvisors, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.Sql.Models.TransparentDataEncryption&gt; transparentDataEncryption, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.Sql.Models.RecommendedIndex&gt; recommendedIndex, string failoverGroupId, valuetype System.Nullable`1&lt;valuetype Microsoft.Azure.Management.Sql.Models.ReadScale&gt; readScale, string sampleName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Sql.Models.Database.#ctor(System.String,System.String,System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.String},System.String,System.String,System.Nullable{System.DateTime},System.Nullable{System.Int64},System.Nullable{System.Guid},System.Nullable{System.Guid},System.Nullable{System.DateTime},System.String,System.String,System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.String,System.String,System.String,System.Nullable{System.Guid},System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.IList{Microsoft.Azure.Management.Sql.Models.ServiceTierAdvisor},System.Collections.Generic.IList{Microsoft.Azure.Management.Sql.Models.TransparentDataEncryption},System.Collections.Generic.IList{Microsoft.Azure.Management.Sql.Models.RecommendedIndex},System.String,System.Nullable{Microsoft.Azure.Management.Sql.Models.ReadScale},System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (location As String, Optional id As String = null, Optional name As String = null, Optional type As String = null, Optional tags As IDictionary(Of String, String) = null, Optional kind As String = null, Optional collation As String = null, Optional creationDate As Nullable(Of DateTime) = null, Optional containmentState As Nullable(Of Long) = null, Optional currentServiceObjectiveId As Nullable(Of Guid) = null, Optional databaseId As Nullable(Of Guid) = null, Optional earliestRestoreDate As Nullable(Of DateTime) = null, Optional createMode As String = null, Optional sourceDatabaseId As String = null, Optional sourceDatabaseDeletionDate As Nullable(Of DateTime) = null, Optional restorePointInTime As Nullable(Of DateTime) = null, Optional recoveryServicesRecoveryPointResourceId As String = null, Optional edition As String = null, Optional maxSizeBytes As String = null, Optional requestedServiceObjectiveId As Nullable(Of Guid) = null, Optional requestedServiceObjectiveName As String = null, Optional serviceLevelObjective As String = null, Optional status As String = null, Optional elasticPoolName As String = null, Optional defaultSecondaryLocation As String = null, Optional serviceTierAdvisors As IList(Of ServiceTierAdvisor) = null, Optional transparentDataEncryption As IList(Of TransparentDataEncryption) = null, Optional recommendedIndex As IList(Of RecommendedIndex) = null, Optional failoverGroupId As String = null, Optional readScale As Nullable(Of ReadScale) = null, Optional sampleName As String = null)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Sql</AssemblyName>
@@ -380,10 +242,11 @@
       <MemberSignature Language="C#" Value="public string Collation { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Collation" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Sql.Models.Database.Collation" />
+      <MemberSignature Language="VB.NET" Value="Public Property Collation As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -406,10 +269,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;long&gt; ContainmentState { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int64&gt; ContainmentState" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Sql.Models.Database.ContainmentState" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContainmentState As Nullable(Of Long)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -431,10 +295,11 @@
       <MemberSignature Language="C#" Value="public string CreateMode { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string CreateMode" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Sql.Models.Database.CreateMode" />
+      <MemberSignature Language="VB.NET" Value="Public Property CreateMode As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -495,10 +360,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; CreationDate { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; CreationDate" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Sql.Models.Database.CreationDate" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CreationDate As Nullable(Of DateTime)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -520,10 +386,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;Guid&gt; CurrentServiceObjectiveId { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.Guid&gt; CurrentServiceObjectiveId" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Sql.Models.Database.CurrentServiceObjectiveId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CurrentServiceObjectiveId As Nullable(Of Guid)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -546,10 +413,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;Guid&gt; DatabaseId { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.Guid&gt; DatabaseId" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Sql.Models.Database.DatabaseId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DatabaseId As Nullable(Of Guid)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -571,10 +439,11 @@
       <MemberSignature Language="C#" Value="public string DefaultSecondaryLocation { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string DefaultSecondaryLocation" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Sql.Models.Database.DefaultSecondaryLocation" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DefaultSecondaryLocation As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -596,10 +465,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; EarliestRestoreDate { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; EarliestRestoreDate" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Sql.Models.Database.EarliestRestoreDate" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EarliestRestoreDate As Nullable(Of DateTime)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -622,10 +492,11 @@
       <MemberSignature Language="C#" Value="public string Edition { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Edition" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Sql.Models.Database.Edition" />
+      <MemberSignature Language="VB.NET" Value="Public Property Edition As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -654,10 +525,11 @@
       <MemberSignature Language="C#" Value="public string ElasticPoolName { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string ElasticPoolName" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Sql.Models.Database.ElasticPoolName" />
+      <MemberSignature Language="VB.NET" Value="Public Property ElasticPoolName As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -682,10 +554,11 @@
       <MemberSignature Language="C#" Value="public string FailoverGroupId { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string FailoverGroupId" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Sql.Models.Database.FailoverGroupId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FailoverGroupId As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -708,10 +581,11 @@
       <MemberSignature Language="C#" Value="public string Kind { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Kind" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Sql.Models.Database.Kind" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Kind As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -734,10 +608,11 @@
       <MemberSignature Language="C#" Value="public string MaxSizeBytes { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string MaxSizeBytes" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Sql.Models.Database.MaxSizeBytes" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaxSizeBytes As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -763,10 +638,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Azure.Management.Sql.Models.ReadScale&gt; ReadScale { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Azure.Management.Sql.Models.ReadScale&gt; ReadScale" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Sql.Models.Database.ReadScale" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReadScale As Nullable(Of ReadScale)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -791,10 +667,11 @@
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Sql.Models.RecommendedIndex&gt; RecommendedIndex { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.Sql.Models.RecommendedIndex&gt; RecommendedIndex" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Sql.Models.Database.RecommendedIndex" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RecommendedIndex As IList(Of RecommendedIndex)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -816,6 +693,7 @@
       <MemberSignature Language="C#" Value="public string RecoveryServicesRecoveryPointResourceId { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string RecoveryServicesRecoveryPointResourceId" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Sql.Models.Database.RecoveryServicesRecoveryPointResourceId" />
+      <MemberSignature Language="VB.NET" Value="Public Property RecoveryServicesRecoveryPointResourceId As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Sql</AssemblyName>
@@ -843,10 +721,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;Guid&gt; RequestedServiceObjectiveId { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.Guid&gt; RequestedServiceObjectiveId" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Sql.Models.Database.RequestedServiceObjectiveId" />
+      <MemberSignature Language="VB.NET" Value="Public Property RequestedServiceObjectiveId As Nullable(Of Guid)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -878,10 +757,11 @@
       <MemberSignature Language="C#" Value="public string RequestedServiceObjectiveName { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string RequestedServiceObjectiveName" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Sql.Models.Database.RequestedServiceObjectiveName" />
+      <MemberSignature Language="VB.NET" Value="Public Property RequestedServiceObjectiveName As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -912,10 +792,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; RestorePointInTime { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; RestorePointInTime" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Sql.Models.Database.RestorePointInTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property RestorePointInTime As Nullable(Of DateTime)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -942,10 +823,11 @@
       <MemberSignature Language="C#" Value="public string SampleName { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string SampleName" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Sql.Models.Database.SampleName" />
+      <MemberSignature Language="VB.NET" Value="Public Property SampleName As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -966,39 +848,15 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="Schemas">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Sql.Models.Schema&gt; Schemas { get; protected set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.Sql.Models.Schema&gt; Schemas" />
-      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Sql.Models.Database.Schemas" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-        <AssemblyName>Microsoft.Azure.Management.Sql</AssemblyName>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="properties.schemas")</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Sql.Models.Schema&gt;</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets the schemas from this database.
-            </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="ServiceLevelObjective">
       <MemberSignature Language="C#" Value="public string ServiceLevelObjective { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string ServiceLevelObjective" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Sql.Models.Database.ServiceLevelObjective" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ServiceLevelObjective As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1022,10 +880,11 @@
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Sql.Models.ServiceTierAdvisor&gt; ServiceTierAdvisors { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.Sql.Models.ServiceTierAdvisor&gt; ServiceTierAdvisors" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Sql.Models.Database.ServiceTierAdvisors" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ServiceTierAdvisors As IList(Of ServiceTierAdvisor)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1048,6 +907,7 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; SourceDatabaseDeletionDate { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; SourceDatabaseDeletionDate" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Sql.Models.Database.SourceDatabaseDeletionDate" />
+      <MemberSignature Language="VB.NET" Value="Public Property SourceDatabaseDeletionDate As Nullable(Of DateTime)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Sql</AssemblyName>
@@ -1077,10 +937,11 @@
       <MemberSignature Language="C#" Value="public string SourceDatabaseId { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string SourceDatabaseId" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Sql.Models.Database.SourceDatabaseId" />
+      <MemberSignature Language="VB.NET" Value="Public Property SourceDatabaseId As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1107,10 +968,11 @@
       <MemberSignature Language="C#" Value="public string Status { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Status" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Sql.Models.Database.Status" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Status As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1132,10 +994,11 @@
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Sql.Models.TransparentDataEncryption&gt; TransparentDataEncryption { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.Sql.Models.TransparentDataEncryption&gt; TransparentDataEncryption" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Sql.Models.Database.TransparentDataEncryption" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TransparentDataEncryption As IList(Of TransparentDataEncryption)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1157,10 +1020,11 @@
       <MemberSignature Language="C#" Value="public override void Validate ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void Validate() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Sql.Models.Database.Validate" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub Validate ()" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>

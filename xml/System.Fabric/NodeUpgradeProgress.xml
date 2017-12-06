@@ -2,10 +2,10 @@
   <TypeSignature Language="C#" Value="public sealed class NodeUpgradeProgress" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit NodeUpgradeProgress extends System.Object" />
   <TypeSignature Language="DocId" Value="T:System.Fabric.NodeUpgradeProgress" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class NodeUpgradeProgress" />
   <AssemblyInfo>
     <AssemblyName>System.Fabric</AssemblyName>
-    <AssemblyVersion>5.0.0.0</AssemblyVersion>
-    <AssemblyVersion>255.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -22,11 +22,11 @@
       <MemberSignature Language="C#" Value="public string NodeName { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string NodeName" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.NodeUpgradeProgress.NodeName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NodeName As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -45,11 +45,11 @@
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;System.Fabric.UpgradeSafetyCheck&gt; PendingSafetyChecks { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class System.Fabric.UpgradeSafetyCheck&gt; PendingSafetyChecks" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.NodeUpgradeProgress.PendingSafetyChecks" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PendingSafetyChecks As IList(Of UpgradeSafetyCheck)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;System.Fabric.UpgradeSafetyCheck&gt;</ReturnType>
@@ -68,11 +68,11 @@
       <MemberSignature Language="C#" Value="public System.Fabric.NodeUpgradePhase UpgradePhase { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Fabric.NodeUpgradePhase UpgradePhase" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.NodeUpgradeProgress.UpgradePhase" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UpgradePhase As NodeUpgradePhase" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Fabric.NodeUpgradePhase</ReturnType>

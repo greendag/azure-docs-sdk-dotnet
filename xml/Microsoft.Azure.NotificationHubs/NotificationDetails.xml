@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public sealed class NotificationDetails : System.Runtime.Serialization.IExtensibleDataObject" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit NotificationDetails extends System.Object implements class System.Runtime.Serialization.IExtensibleDataObject" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.NotificationHubs.NotificationDetails" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class NotificationDetails&#xA;Implements IExtensibleDataObject" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
     <AssemblyVersion>2.16.0.0</AssemblyVersion>
@@ -30,10 +31,11 @@
       <MemberSignature Language="C#" Value="public NotificationDetails ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.NotificationHubs.NotificationDetails.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -45,10 +47,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.NotificationHubs.NotificationOutcomeCollection AdmOutcomeCounts { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.NotificationHubs.NotificationOutcomeCollection AdmOutcomeCounts" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.NotificationHubs.NotificationDetails.AdmOutcomeCounts" />
+      <MemberSignature Language="VB.NET" Value="Public Property AdmOutcomeCounts As NotificationOutcomeCollection" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -72,10 +75,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.NotificationHubs.NotificationOutcomeCollection ApnsOutcomeCounts { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.NotificationHubs.NotificationOutcomeCollection ApnsOutcomeCounts" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.NotificationHubs.NotificationDetails.ApnsOutcomeCounts" />
+      <MemberSignature Language="VB.NET" Value="Public Property ApnsOutcomeCounts As NotificationOutcomeCollection" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -99,10 +103,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; EndTime { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; EndTime" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.NotificationHubs.NotificationDetails.EndTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property EndTime As Nullable(Of DateTime)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -126,10 +131,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; EnqueueTime { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; EnqueueTime" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.NotificationHubs.NotificationDetails.EnqueueTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property EnqueueTime As Nullable(Of DateTime)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -153,10 +159,11 @@
       <MemberSignature Language="C#" Value="public System.Runtime.Serialization.ExtensionDataObject ExtensionData { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Runtime.Serialization.ExtensionDataObject ExtensionData" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.NotificationHubs.NotificationDetails.ExtensionData" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExtensionData As ExtensionDataObject" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Serialization.ExtensionDataObject</ReturnType>
@@ -175,10 +182,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.NotificationHubs.NotificationOutcomeCollection GcmOutcomeCounts { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.NotificationHubs.NotificationOutcomeCollection GcmOutcomeCounts" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.NotificationHubs.NotificationDetails.GcmOutcomeCounts" />
+      <MemberSignature Language="VB.NET" Value="Public Property GcmOutcomeCounts As NotificationOutcomeCollection" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -202,10 +210,11 @@
       <MemberSignature Language="C#" Value="public Uri Location { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Uri Location" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.NotificationHubs.NotificationDetails.Location" />
+      <MemberSignature Language="VB.NET" Value="Public Property Location As Uri" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -229,10 +238,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.NotificationHubs.NotificationOutcomeCollection MpnsOutcomeCounts { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.NotificationHubs.NotificationOutcomeCollection MpnsOutcomeCounts" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.NotificationHubs.NotificationDetails.MpnsOutcomeCounts" />
+      <MemberSignature Language="VB.NET" Value="Public Property MpnsOutcomeCounts As NotificationOutcomeCollection" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -256,10 +266,11 @@
       <MemberSignature Language="C#" Value="public string NotificationBody { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string NotificationBody" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.NotificationHubs.NotificationDetails.NotificationBody" />
+      <MemberSignature Language="VB.NET" Value="Public Property NotificationBody As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -283,10 +294,11 @@
       <MemberSignature Language="C#" Value="public string NotificationId { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string NotificationId" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.NotificationHubs.NotificationDetails.NotificationId" />
+      <MemberSignature Language="VB.NET" Value="Public Property NotificationId As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -310,10 +322,11 @@
       <MemberSignature Language="C#" Value="public string PnsErrorDetailsUri { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string PnsErrorDetailsUri" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.NotificationHubs.NotificationDetails.PnsErrorDetailsUri" />
+      <MemberSignature Language="VB.NET" Value="Public Property PnsErrorDetailsUri As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -337,10 +350,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; StartTime { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; StartTime" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.NotificationHubs.NotificationDetails.StartTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property StartTime As Nullable(Of DateTime)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -364,10 +378,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.NotificationHubs.NotificationOutcomeState State { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Azure.NotificationHubs.NotificationOutcomeState State" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.NotificationHubs.NotificationDetails.State" />
+      <MemberSignature Language="VB.NET" Value="Public Property State As NotificationOutcomeState" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.NotificationHubs.NotificationOutcomeState</ReturnType>
@@ -386,10 +401,11 @@
       <MemberSignature Language="C#" Value="public string Tags { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Tags" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.NotificationHubs.NotificationDetails.Tags" />
+      <MemberSignature Language="VB.NET" Value="Public Property Tags As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -413,10 +429,11 @@
       <MemberSignature Language="C#" Value="public string TargetPlatforms { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string TargetPlatforms" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.NotificationHubs.NotificationDetails.TargetPlatforms" />
+      <MemberSignature Language="VB.NET" Value="Public Property TargetPlatforms As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -440,10 +457,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.NotificationHubs.NotificationOutcomeCollection WnsOutcomeCounts { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.NotificationHubs.NotificationOutcomeCollection WnsOutcomeCounts" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.NotificationHubs.NotificationDetails.WnsOutcomeCounts" />
+      <MemberSignature Language="VB.NET" Value="Public Property WnsOutcomeCounts As NotificationOutcomeCollection" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>

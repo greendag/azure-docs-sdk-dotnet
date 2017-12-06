@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public abstract class ActivityWindowsListParameters" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit ActivityWindowsListParameters extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.DataFactories.Models.ActivityWindowsListParameters" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class ActivityWindowsListParameters" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -21,10 +22,11 @@
       <MemberSignature Language="C#" Value="public ActivityWindowsListParameters ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataFactories.Models.ActivityWindowsListParameters.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -39,10 +41,11 @@
       <MemberSignature Language="C#" Value="public ActivityWindowsListParameters (string resourceGroupName, string dataFactoryName);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string resourceGroupName, string dataFactoryName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataFactories.Models.ActivityWindowsListParameters.#ctor(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (resourceGroupName As String, dataFactoryName As String)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="resourceGroupName" Type="System.String" />
@@ -62,10 +65,11 @@
       <MemberSignature Language="C#" Value="public string DataFactoryName { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string DataFactoryName" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactories.Models.ActivityWindowsListParameters.DataFactoryName" />
+      <MemberSignature Language="VB.NET" Value="Public Property DataFactoryName As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -82,10 +86,11 @@
       <MemberSignature Language="C#" Value="public string Filter { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Filter" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactories.Models.ActivityWindowsListParameters.Filter" />
+      <MemberSignature Language="VB.NET" Value="Public Property Filter As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -100,10 +105,11 @@
       <MemberSignature Language="C#" Value="public string OrderBy { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string OrderBy" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactories.Models.ActivityWindowsListParameters.OrderBy" />
+      <MemberSignature Language="VB.NET" Value="Public Property OrderBy As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -121,10 +127,11 @@
       <MemberSignature Language="C#" Value="public string ResourceGroupName { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string ResourceGroupName" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactories.Models.ActivityWindowsListParameters.ResourceGroupName" />
+      <MemberSignature Language="VB.NET" Value="Public Property ResourceGroupName As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -141,10 +148,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; RunEnd { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; RunEnd" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactories.Models.ActivityWindowsListParameters.RunEnd" />
+      <MemberSignature Language="VB.NET" Value="Public Property RunEnd As Nullable(Of DateTime)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
@@ -161,10 +169,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; RunStart { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; RunStart" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactories.Models.ActivityWindowsListParameters.RunStart" />
+      <MemberSignature Language="VB.NET" Value="Public Property RunStart As Nullable(Of DateTime)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
@@ -181,10 +190,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; Top { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; Top" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactories.Models.ActivityWindowsListParameters.Top" />
+      <MemberSignature Language="VB.NET" Value="Public Property Top As Nullable(Of Integer)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
@@ -201,10 +211,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; WindowEnd { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; WindowEnd" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactories.Models.ActivityWindowsListParameters.WindowEnd" />
+      <MemberSignature Language="VB.NET" Value="Public Property WindowEnd As Nullable(Of DateTime)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
@@ -221,10 +232,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; WindowStart { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; WindowStart" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactories.Models.ActivityWindowsListParameters.WindowStart" />
+      <MemberSignature Language="VB.NET" Value="Public Property WindowStart As Nullable(Of DateTime)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
@@ -241,10 +253,11 @@
       <MemberSignature Language="C#" Value="public string WindowState { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string WindowState" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactories.Models.ActivityWindowsListParameters.WindowState" />
+      <MemberSignature Language="VB.NET" Value="Public Property WindowState As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -259,10 +272,11 @@
       <MemberSignature Language="C#" Value="public string WindowSubstate { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string WindowSubstate" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactories.Models.ActivityWindowsListParameters.WindowSubstate" />
+      <MemberSignature Language="VB.NET" Value="Public Property WindowSubstate As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

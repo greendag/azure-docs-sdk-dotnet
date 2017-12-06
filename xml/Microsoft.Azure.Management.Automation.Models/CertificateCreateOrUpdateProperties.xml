@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public class CertificateCreateOrUpdateProperties" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CertificateCreateOrUpdateProperties extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Automation.Models.CertificateCreateOrUpdateProperties" />
+  <TypeSignature Language="VB.NET" Value="Public Class CertificateCreateOrUpdateProperties" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -19,10 +20,11 @@
       <MemberSignature Language="C#" Value="public CertificateCreateOrUpdateProperties ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Automation.Models.CertificateCreateOrUpdateProperties.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -34,10 +36,11 @@
       <MemberSignature Language="C#" Value="public CertificateCreateOrUpdateProperties (string base64Value);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string base64Value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Automation.Models.CertificateCreateOrUpdateProperties.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (base64Value As String)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="base64Value" Type="System.String" />
@@ -52,10 +55,11 @@
       <MemberSignature Language="C#" Value="public string Base64Value { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Base64Value" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Automation.Models.CertificateCreateOrUpdateProperties.Base64Value" />
+      <MemberSignature Language="VB.NET" Value="Public Property Base64Value As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -70,10 +74,11 @@
       <MemberSignature Language="C#" Value="public string Description { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Description" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Automation.Models.CertificateCreateOrUpdateProperties.Description" />
+      <MemberSignature Language="VB.NET" Value="Public Property Description As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -88,10 +93,11 @@
       <MemberSignature Language="C#" Value="public bool IsExportable { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool IsExportable" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Automation.Models.CertificateCreateOrUpdateProperties.IsExportable" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsExportable As Boolean" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -106,10 +112,11 @@
       <MemberSignature Language="C#" Value="public string Thumbprint { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Thumbprint" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Automation.Models.CertificateCreateOrUpdateProperties.Thumbprint" />
+      <MemberSignature Language="VB.NET" Value="Public Property Thumbprint As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

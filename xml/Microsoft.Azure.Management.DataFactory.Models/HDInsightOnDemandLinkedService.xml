@@ -2,9 +2,10 @@
   <TypeSignature Language="C#" Value="public class HDInsightOnDemandLinkedService : Microsoft.Azure.Management.DataFactory.Models.LinkedService" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit HDInsightOnDemandLinkedService extends Microsoft.Azure.Management.DataFactory.Models.LinkedService" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.DataFactory.Models.HDInsightOnDemandLinkedService" />
+  <TypeSignature Language="VB.NET" Value="Public Class HDInsightOnDemandLinkedService&#xA;Inherits LinkedService" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+    <AssemblyVersion>0.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Microsoft.Azure.Management.DataFactory.Models.LinkedService</BaseTypeName>
@@ -29,10 +30,11 @@
       <MemberSignature Language="C#" Value="public HDInsightOnDemandLinkedService ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataFactory.Models.HDInsightOnDemandLinkedService.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -47,10 +49,11 @@
       <MemberSignature Language="C#" Value="public HDInsightOnDemandLinkedService (object clusterSize, object timeToLive, object version, Microsoft.Azure.Management.DataFactory.Models.LinkedServiceReference linkedServiceName, object hostSubscriptionId, object tenant, object clusterResourceGroup, Microsoft.Azure.Management.DataFactory.Models.IntegrationRuntimeReference connectVia = null, string description = null, object servicePrincipalId = null, Microsoft.Azure.Management.DataFactory.Models.SecureString servicePrincipalKey = null, object clusterNamePrefix = null, object clusterUserName = null, Microsoft.Azure.Management.DataFactory.Models.SecureString clusterPassword = null, object clusterSshUserName = null, Microsoft.Azure.Management.DataFactory.Models.SecureString clusterSshPassword = null, System.Collections.Generic.IList&lt;Microsoft.Azure.Management.DataFactory.Models.LinkedServiceReference&gt; additionalLinkedServiceNames = null, Microsoft.Azure.Management.DataFactory.Models.LinkedServiceReference hcatalogLinkedServiceName = null, object clusterType = null, object sparkVersion = null, object coreConfiguration = null, object hBaseConfiguration = null, object hdfsConfiguration = null, object hiveConfiguration = null, object mapReduceConfiguration = null, object oozieConfiguration = null, object stormConfiguration = null, object yarnConfiguration = null, object encryptedCredential = null);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(object clusterSize, object timeToLive, object version, class Microsoft.Azure.Management.DataFactory.Models.LinkedServiceReference linkedServiceName, object hostSubscriptionId, object tenant, object clusterResourceGroup, class Microsoft.Azure.Management.DataFactory.Models.IntegrationRuntimeReference connectVia, string description, object servicePrincipalId, class Microsoft.Azure.Management.DataFactory.Models.SecureString servicePrincipalKey, object clusterNamePrefix, object clusterUserName, class Microsoft.Azure.Management.DataFactory.Models.SecureString clusterPassword, object clusterSshUserName, class Microsoft.Azure.Management.DataFactory.Models.SecureString clusterSshPassword, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.DataFactory.Models.LinkedServiceReference&gt; additionalLinkedServiceNames, class Microsoft.Azure.Management.DataFactory.Models.LinkedServiceReference hcatalogLinkedServiceName, object clusterType, object sparkVersion, object coreConfiguration, object hBaseConfiguration, object hdfsConfiguration, object hiveConfiguration, object mapReduceConfiguration, object oozieConfiguration, object stormConfiguration, object yarnConfiguration, object encryptedCredential) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataFactory.Models.HDInsightOnDemandLinkedService.#ctor(System.Object,System.Object,System.Object,Microsoft.Azure.Management.DataFactory.Models.LinkedServiceReference,System.Object,System.Object,System.Object,Microsoft.Azure.Management.DataFactory.Models.IntegrationRuntimeReference,System.String,System.Object,Microsoft.Azure.Management.DataFactory.Models.SecureString,System.Object,System.Object,Microsoft.Azure.Management.DataFactory.Models.SecureString,System.Object,Microsoft.Azure.Management.DataFactory.Models.SecureString,System.Collections.Generic.IList{Microsoft.Azure.Management.DataFactory.Models.LinkedServiceReference},Microsoft.Azure.Management.DataFactory.Models.LinkedServiceReference,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (clusterSize As Object, timeToLive As Object, version As Object, linkedServiceName As LinkedServiceReference, hostSubscriptionId As Object, tenant As Object, clusterResourceGroup As Object, Optional connectVia As IntegrationRuntimeReference = null, Optional description As String = null, Optional servicePrincipalId As Object = null, Optional servicePrincipalKey As SecureString = null, Optional clusterNamePrefix As Object = null, Optional clusterUserName As Object = null, Optional clusterPassword As SecureString = null, Optional clusterSshUserName As Object = null, Optional clusterSshPassword As SecureString = null, Optional additionalLinkedServiceNames As IList(Of LinkedServiceReference) = null, Optional hcatalogLinkedServiceName As LinkedServiceReference = null, Optional clusterType As Object = null, Optional sparkVersion As Object = null, Optional coreConfiguration As Object = null, Optional hBaseConfiguration As Object = null, Optional hdfsConfiguration As Object = null, Optional hiveConfiguration As Object = null, Optional mapReduceConfiguration As Object = null, Optional oozieConfiguration As Object = null, Optional stormConfiguration As Object = null, Optional yarnConfiguration As Object = null, Optional encryptedCredential As Object = null)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="clusterSize" Type="System.Object" />
@@ -170,10 +173,11 @@
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.Management.DataFactory.Models.LinkedServiceReference&gt; AdditionalLinkedServiceNames { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.DataFactory.Models.LinkedServiceReference&gt; AdditionalLinkedServiceNames" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactory.Models.HDInsightOnDemandLinkedService.AdditionalLinkedServiceNames" />
+      <MemberSignature Language="VB.NET" Value="Public Property AdditionalLinkedServiceNames As IList(Of LinkedServiceReference)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -197,10 +201,11 @@
       <MemberSignature Language="C#" Value="public object ClusterNamePrefix { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object ClusterNamePrefix" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactory.Models.HDInsightOnDemandLinkedService.ClusterNamePrefix" />
+      <MemberSignature Language="VB.NET" Value="Public Property ClusterNamePrefix As Object" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -224,10 +229,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.DataFactory.Models.SecureString ClusterPassword { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.DataFactory.Models.SecureString ClusterPassword" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactory.Models.HDInsightOnDemandLinkedService.ClusterPassword" />
+      <MemberSignature Language="VB.NET" Value="Public Property ClusterPassword As SecureString" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -249,10 +255,11 @@
       <MemberSignature Language="C#" Value="public object ClusterResourceGroup { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object ClusterResourceGroup" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactory.Models.HDInsightOnDemandLinkedService.ClusterResourceGroup" />
+      <MemberSignature Language="VB.NET" Value="Public Property ClusterResourceGroup As Object" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -275,10 +282,11 @@
       <MemberSignature Language="C#" Value="public object ClusterSize { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object ClusterSize" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactory.Models.HDInsightOnDemandLinkedService.ClusterSize" />
+      <MemberSignature Language="VB.NET" Value="Public Property ClusterSize As Object" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -301,10 +309,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.DataFactory.Models.SecureString ClusterSshPassword { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.DataFactory.Models.SecureString ClusterSshPassword" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactory.Models.HDInsightOnDemandLinkedService.ClusterSshPassword" />
+      <MemberSignature Language="VB.NET" Value="Public Property ClusterSshPassword As SecureString" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -327,10 +336,11 @@
       <MemberSignature Language="C#" Value="public object ClusterSshUserName { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object ClusterSshUserName" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactory.Models.HDInsightOnDemandLinkedService.ClusterSshUserName" />
+      <MemberSignature Language="VB.NET" Value="Public Property ClusterSshUserName As Object" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -353,10 +363,11 @@
       <MemberSignature Language="C#" Value="public object ClusterType { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object ClusterType" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactory.Models.HDInsightOnDemandLinkedService.ClusterType" />
+      <MemberSignature Language="VB.NET" Value="Public Property ClusterType As Object" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -379,10 +390,11 @@
       <MemberSignature Language="C#" Value="public object ClusterUserName { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object ClusterUserName" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactory.Models.HDInsightOnDemandLinkedService.ClusterUserName" />
+      <MemberSignature Language="VB.NET" Value="Public Property ClusterUserName As Object" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -405,10 +417,11 @@
       <MemberSignature Language="C#" Value="public object CoreConfiguration { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object CoreConfiguration" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactory.Models.HDInsightOnDemandLinkedService.CoreConfiguration" />
+      <MemberSignature Language="VB.NET" Value="Public Property CoreConfiguration As Object" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -431,10 +444,11 @@
       <MemberSignature Language="C#" Value="public object EncryptedCredential { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object EncryptedCredential" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactory.Models.HDInsightOnDemandLinkedService.EncryptedCredential" />
+      <MemberSignature Language="VB.NET" Value="Public Property EncryptedCredential As Object" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -458,10 +472,11 @@
       <MemberSignature Language="C#" Value="public object HBaseConfiguration { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object HBaseConfiguration" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactory.Models.HDInsightOnDemandLinkedService.HBaseConfiguration" />
+      <MemberSignature Language="VB.NET" Value="Public Property HBaseConfiguration As Object" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -484,10 +499,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.DataFactory.Models.LinkedServiceReference HcatalogLinkedServiceName { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.DataFactory.Models.LinkedServiceReference HcatalogLinkedServiceName" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactory.Models.HDInsightOnDemandLinkedService.HcatalogLinkedServiceName" />
+      <MemberSignature Language="VB.NET" Value="Public Property HcatalogLinkedServiceName As LinkedServiceReference" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -511,10 +527,11 @@
       <MemberSignature Language="C#" Value="public object HdfsConfiguration { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object HdfsConfiguration" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactory.Models.HDInsightOnDemandLinkedService.HdfsConfiguration" />
+      <MemberSignature Language="VB.NET" Value="Public Property HdfsConfiguration As Object" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -537,10 +554,11 @@
       <MemberSignature Language="C#" Value="public object HiveConfiguration { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object HiveConfiguration" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactory.Models.HDInsightOnDemandLinkedService.HiveConfiguration" />
+      <MemberSignature Language="VB.NET" Value="Public Property HiveConfiguration As Object" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -563,10 +581,11 @@
       <MemberSignature Language="C#" Value="public object HostSubscriptionId { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object HostSubscriptionId" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactory.Models.HDInsightOnDemandLinkedService.HostSubscriptionId" />
+      <MemberSignature Language="VB.NET" Value="Public Property HostSubscriptionId As Object" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -589,10 +608,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.DataFactory.Models.LinkedServiceReference LinkedServiceName { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.DataFactory.Models.LinkedServiceReference LinkedServiceName" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactory.Models.HDInsightOnDemandLinkedService.LinkedServiceName" />
+      <MemberSignature Language="VB.NET" Value="Public Property LinkedServiceName As LinkedServiceReference" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -615,10 +635,11 @@
       <MemberSignature Language="C#" Value="public object MapReduceConfiguration { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object MapReduceConfiguration" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactory.Models.HDInsightOnDemandLinkedService.MapReduceConfiguration" />
+      <MemberSignature Language="VB.NET" Value="Public Property MapReduceConfiguration As Object" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -641,10 +662,11 @@
       <MemberSignature Language="C#" Value="public object OozieConfiguration { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object OozieConfiguration" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactory.Models.HDInsightOnDemandLinkedService.OozieConfiguration" />
+      <MemberSignature Language="VB.NET" Value="Public Property OozieConfiguration As Object" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -667,10 +689,11 @@
       <MemberSignature Language="C#" Value="public object ServicePrincipalId { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object ServicePrincipalId" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactory.Models.HDInsightOnDemandLinkedService.ServicePrincipalId" />
+      <MemberSignature Language="VB.NET" Value="Public Property ServicePrincipalId As Object" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -693,10 +716,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.DataFactory.Models.SecureString ServicePrincipalKey { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.DataFactory.Models.SecureString ServicePrincipalKey" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactory.Models.HDInsightOnDemandLinkedService.ServicePrincipalKey" />
+      <MemberSignature Language="VB.NET" Value="Public Property ServicePrincipalKey As SecureString" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -718,10 +742,11 @@
       <MemberSignature Language="C#" Value="public object SparkVersion { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object SparkVersion" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactory.Models.HDInsightOnDemandLinkedService.SparkVersion" />
+      <MemberSignature Language="VB.NET" Value="Public Property SparkVersion As Object" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -744,10 +769,11 @@
       <MemberSignature Language="C#" Value="public object StormConfiguration { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object StormConfiguration" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactory.Models.HDInsightOnDemandLinkedService.StormConfiguration" />
+      <MemberSignature Language="VB.NET" Value="Public Property StormConfiguration As Object" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -770,10 +796,11 @@
       <MemberSignature Language="C#" Value="public object Tenant { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object Tenant" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactory.Models.HDInsightOnDemandLinkedService.Tenant" />
+      <MemberSignature Language="VB.NET" Value="Public Property Tenant As Object" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -796,10 +823,11 @@
       <MemberSignature Language="C#" Value="public object TimeToLive { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object TimeToLive" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactory.Models.HDInsightOnDemandLinkedService.TimeToLive" />
+      <MemberSignature Language="VB.NET" Value="Public Property TimeToLive As Object" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -825,10 +853,11 @@
       <MemberSignature Language="C#" Value="public override void Validate ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void Validate() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataFactory.Models.HDInsightOnDemandLinkedService.Validate" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub Validate ()" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -848,10 +877,11 @@
       <MemberSignature Language="C#" Value="public object Version { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object Version" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactory.Models.HDInsightOnDemandLinkedService.Version" />
+      <MemberSignature Language="VB.NET" Value="Public Property Version As Object" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -874,10 +904,11 @@
       <MemberSignature Language="C#" Value="public object YarnConfiguration { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object YarnConfiguration" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactory.Models.HDInsightOnDemandLinkedService.YarnConfiguration" />
+      <MemberSignature Language="VB.NET" Value="Public Property YarnConfiguration As Object" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>

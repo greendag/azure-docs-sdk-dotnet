@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public sealed class NetMessagingBindingExtensionElement : System.ServiceModel.Configuration.StandardBindingElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit NetMessagingBindingExtensionElement extends System.ServiceModel.Configuration.StandardBindingElement" />
   <TypeSignature Language="DocId" Value="T:Microsoft.ServiceBus.Messaging.Configuration.NetMessagingBindingExtensionElement" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class NetMessagingBindingExtensionElement&#xA;Inherits StandardBindingElement" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.ServiceBus</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>
@@ -26,10 +27,11 @@
       <MemberSignature Language="C#" Value="public NetMessagingBindingExtensionElement ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.Configuration.NetMessagingBindingExtensionElement.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -42,10 +44,11 @@
       <MemberSignature Language="C#" Value="public NetMessagingBindingExtensionElement (string name);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.Configuration.NetMessagingBindingExtensionElement.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (name As String)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="name" Type="System.String" />
@@ -61,10 +64,11 @@
       <MemberSignature Language="C#" Value="protected override Type BindingElementType { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Type BindingElementType" />
       <MemberSignature Language="DocId" Value="P:Microsoft.ServiceBus.Messaging.Configuration.NetMessagingBindingExtensionElement.BindingElementType" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides ReadOnly Property BindingElementType As Type" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Type</ReturnType>
@@ -83,8 +87,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.Configuration.NetMessagingBindingExtensionElement.InitializeFrom(System.ServiceModel.Channels.Binding)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -111,8 +115,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.Configuration.NetMessagingBindingExtensionElement.OnApplyConfiguration(System.ServiceModel.Channels.Binding)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -131,10 +135,11 @@
       <MemberSignature Language="C#" Value="public int PrefetchCount { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 PrefetchCount" />
       <MemberSignature Language="DocId" Value="P:Microsoft.ServiceBus.Messaging.Configuration.NetMessagingBindingExtensionElement.PrefetchCount" />
+      <MemberSignature Language="VB.NET" Value="Public Property PrefetchCount As Integer" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -154,10 +159,11 @@
       <MemberSignature Language="C#" Value="protected override System.Configuration.ConfigurationPropertyCollection Properties { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Configuration.ConfigurationPropertyCollection Properties" />
       <MemberSignature Language="DocId" Value="P:Microsoft.ServiceBus.Messaging.Configuration.NetMessagingBindingExtensionElement.Properties" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides ReadOnly Property Properties As ConfigurationPropertyCollection" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Configuration.ConfigurationPropertyCollection</ReturnType>
@@ -171,37 +177,18 @@
             that contains a collection of <see cref="T:System.Configuration.ConfigurationProperty" />
             objects that can be attributes or <see cref="T:System.Configuration.ConfigurationElement" />
             objects of this configuration element. </value>
-        <value> The properties. </value>
         <value> A <see cref="T:System.Configuration.ConfigurationPropertyCollection" /> instance
             that contains a collection of <see cref="T:System.Configuration.ConfigurationProperty" />
             objects that can be attributes or <see cref="T:System.Configuration.ConfigurationElement" />
             objects of this configuration element. </value>
-        <value> The properties. </value>
         <value> A <see cref="T:System.Configuration.ConfigurationPropertyCollection" /> instance
             that contains a collection of <see cref="T:System.Configuration.ConfigurationProperty" />
             objects that can be attributes or <see cref="T:System.Configuration.ConfigurationElement" />
             objects of this configuration element. </value>
-        <value> The properties. </value>
         <value> A <see cref="T:System.Configuration.ConfigurationPropertyCollection" /> instance
             that contains a collection of <see cref="T:System.Configuration.ConfigurationProperty" />
             objects that can be attributes or <see cref="T:System.Configuration.ConfigurationElement" />
             objects of this configuration element. </value>
-        <value> The properties. </value>
-        <value> A <see cref="T:System.Configuration.ConfigurationPropertyCollection" /> instance
-            that contains a collection of <see cref="T:System.Configuration.ConfigurationProperty" />
-            objects that can be attributes or <see cref="T:System.Configuration.ConfigurationElement" />
-            objects of this configuration element. </value>
-        <value> The properties. </value>
-        <value> A <see cref="T:System.Configuration.ConfigurationPropertyCollection" /> instance
-            that contains a collection of <see cref="T:System.Configuration.ConfigurationProperty" />
-            objects that can be attributes or <see cref="T:System.Configuration.ConfigurationElement" />
-            objects of this configuration element. </value>
-        <value> The properties. </value>
-        <value> A <see cref="T:System.Configuration.ConfigurationPropertyCollection" /> instance
-            that contains a collection of <see cref="T:System.Configuration.ConfigurationProperty" />
-            objects that can be attributes or <see cref="T:System.Configuration.ConfigurationElement" />
-            objects of this configuration element. </value>
-        <value> The properties. </value>
         <value> A <see cref="T:System.Configuration.ConfigurationPropertyCollection" /> instance
             that contains a collection of <see cref="T:System.Configuration.ConfigurationProperty" />
             objects that can be attributes or <see cref="T:System.Configuration.ConfigurationElement" />
@@ -213,10 +200,11 @@
       <MemberSignature Language="C#" Value="public TimeSpan SessionIdleTimeout { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.TimeSpan SessionIdleTimeout" />
       <MemberSignature Language="DocId" Value="P:Microsoft.ServiceBus.Messaging.Configuration.NetMessagingBindingExtensionElement.SessionIdleTimeout" />
+      <MemberSignature Language="VB.NET" Value="Public Property SessionIdleTimeout As TimeSpan" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -240,10 +228,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.ServiceBus.Messaging.Configuration.NetMessagingTransportSettingsElement TransportSettings { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.ServiceBus.Messaging.Configuration.NetMessagingTransportSettingsElement TransportSettings" />
       <MemberSignature Language="DocId" Value="P:Microsoft.ServiceBus.Messaging.Configuration.NetMessagingBindingExtensionElement.TransportSettings" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TransportSettings As NetMessagingTransportSettingsElement" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>

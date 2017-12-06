@@ -2,19 +2,17 @@
   <TypeSignature Language="C#" Value="public class RoleAssignmentPropertiesWithScope" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit RoleAssignmentPropertiesWithScope extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Authorization.Models.RoleAssignmentPropertiesWithScope" />
+  <TypeSignature Language="VB.NET" Value="Public Class RoleAssignmentPropertiesWithScope" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Authorization</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
-    <BaseTypeName>Microsoft.Azure.Management.Authorization.Models.RoleAssignmentProperties</BaseTypeName>
-    <BaseTypeName FrameworkAlternate="azuremgmtauthorization-2.5.0-preview">System.Object</BaseTypeName>
+    <BaseTypeName>System.Object</BaseTypeName>
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-            Role assignment properties with scope.
-            </summary>
+    <summary>To be added.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -22,6 +20,7 @@
       <MemberSignature Language="C#" Value="public RoleAssignmentPropertiesWithScope ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Authorization.Models.RoleAssignmentPropertiesWithScope.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Authorization</AssemblyName>
@@ -29,10 +28,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>
-            Initializes a new instance of the RoleAssignmentPropertiesWithScope
-            class.
-            </summary>
+        <summary>To be added.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -40,6 +36,7 @@
       <MemberSignature Language="C#" Value="public RoleAssignmentPropertiesWithScope (string scope = null, string roleDefinitionId = null, string principalId = null);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string scope, string roleDefinitionId, string principalId) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Authorization.Models.RoleAssignmentPropertiesWithScope.#ctor(System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (Optional scope As String = null, Optional roleDefinitionId As String = null, Optional principalId As String = null)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Authorization</AssemblyName>
@@ -62,6 +59,7 @@
       <MemberSignature Language="C#" Value="public string PrincipalId { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string PrincipalId" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Authorization.Models.RoleAssignmentPropertiesWithScope.PrincipalId" />
+      <MemberSignature Language="VB.NET" Value="Public Property PrincipalId As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Authorization</AssemblyName>
@@ -85,6 +83,7 @@
       <MemberSignature Language="C#" Value="public string RoleDefinitionId { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string RoleDefinitionId" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Authorization.Models.RoleAssignmentPropertiesWithScope.RoleDefinitionId" />
+      <MemberSignature Language="VB.NET" Value="Public Property RoleDefinitionId As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Authorization</AssemblyName>
@@ -108,6 +107,7 @@
       <MemberSignature Language="C#" Value="public string Scope { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Scope" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Authorization.Models.RoleAssignmentPropertiesWithScope.Scope" />
+      <MemberSignature Language="VB.NET" Value="Public Property Scope As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Authorization</AssemblyName>
@@ -122,9 +122,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-            Optional. Gets or sets role assignment scope.
-            </summary>
+        <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

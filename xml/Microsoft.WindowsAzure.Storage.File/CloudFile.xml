@@ -2,10 +2,9 @@
   <TypeSignature Language="C#" Value="public class CloudFile : Microsoft.WindowsAzure.Storage.File.IListFileItem" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CloudFile extends System.Object implements class Microsoft.WindowsAzure.Storage.File.IListFileItem" />
   <TypeSignature Language="DocId" Value="T:Microsoft.WindowsAzure.Storage.File.CloudFile" />
+  <TypeSignature Language="VB.NET" Value="Public Class CloudFile&#xA;Implements IListFileItem" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-    <AssemblyVersion>8.1.1.0</AssemblyVersion>
-    <AssemblyVersion>8.1.3.0</AssemblyVersion>
     <AssemblyVersion>8.4.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
@@ -18,10 +17,28 @@
   </Interfaces>
   <Docs>
     <summary>
+            Represents a file in the Microsoft Azure File service.
+            </summary>
+    <summary>
             Represents a Microsoft Azure File.
             </summary>
     <summary>
             Represents a file in the Microsoft Azure File service.
+            </summary>
+    <summary>
+            Represents a Microsoft Azure File.
+            </summary>
+    <summary>
+            Represents a file in the Microsoft Azure File service.
+            </summary>
+    <summary>
+            Represents a Microsoft Azure File.
+            </summary>
+    <summary>
+            Represents a file in the Microsoft Azure File service.
+            </summary>
+    <summary>
+            Represents a Microsoft Azure File.
             </summary>
     <remarks>To be added.</remarks>
   </Docs>
@@ -30,11 +47,10 @@
       <MemberSignature Language="C#" Value="public CloudFile (Uri fileAbsoluteUri);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Uri fileAbsoluteUri) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.#ctor(System.Uri)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (fileAbsoluteUri As Uri)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -52,11 +68,10 @@
       <MemberSignature Language="C#" Value="public CloudFile (Microsoft.WindowsAzure.Storage.StorageUri fileAbsoluteUri, Microsoft.WindowsAzure.Storage.Auth.StorageCredentials credentials);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.WindowsAzure.Storage.StorageUri fileAbsoluteUri, class Microsoft.WindowsAzure.Storage.Auth.StorageCredentials credentials) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.#ctor(Microsoft.WindowsAzure.Storage.StorageUri,Microsoft.WindowsAzure.Storage.Auth.StorageCredentials)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (fileAbsoluteUri As StorageUri, credentials As StorageCredentials)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -76,11 +91,10 @@
       <MemberSignature Language="C#" Value="public CloudFile (Uri fileAbsoluteUri, Microsoft.WindowsAzure.Storage.Auth.StorageCredentials credentials);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Uri fileAbsoluteUri, class Microsoft.WindowsAzure.Storage.Auth.StorageCredentials credentials) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.#ctor(System.Uri,Microsoft.WindowsAzure.Storage.Auth.StorageCredentials)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (fileAbsoluteUri As Uri, credentials As StorageCredentials)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -103,8 +117,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -136,11 +148,10 @@
       <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task AbortCopyAsync (string copyId);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task AbortCopyAsync(string copyId) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.AbortCopyAsync(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function AbortCopyAsync (copyId As String) As Task" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -170,8 +181,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -203,8 +212,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -240,8 +247,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -276,11 +281,10 @@
       <MemberSignature Language="C#" Value="public virtual Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginAbortCopy (string copyId, AsyncCallback callback, object state);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginAbortCopy(string copyId, class System.AsyncCallback callback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.BeginAbortCopy(System.String,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function BeginAbortCopy (copyId As String, callback As AsyncCallback, state As Object) As ICancellableAsyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -314,8 +318,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -352,11 +354,10 @@
       <MemberSignature Language="C#" Value="public virtual Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginClearRange (long startOffset, long length, AsyncCallback callback, object state);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginClearRange(int64 startOffset, int64 length, class System.AsyncCallback callback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.BeginClearRange(System.Int64,System.Int64,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function BeginClearRange (startOffset As Long, length As Long, callback As AsyncCallback, state As Object) As ICancellableAsyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -392,8 +393,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -432,11 +431,10 @@
       <MemberSignature Language="C#" Value="public virtual Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginCreate (long size, AsyncCallback callback, object state);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginCreate(int64 size, class System.AsyncCallback callback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.BeginCreate(System.Int64,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function BeginCreate (size As Long, callback As AsyncCallback, state As Object) As ICancellableAsyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -470,8 +468,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -508,11 +504,10 @@
       <MemberSignature Language="C#" Value="public virtual Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginDelete (AsyncCallback callback, object state);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginDelete(class System.AsyncCallback callback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.BeginDelete(System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function BeginDelete (callback As AsyncCallback, state As Object) As ICancellableAsyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -544,8 +539,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -580,11 +573,10 @@
       <MemberSignature Language="C#" Value="public virtual Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginDeleteIfExists (AsyncCallback callback, object state);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginDeleteIfExists(class System.AsyncCallback callback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.BeginDeleteIfExists(System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function BeginDeleteIfExists (callback As AsyncCallback, state As Object) As ICancellableAsyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -616,8 +608,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -652,11 +642,10 @@
       <MemberSignature Language="C#" Value="public virtual Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginDownloadRangeToByteArray (byte[] target, int index, Nullable&lt;long&gt; fileOffset, Nullable&lt;long&gt; length, AsyncCallback callback, object state);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginDownloadRangeToByteArray(unsigned int8[] target, int32 index, valuetype System.Nullable`1&lt;int64&gt; fileOffset, valuetype System.Nullable`1&lt;int64&gt; length, class System.AsyncCallback callback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.BeginDownloadRangeToByteArray(System.Byte[],System.Int32,System.Nullable{System.Int64},System.Nullable{System.Int64},System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function BeginDownloadRangeToByteArray (target As Byte(), index As Integer, fileOffset As Nullable(Of Long), length As Nullable(Of Long), callback As AsyncCallback, state As Object) As ICancellableAsyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -696,8 +685,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -740,11 +727,10 @@
       <MemberSignature Language="C#" Value="public virtual Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginDownloadRangeToStream (System.IO.Stream target, Nullable&lt;long&gt; offset, Nullable&lt;long&gt; length, AsyncCallback callback, object state);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginDownloadRangeToStream(class System.IO.Stream target, valuetype System.Nullable`1&lt;int64&gt; offset, valuetype System.Nullable`1&lt;int64&gt; length, class System.AsyncCallback callback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.BeginDownloadRangeToStream(System.IO.Stream,System.Nullable{System.Int64},System.Nullable{System.Int64},System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function BeginDownloadRangeToStream (target As Stream, offset As Nullable(Of Long), length As Nullable(Of Long), callback As AsyncCallback, state As Object) As ICancellableAsyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -782,8 +768,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -824,11 +808,10 @@
       <MemberSignature Language="C#" Value="public virtual Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginDownloadText (AsyncCallback callback, object state);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginDownloadText(class System.AsyncCallback callback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.BeginDownloadText(System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function BeginDownloadText (callback As AsyncCallback, state As Object) As ICancellableAsyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -860,8 +843,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -898,11 +879,10 @@
       <MemberSignature Language="C#" Value="public virtual Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginDownloadToByteArray (byte[] target, int index, AsyncCallback callback, object state);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginDownloadToByteArray(unsigned int8[] target, int32 index, class System.AsyncCallback callback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.BeginDownloadToByteArray(System.Byte[],System.Int32,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function BeginDownloadToByteArray (target As Byte(), index As Integer, callback As AsyncCallback, state As Object) As ICancellableAsyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -938,8 +918,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -978,11 +956,10 @@
       <MemberSignature Language="C#" Value="public virtual Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginDownloadToFile (string path, System.IO.FileMode mode, AsyncCallback callback, object state);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginDownloadToFile(string path, valuetype System.IO.FileMode mode, class System.AsyncCallback callback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.BeginDownloadToFile(System.String,System.IO.FileMode,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function BeginDownloadToFile (path As String, mode As FileMode, callback As AsyncCallback, state As Object) As ICancellableAsyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1018,8 +995,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1058,11 +1033,10 @@
       <MemberSignature Language="C#" Value="public virtual Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginDownloadToStream (System.IO.Stream target, AsyncCallback callback, object state);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginDownloadToStream(class System.IO.Stream target, class System.AsyncCallback callback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.BeginDownloadToStream(System.IO.Stream,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function BeginDownloadToStream (target As Stream, callback As AsyncCallback, state As Object) As ICancellableAsyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1096,8 +1070,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1134,11 +1106,10 @@
       <MemberSignature Language="C#" Value="public virtual Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginExists (AsyncCallback callback, object state);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginExists(class System.AsyncCallback callback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.BeginExists(System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function BeginExists (callback As AsyncCallback, state As Object) As ICancellableAsyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1170,8 +1141,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1204,11 +1173,10 @@
       <MemberSignature Language="C#" Value="public virtual Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginFetchAttributes (AsyncCallback callback, object state);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginFetchAttributes(class System.AsyncCallback callback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.BeginFetchAttributes(System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function BeginFetchAttributes (callback As AsyncCallback, state As Object) As ICancellableAsyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1240,8 +1208,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1276,11 +1242,10 @@
       <MemberSignature Language="C#" Value="public virtual Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginListRanges (AsyncCallback callback, object state);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginListRanges(class System.AsyncCallback callback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.BeginListRanges(System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function BeginListRanges (callback As AsyncCallback, state As Object) As ICancellableAsyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1312,8 +1277,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1352,11 +1315,10 @@
       <MemberSignature Language="C#" Value="public virtual Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginOpenRead (AsyncCallback callback, object state);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginOpenRead(class System.AsyncCallback callback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.BeginOpenRead(System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function BeginOpenRead (callback As AsyncCallback, state As Object) As ICancellableAsyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1388,8 +1350,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1424,11 +1384,10 @@
       <MemberSignature Language="C#" Value="public virtual Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginOpenWrite (Nullable&lt;long&gt; size, AsyncCallback callback, object state);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginOpenWrite(valuetype System.Nullable`1&lt;int64&gt; size, class System.AsyncCallback callback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.BeginOpenWrite(System.Nullable{System.Int64},System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function BeginOpenWrite (size As Nullable(Of Long), callback As AsyncCallback, state As Object) As ICancellableAsyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1462,8 +1421,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1500,11 +1457,10 @@
       <MemberSignature Language="C#" Value="public virtual Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginResize (long size, AsyncCallback callback, object state);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginResize(int64 size, class System.AsyncCallback callback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.BeginResize(System.Int64,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function BeginResize (size As Long, callback As AsyncCallback, state As Object) As ICancellableAsyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1538,8 +1494,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1576,11 +1530,10 @@
       <MemberSignature Language="C#" Value="public virtual Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginSetMetadata (AsyncCallback callback, object state);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginSetMetadata(class System.AsyncCallback callback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.BeginSetMetadata(System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function BeginSetMetadata (callback As AsyncCallback, state As Object) As ICancellableAsyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1612,8 +1565,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1648,11 +1599,10 @@
       <MemberSignature Language="C#" Value="public virtual Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginSetProperties (AsyncCallback callback, object state);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginSetProperties(class System.AsyncCallback callback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.BeginSetProperties(System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function BeginSetProperties (callback As AsyncCallback, state As Object) As ICancellableAsyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1684,8 +1634,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1720,11 +1668,10 @@
       <MemberSignature Language="C#" Value="public virtual Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginStartCopy (Microsoft.WindowsAzure.Storage.Blob.CloudBlob source, AsyncCallback callback, object state);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginStartCopy(class Microsoft.WindowsAzure.Storage.Blob.CloudBlob source, class System.AsyncCallback callback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.BeginStartCopy(Microsoft.WindowsAzure.Storage.Blob.CloudBlob,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function BeginStartCopy (source As CloudBlob, callback As AsyncCallback, state As Object) As ICancellableAsyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1755,11 +1702,10 @@
       <MemberSignature Language="C#" Value="public virtual Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginStartCopy (Microsoft.WindowsAzure.Storage.File.CloudFile source, AsyncCallback callback, object state);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginStartCopy(class Microsoft.WindowsAzure.Storage.File.CloudFile source, class System.AsyncCallback callback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.BeginStartCopy(Microsoft.WindowsAzure.Storage.File.CloudFile,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function BeginStartCopy (source As CloudFile, callback As AsyncCallback, state As Object) As ICancellableAsyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1790,11 +1736,10 @@
       <MemberSignature Language="C#" Value="public virtual Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginStartCopy (Uri source, AsyncCallback callback, object state);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginStartCopy(class System.Uri source, class System.AsyncCallback callback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.BeginStartCopy(System.Uri,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function BeginStartCopy (source As Uri, callback As AsyncCallback, state As Object) As ICancellableAsyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1828,8 +1773,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1871,8 +1814,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1914,8 +1855,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1954,11 +1893,10 @@
       <MemberSignature Language="C#" Value="public virtual Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginUploadFromByteArray (byte[] buffer, int index, int count, AsyncCallback callback, object state);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginUploadFromByteArray(unsigned int8[] buffer, int32 index, int32 count, class System.AsyncCallback callback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.BeginUploadFromByteArray(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function BeginUploadFromByteArray (buffer As Byte(), index As Integer, count As Integer, callback As AsyncCallback, state As Object) As ICancellableAsyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1996,8 +1934,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -2038,11 +1974,10 @@
       <MemberSignature Language="C#" Value="public virtual Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginUploadFromFile (string path, AsyncCallback callback, object state);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginUploadFromFile(string path, class System.AsyncCallback callback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.BeginUploadFromFile(System.String,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function BeginUploadFromFile (path As String, callback As AsyncCallback, state As Object) As ICancellableAsyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -2076,8 +2011,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -2114,11 +2047,10 @@
       <MemberSignature Language="C#" Value="public virtual Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginUploadFromStream (System.IO.Stream source, AsyncCallback callback, object state);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginUploadFromStream(class System.IO.Stream source, class System.AsyncCallback callback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.BeginUploadFromStream(System.IO.Stream,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function BeginUploadFromStream (source As Stream, callback As AsyncCallback, state As Object) As ICancellableAsyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -2149,11 +2081,10 @@
       <MemberSignature Language="C#" Value="public virtual Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginUploadFromStream (System.IO.Stream source, long length, AsyncCallback callback, object state);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginUploadFromStream(class System.IO.Stream source, int64 length, class System.AsyncCallback callback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.BeginUploadFromStream(System.IO.Stream,System.Int64,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function BeginUploadFromStream (source As Stream, length As Long, callback As AsyncCallback, state As Object) As ICancellableAsyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -2189,8 +2120,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -2230,8 +2159,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -2270,11 +2197,10 @@
       <MemberSignature Language="C#" Value="public virtual Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginUploadText (string content, AsyncCallback callback, object state);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginUploadText(string content, class System.AsyncCallback callback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.BeginUploadText(System.String,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function BeginUploadText (content As String, callback As AsyncCallback, state As Object) As ICancellableAsyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -2308,8 +2234,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -2348,11 +2272,10 @@
       <MemberSignature Language="C#" Value="public virtual Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginWriteRange (System.IO.Stream rangeData, long startOffset, string contentMD5, AsyncCallback callback, object state);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.WindowsAzure.Storage.ICancellableAsyncResult BeginWriteRange(class System.IO.Stream rangeData, int64 startOffset, string contentMD5, class System.AsyncCallback callback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.BeginWriteRange(System.IO.Stream,System.Int64,System.String,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function BeginWriteRange (rangeData As Stream, startOffset As Long, contentMD5 As String, callback As AsyncCallback, state As Object) As ICancellableAsyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -2391,8 +2314,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -2437,8 +2358,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -2472,11 +2391,10 @@
       <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task ClearRangeAsync (long startOffset, long length);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task ClearRangeAsync(int64 startOffset, int64 length) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.ClearRangeAsync(System.Int64,System.Int64)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function ClearRangeAsync (startOffset As Long, length As Long) As Task" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -2508,8 +2426,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -2543,8 +2459,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -2582,8 +2496,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -2620,11 +2532,10 @@
       <MemberSignature Language="C#" Value="public Microsoft.WindowsAzure.Storage.Blob.CopyState CopyState { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.WindowsAzure.Storage.Blob.CopyState CopyState" />
       <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Storage.File.CloudFile.CopyState" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CopyState As CopyState" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2645,8 +2556,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -2678,11 +2587,10 @@
       <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task CreateAsync (long size);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task CreateAsync(int64 size) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.CreateAsync(System.Int64)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function CreateAsync (size As Long) As Task" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -2712,8 +2620,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -2745,8 +2651,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -2782,8 +2686,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -2821,8 +2723,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -2852,11 +2752,10 @@
       <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task DeleteAsync ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task DeleteAsync() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.DeleteAsync" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function DeleteAsync () As Task" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -2883,8 +2782,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -2914,8 +2811,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -2949,8 +2844,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -2986,8 +2879,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -3019,11 +2910,10 @@
       <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;bool&gt; DeleteIfExistsAsync ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;bool&gt; DeleteIfExistsAsync() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.DeleteIfExistsAsync" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function DeleteIfExistsAsync () As Task(Of Boolean)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -3050,8 +2940,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -3081,8 +2969,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -3116,8 +3002,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -3153,8 +3037,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -3193,11 +3075,10 @@
       <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;int&gt; DownloadRangeToByteArrayAsync (byte[] target, int index, Nullable&lt;long&gt; fileOffset, Nullable&lt;long&gt; length);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;int32&gt; DownloadRangeToByteArrayAsync(unsigned int8[] target, int32 index, valuetype System.Nullable`1&lt;int64&gt; fileOffset, valuetype System.Nullable`1&lt;int64&gt; length) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.DownloadRangeToByteArrayAsync(System.Byte[],System.Int32,System.Nullable{System.Int64},System.Nullable{System.Int64})" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function DownloadRangeToByteArrayAsync (target As Byte(), index As Integer, fileOffset As Nullable(Of Long), length As Nullable(Of Long)) As Task(Of Integer)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -3233,8 +3114,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -3272,8 +3151,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -3315,8 +3192,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -3360,8 +3235,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -3397,11 +3270,10 @@
       <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task DownloadRangeToStreamAsync (System.IO.Stream target, Nullable&lt;long&gt; offset, Nullable&lt;long&gt; length);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task DownloadRangeToStreamAsync(class System.IO.Stream target, valuetype System.Nullable`1&lt;int64&gt; offset, valuetype System.Nullable`1&lt;int64&gt; length) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.DownloadRangeToStreamAsync(System.IO.Stream,System.Nullable{System.Int64},System.Nullable{System.Int64})" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function DownloadRangeToStreamAsync (target As Stream, offset As Nullable(Of Long), length As Nullable(Of Long)) As Task" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -3435,8 +3307,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -3472,8 +3342,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -3513,8 +3381,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -3556,8 +3422,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -3590,11 +3454,10 @@
       <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;string&gt; DownloadTextAsync ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;string&gt; DownloadTextAsync() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.DownloadTextAsync" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function DownloadTextAsync () As Task(Of String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -3621,8 +3484,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -3652,8 +3513,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -3689,8 +3548,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -3728,8 +3585,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -3764,11 +3619,10 @@
       <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;int&gt; DownloadToByteArrayAsync (byte[] target, int index);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;int32&gt; DownloadToByteArrayAsync(unsigned int8[] target, int32 index) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.DownloadToByteArrayAsync(System.Byte[],System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function DownloadToByteArrayAsync (target As Byte(), index As Integer) As Task(Of Integer)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -3800,8 +3654,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -3835,8 +3687,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -3874,8 +3724,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -3915,8 +3763,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -3950,11 +3796,10 @@
       <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task DownloadToFileAsync (string path, System.IO.FileMode mode);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task DownloadToFileAsync(string path, valuetype System.IO.FileMode mode) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.DownloadToFileAsync(System.String,System.IO.FileMode)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function DownloadToFileAsync (path As String, mode As FileMode) As Task" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -3986,8 +3831,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -4021,8 +3864,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -4060,8 +3901,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -4101,8 +3940,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -4134,11 +3971,10 @@
       <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task DownloadToStreamAsync (System.IO.Stream target);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task DownloadToStreamAsync(class System.IO.Stream target) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.DownloadToStreamAsync(System.IO.Stream)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function DownloadToStreamAsync (target As Stream) As Task" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -4168,8 +4004,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -4201,8 +4035,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -4238,8 +4070,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -4274,11 +4104,10 @@
       <MemberSignature Language="C#" Value="public virtual void EndAbortCopy (IAsyncResult asyncResult);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void EndAbortCopy(class System.IAsyncResult asyncResult) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.EndAbortCopy(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub EndAbortCopy (asyncResult As IAsyncResult)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -4299,11 +4128,10 @@
       <MemberSignature Language="C#" Value="public virtual void EndClearRange (IAsyncResult asyncResult);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void EndClearRange(class System.IAsyncResult asyncResult) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.EndClearRange(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub EndClearRange (asyncResult As IAsyncResult)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -4324,11 +4152,10 @@
       <MemberSignature Language="C#" Value="public virtual void EndCreate (IAsyncResult asyncResult);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void EndCreate(class System.IAsyncResult asyncResult) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.EndCreate(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub EndCreate (asyncResult As IAsyncResult)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -4349,11 +4176,10 @@
       <MemberSignature Language="C#" Value="public virtual void EndDelete (IAsyncResult asyncResult);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void EndDelete(class System.IAsyncResult asyncResult) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.EndDelete(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub EndDelete (asyncResult As IAsyncResult)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -4374,11 +4200,10 @@
       <MemberSignature Language="C#" Value="public virtual bool EndDeleteIfExists (IAsyncResult asyncResult);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool EndDeleteIfExists(class System.IAsyncResult asyncResult) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.EndDeleteIfExists(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function EndDeleteIfExists (asyncResult As IAsyncResult) As Boolean" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -4401,11 +4226,10 @@
       <MemberSignature Language="C#" Value="public virtual int EndDownloadRangeToByteArray (IAsyncResult asyncResult);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 EndDownloadRangeToByteArray(class System.IAsyncResult asyncResult) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.EndDownloadRangeToByteArray(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function EndDownloadRangeToByteArray (asyncResult As IAsyncResult) As Integer" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -4427,11 +4251,10 @@
       <MemberSignature Language="C#" Value="public virtual void EndDownloadRangeToStream (IAsyncResult asyncResult);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void EndDownloadRangeToStream(class System.IAsyncResult asyncResult) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.EndDownloadRangeToStream(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub EndDownloadRangeToStream (asyncResult As IAsyncResult)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -4452,11 +4275,10 @@
       <MemberSignature Language="C#" Value="public virtual string EndDownloadText (IAsyncResult asyncResult);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string EndDownloadText(class System.IAsyncResult asyncResult) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.EndDownloadText(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function EndDownloadText (asyncResult As IAsyncResult) As String" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -4478,11 +4300,10 @@
       <MemberSignature Language="C#" Value="public virtual int EndDownloadToByteArray (IAsyncResult asyncResult);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 EndDownloadToByteArray(class System.IAsyncResult asyncResult) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.EndDownloadToByteArray(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function EndDownloadToByteArray (asyncResult As IAsyncResult) As Integer" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -4504,11 +4325,10 @@
       <MemberSignature Language="C#" Value="public virtual void EndDownloadToFile (IAsyncResult asyncResult);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void EndDownloadToFile(class System.IAsyncResult asyncResult) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.EndDownloadToFile(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub EndDownloadToFile (asyncResult As IAsyncResult)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -4529,11 +4349,10 @@
       <MemberSignature Language="C#" Value="public virtual void EndDownloadToStream (IAsyncResult asyncResult);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void EndDownloadToStream(class System.IAsyncResult asyncResult) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.EndDownloadToStream(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub EndDownloadToStream (asyncResult As IAsyncResult)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -4554,11 +4373,10 @@
       <MemberSignature Language="C#" Value="public virtual bool EndExists (IAsyncResult asyncResult);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool EndExists(class System.IAsyncResult asyncResult) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.EndExists(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function EndExists (asyncResult As IAsyncResult) As Boolean" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -4581,11 +4399,10 @@
       <MemberSignature Language="C#" Value="public virtual void EndFetchAttributes (IAsyncResult asyncResult);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void EndFetchAttributes(class System.IAsyncResult asyncResult) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.EndFetchAttributes(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub EndFetchAttributes (asyncResult As IAsyncResult)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -4606,11 +4423,10 @@
       <MemberSignature Language="C#" Value="public virtual System.Collections.Generic.IEnumerable&lt;Microsoft.WindowsAzure.Storage.File.FileRange&gt; EndListRanges (IAsyncResult asyncResult);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.WindowsAzure.Storage.File.FileRange&gt; EndListRanges(class System.IAsyncResult asyncResult) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.EndListRanges(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function EndListRanges (asyncResult As IAsyncResult) As IEnumerable(Of FileRange)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -4632,11 +4448,10 @@
       <MemberSignature Language="C#" Value="public virtual System.IO.Stream EndOpenRead (IAsyncResult asyncResult);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.IO.Stream EndOpenRead(class System.IAsyncResult asyncResult) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.EndOpenRead(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function EndOpenRead (asyncResult As IAsyncResult) As Stream" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -4658,11 +4473,10 @@
       <MemberSignature Language="C#" Value="public virtual Microsoft.WindowsAzure.Storage.File.CloudFileStream EndOpenWrite (IAsyncResult asyncResult);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.WindowsAzure.Storage.File.CloudFileStream EndOpenWrite(class System.IAsyncResult asyncResult) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.EndOpenWrite(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function EndOpenWrite (asyncResult As IAsyncResult) As CloudFileStream" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -4684,11 +4498,10 @@
       <MemberSignature Language="C#" Value="public virtual void EndResize (IAsyncResult asyncResult);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void EndResize(class System.IAsyncResult asyncResult) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.EndResize(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub EndResize (asyncResult As IAsyncResult)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -4709,11 +4522,10 @@
       <MemberSignature Language="C#" Value="public virtual void EndSetMetadata (IAsyncResult asyncResult);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void EndSetMetadata(class System.IAsyncResult asyncResult) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.EndSetMetadata(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub EndSetMetadata (asyncResult As IAsyncResult)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -4734,11 +4546,10 @@
       <MemberSignature Language="C#" Value="public virtual void EndSetProperties (IAsyncResult asyncResult);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void EndSetProperties(class System.IAsyncResult asyncResult) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.EndSetProperties(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub EndSetProperties (asyncResult As IAsyncResult)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -4759,11 +4570,10 @@
       <MemberSignature Language="C#" Value="public virtual string EndStartCopy (IAsyncResult asyncResult);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string EndStartCopy(class System.IAsyncResult asyncResult) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.EndStartCopy(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function EndStartCopy (asyncResult As IAsyncResult) As String" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -4788,11 +4598,10 @@
       <MemberSignature Language="C#" Value="public virtual void EndUploadFromByteArray (IAsyncResult asyncResult);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void EndUploadFromByteArray(class System.IAsyncResult asyncResult) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.EndUploadFromByteArray(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub EndUploadFromByteArray (asyncResult As IAsyncResult)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -4813,11 +4622,10 @@
       <MemberSignature Language="C#" Value="public virtual void EndUploadFromFile (IAsyncResult asyncResult);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void EndUploadFromFile(class System.IAsyncResult asyncResult) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.EndUploadFromFile(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub EndUploadFromFile (asyncResult As IAsyncResult)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -4838,11 +4646,10 @@
       <MemberSignature Language="C#" Value="public virtual void EndUploadFromStream (IAsyncResult asyncResult);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void EndUploadFromStream(class System.IAsyncResult asyncResult) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.EndUploadFromStream(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub EndUploadFromStream (asyncResult As IAsyncResult)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -4863,11 +4670,10 @@
       <MemberSignature Language="C#" Value="public virtual void EndUploadText (IAsyncResult asyncResult);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void EndUploadText(class System.IAsyncResult asyncResult) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.EndUploadText(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub EndUploadText (asyncResult As IAsyncResult)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -4888,11 +4694,10 @@
       <MemberSignature Language="C#" Value="public virtual void EndWriteRange (IAsyncResult asyncResult);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void EndWriteRange(class System.IAsyncResult asyncResult) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.EndWriteRange(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub EndWriteRange (asyncResult As IAsyncResult)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -4916,8 +4721,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -4947,11 +4750,10 @@
       <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;bool&gt; ExistsAsync ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;bool&gt; ExistsAsync() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.ExistsAsync" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function ExistsAsync () As Task(Of Boolean)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -4978,8 +4780,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -5009,8 +4809,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -5042,8 +4840,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -5077,8 +4873,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -5108,11 +4902,10 @@
       <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task FetchAttributesAsync ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task FetchAttributesAsync() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.FetchAttributesAsync" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function FetchAttributesAsync () As Task" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -5139,8 +4932,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -5170,8 +4961,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -5205,8 +4994,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -5239,11 +5026,10 @@
       <MemberSignature Language="C#" Value="public string GetSharedAccessSignature (Microsoft.WindowsAzure.Storage.File.SharedAccessFilePolicy policy);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance string GetSharedAccessSignature(class Microsoft.WindowsAzure.Storage.File.SharedAccessFilePolicy policy) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.GetSharedAccessSignature(Microsoft.WindowsAzure.Storage.File.SharedAccessFilePolicy)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetSharedAccessSignature (policy As SharedAccessFilePolicy) As String" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -5265,11 +5051,10 @@
       <MemberSignature Language="C#" Value="public string GetSharedAccessSignature (Microsoft.WindowsAzure.Storage.File.SharedAccessFilePolicy policy, Microsoft.WindowsAzure.Storage.File.SharedAccessFileHeaders headers);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance string GetSharedAccessSignature(class Microsoft.WindowsAzure.Storage.File.SharedAccessFilePolicy policy, class Microsoft.WindowsAzure.Storage.File.SharedAccessFileHeaders headers) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.GetSharedAccessSignature(Microsoft.WindowsAzure.Storage.File.SharedAccessFilePolicy,Microsoft.WindowsAzure.Storage.File.SharedAccessFileHeaders)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetSharedAccessSignature (policy As SharedAccessFilePolicy, headers As SharedAccessFileHeaders) As String" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -5293,11 +5078,10 @@
       <MemberSignature Language="C#" Value="public string GetSharedAccessSignature (Microsoft.WindowsAzure.Storage.File.SharedAccessFilePolicy policy, string groupPolicyIdentifier);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance string GetSharedAccessSignature(class Microsoft.WindowsAzure.Storage.File.SharedAccessFilePolicy policy, string groupPolicyIdentifier) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.GetSharedAccessSignature(Microsoft.WindowsAzure.Storage.File.SharedAccessFilePolicy,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetSharedAccessSignature (policy As SharedAccessFilePolicy, groupPolicyIdentifier As String) As String" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -5321,11 +5105,10 @@
       <MemberSignature Language="C#" Value="public string GetSharedAccessSignature (Microsoft.WindowsAzure.Storage.File.SharedAccessFilePolicy policy, Microsoft.WindowsAzure.Storage.File.SharedAccessFileHeaders headers, string groupPolicyIdentifier);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance string GetSharedAccessSignature(class Microsoft.WindowsAzure.Storage.File.SharedAccessFilePolicy policy, class Microsoft.WindowsAzure.Storage.File.SharedAccessFileHeaders headers, string groupPolicyIdentifier) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.GetSharedAccessSignature(Microsoft.WindowsAzure.Storage.File.SharedAccessFilePolicy,Microsoft.WindowsAzure.Storage.File.SharedAccessFileHeaders,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetSharedAccessSignature (policy As SharedAccessFilePolicy, headers As SharedAccessFileHeaders, groupPolicyIdentifier As String) As String" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -5354,8 +5137,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -5388,8 +5169,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -5424,11 +5203,10 @@
       <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;System.Collections.Generic.IEnumerable&lt;Microsoft.WindowsAzure.Storage.File.FileRange&gt;&gt; ListRangesAsync ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.WindowsAzure.Storage.File.FileRange&gt;&gt; ListRangesAsync() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.ListRangesAsync" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function ListRangesAsync () As Task(Of IEnumerable(Of FileRange))" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -5455,8 +5233,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -5486,8 +5262,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -5525,8 +5299,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -5563,11 +5335,10 @@
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,string&gt; Metadata { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, string&gt; Metadata" />
       <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Storage.File.CloudFile.Metadata" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Metadata As IDictionary(Of String, String)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -5585,11 +5356,10 @@
       <MemberSignature Language="C#" Value="public string Name { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Name" />
       <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Storage.File.CloudFile.Name" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Name As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -5610,8 +5380,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -5642,11 +5410,10 @@
       <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;System.IO.Stream&gt; OpenReadAsync ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class System.IO.Stream&gt; OpenReadAsync() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.OpenReadAsync" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function OpenReadAsync () As Task(Of Stream)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -5673,8 +5440,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -5704,8 +5469,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -5739,8 +5502,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -5776,8 +5537,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -5810,11 +5569,10 @@
       <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.Storage.File.CloudFileStream&gt; OpenWriteAsync (Nullable&lt;long&gt; size);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.WindowsAzure.Storage.File.CloudFileStream&gt; OpenWriteAsync(valuetype System.Nullable`1&lt;int64&gt; size) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.OpenWriteAsync(System.Nullable{System.Int64})" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function OpenWriteAsync (size As Nullable(Of Long)) As Task(Of CloudFileStream)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -5844,8 +5602,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -5877,8 +5633,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -5914,8 +5668,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -5950,11 +5702,10 @@
       <MemberSignature Language="C#" Value="public Microsoft.WindowsAzure.Storage.File.CloudFileDirectory Parent { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.WindowsAzure.Storage.File.CloudFileDirectory Parent" />
       <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Storage.File.CloudFile.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As CloudFileDirectory" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -5973,11 +5724,10 @@
       <MemberSignature Language="C#" Value="public Microsoft.WindowsAzure.Storage.File.FileProperties Properties { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.WindowsAzure.Storage.File.FileProperties Properties" />
       <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Storage.File.CloudFile.Properties" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Properties As FileProperties" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -5998,8 +5748,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -6031,11 +5779,10 @@
       <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task ResizeAsync (long size);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task ResizeAsync(int64 size) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.ResizeAsync(System.Int64)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function ResizeAsync (size As Long) As Task" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -6065,8 +5812,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -6098,8 +5843,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -6135,8 +5878,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -6171,11 +5912,10 @@
       <MemberSignature Language="C#" Value="public Microsoft.WindowsAzure.Storage.File.CloudFileClient ServiceClient { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.WindowsAzure.Storage.File.CloudFileClient ServiceClient" />
       <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Storage.File.CloudFile.ServiceClient" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ServiceClient As CloudFileClient" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -6196,8 +5936,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -6227,11 +5965,10 @@
       <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task SetMetadataAsync ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task SetMetadataAsync() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.SetMetadataAsync" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function SetMetadataAsync () As Task" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -6258,8 +5995,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -6289,8 +6024,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -6324,8 +6057,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -6361,8 +6092,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -6392,11 +6121,10 @@
       <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task SetPropertiesAsync ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task SetPropertiesAsync() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.SetPropertiesAsync" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function SetPropertiesAsync () As Task" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -6423,8 +6151,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -6454,8 +6180,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -6489,8 +6213,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -6523,11 +6245,10 @@
       <MemberSignature Language="C#" Value="public Microsoft.WindowsAzure.Storage.File.CloudFileShare Share { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.WindowsAzure.Storage.File.CloudFileShare Share" />
       <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Storage.File.CloudFile.Share" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Share As CloudFileShare" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -6548,8 +6269,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -6590,8 +6309,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -6632,8 +6349,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -6671,11 +6386,10 @@
       <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;string&gt; StartCopyAsync (Microsoft.WindowsAzure.Storage.Blob.CloudBlob source);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;string&gt; StartCopyAsync(class Microsoft.WindowsAzure.Storage.Blob.CloudBlob source) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.StartCopyAsync(Microsoft.WindowsAzure.Storage.Blob.CloudBlob)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function StartCopyAsync (source As CloudBlob) As Task(Of String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -6702,11 +6416,10 @@
       <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;string&gt; StartCopyAsync (Microsoft.WindowsAzure.Storage.File.CloudFile source);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;string&gt; StartCopyAsync(class Microsoft.WindowsAzure.Storage.File.CloudFile source) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.StartCopyAsync(Microsoft.WindowsAzure.Storage.File.CloudFile)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function StartCopyAsync (source As CloudFile) As Task(Of String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -6733,11 +6446,10 @@
       <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;string&gt; StartCopyAsync (Uri source);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;string&gt; StartCopyAsync(class System.Uri source) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.StartCopyAsync(System.Uri)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function StartCopyAsync (source As Uri) As Task(Of String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -6767,8 +6479,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -6800,8 +6510,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -6833,8 +6541,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -6866,8 +6572,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -6905,8 +6609,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -6944,8 +6646,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -6983,8 +6683,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -7024,8 +6722,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -7065,8 +6761,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -7103,11 +6797,10 @@
       <MemberSignature Language="C#" Value="public Microsoft.WindowsAzure.Storage.StorageUri StorageUri { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.WindowsAzure.Storage.StorageUri StorageUri" />
       <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Storage.File.CloudFile.StorageUri" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StorageUri As StorageUri" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -7125,11 +6818,10 @@
       <MemberSignature Language="C#" Value="public int StreamMinimumReadSizeInBytes { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 StreamMinimumReadSizeInBytes" />
       <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Storage.File.CloudFile.StreamMinimumReadSizeInBytes" />
+      <MemberSignature Language="VB.NET" Value="Public Property StreamMinimumReadSizeInBytes As Integer" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -7147,11 +6839,10 @@
       <MemberSignature Language="C#" Value="public int StreamWriteSizeInBytes { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 StreamWriteSizeInBytes" />
       <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Storage.File.CloudFile.StreamWriteSizeInBytes" />
+      <MemberSignature Language="VB.NET" Value="Public Property StreamWriteSizeInBytes As Integer" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -7172,8 +6863,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -7209,11 +6898,10 @@
       <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task UploadFromByteArrayAsync (byte[] buffer, int index, int count);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task UploadFromByteArrayAsync(unsigned int8[] buffer, int32 index, int32 count) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.UploadFromByteArrayAsync(System.Byte[],System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function UploadFromByteArrayAsync (buffer As Byte(), index As Integer, count As Integer) As Task" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -7247,8 +6935,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -7284,8 +6970,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -7325,8 +7009,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -7368,8 +7050,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -7401,11 +7081,10 @@
       <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task UploadFromFileAsync (string path);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task UploadFromFileAsync(string path) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.UploadFromFileAsync(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function UploadFromFileAsync (path As String) As Task" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -7435,8 +7114,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -7468,8 +7145,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -7505,8 +7180,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -7544,8 +7217,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -7580,8 +7251,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -7615,11 +7284,10 @@
       <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task UploadFromStreamAsync (System.IO.Stream source);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task UploadFromStreamAsync(class System.IO.Stream source) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.UploadFromStreamAsync(System.IO.Stream)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function UploadFromStreamAsync (source As Stream) As Task" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -7646,11 +7314,10 @@
       <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task UploadFromStreamAsync (System.IO.Stream source, long length);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task UploadFromStreamAsync(class System.IO.Stream source, int64 length) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.UploadFromStreamAsync(System.IO.Stream,System.Int64)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function UploadFromStreamAsync (source As Stream, length As Long) As Task" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -7682,8 +7349,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -7715,8 +7380,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -7750,8 +7413,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -7787,8 +7448,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -7826,8 +7485,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -7865,8 +7522,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -7906,8 +7561,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -7941,11 +7594,10 @@
       <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task UploadTextAsync (string content);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task UploadTextAsync(string content) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.UploadTextAsync(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function UploadTextAsync (content As String) As Task" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -7975,8 +7627,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -8008,8 +7658,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -8047,8 +7695,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -8085,11 +7731,10 @@
       <MemberSignature Language="C#" Value="public Uri Uri { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Uri Uri" />
       <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Storage.File.CloudFile.Uri" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Uri As Uri" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -8110,8 +7755,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -8148,11 +7791,10 @@
       <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task WriteRangeAsync (System.IO.Stream rangeData, long startOffset, string contentMD5);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task WriteRangeAsync(class System.IO.Stream rangeData, int64 startOffset, string contentMD5) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.File.CloudFile.WriteRangeAsync(System.IO.Stream,System.Int64,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function WriteRangeAsync (rangeData As Stream, startOffset As Long, contentMD5 As String) As Task" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -8187,8 +7829,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -8225,8 +7865,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -8267,8 +7905,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>

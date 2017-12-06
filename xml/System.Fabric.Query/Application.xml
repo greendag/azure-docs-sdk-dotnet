@@ -2,10 +2,10 @@
   <TypeSignature Language="C#" Value="public sealed class Application" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit Application extends System.Object" />
   <TypeSignature Language="DocId" Value="T:System.Fabric.Query.Application" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class Application" />
   <AssemblyInfo>
     <AssemblyName>System.Fabric</AssemblyName>
-    <AssemblyVersion>5.0.0.0</AssemblyVersion>
-    <AssemblyVersion>255.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -19,15 +19,40 @@
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
+    <Member MemberName="ApplicationDefinitionKind">
+      <MemberSignature Language="C#" Value="public System.Fabric.Query.ApplicationDefinitionKind ApplicationDefinitionKind { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Fabric.Query.ApplicationDefinitionKind ApplicationDefinitionKind" />
+      <MemberSignature Language="DocId" Value="P:System.Fabric.Query.Application.ApplicationDefinitionKind" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ApplicationDefinitionKind As ApplicationDefinitionKind" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Fabric.Query.ApplicationDefinitionKind</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <para>Gets the definition kind.</para>
+        </summary>
+        <value>
+          <para>The definition kind which contains one of the values defined in the
+            enumeration <see cref="P:System.Fabric.Query.Application.ApplicationDefinitionKind" />.</para>
+          <para>Specifies the mechanism the user used to define a Service Fabric application.</para>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="ApplicationName">
       <MemberSignature Language="C#" Value="public Uri ApplicationName { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Uri ApplicationName" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Query.Application.ApplicationName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ApplicationName As Uri" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Uri</ReturnType>
@@ -46,18 +71,18 @@
       <MemberSignature Language="C#" Value="public System.Fabric.Description.ApplicationParameterList ApplicationParameters { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Fabric.Description.ApplicationParameterList ApplicationParameters" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Query.Application.ApplicationParameters" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ApplicationParameters As ApplicationParameterList" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Fabric.Description.ApplicationParameterList</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para>Gets the parameters of the application, which is a collection of propery key and corresponding values.</para>
+          <para>Gets the parameters of the application, which is a collection of key and corresponding values.</para>
         </summary>
         <value>
           <para>The parameters of the application.</para>
@@ -69,11 +94,11 @@
       <MemberSignature Language="C#" Value="public System.Fabric.Query.ApplicationStatus ApplicationStatus { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Fabric.Query.ApplicationStatus ApplicationStatus" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Query.Application.ApplicationStatus" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ApplicationStatus As ApplicationStatus" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Fabric.Query.ApplicationStatus</ReturnType>
@@ -92,11 +117,11 @@
       <MemberSignature Language="C#" Value="public string ApplicationTypeName { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string ApplicationTypeName" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Query.Application.ApplicationTypeName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ApplicationTypeName As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -115,11 +140,11 @@
       <MemberSignature Language="C#" Value="public string ApplicationTypeVersion { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string ApplicationTypeVersion" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Query.Application.ApplicationTypeVersion" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ApplicationTypeVersion As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -138,11 +163,11 @@
       <MemberSignature Language="C#" Value="public System.Fabric.Health.HealthState HealthState { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Fabric.Health.HealthState HealthState" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Query.Application.HealthState" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HealthState As HealthState" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Fabric.Health.HealthState</ReturnType>
@@ -161,11 +186,11 @@
       <MemberSignature Language="C#" Value="public System.Fabric.Description.ApplicationParameterList UpgradeParameters { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Fabric.Description.ApplicationParameterList UpgradeParameters" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Query.Application.UpgradeParameters" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UpgradeParameters As ApplicationParameterList" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -189,11 +214,11 @@
       <MemberSignature Language="C#" Value="public string UpgradeTypeVersion { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string UpgradeTypeVersion" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Query.Application.UpgradeTypeVersion" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UpgradeTypeVersion As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>

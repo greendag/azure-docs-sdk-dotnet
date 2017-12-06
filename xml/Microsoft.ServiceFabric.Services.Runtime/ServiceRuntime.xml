@@ -2,10 +2,10 @@
   <TypeSignature Language="C#" Value="public static class ServiceRuntime" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit ServiceRuntime extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.ServiceFabric.Services.Runtime.ServiceRuntime" />
+  <TypeSignature Language="VB.NET" Value="Public Class ServiceRuntime" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.ServiceFabric.Services</AssemblyName>
-    <AssemblyVersion>5.0.0.0</AssemblyVersion>
-    <AssemblyVersion>255.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -13,7 +13,7 @@
   <Interfaces />
   <Docs>
     <summary>
-            Static class that provides methods to register reliable services with Service Fabric runtime.
+            The static class that provides methods to register reliable services with Service Fabric runtime.
             </summary>
     <remarks>To be added.</remarks>
   </Docs>
@@ -24,9 +24,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Services.Runtime.ServiceRuntime.RegisterServiceAsync(System.String,System.Func{System.Fabric.StatefulServiceContext,Microsoft.ServiceFabric.Services.Runtime.StatefulServiceBase},System.TimeSpan,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Services</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -45,7 +44,7 @@
       <Docs>
         <param name="serviceTypeName">The service type name as provied in service manifest.</param>
         <param name="serviceFactory">A factory method to create stateful service objects.</param>
-        <param name="timeout">Timeout for the register operation.</param>
+        <param name="timeout">The timeout for the register operation.</param>
         <param name="cancellationToken">The token to monitor for cancellation requests.</param>
         <summary>
             Registers a reliable stateful service with Service Fabric runtime.
@@ -54,7 +53,7 @@
             A task that represents the asynchronous register operation.
             </returns>
         <remarks>To be added.</remarks>
-        <para>Default timeout for this operation is taken from ServiceFactoryRegistrationTimeout in Hosting section of the cluster manifest. Default value for ServiceFactoryRegistrationTimeout is 120 seconds.</para>
+        <para>The default timeout for this operation is taken from ServiceFactoryRegistrationTimeout in Hosting section of the cluster manifest. Default value for ServiceFactoryRegistrationTimeout is 120 seconds.</para>
       </Docs>
     </Member>
     <Member MemberName="RegisterServiceAsync">
@@ -63,9 +62,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Services.Runtime.ServiceRuntime.RegisterServiceAsync(System.String,System.Func{System.Fabric.StatelessServiceContext,Microsoft.ServiceFabric.Services.Runtime.StatelessService},System.TimeSpan,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Services</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -84,7 +82,7 @@
       <Docs>
         <param name="serviceTypeName">The service type name as provied in service manifest.</param>
         <param name="serviceFactory">A factory method to create stateless service objects.</param>
-        <param name="timeout">Timeout for the register operation.</param>
+        <param name="timeout">The timeout for the register operation.</param>
         <param name="cancellationToken">The token to monitor for cancellation requests.</param>
         <summary>
             Registers a reliable stateless service with Service Fabric runtime.
@@ -93,7 +91,7 @@
             A task that represents the asynchronous register operation.
             </returns>
         <remarks>To be added.</remarks>
-        <para>Default timeout for this operation is taken from ServiceFactoryRegistrationTimeout in Hosting section of the cluster manifest. Default value for ServiceFactoryRegistrationTimeout is 120 seconds.</para>
+        <para>The default timeout for this operation is taken from ServiceFactoryRegistrationTimeout in Hosting section of the cluster manifest. Default value for ServiceFactoryRegistrationTimeout is 120 seconds.</para>
       </Docs>
     </Member>
   </Members>

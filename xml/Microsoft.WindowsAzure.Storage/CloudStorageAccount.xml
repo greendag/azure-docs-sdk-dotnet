@@ -2,10 +2,9 @@
   <TypeSignature Language="C#" Value="public sealed class CloudStorageAccount" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit CloudStorageAccount extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.WindowsAzure.Storage.CloudStorageAccount" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class CloudStorageAccount" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-    <AssemblyVersion>8.1.1.0</AssemblyVersion>
-    <AssemblyVersion>8.1.3.0</AssemblyVersion>
     <AssemblyVersion>8.4.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
@@ -26,8 +25,6 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -52,8 +49,6 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -80,8 +75,6 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -110,8 +103,6 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -141,8 +132,6 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -169,11 +158,10 @@
       <MemberSignature Language="C#" Value="public Uri BlobEndpoint { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Uri BlobEndpoint" />
       <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Storage.CloudStorageAccount.BlobEndpoint" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BlobEndpoint As Uri" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -191,11 +179,10 @@
       <MemberSignature Language="C#" Value="public Microsoft.WindowsAzure.Storage.StorageUri BlobStorageUri { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.WindowsAzure.Storage.StorageUri BlobStorageUri" />
       <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Storage.CloudStorageAccount.BlobStorageUri" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BlobStorageUri As StorageUri" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -213,11 +200,10 @@
       <MemberSignature Language="C#" Value="public Microsoft.WindowsAzure.Storage.Analytics.CloudAnalyticsClient CreateCloudAnalyticsClient ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.WindowsAzure.Storage.Analytics.CloudAnalyticsClient CreateCloudAnalyticsClient() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.CloudStorageAccount.CreateCloudAnalyticsClient" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateCloudAnalyticsClient () As CloudAnalyticsClient" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -236,11 +222,10 @@
       <MemberSignature Language="C#" Value="public Microsoft.WindowsAzure.Storage.Blob.CloudBlobClient CreateCloudBlobClient ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.WindowsAzure.Storage.Blob.CloudBlobClient CreateCloudBlobClient() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.CloudStorageAccount.CreateCloudBlobClient" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateCloudBlobClient () As CloudBlobClient" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -259,11 +244,10 @@
       <MemberSignature Language="C#" Value="public Microsoft.WindowsAzure.Storage.File.CloudFileClient CreateCloudFileClient ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.WindowsAzure.Storage.File.CloudFileClient CreateCloudFileClient() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.CloudStorageAccount.CreateCloudFileClient" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateCloudFileClient () As CloudFileClient" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -282,11 +266,10 @@
       <MemberSignature Language="C#" Value="public Microsoft.WindowsAzure.Storage.Queue.CloudQueueClient CreateCloudQueueClient ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.WindowsAzure.Storage.Queue.CloudQueueClient CreateCloudQueueClient() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.CloudStorageAccount.CreateCloudQueueClient" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateCloudQueueClient () As CloudQueueClient" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -305,11 +288,10 @@
       <MemberSignature Language="C#" Value="public Microsoft.WindowsAzure.Storage.Table.CloudTableClient CreateCloudTableClient ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.WindowsAzure.Storage.Table.CloudTableClient CreateCloudTableClient() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.CloudStorageAccount.CreateCloudTableClient" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateCloudTableClient () As CloudTableClient" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -328,11 +310,10 @@
       <MemberSignature Language="C#" Value="public Microsoft.WindowsAzure.Storage.Auth.StorageCredentials Credentials { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.WindowsAzure.Storage.Auth.StorageCredentials Credentials" />
       <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Storage.CloudStorageAccount.Credentials" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Credentials As StorageCredentials" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -350,11 +331,10 @@
       <MemberSignature Language="C#" Value="public static Microsoft.WindowsAzure.Storage.CloudStorageAccount DevelopmentStorageAccount { get; }" />
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.WindowsAzure.Storage.CloudStorageAccount DevelopmentStorageAccount" />
       <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Storage.CloudStorageAccount.DevelopmentStorageAccount" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property DevelopmentStorageAccount As CloudStorageAccount" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -372,11 +352,10 @@
       <MemberSignature Language="C#" Value="public Uri FileEndpoint { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Uri FileEndpoint" />
       <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Storage.CloudStorageAccount.FileEndpoint" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FileEndpoint As Uri" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -394,11 +373,10 @@
       <MemberSignature Language="C#" Value="public Microsoft.WindowsAzure.Storage.StorageUri FileStorageUri { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.WindowsAzure.Storage.StorageUri FileStorageUri" />
       <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Storage.CloudStorageAccount.FileStorageUri" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FileStorageUri As StorageUri" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -416,11 +394,10 @@
       <MemberSignature Language="C#" Value="public string GetSharedAccessSignature (Microsoft.WindowsAzure.Storage.SharedAccessAccountPolicy policy);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance string GetSharedAccessSignature(class Microsoft.WindowsAzure.Storage.SharedAccessAccountPolicy policy) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.CloudStorageAccount.GetSharedAccessSignature(Microsoft.WindowsAzure.Storage.SharedAccessAccountPolicy)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetSharedAccessSignature (policy As SharedAccessAccountPolicy) As String" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -442,11 +419,10 @@
       <MemberSignature Language="C#" Value="public static Microsoft.WindowsAzure.Storage.CloudStorageAccount Parse (string connectionString);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.WindowsAzure.Storage.CloudStorageAccount Parse(string connectionString) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.CloudStorageAccount.Parse(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Parse (connectionString As String) As CloudStorageAccount" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -472,11 +448,10 @@
       <MemberSignature Language="C#" Value="public Uri QueueEndpoint { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Uri QueueEndpoint" />
       <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Storage.CloudStorageAccount.QueueEndpoint" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property QueueEndpoint As Uri" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -494,11 +469,10 @@
       <MemberSignature Language="C#" Value="public Microsoft.WindowsAzure.Storage.StorageUri QueueStorageUri { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.WindowsAzure.Storage.StorageUri QueueStorageUri" />
       <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Storage.CloudStorageAccount.QueueStorageUri" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property QueueStorageUri As StorageUri" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -516,11 +490,10 @@
       <MemberSignature Language="C#" Value="public Uri TableEndpoint { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Uri TableEndpoint" />
       <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Storage.CloudStorageAccount.TableEndpoint" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TableEndpoint As Uri" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -538,11 +511,10 @@
       <MemberSignature Language="C#" Value="public Microsoft.WindowsAzure.Storage.StorageUri TableStorageUri { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.WindowsAzure.Storage.StorageUri TableStorageUri" />
       <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Storage.CloudStorageAccount.TableStorageUri" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TableStorageUri As StorageUri" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -560,11 +532,10 @@
       <MemberSignature Language="C#" Value="public override string ToString ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.CloudStorageAccount.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -583,11 +554,10 @@
       <MemberSignature Language="C#" Value="public string ToString (bool exportSecrets);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance string ToString(bool exportSecrets) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.CloudStorageAccount.ToString(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ToString (exportSecrets As Boolean) As String" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -608,13 +578,12 @@
     </Member>
     <Member MemberName="TryParse">
       <MemberSignature Language="C#" Value="public static bool TryParse (string connectionString, out Microsoft.WindowsAzure.Storage.CloudStorageAccount account);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryParse(string connectionString, class Microsoft.WindowsAzure.Storage.CloudStorageAccount account) cil managed" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryParse(string connectionString, [out] class Microsoft.WindowsAzure.Storage.CloudStorageAccount&amp; account) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.CloudStorageAccount.TryParse(System.String,Microsoft.WindowsAzure.Storage.CloudStorageAccount@)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function TryParse (connectionString As String, ByRef account As CloudStorageAccount) As Boolean" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -640,11 +609,10 @@
       <MemberSignature Language="C#" Value="public static bool UseV1MD5 { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property bool UseV1MD5" />
       <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Storage.CloudStorageAccount.UseV1MD5" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Property UseV1MD5 As Boolean" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public class SharedAccessSignatureTokenProvider : Microsoft.ServiceBus.TokenProvider" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SharedAccessSignatureTokenProvider extends Microsoft.ServiceBus.TokenProvider" />
   <TypeSignature Language="DocId" Value="T:Microsoft.ServiceBus.SharedAccessSignatureTokenProvider" />
+  <TypeSignature Language="VB.NET" Value="Public Class SharedAccessSignatureTokenProvider&#xA;Inherits TokenProvider" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.ServiceBus</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>
@@ -21,8 +22,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.SharedAccessSignatureTokenProvider.#ctor(System.String,System.String,System.Func{System.String,System.Byte[]},System.TimeSpan,Microsoft.ServiceBus.TokenScope)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="keyName" Type="System.String" />
@@ -45,10 +46,11 @@
       <MemberSignature Language="C#" Value="protected override Microsoft.ServiceBus.TokenProvider.Key BuildKey (string appliesTo, string action);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class Microsoft.ServiceBus.TokenProvider/Key BuildKey(string appliesTo, string action) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.SharedAccessSignatureTokenProvider.BuildKey(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function BuildKey (appliesTo As String, action As String) As TokenProvider.Key" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.ServiceBus.TokenProvider+Key</ReturnType>
@@ -69,10 +71,11 @@
       <MemberSignature Language="C#" Value="protected virtual string BuildSignature (string targetUri);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance string BuildSignature(string targetUri) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.SharedAccessSignatureTokenProvider.BuildSignature(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Function BuildSignature (targetUri As String) As String" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -91,10 +94,11 @@
       <MemberSignature Language="C#" Value="public static readonly DateTime EpochTime;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype System.DateTime EpochTime" />
       <MemberSignature Language="DocId" Value="F:Microsoft.ServiceBus.SharedAccessSignatureTokenProvider.EpochTime" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly EpochTime As DateTime " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.DateTime</ReturnType>
@@ -108,10 +112,11 @@
       <MemberSignature Language="C#" Value="public static string GetPublisherSharedAccessSignature (Uri endpoint, string entityPath, string publisher, string keyName, string key, TimeSpan tokenTimeToLive);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetPublisherSharedAccessSignature(class System.Uri endpoint, string entityPath, string publisher, string keyName, string key, valuetype System.TimeSpan tokenTimeToLive) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.SharedAccessSignatureTokenProvider.GetPublisherSharedAccessSignature(System.Uri,System.String,System.String,System.String,System.String,System.TimeSpan)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetPublisherSharedAccessSignature (endpoint As Uri, entityPath As String, publisher As String, keyName As String, key As String, tokenTimeToLive As TimeSpan) As String" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -140,10 +145,11 @@
       <MemberSignature Language="C#" Value="public static string GetSharedAccessSignature (string keyName, string sharedAccessKey, string resource, TimeSpan tokenTimeToLive);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetSharedAccessSignature(string keyName, string sharedAccessKey, string resource, valuetype System.TimeSpan tokenTimeToLive) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.SharedAccessSignatureTokenProvider.GetSharedAccessSignature(System.String,System.String,System.String,System.TimeSpan)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetSharedAccessSignature (keyName As String, sharedAccessKey As String, resource As String, tokenTimeToLive As TimeSpan) As String" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -168,10 +174,11 @@
       <MemberSignature Language="C#" Value="protected override IAsyncResult OnBeginGetToken (string appliesTo, string action, TimeSpan timeout, AsyncCallback callback, object state);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class System.IAsyncResult OnBeginGetToken(string appliesTo, string action, valuetype System.TimeSpan timeout, class System.AsyncCallback callback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.SharedAccessSignatureTokenProvider.OnBeginGetToken(System.String,System.String,System.TimeSpan,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function OnBeginGetToken (appliesTo As String, action As String, timeout As TimeSpan, callback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.IAsyncResult</ReturnType>
@@ -198,10 +205,11 @@
       <MemberSignature Language="C#" Value="protected override IAsyncResult OnBeginGetWebToken (string appliesTo, string action, TimeSpan timeout, AsyncCallback callback, object state);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class System.IAsyncResult OnBeginGetWebToken(string appliesTo, string action, valuetype System.TimeSpan timeout, class System.AsyncCallback callback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.SharedAccessSignatureTokenProvider.OnBeginGetWebToken(System.String,System.String,System.TimeSpan,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function OnBeginGetWebToken (appliesTo As String, action As String, timeout As TimeSpan, callback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.IAsyncResult</ReturnType>
@@ -226,12 +234,13 @@
     </Member>
     <Member MemberName="OnEndGetToken">
       <MemberSignature Language="C#" Value="protected override System.IdentityModel.Tokens.SecurityToken OnEndGetToken (IAsyncResult result, out DateTime cacheUntil);" />
-      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class System.IdentityModel.Tokens.SecurityToken OnEndGetToken(class System.IAsyncResult result, valuetype System.DateTime cacheUntil) cil managed" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class System.IdentityModel.Tokens.SecurityToken OnEndGetToken(class System.IAsyncResult result, [out] valuetype System.DateTime&amp; cacheUntil) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.SharedAccessSignatureTokenProvider.OnEndGetToken(System.IAsyncResult,System.DateTime@)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function OnEndGetToken (result As IAsyncResult, ByRef cacheUntil As DateTime) As SecurityToken" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.IdentityModel.Tokens.SecurityToken</ReturnType>
@@ -250,12 +259,13 @@
     </Member>
     <Member MemberName="OnEndGetWebToken">
       <MemberSignature Language="C#" Value="protected override string OnEndGetWebToken (IAsyncResult result, out DateTime cacheUntil);" />
-      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance string OnEndGetWebToken(class System.IAsyncResult result, valuetype System.DateTime cacheUntil) cil managed" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance string OnEndGetWebToken(class System.IAsyncResult result, [out] valuetype System.DateTime&amp; cacheUntil) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.SharedAccessSignatureTokenProvider.OnEndGetWebToken(System.IAsyncResult,System.DateTime@)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function OnEndGetWebToken (result As IAsyncResult, ByRef cacheUntil As DateTime) As String" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -276,10 +286,11 @@
       <MemberSignature Language="C#" Value="protected override bool StripQueryParameters { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool StripQueryParameters" />
       <MemberSignature Language="DocId" Value="P:Microsoft.ServiceBus.SharedAccessSignatureTokenProvider.StripQueryParameters" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides ReadOnly Property StripQueryParameters As Boolean" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>

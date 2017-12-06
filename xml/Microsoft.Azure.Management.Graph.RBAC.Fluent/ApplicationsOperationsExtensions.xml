@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public static class ApplicationsOperationsExtensions" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit ApplicationsOperationsExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Graph.RBAC.Fluent.ApplicationsOperationsExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module ApplicationsOperationsExtensions" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Graph.RBAC.Fluent</AssemblyName>
     <AssemblyVersion>1.0.0.60</AssemblyVersion>
@@ -21,10 +22,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Graph.RBAC.Fluent.Models.ApplicationInner Create (this Microsoft.Azure.Management.Graph.RBAC.Fluent.IApplicationsOperations operations, Microsoft.Azure.Management.Graph.RBAC.Fluent.Models.ApplicationCreateParametersInner parameters);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Graph.RBAC.Fluent.Models.ApplicationInner Create(class Microsoft.Azure.Management.Graph.RBAC.Fluent.IApplicationsOperations operations, class Microsoft.Azure.Management.Graph.RBAC.Fluent.Models.ApplicationCreateParametersInner parameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Graph.RBAC.Fluent.ApplicationsOperationsExtensions.Create(Microsoft.Azure.Management.Graph.RBAC.Fluent.IApplicationsOperations,Microsoft.Azure.Management.Graph.RBAC.Fluent.Models.ApplicationCreateParametersInner)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Create (operations As IApplicationsOperations, parameters As ApplicationCreateParametersInner) As ApplicationInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Graph.RBAC.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Graph.RBAC.Fluent.Models.ApplicationInner</ReturnType>
@@ -53,8 +55,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Graph.RBAC.Fluent.ApplicationsOperationsExtensions.CreateAsync(Microsoft.Azure.Management.Graph.RBAC.Fluent.IApplicationsOperations,Microsoft.Azure.Management.Graph.RBAC.Fluent.Models.ApplicationCreateParametersInner,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Graph.RBAC.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -90,10 +92,11 @@
       <MemberSignature Language="C#" Value="public static void Delete (this Microsoft.Azure.Management.Graph.RBAC.Fluent.IApplicationsOperations operations, string applicationObjectId);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Delete(class Microsoft.Azure.Management.Graph.RBAC.Fluent.IApplicationsOperations operations, string applicationObjectId) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Graph.RBAC.Fluent.ApplicationsOperationsExtensions.Delete(Microsoft.Azure.Management.Graph.RBAC.Fluent.IApplicationsOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub Delete (operations As IApplicationsOperations, applicationObjectId As String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Graph.RBAC.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -121,8 +124,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Graph.RBAC.Fluent.ApplicationsOperationsExtensions.DeleteAsync(Microsoft.Azure.Management.Graph.RBAC.Fluent.IApplicationsOperations,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Graph.RBAC.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -158,10 +161,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Graph.RBAC.Fluent.Models.ApplicationInner Get (this Microsoft.Azure.Management.Graph.RBAC.Fluent.IApplicationsOperations operations, string applicationObjectId);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Graph.RBAC.Fluent.Models.ApplicationInner Get(class Microsoft.Azure.Management.Graph.RBAC.Fluent.IApplicationsOperations operations, string applicationObjectId) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Graph.RBAC.Fluent.ApplicationsOperationsExtensions.Get(Microsoft.Azure.Management.Graph.RBAC.Fluent.IApplicationsOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Get (operations As IApplicationsOperations, applicationObjectId As String) As ApplicationInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Graph.RBAC.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Graph.RBAC.Fluent.Models.ApplicationInner</ReturnType>
@@ -190,8 +194,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Graph.RBAC.Fluent.ApplicationsOperationsExtensions.GetAsync(Microsoft.Azure.Management.Graph.RBAC.Fluent.IApplicationsOperations,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Graph.RBAC.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -227,10 +231,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Graph.RBAC.Fluent.Models.ApplicationInner&gt; List (this Microsoft.Azure.Management.Graph.RBAC.Fluent.IApplicationsOperations operations, Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Management.Graph.RBAC.Fluent.Models.ApplicationInner&gt; odataQuery = null);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Graph.RBAC.Fluent.Models.ApplicationInner&gt; List(class Microsoft.Azure.Management.Graph.RBAC.Fluent.IApplicationsOperations operations, class Microsoft.Rest.Azure.OData.ODataQuery`1&lt;class Microsoft.Azure.Management.Graph.RBAC.Fluent.Models.ApplicationInner&gt; odataQuery) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Graph.RBAC.Fluent.ApplicationsOperationsExtensions.List(Microsoft.Azure.Management.Graph.RBAC.Fluent.IApplicationsOperations,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.Graph.RBAC.Fluent.Models.ApplicationInner})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function List (operations As IApplicationsOperations, Optional odataQuery As ODataQuery(Of ApplicationInner) = null) As IPage(Of ApplicationInner)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Graph.RBAC.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Graph.RBAC.Fluent.Models.ApplicationInner&gt;</ReturnType>
@@ -259,8 +264,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Graph.RBAC.Fluent.ApplicationsOperationsExtensions.ListAsync(Microsoft.Azure.Management.Graph.RBAC.Fluent.IApplicationsOperations,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.Graph.RBAC.Fluent.Models.ApplicationInner},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Graph.RBAC.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -296,10 +301,11 @@
       <MemberSignature Language="C#" Value="public static System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Management.Graph.RBAC.Fluent.Models.KeyCredential&gt; ListKeyCredentials (this Microsoft.Azure.Management.Graph.RBAC.Fluent.IApplicationsOperations operations, string applicationObjectId);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Azure.Management.Graph.RBAC.Fluent.Models.KeyCredential&gt; ListKeyCredentials(class Microsoft.Azure.Management.Graph.RBAC.Fluent.IApplicationsOperations operations, string applicationObjectId) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Graph.RBAC.Fluent.ApplicationsOperationsExtensions.ListKeyCredentials(Microsoft.Azure.Management.Graph.RBAC.Fluent.IApplicationsOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListKeyCredentials (operations As IApplicationsOperations, applicationObjectId As String) As IEnumerable(Of KeyCredential)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Graph.RBAC.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Management.Graph.RBAC.Fluent.Models.KeyCredential&gt;</ReturnType>
@@ -328,8 +334,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Graph.RBAC.Fluent.ApplicationsOperationsExtensions.ListKeyCredentialsAsync(Microsoft.Azure.Management.Graph.RBAC.Fluent.IApplicationsOperations,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Graph.RBAC.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -365,10 +371,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Graph.RBAC.Fluent.Models.ApplicationInner&gt; ListNext (this Microsoft.Azure.Management.Graph.RBAC.Fluent.IApplicationsOperations operations, string nextLink);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Graph.RBAC.Fluent.Models.ApplicationInner&gt; ListNext(class Microsoft.Azure.Management.Graph.RBAC.Fluent.IApplicationsOperations operations, string nextLink) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Graph.RBAC.Fluent.ApplicationsOperationsExtensions.ListNext(Microsoft.Azure.Management.Graph.RBAC.Fluent.IApplicationsOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListNext (operations As IApplicationsOperations, nextLink As String) As IPage(Of ApplicationInner)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Graph.RBAC.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Graph.RBAC.Fluent.Models.ApplicationInner&gt;</ReturnType>
@@ -397,8 +404,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Graph.RBAC.Fluent.ApplicationsOperationsExtensions.ListNextAsync(Microsoft.Azure.Management.Graph.RBAC.Fluent.IApplicationsOperations,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Graph.RBAC.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -434,10 +441,11 @@
       <MemberSignature Language="C#" Value="public static System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Management.Graph.RBAC.Fluent.Models.PasswordCredential&gt; ListPasswordCredentials (this Microsoft.Azure.Management.Graph.RBAC.Fluent.IApplicationsOperations operations, string applicationObjectId);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Azure.Management.Graph.RBAC.Fluent.Models.PasswordCredential&gt; ListPasswordCredentials(class Microsoft.Azure.Management.Graph.RBAC.Fluent.IApplicationsOperations operations, string applicationObjectId) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Graph.RBAC.Fluent.ApplicationsOperationsExtensions.ListPasswordCredentials(Microsoft.Azure.Management.Graph.RBAC.Fluent.IApplicationsOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListPasswordCredentials (operations As IApplicationsOperations, applicationObjectId As String) As IEnumerable(Of PasswordCredential)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Graph.RBAC.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Management.Graph.RBAC.Fluent.Models.PasswordCredential&gt;</ReturnType>
@@ -466,8 +474,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Graph.RBAC.Fluent.ApplicationsOperationsExtensions.ListPasswordCredentialsAsync(Microsoft.Azure.Management.Graph.RBAC.Fluent.IApplicationsOperations,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Graph.RBAC.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -503,10 +511,11 @@
       <MemberSignature Language="C#" Value="public static void Patch (this Microsoft.Azure.Management.Graph.RBAC.Fluent.IApplicationsOperations operations, string applicationObjectId, Microsoft.Azure.Management.Graph.RBAC.Fluent.Models.ApplicationUpdateParametersInner parameters);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Patch(class Microsoft.Azure.Management.Graph.RBAC.Fluent.IApplicationsOperations operations, string applicationObjectId, class Microsoft.Azure.Management.Graph.RBAC.Fluent.Models.ApplicationUpdateParametersInner parameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Graph.RBAC.Fluent.ApplicationsOperationsExtensions.Patch(Microsoft.Azure.Management.Graph.RBAC.Fluent.IApplicationsOperations,System.String,Microsoft.Azure.Management.Graph.RBAC.Fluent.Models.ApplicationUpdateParametersInner)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub Patch (operations As IApplicationsOperations, applicationObjectId As String, parameters As ApplicationUpdateParametersInner)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Graph.RBAC.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -538,8 +547,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Graph.RBAC.Fluent.ApplicationsOperationsExtensions.PatchAsync(Microsoft.Azure.Management.Graph.RBAC.Fluent.IApplicationsOperations,System.String,Microsoft.Azure.Management.Graph.RBAC.Fluent.Models.ApplicationUpdateParametersInner,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Graph.RBAC.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -579,10 +588,11 @@
       <MemberSignature Language="C#" Value="public static void UpdateKeyCredentials (this Microsoft.Azure.Management.Graph.RBAC.Fluent.IApplicationsOperations operations, string applicationObjectId, Microsoft.Azure.Management.Graph.RBAC.Fluent.Models.KeyCredentialsUpdateParametersInner parameters);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UpdateKeyCredentials(class Microsoft.Azure.Management.Graph.RBAC.Fluent.IApplicationsOperations operations, string applicationObjectId, class Microsoft.Azure.Management.Graph.RBAC.Fluent.Models.KeyCredentialsUpdateParametersInner parameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Graph.RBAC.Fluent.ApplicationsOperationsExtensions.UpdateKeyCredentials(Microsoft.Azure.Management.Graph.RBAC.Fluent.IApplicationsOperations,System.String,Microsoft.Azure.Management.Graph.RBAC.Fluent.Models.KeyCredentialsUpdateParametersInner)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UpdateKeyCredentials (operations As IApplicationsOperations, applicationObjectId As String, parameters As KeyCredentialsUpdateParametersInner)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Graph.RBAC.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -614,8 +624,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Graph.RBAC.Fluent.ApplicationsOperationsExtensions.UpdateKeyCredentialsAsync(Microsoft.Azure.Management.Graph.RBAC.Fluent.IApplicationsOperations,System.String,Microsoft.Azure.Management.Graph.RBAC.Fluent.Models.KeyCredentialsUpdateParametersInner,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Graph.RBAC.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -655,10 +665,11 @@
       <MemberSignature Language="C#" Value="public static void UpdatePasswordCredentials (this Microsoft.Azure.Management.Graph.RBAC.Fluent.IApplicationsOperations operations, string applicationObjectId, Microsoft.Azure.Management.Graph.RBAC.Fluent.Models.PasswordCredentialsUpdateParametersInner parameters);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UpdatePasswordCredentials(class Microsoft.Azure.Management.Graph.RBAC.Fluent.IApplicationsOperations operations, string applicationObjectId, class Microsoft.Azure.Management.Graph.RBAC.Fluent.Models.PasswordCredentialsUpdateParametersInner parameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Graph.RBAC.Fluent.ApplicationsOperationsExtensions.UpdatePasswordCredentials(Microsoft.Azure.Management.Graph.RBAC.Fluent.IApplicationsOperations,System.String,Microsoft.Azure.Management.Graph.RBAC.Fluent.Models.PasswordCredentialsUpdateParametersInner)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub UpdatePasswordCredentials (operations As IApplicationsOperations, applicationObjectId As String, parameters As PasswordCredentialsUpdateParametersInner)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Graph.RBAC.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -690,8 +701,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Graph.RBAC.Fluent.ApplicationsOperationsExtensions.UpdatePasswordCredentialsAsync(Microsoft.Azure.Management.Graph.RBAC.Fluent.IApplicationsOperations,System.String,Microsoft.Azure.Management.Graph.RBAC.Fluent.Models.PasswordCredentialsUpdateParametersInner,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Graph.RBAC.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>

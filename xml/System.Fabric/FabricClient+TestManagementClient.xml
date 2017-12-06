@@ -2,10 +2,10 @@
   <TypeSignature Language="C#" Value="public sealed class FabricClient.TestManagementClient" />
   <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed beforefieldinit FabricClient/TestManagementClient extends System.Object" />
   <TypeSignature Language="DocId" Value="T:System.Fabric.FabricClient.TestManagementClient" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class FabricClient.TestManagementClient" />
   <AssemblyInfo>
     <AssemblyName>System.Fabric</AssemblyName>
-    <AssemblyVersion>5.0.0.0</AssemblyVersion>
-    <AssemblyVersion>255.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -22,11 +22,11 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task CancelTestCommandAsync (Guid operationId, bool force);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task CancelTestCommandAsync(valuetype System.Guid operationId, bool force) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.FabricClient.TestManagementClient.CancelTestCommandAsync(System.Guid,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CancelTestCommandAsync (operationId As Guid, force As Boolean) As Task" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -68,9 +68,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.FabricClient.TestManagementClient.CancelTestCommandAsync(System.Guid,System.Boolean,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -113,11 +112,11 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task CancelTestCommandAsync (Guid operationId, bool force, TimeSpan timeout);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task CancelTestCommandAsync(valuetype System.Guid operationId, bool force, valuetype System.TimeSpan timeout) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.FabricClient.TestManagementClient.CancelTestCommandAsync(System.Guid,System.Boolean,System.TimeSpan)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CancelTestCommandAsync (operationId As Guid, force As Boolean, timeout As TimeSpan) As Task" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -162,9 +161,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.FabricClient.TestManagementClient.CancelTestCommandAsync(System.Guid,System.Boolean,System.TimeSpan,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -209,11 +207,11 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task CleanTestStateAsync ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task CleanTestStateAsync() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.FabricClient.TestManagementClient.CleanTestStateAsync" />
+      <MemberSignature Language="VB.NET" Value="Public Function CleanTestStateAsync () As Task" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -237,11 +235,11 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task CleanTestStateAsync (TimeSpan operationTimeout, System.Threading.CancellationToken token);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task CleanTestStateAsync(valuetype System.TimeSpan operationTimeout, valuetype System.Threading.CancellationToken token) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.FabricClient.TestManagementClient.CleanTestStateAsync(System.TimeSpan,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CleanTestStateAsync (operationTimeout As TimeSpan, token As CancellationToken) As Task" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -270,11 +268,11 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Fabric.Chaos.DataStructures.ChaosReport&gt; GetChaosReportAsync (System.Fabric.Chaos.DataStructures.ChaosReportFilter filter);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class System.Fabric.Chaos.DataStructures.ChaosReport&gt; GetChaosReportAsync(class System.Fabric.Chaos.DataStructures.ChaosReportFilter filter) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.FabricClient.TestManagementClient.GetChaosReportAsync(System.Fabric.Chaos.DataStructures.ChaosReportFilter)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetChaosReportAsync (filter As ChaosReportFilter) As Task(Of ChaosReport)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Fabric.Chaos.DataStructures.ChaosReport&gt;</ReturnType>
@@ -298,11 +296,11 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Fabric.Chaos.DataStructures.ChaosReport&gt; GetChaosReportAsync (string continuationToken);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class System.Fabric.Chaos.DataStructures.ChaosReport&gt; GetChaosReportAsync(string continuationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.FabricClient.TestManagementClient.GetChaosReportAsync(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetChaosReportAsync (continuationToken As String) As Task(Of ChaosReport)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Fabric.Chaos.DataStructures.ChaosReport&gt;</ReturnType>
@@ -329,9 +327,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.FabricClient.TestManagementClient.GetChaosReportAsync(System.Fabric.Chaos.DataStructures.ChaosReportFilter,System.TimeSpan,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Fabric.Chaos.DataStructures.ChaosReport&gt;</ReturnType>
@@ -363,9 +360,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.FabricClient.TestManagementClient.GetChaosReportAsync(System.String,System.TimeSpan,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Fabric.Chaos.DataStructures.ChaosReport&gt;</ReturnType>
@@ -394,9 +390,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.FabricClient.TestManagementClient.GetNodeTransitionProgressAsync(System.Guid,System.TimeSpan,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Fabric.NodeTransitionProgress&gt;</ReturnType>
@@ -421,11 +416,11 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Fabric.PartitionDataLossProgress&gt; GetPartitionDataLossProgressAsync (Guid operationId);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class System.Fabric.PartitionDataLossProgress&gt; GetPartitionDataLossProgressAsync(valuetype System.Guid operationId) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.FabricClient.TestManagementClient.GetPartitionDataLossProgressAsync(System.Guid)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetPartitionDataLossProgressAsync (operationId As Guid) As Task(Of PartitionDataLossProgress)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Fabric.PartitionDataLossProgress&gt;</ReturnType>
@@ -457,9 +452,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.FabricClient.TestManagementClient.GetPartitionDataLossProgressAsync(System.Guid,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Fabric.PartitionDataLossProgress&gt;</ReturnType>
@@ -491,11 +485,11 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Fabric.PartitionDataLossProgress&gt; GetPartitionDataLossProgressAsync (Guid operationId, TimeSpan timeout);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class System.Fabric.PartitionDataLossProgress&gt; GetPartitionDataLossProgressAsync(valuetype System.Guid operationId, valuetype System.TimeSpan timeout) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.FabricClient.TestManagementClient.GetPartitionDataLossProgressAsync(System.Guid,System.TimeSpan)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetPartitionDataLossProgressAsync (operationId As Guid, timeout As TimeSpan) As Task(Of PartitionDataLossProgress)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Fabric.PartitionDataLossProgress&gt;</ReturnType>
@@ -529,9 +523,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.FabricClient.TestManagementClient.GetPartitionDataLossProgressAsync(System.Guid,System.TimeSpan,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Fabric.PartitionDataLossProgress&gt;</ReturnType>
@@ -565,11 +558,11 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Fabric.PartitionQuorumLossProgress&gt; GetPartitionQuorumLossProgressAsync (Guid operationId);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class System.Fabric.PartitionQuorumLossProgress&gt; GetPartitionQuorumLossProgressAsync(valuetype System.Guid operationId) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.FabricClient.TestManagementClient.GetPartitionQuorumLossProgressAsync(System.Guid)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetPartitionQuorumLossProgressAsync (operationId As Guid) As Task(Of PartitionQuorumLossProgress)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Fabric.PartitionQuorumLossProgress&gt;</ReturnType>
@@ -603,9 +596,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.FabricClient.TestManagementClient.GetPartitionQuorumLossProgressAsync(System.Guid,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Fabric.PartitionQuorumLossProgress&gt;</ReturnType>
@@ -639,11 +631,11 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Fabric.PartitionQuorumLossProgress&gt; GetPartitionQuorumLossProgressAsync (Guid operationId, TimeSpan timeout);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class System.Fabric.PartitionQuorumLossProgress&gt; GetPartitionQuorumLossProgressAsync(valuetype System.Guid operationId, valuetype System.TimeSpan timeout) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.FabricClient.TestManagementClient.GetPartitionQuorumLossProgressAsync(System.Guid,System.TimeSpan)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetPartitionQuorumLossProgressAsync (operationId As Guid, timeout As TimeSpan) As Task(Of PartitionQuorumLossProgress)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Fabric.PartitionQuorumLossProgress&gt;</ReturnType>
@@ -679,9 +671,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.FabricClient.TestManagementClient.GetPartitionQuorumLossProgressAsync(System.Guid,System.TimeSpan,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Fabric.PartitionQuorumLossProgress&gt;</ReturnType>
@@ -717,11 +708,11 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Fabric.PartitionRestartProgress&gt; GetPartitionRestartProgressAsync (Guid operationId);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class System.Fabric.PartitionRestartProgress&gt; GetPartitionRestartProgressAsync(valuetype System.Guid operationId) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.FabricClient.TestManagementClient.GetPartitionRestartProgressAsync(System.Guid)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetPartitionRestartProgressAsync (operationId As Guid) As Task(Of PartitionRestartProgress)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Fabric.PartitionRestartProgress&gt;</ReturnType>
@@ -752,9 +743,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.FabricClient.TestManagementClient.GetPartitionRestartProgressAsync(System.Guid,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Fabric.PartitionRestartProgress&gt;</ReturnType>
@@ -785,11 +775,11 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Fabric.PartitionRestartProgress&gt; GetPartitionRestartProgressAsync (Guid operationId, TimeSpan timeout);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class System.Fabric.PartitionRestartProgress&gt; GetPartitionRestartProgressAsync(valuetype System.Guid operationId, valuetype System.TimeSpan timeout) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.FabricClient.TestManagementClient.GetPartitionRestartProgressAsync(System.Guid,System.TimeSpan)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetPartitionRestartProgressAsync (operationId As Guid, timeout As TimeSpan) As Task(Of PartitionRestartProgress)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Fabric.PartitionRestartProgress&gt;</ReturnType>
@@ -822,9 +812,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.FabricClient.TestManagementClient.GetPartitionRestartProgressAsync(System.Guid,System.TimeSpan,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Fabric.PartitionRestartProgress&gt;</ReturnType>
@@ -859,9 +848,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.FabricClient.TestManagementClient.GetTestCommandStatusListAsync(System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Fabric.Query.TestCommandStatusList&gt;</ReturnType>
@@ -882,11 +870,11 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Fabric.Query.TestCommandStatusList&gt; GetTestCommandStatusListAsync (TimeSpan operationTimeout);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class System.Fabric.Query.TestCommandStatusList&gt; GetTestCommandStatusListAsync(valuetype System.TimeSpan operationTimeout) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.FabricClient.TestManagementClient.GetTestCommandStatusListAsync(System.TimeSpan)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetTestCommandStatusListAsync (operationTimeout As TimeSpan) As Task(Of TestCommandStatusList)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Fabric.Query.TestCommandStatusList&gt;</ReturnType>
@@ -909,9 +897,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.FabricClient.TestManagementClient.GetTestCommandStatusListAsync(System.TimeSpan,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Fabric.Query.TestCommandStatusList&gt;</ReturnType>
@@ -936,9 +923,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.FabricClient.TestManagementClient.GetTestCommandStatusListAsync(System.Fabric.Query.TestCommandStateFilter,System.TimeSpan,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Fabric.Query.TestCommandStatusList&gt;</ReturnType>
@@ -965,9 +951,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.FabricClient.TestManagementClient.GetTestCommandStatusListAsync(System.Fabric.Query.TestCommandTypeFilter,System.TimeSpan,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Fabric.Query.TestCommandStatusList&gt;</ReturnType>
@@ -994,9 +979,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.FabricClient.TestManagementClient.GetTestCommandStatusListAsync(System.Fabric.Query.TestCommandStateFilter,System.Fabric.Query.TestCommandTypeFilter,System.TimeSpan,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Fabric.Query.TestCommandStatusList&gt;</ReturnType>
@@ -1025,9 +1009,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.FabricClient.TestManagementClient.InvokeDataLossAsync(System.Fabric.PartitionSelector,System.Fabric.DataLossMode)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1078,9 +1061,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.FabricClient.TestManagementClient.InvokeDataLossAsync(System.Fabric.PartitionSelector,System.Fabric.DataLossMode,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1133,9 +1115,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.FabricClient.TestManagementClient.InvokeDataLossAsync(System.Fabric.PartitionSelector,System.Fabric.DataLossMode,System.TimeSpan)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1188,9 +1169,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.FabricClient.TestManagementClient.InvokeDataLossAsync(System.Fabric.PartitionSelector,System.Fabric.DataLossMode,System.TimeSpan,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1245,9 +1225,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.FabricClient.TestManagementClient.InvokeQuorumLossAsync(System.Fabric.PartitionSelector,System.Fabric.QuorumLossMode,System.TimeSpan)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1298,9 +1277,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.FabricClient.TestManagementClient.InvokeQuorumLossAsync(System.Fabric.PartitionSelector,System.Fabric.QuorumLossMode,System.TimeSpan,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1353,9 +1331,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.FabricClient.TestManagementClient.InvokeQuorumLossAsync(System.Fabric.PartitionSelector,System.Fabric.QuorumLossMode,System.TimeSpan,System.TimeSpan)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1408,9 +1385,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.FabricClient.TestManagementClient.InvokeQuorumLossAsync(System.Fabric.PartitionSelector,System.Fabric.QuorumLossMode,System.TimeSpan,System.TimeSpan,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1465,9 +1441,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.FabricClient.TestManagementClient.RestartPartitionAsync(System.Fabric.PartitionSelector,System.Fabric.RestartPartitionMode)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1515,9 +1490,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.FabricClient.TestManagementClient.RestartPartitionAsync(System.Fabric.PartitionSelector,System.Fabric.RestartPartitionMode,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1567,9 +1541,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.FabricClient.TestManagementClient.RestartPartitionAsync(System.Fabric.PartitionSelector,System.Fabric.RestartPartitionMode,System.TimeSpan)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1619,9 +1592,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.FabricClient.TestManagementClient.RestartPartitionAsync(System.Fabric.PartitionSelector,System.Fabric.RestartPartitionMode,System.TimeSpan,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1673,9 +1645,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.FabricClient.TestManagementClient.StartChaosAsync(System.Fabric.Chaos.DataStructures.ChaosParameters)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -1702,9 +1673,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.FabricClient.TestManagementClient.StartChaosAsync(System.Fabric.Chaos.DataStructures.ChaosParameters,System.TimeSpan,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -1736,11 +1706,11 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task StartNodeTransitionAsync (System.Fabric.Description.NodeTransitionDescription description, TimeSpan operationTimeout, System.Threading.CancellationToken token);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task StartNodeTransitionAsync(class System.Fabric.Description.NodeTransitionDescription description, valuetype System.TimeSpan operationTimeout, valuetype System.Threading.CancellationToken token) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.FabricClient.TestManagementClient.StartNodeTransitionAsync(System.Fabric.Description.NodeTransitionDescription,System.TimeSpan,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Function StartNodeTransitionAsync (description As NodeTransitionDescription, operationTimeout As TimeSpan, token As CancellationToken) As Task" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -1774,9 +1744,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.FabricClient.TestManagementClient.StartPartitionDataLossAsync(System.Guid,System.Fabric.PartitionSelector,System.Fabric.DataLossMode)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -1827,9 +1796,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.FabricClient.TestManagementClient.StartPartitionDataLossAsync(System.Guid,System.Fabric.PartitionSelector,System.Fabric.DataLossMode,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -1882,9 +1850,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.FabricClient.TestManagementClient.StartPartitionDataLossAsync(System.Guid,System.Fabric.PartitionSelector,System.Fabric.DataLossMode,System.TimeSpan)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -1937,9 +1904,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.FabricClient.TestManagementClient.StartPartitionDataLossAsync(System.Guid,System.Fabric.PartitionSelector,System.Fabric.DataLossMode,System.TimeSpan,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -1994,9 +1960,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.FabricClient.TestManagementClient.StartPartitionQuorumLossAsync(System.Guid,System.Fabric.PartitionSelector,System.Fabric.QuorumLossMode,System.TimeSpan)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -2043,9 +2008,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.FabricClient.TestManagementClient.StartPartitionQuorumLossAsync(System.Guid,System.Fabric.PartitionSelector,System.Fabric.QuorumLossMode,System.TimeSpan,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -2094,9 +2058,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.FabricClient.TestManagementClient.StartPartitionQuorumLossAsync(System.Guid,System.Fabric.PartitionSelector,System.Fabric.QuorumLossMode,System.TimeSpan,System.TimeSpan)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -2145,9 +2108,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.FabricClient.TestManagementClient.StartPartitionQuorumLossAsync(System.Guid,System.Fabric.PartitionSelector,System.Fabric.QuorumLossMode,System.TimeSpan,System.TimeSpan,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -2198,9 +2160,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.FabricClient.TestManagementClient.StartPartitionRestartAsync(System.Guid,System.Fabric.PartitionSelector,System.Fabric.RestartPartitionMode)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -2236,10 +2197,9 @@
         </remarks>
         <exception cref="T:System.TimeoutException">Action took more than its allocated time.</exception>
         <exception cref="T:System.ArgumentNullException">Any of the required arguments are null.</exception>
-        <exception cref="T:System.InvalidOperationException">If the API is called for a partition belonging to a stateless service with <see cref="T:System.Fabric.RestartPartitionMode" /> set to OnlyActiveSecondaries.</exception>
+        <exception cref="T:System.ArgumentException">The input was invalid.</exception>
         <exception cref="T:System.Fabric.FabricException">These are the fabric failures
             FabricErrorCode.PartitionNotFound - if the specified partition selected does not exist.</exception>
-        <exception cref="T:System.ArgumentException">The input was invalid.</exception>
       </Docs>
     </Member>
     <Member MemberName="StartPartitionRestartAsync">
@@ -2248,9 +2208,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.FabricClient.TestManagementClient.StartPartitionRestartAsync(System.Guid,System.Fabric.PartitionSelector,System.Fabric.RestartPartitionMode,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -2284,10 +2243,9 @@
         </remarks>
         <exception cref="T:System.TimeoutException">Action took more than its allocated time.</exception>
         <exception cref="T:System.ArgumentNullException">Any of the required arguments are null.</exception>
-        <exception cref="T:System.InvalidOperationException">If the API is called for a partition belonging to a stateless service with <see cref="T:System.Fabric.RestartPartitionMode" /> set to OnlyActiveSecondaries.</exception>
+        <exception cref="T:System.ArgumentException">The input was invalid.</exception>
         <exception cref="T:System.Fabric.FabricException">These are the fabric failures
             FabricErrorCode.PartitionNotFound - if the specified partition selected does not exist</exception>
-        <exception cref="T:System.ArgumentException">The input was invalid.</exception>
       </Docs>
     </Member>
     <Member MemberName="StartPartitionRestartAsync">
@@ -2296,9 +2254,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.FabricClient.TestManagementClient.StartPartitionRestartAsync(System.Guid,System.Fabric.PartitionSelector,System.Fabric.RestartPartitionMode,System.TimeSpan)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -2335,10 +2292,9 @@
         </remarks>
         <exception cref="T:System.TimeoutException">Action took more than its allocated time.</exception>
         <exception cref="T:System.ArgumentNullException">Any of the required arguments are null.</exception>
-        <exception cref="T:System.InvalidOperationException">If the API is called for a partition belonging to a stateless service with <see cref="T:System.Fabric.RestartPartitionMode" /> set to OnlyActiveSecondaries.</exception>
+        <exception cref="T:System.ArgumentException">The input was invalid.</exception>
         <exception cref="T:System.Fabric.FabricException">These are the fabric failures
             FabricErrorCode.PartitionNotFound - if the specified partition selected does not exist</exception>
-        <exception cref="T:System.ArgumentException">The input was invalid.</exception>
       </Docs>
     </Member>
     <Member MemberName="StartPartitionRestartAsync">
@@ -2347,9 +2303,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.FabricClient.TestManagementClient.StartPartitionRestartAsync(System.Guid,System.Fabric.PartitionSelector,System.Fabric.RestartPartitionMode,System.TimeSpan,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -2388,21 +2343,20 @@
         </remarks>
         <exception cref="T:System.TimeoutException">Action took more than its allocated time.</exception>
         <exception cref="T:System.ArgumentNullException">Any of the required arguments are null.</exception>
-        <exception cref="T:System.InvalidOperationException">If the API is called for a partition belonging to a stateless service with <see cref="T:System.Fabric.RestartPartitionMode" /> set to OnlyActiveSecondaries.</exception>
+        <exception cref="T:System.ArgumentException">The input was invalid.</exception>
         <exception cref="T:System.Fabric.FabricException">These are the fabric failures
             FabricErrorCode.PartitionNotFound - if the specified partition selected does not exist</exception>
-        <exception cref="T:System.ArgumentException">The input was invalid.</exception>
       </Docs>
     </Member>
     <Member MemberName="StopChaosAsync">
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task StopChaosAsync ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task StopChaosAsync() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.FabricClient.TestManagementClient.StopChaosAsync" />
+      <MemberSignature Language="VB.NET" Value="Public Function StopChaosAsync () As Task" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -2426,9 +2380,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.FabricClient.TestManagementClient.StopChaosAsync(System.TimeSpan,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -2456,11 +2409,11 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task ValidateApplicationAsync (Uri applicationName, TimeSpan maximumStabilizationTimeout);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task ValidateApplicationAsync(class System.Uri applicationName, valuetype System.TimeSpan maximumStabilizationTimeout) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.FabricClient.TestManagementClient.ValidateApplicationAsync(System.Uri,System.TimeSpan)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ValidateApplicationAsync (applicationName As Uri, maximumStabilizationTimeout As TimeSpan) As Task" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -2486,11 +2439,11 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task ValidateApplicationAsync (Uri applicationName, TimeSpan maximumStabilizationTimeout, System.Threading.CancellationToken token);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task ValidateApplicationAsync(class System.Uri applicationName, valuetype System.TimeSpan maximumStabilizationTimeout, valuetype System.Threading.CancellationToken token) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.FabricClient.TestManagementClient.ValidateApplicationAsync(System.Uri,System.TimeSpan,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ValidateApplicationAsync (applicationName As Uri, maximumStabilizationTimeout As TimeSpan, token As CancellationToken) As Task" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -2518,11 +2471,11 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task ValidateApplicationAsync (Uri applicationName, TimeSpan maximumStabilizationTimeout, TimeSpan operationTimeout, System.Threading.CancellationToken token);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task ValidateApplicationAsync(class System.Uri applicationName, valuetype System.TimeSpan maximumStabilizationTimeout, valuetype System.TimeSpan operationTimeout, valuetype System.Threading.CancellationToken token) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.FabricClient.TestManagementClient.ValidateApplicationAsync(System.Uri,System.TimeSpan,System.TimeSpan,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ValidateApplicationAsync (applicationName As Uri, maximumStabilizationTimeout As TimeSpan, operationTimeout As TimeSpan, token As CancellationToken) As Task" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -2552,11 +2505,11 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task ValidateServiceAsync (Uri serviceName, TimeSpan maximumStabilizationTimeout);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task ValidateServiceAsync(class System.Uri serviceName, valuetype System.TimeSpan maximumStabilizationTimeout) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.FabricClient.TestManagementClient.ValidateServiceAsync(System.Uri,System.TimeSpan)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ValidateServiceAsync (serviceName As Uri, maximumStabilizationTimeout As TimeSpan) As Task" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -2582,11 +2535,11 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task ValidateServiceAsync (Uri serviceName, TimeSpan maximumStabilizationTimeout, System.Threading.CancellationToken token);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task ValidateServiceAsync(class System.Uri serviceName, valuetype System.TimeSpan maximumStabilizationTimeout, valuetype System.Threading.CancellationToken token) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.FabricClient.TestManagementClient.ValidateServiceAsync(System.Uri,System.TimeSpan,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ValidateServiceAsync (serviceName As Uri, maximumStabilizationTimeout As TimeSpan, token As CancellationToken) As Task" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -2614,11 +2567,11 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task ValidateServiceAsync (Uri serviceName, TimeSpan maximumStabilizationTimeout, TimeSpan operationTimeout, System.Threading.CancellationToken token);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task ValidateServiceAsync(class System.Uri serviceName, valuetype System.TimeSpan maximumStabilizationTimeout, valuetype System.TimeSpan operationTimeout, valuetype System.Threading.CancellationToken token) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.FabricClient.TestManagementClient.ValidateServiceAsync(System.Uri,System.TimeSpan,System.TimeSpan,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ValidateServiceAsync (serviceName As Uri, maximumStabilizationTimeout As TimeSpan, operationTimeout As TimeSpan, token As CancellationToken) As Task" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>

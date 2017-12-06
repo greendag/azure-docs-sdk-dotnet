@@ -2,9 +2,9 @@
   <TypeSignature Language="C#" Value="public interface IDisksOperations" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IDisksOperations" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Compute.IDisksOperations" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IDisksOperations" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-    <AssemblyVersion>14.0.0.0</AssemblyVersion>
     <AssemblyVersion>16.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Interfaces />
@@ -22,7 +22,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -75,7 +74,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -124,7 +122,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -178,7 +175,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -227,7 +223,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -280,7 +275,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -333,7 +327,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -382,7 +375,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -431,7 +423,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -485,7 +476,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -529,7 +519,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -573,7 +562,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -617,7 +605,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -657,7 +644,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -706,7 +692,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

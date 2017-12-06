@@ -2,10 +2,9 @@
   <TypeSignature Language="C#" Value="public interface ITableEntity" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ITableEntity" />
   <TypeSignature Language="DocId" Value="T:Microsoft.WindowsAzure.Storage.Table.ITableEntity" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ITableEntity" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-    <AssemblyVersion>8.1.1.0</AssemblyVersion>
-    <AssemblyVersion>8.1.3.0</AssemblyVersion>
     <AssemblyVersion>8.4.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Interfaces />
@@ -32,11 +31,10 @@
       <MemberSignature Language="C#" Value="public string ETag { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string ETag" />
       <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Storage.Table.ITableEntity.ETag" />
+      <MemberSignature Language="VB.NET" Value="Public Property ETag As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -56,11 +54,10 @@
       <MemberSignature Language="C#" Value="public string PartitionKey { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string PartitionKey" />
       <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Storage.Table.ITableEntity.PartitionKey" />
+      <MemberSignature Language="VB.NET" Value="Public Property PartitionKey As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -81,8 +78,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -105,11 +100,10 @@
       <MemberSignature Language="C#" Value="public string RowKey { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string RowKey" />
       <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Storage.Table.ITableEntity.RowKey" />
+      <MemberSignature Language="VB.NET" Value="Public Property RowKey As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -127,11 +121,10 @@
       <MemberSignature Language="C#" Value="public DateTimeOffset Timestamp { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTimeOffset Timestamp" />
       <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Storage.Table.ITableEntity.Timestamp" />
+      <MemberSignature Language="VB.NET" Value="Public Property Timestamp As DateTimeOffset" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -152,8 +145,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

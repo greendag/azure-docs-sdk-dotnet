@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public class MobileServiceClient : IDisposable, Microsoft.WindowsAzure.MobileServices.IMobileServiceClient" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MobileServiceClient extends System.Object implements class Microsoft.WindowsAzure.MobileServices.IMobileServiceClient, class System.IDisposable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.WindowsAzure.MobileServices.MobileServiceClient" />
+  <TypeSignature Language="VB.NET" Value="Public Class MobileServiceClient&#xA;Implements IDisposable, IMobileServiceClient" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Mobile.Client</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -28,10 +29,11 @@
       <MemberSignature Language="C#" Value="protected MobileServiceClient ();" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.MobileServices.MobileServiceClient.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Mobile.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -42,13 +44,14 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public MobileServiceClient (string mobileAppUri, System.Net.Http.HttpMessageHandler[] handlers);" />
+      <MemberSignature Language="C#" Value="public MobileServiceClient (string mobileAppUri, params System.Net.Http.HttpMessageHandler[] handlers);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string mobileAppUri, class System.Net.Http.HttpMessageHandler[] handlers) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.MobileServices.MobileServiceClient.#ctor(System.String,System.Net.Http.HttpMessageHandler[])" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (mobileAppUri As String, ParamArray handlers As HttpMessageHandler())" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Mobile.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="mobileAppUri" Type="System.String" />
@@ -75,13 +78,14 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public MobileServiceClient (Uri mobileAppUri, System.Net.Http.HttpMessageHandler[] handlers);" />
+      <MemberSignature Language="C#" Value="public MobileServiceClient (Uri mobileAppUri, params System.Net.Http.HttpMessageHandler[] handlers);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Uri mobileAppUri, class System.Net.Http.HttpMessageHandler[] handlers) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.MobileServices.MobileServiceClient.#ctor(System.Uri,System.Net.Http.HttpMessageHandler[])" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (mobileAppUri As Uri, ParamArray handlers As HttpMessageHandler())" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Mobile.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="mobileAppUri" Type="System.Uri" />
@@ -111,10 +115,11 @@
       <MemberSignature Language="C#" Value="public Uri AlternateLoginHost { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Uri AlternateLoginHost" />
       <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.MobileServices.MobileServiceClient.AlternateLoginHost" />
+      <MemberSignature Language="VB.NET" Value="Public Property AlternateLoginHost As Uri" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Mobile.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Uri</ReturnType>
@@ -131,10 +136,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.WindowsAzure.MobileServices.MobileServiceUser CurrentUser { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.WindowsAzure.MobileServices.MobileServiceUser CurrentUser" />
       <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.MobileServices.MobileServiceClient.CurrentUser" />
+      <MemberSignature Language="VB.NET" Value="Public Property CurrentUser As MobileServiceUser" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Mobile.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.MobileServices.MobileServiceUser</ReturnType>
@@ -152,10 +158,11 @@
       <MemberSignature Language="C#" Value="public static string DefaultDatabasePath { get; }" />
       <MemberSignature Language="ILAsm" Value=".property string DefaultDatabasePath" />
       <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.MobileServices.MobileServiceClient.DefaultDatabasePath" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property DefaultDatabasePath As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Mobile.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -172,10 +179,11 @@
       <MemberSignature Language="C#" Value="public void Dispose ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Dispose() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.MobileServices.MobileServiceClient.Dispose" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Dispose ()" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Mobile.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -191,10 +199,11 @@
       <MemberSignature Language="C#" Value="protected virtual void Dispose (bool disposing);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void Dispose(bool disposing) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.MobileServices.MobileServiceClient.Dispose(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Sub Dispose (disposing As Boolean)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Mobile.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -218,10 +227,11 @@
       <MemberSignature Language="C#" Value="public static void EnsureFileExists (string path);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void EnsureFileExists(string path) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.MobileServices.MobileServiceClient.EnsureFileExists(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub EnsureFileExists (path As String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Mobile.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -241,10 +251,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.WindowsAzure.MobileServices.Eventing.IMobileServiceEventManager EventManager { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.WindowsAzure.MobileServices.Eventing.IMobileServiceEventManager EventManager" />
       <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.MobileServices.MobileServiceClient.EventManager" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EventManager As IMobileServiceEventManager" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Mobile.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.MobileServices.Eventing.IMobileServiceEventManager</ReturnType>
@@ -262,10 +273,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.WindowsAzure.MobileServices.Sync.IMobileServiceSyncTable GetSyncTable (string tableName);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.WindowsAzure.MobileServices.Sync.IMobileServiceSyncTable GetSyncTable(string tableName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.MobileServices.MobileServiceClient.GetSyncTable(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetSyncTable (tableName As String) As IMobileServiceSyncTable" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Mobile.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.MobileServices.Sync.IMobileServiceSyncTable</ReturnType>
@@ -287,10 +299,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.WindowsAzure.MobileServices.Sync.IMobileServiceSyncTable&lt;T&gt; GetSyncTable&lt;T&gt; ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.WindowsAzure.MobileServices.Sync.IMobileServiceSyncTable`1&lt;!!T&gt; GetSyncTable&lt;T&gt;() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.MobileServices.MobileServiceClient.GetSyncTable``1" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetSyncTable(Of T) () As IMobileServiceSyncTable(Of T)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Mobile.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.MobileServices.Sync.IMobileServiceSyncTable&lt;T&gt;</ReturnType>
@@ -317,10 +330,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.WindowsAzure.MobileServices.IMobileServiceTable GetTable (string tableName);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.WindowsAzure.MobileServices.IMobileServiceTable GetTable(string tableName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.MobileServices.MobileServiceClient.GetTable(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetTable (tableName As String) As IMobileServiceTable" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Mobile.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.MobileServices.IMobileServiceTable</ReturnType>
@@ -346,10 +360,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.WindowsAzure.MobileServices.IMobileServiceTable&lt;T&gt; GetTable&lt;T&gt; ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.WindowsAzure.MobileServices.IMobileServiceTable`1&lt;!!T&gt; GetTable&lt;T&gt;() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.MobileServices.MobileServiceClient.GetTable``1" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetTable(Of T) () As IMobileServiceTable(Of T)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Mobile.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.MobileServices.IMobileServiceTable&lt;T&gt;</ReturnType>
@@ -376,10 +391,11 @@
       <MemberSignature Language="C#" Value="public string InstallationId { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string InstallationId" />
       <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.MobileServices.MobileServiceClient.InstallationId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InstallationId As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Mobile.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -399,8 +415,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.MobileServices.MobileServiceClient.InvokeApiAsync(System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Mobile.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Newtonsoft.Json.Linq.JToken&gt;</ReturnType>
@@ -425,8 +441,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.MobileServices.MobileServiceClient.InvokeApiAsync(System.String,Newtonsoft.Json.Linq.JToken,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Mobile.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Newtonsoft.Json.Linq.JToken&gt;</ReturnType>
@@ -454,8 +470,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.MobileServices.MobileServiceClient.InvokeApiAsync(System.String,System.Net.Http.HttpMethod,System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Mobile.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Newtonsoft.Json.Linq.JToken&gt;</ReturnType>
@@ -487,8 +503,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.MobileServices.MobileServiceClient.InvokeApiAsync(System.String,Newtonsoft.Json.Linq.JToken,System.Net.Http.HttpMethod,System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Mobile.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -525,10 +541,11 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; InvokeApiAsync (string apiName, System.Net.Http.HttpContent content, System.Net.Http.HttpMethod method, System.Collections.Generic.IDictionary&lt;string,string&gt; requestHeaders, System.Collections.Generic.IDictionary&lt;string,string&gt; parameters);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class System.Net.Http.HttpResponseMessage&gt; InvokeApiAsync(string apiName, class System.Net.Http.HttpContent content, class System.Net.Http.HttpMethod method, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; requestHeaders, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; parameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.MobileServices.MobileServiceClient.InvokeApiAsync(System.String,System.Net.Http.HttpContent,System.Net.Http.HttpMethod,System.Collections.Generic.IDictionary{System.String,System.String},System.Collections.Generic.IDictionary{System.String,System.String})" />
+      <MemberSignature Language="VB.NET" Value="Public Function InvokeApiAsync (apiName As String, content As HttpContent, method As HttpMethod, requestHeaders As IDictionary(Of String, String), parameters As IDictionary(Of String, String)) As Task(Of HttpResponseMessage)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Mobile.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -569,8 +586,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.MobileServices.MobileServiceClient.InvokeApiAsync(System.String,System.Net.Http.HttpContent,System.Net.Http.HttpMethod,System.Collections.Generic.IDictionary{System.String,System.String},System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Mobile.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -613,8 +630,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.MobileServices.MobileServiceClient.InvokeApiAsync``1(System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Mobile.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;T&gt;</ReturnType>
@@ -643,8 +660,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.MobileServices.MobileServiceClient.InvokeApiAsync``1(System.String,System.Net.Http.HttpMethod,System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Mobile.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;T&gt;</ReturnType>
@@ -680,8 +697,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.MobileServices.MobileServiceClient.InvokeApiAsync``2(System.String,``0,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Mobile.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;U&gt;</ReturnType>
@@ -715,8 +732,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.MobileServices.MobileServiceClient.InvokeApiAsync``2(System.String,``0,System.Net.Http.HttpMethod,System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Mobile.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -759,10 +776,11 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.MobileServices.MobileServiceUser&gt; LoginAsync (Microsoft.WindowsAzure.MobileServices.MobileServiceAuthenticationProvider provider, Newtonsoft.Json.Linq.JObject token);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.WindowsAzure.MobileServices.MobileServiceUser&gt; LoginAsync(valuetype Microsoft.WindowsAzure.MobileServices.MobileServiceAuthenticationProvider provider, class Newtonsoft.Json.Linq.JObject token) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.MobileServices.MobileServiceClient.LoginAsync(Microsoft.WindowsAzure.MobileServices.MobileServiceAuthenticationProvider,Newtonsoft.Json.Linq.JObject)" />
+      <MemberSignature Language="VB.NET" Value="Public Function LoginAsync (provider As MobileServiceAuthenticationProvider, token As JObject) As Task(Of MobileServiceUser)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Mobile.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.MobileServices.MobileServiceUser&gt;</ReturnType>
@@ -794,10 +812,11 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.MobileServices.MobileServiceUser&gt; LoginAsync (string provider, Newtonsoft.Json.Linq.JObject token);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.WindowsAzure.MobileServices.MobileServiceUser&gt; LoginAsync(string provider, class Newtonsoft.Json.Linq.JObject token) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.MobileServices.MobileServiceClient.LoginAsync(System.String,Newtonsoft.Json.Linq.JObject)" />
+      <MemberSignature Language="VB.NET" Value="Public Function LoginAsync (provider As String, token As JObject) As Task(Of MobileServiceUser)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Mobile.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.MobileServices.MobileServiceUser&gt;</ReturnType>
@@ -829,10 +848,11 @@
       <MemberSignature Language="C#" Value="public string LoginUriPrefix { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string LoginUriPrefix" />
       <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.MobileServices.MobileServiceClient.LoginUriPrefix" />
+      <MemberSignature Language="VB.NET" Value="Public Property LoginUriPrefix As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Mobile.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -849,10 +869,11 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task LogoutAsync ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task LogoutAsync() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.MobileServices.MobileServiceClient.LogoutAsync" />
+      <MemberSignature Language="VB.NET" Value="Public Function LogoutAsync () As Task" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Mobile.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -870,10 +891,11 @@
       <MemberSignature Language="C#" Value="public Uri MobileAppUri { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Uri MobileAppUri" />
       <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.MobileServices.MobileServiceClient.MobileAppUri" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MobileAppUri As Uri" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Mobile.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Uri</ReturnType>
@@ -890,10 +912,11 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.MobileServices.MobileServiceUser&gt; RefreshUserAsync ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.WindowsAzure.MobileServices.MobileServiceUser&gt; RefreshUserAsync() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.MobileServices.MobileServiceClient.RefreshUserAsync" />
+      <MemberSignature Language="VB.NET" Value="Public Function RefreshUserAsync () As Task(Of MobileServiceUser)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Mobile.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -918,10 +941,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.WindowsAzure.MobileServices.MobileServiceJsonSerializerSettings SerializerSettings { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.WindowsAzure.MobileServices.MobileServiceJsonSerializerSettings SerializerSettings" />
       <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.MobileServices.MobileServiceClient.SerializerSettings" />
+      <MemberSignature Language="VB.NET" Value="Public Property SerializerSettings As MobileServiceJsonSerializerSettings" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Mobile.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.MobileServices.MobileServiceJsonSerializerSettings</ReturnType>
@@ -938,10 +962,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.WindowsAzure.MobileServices.Sync.IMobileServiceSyncContext SyncContext { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.WindowsAzure.MobileServices.Sync.IMobileServiceSyncContext SyncContext" />
       <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.MobileServices.MobileServiceClient.SyncContext" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SyncContext As IMobileServiceSyncContext" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Mobile.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.MobileServices.Sync.IMobileServiceSyncContext</ReturnType>

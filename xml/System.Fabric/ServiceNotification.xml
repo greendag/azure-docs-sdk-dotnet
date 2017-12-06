@@ -2,10 +2,10 @@
   <TypeSignature Language="C#" Value="public sealed class ServiceNotification" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ServiceNotification extends System.Object" />
   <TypeSignature Language="DocId" Value="T:System.Fabric.ServiceNotification" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ServiceNotification" />
   <AssemblyInfo>
     <AssemblyName>System.Fabric</AssemblyName>
-    <AssemblyVersion>5.0.0.0</AssemblyVersion>
-    <AssemblyVersion>255.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -22,11 +22,11 @@
       <MemberSignature Language="C#" Value="public System.Collections.Generic.ICollection&lt;System.Fabric.ResolvedServiceEndpoint&gt; Endpoints { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.ICollection`1&lt;class System.Fabric.ResolvedServiceEndpoint&gt; Endpoints" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.ServiceNotification.Endpoints" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Endpoints As ICollection(Of ResolvedServiceEndpoint)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.ICollection&lt;System.Fabric.ResolvedServiceEndpoint&gt;</ReturnType>
@@ -45,11 +45,11 @@
       <MemberSignature Language="C#" Value="public Guid PartitionId { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Guid PartitionId" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.ServiceNotification.PartitionId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PartitionId As Guid" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Guid</ReturnType>
@@ -68,11 +68,11 @@
       <MemberSignature Language="C#" Value="public System.Fabric.ServicePartitionInformation PartitionInfo { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Fabric.ServicePartitionInformation PartitionInfo" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.ServiceNotification.PartitionInfo" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PartitionInfo As ServicePartitionInformation" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Fabric.ServicePartitionInformation</ReturnType>
@@ -92,11 +92,11 @@
       <MemberSignature Language="C#" Value="public Uri ServiceName { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Uri ServiceName" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.ServiceNotification.ServiceName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ServiceName As Uri" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Uri</ReturnType>
@@ -115,11 +115,11 @@
       <MemberSignature Language="C#" Value="public System.Fabric.ServiceEndpointsVersion Version { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Fabric.ServiceEndpointsVersion Version" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.ServiceNotification.Version" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Version As ServiceEndpointsVersion" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Fabric.ServiceEndpointsVersion</ReturnType>

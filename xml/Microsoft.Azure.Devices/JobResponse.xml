@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public class JobResponse" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit JobResponse extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Devices.JobResponse" />
+  <TypeSignature Language="VB.NET" Value="Public Class JobResponse" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -21,10 +22,11 @@
       <MemberSignature Language="C#" Value="public JobResponse ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Devices.JobResponse.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -36,10 +38,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Devices.CloudToDeviceMethod CloudToDeviceMethod { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Devices.CloudToDeviceMethod CloudToDeviceMethod" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Devices.JobResponse.CloudToDeviceMethod" />
+      <MemberSignature Language="VB.NET" Value="Public Property CloudToDeviceMethod As CloudToDeviceMethod" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -62,10 +65,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; CreatedTimeUtc { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; CreatedTimeUtc" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Devices.JobResponse.CreatedTimeUtc" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CreatedTimeUtc As Nullable(Of DateTime)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -87,10 +91,11 @@
       <MemberSignature Language="C#" Value="public string DeviceId { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string DeviceId" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Devices.JobResponse.DeviceId" />
+      <MemberSignature Language="VB.NET" Value="Public Property DeviceId As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -113,10 +118,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Devices.DeviceJobStatistics DeviceJobStatistics { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Devices.DeviceJobStatistics DeviceJobStatistics" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Devices.JobResponse.DeviceJobStatistics" />
+      <MemberSignature Language="VB.NET" Value="Public Property DeviceJobStatistics As DeviceJobStatistics" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -138,10 +144,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; EndTimeUtc { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; EndTimeUtc" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Devices.JobResponse.EndTimeUtc" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EndTimeUtc As Nullable(Of DateTime)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -164,10 +171,11 @@
       <MemberSignature Language="C#" Value="public string FailureReason { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string FailureReason" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Devices.JobResponse.FailureReason" />
+      <MemberSignature Language="VB.NET" Value="Public Property FailureReason As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -190,10 +198,11 @@
       <MemberSignature Language="C#" Value="public string JobId { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string JobId" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Devices.JobResponse.JobId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property JobId As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -215,10 +224,11 @@
       <MemberSignature Language="C#" Value="public long MaxExecutionTimeInSeconds { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int64 MaxExecutionTimeInSeconds" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Devices.JobResponse.MaxExecutionTimeInSeconds" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaxExecutionTimeInSeconds As Long" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -240,10 +250,11 @@
       <MemberSignature Language="C#" Value="public string ParentJobId { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string ParentJobId" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Devices.JobResponse.ParentJobId" />
+      <MemberSignature Language="VB.NET" Value="Public Property ParentJobId As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -265,10 +276,11 @@
       <MemberSignature Language="C#" Value="public string QueryCondition { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string QueryCondition" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Devices.JobResponse.QueryCondition" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property QueryCondition As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -290,10 +302,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; StartTimeUtc { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; StartTimeUtc" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Devices.JobResponse.StartTimeUtc" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StartTimeUtc As Nullable(Of DateTime)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -315,10 +328,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Devices.JobStatus Status { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Azure.Devices.JobStatus Status" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Devices.JobResponse.Status" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Status As JobStatus" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -343,10 +357,11 @@
       <MemberSignature Language="C#" Value="public string StatusMessage { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string StatusMessage" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Devices.JobResponse.StatusMessage" />
+      <MemberSignature Language="VB.NET" Value="Public Property StatusMessage As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -369,10 +384,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Devices.JobType Type { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Azure.Devices.JobType Type" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Devices.JobResponse.Type" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Type As JobType" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -398,10 +414,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Devices.Shared.Twin UpdateTwin { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Devices.Shared.Twin UpdateTwin" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Devices.JobResponse.UpdateTwin" />
+      <MemberSignature Language="VB.NET" Value="Public Property UpdateTwin As Twin" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>

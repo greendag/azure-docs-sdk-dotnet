@@ -2,10 +2,10 @@
   <TypeSignature Language="C#" Value="public sealed class LocalEseStoreSettings : System.Fabric.LocalStoreSettings" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit LocalEseStoreSettings extends System.Fabric.LocalStoreSettings" />
   <TypeSignature Language="DocId" Value="T:System.Fabric.LocalEseStoreSettings" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class LocalEseStoreSettings&#xA;Inherits LocalStoreSettings" />
   <AssemblyInfo>
     <AssemblyName>System.Fabric</AssemblyName>
-    <AssemblyVersion>5.0.0.0</AssemblyVersion>
-    <AssemblyVersion>255.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Fabric.LocalStoreSettings</BaseTypeName>
@@ -24,11 +24,11 @@
       <MemberSignature Language="C#" Value="public LocalEseStoreSettings ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.LocalEseStoreSettings.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -42,11 +42,11 @@
       <MemberSignature Language="C#" Value="public int CompactionThresholdInMB { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 CompactionThresholdInMB" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.LocalEseStoreSettings.CompactionThresholdInMB" />
+      <MemberSignature Language="VB.NET" Value="Public Property CompactionThresholdInMB As Integer" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -65,11 +65,11 @@
       <MemberSignature Language="C#" Value="public int DatabasePageSizeInKB { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 DatabasePageSizeInKB" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.LocalEseStoreSettings.DatabasePageSizeInKB" />
+      <MemberSignature Language="VB.NET" Value="Public Property DatabasePageSizeInKB As Integer" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -90,11 +90,11 @@
       <MemberSignature Language="C#" Value="public string DbFolderPath { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string DbFolderPath" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.LocalEseStoreSettings.DbFolderPath" />
+      <MemberSignature Language="VB.NET" Value="Public Property DbFolderPath As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -113,11 +113,11 @@
       <MemberSignature Language="C#" Value="public int DefragThresholdInMB { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 DefragThresholdInMB" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.LocalEseStoreSettings.DefragThresholdInMB" />
+      <MemberSignature Language="VB.NET" Value="Public Property DefragThresholdInMB As Integer" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -136,11 +136,11 @@
       <MemberSignature Language="C#" Value="public bool EnableIncrementalBackup { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool EnableIncrementalBackup" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.LocalEseStoreSettings.EnableIncrementalBackup" />
+      <MemberSignature Language="VB.NET" Value="Public Property EnableIncrementalBackup As Boolean" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -159,10 +159,11 @@
       <MemberSignature Language="C#" Value="public bool EnableOverwriteOnUpdate { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool EnableOverwriteOnUpdate" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.LocalEseStoreSettings.EnableOverwriteOnUpdate" />
+      <MemberSignature Language="VB.NET" Value="Public Property EnableOverwriteOnUpdate As Boolean" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Fabric</AssemblyName>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -188,11 +189,11 @@
       <MemberSignature Language="C#" Value="public int IntrinsicValueThresholdInBytes { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 IntrinsicValueThresholdInBytes" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.LocalEseStoreSettings.IntrinsicValueThresholdInBytes" />
+      <MemberSignature Language="VB.NET" Value="Public Property IntrinsicValueThresholdInBytes As Integer" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -213,9 +214,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.LocalEseStoreSettings.LoadFrom(System.Fabric.CodePackageActivationContext,System.String,System.String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Fabric.LocalEseStoreSettings</ReturnType>
@@ -240,11 +240,11 @@
       <MemberSignature Language="C#" Value="public int LogBufferSizeInKB { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 LogBufferSizeInKB" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.LocalEseStoreSettings.LogBufferSizeInKB" />
+      <MemberSignature Language="VB.NET" Value="Public Property LogBufferSizeInKB As Integer" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -263,11 +263,11 @@
       <MemberSignature Language="C#" Value="public int LogFileSizeInKB { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 LogFileSizeInKB" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.LocalEseStoreSettings.LogFileSizeInKB" />
+      <MemberSignature Language="VB.NET" Value="Public Property LogFileSizeInKB As Integer" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -289,11 +289,11 @@
       <MemberSignature Language="C#" Value="public TimeSpan MaxAsyncCommitDelay { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.TimeSpan MaxAsyncCommitDelay" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.LocalEseStoreSettings.MaxAsyncCommitDelay" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaxAsyncCommitDelay As TimeSpan" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.TimeSpan</ReturnType>
@@ -313,11 +313,11 @@
       <MemberSignature Language="C#" Value="public int MaxCacheSizeInMB { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 MaxCacheSizeInMB" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.LocalEseStoreSettings.MaxCacheSizeInMB" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaxCacheSizeInMB As Integer" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -336,11 +336,11 @@
       <MemberSignature Language="C#" Value="public int MaxCursors { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 MaxCursors" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.LocalEseStoreSettings.MaxCursors" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaxCursors As Integer" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -360,11 +360,11 @@
       <MemberSignature Language="C#" Value="public int MaxDefragFrequencyInMinutes { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 MaxDefragFrequencyInMinutes" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.LocalEseStoreSettings.MaxDefragFrequencyInMinutes" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaxDefragFrequencyInMinutes As Integer" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -383,11 +383,11 @@
       <MemberSignature Language="C#" Value="public int MaxVerPages { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 MaxVerPages" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.LocalEseStoreSettings.MaxVerPages" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaxVerPages As Integer" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>

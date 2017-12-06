@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public class RestClient.RestClientBuilder : Microsoft.Azure.Management.ResourceManager.Fluent.Core.RestClient.RestClientBuilder.IBlank, Microsoft.Azure.Management.ResourceManager.Fluent.Core.RestClient.RestClientBuilder.IBuildable" />
   <TypeSignature Language="ILAsm" Value=".class nested public auto ansi beforefieldinit RestClient/RestClientBuilder extends System.Object implements class Microsoft.Azure.Management.ResourceManager.Fluent.Core.RestClient/RestClientBuilder/IBlank, class Microsoft.Azure.Management.ResourceManager.Fluent.Core.RestClient/RestClientBuilder/IBuildable, class Microsoft.Azure.Management.ResourceManager.Fluent.Core.RestClient/RestClientBuilder/IWithBaseUri, class Microsoft.Azure.Management.ResourceManager.Fluent.Core.RestClient/RestClientBuilder/IWithEnvironment" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.ResourceManager.Fluent.Core.RestClient.RestClientBuilder" />
+  <TypeSignature Language="VB.NET" Value="Public Class RestClient.RestClientBuilder&#xA;Implements RestClient.RestClientBuilder.IBlank, RestClient.RestClientBuilder.IBuildable" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.ResourceManager.Fluent</AssemblyName>
     <AssemblyVersion>1.0.0.60</AssemblyVersion>
@@ -26,10 +27,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.ResourceManager.Fluent.Core.RestClient Build ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Azure.Management.ResourceManager.Fluent.Core.RestClient Build() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.Fluent.Core.RestClient.RestClientBuilder.Build" />
+      <MemberSignature Language="VB.NET" Value="Public Function Build () As RestClient" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.ResourceManager.Fluent.Core.RestClient</ReturnType>
@@ -45,10 +47,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.ResourceManager.Fluent.Core.RestClient.RestClientBuilder.IBuildable WithBaseUri (string baseUri);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Azure.Management.ResourceManager.Fluent.Core.RestClient/RestClientBuilder/IBuildable WithBaseUri(string baseUri) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.Fluent.Core.RestClient.RestClientBuilder.WithBaseUri(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function WithBaseUri (baseUri As String) As RestClient.RestClientBuilder.IBuildable" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.ResourceManager.Fluent.Core.RestClient+RestClientBuilder+IBuildable</ReturnType>
@@ -67,10 +70,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.ResourceManager.Fluent.Core.RestClient.RestClientBuilder.IBuildable WithCredentials (Microsoft.Rest.ServiceClientCredentials credentials);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Azure.Management.ResourceManager.Fluent.Core.RestClient/RestClientBuilder/IBuildable WithCredentials(class Microsoft.Rest.ServiceClientCredentials credentials) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.Fluent.Core.RestClient.RestClientBuilder.WithCredentials(Microsoft.Rest.ServiceClientCredentials)" />
+      <MemberSignature Language="VB.NET" Value="Public Function WithCredentials (credentials As ServiceClientCredentials) As RestClient.RestClientBuilder.IBuildable" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.ResourceManager.Fluent.Core.RestClient+RestClientBuilder+IBuildable</ReturnType>
@@ -91,8 +95,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.Fluent.Core.RestClient.RestClientBuilder.WithDelegatingHandler(System.Net.Http.DelegatingHandler)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.ResourceManager.Fluent.Core.RestClient+RestClientBuilder+IBuildable</ReturnType>
@@ -108,13 +112,14 @@
       </Docs>
     </Member>
     <Member MemberName="WithDelegatingHandlers">
-      <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.ResourceManager.Fluent.Core.RestClient.RestClientBuilder.IBuildable WithDelegatingHandlers (System.Net.Http.DelegatingHandler[] delegatingHandlers);" />
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.ResourceManager.Fluent.Core.RestClient.RestClientBuilder.IBuildable WithDelegatingHandlers (params System.Net.Http.DelegatingHandler[] delegatingHandlers);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Azure.Management.ResourceManager.Fluent.Core.RestClient/RestClientBuilder/IBuildable WithDelegatingHandlers(class System.Net.Http.DelegatingHandler[] delegatingHandlers) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.Fluent.Core.RestClient.RestClientBuilder.WithDelegatingHandlers(System.Net.Http.DelegatingHandler[])" />
+      <MemberSignature Language="VB.NET" Value="Public Function WithDelegatingHandlers (ParamArray delegatingHandlers As DelegatingHandler()) As RestClient.RestClientBuilder.IBuildable" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.ResourceManager.Fluent.Core.RestClient+RestClientBuilder+IBuildable</ReturnType>
@@ -139,10 +144,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.ResourceManager.Fluent.Core.RestClient.RestClientBuilder.IBuildable WithEnvironment (Microsoft.Azure.Management.ResourceManager.Fluent.AzureEnvironment environment);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Azure.Management.ResourceManager.Fluent.Core.RestClient/RestClientBuilder/IBuildable WithEnvironment(class Microsoft.Azure.Management.ResourceManager.Fluent.AzureEnvironment environment) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.Fluent.Core.RestClient.RestClientBuilder.WithEnvironment(Microsoft.Azure.Management.ResourceManager.Fluent.AzureEnvironment)" />
+      <MemberSignature Language="VB.NET" Value="Public Function WithEnvironment (environment As AzureEnvironment) As RestClient.RestClientBuilder.IBuildable" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.ResourceManager.Fluent.Core.RestClient+RestClientBuilder+IBuildable</ReturnType>
@@ -163,8 +169,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.Fluent.Core.RestClient.RestClientBuilder.WithLogLevel(Microsoft.Azure.Management.ResourceManager.Fluent.Core.HttpLoggingDelegatingHandler.Level)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.ResourceManager.Fluent.Core.RestClient+RestClientBuilder+IBuildable</ReturnType>
@@ -185,8 +191,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.Fluent.Core.RestClient.RestClientBuilder.WithRetryPolicy(Microsoft.Rest.TransientFaultHandling.RetryPolicy)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.ResourceManager.Fluent.Core.RestClient+RestClientBuilder+IBuildable</ReturnType>
@@ -205,10 +211,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.ResourceManager.Fluent.Core.RestClient.RestClientBuilder.IBuildable WithUserAgent (string product, string version);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Azure.Management.ResourceManager.Fluent.Core.RestClient/RestClientBuilder/IBuildable WithUserAgent(string product, string version) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.Fluent.Core.RestClient.RestClientBuilder.WithUserAgent(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function WithUserAgent (product As String, version As String) As RestClient.RestClientBuilder.IBuildable" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.ResourceManager.Fluent.Core.RestClient+RestClientBuilder+IBuildable</ReturnType>

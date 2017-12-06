@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public enum NotificationOutcomeState" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed NotificationOutcomeState extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.NotificationHubs.NotificationOutcomeState" />
+  <TypeSignature Language="VB.NET" Value="Public Enum NotificationOutcomeState" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
     <AssemblyVersion>2.16.0.0</AssemblyVersion>
@@ -20,14 +21,16 @@
       <MemberSignature Language="C#" Value="Abandoned" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.NotificationHubs.NotificationOutcomeState Abandoned = int32(4)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.NotificationHubs.NotificationOutcomeState.Abandoned" />
+      <MemberSignature Language="VB.NET" Value="Abandoned" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.NotificationHubs.NotificationOutcomeState</ReturnType>
       </ReturnValue>
+      <MemberValue>4</MemberValue>
       <Docs>
         <summary>
             NotificationOutcome when the notification sent has been Abondoned
@@ -38,14 +41,16 @@
       <MemberSignature Language="C#" Value="Cancelled" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.NotificationHubs.NotificationOutcomeState Cancelled = int32(7)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.NotificationHubs.NotificationOutcomeState.Cancelled" />
+      <MemberSignature Language="VB.NET" Value="Cancelled" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.NotificationHubs.NotificationOutcomeState</ReturnType>
       </ReturnValue>
+      <MemberValue>7</MemberValue>
       <Docs>
         <summary>
             NotificationOutcome when the user cancelled the scheduled send request
@@ -56,14 +61,16 @@
       <MemberSignature Language="C#" Value="Completed" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.NotificationHubs.NotificationOutcomeState Completed = int32(3)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.NotificationHubs.NotificationOutcomeState.Completed" />
+      <MemberSignature Language="VB.NET" Value="Completed" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.NotificationHubs.NotificationOutcomeState</ReturnType>
       </ReturnValue>
+      <MemberValue>3</MemberValue>
       <Docs>
         <summary>
             NotificationOutcome when the notification sent has been recevied 
@@ -74,14 +81,16 @@
       <MemberSignature Language="C#" Value="DetailedStateAvailable" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.NotificationHubs.NotificationOutcomeState DetailedStateAvailable = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.NotificationHubs.NotificationOutcomeState.DetailedStateAvailable" />
+      <MemberSignature Language="VB.NET" Value="DetailedStateAvailable" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.NotificationHubs.NotificationOutcomeState</ReturnType>
       </ReturnValue>
+      <MemberValue>1</MemberValue>
       <Docs>
         <summary>
             NotificationOutcome state during DebugSend
@@ -92,14 +101,16 @@
       <MemberSignature Language="C#" Value="Enqueued" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.NotificationHubs.NotificationOutcomeState Enqueued = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.NotificationHubs.NotificationOutcomeState.Enqueued" />
+      <MemberSignature Language="VB.NET" Value="Enqueued" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.NotificationHubs.NotificationOutcomeState</ReturnType>
       </ReturnValue>
+      <MemberValue>0</MemberValue>
       <Docs>
         <summary>
             NotificationOutcome when notification is intially enqued 
@@ -110,14 +121,16 @@
       <MemberSignature Language="C#" Value="NoTargetFound" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.NotificationHubs.NotificationOutcomeState NoTargetFound = int32(6)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.NotificationHubs.NotificationOutcomeState.NoTargetFound" />
+      <MemberSignature Language="VB.NET" Value="NoTargetFound" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.NotificationHubs.NotificationOutcomeState</ReturnType>
       </ReturnValue>
+      <MemberValue>6</MemberValue>
       <Docs>
         <summary>
              NotificationOutcome when there are no targets found to send the message
@@ -128,14 +141,16 @@
       <MemberSignature Language="C#" Value="Processing" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.NotificationHubs.NotificationOutcomeState Processing = int32(2)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.NotificationHubs.NotificationOutcomeState.Processing" />
+      <MemberSignature Language="VB.NET" Value="Processing" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.NotificationHubs.NotificationOutcomeState</ReturnType>
       </ReturnValue>
+      <MemberValue>2</MemberValue>
       <Docs>
         <summary>
             Processing sent notification
@@ -146,14 +161,16 @@
       <MemberSignature Language="C#" Value="Unknown" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.NotificationHubs.NotificationOutcomeState Unknown = int32(5)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.NotificationHubs.NotificationOutcomeState.Unknown" />
+      <MemberSignature Language="VB.NET" Value="Unknown" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.NotificationHubs.NotificationOutcomeState</ReturnType>
       </ReturnValue>
+      <MemberValue>5</MemberValue>
       <Docs>
         <summary>
             Unknown state when State not set

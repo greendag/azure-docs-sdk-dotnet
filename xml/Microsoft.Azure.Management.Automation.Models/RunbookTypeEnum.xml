@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public static class RunbookTypeEnum" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit RunbookTypeEnum extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Automation.Models.RunbookTypeEnum" />
+  <TypeSignature Language="VB.NET" Value="Public Class RunbookTypeEnum" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -19,10 +20,11 @@
       <MemberSignature Language="C#" Value="public const string Graph;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string Graph" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.Automation.Models.RunbookTypeEnum.Graph" />
+      <MemberSignature Language="VB.NET" Value="Public Const Graph As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -36,10 +38,11 @@
       <MemberSignature Language="C#" Value="public const string GraphPowerShell;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string GraphPowerShell" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.Automation.Models.RunbookTypeEnum.GraphPowerShell" />
+      <MemberSignature Language="VB.NET" Value="Public Const GraphPowerShell As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -53,10 +56,11 @@
       <MemberSignature Language="C#" Value="public const string GraphPowerShellWorkflow;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string GraphPowerShellWorkflow" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.Automation.Models.RunbookTypeEnum.GraphPowerShellWorkflow" />
+      <MemberSignature Language="VB.NET" Value="Public Const GraphPowerShellWorkflow As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -70,10 +74,11 @@
       <MemberSignature Language="C#" Value="public const string PowerShell;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string PowerShell" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.Automation.Models.RunbookTypeEnum.PowerShell" />
+      <MemberSignature Language="VB.NET" Value="Public Const PowerShell As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -87,10 +92,11 @@
       <MemberSignature Language="C#" Value="public const string PowerShellWorkflow;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string PowerShellWorkflow" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.Automation.Models.RunbookTypeEnum.PowerShellWorkflow" />
+      <MemberSignature Language="VB.NET" Value="Public Const PowerShellWorkflow As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -104,10 +110,11 @@
       <MemberSignature Language="C#" Value="public const string Script;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string Script" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.Automation.Models.RunbookTypeEnum.Script" />
+      <MemberSignature Language="VB.NET" Value="Public Const Script As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

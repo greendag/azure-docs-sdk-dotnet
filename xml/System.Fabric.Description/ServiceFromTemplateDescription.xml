@@ -2,10 +2,10 @@
   <TypeSignature Language="C#" Value="public sealed class ServiceFromTemplateDescription" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ServiceFromTemplateDescription extends System.Object" />
   <TypeSignature Language="DocId" Value="T:System.Fabric.Description.ServiceFromTemplateDescription" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ServiceFromTemplateDescription" />
   <AssemblyInfo>
     <AssemblyName>System.Fabric</AssemblyName>
-    <AssemblyVersion>5.0.0.0</AssemblyVersion>
-    <AssemblyVersion>255.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -24,9 +24,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.Description.ServiceFromTemplateDescription.#ctor(System.Uri,System.Uri,System.String,System.String,System.Fabric.Description.ServicePackageActivationMode,System.Byte[])" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="applicationName" Type="System.Uri" />
@@ -55,11 +54,11 @@
       <MemberSignature Language="C#" Value="public Uri ApplicationName { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Uri ApplicationName" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Description.ServiceFromTemplateDescription.ApplicationName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ApplicationName As Uri" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Uri</ReturnType>
@@ -78,11 +77,11 @@
       <MemberSignature Language="C#" Value="public byte[] InitializationData { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance unsigned int8[] InitializationData" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Description.ServiceFromTemplateDescription.InitializationData" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InitializationData As Byte()" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Byte[]</ReturnType>
@@ -101,11 +100,11 @@
       <MemberSignature Language="C#" Value="public string ServiceDnsName { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string ServiceDnsName" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Description.ServiceFromTemplateDescription.ServiceDnsName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ServiceDnsName As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -124,11 +123,11 @@
       <MemberSignature Language="C#" Value="public Uri ServiceName { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Uri ServiceName" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Description.ServiceFromTemplateDescription.ServiceName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ServiceName As Uri" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Uri</ReturnType>
@@ -147,11 +146,11 @@
       <MemberSignature Language="C#" Value="public System.Fabric.Description.ServicePackageActivationMode ServicePackageActivationMode { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Fabric.Description.ServicePackageActivationMode ServicePackageActivationMode" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Description.ServiceFromTemplateDescription.ServicePackageActivationMode" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ServicePackageActivationMode As ServicePackageActivationMode" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Fabric.Description.ServicePackageActivationMode</ReturnType>
@@ -170,11 +169,11 @@
       <MemberSignature Language="C#" Value="public string ServiceTypeName { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string ServiceTypeName" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Description.ServiceFromTemplateDescription.ServiceTypeName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ServiceTypeName As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

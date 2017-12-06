@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public static class CustomDomainsOperationsExtensions" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit CustomDomainsOperationsExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Cdn.Fluent.CustomDomainsOperationsExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module CustomDomainsOperationsExtensions" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
     <AssemblyVersion>1.0.0.60</AssemblyVersion>
@@ -21,10 +22,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Cdn.Fluent.Models.CustomDomainInner BeginCreate (this Microsoft.Azure.Management.Cdn.Fluent.ICustomDomainsOperations operations, string resourceGroupName, string profileName, string endpointName, string customDomainName, string hostName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Cdn.Fluent.Models.CustomDomainInner BeginCreate(class Microsoft.Azure.Management.Cdn.Fluent.ICustomDomainsOperations operations, string resourceGroupName, string profileName, string endpointName, string customDomainName, string hostName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.CustomDomainsOperationsExtensions.BeginCreate(Microsoft.Azure.Management.Cdn.Fluent.ICustomDomainsOperations,System.String,System.String,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginCreate (operations As ICustomDomainsOperations, resourceGroupName As String, profileName As String, endpointName As String, customDomainName As String, hostName As String) As CustomDomainInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Cdn.Fluent.Models.CustomDomainInner</ReturnType>
@@ -69,8 +71,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.CustomDomainsOperationsExtensions.BeginCreateAsync(Microsoft.Azure.Management.Cdn.Fluent.ICustomDomainsOperations,System.String,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -122,10 +124,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Cdn.Fluent.Models.CustomDomainInner BeginDelete (this Microsoft.Azure.Management.Cdn.Fluent.ICustomDomainsOperations operations, string resourceGroupName, string profileName, string endpointName, string customDomainName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Cdn.Fluent.Models.CustomDomainInner BeginDelete(class Microsoft.Azure.Management.Cdn.Fluent.ICustomDomainsOperations operations, string resourceGroupName, string profileName, string endpointName, string customDomainName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.CustomDomainsOperationsExtensions.BeginDelete(Microsoft.Azure.Management.Cdn.Fluent.ICustomDomainsOperations,System.String,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginDelete (operations As ICustomDomainsOperations, resourceGroupName As String, profileName As String, endpointName As String, customDomainName As String) As CustomDomainInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Cdn.Fluent.Models.CustomDomainInner</ReturnType>
@@ -166,8 +169,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.CustomDomainsOperationsExtensions.BeginDeleteAsync(Microsoft.Azure.Management.Cdn.Fluent.ICustomDomainsOperations,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -215,10 +218,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Cdn.Fluent.Models.CustomDomainInner Create (this Microsoft.Azure.Management.Cdn.Fluent.ICustomDomainsOperations operations, string resourceGroupName, string profileName, string endpointName, string customDomainName, string hostName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Cdn.Fluent.Models.CustomDomainInner Create(class Microsoft.Azure.Management.Cdn.Fluent.ICustomDomainsOperations operations, string resourceGroupName, string profileName, string endpointName, string customDomainName, string hostName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.CustomDomainsOperationsExtensions.Create(Microsoft.Azure.Management.Cdn.Fluent.ICustomDomainsOperations,System.String,System.String,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Create (operations As ICustomDomainsOperations, resourceGroupName As String, profileName As String, endpointName As String, customDomainName As String, hostName As String) As CustomDomainInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Cdn.Fluent.Models.CustomDomainInner</ReturnType>
@@ -263,8 +267,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.CustomDomainsOperationsExtensions.CreateAsync(Microsoft.Azure.Management.Cdn.Fluent.ICustomDomainsOperations,System.String,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -316,10 +320,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Cdn.Fluent.Models.CustomDomainInner Delete (this Microsoft.Azure.Management.Cdn.Fluent.ICustomDomainsOperations operations, string resourceGroupName, string profileName, string endpointName, string customDomainName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Cdn.Fluent.Models.CustomDomainInner Delete(class Microsoft.Azure.Management.Cdn.Fluent.ICustomDomainsOperations operations, string resourceGroupName, string profileName, string endpointName, string customDomainName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.CustomDomainsOperationsExtensions.Delete(Microsoft.Azure.Management.Cdn.Fluent.ICustomDomainsOperations,System.String,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Delete (operations As ICustomDomainsOperations, resourceGroupName As String, profileName As String, endpointName As String, customDomainName As String) As CustomDomainInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Cdn.Fluent.Models.CustomDomainInner</ReturnType>
@@ -360,8 +365,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.CustomDomainsOperationsExtensions.DeleteAsync(Microsoft.Azure.Management.Cdn.Fluent.ICustomDomainsOperations,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -409,10 +414,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Cdn.Fluent.Models.CustomDomainInner DisableCustomHttps (this Microsoft.Azure.Management.Cdn.Fluent.ICustomDomainsOperations operations, string resourceGroupName, string profileName, string endpointName, string customDomainName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Cdn.Fluent.Models.CustomDomainInner DisableCustomHttps(class Microsoft.Azure.Management.Cdn.Fluent.ICustomDomainsOperations operations, string resourceGroupName, string profileName, string endpointName, string customDomainName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.CustomDomainsOperationsExtensions.DisableCustomHttps(Microsoft.Azure.Management.Cdn.Fluent.ICustomDomainsOperations,System.String,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function DisableCustomHttps (operations As ICustomDomainsOperations, resourceGroupName As String, profileName As String, endpointName As String, customDomainName As String) As CustomDomainInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Cdn.Fluent.Models.CustomDomainInner</ReturnType>
@@ -453,8 +459,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.CustomDomainsOperationsExtensions.DisableCustomHttpsAsync(Microsoft.Azure.Management.Cdn.Fluent.ICustomDomainsOperations,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -502,10 +508,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Cdn.Fluent.Models.CustomDomainInner EnableCustomHttps (this Microsoft.Azure.Management.Cdn.Fluent.ICustomDomainsOperations operations, string resourceGroupName, string profileName, string endpointName, string customDomainName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Cdn.Fluent.Models.CustomDomainInner EnableCustomHttps(class Microsoft.Azure.Management.Cdn.Fluent.ICustomDomainsOperations operations, string resourceGroupName, string profileName, string endpointName, string customDomainName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.CustomDomainsOperationsExtensions.EnableCustomHttps(Microsoft.Azure.Management.Cdn.Fluent.ICustomDomainsOperations,System.String,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function EnableCustomHttps (operations As ICustomDomainsOperations, resourceGroupName As String, profileName As String, endpointName As String, customDomainName As String) As CustomDomainInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Cdn.Fluent.Models.CustomDomainInner</ReturnType>
@@ -546,8 +553,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.CustomDomainsOperationsExtensions.EnableCustomHttpsAsync(Microsoft.Azure.Management.Cdn.Fluent.ICustomDomainsOperations,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -595,10 +602,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Cdn.Fluent.Models.CustomDomainInner Get (this Microsoft.Azure.Management.Cdn.Fluent.ICustomDomainsOperations operations, string resourceGroupName, string profileName, string endpointName, string customDomainName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Cdn.Fluent.Models.CustomDomainInner Get(class Microsoft.Azure.Management.Cdn.Fluent.ICustomDomainsOperations operations, string resourceGroupName, string profileName, string endpointName, string customDomainName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.CustomDomainsOperationsExtensions.Get(Microsoft.Azure.Management.Cdn.Fluent.ICustomDomainsOperations,System.String,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Get (operations As ICustomDomainsOperations, resourceGroupName As String, profileName As String, endpointName As String, customDomainName As String) As CustomDomainInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Cdn.Fluent.Models.CustomDomainInner</ReturnType>
@@ -639,8 +647,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.CustomDomainsOperationsExtensions.GetAsync(Microsoft.Azure.Management.Cdn.Fluent.ICustomDomainsOperations,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -688,10 +696,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Cdn.Fluent.Models.CustomDomainInner&gt; ListByEndpoint (this Microsoft.Azure.Management.Cdn.Fluent.ICustomDomainsOperations operations, string resourceGroupName, string profileName, string endpointName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Cdn.Fluent.Models.CustomDomainInner&gt; ListByEndpoint(class Microsoft.Azure.Management.Cdn.Fluent.ICustomDomainsOperations operations, string resourceGroupName, string profileName, string endpointName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.CustomDomainsOperationsExtensions.ListByEndpoint(Microsoft.Azure.Management.Cdn.Fluent.ICustomDomainsOperations,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListByEndpoint (operations As ICustomDomainsOperations, resourceGroupName As String, profileName As String, endpointName As String) As IPage(Of CustomDomainInner)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Cdn.Fluent.Models.CustomDomainInner&gt;</ReturnType>
@@ -728,8 +737,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.CustomDomainsOperationsExtensions.ListByEndpointAsync(Microsoft.Azure.Management.Cdn.Fluent.ICustomDomainsOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -773,10 +782,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Cdn.Fluent.Models.CustomDomainInner&gt; ListByEndpointNext (this Microsoft.Azure.Management.Cdn.Fluent.ICustomDomainsOperations operations, string nextPageLink);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Cdn.Fluent.Models.CustomDomainInner&gt; ListByEndpointNext(class Microsoft.Azure.Management.Cdn.Fluent.ICustomDomainsOperations operations, string nextPageLink) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.CustomDomainsOperationsExtensions.ListByEndpointNext(Microsoft.Azure.Management.Cdn.Fluent.ICustomDomainsOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListByEndpointNext (operations As ICustomDomainsOperations, nextPageLink As String) As IPage(Of CustomDomainInner)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Cdn.Fluent.Models.CustomDomainInner&gt;</ReturnType>
@@ -805,8 +815,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.CustomDomainsOperationsExtensions.ListByEndpointNextAsync(Microsoft.Azure.Management.Cdn.Fluent.ICustomDomainsOperations,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>

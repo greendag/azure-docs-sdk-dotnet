@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public sealed class DataType : Microsoft.Azure.Search.Models.ExtensibleEnum&lt;Microsoft.Azure.Search.Models.DataType&gt;" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit DataType extends Microsoft.Azure.Search.Models.ExtensibleEnum`1&lt;class Microsoft.Azure.Search.Models.DataType&gt;" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Search.Models.DataType" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class DataType&#xA;Inherits ExtensibleEnum(Of DataType)" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Search</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>
@@ -30,11 +31,12 @@
       <MemberSignature Language="C#" Value="public static readonly Microsoft.Azure.Search.Models.DataType Boolean;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Azure.Search.Models.DataType Boolean" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Search.Models.DataType.Boolean" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Boolean As DataType " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
-        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Search.Models.DataType</ReturnType>
@@ -50,11 +52,12 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Search.Models.DataType Collection (Microsoft.Azure.Search.Models.DataType elementType);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Search.Models.DataType Collection(class Microsoft.Azure.Search.Models.DataType elementType) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Search.Models.DataType.Collection(Microsoft.Azure.Search.Models.DataType)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Collection (elementType As DataType) As DataType" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
-        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Search.Models.DataType</ReturnType>
@@ -75,11 +78,12 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Search.Models.DataType Create (string name);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Search.Models.DataType Create(string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Search.Models.DataType.Create(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Create (name As String) As DataType" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
-        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Search.Models.DataType</ReturnType>
@@ -101,11 +105,12 @@
       <MemberSignature Language="C#" Value="public static readonly Microsoft.Azure.Search.Models.DataType DateTimeOffset;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Azure.Search.Models.DataType DateTimeOffset" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Search.Models.DataType.DateTimeOffset" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly DateTimeOffset As DataType " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
-        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Search.Models.DataType</ReturnType>
@@ -121,11 +126,12 @@
       <MemberSignature Language="C#" Value="public static readonly Microsoft.Azure.Search.Models.DataType Double;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Azure.Search.Models.DataType Double" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Search.Models.DataType.Double" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Double As DataType " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
-        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Search.Models.DataType</ReturnType>
@@ -141,11 +147,12 @@
       <MemberSignature Language="C#" Value="public static readonly Microsoft.Azure.Search.Models.DataType GeographyPoint;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Azure.Search.Models.DataType GeographyPoint" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Search.Models.DataType.GeographyPoint" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly GeographyPoint As DataType " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
-        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Search.Models.DataType</ReturnType>
@@ -161,11 +168,12 @@
       <MemberSignature Language="C#" Value="public static readonly Microsoft.Azure.Search.Models.DataType Int32;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Azure.Search.Models.DataType Int32" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Search.Models.DataType.Int32" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Int32 As DataType " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
-        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Search.Models.DataType</ReturnType>
@@ -181,11 +189,12 @@
       <MemberSignature Language="C#" Value="public static readonly Microsoft.Azure.Search.Models.DataType Int64;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Azure.Search.Models.DataType Int64" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Search.Models.DataType.Int64" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Int64 As DataType " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
-        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Search.Models.DataType</ReturnType>
@@ -198,14 +207,15 @@
       </Docs>
     </Member>
     <Member MemberName="op_Implicit">
-      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Search.Models.DataType op_Implicit (string name);" />
+      <MemberSignature Language="C#" Value="public static implicit operator Microsoft.Azure.Search.Models.DataType (string name);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class Microsoft.Azure.Search.Models.DataType op_Implicit(string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Search.Models.DataType.op_Implicit(System.String)~Microsoft.Azure.Search.Models.DataType" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (name As String) As DataType" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
-        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Search.Models.DataType</ReturnType>
@@ -226,11 +236,12 @@
       <MemberSignature Language="C#" Value="public static readonly Microsoft.Azure.Search.Models.DataType String;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Azure.Search.Models.DataType String" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Search.Models.DataType.String" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly String As DataType " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
-        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Search.Models.DataType</ReturnType>

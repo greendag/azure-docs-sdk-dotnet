@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public class ContentSummaryResult" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ContentSummaryResult extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.DataLake.Store.Models.ContentSummaryResult" />
+  <TypeSignature Language="VB.NET" Value="Public Class ContentSummaryResult" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.DataLake.Store</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -21,10 +22,11 @@
       <MemberSignature Language="C#" Value="public ContentSummaryResult ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataLake.Store.Models.ContentSummaryResult.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataLake.Store</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -40,8 +42,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataLake.Store.Models.ContentSummaryResult.#ctor(Microsoft.Azure.Management.DataLake.Store.Models.ContentSummary)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataLake.Store</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="contentSummary" Type="Microsoft.Azure.Management.DataLake.Store.Models.ContentSummary" />
@@ -59,10 +61,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.DataLake.Store.Models.ContentSummary ContentSummary { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.DataLake.Store.Models.ContentSummary ContentSummary" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataLake.Store.Models.ContentSummaryResult.ContentSummary" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContentSummary As ContentSummary" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataLake.Store</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>

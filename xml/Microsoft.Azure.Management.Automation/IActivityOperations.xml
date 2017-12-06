@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public interface IActivityOperations" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IActivityOperations" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Automation.IActivityOperations" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IActivityOperations" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -18,8 +19,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Automation.IActivityOperations.GetAsync(System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.ActivityGetResponse&gt;</ReturnType>
@@ -48,8 +49,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Automation.IActivityOperations.ListAsync(System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.ActivityListResponse&gt;</ReturnType>
@@ -76,8 +77,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Automation.IActivityOperations.ListNextAsync(System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.ActivityListResponse&gt;</ReturnType>

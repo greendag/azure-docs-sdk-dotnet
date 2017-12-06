@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public sealed class MessagingEntityAlreadyExistsException : Microsoft.ServiceBus.Messaging.MessagingException" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed beforefieldinit MessagingEntityAlreadyExistsException extends Microsoft.ServiceBus.Messaging.MessagingException" />
   <TypeSignature Language="DocId" Value="T:Microsoft.ServiceBus.Messaging.MessagingEntityAlreadyExistsException" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class MessagingEntityAlreadyExistsException&#xA;Inherits MessagingException" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.ServiceBus</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>
@@ -19,10 +20,11 @@
       <MemberSignature Language="C#" Value="public MessagingEntityAlreadyExistsException (string entityName);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string entityName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingEntityAlreadyExistsException.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (entityName As String)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="entityName" Type="System.String" />
@@ -40,8 +42,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingEntityAlreadyExistsException.#ctor(System.String,Microsoft.ServiceBus.Tracing.TrackingContext)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="entityName" Type="System.String" />
@@ -60,8 +62,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingEntityAlreadyExistsException.#ctor(System.String,Microsoft.ServiceBus.Tracing.TrackingContext,System.Exception)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="message" Type="System.String" />
@@ -80,10 +82,11 @@
       <MemberSignature Language="C#" Value="public override void GetObjectData (System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void GetObjectData(class System.Runtime.Serialization.SerializationInfo info, valuetype System.Runtime.Serialization.StreamingContext context) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingEntityAlreadyExistsException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub GetObjectData (info As SerializationInfo, context As StreamingContext)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>

@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public static class ImagesOperationsExtensions" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit ImagesOperationsExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Compute.Fluent.ImagesOperationsExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module ImagesOperationsExtensions" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
     <AssemblyVersion>1.0.0.60</AssemblyVersion>
@@ -21,10 +22,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Compute.Fluent.Models.ImageInner BeginCreateOrUpdate (this Microsoft.Azure.Management.Compute.Fluent.IImagesOperations operations, string resourceGroupName, string imageName, Microsoft.Azure.Management.Compute.Fluent.Models.ImageInner parameters);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Compute.Fluent.Models.ImageInner BeginCreateOrUpdate(class Microsoft.Azure.Management.Compute.Fluent.IImagesOperations operations, string resourceGroupName, string imageName, class Microsoft.Azure.Management.Compute.Fluent.Models.ImageInner parameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.ImagesOperationsExtensions.BeginCreateOrUpdate(Microsoft.Azure.Management.Compute.Fluent.IImagesOperations,System.String,System.String,Microsoft.Azure.Management.Compute.Fluent.Models.ImageInner)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginCreateOrUpdate (operations As IImagesOperations, resourceGroupName As String, imageName As String, parameters As ImageInner) As ImageInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Compute.Fluent.Models.ImageInner</ReturnType>
@@ -61,8 +63,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.ImagesOperationsExtensions.BeginCreateOrUpdateAsync(Microsoft.Azure.Management.Compute.Fluent.IImagesOperations,System.String,System.String,Microsoft.Azure.Management.Compute.Fluent.Models.ImageInner,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -106,10 +108,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Compute.Fluent.Models.OperationStatusResponseInner BeginDelete (this Microsoft.Azure.Management.Compute.Fluent.IImagesOperations operations, string resourceGroupName, string imageName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Compute.Fluent.Models.OperationStatusResponseInner BeginDelete(class Microsoft.Azure.Management.Compute.Fluent.IImagesOperations operations, string resourceGroupName, string imageName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.ImagesOperationsExtensions.BeginDelete(Microsoft.Azure.Management.Compute.Fluent.IImagesOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginDelete (operations As IImagesOperations, resourceGroupName As String, imageName As String) As OperationStatusResponseInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Compute.Fluent.Models.OperationStatusResponseInner</ReturnType>
@@ -142,8 +145,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.ImagesOperationsExtensions.BeginDeleteAsync(Microsoft.Azure.Management.Compute.Fluent.IImagesOperations,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -183,10 +186,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Compute.Fluent.Models.ImageInner CreateOrUpdate (this Microsoft.Azure.Management.Compute.Fluent.IImagesOperations operations, string resourceGroupName, string imageName, Microsoft.Azure.Management.Compute.Fluent.Models.ImageInner parameters);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Compute.Fluent.Models.ImageInner CreateOrUpdate(class Microsoft.Azure.Management.Compute.Fluent.IImagesOperations operations, string resourceGroupName, string imageName, class Microsoft.Azure.Management.Compute.Fluent.Models.ImageInner parameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.ImagesOperationsExtensions.CreateOrUpdate(Microsoft.Azure.Management.Compute.Fluent.IImagesOperations,System.String,System.String,Microsoft.Azure.Management.Compute.Fluent.Models.ImageInner)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function CreateOrUpdate (operations As IImagesOperations, resourceGroupName As String, imageName As String, parameters As ImageInner) As ImageInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Compute.Fluent.Models.ImageInner</ReturnType>
@@ -223,8 +227,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.ImagesOperationsExtensions.CreateOrUpdateAsync(Microsoft.Azure.Management.Compute.Fluent.IImagesOperations,System.String,System.String,Microsoft.Azure.Management.Compute.Fluent.Models.ImageInner,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -268,10 +272,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Compute.Fluent.Models.OperationStatusResponseInner Delete (this Microsoft.Azure.Management.Compute.Fluent.IImagesOperations operations, string resourceGroupName, string imageName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Compute.Fluent.Models.OperationStatusResponseInner Delete(class Microsoft.Azure.Management.Compute.Fluent.IImagesOperations operations, string resourceGroupName, string imageName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.ImagesOperationsExtensions.Delete(Microsoft.Azure.Management.Compute.Fluent.IImagesOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Delete (operations As IImagesOperations, resourceGroupName As String, imageName As String) As OperationStatusResponseInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Compute.Fluent.Models.OperationStatusResponseInner</ReturnType>
@@ -304,8 +309,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.ImagesOperationsExtensions.DeleteAsync(Microsoft.Azure.Management.Compute.Fluent.IImagesOperations,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -345,10 +350,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Compute.Fluent.Models.ImageInner Get (this Microsoft.Azure.Management.Compute.Fluent.IImagesOperations operations, string resourceGroupName, string imageName, string expand = null);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Compute.Fluent.Models.ImageInner Get(class Microsoft.Azure.Management.Compute.Fluent.IImagesOperations operations, string resourceGroupName, string imageName, string expand) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.ImagesOperationsExtensions.Get(Microsoft.Azure.Management.Compute.Fluent.IImagesOperations,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Get (operations As IImagesOperations, resourceGroupName As String, imageName As String, Optional expand As String = null) As ImageInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Compute.Fluent.Models.ImageInner</ReturnType>
@@ -385,8 +391,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.ImagesOperationsExtensions.GetAsync(Microsoft.Azure.Management.Compute.Fluent.IImagesOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -430,10 +436,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Compute.Fluent.Models.ImageInner&gt; List (this Microsoft.Azure.Management.Compute.Fluent.IImagesOperations operations);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Compute.Fluent.Models.ImageInner&gt; List(class Microsoft.Azure.Management.Compute.Fluent.IImagesOperations operations) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.ImagesOperationsExtensions.List(Microsoft.Azure.Management.Compute.Fluent.IImagesOperations)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function List (operations As IImagesOperations) As IPage(Of ImageInner)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Compute.Fluent.Models.ImageInner&gt;</ReturnType>
@@ -460,8 +467,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.ImagesOperationsExtensions.ListAsync(Microsoft.Azure.Management.Compute.Fluent.IImagesOperations,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -495,10 +502,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Compute.Fluent.Models.ImageInner&gt; ListByResourceGroup (this Microsoft.Azure.Management.Compute.Fluent.IImagesOperations operations, string resourceGroupName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Compute.Fluent.Models.ImageInner&gt; ListByResourceGroup(class Microsoft.Azure.Management.Compute.Fluent.IImagesOperations operations, string resourceGroupName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.ImagesOperationsExtensions.ListByResourceGroup(Microsoft.Azure.Management.Compute.Fluent.IImagesOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListByResourceGroup (operations As IImagesOperations, resourceGroupName As String) As IPage(Of ImageInner)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Compute.Fluent.Models.ImageInner&gt;</ReturnType>
@@ -527,8 +535,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.ImagesOperationsExtensions.ListByResourceGroupAsync(Microsoft.Azure.Management.Compute.Fluent.IImagesOperations,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -564,10 +572,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Compute.Fluent.Models.ImageInner&gt; ListByResourceGroupNext (this Microsoft.Azure.Management.Compute.Fluent.IImagesOperations operations, string nextPageLink);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Compute.Fluent.Models.ImageInner&gt; ListByResourceGroupNext(class Microsoft.Azure.Management.Compute.Fluent.IImagesOperations operations, string nextPageLink) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.ImagesOperationsExtensions.ListByResourceGroupNext(Microsoft.Azure.Management.Compute.Fluent.IImagesOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListByResourceGroupNext (operations As IImagesOperations, nextPageLink As String) As IPage(Of ImageInner)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Compute.Fluent.Models.ImageInner&gt;</ReturnType>
@@ -596,8 +605,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.ImagesOperationsExtensions.ListByResourceGroupNextAsync(Microsoft.Azure.Management.Compute.Fluent.IImagesOperations,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -633,10 +642,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Compute.Fluent.Models.ImageInner&gt; ListNext (this Microsoft.Azure.Management.Compute.Fluent.IImagesOperations operations, string nextPageLink);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Compute.Fluent.Models.ImageInner&gt; ListNext(class Microsoft.Azure.Management.Compute.Fluent.IImagesOperations operations, string nextPageLink) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.ImagesOperationsExtensions.ListNext(Microsoft.Azure.Management.Compute.Fluent.IImagesOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListNext (operations As IImagesOperations, nextPageLink As String) As IPage(Of ImageInner)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Compute.Fluent.Models.ImageInner&gt;</ReturnType>
@@ -667,8 +677,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.ImagesOperationsExtensions.ListNextAsync(Microsoft.Azure.Management.Compute.Fluent.IImagesOperations,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>

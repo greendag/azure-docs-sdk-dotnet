@@ -2,12 +2,11 @@
   <TypeSignature Language="C#" Value="public class TaskInformation" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TaskInformation extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Batch.Protocol.Models.TaskInformation" />
+  <TypeSignature Language="VB.NET" Value="Public Class TaskInformation" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-    <AssemblyVersion>6.1.0.0</AssemblyVersion>
-    <AssemblyVersion>7.0.0.0</AssemblyVersion>
-    <AssemblyVersion>7.0.1.0</AssemblyVersion>
     <AssemblyVersion>7.1.0.0</AssemblyVersion>
+    <AssemblyVersion>8.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -24,13 +23,12 @@
       <MemberSignature Language="C#" Value="public TaskInformation ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Batch.Protocol.Models.TaskInformation.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -47,10 +45,8 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="taskState" Type="Microsoft.Azure.Batch.Protocol.Models.TaskState" />
@@ -80,13 +76,12 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Batch.Protocol.Models.TaskExecutionInformation ExecutionInfo { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Batch.Protocol.Models.TaskExecutionInformation ExecutionInfo" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Batch.Protocol.Models.TaskInformation.ExecutionInfo" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExecutionInfo As TaskExecutionInformation" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -108,13 +103,12 @@
       <MemberSignature Language="C#" Value="public string JobId { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string JobId" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Batch.Protocol.Models.TaskInformation.JobId" />
+      <MemberSignature Language="VB.NET" Value="Public Property JobId As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -136,13 +130,12 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; SubtaskId { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; SubtaskId" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Batch.Protocol.Models.TaskInformation.SubtaskId" />
+      <MemberSignature Language="VB.NET" Value="Public Property SubtaskId As Nullable(Of Integer)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -165,13 +158,12 @@
       <MemberSignature Language="C#" Value="public string TaskId { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string TaskId" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Batch.Protocol.Models.TaskInformation.TaskId" />
+      <MemberSignature Language="VB.NET" Value="Public Property TaskId As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -193,13 +185,12 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Batch.Protocol.Models.TaskState TaskState { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Azure.Batch.Protocol.Models.TaskState TaskState" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Batch.Protocol.Models.TaskInformation.TaskState" />
+      <MemberSignature Language="VB.NET" Value="Public Property TaskState As TaskState" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -224,13 +215,12 @@
       <MemberSignature Language="C#" Value="public string TaskUrl { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string TaskUrl" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Batch.Protocol.Models.TaskInformation.TaskUrl" />
+      <MemberSignature Language="VB.NET" Value="Public Property TaskUrl As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -252,13 +242,12 @@
       <MemberSignature Language="C#" Value="public virtual void Validate ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Validate() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Batch.Protocol.Models.TaskInformation.Validate" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub Validate ()" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>

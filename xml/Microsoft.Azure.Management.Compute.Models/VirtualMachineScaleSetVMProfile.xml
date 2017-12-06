@@ -2,9 +2,9 @@
   <TypeSignature Language="C#" Value="public class VirtualMachineScaleSetVMProfile" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit VirtualMachineScaleSetVMProfile extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Compute.Models.VirtualMachineScaleSetVMProfile" />
+  <TypeSignature Language="VB.NET" Value="Public Class VirtualMachineScaleSetVMProfile" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-    <AssemblyVersion>14.0.0.0</AssemblyVersion>
     <AssemblyVersion>16.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
@@ -22,45 +22,14 @@
       <MemberSignature Language="C#" Value="public VirtualMachineScaleSetVMProfile ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Models.VirtualMachineScaleSetVMProfile.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>
-            Initializes a new instance of the VirtualMachineScaleSetVMProfile
-            class.
-            </summary>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public VirtualMachineScaleSetVMProfile (Microsoft.Azure.Management.Compute.Models.VirtualMachineScaleSetOSProfile osProfile = null, Microsoft.Azure.Management.Compute.Models.VirtualMachineScaleSetStorageProfile storageProfile = null, Microsoft.Azure.Management.Compute.Models.VirtualMachineScaleSetNetworkProfile networkProfile = null, Microsoft.Azure.Management.Compute.Models.VirtualMachineScaleSetExtensionProfile extensionProfile = null);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Azure.Management.Compute.Models.VirtualMachineScaleSetOSProfile osProfile, class Microsoft.Azure.Management.Compute.Models.VirtualMachineScaleSetStorageProfile storageProfile, class Microsoft.Azure.Management.Compute.Models.VirtualMachineScaleSetNetworkProfile networkProfile, class Microsoft.Azure.Management.Compute.Models.VirtualMachineScaleSetExtensionProfile extensionProfile) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Models.VirtualMachineScaleSetVMProfile.#ctor(Microsoft.Azure.Management.Compute.Models.VirtualMachineScaleSetOSProfile,Microsoft.Azure.Management.Compute.Models.VirtualMachineScaleSetStorageProfile,Microsoft.Azure.Management.Compute.Models.VirtualMachineScaleSetNetworkProfile,Microsoft.Azure.Management.Compute.Models.VirtualMachineScaleSetExtensionProfile)" />
-      <MemberType>Constructor</MemberType>
-      <AssemblyInfo>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
-        <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-      </AssemblyInfo>
-      <Parameters>
-        <Parameter Name="osProfile" Type="Microsoft.Azure.Management.Compute.Models.VirtualMachineScaleSetOSProfile" />
-        <Parameter Name="storageProfile" Type="Microsoft.Azure.Management.Compute.Models.VirtualMachineScaleSetStorageProfile" />
-        <Parameter Name="networkProfile" Type="Microsoft.Azure.Management.Compute.Models.VirtualMachineScaleSetNetworkProfile" />
-        <Parameter Name="extensionProfile" Type="Microsoft.Azure.Management.Compute.Models.VirtualMachineScaleSetExtensionProfile" />
-      </Parameters>
-      <Docs>
-        <param name="osProfile">The virtual machine scale set OS
-            profile.</param>
-        <param name="storageProfile">The virtual machine scale set storage
-            profile.</param>
-        <param name="networkProfile">The virtual machine scale set network
-            profile.</param>
-        <param name="extensionProfile">The virtual machine scale set
-            extension profile.</param>
         <summary>
             Initializes a new instance of the VirtualMachineScaleSetVMProfile
             class.
@@ -109,6 +78,7 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.Compute.Models.DiagnosticsProfile DiagnosticsProfile { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.Compute.Models.DiagnosticsProfile DiagnosticsProfile" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Compute.Models.VirtualMachineScaleSetVMProfile.DiagnosticsProfile" />
+      <MemberSignature Language="VB.NET" Value="Public Property DiagnosticsProfile As DiagnosticsProfile" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
@@ -134,10 +104,10 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.Compute.Models.VirtualMachineScaleSetExtensionProfile ExtensionProfile { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.Compute.Models.VirtualMachineScaleSetExtensionProfile ExtensionProfile" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Compute.Models.VirtualMachineScaleSetVMProfile.ExtensionProfile" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExtensionProfile As VirtualMachineScaleSetExtensionProfile" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -160,6 +130,7 @@
       <MemberSignature Language="C#" Value="public string LicenseType { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string LicenseType" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Compute.Models.VirtualMachineScaleSetVMProfile.LicenseType" />
+      <MemberSignature Language="VB.NET" Value="Public Property LicenseType As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
@@ -186,10 +157,10 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.Compute.Models.VirtualMachineScaleSetNetworkProfile NetworkProfile { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.Compute.Models.VirtualMachineScaleSetNetworkProfile NetworkProfile" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Compute.Models.VirtualMachineScaleSetVMProfile.NetworkProfile" />
+      <MemberSignature Language="VB.NET" Value="Public Property NetworkProfile As VirtualMachineScaleSetNetworkProfile" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -212,10 +183,10 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.Compute.Models.VirtualMachineScaleSetOSProfile OsProfile { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.Compute.Models.VirtualMachineScaleSetOSProfile OsProfile" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Compute.Models.VirtualMachineScaleSetVMProfile.OsProfile" />
+      <MemberSignature Language="VB.NET" Value="Public Property OsProfile As VirtualMachineScaleSetOSProfile" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -238,10 +209,10 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.Compute.Models.VirtualMachineScaleSetStorageProfile StorageProfile { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.Compute.Models.VirtualMachineScaleSetStorageProfile StorageProfile" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Compute.Models.VirtualMachineScaleSetVMProfile.StorageProfile" />
+      <MemberSignature Language="VB.NET" Value="Public Property StorageProfile As VirtualMachineScaleSetStorageProfile" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -264,10 +235,10 @@
       <MemberSignature Language="C#" Value="public virtual void Validate ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Validate() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Models.VirtualMachineScaleSetVMProfile.Validate" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub Validate ()" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

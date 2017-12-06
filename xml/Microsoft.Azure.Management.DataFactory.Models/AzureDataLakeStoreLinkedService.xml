@@ -2,9 +2,10 @@
   <TypeSignature Language="C#" Value="public class AzureDataLakeStoreLinkedService : Microsoft.Azure.Management.DataFactory.Models.LinkedService" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AzureDataLakeStoreLinkedService extends Microsoft.Azure.Management.DataFactory.Models.LinkedService" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.DataFactory.Models.AzureDataLakeStoreLinkedService" />
+  <TypeSignature Language="VB.NET" Value="Public Class AzureDataLakeStoreLinkedService&#xA;Inherits LinkedService" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+    <AssemblyVersion>0.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Microsoft.Azure.Management.DataFactory.Models.LinkedService</BaseTypeName>
@@ -29,10 +30,11 @@
       <MemberSignature Language="C#" Value="public AzureDataLakeStoreLinkedService ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataFactory.Models.AzureDataLakeStoreLinkedService.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -47,10 +49,11 @@
       <MemberSignature Language="C#" Value="public AzureDataLakeStoreLinkedService (object dataLakeStoreUri, Microsoft.Azure.Management.DataFactory.Models.IntegrationRuntimeReference connectVia = null, string description = null, object servicePrincipalId = null, Microsoft.Azure.Management.DataFactory.Models.SecureString servicePrincipalKey = null, object tenant = null, object accountName = null, object subscriptionId = null, object resourceGroupName = null, object encryptedCredential = null);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(object dataLakeStoreUri, class Microsoft.Azure.Management.DataFactory.Models.IntegrationRuntimeReference connectVia, string description, object servicePrincipalId, class Microsoft.Azure.Management.DataFactory.Models.SecureString servicePrincipalKey, object tenant, object accountName, object subscriptionId, object resourceGroupName, object encryptedCredential) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataFactory.Models.AzureDataLakeStoreLinkedService.#ctor(System.Object,Microsoft.Azure.Management.DataFactory.Models.IntegrationRuntimeReference,System.String,System.Object,Microsoft.Azure.Management.DataFactory.Models.SecureString,System.Object,System.Object,System.Object,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (dataLakeStoreUri As Object, Optional connectVia As IntegrationRuntimeReference = null, Optional description As String = null, Optional servicePrincipalId As Object = null, Optional servicePrincipalKey As SecureString = null, Optional tenant As Object = null, Optional accountName As Object = null, Optional subscriptionId As Object = null, Optional resourceGroupName As Object = null, Optional encryptedCredential As Object = null)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="dataLakeStoreUri" Type="System.Object" />
@@ -100,10 +103,11 @@
       <MemberSignature Language="C#" Value="public object AccountName { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object AccountName" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactory.Models.AzureDataLakeStoreLinkedService.AccountName" />
+      <MemberSignature Language="VB.NET" Value="Public Property AccountName As Object" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -126,10 +130,11 @@
       <MemberSignature Language="C#" Value="public object DataLakeStoreUri { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object DataLakeStoreUri" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactory.Models.AzureDataLakeStoreLinkedService.DataLakeStoreUri" />
+      <MemberSignature Language="VB.NET" Value="Public Property DataLakeStoreUri As Object" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -152,10 +157,11 @@
       <MemberSignature Language="C#" Value="public object EncryptedCredential { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object EncryptedCredential" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactory.Models.AzureDataLakeStoreLinkedService.EncryptedCredential" />
+      <MemberSignature Language="VB.NET" Value="Public Property EncryptedCredential As Object" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -179,10 +185,11 @@
       <MemberSignature Language="C#" Value="public object ResourceGroupName { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object ResourceGroupName" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactory.Models.AzureDataLakeStoreLinkedService.ResourceGroupName" />
+      <MemberSignature Language="VB.NET" Value="Public Property ResourceGroupName As Object" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -206,10 +213,11 @@
       <MemberSignature Language="C#" Value="public object ServicePrincipalId { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object ServicePrincipalId" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactory.Models.AzureDataLakeStoreLinkedService.ServicePrincipalId" />
+      <MemberSignature Language="VB.NET" Value="Public Property ServicePrincipalId As Object" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -233,10 +241,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.DataFactory.Models.SecureString ServicePrincipalKey { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.DataFactory.Models.SecureString ServicePrincipalKey" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactory.Models.AzureDataLakeStoreLinkedService.ServicePrincipalKey" />
+      <MemberSignature Language="VB.NET" Value="Public Property ServicePrincipalKey As SecureString" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -259,10 +268,11 @@
       <MemberSignature Language="C#" Value="public object SubscriptionId { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object SubscriptionId" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactory.Models.AzureDataLakeStoreLinkedService.SubscriptionId" />
+      <MemberSignature Language="VB.NET" Value="Public Property SubscriptionId As Object" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -286,10 +296,11 @@
       <MemberSignature Language="C#" Value="public object Tenant { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object Tenant" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactory.Models.AzureDataLakeStoreLinkedService.Tenant" />
+      <MemberSignature Language="VB.NET" Value="Public Property Tenant As Object" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -313,10 +324,11 @@
       <MemberSignature Language="C#" Value="public override void Validate ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void Validate() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataFactory.Models.AzureDataLakeStoreLinkedService.Validate" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub Validate ()" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>

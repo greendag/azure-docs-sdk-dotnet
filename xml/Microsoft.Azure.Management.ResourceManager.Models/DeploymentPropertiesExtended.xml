@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public class DeploymentPropertiesExtended" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DeploymentPropertiesExtended extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.ResourceManager.Models.DeploymentPropertiesExtended" />
+  <TypeSignature Language="VB.NET" Value="Public Class DeploymentPropertiesExtended" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -21,10 +22,11 @@
       <MemberSignature Language="C#" Value="public DeploymentPropertiesExtended ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.Models.DeploymentPropertiesExtended.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -41,8 +43,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.Models.DeploymentPropertiesExtended.#ctor(System.String,System.String,System.Nullable{System.DateTime},System.Object,System.Collections.Generic.IList{Microsoft.Azure.Management.ResourceManager.Models.Provider},System.Collections.Generic.IList{Microsoft.Azure.Management.ResourceManager.Models.Dependency},System.Object,Microsoft.Azure.Management.ResourceManager.Models.TemplateLink,System.Object,Microsoft.Azure.Management.ResourceManager.Models.ParametersLink,System.Nullable{Microsoft.Azure.Management.ResourceManager.Models.DeploymentMode},Microsoft.Azure.Management.ResourceManager.Models.DebugSetting)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="provisioningState" Type="System.String" />
@@ -95,10 +97,11 @@
       <MemberSignature Language="C#" Value="public string CorrelationId { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string CorrelationId" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.ResourceManager.Models.DeploymentPropertiesExtended.CorrelationId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CorrelationId As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -120,10 +123,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.ResourceManager.Models.DebugSetting DebugSetting { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.ResourceManager.Models.DebugSetting DebugSetting" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.ResourceManager.Models.DeploymentPropertiesExtended.DebugSetting" />
+      <MemberSignature Language="VB.NET" Value="Public Property DebugSetting As DebugSetting" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -145,10 +149,11 @@
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.Management.ResourceManager.Models.Dependency&gt; Dependencies { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.ResourceManager.Models.Dependency&gt; Dependencies" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.ResourceManager.Models.DeploymentPropertiesExtended.Dependencies" />
+      <MemberSignature Language="VB.NET" Value="Public Property Dependencies As IList(Of Dependency)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -170,10 +175,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Azure.Management.ResourceManager.Models.DeploymentMode&gt; Mode { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Azure.Management.ResourceManager.Models.DeploymentMode&gt; Mode" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.ResourceManager.Models.DeploymentPropertiesExtended.Mode" />
+      <MemberSignature Language="VB.NET" Value="Public Property Mode As Nullable(Of DeploymentMode)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -196,10 +202,11 @@
       <MemberSignature Language="C#" Value="public object Outputs { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object Outputs" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.ResourceManager.Models.DeploymentPropertiesExtended.Outputs" />
+      <MemberSignature Language="VB.NET" Value="Public Property Outputs As Object" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -221,10 +228,11 @@
       <MemberSignature Language="C#" Value="public object Parameters { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object Parameters" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.ResourceManager.Models.DeploymentPropertiesExtended.Parameters" />
+      <MemberSignature Language="VB.NET" Value="Public Property Parameters As Object" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -247,10 +255,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.ResourceManager.Models.ParametersLink ParametersLink { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.ResourceManager.Models.ParametersLink ParametersLink" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.ResourceManager.Models.DeploymentPropertiesExtended.ParametersLink" />
+      <MemberSignature Language="VB.NET" Value="Public Property ParametersLink As ParametersLink" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -273,10 +282,11 @@
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.Management.ResourceManager.Models.Provider&gt; Providers { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.ResourceManager.Models.Provider&gt; Providers" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.ResourceManager.Models.DeploymentPropertiesExtended.Providers" />
+      <MemberSignature Language="VB.NET" Value="Public Property Providers As IList(Of Provider)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -299,10 +309,11 @@
       <MemberSignature Language="C#" Value="public string ProvisioningState { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string ProvisioningState" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.ResourceManager.Models.DeploymentPropertiesExtended.ProvisioningState" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProvisioningState As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -324,10 +335,11 @@
       <MemberSignature Language="C#" Value="public object Template { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object Template" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.ResourceManager.Models.DeploymentPropertiesExtended.Template" />
+      <MemberSignature Language="VB.NET" Value="Public Property Template As Object" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -350,10 +362,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.ResourceManager.Models.TemplateLink TemplateLink { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.ResourceManager.Models.TemplateLink TemplateLink" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.ResourceManager.Models.DeploymentPropertiesExtended.TemplateLink" />
+      <MemberSignature Language="VB.NET" Value="Public Property TemplateLink As TemplateLink" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -376,10 +389,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; Timestamp { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; Timestamp" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.ResourceManager.Models.DeploymentPropertiesExtended.Timestamp" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Timestamp As Nullable(Of DateTime)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -401,10 +415,11 @@
       <MemberSignature Language="C#" Value="public virtual void Validate ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Validate() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.Models.DeploymentPropertiesExtended.Validate" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub Validate ()" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>

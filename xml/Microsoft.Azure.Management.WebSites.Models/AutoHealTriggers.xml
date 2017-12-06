@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public class AutoHealTriggers" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AutoHealTriggers extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.WebSites.Models.AutoHealTriggers" />
+  <TypeSignature Language="VB.NET" Value="Public Class AutoHealTriggers" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -11,9 +12,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-            Triggers for auto-heal.
-            </summary>
+    <summary>To be added.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -21,16 +20,15 @@
       <MemberSignature Language="C#" Value="public AutoHealTriggers ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.Models.AutoHealTriggers.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>
-            Initializes a new instance of the AutoHealTriggers class.
-            </summary>
+        <summary>To be added.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -38,10 +36,11 @@
       <MemberSignature Language="C#" Value="public AutoHealTriggers (Microsoft.Azure.Management.WebSites.Models.RequestsBasedTrigger requests = null, Nullable&lt;int&gt; privateBytesInKB = null, System.Collections.Generic.IList&lt;Microsoft.Azure.Management.WebSites.Models.StatusCodesBasedTrigger&gt; statusCodes = null, Microsoft.Azure.Management.WebSites.Models.SlowRequestsBasedTrigger slowRequests = null);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Azure.Management.WebSites.Models.RequestsBasedTrigger requests, valuetype System.Nullable`1&lt;int32&gt; privateBytesInKB, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.WebSites.Models.StatusCodesBasedTrigger&gt; statusCodes, class Microsoft.Azure.Management.WebSites.Models.SlowRequestsBasedTrigger slowRequests) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.Models.AutoHealTriggers.#ctor(Microsoft.Azure.Management.WebSites.Models.RequestsBasedTrigger,System.Nullable{System.Int32},System.Collections.Generic.IList{Microsoft.Azure.Management.WebSites.Models.StatusCodesBasedTrigger},Microsoft.Azure.Management.WebSites.Models.SlowRequestsBasedTrigger)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (Optional requests As RequestsBasedTrigger = null, Optional privateBytesInKB As Nullable(Of Integer) = null, Optional statusCodes As IList(Of StatusCodesBasedTrigger) = null, Optional slowRequests As SlowRequestsBasedTrigger = null)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="requests" Type="Microsoft.Azure.Management.WebSites.Models.RequestsBasedTrigger" />
@@ -50,15 +49,11 @@
         <Parameter Name="slowRequests" Type="Microsoft.Azure.Management.WebSites.Models.SlowRequestsBasedTrigger" />
       </Parameters>
       <Docs>
-        <param name="requests">A rule based on total requests.</param>
-        <param name="privateBytesInKB">A rule based on private
-            bytes.</param>
-        <param name="statusCodes">A rule based on status codes.</param>
-        <param name="slowRequests">A rule based on request execution
-            time.</param>
-        <summary>
-            Initializes a new instance of the AutoHealTriggers class.
-            </summary>
+        <param name="requests">To be added.</param>
+        <param name="privateBytesInKB">To be added.</param>
+        <param name="statusCodes">To be added.</param>
+        <param name="slowRequests">To be added.</param>
+        <summary>To be added.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -66,10 +61,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; PrivateBytesInKB { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; PrivateBytesInKB" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.WebSites.Models.AutoHealTriggers.PrivateBytesInKB" />
+      <MemberSignature Language="VB.NET" Value="Public Property PrivateBytesInKB As Nullable(Of Integer)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -80,9 +76,7 @@
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-            Gets or sets a rule based on private bytes.
-            </summary>
+        <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -91,10 +85,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.WebSites.Models.RequestsBasedTrigger Requests { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.WebSites.Models.RequestsBasedTrigger Requests" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.WebSites.Models.AutoHealTriggers.Requests" />
+      <MemberSignature Language="VB.NET" Value="Public Property Requests As RequestsBasedTrigger" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -105,9 +100,7 @@
         <ReturnType>Microsoft.Azure.Management.WebSites.Models.RequestsBasedTrigger</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-            Gets or sets a rule based on total requests.
-            </summary>
+        <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -116,10 +109,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.WebSites.Models.SlowRequestsBasedTrigger SlowRequests { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.WebSites.Models.SlowRequestsBasedTrigger SlowRequests" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.WebSites.Models.AutoHealTriggers.SlowRequests" />
+      <MemberSignature Language="VB.NET" Value="Public Property SlowRequests As SlowRequestsBasedTrigger" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -130,9 +124,7 @@
         <ReturnType>Microsoft.Azure.Management.WebSites.Models.SlowRequestsBasedTrigger</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-            Gets or sets a rule based on request execution time.
-            </summary>
+        <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -141,10 +133,11 @@
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.Management.WebSites.Models.StatusCodesBasedTrigger&gt; StatusCodes { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.WebSites.Models.StatusCodesBasedTrigger&gt; StatusCodes" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.WebSites.Models.AutoHealTriggers.StatusCodes" />
+      <MemberSignature Language="VB.NET" Value="Public Property StatusCodes As IList(Of StatusCodesBasedTrigger)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -155,9 +148,7 @@
         <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Azure.Management.WebSites.Models.StatusCodesBasedTrigger&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-            Gets or sets a rule based on status codes.
-            </summary>
+        <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

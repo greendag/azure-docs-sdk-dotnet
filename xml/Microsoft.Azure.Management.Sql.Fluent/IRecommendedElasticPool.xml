@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public interface IRecommendedElasticPool : Microsoft.Azure.Management.ResourceManager.Fluent.Core.IHasId, Microsoft.Azure.Management.ResourceManager.Fluent.Core.IHasInner&lt;Microsoft.Azure.Management.Sql.Fluent.Models.RecommendedElasticPoolInner&gt;, Microsoft.Azure.Management.ResourceManager.Fluent.Core.IHasManager&lt;Microsoft.Azure.Management.Sql.Fluent.ISqlManager&gt;, Microsoft.Azure.Management.ResourceManager.Fluent.Core.IHasName, Microsoft.Azure.Management.ResourceManager.Fluent.Core.IHasResourceGroup, Microsoft.Azure.Management.ResourceManager.Fluent.Core.ResourceActions.IRefreshable&lt;Microsoft.Azure.Management.Sql.Fluent.IRecommendedElasticPool&gt;" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IRecommendedElasticPool implements class Microsoft.Azure.Management.ResourceManager.Fluent.Core.IHasId, class Microsoft.Azure.Management.ResourceManager.Fluent.Core.IHasInner`1&lt;class Microsoft.Azure.Management.Sql.Fluent.Models.RecommendedElasticPoolInner&gt;, class Microsoft.Azure.Management.ResourceManager.Fluent.Core.IHasManager`1&lt;class Microsoft.Azure.Management.Sql.Fluent.ISqlManager&gt;, class Microsoft.Azure.Management.ResourceManager.Fluent.Core.IHasName, class Microsoft.Azure.Management.ResourceManager.Fluent.Core.IHasResourceGroup, class Microsoft.Azure.Management.ResourceManager.Fluent.Core.ResourceActions.IRefreshable`1&lt;class Microsoft.Azure.Management.Sql.Fluent.IRecommendedElasticPool&gt;" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Sql.Fluent.IRecommendedElasticPool" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IRecommendedElasticPool&#xA;Implements IHasId, IHasInner(Of RecommendedElasticPoolInner), IHasManager(Of ISqlManager), IHasName, IHasResourceGroup, IRefreshable(Of IRecommendedElasticPool)" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
     <AssemblyVersion>1.0.0.60</AssemblyVersion>
@@ -37,10 +38,11 @@
       <MemberSignature Language="C#" Value="public double DatabaseDtuMax { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance float64 DatabaseDtuMax" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Sql.Fluent.IRecommendedElasticPool.DatabaseDtuMax" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DatabaseDtuMax As Double" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Double</ReturnType>
@@ -57,10 +59,11 @@
       <MemberSignature Language="C#" Value="public double DatabaseDtuMin { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance float64 DatabaseDtuMin" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Sql.Fluent.IRecommendedElasticPool.DatabaseDtuMin" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DatabaseDtuMin As Double" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Double</ReturnType>
@@ -77,10 +80,11 @@
       <MemberSignature Language="C#" Value="public string DatabaseEdition { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string DatabaseEdition" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Sql.Fluent.IRecommendedElasticPool.DatabaseEdition" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DatabaseEdition As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -96,16 +100,17 @@
       </Docs>
     </Member>
     <Member MemberName="Databases">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Sql.Fluent.ISqlDatabase&gt; Databases { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.Sql.Fluent.ISqlDatabase&gt; Databases" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Azure.Management.Sql.Fluent.ISqlDatabase&gt; Databases { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Azure.Management.Sql.Fluent.ISqlDatabase&gt; Databases" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Sql.Fluent.IRecommendedElasticPool.Databases" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Databases As IReadOnlyList(Of ISqlDatabase)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Sql.Fluent.ISqlDatabase&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Azure.Management.Sql.Fluent.ISqlDatabase&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
@@ -119,10 +124,11 @@
       <MemberSignature Language="C#" Value="public double Dtu { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance float64 Dtu" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Sql.Fluent.IRecommendedElasticPool.Dtu" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Dtu As Double" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Double</ReturnType>
@@ -139,10 +145,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.Sql.Fluent.ISqlDatabase GetDatabase (string databaseName);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Azure.Management.Sql.Fluent.ISqlDatabase GetDatabase(string databaseName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Sql.Fluent.IRecommendedElasticPool.GetDatabase(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetDatabase (databaseName As String) As ISqlDatabase" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Sql.Fluent.ISqlDatabase</ReturnType>
@@ -161,16 +168,17 @@
       </Docs>
     </Member>
     <Member MemberName="ListDatabases">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Sql.Fluent.ISqlDatabase&gt; ListDatabases ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.Sql.Fluent.ISqlDatabase&gt; ListDatabases() cil managed" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Azure.Management.Sql.Fluent.ISqlDatabase&gt; ListDatabases ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Azure.Management.Sql.Fluent.ISqlDatabase&gt; ListDatabases() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Sql.Fluent.IRecommendedElasticPool.ListDatabases" />
+      <MemberSignature Language="VB.NET" Value="Public Function ListDatabases () As IReadOnlyList(Of ISqlDatabase)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Sql.Fluent.ISqlDatabase&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Azure.Management.Sql.Fluent.ISqlDatabase&gt;</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
@@ -183,16 +191,17 @@
       </Docs>
     </Member>
     <Member MemberName="ListMetrics">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Sql.Fluent.IRecommendedElasticPoolMetric&gt; ListMetrics ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.Sql.Fluent.IRecommendedElasticPoolMetric&gt; ListMetrics() cil managed" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Azure.Management.Sql.Fluent.IRecommendedElasticPoolMetric&gt; ListMetrics ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Azure.Management.Sql.Fluent.IRecommendedElasticPoolMetric&gt; ListMetrics() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Sql.Fluent.IRecommendedElasticPool.ListMetrics" />
+      <MemberSignature Language="VB.NET" Value="Public Function ListMetrics () As IReadOnlyList(Of IRecommendedElasticPoolMetric)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Sql.Fluent.IRecommendedElasticPoolMetric&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Azure.Management.Sql.Fluent.IRecommendedElasticPoolMetric&gt;</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
@@ -208,10 +217,11 @@
       <MemberSignature Language="C#" Value="public double MaxObservedDtu { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance float64 MaxObservedDtu" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Sql.Fluent.IRecommendedElasticPool.MaxObservedDtu" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MaxObservedDtu As Double" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Double</ReturnType>
@@ -228,10 +238,11 @@
       <MemberSignature Language="C#" Value="public double MaxObservedStorageMB { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance float64 MaxObservedStorageMB" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Sql.Fluent.IRecommendedElasticPool.MaxObservedStorageMB" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MaxObservedStorageMB As Double" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Double</ReturnType>
@@ -248,10 +259,11 @@
       <MemberSignature Language="C#" Value="public DateTime ObservationPeriodEnd { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime ObservationPeriodEnd" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Sql.Fluent.IRecommendedElasticPool.ObservationPeriodEnd" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ObservationPeriodEnd As DateTime" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.DateTime</ReturnType>
@@ -268,10 +280,11 @@
       <MemberSignature Language="C#" Value="public DateTime ObservationPeriodStart { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime ObservationPeriodStart" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Sql.Fluent.IRecommendedElasticPool.ObservationPeriodStart" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ObservationPeriodStart As DateTime" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.DateTime</ReturnType>
@@ -288,10 +301,11 @@
       <MemberSignature Language="C#" Value="public string SqlServerName { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string SqlServerName" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Sql.Fluent.IRecommendedElasticPool.SqlServerName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SqlServerName As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -308,10 +322,11 @@
       <MemberSignature Language="C#" Value="public double StorageMB { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance float64 StorageMB" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Sql.Fluent.IRecommendedElasticPool.StorageMB" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StorageMB As Double" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Double</ReturnType>

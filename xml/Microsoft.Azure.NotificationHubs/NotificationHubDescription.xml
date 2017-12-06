@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public sealed class NotificationHubDescription : Microsoft.Azure.NotificationHubs.Messaging.EntityDescription" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit NotificationHubDescription extends Microsoft.Azure.NotificationHubs.Messaging.EntityDescription" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.NotificationHubs.NotificationHubDescription" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class NotificationHubDescription&#xA;Inherits EntityDescription" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
     <AssemblyVersion>2.16.0.0</AssemblyVersion>
@@ -26,10 +27,11 @@
       <MemberSignature Language="C#" Value="public NotificationHubDescription (string path);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string path) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.NotificationHubs.NotificationHubDescription.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (path As String)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="path" Type="System.String" />
@@ -46,10 +48,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.NotificationHubs.AdmCredential AdmCredential { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.NotificationHubs.AdmCredential AdmCredential" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.NotificationHubs.NotificationHubDescription.AdmCredential" />
+      <MemberSignature Language="VB.NET" Value="Public Property AdmCredential As AdmCredential" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -73,10 +76,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.NotificationHubs.ApnsCredential ApnsCredential { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.NotificationHubs.ApnsCredential ApnsCredential" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.NotificationHubs.NotificationHubDescription.ApnsCredential" />
+      <MemberSignature Language="VB.NET" Value="Public Property ApnsCredential As ApnsCredential" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -100,10 +104,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.NotificationHubs.Messaging.AuthorizationRules Authorization { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.NotificationHubs.Messaging.AuthorizationRules Authorization" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.NotificationHubs.NotificationHubDescription.Authorization" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Authorization As AuthorizationRules" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.NotificationHubs.Messaging.AuthorizationRules</ReturnType>
@@ -122,10 +127,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.NotificationHubs.BaiduCredential BaiduCredential { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.NotificationHubs.BaiduCredential BaiduCredential" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.NotificationHubs.NotificationHubDescription.BaiduCredential" />
+      <MemberSignature Language="VB.NET" Value="Public Property BaiduCredential As BaiduCredential" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -149,10 +155,11 @@
       <MemberSignature Language="C#" Value="public long DailyApiCalls { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int64 DailyApiCalls" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.NotificationHubs.NotificationHubDescription.DailyApiCalls" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DailyApiCalls As Long" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -176,10 +183,11 @@
       <MemberSignature Language="C#" Value="public long DailyMaxActiveDevices { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int64 DailyMaxActiveDevices" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.NotificationHubs.NotificationHubDescription.DailyMaxActiveDevices" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DailyMaxActiveDevices As Long" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -203,10 +211,11 @@
       <MemberSignature Language="C#" Value="public long DailyMaxActiveRegistrations { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int64 DailyMaxActiveRegistrations" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.NotificationHubs.NotificationHubDescription.DailyMaxActiveRegistrations" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DailyMaxActiveRegistrations As Long" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -230,10 +239,11 @@
       <MemberSignature Language="C#" Value="public long DailyOperations { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int64 DailyOperations" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.NotificationHubs.NotificationHubDescription.DailyOperations" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DailyOperations As Long" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -257,10 +267,11 @@
       <MemberSignature Language="C#" Value="public long DailyPushes { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int64 DailyPushes" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.NotificationHubs.NotificationHubDescription.DailyPushes" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DailyPushes As Long" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -284,10 +295,11 @@
       <MemberSignature Language="C#" Value="public const string DefaultFullSasRuleName;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string DefaultFullSasRuleName" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.NotificationHubs.NotificationHubDescription.DefaultFullSasRuleName" />
+      <MemberSignature Language="VB.NET" Value="Public Const DefaultFullSasRuleName As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -303,10 +315,11 @@
       <MemberSignature Language="C#" Value="public const string DefaultListenSasRuleName;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string DefaultListenSasRuleName" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.NotificationHubs.NotificationHubDescription.DefaultListenSasRuleName" />
+      <MemberSignature Language="VB.NET" Value="Public Const DefaultListenSasRuleName As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -322,10 +335,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.NotificationHubs.GcmCredential GcmCredential { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.NotificationHubs.GcmCredential GcmCredential" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.NotificationHubs.NotificationHubDescription.GcmCredential" />
+      <MemberSignature Language="VB.NET" Value="Public Property GcmCredential As GcmCredential" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -349,10 +363,11 @@
       <MemberSignature Language="C#" Value="public bool IsAnonymousAccessible { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool IsAnonymousAccessible" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.NotificationHubs.NotificationHubDescription.IsAnonymousAccessible" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsAnonymousAccessible As Boolean" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -371,10 +386,11 @@
       <MemberSignature Language="C#" Value="public bool IsDisabled { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool IsDisabled" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.NotificationHubs.NotificationHubDescription.IsDisabled" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsDisabled As Boolean" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -415,10 +431,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.NotificationHubs.MpnsCredential MpnsCredential { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.NotificationHubs.MpnsCredential MpnsCredential" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.NotificationHubs.NotificationHubDescription.MpnsCredential" />
+      <MemberSignature Language="VB.NET" Value="Public Property MpnsCredential As MpnsCredential" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -442,10 +459,11 @@
       <MemberSignature Language="C#" Value="public string Path { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Path" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.NotificationHubs.NotificationHubDescription.Path" />
+      <MemberSignature Language="VB.NET" Value="Public Property Path As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -464,10 +482,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;TimeSpan&gt; RegistrationTtl { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.TimeSpan&gt; RegistrationTtl" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.NotificationHubs.NotificationHubDescription.RegistrationTtl" />
+      <MemberSignature Language="VB.NET" Value="Public Property RegistrationTtl As Nullable(Of TimeSpan)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.TimeSpan&gt;</ReturnType>
@@ -486,10 +505,11 @@
       <MemberSignature Language="C#" Value="public void SetAccessPasswords (string fullAccessRuleName, string fullAccessPassword, string listenAccessRuleName, string listenAccessPassword);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetAccessPasswords(string fullAccessRuleName, string fullAccessPassword, string listenAccessRuleName, string listenAccessPassword) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.NotificationHubs.NotificationHubDescription.SetAccessPasswords(System.String,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetAccessPasswords (fullAccessRuleName As String, fullAccessPassword As String, listenAccessRuleName As String, listenAccessPassword As String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -524,10 +544,11 @@
       <MemberSignature Language="C#" Value="public void SetDefaultAccessPasswords (string fullAccessPassword, string listenAccessPassword);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetDefaultAccessPasswords(string fullAccessPassword, string listenAccessPassword) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.NotificationHubs.NotificationHubDescription.SetDefaultAccessPasswords(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetDefaultAccessPasswords (fullAccessPassword As String, listenAccessPassword As String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -554,10 +575,11 @@
       <MemberSignature Language="C#" Value="public string UserMetadata { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string UserMetadata" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.NotificationHubs.NotificationHubDescription.UserMetadata" />
+      <MemberSignature Language="VB.NET" Value="Public Property UserMetadata As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -576,10 +598,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.NotificationHubs.WnsCredential WnsCredential { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.NotificationHubs.WnsCredential WnsCredential" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.NotificationHubs.NotificationHubDescription.WnsCredential" />
+      <MemberSignature Language="VB.NET" Value="Public Property WnsCredential As WnsCredential" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>

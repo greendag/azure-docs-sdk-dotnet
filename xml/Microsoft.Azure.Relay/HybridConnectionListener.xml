@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public class HybridConnectionListener : Microsoft.Azure.Relay.IConnectionStatus" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit HybridConnectionListener extends System.Object implements class Microsoft.Azure.Relay.IConnectionStatus" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Relay.HybridConnectionListener" />
+  <TypeSignature Language="VB.NET" Value="Public Class HybridConnectionListener&#xA;Implements IConnectionStatus" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -25,10 +26,11 @@
       <MemberSignature Language="C#" Value="public HybridConnectionListener (string connectionString);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string connectionString) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Relay.HybridConnectionListener.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (connectionString As String)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="connectionString" Type="System.String" />
@@ -45,10 +47,11 @@
       <MemberSignature Language="C#" Value="public HybridConnectionListener (string connectionString, string path);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string connectionString, string path) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Relay.HybridConnectionListener.#ctor(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (connectionString As String, path As String)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="connectionString" Type="System.String" />
@@ -71,8 +74,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Relay.HybridConnectionListener.#ctor(System.Uri,Microsoft.Azure.Relay.TokenProvider)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="address" Type="System.Uri" />
@@ -92,10 +95,11 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Azure.Relay.HybridConnectionStream&gt; AcceptConnectionAsync ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Relay.HybridConnectionStream&gt; AcceptConnectionAsync() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Relay.HybridConnectionListener.AcceptConnectionAsync" />
+      <MemberSignature Language="VB.NET" Value="Public Function AcceptConnectionAsync () As Task(Of HybridConnectionStream)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Relay.HybridConnectionStream&gt;</ReturnType>
@@ -113,10 +117,11 @@
       <MemberSignature Language="C#" Value="public Func&lt;Microsoft.Azure.Relay.RelayedHttpListenerContext,System.Threading.Tasks.Task&lt;bool&gt;&gt; AcceptHandler { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Func`2&lt;class Microsoft.Azure.Relay.RelayedHttpListenerContext, class System.Threading.Tasks.Task`1&lt;bool&gt;&gt; AcceptHandler" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Relay.HybridConnectionListener.AcceptHandler" />
+      <MemberSignature Language="VB.NET" Value="Public Property AcceptHandler As Func(Of RelayedHttpListenerContext, Task(Of Boolean))" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Func&lt;Microsoft.Azure.Relay.RelayedHttpListenerContext,System.Threading.Tasks.Task&lt;System.Boolean&gt;&gt;</ReturnType>
@@ -135,10 +140,11 @@
       <MemberSignature Language="C#" Value="public Uri Address { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Uri Address" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Relay.HybridConnectionListener.Address" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Address As Uri" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Uri</ReturnType>
@@ -156,10 +162,11 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task CloseAsync ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task CloseAsync() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Relay.HybridConnectionListener.CloseAsync" />
+      <MemberSignature Language="VB.NET" Value="Public Function CloseAsync () As Task" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -180,8 +187,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Relay.HybridConnectionListener.CloseAsync(System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -207,10 +214,11 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task CloseAsync (TimeSpan timeout);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task CloseAsync(valuetype System.TimeSpan timeout) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Relay.HybridConnectionListener.CloseAsync(System.TimeSpan)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CloseAsync (timeout As TimeSpan) As Task" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -236,10 +244,11 @@
       <MemberSignature Language="C#" Value="public event EventHandler Connecting;" />
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler Connecting" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Azure.Relay.HybridConnectionListener.Connecting" />
+      <MemberSignature Language="VB.NET" Value="Public Event Connecting As EventHandler " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.EventHandler</ReturnType>
@@ -255,10 +264,11 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Azure.Relay.HybridConnectionRuntimeInformation&gt; GetRuntimeInformationAsync ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Relay.HybridConnectionRuntimeInformation&gt; GetRuntimeInformationAsync() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Relay.HybridConnectionListener.GetRuntimeInformationAsync" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetRuntimeInformationAsync () As Task(Of HybridConnectionRuntimeInformation)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -284,8 +294,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Relay.HybridConnectionListener.GetRuntimeInformationAsync(System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Relay.HybridConnectionRuntimeInformation&gt;</ReturnType>
@@ -306,10 +316,11 @@
       <MemberSignature Language="C#" Value="public bool IsOnline { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool IsOnline" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Relay.HybridConnectionListener.IsOnline" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsOnline As Boolean" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -325,10 +336,11 @@
       <MemberSignature Language="C#" Value="public Exception LastError { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Exception LastError" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Relay.HybridConnectionListener.LastError" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LastError As Exception" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Exception</ReturnType>
@@ -343,10 +355,11 @@
       <MemberSignature Language="C#" Value="public event EventHandler Offline;" />
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler Offline" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Azure.Relay.HybridConnectionListener.Offline" />
+      <MemberSignature Language="VB.NET" Value="Public Event Offline As EventHandler " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.EventHandler</ReturnType>
@@ -362,10 +375,11 @@
       <MemberSignature Language="C#" Value="public event EventHandler Online;" />
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler Online" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Azure.Relay.HybridConnectionListener.Online" />
+      <MemberSignature Language="VB.NET" Value="Public Event Online As EventHandler " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.EventHandler</ReturnType>
@@ -381,10 +395,11 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task OpenAsync ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task OpenAsync() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Relay.HybridConnectionListener.OpenAsync" />
+      <MemberSignature Language="VB.NET" Value="Public Function OpenAsync () As Task" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -405,8 +420,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Relay.HybridConnectionListener.OpenAsync(System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -432,10 +447,11 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task OpenAsync (TimeSpan timeout);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task OpenAsync(valuetype System.TimeSpan timeout) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Relay.HybridConnectionListener.OpenAsync(System.TimeSpan)" />
+      <MemberSignature Language="VB.NET" Value="Public Function OpenAsync (timeout As TimeSpan) As Task" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -461,10 +477,11 @@
       <MemberSignature Language="C#" Value="public System.Net.IWebProxy Proxy { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Net.IWebProxy Proxy" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Relay.HybridConnectionListener.Proxy" />
+      <MemberSignature Language="VB.NET" Value="Public Property Proxy As IWebProxy" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Net.IWebProxy</ReturnType>
@@ -481,10 +498,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Relay.TokenProvider TokenProvider { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Relay.TokenProvider TokenProvider" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Relay.HybridConnectionListener.TokenProvider" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TokenProvider As TokenProvider" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Relay.TokenProvider</ReturnType>
@@ -501,10 +519,11 @@
       <MemberSignature Language="C#" Value="public override string ToString ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Relay.HybridConnectionListener.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Relay</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

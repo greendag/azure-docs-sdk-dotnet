@@ -2,10 +2,9 @@
   <TypeSignature Language="C#" Value="public enum EdmType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed EdmType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.WindowsAzure.Storage.Table.EdmType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum EdmType" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-    <AssemblyVersion>8.1.1.0</AssemblyVersion>
-    <AssemblyVersion>8.1.3.0</AssemblyVersion>
     <AssemblyVersion>8.4.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
@@ -23,16 +22,16 @@
       <MemberSignature Language="C#" Value="Binary" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.WindowsAzure.Storage.Table.EdmType Binary = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Table.EdmType.Binary" />
+      <MemberSignature Language="VB.NET" Value="Binary" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.Storage.Table.EdmType</ReturnType>
       </ReturnValue>
+      <MemberValue>1</MemberValue>
       <Docs>
         <summary>
             Represents fixed- or variable-length binary data.
@@ -43,16 +42,16 @@
       <MemberSignature Language="C#" Value="Boolean" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.WindowsAzure.Storage.Table.EdmType Boolean = int32(2)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Table.EdmType.Boolean" />
+      <MemberSignature Language="VB.NET" Value="Boolean" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.Storage.Table.EdmType</ReturnType>
       </ReturnValue>
+      <MemberValue>2</MemberValue>
       <Docs>
         <summary>
             Represents the mathematical concept of binary-valued logic.
@@ -63,16 +62,16 @@
       <MemberSignature Language="C#" Value="DateTime" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.WindowsAzure.Storage.Table.EdmType DateTime = int32(3)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Table.EdmType.DateTime" />
+      <MemberSignature Language="VB.NET" Value="DateTime" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.Storage.Table.EdmType</ReturnType>
       </ReturnValue>
+      <MemberValue>3</MemberValue>
       <Docs>
         <summary>
             Represents date and time.
@@ -83,16 +82,16 @@
       <MemberSignature Language="C#" Value="Double" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.WindowsAzure.Storage.Table.EdmType Double = int32(4)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Table.EdmType.Double" />
+      <MemberSignature Language="VB.NET" Value="Double" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.Storage.Table.EdmType</ReturnType>
       </ReturnValue>
+      <MemberValue>4</MemberValue>
       <Docs>
         <summary>
             Represents a floating point number with 15 digits precision that can represent values with approximate range of +/- 2.23e -308 through +/- 1.79e +308.
@@ -103,16 +102,16 @@
       <MemberSignature Language="C#" Value="Guid" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.WindowsAzure.Storage.Table.EdmType Guid = int32(5)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Table.EdmType.Guid" />
+      <MemberSignature Language="VB.NET" Value="Guid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.Storage.Table.EdmType</ReturnType>
       </ReturnValue>
+      <MemberValue>5</MemberValue>
       <Docs>
         <summary>
             Represents a 16-byte (128-bit) unique identifier value.
@@ -123,16 +122,16 @@
       <MemberSignature Language="C#" Value="Int32" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.WindowsAzure.Storage.Table.EdmType Int32 = int32(6)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Table.EdmType.Int32" />
+      <MemberSignature Language="VB.NET" Value="Int32" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.Storage.Table.EdmType</ReturnType>
       </ReturnValue>
+      <MemberValue>6</MemberValue>
       <Docs>
         <summary>
             Represents a signed 32-bit integer value.
@@ -143,16 +142,16 @@
       <MemberSignature Language="C#" Value="Int64" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.WindowsAzure.Storage.Table.EdmType Int64 = int32(7)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Table.EdmType.Int64" />
+      <MemberSignature Language="VB.NET" Value="Int64" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.Storage.Table.EdmType</ReturnType>
       </ReturnValue>
+      <MemberValue>7</MemberValue>
       <Docs>
         <summary>
             Represents a signed 64-bit integer value.
@@ -163,16 +162,16 @@
       <MemberSignature Language="C#" Value="String" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.WindowsAzure.Storage.Table.EdmType String = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Table.EdmType.String" />
+      <MemberSignature Language="VB.NET" Value="String" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.Storage.Table.EdmType</ReturnType>
       </ReturnValue>
+      <MemberValue>0</MemberValue>
       <Docs>
         <summary>
             Represents fixed- or variable-length character data.

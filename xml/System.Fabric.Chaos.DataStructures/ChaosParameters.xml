@@ -2,10 +2,10 @@
   <TypeSignature Language="C#" Value="public class ChaosParameters : System.Fabric.ByteSerializable" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit ChaosParameters extends System.Fabric.ByteSerializable" />
   <TypeSignature Language="DocId" Value="T:System.Fabric.Chaos.DataStructures.ChaosParameters" />
+  <TypeSignature Language="VB.NET" Value="Public Class ChaosParameters&#xA;Inherits ByteSerializable" />
   <AssemblyInfo>
     <AssemblyName>System.Fabric</AssemblyName>
-    <AssemblyVersion>5.0.0.0</AssemblyVersion>
-    <AssemblyVersion>255.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Fabric.ByteSerializable</BaseTypeName>
@@ -22,11 +22,11 @@
       <MemberSignature Language="C#" Value="public ChaosParameters ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.Chaos.DataStructures.ChaosParameters.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -41,11 +41,11 @@
       <MemberSignature Language="C#" Value="public ChaosParameters (long maxConcurrentFaults, Nullable&lt;TimeSpan&gt; timeToRun = null);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(int64 maxConcurrentFaults, valuetype System.Nullable`1&lt;valuetype System.TimeSpan&gt; timeToRun) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.Chaos.DataStructures.ChaosParameters.#ctor(System.Int64,System.Nullable{System.TimeSpan})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (maxConcurrentFaults As Long, Optional timeToRun As Nullable(Of TimeSpan) = null)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="maxConcurrentFaults" Type="System.Int64" />
@@ -66,11 +66,11 @@
       <MemberSignature Language="C#" Value="public ChaosParameters (TimeSpan maxClusterStabilizationTimeout, long maxConcurrentFaults, bool enableMoveReplicaFaults, Nullable&lt;TimeSpan&gt; timeToRun = null);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.TimeSpan maxClusterStabilizationTimeout, int64 maxConcurrentFaults, bool enableMoveReplicaFaults, valuetype System.Nullable`1&lt;valuetype System.TimeSpan&gt; timeToRun) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.Chaos.DataStructures.ChaosParameters.#ctor(System.TimeSpan,System.Int64,System.Boolean,System.Nullable{System.TimeSpan})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (maxClusterStabilizationTimeout As TimeSpan, maxConcurrentFaults As Long, enableMoveReplicaFaults As Boolean, Optional timeToRun As Nullable(Of TimeSpan) = null)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="maxClusterStabilizationTimeout" Type="System.TimeSpan" />
@@ -95,11 +95,11 @@
       <MemberSignature Language="C#" Value="public ChaosParameters (TimeSpan maxClusterStabilizationTimeout, long maxConcurrentFaults, bool enableMoveReplicaFaults, TimeSpan timeToRun, System.Collections.Generic.Dictionary&lt;string,string&gt; context);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.TimeSpan maxClusterStabilizationTimeout, int64 maxConcurrentFaults, bool enableMoveReplicaFaults, valuetype System.TimeSpan timeToRun, class System.Collections.Generic.Dictionary`2&lt;string, string&gt; context) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.Chaos.DataStructures.ChaosParameters.#ctor(System.TimeSpan,System.Int64,System.Boolean,System.TimeSpan,System.Collections.Generic.Dictionary{System.String,System.String})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (maxClusterStabilizationTimeout As TimeSpan, maxConcurrentFaults As Long, enableMoveReplicaFaults As Boolean, timeToRun As TimeSpan, context As Dictionary(Of String, String))" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="maxClusterStabilizationTimeout" Type="System.TimeSpan" />
@@ -126,11 +126,11 @@
       <MemberSignature Language="C#" Value="public ChaosParameters (TimeSpan maxClusterStabilizationTimeout, long maxConcurrentFaults, bool enableMoveReplicaFaults, TimeSpan timeToRun, System.Collections.Generic.Dictionary&lt;string,string&gt; context, TimeSpan waitTimeBetweenIterations, TimeSpan waitTimeBetweenFaults);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.TimeSpan maxClusterStabilizationTimeout, int64 maxConcurrentFaults, bool enableMoveReplicaFaults, valuetype System.TimeSpan timeToRun, class System.Collections.Generic.Dictionary`2&lt;string, string&gt; context, valuetype System.TimeSpan waitTimeBetweenIterations, valuetype System.TimeSpan waitTimeBetweenFaults) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.Chaos.DataStructures.ChaosParameters.#ctor(System.TimeSpan,System.Int64,System.Boolean,System.TimeSpan,System.Collections.Generic.Dictionary{System.String,System.String},System.TimeSpan,System.TimeSpan)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (maxClusterStabilizationTimeout As TimeSpan, maxConcurrentFaults As Long, enableMoveReplicaFaults As Boolean, timeToRun As TimeSpan, context As Dictionary(Of String, String), waitTimeBetweenIterations As TimeSpan, waitTimeBetweenFaults As TimeSpan)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="maxClusterStabilizationTimeout" Type="System.TimeSpan" />
@@ -162,9 +162,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.Chaos.DataStructures.ChaosParameters.#ctor(System.TimeSpan,System.Int64,System.Boolean,System.TimeSpan,System.Collections.Generic.Dictionary{System.String,System.String},System.TimeSpan,System.TimeSpan,System.Fabric.Health.ClusterHealthPolicy)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="maxClusterStabilizationTimeout" Type="System.TimeSpan" />
@@ -196,11 +195,11 @@
       <MemberSignature Language="C#" Value="public System.Fabric.Health.ClusterHealthPolicy ClusterHealthPolicy { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Fabric.Health.ClusterHealthPolicy ClusterHealthPolicy" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Chaos.DataStructures.ChaosParameters.ClusterHealthPolicy" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ClusterHealthPolicy As ClusterHealthPolicy" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -226,11 +225,11 @@
       <MemberSignature Language="C#" Value="public System.Collections.Generic.Dictionary&lt;string,string&gt; Context { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.Dictionary`2&lt;string, string&gt; Context" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Chaos.DataStructures.ChaosParameters.Context" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Context As Dictionary(Of String, String)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -252,11 +251,11 @@
       <MemberSignature Language="C#" Value="public bool EnableMoveReplicaFaults { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool EnableMoveReplicaFaults" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Chaos.DataStructures.ChaosParameters.EnableMoveReplicaFaults" />
+      <MemberSignature Language="VB.NET" Value="Public Property EnableMoveReplicaFaults As Boolean" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -278,11 +277,11 @@
       <MemberSignature Language="C#" Value="public TimeSpan MaxClusterStabilizationTimeout { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.TimeSpan MaxClusterStabilizationTimeout" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Chaos.DataStructures.ChaosParameters.MaxClusterStabilizationTimeout" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaxClusterStabilizationTimeout As TimeSpan" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -306,11 +305,11 @@
       <MemberSignature Language="C#" Value="public long MaxConcurrentFaults { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int64 MaxConcurrentFaults" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Chaos.DataStructures.ChaosParameters.MaxConcurrentFaults" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaxConcurrentFaults As Long" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -333,11 +332,11 @@
       <MemberSignature Language="C#" Value="public override void Read (System.IO.BinaryReader br);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void Read(class System.IO.BinaryReader br) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.Chaos.DataStructures.ChaosParameters.Read(System.IO.BinaryReader)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub Read (br As BinaryReader)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -359,11 +358,11 @@
       <MemberSignature Language="C#" Value="public TimeSpan TimeToRun { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.TimeSpan TimeToRun" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Chaos.DataStructures.ChaosParameters.TimeToRun" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TimeToRun As TimeSpan" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -387,11 +386,11 @@
       <MemberSignature Language="C#" Value="public override string ToString ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.Chaos.DataStructures.ChaosParameters.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -409,11 +408,11 @@
       <MemberSignature Language="C#" Value="public TimeSpan WaitTimeBetweenFaults { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.TimeSpan WaitTimeBetweenFaults" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Chaos.DataStructures.ChaosParameters.WaitTimeBetweenFaults" />
+      <MemberSignature Language="VB.NET" Value="Public Property WaitTimeBetweenFaults As TimeSpan" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -437,11 +436,11 @@
       <MemberSignature Language="C#" Value="public TimeSpan WaitTimeBetweenIterations { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.TimeSpan WaitTimeBetweenIterations" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Chaos.DataStructures.ChaosParameters.WaitTimeBetweenIterations" />
+      <MemberSignature Language="VB.NET" Value="Public Property WaitTimeBetweenIterations As TimeSpan" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -465,11 +464,11 @@
       <MemberSignature Language="C#" Value="public override void Write (System.IO.BinaryWriter bw);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void Write(class System.IO.BinaryWriter bw) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.Chaos.DataStructures.ChaosParameters.Write(System.IO.BinaryWriter)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub Write (bw As BinaryWriter)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>

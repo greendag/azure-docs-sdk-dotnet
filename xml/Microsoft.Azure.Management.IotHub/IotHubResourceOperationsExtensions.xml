@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public static class IotHubResourceOperationsExtensions" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit IotHubResourceOperationsExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.IotHub.IotHubResourceOperationsExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module IotHubResourceOperationsExtensions" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +24,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.IotHub.IotHubResourceOperationsExtensions.BeginCreateOrUpdate(Microsoft.Azure.Management.IotHub.IIotHubResourceOperations,System.String,System.String,Microsoft.Azure.Management.IotHub.Models.IotHubDescription)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.IotHub.Models.IotHubDescription</ReturnType>
@@ -66,8 +67,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.IotHub.IotHubResourceOperationsExtensions.BeginCreateOrUpdateAsync(Microsoft.Azure.Management.IotHub.IIotHubResourceOperations,System.String,System.String,Microsoft.Azure.Management.IotHub.Models.IotHubDescription,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -116,6 +117,7 @@
       <MemberSignature Language="C#" Value="public static object BeginDelete (this Microsoft.Azure.Management.IotHub.IIotHubResourceOperations operations, string resourceGroupName, string resourceName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig object BeginDelete(class Microsoft.Azure.Management.IotHub.IIotHubResourceOperations operations, string resourceGroupName, string resourceName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.IotHub.IotHubResourceOperationsExtensions.BeginDelete(Microsoft.Azure.Management.IotHub.IIotHubResourceOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginDelete (operations As IIotHubResourceOperations, resourceGroupName As String, resourceName As String) As Object" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
@@ -199,8 +201,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.IotHub.IotHubResourceOperationsExtensions.CheckNameAvailability(Microsoft.Azure.Management.IotHub.IIotHubResourceOperations,Microsoft.Azure.Management.IotHub.Models.OperationInputs)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.IotHub.Models.IotHubNameAvailabilityInfo</ReturnType>
@@ -232,8 +234,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.IotHub.IotHubResourceOperationsExtensions.CheckNameAvailabilityAsync(Microsoft.Azure.Management.IotHub.IIotHubResourceOperations,Microsoft.Azure.Management.IotHub.Models.OperationInputs,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -272,10 +274,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.IotHub.Models.EventHubConsumerGroupInfo CreateEventHubConsumerGroup (this Microsoft.Azure.Management.IotHub.IIotHubResourceOperations operations, string resourceGroupName, string resourceName, string eventHubEndpointName, string name);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.IotHub.Models.EventHubConsumerGroupInfo CreateEventHubConsumerGroup(class Microsoft.Azure.Management.IotHub.IIotHubResourceOperations operations, string resourceGroupName, string resourceName, string eventHubEndpointName, string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.IotHub.IotHubResourceOperationsExtensions.CreateEventHubConsumerGroup(Microsoft.Azure.Management.IotHub.IIotHubResourceOperations,System.String,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function CreateEventHubConsumerGroup (operations As IIotHubResourceOperations, resourceGroupName As String, resourceName As String, eventHubEndpointName As String, name As String) As EventHubConsumerGroupInfo" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.IotHub.Models.EventHubConsumerGroupInfo</ReturnType>
@@ -318,8 +321,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.IotHub.IotHubResourceOperationsExtensions.CreateEventHubConsumerGroupAsync(Microsoft.Azure.Management.IotHub.IIotHubResourceOperations,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -371,8 +374,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.IotHub.IotHubResourceOperationsExtensions.CreateOrUpdate(Microsoft.Azure.Management.IotHub.IIotHubResourceOperations,System.String,System.String,Microsoft.Azure.Management.IotHub.Models.IotHubDescription)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.IotHub.Models.IotHubDescription</ReturnType>
@@ -414,8 +417,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.IotHub.IotHubResourceOperationsExtensions.CreateOrUpdateAsync(Microsoft.Azure.Management.IotHub.IIotHubResourceOperations,System.String,System.String,Microsoft.Azure.Management.IotHub.Models.IotHubDescription,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -464,6 +467,7 @@
       <MemberSignature Language="C#" Value="public static object Delete (this Microsoft.Azure.Management.IotHub.IIotHubResourceOperations operations, string resourceGroupName, string resourceName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig object Delete(class Microsoft.Azure.Management.IotHub.IIotHubResourceOperations operations, string resourceGroupName, string resourceName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.IotHub.IotHubResourceOperationsExtensions.Delete(Microsoft.Azure.Management.IotHub.IIotHubResourceOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Delete (operations As IIotHubResourceOperations, resourceGroupName As String, resourceName As String) As Object" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
@@ -545,10 +549,11 @@
       <MemberSignature Language="C#" Value="public static void DeleteEventHubConsumerGroup (this Microsoft.Azure.Management.IotHub.IIotHubResourceOperations operations, string resourceGroupName, string resourceName, string eventHubEndpointName, string name);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void DeleteEventHubConsumerGroup(class Microsoft.Azure.Management.IotHub.IIotHubResourceOperations operations, string resourceGroupName, string resourceName, string eventHubEndpointName, string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.IotHub.IotHubResourceOperationsExtensions.DeleteEventHubConsumerGroup(Microsoft.Azure.Management.IotHub.IIotHubResourceOperations,System.String,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub DeleteEventHubConsumerGroup (operations As IIotHubResourceOperations, resourceGroupName As String, resourceName As String, eventHubEndpointName As String, name As String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -592,8 +597,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.IotHub.IotHubResourceOperationsExtensions.DeleteEventHubConsumerGroupAsync(Microsoft.Azure.Management.IotHub.IIotHubResourceOperations,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -645,10 +650,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.IotHub.Models.JobResponse ExportDevices (this Microsoft.Azure.Management.IotHub.IIotHubResourceOperations operations, string resourceGroupName, string resourceName, Microsoft.Azure.Management.IotHub.Models.ExportDevicesRequest exportDevicesParameters);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.IotHub.Models.JobResponse ExportDevices(class Microsoft.Azure.Management.IotHub.IIotHubResourceOperations operations, string resourceGroupName, string resourceName, class Microsoft.Azure.Management.IotHub.Models.ExportDevicesRequest exportDevicesParameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.IotHub.IotHubResourceOperationsExtensions.ExportDevices(Microsoft.Azure.Management.IotHub.IIotHubResourceOperations,System.String,System.String,Microsoft.Azure.Management.IotHub.Models.ExportDevicesRequest)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ExportDevices (operations As IIotHubResourceOperations, resourceGroupName As String, resourceName As String, exportDevicesParameters As ExportDevicesRequest) As JobResponse" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.IotHub.Models.JobResponse</ReturnType>
@@ -691,8 +697,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.IotHub.IotHubResourceOperationsExtensions.ExportDevicesAsync(Microsoft.Azure.Management.IotHub.IIotHubResourceOperations,System.String,System.String,Microsoft.Azure.Management.IotHub.Models.ExportDevicesRequest,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -742,10 +748,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.IotHub.Models.IotHubDescription Get (this Microsoft.Azure.Management.IotHub.IIotHubResourceOperations operations, string resourceGroupName, string resourceName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.IotHub.Models.IotHubDescription Get(class Microsoft.Azure.Management.IotHub.IIotHubResourceOperations operations, string resourceGroupName, string resourceName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.IotHub.IotHubResourceOperationsExtensions.Get(Microsoft.Azure.Management.IotHub.IIotHubResourceOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Get (operations As IIotHubResourceOperations, resourceGroupName As String, resourceName As String) As IotHubDescription" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.IotHub.Models.IotHubDescription</ReturnType>
@@ -780,8 +787,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.IotHub.IotHubResourceOperationsExtensions.GetAsync(Microsoft.Azure.Management.IotHub.IIotHubResourceOperations,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -823,10 +830,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.IotHub.Models.EventHubConsumerGroupInfo GetEventHubConsumerGroup (this Microsoft.Azure.Management.IotHub.IIotHubResourceOperations operations, string resourceGroupName, string resourceName, string eventHubEndpointName, string name);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.IotHub.Models.EventHubConsumerGroupInfo GetEventHubConsumerGroup(class Microsoft.Azure.Management.IotHub.IIotHubResourceOperations operations, string resourceGroupName, string resourceName, string eventHubEndpointName, string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.IotHub.IotHubResourceOperationsExtensions.GetEventHubConsumerGroup(Microsoft.Azure.Management.IotHub.IIotHubResourceOperations,System.String,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetEventHubConsumerGroup (operations As IIotHubResourceOperations, resourceGroupName As String, resourceName As String, eventHubEndpointName As String, name As String) As EventHubConsumerGroupInfo" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.IotHub.Models.EventHubConsumerGroupInfo</ReturnType>
@@ -871,8 +879,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.IotHub.IotHubResourceOperationsExtensions.GetEventHubConsumerGroupAsync(Microsoft.Azure.Management.IotHub.IIotHubResourceOperations,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -924,10 +932,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.IotHub.Models.JobResponse GetJob (this Microsoft.Azure.Management.IotHub.IIotHubResourceOperations operations, string resourceGroupName, string resourceName, string jobId);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.IotHub.Models.JobResponse GetJob(class Microsoft.Azure.Management.IotHub.IIotHubResourceOperations operations, string resourceGroupName, string resourceName, string jobId) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.IotHub.IotHubResourceOperationsExtensions.GetJob(Microsoft.Azure.Management.IotHub.IIotHubResourceOperations,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetJob (operations As IIotHubResourceOperations, resourceGroupName As String, resourceName As String, jobId As String) As JobResponse" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.IotHub.Models.JobResponse</ReturnType>
@@ -968,8 +977,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.IotHub.IotHubResourceOperationsExtensions.GetJobAsync(Microsoft.Azure.Management.IotHub.IIotHubResourceOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1017,10 +1026,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.IotHub.Models.SharedAccessSignatureAuthorizationRule GetKeysForKeyName (this Microsoft.Azure.Management.IotHub.IIotHubResourceOperations operations, string resourceGroupName, string resourceName, string keyName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.IotHub.Models.SharedAccessSignatureAuthorizationRule GetKeysForKeyName(class Microsoft.Azure.Management.IotHub.IIotHubResourceOperations operations, string resourceGroupName, string resourceName, string keyName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.IotHub.IotHubResourceOperationsExtensions.GetKeysForKeyName(Microsoft.Azure.Management.IotHub.IIotHubResourceOperations,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetKeysForKeyName (operations As IIotHubResourceOperations, resourceGroupName As String, resourceName As String, keyName As String) As SharedAccessSignatureAuthorizationRule" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.IotHub.Models.SharedAccessSignatureAuthorizationRule</ReturnType>
@@ -1061,8 +1071,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.IotHub.IotHubResourceOperationsExtensions.GetKeysForKeyNameAsync(Microsoft.Azure.Management.IotHub.IIotHubResourceOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1110,10 +1120,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.IotHub.Models.IotHubQuotaMetricInfo&gt; GetQuotaMetrics (this Microsoft.Azure.Management.IotHub.IIotHubResourceOperations operations, string resourceGroupName, string resourceName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.IotHub.Models.IotHubQuotaMetricInfo&gt; GetQuotaMetrics(class Microsoft.Azure.Management.IotHub.IIotHubResourceOperations operations, string resourceGroupName, string resourceName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.IotHub.IotHubResourceOperationsExtensions.GetQuotaMetrics(Microsoft.Azure.Management.IotHub.IIotHubResourceOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetQuotaMetrics (operations As IIotHubResourceOperations, resourceGroupName As String, resourceName As String) As IPage(Of IotHubQuotaMetricInfo)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.IotHub.Models.IotHubQuotaMetricInfo&gt;</ReturnType>
@@ -1148,8 +1159,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.IotHub.IotHubResourceOperationsExtensions.GetQuotaMetricsAsync(Microsoft.Azure.Management.IotHub.IIotHubResourceOperations,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1191,10 +1202,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.IotHub.Models.IotHubQuotaMetricInfo&gt; GetQuotaMetricsNext (this Microsoft.Azure.Management.IotHub.IIotHubResourceOperations operations, string nextPageLink);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.IotHub.Models.IotHubQuotaMetricInfo&gt; GetQuotaMetricsNext(class Microsoft.Azure.Management.IotHub.IIotHubResourceOperations operations, string nextPageLink) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.IotHub.IotHubResourceOperationsExtensions.GetQuotaMetricsNext(Microsoft.Azure.Management.IotHub.IIotHubResourceOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetQuotaMetricsNext (operations As IIotHubResourceOperations, nextPageLink As String) As IPage(Of IotHubQuotaMetricInfo)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.IotHub.Models.IotHubQuotaMetricInfo&gt;</ReturnType>
@@ -1225,8 +1237,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.IotHub.IotHubResourceOperationsExtensions.GetQuotaMetricsNextAsync(Microsoft.Azure.Management.IotHub.IIotHubResourceOperations,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1264,10 +1276,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.IotHub.Models.RegistryStatistics GetStats (this Microsoft.Azure.Management.IotHub.IIotHubResourceOperations operations, string resourceGroupName, string resourceName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.IotHub.Models.RegistryStatistics GetStats(class Microsoft.Azure.Management.IotHub.IIotHubResourceOperations operations, string resourceGroupName, string resourceName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.IotHub.IotHubResourceOperationsExtensions.GetStats(Microsoft.Azure.Management.IotHub.IIotHubResourceOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetStats (operations As IIotHubResourceOperations, resourceGroupName As String, resourceName As String) As RegistryStatistics" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.IotHub.Models.RegistryStatistics</ReturnType>
@@ -1302,8 +1315,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.IotHub.IotHubResourceOperationsExtensions.GetStatsAsync(Microsoft.Azure.Management.IotHub.IIotHubResourceOperations,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1345,10 +1358,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.IotHub.Models.IotHubSkuDescription&gt; GetValidSkus (this Microsoft.Azure.Management.IotHub.IIotHubResourceOperations operations, string resourceGroupName, string resourceName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.IotHub.Models.IotHubSkuDescription&gt; GetValidSkus(class Microsoft.Azure.Management.IotHub.IIotHubResourceOperations operations, string resourceGroupName, string resourceName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.IotHub.IotHubResourceOperationsExtensions.GetValidSkus(Microsoft.Azure.Management.IotHub.IIotHubResourceOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetValidSkus (operations As IIotHubResourceOperations, resourceGroupName As String, resourceName As String) As IPage(Of IotHubSkuDescription)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.IotHub.Models.IotHubSkuDescription&gt;</ReturnType>
@@ -1383,8 +1397,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.IotHub.IotHubResourceOperationsExtensions.GetValidSkusAsync(Microsoft.Azure.Management.IotHub.IIotHubResourceOperations,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1426,10 +1440,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.IotHub.Models.IotHubSkuDescription&gt; GetValidSkusNext (this Microsoft.Azure.Management.IotHub.IIotHubResourceOperations operations, string nextPageLink);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.IotHub.Models.IotHubSkuDescription&gt; GetValidSkusNext(class Microsoft.Azure.Management.IotHub.IIotHubResourceOperations operations, string nextPageLink) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.IotHub.IotHubResourceOperationsExtensions.GetValidSkusNext(Microsoft.Azure.Management.IotHub.IIotHubResourceOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetValidSkusNext (operations As IIotHubResourceOperations, nextPageLink As String) As IPage(Of IotHubSkuDescription)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.IotHub.Models.IotHubSkuDescription&gt;</ReturnType>
@@ -1460,8 +1475,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.IotHub.IotHubResourceOperationsExtensions.GetValidSkusNextAsync(Microsoft.Azure.Management.IotHub.IIotHubResourceOperations,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1499,10 +1514,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.IotHub.Models.JobResponse ImportDevices (this Microsoft.Azure.Management.IotHub.IIotHubResourceOperations operations, string resourceGroupName, string resourceName, Microsoft.Azure.Management.IotHub.Models.ImportDevicesRequest importDevicesParameters);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.IotHub.Models.JobResponse ImportDevices(class Microsoft.Azure.Management.IotHub.IIotHubResourceOperations operations, string resourceGroupName, string resourceName, class Microsoft.Azure.Management.IotHub.Models.ImportDevicesRequest importDevicesParameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.IotHub.IotHubResourceOperationsExtensions.ImportDevices(Microsoft.Azure.Management.IotHub.IIotHubResourceOperations,System.String,System.String,Microsoft.Azure.Management.IotHub.Models.ImportDevicesRequest)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ImportDevices (operations As IIotHubResourceOperations, resourceGroupName As String, resourceName As String, importDevicesParameters As ImportDevicesRequest) As JobResponse" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.IotHub.Models.JobResponse</ReturnType>
@@ -1545,8 +1561,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.IotHub.IotHubResourceOperationsExtensions.ImportDevicesAsync(Microsoft.Azure.Management.IotHub.IIotHubResourceOperations,System.String,System.String,Microsoft.Azure.Management.IotHub.Models.ImportDevicesRequest,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1596,10 +1612,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.IotHub.Models.IotHubDescription&gt; ListByResourceGroup (this Microsoft.Azure.Management.IotHub.IIotHubResourceOperations operations, string resourceGroupName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.IotHub.Models.IotHubDescription&gt; ListByResourceGroup(class Microsoft.Azure.Management.IotHub.IIotHubResourceOperations operations, string resourceGroupName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.IotHub.IotHubResourceOperationsExtensions.ListByResourceGroup(Microsoft.Azure.Management.IotHub.IIotHubResourceOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListByResourceGroup (operations As IIotHubResourceOperations, resourceGroupName As String) As IPage(Of IotHubDescription)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.IotHub.Models.IotHubDescription&gt;</ReturnType>
@@ -1630,8 +1647,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.IotHub.IotHubResourceOperationsExtensions.ListByResourceGroupAsync(Microsoft.Azure.Management.IotHub.IIotHubResourceOperations,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1669,10 +1686,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.IotHub.Models.IotHubDescription&gt; ListByResourceGroupNext (this Microsoft.Azure.Management.IotHub.IIotHubResourceOperations operations, string nextPageLink);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.IotHub.Models.IotHubDescription&gt; ListByResourceGroupNext(class Microsoft.Azure.Management.IotHub.IIotHubResourceOperations operations, string nextPageLink) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.IotHub.IotHubResourceOperationsExtensions.ListByResourceGroupNext(Microsoft.Azure.Management.IotHub.IIotHubResourceOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListByResourceGroupNext (operations As IIotHubResourceOperations, nextPageLink As String) As IPage(Of IotHubDescription)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.IotHub.Models.IotHubDescription&gt;</ReturnType>
@@ -1703,8 +1721,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.IotHub.IotHubResourceOperationsExtensions.ListByResourceGroupNextAsync(Microsoft.Azure.Management.IotHub.IIotHubResourceOperations,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1742,10 +1760,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.IotHub.Models.IotHubDescription&gt; ListBySubscription (this Microsoft.Azure.Management.IotHub.IIotHubResourceOperations operations);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.IotHub.Models.IotHubDescription&gt; ListBySubscription(class Microsoft.Azure.Management.IotHub.IIotHubResourceOperations operations) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.IotHub.IotHubResourceOperationsExtensions.ListBySubscription(Microsoft.Azure.Management.IotHub.IIotHubResourceOperations)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListBySubscription (operations As IIotHubResourceOperations) As IPage(Of IotHubDescription)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.IotHub.Models.IotHubDescription&gt;</ReturnType>
@@ -1772,8 +1791,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.IotHub.IotHubResourceOperationsExtensions.ListBySubscriptionAsync(Microsoft.Azure.Management.IotHub.IIotHubResourceOperations,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1807,10 +1826,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.IotHub.Models.IotHubDescription&gt; ListBySubscriptionNext (this Microsoft.Azure.Management.IotHub.IIotHubResourceOperations operations, string nextPageLink);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.IotHub.Models.IotHubDescription&gt; ListBySubscriptionNext(class Microsoft.Azure.Management.IotHub.IIotHubResourceOperations operations, string nextPageLink) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.IotHub.IotHubResourceOperationsExtensions.ListBySubscriptionNext(Microsoft.Azure.Management.IotHub.IIotHubResourceOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListBySubscriptionNext (operations As IIotHubResourceOperations, nextPageLink As String) As IPage(Of IotHubDescription)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.IotHub.Models.IotHubDescription&gt;</ReturnType>
@@ -1841,8 +1861,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.IotHub.IotHubResourceOperationsExtensions.ListBySubscriptionNextAsync(Microsoft.Azure.Management.IotHub.IIotHubResourceOperations,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1880,10 +1900,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;string&gt; ListEventHubConsumerGroups (this Microsoft.Azure.Management.IotHub.IIotHubResourceOperations operations, string resourceGroupName, string resourceName, string eventHubEndpointName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;string&gt; ListEventHubConsumerGroups(class Microsoft.Azure.Management.IotHub.IIotHubResourceOperations operations, string resourceGroupName, string resourceName, string eventHubEndpointName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.IotHub.IotHubResourceOperationsExtensions.ListEventHubConsumerGroups(Microsoft.Azure.Management.IotHub.IIotHubResourceOperations,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListEventHubConsumerGroups (operations As IIotHubResourceOperations, resourceGroupName As String, resourceName As String, eventHubEndpointName As String) As IPage(Of String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;System.String&gt;</ReturnType>
@@ -1924,8 +1945,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.IotHub.IotHubResourceOperationsExtensions.ListEventHubConsumerGroupsAsync(Microsoft.Azure.Management.IotHub.IIotHubResourceOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1973,10 +1994,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;string&gt; ListEventHubConsumerGroupsNext (this Microsoft.Azure.Management.IotHub.IIotHubResourceOperations operations, string nextPageLink);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;string&gt; ListEventHubConsumerGroupsNext(class Microsoft.Azure.Management.IotHub.IIotHubResourceOperations operations, string nextPageLink) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.IotHub.IotHubResourceOperationsExtensions.ListEventHubConsumerGroupsNext(Microsoft.Azure.Management.IotHub.IIotHubResourceOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListEventHubConsumerGroupsNext (operations As IIotHubResourceOperations, nextPageLink As String) As IPage(Of String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;System.String&gt;</ReturnType>
@@ -2009,8 +2031,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.IotHub.IotHubResourceOperationsExtensions.ListEventHubConsumerGroupsNextAsync(Microsoft.Azure.Management.IotHub.IIotHubResourceOperations,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -2050,10 +2072,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.IotHub.Models.JobResponse&gt; ListJobs (this Microsoft.Azure.Management.IotHub.IIotHubResourceOperations operations, string resourceGroupName, string resourceName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.IotHub.Models.JobResponse&gt; ListJobs(class Microsoft.Azure.Management.IotHub.IIotHubResourceOperations operations, string resourceGroupName, string resourceName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.IotHub.IotHubResourceOperationsExtensions.ListJobs(Microsoft.Azure.Management.IotHub.IIotHubResourceOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListJobs (operations As IIotHubResourceOperations, resourceGroupName As String, resourceName As String) As IPage(Of JobResponse)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.IotHub.Models.JobResponse&gt;</ReturnType>
@@ -2090,8 +2113,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.IotHub.IotHubResourceOperationsExtensions.ListJobsAsync(Microsoft.Azure.Management.IotHub.IIotHubResourceOperations,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -2135,10 +2158,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.IotHub.Models.JobResponse&gt; ListJobsNext (this Microsoft.Azure.Management.IotHub.IIotHubResourceOperations operations, string nextPageLink);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.IotHub.Models.JobResponse&gt; ListJobsNext(class Microsoft.Azure.Management.IotHub.IIotHubResourceOperations operations, string nextPageLink) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.IotHub.IotHubResourceOperationsExtensions.ListJobsNext(Microsoft.Azure.Management.IotHub.IIotHubResourceOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListJobsNext (operations As IIotHubResourceOperations, nextPageLink As String) As IPage(Of JobResponse)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.IotHub.Models.JobResponse&gt;</ReturnType>
@@ -2171,8 +2195,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.IotHub.IotHubResourceOperationsExtensions.ListJobsNextAsync(Microsoft.Azure.Management.IotHub.IIotHubResourceOperations,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -2212,10 +2236,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.IotHub.Models.SharedAccessSignatureAuthorizationRule&gt; ListKeys (this Microsoft.Azure.Management.IotHub.IIotHubResourceOperations operations, string resourceGroupName, string resourceName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.IotHub.Models.SharedAccessSignatureAuthorizationRule&gt; ListKeys(class Microsoft.Azure.Management.IotHub.IIotHubResourceOperations operations, string resourceGroupName, string resourceName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.IotHub.IotHubResourceOperationsExtensions.ListKeys(Microsoft.Azure.Management.IotHub.IIotHubResourceOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListKeys (operations As IIotHubResourceOperations, resourceGroupName As String, resourceName As String) As IPage(Of SharedAccessSignatureAuthorizationRule)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.IotHub.Models.SharedAccessSignatureAuthorizationRule&gt;</ReturnType>
@@ -2252,8 +2277,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.IotHub.IotHubResourceOperationsExtensions.ListKeysAsync(Microsoft.Azure.Management.IotHub.IIotHubResourceOperations,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -2297,10 +2322,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.IotHub.Models.SharedAccessSignatureAuthorizationRule&gt; ListKeysNext (this Microsoft.Azure.Management.IotHub.IIotHubResourceOperations operations, string nextPageLink);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.IotHub.Models.SharedAccessSignatureAuthorizationRule&gt; ListKeysNext(class Microsoft.Azure.Management.IotHub.IIotHubResourceOperations operations, string nextPageLink) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.IotHub.IotHubResourceOperationsExtensions.ListKeysNext(Microsoft.Azure.Management.IotHub.IIotHubResourceOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListKeysNext (operations As IIotHubResourceOperations, nextPageLink As String) As IPage(Of SharedAccessSignatureAuthorizationRule)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.IotHub.Models.SharedAccessSignatureAuthorizationRule&gt;</ReturnType>
@@ -2333,8 +2359,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.IotHub.IotHubResourceOperationsExtensions.ListKeysNextAsync(Microsoft.Azure.Management.IotHub.IIotHubResourceOperations,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>

@@ -2,9 +2,9 @@
   <TypeSignature Language="C#" Value="public static class VirtualMachineImagesOperationsExtensions" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit VirtualMachineImagesOperationsExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Compute.VirtualMachineImagesOperationsExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module VirtualMachineImagesOperationsExtensions" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-    <AssemblyVersion>14.0.0.0</AssemblyVersion>
     <AssemblyVersion>16.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
@@ -22,10 +22,10 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Compute.Models.VirtualMachineImage Get (this Microsoft.Azure.Management.Compute.IVirtualMachineImagesOperations operations, string location, string publisherName, string offer, string skus, string version);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Compute.Models.VirtualMachineImage Get(class Microsoft.Azure.Management.Compute.IVirtualMachineImagesOperations operations, string location, string publisherName, string offer, string skus, string version) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.VirtualMachineImagesOperationsExtensions.Get(Microsoft.Azure.Management.Compute.IVirtualMachineImagesOperations,System.String,System.String,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Get (operations As IVirtualMachineImagesOperations, location As String, publisherName As String, offer As String, skus As String, version As String) As VirtualMachineImage" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -72,7 +72,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -125,10 +124,10 @@
       <MemberSignature Language="C#" Value="public static System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Compute.Models.VirtualMachineImageResource&gt; List (this Microsoft.Azure.Management.Compute.IVirtualMachineImagesOperations operations, string location, string publisherName, string offer, string skus, Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Management.Compute.Models.VirtualMachineImageResource&gt; odataQuery = null);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.Compute.Models.VirtualMachineImageResource&gt; List(class Microsoft.Azure.Management.Compute.IVirtualMachineImagesOperations operations, string location, string publisherName, string offer, string skus, class Microsoft.Rest.Azure.OData.ODataQuery`1&lt;class Microsoft.Azure.Management.Compute.Models.VirtualMachineImageResource&gt; odataQuery) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.VirtualMachineImagesOperationsExtensions.List(Microsoft.Azure.Management.Compute.IVirtualMachineImagesOperations,System.String,System.String,System.String,System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.Compute.Models.VirtualMachineImageResource})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function List (operations As IVirtualMachineImagesOperations, location As String, publisherName As String, offer As String, skus As String, Optional odataQuery As ODataQuery(Of VirtualMachineImageResource) = null) As IList(Of VirtualMachineImageResource)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -176,7 +175,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -230,10 +228,10 @@
       <MemberSignature Language="C#" Value="public static System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Compute.Models.VirtualMachineImageResource&gt; ListOffers (this Microsoft.Azure.Management.Compute.IVirtualMachineImagesOperations operations, string location, string publisherName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.Compute.Models.VirtualMachineImageResource&gt; ListOffers(class Microsoft.Azure.Management.Compute.IVirtualMachineImagesOperations operations, string location, string publisherName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.VirtualMachineImagesOperationsExtensions.ListOffers(Microsoft.Azure.Management.Compute.IVirtualMachineImagesOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListOffers (operations As IVirtualMachineImagesOperations, location As String, publisherName As String) As IList(Of VirtualMachineImageResource)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -269,7 +267,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -311,10 +308,10 @@
       <MemberSignature Language="C#" Value="public static System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Compute.Models.VirtualMachineImageResource&gt; ListPublishers (this Microsoft.Azure.Management.Compute.IVirtualMachineImagesOperations operations, string location);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.Compute.Models.VirtualMachineImageResource&gt; ListPublishers(class Microsoft.Azure.Management.Compute.IVirtualMachineImagesOperations operations, string location) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.VirtualMachineImagesOperationsExtensions.ListPublishers(Microsoft.Azure.Management.Compute.IVirtualMachineImagesOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListPublishers (operations As IVirtualMachineImagesOperations, location As String) As IList(Of VirtualMachineImageResource)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -346,7 +343,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -384,10 +380,10 @@
       <MemberSignature Language="C#" Value="public static System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Compute.Models.VirtualMachineImageResource&gt; ListSkus (this Microsoft.Azure.Management.Compute.IVirtualMachineImagesOperations operations, string location, string publisherName, string offer);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.Compute.Models.VirtualMachineImageResource&gt; ListSkus(class Microsoft.Azure.Management.Compute.IVirtualMachineImagesOperations operations, string location, string publisherName, string offer) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.VirtualMachineImagesOperationsExtensions.ListSkus(Microsoft.Azure.Management.Compute.IVirtualMachineImagesOperations,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListSkus (operations As IVirtualMachineImagesOperations, location As String, publisherName As String, offer As String) As IList(Of VirtualMachineImageResource)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -427,7 +423,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>14.0.0.0</AssemblyVersion>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>

@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public class FileSystemSink : Microsoft.Azure.Management.DataFactories.Models.CopySink" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit FileSystemSink extends Microsoft.Azure.Management.DataFactories.Models.CopySink" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.DataFactories.Models.FileSystemSink" />
+  <TypeSignature Language="VB.NET" Value="Public Class FileSystemSink&#xA;Inherits CopySink" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -21,10 +22,11 @@
       <MemberSignature Language="C#" Value="public FileSystemSink ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataFactories.Models.FileSystemSink.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -36,10 +38,11 @@
       <MemberSignature Language="C#" Value="public FileSystemSink (int writeBatchSize, TimeSpan writeBatchTimeout);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(int32 writeBatchSize, valuetype System.TimeSpan writeBatchTimeout) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataFactories.Models.FileSystemSink.#ctor(System.Int32,System.TimeSpan)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (writeBatchSize As Integer, writeBatchTimeout As TimeSpan)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="writeBatchSize" Type="System.Int32" />
@@ -56,10 +59,11 @@
       <MemberSignature Language="C#" Value="public string CopyBehavior { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string CopyBehavior" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactories.Models.FileSystemSink.CopyBehavior" />
+      <MemberSignature Language="VB.NET" Value="Public Property CopyBehavior As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

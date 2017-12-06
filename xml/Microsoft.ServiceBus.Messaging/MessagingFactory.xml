@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public abstract class MessagingFactory : Microsoft.ServiceBus.Messaging.ClientEntity" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit MessagingFactory extends Microsoft.ServiceBus.Messaging.ClientEntity" />
   <TypeSignature Language="DocId" Value="T:Microsoft.ServiceBus.Messaging.MessagingFactory" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class MessagingFactory&#xA;Inherits ClientEntity" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.ServiceBus</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>
@@ -65,16 +66,31 @@
             MessagingFactory MsgFactory = MessagingFactory.Create(Address, MsgFactorySettings);
             </code>
     </example>
+    <example>
+      <code>
+            string Address = "sb://myapp.WindowsAzure.com/"; //base address of namespace you are connecting to.
+            MessagingFactorySettings MsgFactorySettings = new MessagingFactorySettings(); //specify operating timeout (optional)
+            MessagingFactory MsgFactory = MessagingFactory.Create(Address, MsgFactorySettings);
+            </code>
+    </example>
+    <example>
+      <code>
+            string Address = "sb://myapp.WindowsAzure.com/"; //base address of namespace you are connecting to.
+            MessagingFactorySettings MsgFactorySettings = new MessagingFactorySettings(); //specify operating timeout (optional)
+            MessagingFactory MsgFactory = MessagingFactory.Create(Address, MsgFactorySettings);
+            </code>
+    </example>
   </Docs>
   <Members>
     <Member MemberName="AcceptMessageSession">
       <MemberSignature Language="C#" Value="public Microsoft.ServiceBus.Messaging.MessageSession AcceptMessageSession ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.ServiceBus.Messaging.MessageSession AcceptMessageSession() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.AcceptMessageSession" />
+      <MemberSignature Language="VB.NET" Value="Public Function AcceptMessageSession () As MessageSession" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.ServiceBus.Messaging.MessageSession</ReturnType>
@@ -91,10 +107,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.ServiceBus.Messaging.MessageSession AcceptMessageSession (TimeSpan serverWaitTime);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.ServiceBus.Messaging.MessageSession AcceptMessageSession(valuetype System.TimeSpan serverWaitTime) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.AcceptMessageSession(System.TimeSpan)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AcceptMessageSession (serverWaitTime As TimeSpan) As MessageSession" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.ServiceBus.Messaging.MessageSession</ReturnType>
@@ -114,10 +131,11 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.ServiceBus.Messaging.MessageSession&gt; AcceptMessageSessionAsync ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class Microsoft.ServiceBus.Messaging.MessageSession&gt; AcceptMessageSessionAsync() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.AcceptMessageSessionAsync" />
+      <MemberSignature Language="VB.NET" Value="Public Function AcceptMessageSessionAsync () As Task(Of MessageSession)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.ServiceBus.Messaging.MessageSession&gt;</ReturnType>
@@ -133,10 +151,11 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.ServiceBus.Messaging.MessageSession&gt; AcceptMessageSessionAsync (TimeSpan serverWaitTime);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class Microsoft.ServiceBus.Messaging.MessageSession&gt; AcceptMessageSessionAsync(valuetype System.TimeSpan serverWaitTime) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.AcceptMessageSessionAsync(System.TimeSpan)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AcceptMessageSessionAsync (serverWaitTime As TimeSpan) As Task(Of MessageSession)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.ServiceBus.Messaging.MessageSession&gt;</ReturnType>
@@ -155,10 +174,11 @@
       <MemberSignature Language="C#" Value="public Uri Address { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Uri Address" />
       <MemberSignature Language="DocId" Value="P:Microsoft.ServiceBus.Messaging.MessagingFactory.Address" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Address As Uri" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Uri</ReturnType>
@@ -173,10 +193,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.ServiceBus.Messaging.MessagingFactory Create ();" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.ServiceBus.Messaging.MessagingFactory Create() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.Create" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Create () As MessagingFactory" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.ServiceBus.Messaging.MessagingFactory</ReturnType>
@@ -192,10 +213,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.ServiceBus.Messaging.MessagingFactory Create (System.Collections.Generic.IEnumerable&lt;string&gt; addresses);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.ServiceBus.Messaging.MessagingFactory Create(class System.Collections.Generic.IEnumerable`1&lt;string&gt; addresses) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.Create(System.Collections.Generic.IEnumerable{System.String})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Create (addresses As IEnumerable(Of String)) As MessagingFactory" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.ServiceBus.Messaging.MessagingFactory</ReturnType>
@@ -214,10 +236,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.ServiceBus.Messaging.MessagingFactory Create (System.Collections.Generic.IEnumerable&lt;Uri&gt; addresses);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.ServiceBus.Messaging.MessagingFactory Create(class System.Collections.Generic.IEnumerable`1&lt;class System.Uri&gt; addresses) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.Create(System.Collections.Generic.IEnumerable{System.Uri})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Create (addresses As IEnumerable(Of Uri)) As MessagingFactory" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.ServiceBus.Messaging.MessagingFactory</ReturnType>
@@ -236,10 +259,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.ServiceBus.Messaging.MessagingFactory Create (string address);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.ServiceBus.Messaging.MessagingFactory Create(string address) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.Create(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Create (address As String) As MessagingFactory" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.ServiceBus.Messaging.MessagingFactory</ReturnType>
@@ -258,10 +282,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.ServiceBus.Messaging.MessagingFactory Create (Uri address);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.ServiceBus.Messaging.MessagingFactory Create(class System.Uri address) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.Create(System.Uri)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Create (address As Uri) As MessagingFactory" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.ServiceBus.Messaging.MessagingFactory</ReturnType>
@@ -280,10 +305,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.ServiceBus.Messaging.MessagingFactory Create (System.Collections.Generic.IEnumerable&lt;string&gt; addresses, Microsoft.ServiceBus.Messaging.MessagingFactorySettings factorySettings);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.ServiceBus.Messaging.MessagingFactory Create(class System.Collections.Generic.IEnumerable`1&lt;string&gt; addresses, class Microsoft.ServiceBus.Messaging.MessagingFactorySettings factorySettings) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.Create(System.Collections.Generic.IEnumerable{System.String},Microsoft.ServiceBus.Messaging.MessagingFactorySettings)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Create (addresses As IEnumerable(Of String), factorySettings As MessagingFactorySettings) As MessagingFactory" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.ServiceBus.Messaging.MessagingFactory</ReturnType>
@@ -306,8 +332,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.Create(System.Collections.Generic.IEnumerable{System.String},Microsoft.ServiceBus.TokenProvider)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.ServiceBus.Messaging.MessagingFactory</ReturnType>
@@ -328,10 +354,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.ServiceBus.Messaging.MessagingFactory Create (System.Collections.Generic.IEnumerable&lt;Uri&gt; addresses, Microsoft.ServiceBus.Messaging.MessagingFactorySettings factorySettings);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.ServiceBus.Messaging.MessagingFactory Create(class System.Collections.Generic.IEnumerable`1&lt;class System.Uri&gt; addresses, class Microsoft.ServiceBus.Messaging.MessagingFactorySettings factorySettings) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.Create(System.Collections.Generic.IEnumerable{System.Uri},Microsoft.ServiceBus.Messaging.MessagingFactorySettings)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Create (addresses As IEnumerable(Of Uri), factorySettings As MessagingFactorySettings) As MessagingFactory" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.ServiceBus.Messaging.MessagingFactory</ReturnType>
@@ -354,8 +381,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.Create(System.Collections.Generic.IEnumerable{System.Uri},Microsoft.ServiceBus.TokenProvider)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.ServiceBus.Messaging.MessagingFactory</ReturnType>
@@ -376,10 +403,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.ServiceBus.Messaging.MessagingFactory Create (string address, Microsoft.ServiceBus.Messaging.MessagingFactorySettings factorySettings);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.ServiceBus.Messaging.MessagingFactory Create(string address, class Microsoft.ServiceBus.Messaging.MessagingFactorySettings factorySettings) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.Create(System.String,Microsoft.ServiceBus.Messaging.MessagingFactorySettings)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Create (address As String, factorySettings As MessagingFactorySettings) As MessagingFactory" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.ServiceBus.Messaging.MessagingFactory</ReturnType>
@@ -406,8 +434,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.Create(System.String,Microsoft.ServiceBus.TokenProvider)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.ServiceBus.Messaging.MessagingFactory</ReturnType>
@@ -432,10 +460,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.ServiceBus.Messaging.MessagingFactory Create (Uri address, Microsoft.ServiceBus.Messaging.MessagingFactorySettings factorySettings);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.ServiceBus.Messaging.MessagingFactory Create(class System.Uri address, class Microsoft.ServiceBus.Messaging.MessagingFactorySettings factorySettings) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.Create(System.Uri,Microsoft.ServiceBus.Messaging.MessagingFactorySettings)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Create (address As Uri, factorySettings As MessagingFactorySettings) As MessagingFactory" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.ServiceBus.Messaging.MessagingFactory</ReturnType>
@@ -461,8 +490,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.Create(System.Uri,Microsoft.ServiceBus.TokenProvider)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.ServiceBus.Messaging.MessagingFactory</ReturnType>
@@ -486,10 +515,11 @@
       <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.ServiceBus.Messaging.MessagingFactory&gt; CreateAsync (System.Collections.Generic.IEnumerable&lt;string&gt; addresses);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.ServiceBus.Messaging.MessagingFactory&gt; CreateAsync(class System.Collections.Generic.IEnumerable`1&lt;string&gt; addresses) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.CreateAsync(System.Collections.Generic.IEnumerable{System.String})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CreateAsync (addresses As IEnumerable(Of String)) As Task(Of MessagingFactory)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.ServiceBus.Messaging.MessagingFactory&gt;</ReturnType>
@@ -508,10 +538,11 @@
       <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.ServiceBus.Messaging.MessagingFactory&gt; CreateAsync (System.Collections.Generic.IEnumerable&lt;Uri&gt; addresses);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.ServiceBus.Messaging.MessagingFactory&gt; CreateAsync(class System.Collections.Generic.IEnumerable`1&lt;class System.Uri&gt; addresses) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.CreateAsync(System.Collections.Generic.IEnumerable{System.Uri})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CreateAsync (addresses As IEnumerable(Of Uri)) As Task(Of MessagingFactory)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.ServiceBus.Messaging.MessagingFactory&gt;</ReturnType>
@@ -530,10 +561,11 @@
       <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.ServiceBus.Messaging.MessagingFactory&gt; CreateAsync (string address);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.ServiceBus.Messaging.MessagingFactory&gt; CreateAsync(string address) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.CreateAsync(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CreateAsync (address As String) As Task(Of MessagingFactory)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.ServiceBus.Messaging.MessagingFactory&gt;</ReturnType>
@@ -552,10 +584,11 @@
       <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.ServiceBus.Messaging.MessagingFactory&gt; CreateAsync (Uri address);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.ServiceBus.Messaging.MessagingFactory&gt; CreateAsync(class System.Uri address) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.CreateAsync(System.Uri)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CreateAsync (address As Uri) As Task(Of MessagingFactory)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.ServiceBus.Messaging.MessagingFactory&gt;</ReturnType>
@@ -574,10 +607,11 @@
       <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.ServiceBus.Messaging.MessagingFactory&gt; CreateAsync (System.Collections.Generic.IEnumerable&lt;string&gt; addresses, Microsoft.ServiceBus.Messaging.MessagingFactorySettings factorySettings);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.ServiceBus.Messaging.MessagingFactory&gt; CreateAsync(class System.Collections.Generic.IEnumerable`1&lt;string&gt; addresses, class Microsoft.ServiceBus.Messaging.MessagingFactorySettings factorySettings) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.CreateAsync(System.Collections.Generic.IEnumerable{System.String},Microsoft.ServiceBus.Messaging.MessagingFactorySettings)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CreateAsync (addresses As IEnumerable(Of String), factorySettings As MessagingFactorySettings) As Task(Of MessagingFactory)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.ServiceBus.Messaging.MessagingFactory&gt;</ReturnType>
@@ -600,8 +634,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.CreateAsync(System.Collections.Generic.IEnumerable{System.String},Microsoft.ServiceBus.TokenProvider)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.ServiceBus.Messaging.MessagingFactory&gt;</ReturnType>
@@ -622,10 +656,11 @@
       <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.ServiceBus.Messaging.MessagingFactory&gt; CreateAsync (System.Collections.Generic.IEnumerable&lt;Uri&gt; addresses, Microsoft.ServiceBus.Messaging.MessagingFactorySettings factorySettings);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.ServiceBus.Messaging.MessagingFactory&gt; CreateAsync(class System.Collections.Generic.IEnumerable`1&lt;class System.Uri&gt; addresses, class Microsoft.ServiceBus.Messaging.MessagingFactorySettings factorySettings) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.CreateAsync(System.Collections.Generic.IEnumerable{System.Uri},Microsoft.ServiceBus.Messaging.MessagingFactorySettings)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CreateAsync (addresses As IEnumerable(Of Uri), factorySettings As MessagingFactorySettings) As Task(Of MessagingFactory)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.ServiceBus.Messaging.MessagingFactory&gt;</ReturnType>
@@ -648,8 +683,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.CreateAsync(System.Collections.Generic.IEnumerable{System.Uri},Microsoft.ServiceBus.TokenProvider)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.ServiceBus.Messaging.MessagingFactory&gt;</ReturnType>
@@ -670,10 +705,11 @@
       <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.ServiceBus.Messaging.MessagingFactory&gt; CreateAsync (string address, Microsoft.ServiceBus.Messaging.MessagingFactorySettings factorySettings);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.ServiceBus.Messaging.MessagingFactory&gt; CreateAsync(string address, class Microsoft.ServiceBus.Messaging.MessagingFactorySettings factorySettings) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.CreateAsync(System.String,Microsoft.ServiceBus.Messaging.MessagingFactorySettings)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CreateAsync (address As String, factorySettings As MessagingFactorySettings) As Task(Of MessagingFactory)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.ServiceBus.Messaging.MessagingFactory&gt;</ReturnType>
@@ -696,8 +732,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.CreateAsync(System.String,Microsoft.ServiceBus.TokenProvider)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.ServiceBus.Messaging.MessagingFactory&gt;</ReturnType>
@@ -718,10 +754,11 @@
       <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.ServiceBus.Messaging.MessagingFactory&gt; CreateAsync (Uri address, Microsoft.ServiceBus.Messaging.MessagingFactorySettings factorySettings);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.ServiceBus.Messaging.MessagingFactory&gt; CreateAsync(class System.Uri address, class Microsoft.ServiceBus.Messaging.MessagingFactorySettings factorySettings) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.CreateAsync(System.Uri,Microsoft.ServiceBus.Messaging.MessagingFactorySettings)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CreateAsync (address As Uri, factorySettings As MessagingFactorySettings) As Task(Of MessagingFactory)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.ServiceBus.Messaging.MessagingFactory&gt;</ReturnType>
@@ -744,8 +781,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.CreateAsync(System.Uri,Microsoft.ServiceBus.TokenProvider)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.ServiceBus.Messaging.MessagingFactory&gt;</ReturnType>
@@ -766,10 +803,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.ServiceBus.Messaging.EventHubClient CreateEventHubClient (string path);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.ServiceBus.Messaging.EventHubClient CreateEventHubClient(string path) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.CreateEventHubClient(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateEventHubClient (path As String) As EventHubClient" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.ServiceBus.Messaging.EventHubClient</ReturnType>
@@ -789,10 +827,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.ServiceBus.Messaging.MessagingFactory CreateFromConnectionString (string connectionString);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.ServiceBus.Messaging.MessagingFactory CreateFromConnectionString(string connectionString) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.CreateFromConnectionString(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CreateFromConnectionString (connectionString As String) As MessagingFactory" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.ServiceBus.Messaging.MessagingFactory</ReturnType>
@@ -811,10 +850,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.ServiceBus.Messaging.MessageReceiver CreateMessageReceiver (string entityPath);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.ServiceBus.Messaging.MessageReceiver CreateMessageReceiver(string entityPath) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.CreateMessageReceiver(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateMessageReceiver (entityPath As String) As MessageReceiver" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.ServiceBus.Messaging.MessageReceiver</ReturnType>
@@ -835,8 +875,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.CreateMessageReceiver(System.String,Microsoft.ServiceBus.Messaging.ReceiveMode)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.ServiceBus.Messaging.MessageReceiver</ReturnType>
@@ -857,10 +897,11 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.ServiceBus.Messaging.MessageReceiver&gt; CreateMessageReceiverAsync (string entityPath);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class Microsoft.ServiceBus.Messaging.MessageReceiver&gt; CreateMessageReceiverAsync(string entityPath) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.CreateMessageReceiverAsync(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateMessageReceiverAsync (entityPath As String) As Task(Of MessageReceiver)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.ServiceBus.Messaging.MessageReceiver&gt;</ReturnType>
@@ -881,8 +922,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.CreateMessageReceiverAsync(System.String,Microsoft.ServiceBus.Messaging.ReceiveMode)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.ServiceBus.Messaging.MessageReceiver&gt;</ReturnType>
@@ -903,10 +944,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.ServiceBus.Messaging.MessageSender CreateMessageSender (string entityPath);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.ServiceBus.Messaging.MessageSender CreateMessageSender(string entityPath) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.CreateMessageSender(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateMessageSender (entityPath As String) As MessageSender" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.ServiceBus.Messaging.MessageSender</ReturnType>
@@ -925,10 +967,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.ServiceBus.Messaging.MessageSender CreateMessageSender (string transferDestinationEntityPath, string viaEntityPath);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.ServiceBus.Messaging.MessageSender CreateMessageSender(string transferDestinationEntityPath, string viaEntityPath) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.CreateMessageSender(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateMessageSender (transferDestinationEntityPath As String, viaEntityPath As String) As MessageSender" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.ServiceBus.Messaging.MessageSender</ReturnType>
@@ -949,10 +992,11 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.ServiceBus.Messaging.MessageSender&gt; CreateMessageSenderAsync (string entityPath);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class Microsoft.ServiceBus.Messaging.MessageSender&gt; CreateMessageSenderAsync(string entityPath) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.CreateMessageSenderAsync(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateMessageSenderAsync (entityPath As String) As Task(Of MessageSender)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.ServiceBus.Messaging.MessageSender&gt;</ReturnType>
@@ -971,10 +1015,11 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.ServiceBus.Messaging.MessageSender&gt; CreateMessageSenderAsync (string transferDestinationEntityPath, string viaEntityPath);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class Microsoft.ServiceBus.Messaging.MessageSender&gt; CreateMessageSenderAsync(string transferDestinationEntityPath, string viaEntityPath) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.CreateMessageSenderAsync(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateMessageSenderAsync (transferDestinationEntityPath As String, viaEntityPath As String) As Task(Of MessageSender)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.ServiceBus.Messaging.MessageSender&gt;</ReturnType>
@@ -995,10 +1040,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.ServiceBus.Messaging.QueueClient CreateQueueClient (string path);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.ServiceBus.Messaging.QueueClient CreateQueueClient(string path) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.CreateQueueClient(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateQueueClient (path As String) As QueueClient" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.ServiceBus.Messaging.QueueClient</ReturnType>
@@ -1028,8 +1074,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.CreateQueueClient(System.String,Microsoft.ServiceBus.Messaging.ReceiveMode)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.ServiceBus.Messaging.QueueClient</ReturnType>
@@ -1059,10 +1105,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.ServiceBus.Messaging.SubscriptionClient CreateSubscriptionClient (string topicPath, string name);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.ServiceBus.Messaging.SubscriptionClient CreateSubscriptionClient(string topicPath, string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.CreateSubscriptionClient(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateSubscriptionClient (topicPath As String, name As String) As SubscriptionClient" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.ServiceBus.Messaging.SubscriptionClient</ReturnType>
@@ -1093,8 +1140,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.CreateSubscriptionClient(System.String,System.String,Microsoft.ServiceBus.Messaging.ReceiveMode)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.ServiceBus.Messaging.SubscriptionClient</ReturnType>
@@ -1125,10 +1172,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.ServiceBus.Messaging.TopicClient CreateTopicClient (string path);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.ServiceBus.Messaging.TopicClient CreateTopicClient(string path) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.CreateTopicClient(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateTopicClient (path As String) As TopicClient" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.ServiceBus.Messaging.TopicClient</ReturnType>
@@ -1153,10 +1201,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.ServiceBus.Messaging.MessagingFactorySettings GetSettings ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.ServiceBus.Messaging.MessagingFactorySettings GetSettings() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.GetSettings" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetSettings () As MessagingFactorySettings" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.ServiceBus.Messaging.MessagingFactorySettings</ReturnType>
@@ -1172,10 +1221,11 @@
       <MemberSignature Language="C#" Value="protected void IncrementConnectionResetCount (Uri endpoint);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance void IncrementConnectionResetCount(class System.Uri endpoint) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.IncrementConnectionResetCount(System.Uri)" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub IncrementConnectionResetCount (endpoint As Uri)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1193,10 +1243,11 @@
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;Uri&gt; NamespaceEndpoints { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IEnumerable`1&lt;class System.Uri&gt; NamespaceEndpoints" />
       <MemberSignature Language="DocId" Value="P:Microsoft.ServiceBus.Messaging.MessagingFactory.NamespaceEndpoints" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NamespaceEndpoints As IEnumerable(Of Uri)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;System.Uri&gt;</ReturnType>
@@ -1211,10 +1262,11 @@
       <MemberSignature Language="C#" Value="protected override void OnAbort ();" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnAbort() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.OnAbort" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnAbort ()" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1231,8 +1283,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.OnAcceptMessageSession(Microsoft.ServiceBus.Messaging.ReceiveMode,System.TimeSpan,System.TimeSpan)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.ServiceBus.Messaging.MessageSession</ReturnType>
@@ -1257,8 +1309,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.OnAcceptSessionReceiver(System.String,System.String,Microsoft.ServiceBus.Messaging.ReceiveMode,System.TimeSpan)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.ServiceBus.Messaging.MessageSession</ReturnType>
@@ -1285,8 +1337,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.OnBeginAcceptMessageSession(Microsoft.ServiceBus.Messaging.ReceiveMode,System.TimeSpan,System.TimeSpan,System.AsyncCallback,System.Object)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.IAsyncResult</ReturnType>
@@ -1315,8 +1367,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.OnBeginAcceptSessionReceiver(System.String,System.String,Microsoft.ServiceBus.Messaging.ReceiveMode,System.TimeSpan,System.AsyncCallback,System.Object)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.IAsyncResult</ReturnType>
@@ -1346,10 +1398,11 @@
       <MemberSignature Language="C#" Value="protected override IAsyncResult OnBeginClose (TimeSpan timeout, AsyncCallback callback, object state);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class System.IAsyncResult OnBeginClose(valuetype System.TimeSpan timeout, class System.AsyncCallback callback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.OnBeginClose(System.TimeSpan,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function OnBeginClose (timeout As TimeSpan, callback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.IAsyncResult</ReturnType>
@@ -1374,8 +1427,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.OnBeginCreateMessageReceiver(System.String,Microsoft.ServiceBus.Messaging.ReceiveMode,System.TimeSpan,System.AsyncCallback,System.Object)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.IAsyncResult</ReturnType>
@@ -1403,10 +1456,11 @@
       <MemberSignature Language="C#" Value="protected virtual IAsyncResult OnBeginCreateMessageSender (string entityName, TimeSpan timeout, AsyncCallback callback, object state);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance class System.IAsyncResult OnBeginCreateMessageSender(string entityName, valuetype System.TimeSpan timeout, class System.AsyncCallback callback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.OnBeginCreateMessageSender(System.String,System.TimeSpan,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Function OnBeginCreateMessageSender (entityName As String, timeout As TimeSpan, callback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.IAsyncResult</ReturnType>
@@ -1431,10 +1485,11 @@
       <MemberSignature Language="C#" Value="protected abstract IAsyncResult OnBeginCreateMessageSender (string transferDestinationEntityName, string viaEntityName, TimeSpan timeout, AsyncCallback callback, object state);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance class System.IAsyncResult OnBeginCreateMessageSender(string transferDestinationEntityName, string viaEntityName, valuetype System.TimeSpan timeout, class System.AsyncCallback callback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.OnBeginCreateMessageSender(System.String,System.String,System.TimeSpan,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Protected MustOverride Function OnBeginCreateMessageSender (transferDestinationEntityName As String, viaEntityName As String, timeout As TimeSpan, callback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.IAsyncResult</ReturnType>
@@ -1461,10 +1516,11 @@
       <MemberSignature Language="C#" Value="protected override void OnClose (TimeSpan timeout);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnClose(valuetype System.TimeSpan timeout) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.OnClose(System.TimeSpan)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnClose (timeout As TimeSpan)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1482,10 +1538,11 @@
       <MemberSignature Language="C#" Value="protected virtual Microsoft.ServiceBus.Messaging.EventHubClient OnCreateEventHubClient (string path);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance class Microsoft.ServiceBus.Messaging.EventHubClient OnCreateEventHubClient(string path) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.OnCreateEventHubClient(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Function OnCreateEventHubClient (path As String) As EventHubClient" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.ServiceBus.Messaging.EventHubClient</ReturnType>
@@ -1506,8 +1563,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.OnCreateMessageReceiver(System.String,Microsoft.ServiceBus.Messaging.ReceiveMode,System.TimeSpan)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.ServiceBus.Messaging.MessageReceiver</ReturnType>
@@ -1530,10 +1587,11 @@
       <MemberSignature Language="C#" Value="protected virtual Microsoft.ServiceBus.Messaging.MessageSender OnCreateMessageSender (string entityName, TimeSpan timeout);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance class Microsoft.ServiceBus.Messaging.MessageSender OnCreateMessageSender(string entityName, valuetype System.TimeSpan timeout) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.OnCreateMessageSender(System.String,System.TimeSpan)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Function OnCreateMessageSender (entityName As String, timeout As TimeSpan) As MessageSender" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.ServiceBus.Messaging.MessageSender</ReturnType>
@@ -1554,10 +1612,11 @@
       <MemberSignature Language="C#" Value="protected virtual Microsoft.ServiceBus.Messaging.MessageSender OnCreateMessageSender (string transferDestinationEntityName, string viaEntityName, TimeSpan timeout);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance class Microsoft.ServiceBus.Messaging.MessageSender OnCreateMessageSender(string transferDestinationEntityName, string viaEntityName, valuetype System.TimeSpan timeout) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.OnCreateMessageSender(System.String,System.String,System.TimeSpan)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Function OnCreateMessageSender (transferDestinationEntityName As String, viaEntityName As String, timeout As TimeSpan) As MessageSender" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.ServiceBus.Messaging.MessageSender</ReturnType>
@@ -1582,8 +1641,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.OnCreateQueueClient(System.String,Microsoft.ServiceBus.Messaging.ReceiveMode)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.ServiceBus.Messaging.QueueClient</ReturnType>
@@ -1606,8 +1665,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.OnCreateSubscriptionClient(System.String,Microsoft.ServiceBus.Messaging.ReceiveMode)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.ServiceBus.Messaging.SubscriptionClient</ReturnType>
@@ -1630,8 +1689,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.OnCreateSubscriptionClient(System.String,System.String,Microsoft.ServiceBus.Messaging.ReceiveMode)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.ServiceBus.Messaging.SubscriptionClient</ReturnType>
@@ -1654,10 +1713,11 @@
       <MemberSignature Language="C#" Value="protected virtual Microsoft.ServiceBus.Messaging.TopicClient OnCreateTopicClient (string path);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance class Microsoft.ServiceBus.Messaging.TopicClient OnCreateTopicClient(string path) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.OnCreateTopicClient(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Function OnCreateTopicClient (path As String) As TopicClient" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.ServiceBus.Messaging.TopicClient</ReturnType>
@@ -1676,10 +1736,11 @@
       <MemberSignature Language="C#" Value="protected abstract Microsoft.ServiceBus.Messaging.MessageSession OnEndAcceptMessageSession (IAsyncResult result);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance class Microsoft.ServiceBus.Messaging.MessageSession OnEndAcceptMessageSession(class System.IAsyncResult result) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.OnEndAcceptMessageSession(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Protected MustOverride Function OnEndAcceptMessageSession (result As IAsyncResult) As MessageSession" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.ServiceBus.Messaging.MessageSession</ReturnType>
@@ -1698,10 +1759,11 @@
       <MemberSignature Language="C#" Value="protected abstract Microsoft.ServiceBus.Messaging.MessageSession OnEndAcceptSessionReceiver (IAsyncResult result);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance class Microsoft.ServiceBus.Messaging.MessageSession OnEndAcceptSessionReceiver(class System.IAsyncResult result) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.OnEndAcceptSessionReceiver(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Protected MustOverride Function OnEndAcceptSessionReceiver (result As IAsyncResult) As MessageSession" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.ServiceBus.Messaging.MessageSession</ReturnType>
@@ -1721,10 +1783,11 @@
       <MemberSignature Language="C#" Value="protected override void OnEndClose (IAsyncResult result);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnEndClose(class System.IAsyncResult result) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.OnEndClose(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnEndClose (result As IAsyncResult)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1742,10 +1805,11 @@
       <MemberSignature Language="C#" Value="protected abstract Microsoft.ServiceBus.Messaging.MessageReceiver OnEndCreateMessageReceiver (IAsyncResult result);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance class Microsoft.ServiceBus.Messaging.MessageReceiver OnEndCreateMessageReceiver(class System.IAsyncResult result) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.OnEndCreateMessageReceiver(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Protected MustOverride Function OnEndCreateMessageReceiver (result As IAsyncResult) As MessageReceiver" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.ServiceBus.Messaging.MessageReceiver</ReturnType>
@@ -1764,10 +1828,11 @@
       <MemberSignature Language="C#" Value="protected abstract Microsoft.ServiceBus.Messaging.MessageSender OnEndCreateMessageSender (IAsyncResult result);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance class Microsoft.ServiceBus.Messaging.MessageSender OnEndCreateMessageSender(class System.IAsyncResult result) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.OnEndCreateMessageSender(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Protected MustOverride Function OnEndCreateMessageSender (result As IAsyncResult) As MessageSender" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.ServiceBus.Messaging.MessageSender</ReturnType>
@@ -1786,10 +1851,11 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task PairNamespaceAsync (Microsoft.ServiceBus.Messaging.PairedNamespaceOptions options);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task PairNamespaceAsync(class Microsoft.ServiceBus.Messaging.PairedNamespaceOptions options) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.PairNamespaceAsync(Microsoft.ServiceBus.Messaging.PairedNamespaceOptions)" />
+      <MemberSignature Language="VB.NET" Value="Public Function PairNamespaceAsync (options As PairedNamespaceOptions) As Task" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -1808,10 +1874,11 @@
       <MemberSignature Language="C#" Value="public virtual int PrefetchCount { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 PrefetchCount" />
       <MemberSignature Language="DocId" Value="P:Microsoft.ServiceBus.Messaging.MessagingFactory.PrefetchCount" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property PrefetchCount As Integer" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -1826,10 +1893,11 @@
       <MemberSignature Language="C#" Value="public virtual void ResetConnection ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ResetConnection() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.MessagingFactory.ResetConnection" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub ResetConnection ()" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>

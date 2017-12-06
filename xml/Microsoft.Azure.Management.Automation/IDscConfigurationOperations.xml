@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public interface IDscConfigurationOperations" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IDscConfigurationOperations" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Automation.IDscConfigurationOperations" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IDscConfigurationOperations" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -18,8 +19,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Automation.IDscConfigurationOperations.CreateOrUpdateAsync(System.String,System.String,Microsoft.Azure.Management.Automation.Models.DscConfigurationCreateOrUpdateParameters,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.DscConfigurationCreateOrUpdateResponse&gt;</ReturnType>
@@ -46,8 +47,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Automation.IDscConfigurationOperations.DeleteAsync(System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.AzureOperationResponse&gt;</ReturnType>
@@ -74,8 +75,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Automation.IDscConfigurationOperations.GetAsync(System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.DscConfigurationGetResponse&gt;</ReturnType>
@@ -102,8 +103,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Automation.IDscConfigurationOperations.GetContentAsync(System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.DscConfigurationGetContentResponse&gt;</ReturnType>
@@ -130,8 +131,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Automation.IDscConfigurationOperations.ListAsync(System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.DscConfigurationListResponse&gt;</ReturnType>
@@ -156,8 +157,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Automation.IDscConfigurationOperations.ListNextAsync(System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.DscConfigurationListResponse&gt;</ReturnType>

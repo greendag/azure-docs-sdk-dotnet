@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public class ContainerQueryParameters" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ContainerQueryParameters extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.BackupServices.Models.ContainerQueryParameters" />
+  <TypeSignature Language="VB.NET" Value="Public Class ContainerQueryParameters" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.BackupServicesManagement</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -19,10 +20,11 @@
       <MemberSignature Language="C#" Value="public ContainerQueryParameters ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.BackupServices.Models.ContainerQueryParameters.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.BackupServicesManagement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -36,10 +38,11 @@
       <MemberSignature Language="C#" Value="public string ContainerType { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string ContainerType" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.BackupServices.Models.ContainerQueryParameters.ContainerType" />
+      <MemberSignature Language="VB.NET" Value="Public Property ContainerType As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.BackupServicesManagement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -56,10 +59,11 @@
       <MemberSignature Language="C#" Value="public string FriendlyName { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string FriendlyName" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.BackupServices.Models.ContainerQueryParameters.FriendlyName" />
+      <MemberSignature Language="VB.NET" Value="Public Property FriendlyName As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.BackupServicesManagement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -76,10 +80,11 @@
       <MemberSignature Language="C#" Value="public string Status { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Status" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.BackupServices.Models.ContainerQueryParameters.Status" />
+      <MemberSignature Language="VB.NET" Value="Public Property Status As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.BackupServicesManagement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

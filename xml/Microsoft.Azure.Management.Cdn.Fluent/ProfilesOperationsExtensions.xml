@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public static class ProfilesOperationsExtensions" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit ProfilesOperationsExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Cdn.Fluent.ProfilesOperationsExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module ProfilesOperationsExtensions" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
     <AssemblyVersion>1.0.0.60</AssemblyVersion>
@@ -21,10 +22,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Cdn.Fluent.Models.ProfileInner BeginCreate (this Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations operations, string resourceGroupName, string profileName, Microsoft.Azure.Management.Cdn.Fluent.Models.ProfileInner profile);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Cdn.Fluent.Models.ProfileInner BeginCreate(class Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations operations, string resourceGroupName, string profileName, class Microsoft.Azure.Management.Cdn.Fluent.Models.ProfileInner profile) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.ProfilesOperationsExtensions.BeginCreate(Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations,System.String,System.String,Microsoft.Azure.Management.Cdn.Fluent.Models.ProfileInner)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginCreate (operations As IProfilesOperations, resourceGroupName As String, profileName As String, profile As ProfileInner) As ProfileInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Cdn.Fluent.Models.ProfileInner</ReturnType>
@@ -62,8 +64,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.ProfilesOperationsExtensions.BeginCreateAsync(Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations,System.String,System.String,Microsoft.Azure.Management.Cdn.Fluent.Models.ProfileInner,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -108,10 +110,11 @@
       <MemberSignature Language="C#" Value="public static void BeginDelete (this Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations operations, string resourceGroupName, string profileName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void BeginDelete(class Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations operations, string resourceGroupName, string profileName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.ProfilesOperationsExtensions.BeginDelete(Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub BeginDelete (operations As IProfilesOperations, resourceGroupName As String, profileName As String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -145,8 +148,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.ProfilesOperationsExtensions.BeginDeleteAsync(Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -188,10 +191,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Cdn.Fluent.Models.ProfileInner BeginUpdate (this Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations operations, string resourceGroupName, string profileName, System.Collections.Generic.IDictionary&lt;string,string&gt; tags);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Cdn.Fluent.Models.ProfileInner BeginUpdate(class Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations operations, string resourceGroupName, string profileName, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.ProfilesOperationsExtensions.BeginUpdate(Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations,System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.String})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginUpdate (operations As IProfilesOperations, resourceGroupName As String, profileName As String, tags As IDictionary(Of String, String)) As ProfileInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Cdn.Fluent.Models.ProfileInner</ReturnType>
@@ -229,8 +233,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.ProfilesOperationsExtensions.BeginUpdateAsync(Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations,System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -275,10 +279,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Cdn.Fluent.Models.ProfileInner Create (this Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations operations, string resourceGroupName, string profileName, Microsoft.Azure.Management.Cdn.Fluent.Models.ProfileInner profile);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Cdn.Fluent.Models.ProfileInner Create(class Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations operations, string resourceGroupName, string profileName, class Microsoft.Azure.Management.Cdn.Fluent.Models.ProfileInner profile) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.ProfilesOperationsExtensions.Create(Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations,System.String,System.String,Microsoft.Azure.Management.Cdn.Fluent.Models.ProfileInner)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Create (operations As IProfilesOperations, resourceGroupName As String, profileName As String, profile As ProfileInner) As ProfileInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Cdn.Fluent.Models.ProfileInner</ReturnType>
@@ -316,8 +321,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.ProfilesOperationsExtensions.CreateAsync(Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations,System.String,System.String,Microsoft.Azure.Management.Cdn.Fluent.Models.ProfileInner,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -362,10 +367,11 @@
       <MemberSignature Language="C#" Value="public static void Delete (this Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations operations, string resourceGroupName, string profileName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Delete(class Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations operations, string resourceGroupName, string profileName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.ProfilesOperationsExtensions.Delete(Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub Delete (operations As IProfilesOperations, resourceGroupName As String, profileName As String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -399,8 +405,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.ProfilesOperationsExtensions.DeleteAsync(Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -442,10 +448,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Cdn.Fluent.Models.SsoUriInner GenerateSsoUri (this Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations operations, string resourceGroupName, string profileName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Cdn.Fluent.Models.SsoUriInner GenerateSsoUri(class Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations operations, string resourceGroupName, string profileName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.ProfilesOperationsExtensions.GenerateSsoUri(Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GenerateSsoUri (operations As IProfilesOperations, resourceGroupName As String, profileName As String) As SsoUriInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Cdn.Fluent.Models.SsoUriInner</ReturnType>
@@ -483,8 +490,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.ProfilesOperationsExtensions.GenerateSsoUriAsync(Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -529,10 +536,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Cdn.Fluent.Models.ProfileInner Get (this Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations operations, string resourceGroupName, string profileName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Cdn.Fluent.Models.ProfileInner Get(class Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations operations, string resourceGroupName, string profileName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.ProfilesOperationsExtensions.Get(Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Get (operations As IProfilesOperations, resourceGroupName As String, profileName As String) As ProfileInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Cdn.Fluent.Models.ProfileInner</ReturnType>
@@ -566,8 +574,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.ProfilesOperationsExtensions.GetAsync(Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -608,10 +616,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Cdn.Fluent.Models.ProfileInner&gt; List (this Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations operations);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Cdn.Fluent.Models.ProfileInner&gt; List(class Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations operations) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.ProfilesOperationsExtensions.List(Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function List (operations As IProfilesOperations) As IPage(Of ProfileInner)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Cdn.Fluent.Models.ProfileInner&gt;</ReturnType>
@@ -636,8 +645,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.ProfilesOperationsExtensions.ListAsync(Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -669,10 +678,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Cdn.Fluent.Models.ProfileInner&gt; ListByResourceGroup (this Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations operations, string resourceGroupName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Cdn.Fluent.Models.ProfileInner&gt; ListByResourceGroup(class Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations operations, string resourceGroupName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.ProfilesOperationsExtensions.ListByResourceGroup(Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListByResourceGroup (operations As IProfilesOperations, resourceGroupName As String) As IPage(Of ProfileInner)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Cdn.Fluent.Models.ProfileInner&gt;</ReturnType>
@@ -701,8 +711,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.ProfilesOperationsExtensions.ListByResourceGroupAsync(Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -738,10 +748,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Cdn.Fluent.Models.ProfileInner&gt; ListByResourceGroupNext (this Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations operations, string nextPageLink);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Cdn.Fluent.Models.ProfileInner&gt; ListByResourceGroupNext(class Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations operations, string nextPageLink) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.ProfilesOperationsExtensions.ListByResourceGroupNext(Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListByResourceGroupNext (operations As IProfilesOperations, nextPageLink As String) As IPage(Of ProfileInner)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Cdn.Fluent.Models.ProfileInner&gt;</ReturnType>
@@ -770,8 +781,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.ProfilesOperationsExtensions.ListByResourceGroupNextAsync(Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -807,10 +818,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Cdn.Fluent.Models.ProfileInner&gt; ListNext (this Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations operations, string nextPageLink);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Cdn.Fluent.Models.ProfileInner&gt; ListNext(class Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations operations, string nextPageLink) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.ProfilesOperationsExtensions.ListNext(Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListNext (operations As IProfilesOperations, nextPageLink As String) As IPage(Of ProfileInner)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Cdn.Fluent.Models.ProfileInner&gt;</ReturnType>
@@ -839,8 +851,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.ProfilesOperationsExtensions.ListNextAsync(Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -873,16 +885,17 @@
       </Docs>
     </Member>
     <Member MemberName="ListResourceUsage">
-      <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Cdn.Fluent.Models.ResourceUsage&gt; ListResourceUsage (this Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations operations, string resourceGroupName, string profileName);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Cdn.Fluent.Models.ResourceUsage&gt; ListResourceUsage(class Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations operations, string resourceGroupName, string profileName) cil managed" />
+      <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Cdn.Fluent.Models.ResourceUsageInner&gt; ListResourceUsage (this Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations operations, string resourceGroupName, string profileName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Cdn.Fluent.Models.ResourceUsageInner&gt; ListResourceUsage(class Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations operations, string resourceGroupName, string profileName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.ProfilesOperationsExtensions.ListResourceUsage(Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListResourceUsage (operations As IProfilesOperations, resourceGroupName As String, profileName As String) As IPage(Of ResourceUsageInner)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Cdn.Fluent.Models.ResourceUsage&gt;</ReturnType>
+        <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Cdn.Fluent.Models.ResourceUsageInner&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="operations" Type="Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations" RefType="this" />
@@ -907,13 +920,13 @@
       </Docs>
     </Member>
     <Member MemberName="ListResourceUsageAsync">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Cdn.Fluent.Models.ResourceUsage&gt;&gt; ListResourceUsageAsync (this Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations operations, string resourceGroupName, string profileName, System.Threading.CancellationToken cancellationToken = null);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Cdn.Fluent.Models.ResourceUsage&gt;&gt; ListResourceUsageAsync(class Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations operations, string resourceGroupName, string profileName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Cdn.Fluent.Models.ResourceUsageInner&gt;&gt; ListResourceUsageAsync (this Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations operations, string resourceGroupName, string profileName, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Cdn.Fluent.Models.ResourceUsageInner&gt;&gt; ListResourceUsageAsync(class Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations operations, string resourceGroupName, string profileName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.ProfilesOperationsExtensions.ListResourceUsageAsync(Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -921,7 +934,7 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Cdn.Fluent.Models.ResourceUsage&gt;&gt;</ReturnType>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Cdn.Fluent.Models.ResourceUsageInner&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="operations" Type="Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations" RefType="this" />
@@ -950,16 +963,17 @@
       </Docs>
     </Member>
     <Member MemberName="ListResourceUsageNext">
-      <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Cdn.Fluent.Models.ResourceUsage&gt; ListResourceUsageNext (this Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations operations, string nextPageLink);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Cdn.Fluent.Models.ResourceUsage&gt; ListResourceUsageNext(class Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations operations, string nextPageLink) cil managed" />
+      <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Cdn.Fluent.Models.ResourceUsageInner&gt; ListResourceUsageNext (this Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations operations, string nextPageLink);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Cdn.Fluent.Models.ResourceUsageInner&gt; ListResourceUsageNext(class Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations operations, string nextPageLink) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.ProfilesOperationsExtensions.ListResourceUsageNext(Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListResourceUsageNext (operations As IProfilesOperations, nextPageLink As String) As IPage(Of ResourceUsageInner)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Cdn.Fluent.Models.ResourceUsage&gt;</ReturnType>
+        <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Cdn.Fluent.Models.ResourceUsageInner&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="operations" Type="Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations" RefType="this" />
@@ -980,13 +994,13 @@
       </Docs>
     </Member>
     <Member MemberName="ListResourceUsageNextAsync">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Cdn.Fluent.Models.ResourceUsage&gt;&gt; ListResourceUsageNextAsync (this Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations operations, string nextPageLink, System.Threading.CancellationToken cancellationToken = null);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Cdn.Fluent.Models.ResourceUsage&gt;&gt; ListResourceUsageNextAsync(class Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations operations, string nextPageLink, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Cdn.Fluent.Models.ResourceUsageInner&gt;&gt; ListResourceUsageNextAsync (this Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations operations, string nextPageLink, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Cdn.Fluent.Models.ResourceUsageInner&gt;&gt; ListResourceUsageNextAsync(class Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations operations, string nextPageLink, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.ProfilesOperationsExtensions.ListResourceUsageNextAsync(Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -994,7 +1008,7 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Cdn.Fluent.Models.ResourceUsage&gt;&gt;</ReturnType>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Cdn.Fluent.Models.ResourceUsageInner&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="operations" Type="Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations" RefType="this" />
@@ -1022,10 +1036,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Cdn.Fluent.Models.ProfileInner Update (this Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations operations, string resourceGroupName, string profileName, System.Collections.Generic.IDictionary&lt;string,string&gt; tags);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Cdn.Fluent.Models.ProfileInner Update(class Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations operations, string resourceGroupName, string profileName, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.ProfilesOperationsExtensions.Update(Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations,System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.String})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Update (operations As IProfilesOperations, resourceGroupName As String, profileName As String, tags As IDictionary(Of String, String)) As ProfileInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Cdn.Fluent.Models.ProfileInner</ReturnType>
@@ -1063,8 +1078,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.ProfilesOperationsExtensions.UpdateAsync(Microsoft.Azure.Management.Cdn.Fluent.IProfilesOperations,System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>

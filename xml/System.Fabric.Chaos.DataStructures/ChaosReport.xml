@@ -2,10 +2,10 @@
   <TypeSignature Language="C#" Value="public sealed class ChaosReport" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed beforefieldinit ChaosReport extends System.Object" />
   <TypeSignature Language="DocId" Value="T:System.Fabric.Chaos.DataStructures.ChaosReport" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ChaosReport" />
   <AssemblyInfo>
     <AssemblyName>System.Fabric</AssemblyName>
-    <AssemblyVersion>5.0.0.0</AssemblyVersion>
-    <AssemblyVersion>255.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -24,9 +24,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.Chaos.DataStructures.ChaosReport.#ctor(System.Fabric.Chaos.DataStructures.ChaosParameters,System.Fabric.Chaos.DataStructures.ChaosStatus,System.Collections.Generic.List{System.Fabric.Chaos.DataStructures.ChaosEvent},System.String)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="chaosParameters" Type="System.Fabric.Chaos.DataStructures.ChaosParameters" />
@@ -49,11 +48,11 @@
       <MemberSignature Language="C#" Value="public System.Fabric.Chaos.DataStructures.ChaosParameters ChaosParameters { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Fabric.Chaos.DataStructures.ChaosParameters ChaosParameters" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Chaos.DataStructures.ChaosReport.ChaosParameters" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ChaosParameters As ChaosParameters" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -75,11 +74,11 @@
       <MemberSignature Language="C#" Value="public string ContinuationToken { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string ContinuationToken" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Chaos.DataStructures.ChaosReport.ContinuationToken" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContinuationToken As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -102,11 +101,11 @@
       <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;System.Fabric.Chaos.DataStructures.ChaosEvent&gt; History { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.List`1&lt;class System.Fabric.Chaos.DataStructures.ChaosEvent&gt; History" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Chaos.DataStructures.ChaosReport.History" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property History As List(Of ChaosEvent)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -128,11 +127,11 @@
       <MemberSignature Language="C#" Value="public System.Fabric.Chaos.DataStructures.ChaosStatus Status { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Fabric.Chaos.DataStructures.ChaosStatus Status" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Chaos.DataStructures.ChaosReport.Status" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Status As ChaosStatus" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -154,11 +153,11 @@
       <MemberSignature Language="C#" Value="public override string ToString ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.Chaos.DataStructures.ChaosReport.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

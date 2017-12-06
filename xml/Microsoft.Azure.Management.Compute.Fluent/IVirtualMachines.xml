@@ -1,7 +1,8 @@
 ﻿<Type Name="IVirtualMachines" FullName="Microsoft.Azure.Management.Compute.Fluent.IVirtualMachines">
-  <TypeSignature Language="C#" Value="public interface IVirtualMachines : Microsoft.Azure.Management.ResourceManager.Fluent.Core.CollectionActions.ISupportsBatchCreation&lt;Microsoft.Azure.Management.Compute.Fluent.IVirtualMachine&gt;, Microsoft.Azure.Management.ResourceManager.Fluent.Core.CollectionActions.ISupportsCreating&lt;Microsoft.Azure.Management.Compute.Fluent.VirtualMachine.Definition.IBlank&gt;, Microsoft.Azure.Management.ResourceManager.Fluent.Core.CollectionActions.ISupportsDeletingByGroup, Microsoft.Azure.Management.ResourceManager.Fluent.Core.CollectionActions.ISupportsDeletingById, Microsoft.Azure.Management.ResourceManager.Fluent.Core.CollectionActions.ISupportsGettingByGroup&lt;Microsoft.Azure.Management.Compute.Fluent.IVirtualMachine&gt;, Microsoft.Azure.Management.ResourceManager.Fluent.Core.CollectionActions.ISupportsGettingById&lt;Microsoft.Azure.Management.Compute.Fluent.IVirtualMachine&gt;, Microsoft.Azure.Management.ResourceManager.Fluent.Core.CollectionActions.ISupportsListing&lt;Microsoft.Azure.Management.Compute.Fluent.IVirtualMachine&gt;, Microsoft.Azure.Management.ResourceManager.Fluent.Core.CollectionActions.ISupportsListingByGroup&lt;Microsoft.Azure.Management.Compute.Fluent.IVirtualMachine&gt;, Microsoft.Azure.Management.ResourceManager.Fluent.Core.IHasInner&lt;Microsoft.Azure.Management.Compute.Fluent.IVirtualMachinesOperations&gt;, Microsoft.Azure.Management.ResourceManager.Fluent.Core.IHasManager&lt;Microsoft.Azure.Management.Compute.Fluent.IComputeManager&gt;" />
-  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IVirtualMachines implements class Microsoft.Azure.Management.ResourceManager.Fluent.Core.CollectionActions.ISupportsBatchCreation`1&lt;class Microsoft.Azure.Management.Compute.Fluent.IVirtualMachine&gt;, class Microsoft.Azure.Management.ResourceManager.Fluent.Core.CollectionActions.ISupportsCreating`1&lt;class Microsoft.Azure.Management.Compute.Fluent.VirtualMachine.Definition.IBlank&gt;, class Microsoft.Azure.Management.ResourceManager.Fluent.Core.CollectionActions.ISupportsDeletingByGroup, class Microsoft.Azure.Management.ResourceManager.Fluent.Core.CollectionActions.ISupportsDeletingById, class Microsoft.Azure.Management.ResourceManager.Fluent.Core.CollectionActions.ISupportsGettingByGroup`1&lt;class Microsoft.Azure.Management.Compute.Fluent.IVirtualMachine&gt;, class Microsoft.Azure.Management.ResourceManager.Fluent.Core.CollectionActions.ISupportsGettingById`1&lt;class Microsoft.Azure.Management.Compute.Fluent.IVirtualMachine&gt;, class Microsoft.Azure.Management.ResourceManager.Fluent.Core.CollectionActions.ISupportsListing`1&lt;class Microsoft.Azure.Management.Compute.Fluent.IVirtualMachine&gt;, class Microsoft.Azure.Management.ResourceManager.Fluent.Core.CollectionActions.ISupportsListingByGroup`1&lt;class Microsoft.Azure.Management.Compute.Fluent.IVirtualMachine&gt;, class Microsoft.Azure.Management.ResourceManager.Fluent.Core.IHasInner`1&lt;class Microsoft.Azure.Management.Compute.Fluent.IVirtualMachinesOperations&gt;, class Microsoft.Azure.Management.ResourceManager.Fluent.Core.IHasManager`1&lt;class Microsoft.Azure.Management.Compute.Fluent.IComputeManager&gt;" />
+  <TypeSignature Language="C#" Value="public interface IVirtualMachines : Microsoft.Azure.Management.ResourceManager.Fluent.Core.CollectionActions.ISupportsBatchCreation&lt;Microsoft.Azure.Management.Compute.Fluent.IVirtualMachine&gt;, Microsoft.Azure.Management.ResourceManager.Fluent.Core.CollectionActions.ISupportsBatchDeletion, Microsoft.Azure.Management.ResourceManager.Fluent.Core.CollectionActions.ISupportsCreating&lt;Microsoft.Azure.Management.Compute.Fluent.VirtualMachine.Definition.IBlank&gt;, Microsoft.Azure.Management.ResourceManager.Fluent.Core.CollectionActions.ISupportsDeletingById, Microsoft.Azure.Management.ResourceManager.Fluent.Core.CollectionActions.ISupportsDeletingByResourceGroup, Microsoft.Azure.Management.ResourceManager.Fluent.Core.CollectionActions.ISupportsGettingById&lt;Microsoft.Azure.Management.Compute.Fluent.IVirtualMachine&gt;, Microsoft.Azure.Management.ResourceManager.Fluent.Core.CollectionActions.ISupportsGettingByResourceGroup&lt;Microsoft.Azure.Management.Compute.Fluent.IVirtualMachine&gt;, Microsoft.Azure.Management.ResourceManager.Fluent.Core.CollectionActions.ISupportsListing&lt;Microsoft.Azure.Management.Compute.Fluent.IVirtualMachine&gt;, Microsoft.Azure.Management.ResourceManager.Fluent.Core.CollectionActions.ISupportsListingByResourceGroup&lt;Microsoft.Azure.Management.Compute.Fluent.IVirtualMachine&gt;, Microsoft.Azure.Management.ResourceManager.Fluent.Core.IHasInner&lt;Microsoft.Azure.Management.Compute.Fluent.IVirtualMachinesOperations&gt;, Microsoft.Azure.Management.ResourceManager.Fluent.Core.IHasManager&lt;Microsoft.Azure.Management.Compute.Fluent.IComputeManager&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IVirtualMachines implements class Microsoft.Azure.Management.ResourceManager.Fluent.Core.CollectionActions.ISupportsBatchCreation`1&lt;class Microsoft.Azure.Management.Compute.Fluent.IVirtualMachine&gt;, class Microsoft.Azure.Management.ResourceManager.Fluent.Core.CollectionActions.ISupportsBatchDeletion, class Microsoft.Azure.Management.ResourceManager.Fluent.Core.CollectionActions.ISupportsCreating`1&lt;class Microsoft.Azure.Management.Compute.Fluent.VirtualMachine.Definition.IBlank&gt;, class Microsoft.Azure.Management.ResourceManager.Fluent.Core.CollectionActions.ISupportsDeletingById, class Microsoft.Azure.Management.ResourceManager.Fluent.Core.CollectionActions.ISupportsDeletingByResourceGroup, class Microsoft.Azure.Management.ResourceManager.Fluent.Core.CollectionActions.ISupportsGettingById`1&lt;class Microsoft.Azure.Management.Compute.Fluent.IVirtualMachine&gt;, class Microsoft.Azure.Management.ResourceManager.Fluent.Core.CollectionActions.ISupportsGettingByResourceGroup`1&lt;class Microsoft.Azure.Management.Compute.Fluent.IVirtualMachine&gt;, class Microsoft.Azure.Management.ResourceManager.Fluent.Core.CollectionActions.ISupportsListing`1&lt;class Microsoft.Azure.Management.Compute.Fluent.IVirtualMachine&gt;, class Microsoft.Azure.Management.ResourceManager.Fluent.Core.CollectionActions.ISupportsListingByResourceGroup`1&lt;class Microsoft.Azure.Management.Compute.Fluent.IVirtualMachine&gt;, class Microsoft.Azure.Management.ResourceManager.Fluent.Core.IHasInner`1&lt;class Microsoft.Azure.Management.Compute.Fluent.IVirtualMachinesOperations&gt;, class Microsoft.Azure.Management.ResourceManager.Fluent.Core.IHasManager`1&lt;class Microsoft.Azure.Management.Compute.Fluent.IComputeManager&gt;" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Compute.Fluent.IVirtualMachines" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IVirtualMachines&#xA;Implements IHasInner(Of IVirtualMachinesOperations), IHasManager(Of IComputeManager), ISupportsBatchCreation(Of IVirtualMachine), ISupportsBatchDeletion, ISupportsCreating(Of IBlank), ISupportsDeletingById, ISupportsDeletingByResourceGroup, ISupportsGettingById(Of IVirtualMachine), ISupportsGettingByResourceGroup(Of IVirtualMachine), ISupportsListing(Of IVirtualMachine), ISupportsListingByResourceGroup(Of IVirtualMachine)" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
     <AssemblyVersion>1.0.0.60</AssemblyVersion>
@@ -11,25 +12,28 @@
       <InterfaceName>Microsoft.Azure.Management.ResourceManager.Fluent.Core.CollectionActions.ISupportsBatchCreation&lt;Microsoft.Azure.Management.Compute.Fluent.IVirtualMachine&gt;</InterfaceName>
     </Interface>
     <Interface>
-      <InterfaceName>Microsoft.Azure.Management.ResourceManager.Fluent.Core.CollectionActions.ISupportsCreating&lt;Microsoft.Azure.Management.Compute.Fluent.VirtualMachine.Definition.IBlank&gt;</InterfaceName>
+      <InterfaceName>Microsoft.Azure.Management.ResourceManager.Fluent.Core.CollectionActions.ISupportsBatchDeletion</InterfaceName>
     </Interface>
     <Interface>
-      <InterfaceName>Microsoft.Azure.Management.ResourceManager.Fluent.Core.CollectionActions.ISupportsDeletingByGroup</InterfaceName>
+      <InterfaceName>Microsoft.Azure.Management.ResourceManager.Fluent.Core.CollectionActions.ISupportsCreating&lt;Microsoft.Azure.Management.Compute.Fluent.VirtualMachine.Definition.IBlank&gt;</InterfaceName>
     </Interface>
     <Interface>
       <InterfaceName>Microsoft.Azure.Management.ResourceManager.Fluent.Core.CollectionActions.ISupportsDeletingById</InterfaceName>
     </Interface>
     <Interface>
-      <InterfaceName>Microsoft.Azure.Management.ResourceManager.Fluent.Core.CollectionActions.ISupportsGettingByGroup&lt;Microsoft.Azure.Management.Compute.Fluent.IVirtualMachine&gt;</InterfaceName>
+      <InterfaceName>Microsoft.Azure.Management.ResourceManager.Fluent.Core.CollectionActions.ISupportsDeletingByResourceGroup</InterfaceName>
     </Interface>
     <Interface>
       <InterfaceName>Microsoft.Azure.Management.ResourceManager.Fluent.Core.CollectionActions.ISupportsGettingById&lt;Microsoft.Azure.Management.Compute.Fluent.IVirtualMachine&gt;</InterfaceName>
     </Interface>
     <Interface>
+      <InterfaceName>Microsoft.Azure.Management.ResourceManager.Fluent.Core.CollectionActions.ISupportsGettingByResourceGroup&lt;Microsoft.Azure.Management.Compute.Fluent.IVirtualMachine&gt;</InterfaceName>
+    </Interface>
+    <Interface>
       <InterfaceName>Microsoft.Azure.Management.ResourceManager.Fluent.Core.CollectionActions.ISupportsListing&lt;Microsoft.Azure.Management.Compute.Fluent.IVirtualMachine&gt;</InterfaceName>
     </Interface>
     <Interface>
-      <InterfaceName>Microsoft.Azure.Management.ResourceManager.Fluent.Core.CollectionActions.ISupportsListingByGroup&lt;Microsoft.Azure.Management.Compute.Fluent.IVirtualMachine&gt;</InterfaceName>
+      <InterfaceName>Microsoft.Azure.Management.ResourceManager.Fluent.Core.CollectionActions.ISupportsListingByResourceGroup&lt;Microsoft.Azure.Management.Compute.Fluent.IVirtualMachine&gt;</InterfaceName>
     </Interface>
     <Interface>
       <InterfaceName>Microsoft.Azure.Management.ResourceManager.Fluent.Core.IHasInner&lt;Microsoft.Azure.Management.Compute.Fluent.IVirtualMachinesOperations&gt;</InterfaceName>
@@ -49,10 +53,11 @@
       <MemberSignature Language="C#" Value="public string Capture (string groupName, string name, string containerName, string vhdPrefix, bool overwriteVhd);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string Capture(string groupName, string name, string containerName, string vhdPrefix, bool overwriteVhd) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.IVirtualMachines.Capture(System.String,System.String,System.String,System.String,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Capture (groupName As String, name As String, containerName As String, vhdPrefix As String, overwriteVhd As Boolean) As String" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -68,10 +73,10 @@
         <param name="groupName">The resource group name.</param>
         <param name="name">The virtual machine name.</param>
         <param name="containerName">Destination container name to store the captured VHD.</param>
-        <param name="vhdPrefix">The prefix for the vhd holding captured image.</param>
+        <param name="vhdPrefix">The prefix for the VHD holding captured image.</param>
         <param name="overwriteVhd">Whether to overwrites destination VHD if it exists.</param>
         <summary>
-            Captures the virtual machine by copying virtual hard disks of the VM and returns template as json
+            Captures the virtual machine by copying virtual hard disks of the VM and returns template as a JSON
             string that can be used to create similar VMs.
             </summary>
         <returns>To be added.</returns>
@@ -79,39 +84,15 @@
         <return>The template as JSON string.</return>
       </Docs>
     </Member>
-    <Member MemberName="ConvertToManaged">
-      <MemberSignature Language="C#" Value="public void ConvertToManaged (string groupName, string name);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ConvertToManaged(string groupName, string name) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.IVirtualMachines.ConvertToManaged(System.String,System.String)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
-        <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="groupName" Type="System.String" />
-        <Parameter Name="name" Type="System.String" />
-      </Parameters>
-      <Docs>
-        <param name="groupName">The resource group name.</param>
-        <param name="name">The virtual machine name.</param>
-        <summary>
-            Convert (migrate) the virtual machine with un-managed disks to use managed disk.
-            </summary>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="Deallocate">
       <MemberSignature Language="C#" Value="public void Deallocate (string groupName, string name);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Deallocate(string groupName, string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.IVirtualMachines.Deallocate(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Deallocate (groupName As String, name As String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -133,10 +114,11 @@
       <MemberSignature Language="C#" Value="public void Generalize (string groupName, string name);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Generalize(string groupName, string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.IVirtualMachines.Generalize(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Generalize (groupName As String, name As String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -149,7 +131,7 @@
         <param name="groupName">The name of the resource group the virtual machine is in.</param>
         <param name="name">The virtual machine name.</param>
         <summary>
-            Generalize the virtual machine.
+            Generalizes the virtual machine.
             </summary>
         <remarks>To be added.</remarks>
       </Docs>
@@ -158,10 +140,11 @@
       <MemberSignature Language="C#" Value="public void PowerOff (string groupName, string name);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void PowerOff(string groupName, string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.IVirtualMachines.PowerOff(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub PowerOff (groupName As String, name As String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -174,7 +157,7 @@
         <param name="groupName">The name of the resource group the virtual machine is in.</param>
         <param name="name">The virtual machine name.</param>
         <summary>
-            Power off (stop) a virtual machine.
+            Powers off (stops) a virtual machine.
             </summary>
         <remarks>To be added.</remarks>
       </Docs>
@@ -183,10 +166,11 @@
       <MemberSignature Language="C#" Value="public void Redeploy (string groupName, string name);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Redeploy(string groupName, string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.IVirtualMachines.Redeploy(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Redeploy (groupName As String, name As String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -199,7 +183,7 @@
         <param name="groupName">The name of the resource group the virtual machine is in.</param>
         <param name="name">The virtual machine name.</param>
         <summary>
-            Redeploy a virtual machine.
+            Redeploys a virtual machine.
             </summary>
         <remarks>To be added.</remarks>
       </Docs>
@@ -208,10 +192,11 @@
       <MemberSignature Language="C#" Value="public void Restart (string groupName, string name);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Restart(string groupName, string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.IVirtualMachines.Restart(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Restart (groupName As String, name As String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -224,7 +209,7 @@
         <param name="groupName">The name of the resource group the virtual machine is in.</param>
         <param name="name">The virtual machine name.</param>
         <summary>
-            Restart a virtual machine.
+            Restarts a virtual machine.
             </summary>
         <remarks>To be added.</remarks>
       </Docs>
@@ -233,10 +218,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineSizes Sizes { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineSizes Sizes" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Compute.Fluent.IVirtualMachines.Sizes" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Sizes As IVirtualMachineSizes" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineSizes</ReturnType>
@@ -253,10 +239,11 @@
       <MemberSignature Language="C#" Value="public void Start (string groupName, string name);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Start(string groupName, string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.IVirtualMachines.Start(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Start (groupName As String, name As String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -269,7 +256,7 @@
         <param name="groupName">The name of the resource group the virtual machine is in.</param>
         <param name="name">The virtual machine name.</param>
         <summary>
-            Start a virtual machine.
+            Starts a virtual machine.
             </summary>
         <remarks>To be added.</remarks>
       </Docs>

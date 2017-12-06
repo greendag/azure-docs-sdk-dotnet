@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public static class ManagementLocksOperationsExtensions" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit ManagementLocksOperationsExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.ResourceManager.ManagementLocksOperationsExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module ManagementLocksOperationsExtensions" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -21,10 +22,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject CreateOrUpdateAtResourceGroupLevel (this Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations operations, string resourceGroupName, string lockName, Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject parameters);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject CreateOrUpdateAtResourceGroupLevel(class Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations operations, string resourceGroupName, string lockName, class Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject parameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.ManagementLocksOperationsExtensions.CreateOrUpdateAtResourceGroupLevel(Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations,System.String,System.String,Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function CreateOrUpdateAtResourceGroupLevel (operations As IManagementLocksOperations, resourceGroupName As String, lockName As String, parameters As ManagementLockObject) As ManagementLockObject" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject</ReturnType>
@@ -68,8 +70,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.ManagementLocksOperationsExtensions.CreateOrUpdateAtResourceGroupLevelAsync(Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations,System.String,System.String,Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -120,10 +122,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject CreateOrUpdateAtResourceLevel (this Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations operations, string resourceGroupName, string resourceProviderNamespace, string parentResourcePath, string resourceType, string resourceName, string lockName, Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject parameters);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject CreateOrUpdateAtResourceLevel(class Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations operations, string resourceGroupName, string resourceProviderNamespace, string parentResourcePath, string resourceType, string resourceName, string lockName, class Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject parameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.ManagementLocksOperationsExtensions.CreateOrUpdateAtResourceLevel(Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations,System.String,System.String,System.String,System.String,System.String,System.String,Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function CreateOrUpdateAtResourceLevel (operations As IManagementLocksOperations, resourceGroupName As String, resourceProviderNamespace As String, parentResourcePath As String, resourceType As String, resourceName As String, lockName As String, parameters As ManagementLockObject) As ManagementLockObject" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject</ReturnType>
@@ -184,8 +187,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.ManagementLocksOperationsExtensions.CreateOrUpdateAtResourceLevelAsync(Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations,System.String,System.String,System.String,System.String,System.String,System.String,Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -253,10 +256,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject CreateOrUpdateAtSubscriptionLevel (this Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations operations, string lockName, Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject parameters);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject CreateOrUpdateAtSubscriptionLevel(class Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations operations, string lockName, class Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject parameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.ManagementLocksOperationsExtensions.CreateOrUpdateAtSubscriptionLevel(Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations,System.String,Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function CreateOrUpdateAtSubscriptionLevel (operations As IManagementLocksOperations, lockName As String, parameters As ManagementLockObject) As ManagementLockObject" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject</ReturnType>
@@ -296,8 +300,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.ManagementLocksOperationsExtensions.CreateOrUpdateAtSubscriptionLevelAsync(Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations,System.String,Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -344,6 +348,7 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject CreateOrUpdateByScope (this Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations operations, string scope, string lockName, Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject parameters);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject CreateOrUpdateByScope(class Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations operations, string scope, string lockName, class Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject parameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.ManagementLocksOperationsExtensions.CreateOrUpdateByScope(Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations,System.String,System.String,Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function CreateOrUpdateByScope (operations As IManagementLocksOperations, scope As String, lockName As String, parameters As ManagementLockObject) As ManagementLockObject" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
@@ -439,10 +444,11 @@
       <MemberSignature Language="C#" Value="public static void DeleteAtResourceGroupLevel (this Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations operations, string resourceGroupName, string lockName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void DeleteAtResourceGroupLevel(class Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations operations, string resourceGroupName, string lockName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.ManagementLocksOperationsExtensions.DeleteAtResourceGroupLevel(Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub DeleteAtResourceGroupLevel (operations As IManagementLocksOperations, resourceGroupName As String, lockName As String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -479,8 +485,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.ManagementLocksOperationsExtensions.DeleteAtResourceGroupLevelAsync(Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -525,10 +531,11 @@
       <MemberSignature Language="C#" Value="public static void DeleteAtResourceLevel (this Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations operations, string resourceGroupName, string resourceProviderNamespace, string parentResourcePath, string resourceType, string resourceName, string lockName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void DeleteAtResourceLevel(class Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations operations, string resourceGroupName, string resourceProviderNamespace, string parentResourcePath, string resourceType, string resourceName, string lockName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.ManagementLocksOperationsExtensions.DeleteAtResourceLevel(Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations,System.String,System.String,System.String,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub DeleteAtResourceLevel (operations As IManagementLocksOperations, resourceGroupName As String, resourceProviderNamespace As String, parentResourcePath As String, resourceType As String, resourceName As String, lockName As String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -582,8 +589,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.ManagementLocksOperationsExtensions.DeleteAtResourceLevelAsync(Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations,System.String,System.String,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -645,10 +652,11 @@
       <MemberSignature Language="C#" Value="public static void DeleteAtSubscriptionLevel (this Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations operations, string lockName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void DeleteAtSubscriptionLevel(class Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations operations, string lockName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.ManagementLocksOperationsExtensions.DeleteAtSubscriptionLevel(Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub DeleteAtSubscriptionLevel (operations As IManagementLocksOperations, lockName As String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -681,8 +689,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.ManagementLocksOperationsExtensions.DeleteAtSubscriptionLevelAsync(Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -723,6 +731,7 @@
       <MemberSignature Language="C#" Value="public static void DeleteByScope (this Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations operations, string scope, string lockName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void DeleteByScope(class Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations operations, string scope, string lockName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.ManagementLocksOperationsExtensions.DeleteByScope(Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub DeleteByScope (operations As IManagementLocksOperations, scope As String, lockName As String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
@@ -795,81 +804,15 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="Get">
-      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject Get (this Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations operations, string lockName);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject Get(class Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations operations, string lockName) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.ManagementLocksOperationsExtensions.Get(Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations,System.String)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="operations" Type="Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations" RefType="this" />
-        <Parameter Name="lockName" Type="System.String" />
-      </Parameters>
-      <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="lockName">
-            Name of the management lock.
-            </param>
-        <summary>
-            Gets the management lock of a scope.
-            </summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="GetAsync">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject&gt; GetAsync (this Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations operations, string lockName, System.Threading.CancellationToken cancellationToken = null);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject&gt; GetAsync(class Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations operations, string lockName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.ManagementLocksOperationsExtensions.GetAsync(Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations,System.String,System.Threading.CancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.ResourceManager.ManagementLocksOperationsExtensions/&lt;GetAsync&gt;d__15))</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="operations" Type="Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations" RefType="this" />
-        <Parameter Name="lockName" Type="System.String" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
-      </Parameters>
-      <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="lockName">
-            Name of the management lock.
-            </param>
-        <param name="cancellationToken">
-            The cancellation token.
-            </param>
-        <summary>
-            Gets the management lock of a scope.
-            </summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="GetAtResourceGroupLevel">
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject GetAtResourceGroupLevel (this Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations operations, string resourceGroupName, string lockName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject GetAtResourceGroupLevel(class Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations operations, string resourceGroupName, string lockName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.ManagementLocksOperationsExtensions.GetAtResourceGroupLevel(Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAtResourceGroupLevel (operations As IManagementLocksOperations, resourceGroupName As String, lockName As String) As ManagementLockObject" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject</ReturnType>
@@ -902,8 +845,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.ManagementLocksOperationsExtensions.GetAtResourceGroupLevelAsync(Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -943,6 +886,7 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject GetAtResourceLevel (this Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations operations, string resourceGroupName, string resourceProviderNamespace, string parentResourcePath, string resourceType, string resourceName, string lockName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject GetAtResourceLevel(class Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations operations, string resourceGroupName, string resourceProviderNamespace, string parentResourcePath, string resourceType, string resourceName, string lockName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.ManagementLocksOperationsExtensions.GetAtResourceLevel(Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations,System.String,System.String,System.String,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAtResourceLevel (operations As IManagementLocksOperations, resourceGroupName As String, resourceProviderNamespace As String, parentResourcePath As String, resourceType As String, resourceName As String, lockName As String) As ManagementLockObject" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
@@ -1052,6 +996,7 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject GetAtSubscriptionLevel (this Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations operations, string lockName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject GetAtSubscriptionLevel(class Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations operations, string lockName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.ManagementLocksOperationsExtensions.GetAtSubscriptionLevel(Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAtSubscriptionLevel (operations As IManagementLocksOperations, lockName As String) As ManagementLockObject" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
@@ -1121,6 +1066,7 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject GetByScope (this Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations operations, string scope, string lockName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject GetByScope(class Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations operations, string scope, string lockName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.ManagementLocksOperationsExtensions.GetByScope(Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetByScope (operations As IManagementLocksOperations, scope As String, lockName As String) As ManagementLockObject" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
@@ -1198,10 +1144,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject&gt; ListAtResourceGroupLevel (this Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations operations, string resourceGroupName, Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject&gt; odataQuery = null);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject&gt; ListAtResourceGroupLevel(class Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations operations, string resourceGroupName, class Microsoft.Rest.Azure.OData.ODataQuery`1&lt;class Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject&gt; odataQuery) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.ManagementLocksOperationsExtensions.ListAtResourceGroupLevel(Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations,System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListAtResourceGroupLevel (operations As IManagementLocksOperations, resourceGroupName As String, Optional odataQuery As ODataQuery(Of ManagementLockObject) = null) As IPage(Of ManagementLockObject)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject&gt;</ReturnType>
@@ -1234,8 +1181,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.ManagementLocksOperationsExtensions.ListAtResourceGroupLevelAsync(Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations,System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1275,10 +1222,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject&gt; ListAtResourceGroupLevelNext (this Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations operations, string nextPageLink);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject&gt; ListAtResourceGroupLevelNext(class Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations operations, string nextPageLink) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.ManagementLocksOperationsExtensions.ListAtResourceGroupLevelNext(Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListAtResourceGroupLevelNext (operations As IManagementLocksOperations, nextPageLink As String) As IPage(Of ManagementLockObject)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject&gt;</ReturnType>
@@ -1307,8 +1255,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.ManagementLocksOperationsExtensions.ListAtResourceGroupLevelNextAsync(Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1344,10 +1292,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject&gt; ListAtResourceLevel (this Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations operations, string resourceGroupName, string resourceProviderNamespace, string parentResourcePath, string resourceType, string resourceName, Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject&gt; odataQuery = null);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject&gt; ListAtResourceLevel(class Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations operations, string resourceGroupName, string resourceProviderNamespace, string parentResourcePath, string resourceType, string resourceName, class Microsoft.Rest.Azure.OData.ODataQuery`1&lt;class Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject&gt; odataQuery) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.ManagementLocksOperationsExtensions.ListAtResourceLevel(Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations,System.String,System.String,System.String,System.String,System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListAtResourceLevel (operations As IManagementLocksOperations, resourceGroupName As String, resourceProviderNamespace As String, parentResourcePath As String, resourceType As String, resourceName As String, Optional odataQuery As ODataQuery(Of ManagementLockObject) = null) As IPage(Of ManagementLockObject)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject&gt;</ReturnType>
@@ -1397,8 +1346,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.ManagementLocksOperationsExtensions.ListAtResourceLevelAsync(Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations,System.String,System.String,System.String,System.String,System.String,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1455,10 +1404,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject&gt; ListAtResourceLevelNext (this Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations operations, string nextPageLink);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject&gt; ListAtResourceLevelNext(class Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations operations, string nextPageLink) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.ManagementLocksOperationsExtensions.ListAtResourceLevelNext(Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListAtResourceLevelNext (operations As IManagementLocksOperations, nextPageLink As String) As IPage(Of ManagementLockObject)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject&gt;</ReturnType>
@@ -1487,8 +1437,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.ManagementLocksOperationsExtensions.ListAtResourceLevelNextAsync(Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1524,10 +1474,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject&gt; ListAtSubscriptionLevel (this Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations operations, Microsoft.Rest.Azure.OData.ODataQuery&lt;Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject&gt; odataQuery = null);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject&gt; ListAtSubscriptionLevel(class Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations operations, class Microsoft.Rest.Azure.OData.ODataQuery`1&lt;class Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject&gt; odataQuery) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.ManagementLocksOperationsExtensions.ListAtSubscriptionLevel(Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListAtSubscriptionLevel (operations As IManagementLocksOperations, Optional odataQuery As ODataQuery(Of ManagementLockObject) = null) As IPage(Of ManagementLockObject)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject&gt;</ReturnType>
@@ -1556,8 +1507,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.ManagementLocksOperationsExtensions.ListAtSubscriptionLevelAsync(Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations,Microsoft.Rest.Azure.OData.ODataQuery{Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1593,10 +1544,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject&gt; ListAtSubscriptionLevelNext (this Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations operations, string nextPageLink);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject&gt; ListAtSubscriptionLevelNext(class Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations operations, string nextPageLink) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.ManagementLocksOperationsExtensions.ListAtSubscriptionLevelNext(Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListAtSubscriptionLevelNext (operations As IManagementLocksOperations, nextPageLink As String) As IPage(Of ManagementLockObject)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.ResourceManager.Models.ManagementLockObject&gt;</ReturnType>
@@ -1625,8 +1577,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.ManagementLocksOperationsExtensions.ListAtSubscriptionLevelNextAsync(Microsoft.Azure.Management.ResourceManager.IManagementLocksOperations,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>

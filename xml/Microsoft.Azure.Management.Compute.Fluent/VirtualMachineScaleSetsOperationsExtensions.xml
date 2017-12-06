@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public static class VirtualMachineScaleSetsOperationsExtensions" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit VirtualMachineScaleSetsOperationsExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Compute.Fluent.VirtualMachineScaleSetsOperationsExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module VirtualMachineScaleSetsOperationsExtensions" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
     <AssemblyVersion>1.0.0.60</AssemblyVersion>
@@ -21,10 +22,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Compute.Fluent.Models.VirtualMachineScaleSetInner BeginCreateOrUpdate (this Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations operations, string resourceGroupName, string name, Microsoft.Azure.Management.Compute.Fluent.Models.VirtualMachineScaleSetInner parameters);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Compute.Fluent.Models.VirtualMachineScaleSetInner BeginCreateOrUpdate(class Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations operations, string resourceGroupName, string name, class Microsoft.Azure.Management.Compute.Fluent.Models.VirtualMachineScaleSetInner parameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.VirtualMachineScaleSetsOperationsExtensions.BeginCreateOrUpdate(Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations,System.String,System.String,Microsoft.Azure.Management.Compute.Fluent.Models.VirtualMachineScaleSetInner)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginCreateOrUpdate (operations As IVirtualMachineScaleSetsOperations, resourceGroupName As String, name As String, parameters As VirtualMachineScaleSetInner) As VirtualMachineScaleSetInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Compute.Fluent.Models.VirtualMachineScaleSetInner</ReturnType>
@@ -61,8 +63,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.VirtualMachineScaleSetsOperationsExtensions.BeginCreateOrUpdateAsync(Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations,System.String,System.String,Microsoft.Azure.Management.Compute.Fluent.Models.VirtualMachineScaleSetInner,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -106,10 +108,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Compute.Fluent.Models.OperationStatusResponseInner BeginDeallocate (this Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations operations, string resourceGroupName, string vmScaleSetName, System.Collections.Generic.IList&lt;string&gt; instanceIds = null);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Compute.Fluent.Models.OperationStatusResponseInner BeginDeallocate(class Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations operations, string resourceGroupName, string vmScaleSetName, class System.Collections.Generic.IList`1&lt;string&gt; instanceIds) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.VirtualMachineScaleSetsOperationsExtensions.BeginDeallocate(Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations,System.String,System.String,System.Collections.Generic.IList{System.String})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginDeallocate (operations As IVirtualMachineScaleSetsOperations, resourceGroupName As String, vmScaleSetName As String, Optional instanceIds As IList(Of String) = null) As OperationStatusResponseInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Compute.Fluent.Models.OperationStatusResponseInner</ReturnType>
@@ -148,8 +151,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.VirtualMachineScaleSetsOperationsExtensions.BeginDeallocateAsync(Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations,System.String,System.String,System.Collections.Generic.IList{System.String},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -195,10 +198,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Compute.Fluent.Models.OperationStatusResponseInner BeginDelete (this Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations operations, string resourceGroupName, string vmScaleSetName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Compute.Fluent.Models.OperationStatusResponseInner BeginDelete(class Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations operations, string resourceGroupName, string vmScaleSetName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.VirtualMachineScaleSetsOperationsExtensions.BeginDelete(Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginDelete (operations As IVirtualMachineScaleSetsOperations, resourceGroupName As String, vmScaleSetName As String) As OperationStatusResponseInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Compute.Fluent.Models.OperationStatusResponseInner</ReturnType>
@@ -231,8 +235,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.VirtualMachineScaleSetsOperationsExtensions.BeginDeleteAsync(Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -272,10 +276,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Compute.Fluent.Models.OperationStatusResponseInner BeginDeleteInstances (this Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations operations, string resourceGroupName, string vmScaleSetName, System.Collections.Generic.IList&lt;string&gt; instanceIds);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Compute.Fluent.Models.OperationStatusResponseInner BeginDeleteInstances(class Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations operations, string resourceGroupName, string vmScaleSetName, class System.Collections.Generic.IList`1&lt;string&gt; instanceIds) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.VirtualMachineScaleSetsOperationsExtensions.BeginDeleteInstances(Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations,System.String,System.String,System.Collections.Generic.IList{System.String})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginDeleteInstances (operations As IVirtualMachineScaleSetsOperations, resourceGroupName As String, vmScaleSetName As String, instanceIds As IList(Of String)) As OperationStatusResponseInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Compute.Fluent.Models.OperationStatusResponseInner</ReturnType>
@@ -312,8 +317,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.VirtualMachineScaleSetsOperationsExtensions.BeginDeleteInstancesAsync(Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations,System.String,System.String,System.Collections.Generic.IList{System.String},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -357,10 +362,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Compute.Fluent.Models.OperationStatusResponseInner BeginPowerOff (this Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations operations, string resourceGroupName, string vmScaleSetName, System.Collections.Generic.IList&lt;string&gt; instanceIds = null);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Compute.Fluent.Models.OperationStatusResponseInner BeginPowerOff(class Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations operations, string resourceGroupName, string vmScaleSetName, class System.Collections.Generic.IList`1&lt;string&gt; instanceIds) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.VirtualMachineScaleSetsOperationsExtensions.BeginPowerOff(Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations,System.String,System.String,System.Collections.Generic.IList{System.String})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginPowerOff (operations As IVirtualMachineScaleSetsOperations, resourceGroupName As String, vmScaleSetName As String, Optional instanceIds As IList(Of String) = null) As OperationStatusResponseInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Compute.Fluent.Models.OperationStatusResponseInner</ReturnType>
@@ -399,8 +405,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.VirtualMachineScaleSetsOperationsExtensions.BeginPowerOffAsync(Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations,System.String,System.String,System.Collections.Generic.IList{System.String},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -446,10 +452,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Compute.Fluent.Models.OperationStatusResponseInner BeginReimage (this Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations operations, string resourceGroupName, string vmScaleSetName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Compute.Fluent.Models.OperationStatusResponseInner BeginReimage(class Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations operations, string resourceGroupName, string vmScaleSetName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.VirtualMachineScaleSetsOperationsExtensions.BeginReimage(Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginReimage (operations As IVirtualMachineScaleSetsOperations, resourceGroupName As String, vmScaleSetName As String) As OperationStatusResponseInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Compute.Fluent.Models.OperationStatusResponseInner</ReturnType>
@@ -481,10 +488,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Compute.Fluent.Models.OperationStatusResponseInner BeginReimageAll (this Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations operations, string resourceGroupName, string vmScaleSetName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Compute.Fluent.Models.OperationStatusResponseInner BeginReimageAll(class Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations operations, string resourceGroupName, string vmScaleSetName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.VirtualMachineScaleSetsOperationsExtensions.BeginReimageAll(Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginReimageAll (operations As IVirtualMachineScaleSetsOperations, resourceGroupName As String, vmScaleSetName As String) As OperationStatusResponseInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Compute.Fluent.Models.OperationStatusResponseInner</ReturnType>
@@ -519,8 +527,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.VirtualMachineScaleSetsOperationsExtensions.BeginReimageAllAsync(Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -564,8 +572,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.VirtualMachineScaleSetsOperationsExtensions.BeginReimageAsync(Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -606,10 +614,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Compute.Fluent.Models.OperationStatusResponseInner BeginRestart (this Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations operations, string resourceGroupName, string vmScaleSetName, System.Collections.Generic.IList&lt;string&gt; instanceIds = null);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Compute.Fluent.Models.OperationStatusResponseInner BeginRestart(class Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations operations, string resourceGroupName, string vmScaleSetName, class System.Collections.Generic.IList`1&lt;string&gt; instanceIds) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.VirtualMachineScaleSetsOperationsExtensions.BeginRestart(Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations,System.String,System.String,System.Collections.Generic.IList{System.String})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginRestart (operations As IVirtualMachineScaleSetsOperations, resourceGroupName As String, vmScaleSetName As String, Optional instanceIds As IList(Of String) = null) As OperationStatusResponseInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Compute.Fluent.Models.OperationStatusResponseInner</ReturnType>
@@ -646,8 +655,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.VirtualMachineScaleSetsOperationsExtensions.BeginRestartAsync(Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations,System.String,System.String,System.Collections.Generic.IList{System.String},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -691,10 +700,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Compute.Fluent.Models.OperationStatusResponseInner BeginStart (this Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations operations, string resourceGroupName, string vmScaleSetName, System.Collections.Generic.IList&lt;string&gt; instanceIds = null);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Compute.Fluent.Models.OperationStatusResponseInner BeginStart(class Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations operations, string resourceGroupName, string vmScaleSetName, class System.Collections.Generic.IList`1&lt;string&gt; instanceIds) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.VirtualMachineScaleSetsOperationsExtensions.BeginStart(Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations,System.String,System.String,System.Collections.Generic.IList{System.String})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginStart (operations As IVirtualMachineScaleSetsOperations, resourceGroupName As String, vmScaleSetName As String, Optional instanceIds As IList(Of String) = null) As OperationStatusResponseInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Compute.Fluent.Models.OperationStatusResponseInner</ReturnType>
@@ -731,8 +741,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.VirtualMachineScaleSetsOperationsExtensions.BeginStartAsync(Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations,System.String,System.String,System.Collections.Generic.IList{System.String},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -776,10 +786,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Compute.Fluent.Models.OperationStatusResponseInner BeginUpdateInstances (this Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations operations, string resourceGroupName, string vmScaleSetName, System.Collections.Generic.IList&lt;string&gt; instanceIds);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Compute.Fluent.Models.OperationStatusResponseInner BeginUpdateInstances(class Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations operations, string resourceGroupName, string vmScaleSetName, class System.Collections.Generic.IList`1&lt;string&gt; instanceIds) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.VirtualMachineScaleSetsOperationsExtensions.BeginUpdateInstances(Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations,System.String,System.String,System.Collections.Generic.IList{System.String})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginUpdateInstances (operations As IVirtualMachineScaleSetsOperations, resourceGroupName As String, vmScaleSetName As String, instanceIds As IList(Of String)) As OperationStatusResponseInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Compute.Fluent.Models.OperationStatusResponseInner</ReturnType>
@@ -817,8 +828,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.VirtualMachineScaleSetsOperationsExtensions.BeginUpdateInstancesAsync(Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations,System.String,System.String,System.Collections.Generic.IList{System.String},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -863,10 +874,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Compute.Fluent.Models.VirtualMachineScaleSetInner CreateOrUpdate (this Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations operations, string resourceGroupName, string name, Microsoft.Azure.Management.Compute.Fluent.Models.VirtualMachineScaleSetInner parameters);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Compute.Fluent.Models.VirtualMachineScaleSetInner CreateOrUpdate(class Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations operations, string resourceGroupName, string name, class Microsoft.Azure.Management.Compute.Fluent.Models.VirtualMachineScaleSetInner parameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.VirtualMachineScaleSetsOperationsExtensions.CreateOrUpdate(Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations,System.String,System.String,Microsoft.Azure.Management.Compute.Fluent.Models.VirtualMachineScaleSetInner)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function CreateOrUpdate (operations As IVirtualMachineScaleSetsOperations, resourceGroupName As String, name As String, parameters As VirtualMachineScaleSetInner) As VirtualMachineScaleSetInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Compute.Fluent.Models.VirtualMachineScaleSetInner</ReturnType>
@@ -903,8 +915,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.VirtualMachineScaleSetsOperationsExtensions.CreateOrUpdateAsync(Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations,System.String,System.String,Microsoft.Azure.Management.Compute.Fluent.Models.VirtualMachineScaleSetInner,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -948,10 +960,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Compute.Fluent.Models.OperationStatusResponseInner Deallocate (this Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations operations, string resourceGroupName, string vmScaleSetName, System.Collections.Generic.IList&lt;string&gt; instanceIds = null);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Compute.Fluent.Models.OperationStatusResponseInner Deallocate(class Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations operations, string resourceGroupName, string vmScaleSetName, class System.Collections.Generic.IList`1&lt;string&gt; instanceIds) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.VirtualMachineScaleSetsOperationsExtensions.Deallocate(Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations,System.String,System.String,System.Collections.Generic.IList{System.String})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Deallocate (operations As IVirtualMachineScaleSetsOperations, resourceGroupName As String, vmScaleSetName As String, Optional instanceIds As IList(Of String) = null) As OperationStatusResponseInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Compute.Fluent.Models.OperationStatusResponseInner</ReturnType>
@@ -990,8 +1003,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.VirtualMachineScaleSetsOperationsExtensions.DeallocateAsync(Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations,System.String,System.String,System.Collections.Generic.IList{System.String},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1037,10 +1050,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Compute.Fluent.Models.OperationStatusResponseInner Delete (this Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations operations, string resourceGroupName, string vmScaleSetName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Compute.Fluent.Models.OperationStatusResponseInner Delete(class Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations operations, string resourceGroupName, string vmScaleSetName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.VirtualMachineScaleSetsOperationsExtensions.Delete(Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Delete (operations As IVirtualMachineScaleSetsOperations, resourceGroupName As String, vmScaleSetName As String) As OperationStatusResponseInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Compute.Fluent.Models.OperationStatusResponseInner</ReturnType>
@@ -1073,8 +1087,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.VirtualMachineScaleSetsOperationsExtensions.DeleteAsync(Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1114,10 +1128,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Compute.Fluent.Models.OperationStatusResponseInner DeleteInstances (this Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations operations, string resourceGroupName, string vmScaleSetName, System.Collections.Generic.IList&lt;string&gt; instanceIds);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Compute.Fluent.Models.OperationStatusResponseInner DeleteInstances(class Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations operations, string resourceGroupName, string vmScaleSetName, class System.Collections.Generic.IList`1&lt;string&gt; instanceIds) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.VirtualMachineScaleSetsOperationsExtensions.DeleteInstances(Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations,System.String,System.String,System.Collections.Generic.IList{System.String})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function DeleteInstances (operations As IVirtualMachineScaleSetsOperations, resourceGroupName As String, vmScaleSetName As String, instanceIds As IList(Of String)) As OperationStatusResponseInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Compute.Fluent.Models.OperationStatusResponseInner</ReturnType>
@@ -1154,8 +1169,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.VirtualMachineScaleSetsOperationsExtensions.DeleteInstancesAsync(Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations,System.String,System.String,System.Collections.Generic.IList{System.String},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1199,10 +1214,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Compute.Fluent.Models.VirtualMachineScaleSetInner Get (this Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations operations, string resourceGroupName, string vmScaleSetName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Compute.Fluent.Models.VirtualMachineScaleSetInner Get(class Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations operations, string resourceGroupName, string vmScaleSetName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.VirtualMachineScaleSetsOperationsExtensions.Get(Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Get (operations As IVirtualMachineScaleSetsOperations, resourceGroupName As String, vmScaleSetName As String) As VirtualMachineScaleSetInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Compute.Fluent.Models.VirtualMachineScaleSetInner</ReturnType>
@@ -1235,8 +1251,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.VirtualMachineScaleSetsOperationsExtensions.GetAsync(Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1276,10 +1292,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Compute.Fluent.Models.VirtualMachineScaleSetInstanceViewInner GetInstanceView (this Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations operations, string resourceGroupName, string vmScaleSetName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Compute.Fluent.Models.VirtualMachineScaleSetInstanceViewInner GetInstanceView(class Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations operations, string resourceGroupName, string vmScaleSetName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.VirtualMachineScaleSetsOperationsExtensions.GetInstanceView(Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetInstanceView (operations As IVirtualMachineScaleSetsOperations, resourceGroupName As String, vmScaleSetName As String) As VirtualMachineScaleSetInstanceViewInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Compute.Fluent.Models.VirtualMachineScaleSetInstanceViewInner</ReturnType>
@@ -1312,8 +1329,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.VirtualMachineScaleSetsOperationsExtensions.GetInstanceViewAsync(Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1353,10 +1370,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Compute.Fluent.Models.VirtualMachineScaleSetInner&gt; List (this Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations operations, string resourceGroupName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Compute.Fluent.Models.VirtualMachineScaleSetInner&gt; List(class Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations operations, string resourceGroupName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.VirtualMachineScaleSetsOperationsExtensions.List(Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function List (operations As IVirtualMachineScaleSetsOperations, resourceGroupName As String) As IPage(Of VirtualMachineScaleSetInner)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Compute.Fluent.Models.VirtualMachineScaleSetInner&gt;</ReturnType>
@@ -1383,10 +1401,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Compute.Fluent.Models.VirtualMachineScaleSetInner&gt; ListAll (this Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations operations);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Compute.Fluent.Models.VirtualMachineScaleSetInner&gt; ListAll(class Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations operations) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.VirtualMachineScaleSetsOperationsExtensions.ListAll(Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListAll (operations As IVirtualMachineScaleSetsOperations) As IPage(Of VirtualMachineScaleSetInner)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Compute.Fluent.Models.VirtualMachineScaleSetInner&gt;</ReturnType>
@@ -1414,8 +1433,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.VirtualMachineScaleSetsOperationsExtensions.ListAllAsync(Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1450,10 +1469,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Compute.Fluent.Models.VirtualMachineScaleSetInner&gt; ListAllNext (this Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations operations, string nextPageLink);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Compute.Fluent.Models.VirtualMachineScaleSetInner&gt; ListAllNext(class Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations operations, string nextPageLink) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.VirtualMachineScaleSetsOperationsExtensions.ListAllNext(Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListAllNext (operations As IVirtualMachineScaleSetsOperations, nextPageLink As String) As IPage(Of VirtualMachineScaleSetInner)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Compute.Fluent.Models.VirtualMachineScaleSetInner&gt;</ReturnType>
@@ -1485,8 +1505,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.VirtualMachineScaleSetsOperationsExtensions.ListAllNextAsync(Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1527,8 +1547,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.VirtualMachineScaleSetsOperationsExtensions.ListAsync(Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1564,10 +1584,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Compute.Fluent.Models.VirtualMachineScaleSetInner&gt; ListNext (this Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations operations, string nextPageLink);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Compute.Fluent.Models.VirtualMachineScaleSetInner&gt; ListNext(class Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations operations, string nextPageLink) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.VirtualMachineScaleSetsOperationsExtensions.ListNext(Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListNext (operations As IVirtualMachineScaleSetsOperations, nextPageLink As String) As IPage(Of VirtualMachineScaleSetInner)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Compute.Fluent.Models.VirtualMachineScaleSetInner&gt;</ReturnType>
@@ -1596,8 +1617,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.VirtualMachineScaleSetsOperationsExtensions.ListNextAsync(Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1633,10 +1654,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Compute.Fluent.Models.VirtualMachineScaleSetSku&gt; ListSkus (this Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations operations, string resourceGroupName, string vmScaleSetName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Compute.Fluent.Models.VirtualMachineScaleSetSku&gt; ListSkus(class Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations operations, string resourceGroupName, string vmScaleSetName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.VirtualMachineScaleSetsOperationsExtensions.ListSkus(Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListSkus (operations As IVirtualMachineScaleSetsOperations, resourceGroupName As String, vmScaleSetName As String) As IPage(Of VirtualMachineScaleSetSku)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Compute.Fluent.Models.VirtualMachineScaleSetSku&gt;</ReturnType>
@@ -1670,8 +1692,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.VirtualMachineScaleSetsOperationsExtensions.ListSkusAsync(Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1712,10 +1734,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Compute.Fluent.Models.VirtualMachineScaleSetSku&gt; ListSkusNext (this Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations operations, string nextPageLink);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Compute.Fluent.Models.VirtualMachineScaleSetSku&gt; ListSkusNext(class Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations operations, string nextPageLink) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.VirtualMachineScaleSetsOperationsExtensions.ListSkusNext(Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListSkusNext (operations As IVirtualMachineScaleSetsOperations, nextPageLink As String) As IPage(Of VirtualMachineScaleSetSku)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Compute.Fluent.Models.VirtualMachineScaleSetSku&gt;</ReturnType>
@@ -1745,8 +1768,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.VirtualMachineScaleSetsOperationsExtensions.ListSkusNextAsync(Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1783,10 +1806,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Compute.Fluent.Models.OperationStatusResponseInner PowerOff (this Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations operations, string resourceGroupName, string vmScaleSetName, System.Collections.Generic.IList&lt;string&gt; instanceIds = null);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Compute.Fluent.Models.OperationStatusResponseInner PowerOff(class Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations operations, string resourceGroupName, string vmScaleSetName, class System.Collections.Generic.IList`1&lt;string&gt; instanceIds) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.VirtualMachineScaleSetsOperationsExtensions.PowerOff(Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations,System.String,System.String,System.Collections.Generic.IList{System.String})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function PowerOff (operations As IVirtualMachineScaleSetsOperations, resourceGroupName As String, vmScaleSetName As String, Optional instanceIds As IList(Of String) = null) As OperationStatusResponseInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Compute.Fluent.Models.OperationStatusResponseInner</ReturnType>
@@ -1825,8 +1849,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.VirtualMachineScaleSetsOperationsExtensions.PowerOffAsync(Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations,System.String,System.String,System.Collections.Generic.IList{System.String},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1872,10 +1896,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Compute.Fluent.Models.OperationStatusResponseInner Reimage (this Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations operations, string resourceGroupName, string vmScaleSetName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Compute.Fluent.Models.OperationStatusResponseInner Reimage(class Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations operations, string resourceGroupName, string vmScaleSetName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.VirtualMachineScaleSetsOperationsExtensions.Reimage(Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Reimage (operations As IVirtualMachineScaleSetsOperations, resourceGroupName As String, vmScaleSetName As String) As OperationStatusResponseInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Compute.Fluent.Models.OperationStatusResponseInner</ReturnType>
@@ -1907,10 +1932,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Compute.Fluent.Models.OperationStatusResponseInner ReimageAll (this Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations operations, string resourceGroupName, string vmScaleSetName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Compute.Fluent.Models.OperationStatusResponseInner ReimageAll(class Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations operations, string resourceGroupName, string vmScaleSetName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.VirtualMachineScaleSetsOperationsExtensions.ReimageAll(Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ReimageAll (operations As IVirtualMachineScaleSetsOperations, resourceGroupName As String, vmScaleSetName As String) As OperationStatusResponseInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Compute.Fluent.Models.OperationStatusResponseInner</ReturnType>
@@ -1945,8 +1971,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.VirtualMachineScaleSetsOperationsExtensions.ReimageAllAsync(Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1990,8 +2016,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.VirtualMachineScaleSetsOperationsExtensions.ReimageAsync(Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -2032,10 +2058,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Compute.Fluent.Models.OperationStatusResponseInner Restart (this Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations operations, string resourceGroupName, string vmScaleSetName, System.Collections.Generic.IList&lt;string&gt; instanceIds = null);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Compute.Fluent.Models.OperationStatusResponseInner Restart(class Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations operations, string resourceGroupName, string vmScaleSetName, class System.Collections.Generic.IList`1&lt;string&gt; instanceIds) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.VirtualMachineScaleSetsOperationsExtensions.Restart(Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations,System.String,System.String,System.Collections.Generic.IList{System.String})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Restart (operations As IVirtualMachineScaleSetsOperations, resourceGroupName As String, vmScaleSetName As String, Optional instanceIds As IList(Of String) = null) As OperationStatusResponseInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Compute.Fluent.Models.OperationStatusResponseInner</ReturnType>
@@ -2072,8 +2099,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.VirtualMachineScaleSetsOperationsExtensions.RestartAsync(Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations,System.String,System.String,System.Collections.Generic.IList{System.String},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -2117,10 +2144,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Compute.Fluent.Models.OperationStatusResponseInner Start (this Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations operations, string resourceGroupName, string vmScaleSetName, System.Collections.Generic.IList&lt;string&gt; instanceIds = null);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Compute.Fluent.Models.OperationStatusResponseInner Start(class Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations operations, string resourceGroupName, string vmScaleSetName, class System.Collections.Generic.IList`1&lt;string&gt; instanceIds) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.VirtualMachineScaleSetsOperationsExtensions.Start(Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations,System.String,System.String,System.Collections.Generic.IList{System.String})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Start (operations As IVirtualMachineScaleSetsOperations, resourceGroupName As String, vmScaleSetName As String, Optional instanceIds As IList(Of String) = null) As OperationStatusResponseInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Compute.Fluent.Models.OperationStatusResponseInner</ReturnType>
@@ -2157,8 +2185,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.VirtualMachineScaleSetsOperationsExtensions.StartAsync(Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations,System.String,System.String,System.Collections.Generic.IList{System.String},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -2202,10 +2230,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Compute.Fluent.Models.OperationStatusResponseInner UpdateInstances (this Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations operations, string resourceGroupName, string vmScaleSetName, System.Collections.Generic.IList&lt;string&gt; instanceIds);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Compute.Fluent.Models.OperationStatusResponseInner UpdateInstances(class Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations operations, string resourceGroupName, string vmScaleSetName, class System.Collections.Generic.IList`1&lt;string&gt; instanceIds) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.VirtualMachineScaleSetsOperationsExtensions.UpdateInstances(Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations,System.String,System.String,System.Collections.Generic.IList{System.String})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UpdateInstances (operations As IVirtualMachineScaleSetsOperations, resourceGroupName As String, vmScaleSetName As String, instanceIds As IList(Of String)) As OperationStatusResponseInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Compute.Fluent.Models.OperationStatusResponseInner</ReturnType>
@@ -2243,8 +2272,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.VirtualMachineScaleSetsOperationsExtensions.UpdateInstancesAsync(Microsoft.Azure.Management.Compute.Fluent.IVirtualMachineScaleSetsOperations,System.String,System.String,System.Collections.Generic.IList{System.String},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>

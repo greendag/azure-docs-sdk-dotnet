@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public static class EndpointResourceState" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit EndpointResourceState extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Cdn.Fluent.Models.EndpointResourceState" />
+  <TypeSignature Language="VB.NET" Value="Public Class EndpointResourceState" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
     <AssemblyVersion>1.0.0.60</AssemblyVersion>
@@ -21,10 +22,11 @@
       <MemberSignature Language="C#" Value="public const string Creating;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string Creating" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.Cdn.Fluent.Models.EndpointResourceState.Creating" />
+      <MemberSignature Language="VB.NET" Value="Public Const Creating As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -38,10 +40,11 @@
       <MemberSignature Language="C#" Value="public const string Deleting;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string Deleting" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.Cdn.Fluent.Models.EndpointResourceState.Deleting" />
+      <MemberSignature Language="VB.NET" Value="Public Const Deleting As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -55,10 +58,11 @@
       <MemberSignature Language="C#" Value="public const string Running;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string Running" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.Cdn.Fluent.Models.EndpointResourceState.Running" />
+      <MemberSignature Language="VB.NET" Value="Public Const Running As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -72,10 +76,11 @@
       <MemberSignature Language="C#" Value="public const string Starting;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string Starting" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.Cdn.Fluent.Models.EndpointResourceState.Starting" />
+      <MemberSignature Language="VB.NET" Value="Public Const Starting As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -89,10 +94,11 @@
       <MemberSignature Language="C#" Value="public const string Stopped;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string Stopped" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.Cdn.Fluent.Models.EndpointResourceState.Stopped" />
+      <MemberSignature Language="VB.NET" Value="Public Const Stopped As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -106,10 +112,11 @@
       <MemberSignature Language="C#" Value="public const string Stopping;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string Stopping" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.Cdn.Fluent.Models.EndpointResourceState.Stopping" />
+      <MemberSignature Language="VB.NET" Value="Public Const Stopping As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

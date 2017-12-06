@@ -2,9 +2,9 @@
   <TypeSignature Language="C#" Value="public class Datasets : Microsoft.PowerBI.Api.V1.IDatasets, Microsoft.Rest.IServiceOperations&lt;Microsoft.PowerBI.Api.V1.PowerBIClient&gt;" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Datasets extends System.Object implements class Microsoft.PowerBI.Api.V1.IDatasets, class Microsoft.Rest.IServiceOperations`1&lt;class Microsoft.PowerBI.Api.V1.PowerBIClient&gt;" />
   <TypeSignature Language="DocId" Value="T:Microsoft.PowerBI.Api.V1.Datasets" />
+  <TypeSignature Language="VB.NET" Value="Public Class Datasets&#xA;Implements IDatasets, IServiceOperations(Of PowerBIClient)" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
-    <AssemblyVersion>1.1.10.17058</AssemblyVersion>
     <AssemblyVersion>2.0.3.17253</AssemblyVersion>
   </AssemblyInfo>
   <Base>
@@ -27,10 +27,10 @@
       <MemberSignature Language="C#" Value="public Datasets (Microsoft.PowerBI.Api.V1.PowerBIClient client);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.PowerBI.Api.V1.PowerBIClient client) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.PowerBI.Api.V1.Datasets.#ctor(Microsoft.PowerBI.Api.V1.PowerBIClient)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (client As PowerBIClient)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
-        <AssemblyVersion>1.1.10.17058</AssemblyVersion>
         <AssemblyVersion>2.0.3.17253</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -46,10 +46,10 @@
       <MemberSignature Language="C#" Value="public Microsoft.PowerBI.Api.V1.PowerBIClient Client { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.PowerBI.Api.V1.PowerBIClient Client" />
       <MemberSignature Language="DocId" Value="P:Microsoft.PowerBI.Api.V1.Datasets.Client" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Client As PowerBIClient" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
-        <AssemblyVersion>1.1.10.17058</AssemblyVersion>
         <AssemblyVersion>2.0.3.17253</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -68,7 +68,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
-        <AssemblyVersion>1.1.10.17058</AssemblyVersion>
         <AssemblyVersion>2.0.3.17253</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -104,7 +103,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
-        <AssemblyVersion>1.1.10.17058</AssemblyVersion>
         <AssemblyVersion>2.0.3.17253</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -142,7 +140,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
-        <AssemblyVersion>1.1.10.17058</AssemblyVersion>
         <AssemblyVersion>2.0.3.17253</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -178,7 +175,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
-        <AssemblyVersion>1.1.10.17058</AssemblyVersion>
         <AssemblyVersion>2.0.3.17253</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -212,7 +208,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
-        <AssemblyVersion>1.1.10.17058</AssemblyVersion>
         <AssemblyVersion>2.0.3.17253</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -248,7 +243,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
-        <AssemblyVersion>1.1.10.17058</AssemblyVersion>
         <AssemblyVersion>2.0.3.17253</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -284,7 +278,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
-        <AssemblyVersion>1.1.10.17058</AssemblyVersion>
         <AssemblyVersion>2.0.3.17253</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -320,7 +313,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
-        <AssemblyVersion>1.1.10.17058</AssemblyVersion>
         <AssemblyVersion>2.0.3.17253</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -356,7 +348,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
-        <AssemblyVersion>1.1.10.17058</AssemblyVersion>
         <AssemblyVersion>2.0.3.17253</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -396,7 +387,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
-        <AssemblyVersion>1.1.10.17058</AssemblyVersion>
         <AssemblyVersion>2.0.3.17253</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -422,43 +412,6 @@
         <param name="datasetKey">To be added.</param>
         <param name="tableName">To be added.</param>
         <param name="requestMessage">To be added.</param>
-        <param name="customHeaders">To be added.</param>
-        <param name="cancellationToken">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="SetAllConnectionsWithHttpMessagesAsync">
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Rest.HttpOperationResponse&lt;object&gt;&gt; SetAllConnectionsWithHttpMessagesAsync (string collectionName, string workspaceId, string datasetKey, System.Collections.Generic.IDictionary&lt;string,object&gt; parameters, System.Collections.Generic.Dictionary&lt;string,System.Collections.Generic.List&lt;string&gt;&gt; customHeaders = null, System.Threading.CancellationToken cancellationToken = null);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.HttpOperationResponse`1&lt;object&gt;&gt; SetAllConnectionsWithHttpMessagesAsync(string collectionName, string workspaceId, string datasetKey, class System.Collections.Generic.IDictionary`2&lt;string, object&gt; parameters, class System.Collections.Generic.Dictionary`2&lt;string, class System.Collections.Generic.List`1&lt;string&gt;&gt; customHeaders, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.PowerBI.Api.V1.Datasets.SetAllConnectionsWithHttpMessagesAsync(System.String,System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.Object},System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyVersion>1.1.10.17058</AssemblyVersion>
-        <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.PowerBI.Api.V1.Datasets/&lt;SetAllConnectionsWithHttpMessagesAsync&gt;d__15))</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.HttpOperationResponse&lt;System.Object&gt;&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="collectionName" Type="System.String" />
-        <Parameter Name="workspaceId" Type="System.String" />
-        <Parameter Name="datasetKey" Type="System.String" />
-        <Parameter Name="parameters" Type="System.Collections.Generic.IDictionary&lt;System.String,System.Object&gt;" />
-        <Parameter Name="customHeaders" Type="System.Collections.Generic.Dictionary&lt;System.String,System.Collections.Generic.List&lt;System.String&gt;&gt;" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
-      </Parameters>
-      <Docs>
-        <param name="collectionName">To be added.</param>
-        <param name="workspaceId">To be added.</param>
-        <param name="datasetKey">To be added.</param>
-        <param name="parameters">To be added.</param>
         <param name="customHeaders">To be added.</param>
         <param name="cancellationToken">To be added.</param>
         <summary>To be added.</summary>

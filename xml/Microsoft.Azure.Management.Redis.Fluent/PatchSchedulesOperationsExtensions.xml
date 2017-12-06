@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public static class PatchSchedulesOperationsExtensions" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit PatchSchedulesOperationsExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Redis.Fluent.PatchSchedulesOperationsExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module PatchSchedulesOperationsExtensions" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Redis.Fluent</AssemblyName>
     <AssemblyVersion>1.0.0.60</AssemblyVersion>
@@ -21,10 +22,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Redis.Fluent.Models.RedisPatchScheduleInner CreateOrUpdate (this Microsoft.Azure.Management.Redis.Fluent.IPatchSchedulesOperations operations, string resourceGroupName, string name, System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Redis.Fluent.Models.ScheduleEntryInner&gt; scheduleEntriesProperty);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Redis.Fluent.Models.RedisPatchScheduleInner CreateOrUpdate(class Microsoft.Azure.Management.Redis.Fluent.IPatchSchedulesOperations operations, string resourceGroupName, string name, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.Redis.Fluent.Models.ScheduleEntryInner&gt; scheduleEntriesProperty) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Redis.Fluent.PatchSchedulesOperationsExtensions.CreateOrUpdate(Microsoft.Azure.Management.Redis.Fluent.IPatchSchedulesOperations,System.String,System.String,System.Collections.Generic.IList{Microsoft.Azure.Management.Redis.Fluent.Models.ScheduleEntryInner})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function CreateOrUpdate (operations As IPatchSchedulesOperations, resourceGroupName As String, name As String, scheduleEntriesProperty As IList(Of ScheduleEntryInner)) As RedisPatchScheduleInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Redis.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Redis.Fluent.Models.RedisPatchScheduleInner</ReturnType>
@@ -62,8 +64,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Redis.Fluent.PatchSchedulesOperationsExtensions.CreateOrUpdateAsync(Microsoft.Azure.Management.Redis.Fluent.IPatchSchedulesOperations,System.String,System.String,System.Collections.Generic.IList{Microsoft.Azure.Management.Redis.Fluent.Models.ScheduleEntryInner},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Redis.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -108,10 +110,11 @@
       <MemberSignature Language="C#" Value="public static void Delete (this Microsoft.Azure.Management.Redis.Fluent.IPatchSchedulesOperations operations, string resourceGroupName, string name);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Delete(class Microsoft.Azure.Management.Redis.Fluent.IPatchSchedulesOperations operations, string resourceGroupName, string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Redis.Fluent.PatchSchedulesOperationsExtensions.Delete(Microsoft.Azure.Management.Redis.Fluent.IPatchSchedulesOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub Delete (operations As IPatchSchedulesOperations, resourceGroupName As String, name As String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Redis.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -143,8 +146,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Redis.Fluent.PatchSchedulesOperationsExtensions.DeleteAsync(Microsoft.Azure.Management.Redis.Fluent.IPatchSchedulesOperations,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Redis.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -184,10 +187,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Redis.Fluent.Models.RedisPatchScheduleInner Get (this Microsoft.Azure.Management.Redis.Fluent.IPatchSchedulesOperations operations, string resourceGroupName, string name);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Redis.Fluent.Models.RedisPatchScheduleInner Get(class Microsoft.Azure.Management.Redis.Fluent.IPatchSchedulesOperations operations, string resourceGroupName, string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Redis.Fluent.PatchSchedulesOperationsExtensions.Get(Microsoft.Azure.Management.Redis.Fluent.IPatchSchedulesOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Get (operations As IPatchSchedulesOperations, resourceGroupName As String, name As String) As RedisPatchScheduleInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Redis.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Redis.Fluent.Models.RedisPatchScheduleInner</ReturnType>
@@ -220,8 +224,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Redis.Fluent.PatchSchedulesOperationsExtensions.GetAsync(Microsoft.Azure.Management.Redis.Fluent.IPatchSchedulesOperations,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Redis.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>

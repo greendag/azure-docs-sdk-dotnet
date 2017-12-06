@@ -2,9 +2,9 @@
   <TypeSignature Language="C#" Value="public class ErrorDetails" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ErrorDetails extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Network.Models.ErrorDetails" />
+  <TypeSignature Language="VB.NET" Value="Public Class ErrorDetails" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-    <AssemblyVersion>9.1.0.0</AssemblyVersion>
     <AssemblyVersion>14.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
@@ -20,10 +20,10 @@
       <MemberSignature Language="C#" Value="public ErrorDetails ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.Models.ErrorDetails.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
@@ -38,10 +38,10 @@
       <MemberSignature Language="C#" Value="public ErrorDetails (string code = null, string target = null, string message = null);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string code, string target, string message) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.Models.ErrorDetails.#ctor(System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (Optional code As String = null, Optional target As String = null, Optional message As String = null)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -63,10 +63,10 @@
       <MemberSignature Language="C#" Value="public string Code { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Code" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Network.Models.ErrorDetails.Code" />
+      <MemberSignature Language="VB.NET" Value="Public Property Code As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -87,10 +87,10 @@
       <MemberSignature Language="C#" Value="public string Message { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Message" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Network.Models.ErrorDetails.Message" />
+      <MemberSignature Language="VB.NET" Value="Public Property Message As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -111,10 +111,10 @@
       <MemberSignature Language="C#" Value="public string Target { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Target" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Network.Models.ErrorDetails.Target" />
+      <MemberSignature Language="VB.NET" Value="Public Property Target As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>

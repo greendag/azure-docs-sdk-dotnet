@@ -2,12 +2,11 @@
   <TypeSignature Language="C#" Value="public class JobReleaseTaskExecutionInformation" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit JobReleaseTaskExecutionInformation extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Batch.JobReleaseTaskExecutionInformation" />
+  <TypeSignature Language="VB.NET" Value="Public Class JobReleaseTaskExecutionInformation" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-    <AssemblyVersion>6.1.0.0</AssemblyVersion>
-    <AssemblyVersion>7.0.0.0</AssemblyVersion>
-    <AssemblyVersion>7.0.1.0</AssemblyVersion>
     <AssemblyVersion>7.1.0.0</AssemblyVersion>
+    <AssemblyVersion>8.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -20,17 +19,39 @@
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
+    <Member MemberName="ContainerInformation">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.Batch.TaskContainerExecutionInformation ContainerInformation { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Batch.TaskContainerExecutionInformation ContainerInformation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Batch.JobReleaseTaskExecutionInformation.ContainerInformation" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContainerInformation As TaskContainerExecutionInformation" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Batch.TaskContainerExecutionInformation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets information about the container under which the task is executing.
+            </summary>
+        <value>To be added.</value>
+        <remarks>
+            This property is set only if the task runs in a container context.
+            </remarks>
+      </Docs>
+    </Member>
     <Member MemberName="EndTime">
       <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; EndTime { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; EndTime" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Batch.JobReleaseTaskExecutionInformation.EndTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EndTime As Nullable(Of DateTime)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
@@ -49,13 +70,12 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; ExitCode { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; ExitCode" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Batch.JobReleaseTaskExecutionInformation.ExitCode" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExitCode As Nullable(Of Integer)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
@@ -78,12 +98,12 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Batch.TaskFailureInformation FailureInformation { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Batch.TaskFailureInformation FailureInformation" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Batch.JobReleaseTaskExecutionInformation.FailureInformation" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FailureInformation As TaskFailureInformation" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Batch.TaskFailureInformation</ReturnType>
@@ -103,12 +123,12 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Azure.Batch.Common.TaskExecutionResult&gt; Result { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Azure.Batch.Common.TaskExecutionResult&gt; Result" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Batch.JobReleaseTaskExecutionInformation.Result" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Result As Nullable(Of TaskExecutionResult)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Microsoft.Azure.Batch.Common.TaskExecutionResult&gt;</ReturnType>
@@ -124,40 +144,16 @@
             </remarks>
       </Docs>
     </Member>
-    <Member MemberName="SchedulingError">
-      <MemberSignature Language="C#" Value="public Microsoft.Azure.Batch.TaskSchedulingError SchedulingError { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Batch.TaskSchedulingError SchedulingError" />
-      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Batch.JobReleaseTaskExecutionInformation.SchedulingError" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Microsoft.Azure.Batch.TaskSchedulingError</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets the scheduling error encountered by the service when starting the task.
-            </summary>
-        <value>To be added.</value>
-        <remarks>
-            This property is only returned if there was an error when scheduling the task and it is now in the <see cref="F:Microsoft.Azure.Batch.Common.JobReleaseTaskState.Completed" /> 
-            state.
-            </remarks>
-      </Docs>
-    </Member>
     <Member MemberName="StartTime">
       <MemberSignature Language="C#" Value="public DateTime StartTime { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime StartTime" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Batch.JobReleaseTaskExecutionInformation.StartTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StartTime As DateTime" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.DateTime</ReturnType>
@@ -174,13 +170,12 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Batch.Common.JobReleaseTaskState State { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Azure.Batch.Common.JobReleaseTaskState State" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Batch.JobReleaseTaskExecutionInformation.State" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property State As JobReleaseTaskState" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Batch.Common.JobReleaseTaskState</ReturnType>
@@ -201,13 +196,12 @@
       <MemberSignature Language="C#" Value="public string TaskRootDirectory { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string TaskRootDirectory" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Batch.JobReleaseTaskExecutionInformation.TaskRootDirectory" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TaskRootDirectory As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -225,13 +219,12 @@
       <MemberSignature Language="C#" Value="public string TaskRootDirectoryUrl { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string TaskRootDirectoryUrl" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Batch.JobReleaseTaskExecutionInformation.TaskRootDirectoryUrl" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TaskRootDirectoryUrl As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

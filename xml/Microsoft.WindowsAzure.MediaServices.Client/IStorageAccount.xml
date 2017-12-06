@@ -2,9 +2,10 @@
   <TypeSignature Language="C#" Value="public interface IStorageAccount" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IStorageAccount" />
   <TypeSignature Language="DocId" Value="T:Microsoft.WindowsAzure.MediaServices.Client.IStorageAccount" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IStorageAccount" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client</AssemblyName>
-    <AssemblyVersion>3.8.0.5</AssemblyVersion>
+    <AssemblyVersion>4.0.0.4</AssemblyVersion>
   </AssemblyInfo>
   <Interfaces />
   <Docs>
@@ -16,10 +17,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;long&gt; BytesUsed { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int64&gt; BytesUsed" />
       <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.MediaServices.Client.IStorageAccount.BytesUsed" />
+      <MemberSignature Language="VB.NET" Value="Public Property BytesUsed As Nullable(Of Long)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int64&gt;</ReturnType>
@@ -34,10 +36,11 @@
       <MemberSignature Language="C#" Value="public bool IsDefault { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool IsDefault" />
       <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.MediaServices.Client.IStorageAccount.IsDefault" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsDefault As Boolean" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -52,10 +55,11 @@
       <MemberSignature Language="C#" Value="public string Name { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Name" />
       <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.MediaServices.Client.IStorageAccount.Name" />
+      <MemberSignature Language="VB.NET" Value="Public Property Name As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

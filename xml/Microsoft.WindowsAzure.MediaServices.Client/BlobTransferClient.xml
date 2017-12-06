@@ -2,9 +2,10 @@
   <TypeSignature Language="C#" Value="public class BlobTransferClient" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit BlobTransferClient extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.WindowsAzure.MediaServices.Client.BlobTransferClient" />
+  <TypeSignature Language="VB.NET" Value="Public Class BlobTransferClient" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client.Common.BlobTransfer</AssemblyName>
-    <AssemblyVersion>3.8.0.5</AssemblyVersion>
+    <AssemblyVersion>4.0.0.4</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -19,10 +20,11 @@
       <MemberSignature Language="C#" Value="public BlobTransferClient (TimeSpan forceSharedAccessSignatureRetry = null);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.TimeSpan forceSharedAccessSignatureRetry) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.MediaServices.Client.BlobTransferClient.#ctor(System.TimeSpan)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (Optional forceSharedAccessSignatureRetry As TimeSpan = null)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client.Common.BlobTransfer</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="forceSharedAccessSignatureRetry" Type="System.TimeSpan" />
@@ -39,8 +41,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.MediaServices.Client.BlobTransferClient.DownloadBlob(System.Uri,System.String,Microsoft.WindowsAzure.MediaServices.Client.FileEncryption,System.UInt64,System.Threading.CancellationToken,Microsoft.WindowsAzure.Storage.RetryPolicies.IRetryPolicy,System.Func{System.String})" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client.Common.BlobTransfer</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -73,8 +75,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.MediaServices.Client.BlobTransferClient.DownloadBlob(System.Uri,System.String,Microsoft.WindowsAzure.MediaServices.Client.FileEncryption,System.UInt64,Microsoft.WindowsAzure.Storage.Blob.CloudBlobClient,System.Threading.CancellationToken,Microsoft.WindowsAzure.Storage.RetryPolicies.IRetryPolicy,System.Func{System.String},System.Int64,System.Int64)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client.Common.BlobTransfer</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -111,10 +113,11 @@
       <MemberSignature Language="C#" Value="public int NumberOfConcurrentTransfers { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 NumberOfConcurrentTransfers" />
       <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.MediaServices.Client.BlobTransferClient.NumberOfConcurrentTransfers" />
+      <MemberSignature Language="VB.NET" Value="Public Property NumberOfConcurrentTransfers As Integer" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client.Common.BlobTransfer</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -129,10 +132,11 @@
       <MemberSignature Language="C#" Value="public int ParallelTransferThreadCount { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 ParallelTransferThreadCount" />
       <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.MediaServices.Client.BlobTransferClient.ParallelTransferThreadCount" />
+      <MemberSignature Language="VB.NET" Value="Public Property ParallelTransferThreadCount As Integer" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client.Common.BlobTransfer</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -147,10 +151,11 @@
       <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.WindowsAzure.MediaServices.Client.BlobTransferCompleteEventArgs&gt; TransferCompleted;" />
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.WindowsAzure.MediaServices.Client.BlobTransferCompleteEventArgs&gt; TransferCompleted" />
       <MemberSignature Language="DocId" Value="E:Microsoft.WindowsAzure.MediaServices.Client.BlobTransferClient.TransferCompleted" />
+      <MemberSignature Language="VB.NET" Value="Public Event TransferCompleted As EventHandler(Of BlobTransferCompleteEventArgs) " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client.Common.BlobTransfer</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.EventHandler&lt;Microsoft.WindowsAzure.MediaServices.Client.BlobTransferCompleteEventArgs&gt;</ReturnType>
@@ -164,10 +169,11 @@
       <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.WindowsAzure.MediaServices.Client.BlobTransferProgressChangedEventArgs&gt; TransferProgressChanged;" />
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.WindowsAzure.MediaServices.Client.BlobTransferProgressChangedEventArgs&gt; TransferProgressChanged" />
       <MemberSignature Language="DocId" Value="E:Microsoft.WindowsAzure.MediaServices.Client.BlobTransferClient.TransferProgressChanged" />
+      <MemberSignature Language="VB.NET" Value="Public Event TransferProgressChanged As EventHandler(Of BlobTransferProgressChangedEventArgs) " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client.Common.BlobTransfer</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.EventHandler&lt;Microsoft.WindowsAzure.MediaServices.Client.BlobTransferProgressChangedEventArgs&gt;</ReturnType>
@@ -183,8 +189,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.MediaServices.Client.BlobTransferClient.UploadBlob(System.Uri,System.String,System.String,Microsoft.WindowsAzure.MediaServices.Client.FileEncryption,System.Threading.CancellationToken,Microsoft.WindowsAzure.Storage.RetryPolicies.IRetryPolicy,System.Func{System.String})" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client.Common.BlobTransfer</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -217,8 +223,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.MediaServices.Client.BlobTransferClient.UploadBlob(System.Uri,System.String,System.IO.Stream,System.String,Microsoft.WindowsAzure.MediaServices.Client.FileEncryption,System.Threading.CancellationToken,Microsoft.WindowsAzure.Storage.RetryPolicies.IRetryPolicy,System.Func{System.String})" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client.Common.BlobTransfer</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -253,8 +259,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.MediaServices.Client.BlobTransferClient.UploadBlob(System.Uri,System.String,Microsoft.WindowsAzure.MediaServices.Client.FileEncryption,System.Threading.CancellationToken,Microsoft.WindowsAzure.Storage.Blob.CloudBlobClient,Microsoft.WindowsAzure.Storage.RetryPolicies.IRetryPolicy,System.String,System.String,System.Func{System.String})" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client.Common.BlobTransfer</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -291,8 +297,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.MediaServices.Client.BlobTransferClient.UploadBlob(System.Uri,System.String,System.IO.Stream,Microsoft.WindowsAzure.MediaServices.Client.FileEncryption,System.Threading.CancellationToken,Microsoft.WindowsAzure.Storage.Blob.CloudBlobClient,Microsoft.WindowsAzure.Storage.RetryPolicies.IRetryPolicy,System.String,System.String,System.Func{System.String})" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client.Common.BlobTransfer</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>

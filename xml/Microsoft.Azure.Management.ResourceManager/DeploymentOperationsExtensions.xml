@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public static class DeploymentOperationsExtensions" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit DeploymentOperationsExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.ResourceManager.DeploymentOperationsExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module DeploymentOperationsExtensions" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -21,10 +22,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.ResourceManager.Models.DeploymentOperation Get (this Microsoft.Azure.Management.ResourceManager.IDeploymentOperations operations, string resourceGroupName, string deploymentName, string operationId);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.ResourceManager.Models.DeploymentOperation Get(class Microsoft.Azure.Management.ResourceManager.IDeploymentOperations operations, string resourceGroupName, string deploymentName, string operationId) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.DeploymentOperationsExtensions.Get(Microsoft.Azure.Management.ResourceManager.IDeploymentOperations,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Get (operations As IDeploymentOperations, resourceGroupName As String, deploymentName As String, operationId As String) As DeploymentOperation" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.ResourceManager.Models.DeploymentOperation</ReturnType>
@@ -61,8 +63,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.DeploymentOperationsExtensions.GetAsync(Microsoft.Azure.Management.ResourceManager.IDeploymentOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -106,10 +108,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.ResourceManager.Models.DeploymentOperation&gt; List (this Microsoft.Azure.Management.ResourceManager.IDeploymentOperations operations, string resourceGroupName, string deploymentName, Nullable&lt;int&gt; top = null);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.ResourceManager.Models.DeploymentOperation&gt; List(class Microsoft.Azure.Management.ResourceManager.IDeploymentOperations operations, string resourceGroupName, string deploymentName, valuetype System.Nullable`1&lt;int32&gt; top) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.DeploymentOperationsExtensions.List(Microsoft.Azure.Management.ResourceManager.IDeploymentOperations,System.String,System.String,System.Nullable{System.Int32})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function List (operations As IDeploymentOperations, resourceGroupName As String, deploymentName As String, Optional top As Nullable(Of Integer) = null) As IPage(Of DeploymentOperation)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.ResourceManager.Models.DeploymentOperation&gt;</ReturnType>
@@ -146,8 +149,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.DeploymentOperationsExtensions.ListAsync(Microsoft.Azure.Management.ResourceManager.IDeploymentOperations,System.String,System.String,System.Nullable{System.Int32},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -191,10 +194,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.ResourceManager.Models.DeploymentOperation&gt; ListNext (this Microsoft.Azure.Management.ResourceManager.IDeploymentOperations operations, string nextPageLink);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.ResourceManager.Models.DeploymentOperation&gt; ListNext(class Microsoft.Azure.Management.ResourceManager.IDeploymentOperations operations, string nextPageLink) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.DeploymentOperationsExtensions.ListNext(Microsoft.Azure.Management.ResourceManager.IDeploymentOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListNext (operations As IDeploymentOperations, nextPageLink As String) As IPage(Of DeploymentOperation)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.ResourceManager.Models.DeploymentOperation&gt;</ReturnType>
@@ -223,8 +227,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.DeploymentOperationsExtensions.ListNextAsync(Microsoft.Azure.Management.ResourceManager.IDeploymentOperations,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>

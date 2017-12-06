@@ -2,10 +2,10 @@
   <TypeSignature Language="C#" Value="public enum TestCommandType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed TestCommandType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:System.Fabric.TestCommandType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum TestCommandType" />
   <AssemblyInfo>
     <AssemblyName>System.Fabric</AssemblyName>
-    <AssemblyVersion>5.0.0.0</AssemblyVersion>
-    <AssemblyVersion>255.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
@@ -21,15 +21,16 @@
       <MemberSignature Language="C#" Value="Invalid" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype System.Fabric.TestCommandType Invalid = int32(0)" />
       <MemberSignature Language="DocId" Value="F:System.Fabric.TestCommandType.Invalid" />
+      <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Fabric.TestCommandType</ReturnType>
       </ReturnValue>
+      <MemberValue>0</MemberValue>
       <Docs>
         <summary>
             Invalid
@@ -40,15 +41,16 @@
       <MemberSignature Language="C#" Value="NodeTransition" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype System.Fabric.TestCommandType NodeTransition = int32(8)" />
       <MemberSignature Language="DocId" Value="F:System.Fabric.TestCommandType.NodeTransition" />
+      <MemberSignature Language="VB.NET" Value="NodeTransition" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Fabric.TestCommandType</ReturnType>
       </ReturnValue>
+      <MemberValue>8</MemberValue>
       <Docs>
         <summary>
             Indicates the test command is for a node transition command
@@ -59,15 +61,16 @@
       <MemberSignature Language="C#" Value="PartitionDataLoss" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype System.Fabric.TestCommandType PartitionDataLoss = int32(1)" />
       <MemberSignature Language="DocId" Value="F:System.Fabric.TestCommandType.PartitionDataLoss" />
+      <MemberSignature Language="VB.NET" Value="PartitionDataLoss" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Fabric.TestCommandType</ReturnType>
       </ReturnValue>
+      <MemberValue>1</MemberValue>
       <Docs>
         <summary>
             Indicates the test command is for a data loss command
@@ -78,15 +81,16 @@
       <MemberSignature Language="C#" Value="PartitionQuorumLoss" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype System.Fabric.TestCommandType PartitionQuorumLoss = int32(2)" />
       <MemberSignature Language="DocId" Value="F:System.Fabric.TestCommandType.PartitionQuorumLoss" />
+      <MemberSignature Language="VB.NET" Value="PartitionQuorumLoss" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Fabric.TestCommandType</ReturnType>
       </ReturnValue>
+      <MemberValue>2</MemberValue>
       <Docs>
         <summary>
             Indicates the test command is for a quorum loss command
@@ -97,15 +101,16 @@
       <MemberSignature Language="C#" Value="PartitionRestart" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype System.Fabric.TestCommandType PartitionRestart = int32(4)" />
       <MemberSignature Language="DocId" Value="F:System.Fabric.TestCommandType.PartitionRestart" />
+      <MemberSignature Language="VB.NET" Value="PartitionRestart" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Fabric.TestCommandType</ReturnType>
       </ReturnValue>
+      <MemberValue>4</MemberValue>
       <Docs>
         <summary>
             Indicates the test command is for a restart partition command

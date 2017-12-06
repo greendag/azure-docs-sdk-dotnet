@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public static class CheckNameResourceTypes" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit CheckNameResourceTypes extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.WebSites.Models.CheckNameResourceTypes" />
+  <TypeSignature Language="VB.NET" Value="Public Class CheckNameResourceTypes" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -11,9 +12,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-            Defines values for CheckNameResourceTypes.
-            </summary>
+    <summary>To be added.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -21,10 +20,11 @@
       <MemberSignature Language="C#" Value="public const string HostingEnvironment;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string HostingEnvironment" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.WebSites.Models.CheckNameResourceTypes.HostingEnvironment" />
+      <MemberSignature Language="VB.NET" Value="Public Const HostingEnvironment As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -38,10 +38,11 @@
       <MemberSignature Language="C#" Value="public const string Site;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string Site" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.WebSites.Models.CheckNameResourceTypes.Site" />
+      <MemberSignature Language="VB.NET" Value="Public Const Site As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -55,10 +56,11 @@
       <MemberSignature Language="C#" Value="public const string Slot;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string Slot" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.WebSites.Models.CheckNameResourceTypes.Slot" />
+      <MemberSignature Language="VB.NET" Value="Public Const Slot As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

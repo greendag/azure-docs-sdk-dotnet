@@ -2,10 +2,9 @@
   <TypeSignature Language="C#" Value="public interface IExtendedRetryPolicy : Microsoft.WindowsAzure.Storage.RetryPolicies.IRetryPolicy" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IExtendedRetryPolicy implements class Microsoft.WindowsAzure.Storage.RetryPolicies.IRetryPolicy" />
   <TypeSignature Language="DocId" Value="T:Microsoft.WindowsAzure.Storage.RetryPolicies.IExtendedRetryPolicy" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IExtendedRetryPolicy&#xA;Implements IRetryPolicy" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-    <AssemblyVersion>8.1.1.0</AssemblyVersion>
-    <AssemblyVersion>8.1.3.0</AssemblyVersion>
     <AssemblyVersion>8.4.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Interfaces>
@@ -27,8 +26,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

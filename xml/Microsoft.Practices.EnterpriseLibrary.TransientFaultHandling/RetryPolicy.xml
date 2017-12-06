@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public class RetryPolicy" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit RetryPolicy extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.RetryPolicy" />
+  <TypeSignature Language="VB.NET" Value="Public Class RetryPolicy" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling</AssemblyName>
     <AssemblyVersion>6.0.0.0</AssemblyVersion>
@@ -23,8 +24,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.RetryPolicy.#ctor(Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.ITransientErrorDetectionStrategy,Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.RetryStrategy)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="errorDetectionStrategy" Type="Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.ITransientErrorDetectionStrategy" />
@@ -43,10 +44,11 @@
       <MemberSignature Language="C#" Value="public RetryPolicy (Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.ITransientErrorDetectionStrategy errorDetectionStrategy, int retryCount);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.ITransientErrorDetectionStrategy errorDetectionStrategy, int32 retryCount) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.RetryPolicy.#ctor(Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.ITransientErrorDetectionStrategy,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (errorDetectionStrategy As ITransientErrorDetectionStrategy, retryCount As Integer)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="errorDetectionStrategy" Type="Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.ITransientErrorDetectionStrategy" />
@@ -65,10 +67,11 @@
       <MemberSignature Language="C#" Value="public RetryPolicy (Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.ITransientErrorDetectionStrategy errorDetectionStrategy, int retryCount, TimeSpan retryInterval);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.ITransientErrorDetectionStrategy errorDetectionStrategy, int32 retryCount, valuetype System.TimeSpan retryInterval) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.RetryPolicy.#ctor(Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.ITransientErrorDetectionStrategy,System.Int32,System.TimeSpan)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (errorDetectionStrategy As ITransientErrorDetectionStrategy, retryCount As Integer, retryInterval As TimeSpan)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="errorDetectionStrategy" Type="Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.ITransientErrorDetectionStrategy" />
@@ -89,10 +92,11 @@
       <MemberSignature Language="C#" Value="public RetryPolicy (Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.ITransientErrorDetectionStrategy errorDetectionStrategy, int retryCount, TimeSpan initialInterval, TimeSpan increment);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.ITransientErrorDetectionStrategy errorDetectionStrategy, int32 retryCount, valuetype System.TimeSpan initialInterval, valuetype System.TimeSpan increment) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.RetryPolicy.#ctor(Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.ITransientErrorDetectionStrategy,System.Int32,System.TimeSpan,System.TimeSpan)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (errorDetectionStrategy As ITransientErrorDetectionStrategy, retryCount As Integer, initialInterval As TimeSpan, increment As TimeSpan)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="errorDetectionStrategy" Type="Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.ITransientErrorDetectionStrategy" />
@@ -115,10 +119,11 @@
       <MemberSignature Language="C#" Value="public RetryPolicy (Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.ITransientErrorDetectionStrategy errorDetectionStrategy, int retryCount, TimeSpan minBackoff, TimeSpan maxBackoff, TimeSpan deltaBackoff);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.ITransientErrorDetectionStrategy errorDetectionStrategy, int32 retryCount, valuetype System.TimeSpan minBackoff, valuetype System.TimeSpan maxBackoff, valuetype System.TimeSpan deltaBackoff) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.RetryPolicy.#ctor(Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.ITransientErrorDetectionStrategy,System.Int32,System.TimeSpan,System.TimeSpan,System.TimeSpan)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (errorDetectionStrategy As ITransientErrorDetectionStrategy, retryCount As Integer, minBackoff As TimeSpan, maxBackoff As TimeSpan, deltaBackoff As TimeSpan)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="errorDetectionStrategy" Type="Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.ITransientErrorDetectionStrategy" />
@@ -143,10 +148,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.RetryPolicy DefaultExponential { get; }" />
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.RetryPolicy DefaultExponential" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.RetryPolicy.DefaultExponential" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property DefaultExponential As RetryPolicy" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.RetryPolicy</ReturnType>
@@ -164,10 +170,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.RetryPolicy DefaultFixed { get; }" />
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.RetryPolicy DefaultFixed" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.RetryPolicy.DefaultFixed" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property DefaultFixed As RetryPolicy" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.RetryPolicy</ReturnType>
@@ -185,10 +192,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.RetryPolicy DefaultProgressive { get; }" />
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.RetryPolicy DefaultProgressive" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.RetryPolicy.DefaultProgressive" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property DefaultProgressive As RetryPolicy" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.RetryPolicy</ReturnType>
@@ -206,10 +214,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.ITransientErrorDetectionStrategy ErrorDetectionStrategy { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.ITransientErrorDetectionStrategy ErrorDetectionStrategy" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.RetryPolicy.ErrorDetectionStrategy" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ErrorDetectionStrategy As ITransientErrorDetectionStrategy" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.ITransientErrorDetectionStrategy</ReturnType>
@@ -228,8 +237,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.RetryPolicy.ExecuteAction(System.Action)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -249,10 +258,11 @@
       <MemberSignature Language="C#" Value="public virtual TResult ExecuteAction&lt;TResult&gt; (Func&lt;TResult&gt; func);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance !!TResult ExecuteAction&lt;TResult&gt;(class System.Func`1&lt;!!TResult&gt; func) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.RetryPolicy.ExecuteAction``1(System.Func{``0})" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function ExecuteAction(Of TResult) (func As Func(Of TResult)) As TResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>TResult</ReturnType>
@@ -277,10 +287,11 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task ExecuteAsync (Func&lt;System.Threading.Tasks.Task&gt; taskAction);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task ExecuteAsync(class System.Func`1&lt;class System.Threading.Tasks.Task&gt; taskAction) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.RetryPolicy.ExecuteAsync(System.Func{System.Threading.Tasks.Task})" />
+      <MemberSignature Language="VB.NET" Value="Public Function ExecuteAsync (taskAction As Func(Of Task)) As Task" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -307,8 +318,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.RetryPolicy.ExecuteAsync(System.Func{System.Threading.Tasks.Task},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -335,10 +346,11 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;TResult&gt; ExecuteAsync&lt;TResult&gt; (Func&lt;System.Threading.Tasks.Task&lt;TResult&gt;&gt; taskFunc);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;!!TResult&gt; ExecuteAsync&lt;TResult&gt;(class System.Func`1&lt;class System.Threading.Tasks.Task`1&lt;!!TResult&gt;&gt; taskFunc) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.RetryPolicy.ExecuteAsync``1(System.Func{System.Threading.Tasks.Task{``0}})" />
+      <MemberSignature Language="VB.NET" Value="Public Function ExecuteAsync(Of TResult) (taskFunc As Func(Of Task(Of TResult))) As Task(Of TResult)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;TResult&gt;</ReturnType>
@@ -369,8 +381,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.RetryPolicy.ExecuteAsync``1(System.Func{System.Threading.Tasks.Task{``0}},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;TResult&gt;</ReturnType>
@@ -401,10 +413,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.RetryPolicy NoRetry { get; }" />
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.RetryPolicy NoRetry" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.RetryPolicy.NoRetry" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property NoRetry As RetryPolicy" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.RetryPolicy</ReturnType>
@@ -421,10 +434,11 @@
       <MemberSignature Language="C#" Value="protected virtual void OnRetrying (int retryCount, Exception lastError, TimeSpan delay);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnRetrying(int32 retryCount, class System.Exception lastError, valuetype System.TimeSpan delay) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.RetryPolicy.OnRetrying(System.Int32,System.Exception,System.TimeSpan)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnRetrying (retryCount As Integer, lastError As Exception, delay As TimeSpan)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -448,10 +462,11 @@
       <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.RetryingEventArgs&gt; Retrying;" />
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.RetryingEventArgs&gt; Retrying" />
       <MemberSignature Language="DocId" Value="E:Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.RetryPolicy.Retrying" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event Retrying As EventHandler(Of RetryingEventArgs) " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.EventHandler&lt;Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.RetryingEventArgs&gt;</ReturnType>
@@ -467,10 +482,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.RetryStrategy RetryStrategy { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.RetryStrategy RetryStrategy" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.RetryPolicy.RetryStrategy" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RetryStrategy As RetryStrategy" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.RetryStrategy</ReturnType>

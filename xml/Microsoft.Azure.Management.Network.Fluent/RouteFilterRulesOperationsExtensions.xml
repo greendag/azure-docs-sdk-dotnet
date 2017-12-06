@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public static class RouteFilterRulesOperationsExtensions" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit RouteFilterRulesOperationsExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Network.Fluent.RouteFilterRulesOperationsExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module RouteFilterRulesOperationsExtensions" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Network.Fluent</AssemblyName>
     <AssemblyVersion>1.0.0.60</AssemblyVersion>
@@ -21,10 +22,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Network.Fluent.Models.RouteFilterRuleInner BeginCreateOrUpdate (this Microsoft.Azure.Management.Network.Fluent.IRouteFilterRulesOperations operations, string resourceGroupName, string routeFilterName, string ruleName, Microsoft.Azure.Management.Network.Fluent.Models.RouteFilterRuleInner routeFilterRuleParameters);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Network.Fluent.Models.RouteFilterRuleInner BeginCreateOrUpdate(class Microsoft.Azure.Management.Network.Fluent.IRouteFilterRulesOperations operations, string resourceGroupName, string routeFilterName, string ruleName, class Microsoft.Azure.Management.Network.Fluent.Models.RouteFilterRuleInner routeFilterRuleParameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.Fluent.RouteFilterRulesOperationsExtensions.BeginCreateOrUpdate(Microsoft.Azure.Management.Network.Fluent.IRouteFilterRulesOperations,System.String,System.String,System.String,Microsoft.Azure.Management.Network.Fluent.Models.RouteFilterRuleInner)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginCreateOrUpdate (operations As IRouteFilterRulesOperations, resourceGroupName As String, routeFilterName As String, ruleName As String, routeFilterRuleParameters As RouteFilterRuleInner) As RouteFilterRuleInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Network.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Network.Fluent.Models.RouteFilterRuleInner</ReturnType>
@@ -65,8 +67,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.Fluent.RouteFilterRulesOperationsExtensions.BeginCreateOrUpdateAsync(Microsoft.Azure.Management.Network.Fluent.IRouteFilterRulesOperations,System.String,System.String,System.String,Microsoft.Azure.Management.Network.Fluent.Models.RouteFilterRuleInner,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Network.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -114,10 +116,11 @@
       <MemberSignature Language="C#" Value="public static void BeginDelete (this Microsoft.Azure.Management.Network.Fluent.IRouteFilterRulesOperations operations, string resourceGroupName, string routeFilterName, string ruleName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void BeginDelete(class Microsoft.Azure.Management.Network.Fluent.IRouteFilterRulesOperations operations, string resourceGroupName, string routeFilterName, string ruleName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.Fluent.RouteFilterRulesOperationsExtensions.BeginDelete(Microsoft.Azure.Management.Network.Fluent.IRouteFilterRulesOperations,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub BeginDelete (operations As IRouteFilterRulesOperations, resourceGroupName As String, routeFilterName As String, ruleName As String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Network.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -153,8 +156,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.Fluent.RouteFilterRulesOperationsExtensions.BeginDeleteAsync(Microsoft.Azure.Management.Network.Fluent.IRouteFilterRulesOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Network.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -198,10 +201,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Network.Fluent.Models.RouteFilterRuleInner BeginUpdate (this Microsoft.Azure.Management.Network.Fluent.IRouteFilterRulesOperations operations, string resourceGroupName, string routeFilterName, string ruleName, Microsoft.Azure.Management.Network.Fluent.Models.PatchRouteFilterRuleInner routeFilterRuleParameters);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Network.Fluent.Models.RouteFilterRuleInner BeginUpdate(class Microsoft.Azure.Management.Network.Fluent.IRouteFilterRulesOperations operations, string resourceGroupName, string routeFilterName, string ruleName, class Microsoft.Azure.Management.Network.Fluent.Models.PatchRouteFilterRuleInner routeFilterRuleParameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.Fluent.RouteFilterRulesOperationsExtensions.BeginUpdate(Microsoft.Azure.Management.Network.Fluent.IRouteFilterRulesOperations,System.String,System.String,System.String,Microsoft.Azure.Management.Network.Fluent.Models.PatchRouteFilterRuleInner)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginUpdate (operations As IRouteFilterRulesOperations, resourceGroupName As String, routeFilterName As String, ruleName As String, routeFilterRuleParameters As PatchRouteFilterRuleInner) As RouteFilterRuleInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Network.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Network.Fluent.Models.RouteFilterRuleInner</ReturnType>
@@ -242,8 +246,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.Fluent.RouteFilterRulesOperationsExtensions.BeginUpdateAsync(Microsoft.Azure.Management.Network.Fluent.IRouteFilterRulesOperations,System.String,System.String,System.String,Microsoft.Azure.Management.Network.Fluent.Models.PatchRouteFilterRuleInner,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Network.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -291,10 +295,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Network.Fluent.Models.RouteFilterRuleInner CreateOrUpdate (this Microsoft.Azure.Management.Network.Fluent.IRouteFilterRulesOperations operations, string resourceGroupName, string routeFilterName, string ruleName, Microsoft.Azure.Management.Network.Fluent.Models.RouteFilterRuleInner routeFilterRuleParameters);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Network.Fluent.Models.RouteFilterRuleInner CreateOrUpdate(class Microsoft.Azure.Management.Network.Fluent.IRouteFilterRulesOperations operations, string resourceGroupName, string routeFilterName, string ruleName, class Microsoft.Azure.Management.Network.Fluent.Models.RouteFilterRuleInner routeFilterRuleParameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.Fluent.RouteFilterRulesOperationsExtensions.CreateOrUpdate(Microsoft.Azure.Management.Network.Fluent.IRouteFilterRulesOperations,System.String,System.String,System.String,Microsoft.Azure.Management.Network.Fluent.Models.RouteFilterRuleInner)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function CreateOrUpdate (operations As IRouteFilterRulesOperations, resourceGroupName As String, routeFilterName As String, ruleName As String, routeFilterRuleParameters As RouteFilterRuleInner) As RouteFilterRuleInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Network.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Network.Fluent.Models.RouteFilterRuleInner</ReturnType>
@@ -335,8 +340,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.Fluent.RouteFilterRulesOperationsExtensions.CreateOrUpdateAsync(Microsoft.Azure.Management.Network.Fluent.IRouteFilterRulesOperations,System.String,System.String,System.String,Microsoft.Azure.Management.Network.Fluent.Models.RouteFilterRuleInner,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Network.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -384,10 +389,11 @@
       <MemberSignature Language="C#" Value="public static void Delete (this Microsoft.Azure.Management.Network.Fluent.IRouteFilterRulesOperations operations, string resourceGroupName, string routeFilterName, string ruleName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Delete(class Microsoft.Azure.Management.Network.Fluent.IRouteFilterRulesOperations operations, string resourceGroupName, string routeFilterName, string ruleName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.Fluent.RouteFilterRulesOperationsExtensions.Delete(Microsoft.Azure.Management.Network.Fluent.IRouteFilterRulesOperations,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub Delete (operations As IRouteFilterRulesOperations, resourceGroupName As String, routeFilterName As String, ruleName As String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Network.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -423,8 +429,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.Fluent.RouteFilterRulesOperationsExtensions.DeleteAsync(Microsoft.Azure.Management.Network.Fluent.IRouteFilterRulesOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Network.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -468,10 +474,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Network.Fluent.Models.RouteFilterRuleInner Get (this Microsoft.Azure.Management.Network.Fluent.IRouteFilterRulesOperations operations, string resourceGroupName, string routeFilterName, string ruleName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Network.Fluent.Models.RouteFilterRuleInner Get(class Microsoft.Azure.Management.Network.Fluent.IRouteFilterRulesOperations operations, string resourceGroupName, string routeFilterName, string ruleName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.Fluent.RouteFilterRulesOperationsExtensions.Get(Microsoft.Azure.Management.Network.Fluent.IRouteFilterRulesOperations,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Get (operations As IRouteFilterRulesOperations, resourceGroupName As String, routeFilterName As String, ruleName As String) As RouteFilterRuleInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Network.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Network.Fluent.Models.RouteFilterRuleInner</ReturnType>
@@ -508,8 +515,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.Fluent.RouteFilterRulesOperationsExtensions.GetAsync(Microsoft.Azure.Management.Network.Fluent.IRouteFilterRulesOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Network.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -553,10 +560,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Network.Fluent.Models.RouteFilterRuleInner&gt; ListByRouteFilter (this Microsoft.Azure.Management.Network.Fluent.IRouteFilterRulesOperations operations, string resourceGroupName, string routeFilterName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Network.Fluent.Models.RouteFilterRuleInner&gt; ListByRouteFilter(class Microsoft.Azure.Management.Network.Fluent.IRouteFilterRulesOperations operations, string resourceGroupName, string routeFilterName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.Fluent.RouteFilterRulesOperationsExtensions.ListByRouteFilter(Microsoft.Azure.Management.Network.Fluent.IRouteFilterRulesOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListByRouteFilter (operations As IRouteFilterRulesOperations, resourceGroupName As String, routeFilterName As String) As IPage(Of RouteFilterRuleInner)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Network.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Network.Fluent.Models.RouteFilterRuleInner&gt;</ReturnType>
@@ -589,8 +597,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.Fluent.RouteFilterRulesOperationsExtensions.ListByRouteFilterAsync(Microsoft.Azure.Management.Network.Fluent.IRouteFilterRulesOperations,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Network.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -630,10 +638,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Network.Fluent.Models.RouteFilterRuleInner&gt; ListByRouteFilterNext (this Microsoft.Azure.Management.Network.Fluent.IRouteFilterRulesOperations operations, string nextPageLink);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Network.Fluent.Models.RouteFilterRuleInner&gt; ListByRouteFilterNext(class Microsoft.Azure.Management.Network.Fluent.IRouteFilterRulesOperations operations, string nextPageLink) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.Fluent.RouteFilterRulesOperationsExtensions.ListByRouteFilterNext(Microsoft.Azure.Management.Network.Fluent.IRouteFilterRulesOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListByRouteFilterNext (operations As IRouteFilterRulesOperations, nextPageLink As String) As IPage(Of RouteFilterRuleInner)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Network.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Network.Fluent.Models.RouteFilterRuleInner&gt;</ReturnType>
@@ -662,8 +671,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.Fluent.RouteFilterRulesOperationsExtensions.ListByRouteFilterNextAsync(Microsoft.Azure.Management.Network.Fluent.IRouteFilterRulesOperations,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Network.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -699,10 +708,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Network.Fluent.Models.RouteFilterRuleInner Update (this Microsoft.Azure.Management.Network.Fluent.IRouteFilterRulesOperations operations, string resourceGroupName, string routeFilterName, string ruleName, Microsoft.Azure.Management.Network.Fluent.Models.PatchRouteFilterRuleInner routeFilterRuleParameters);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Network.Fluent.Models.RouteFilterRuleInner Update(class Microsoft.Azure.Management.Network.Fluent.IRouteFilterRulesOperations operations, string resourceGroupName, string routeFilterName, string ruleName, class Microsoft.Azure.Management.Network.Fluent.Models.PatchRouteFilterRuleInner routeFilterRuleParameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.Fluent.RouteFilterRulesOperationsExtensions.Update(Microsoft.Azure.Management.Network.Fluent.IRouteFilterRulesOperations,System.String,System.String,System.String,Microsoft.Azure.Management.Network.Fluent.Models.PatchRouteFilterRuleInner)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Update (operations As IRouteFilterRulesOperations, resourceGroupName As String, routeFilterName As String, ruleName As String, routeFilterRuleParameters As PatchRouteFilterRuleInner) As RouteFilterRuleInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Network.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Network.Fluent.Models.RouteFilterRuleInner</ReturnType>
@@ -743,8 +753,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.Fluent.RouteFilterRulesOperationsExtensions.UpdateAsync(Microsoft.Azure.Management.Network.Fluent.IRouteFilterRulesOperations,System.String,System.String,System.String,Microsoft.Azure.Management.Network.Fluent.Models.PatchRouteFilterRuleInner,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Network.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>

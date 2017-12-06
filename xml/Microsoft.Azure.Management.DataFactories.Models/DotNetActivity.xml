@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public class DotNetActivity : Microsoft.Azure.Management.DataFactories.Models.ActivityTypeProperties" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DotNetActivity extends Microsoft.Azure.Management.DataFactories.Models.ActivityTypeProperties" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.DataFactories.Models.DotNetActivity" />
+  <TypeSignature Language="VB.NET" Value="Public Class DotNetActivity&#xA;Inherits ActivityTypeProperties" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -21,10 +22,11 @@
       <MemberSignature Language="C#" Value="public DotNetActivity ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataFactories.Models.DotNetActivity.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -36,10 +38,11 @@
       <MemberSignature Language="C#" Value="public DotNetActivity (string assemblyName, string entryPoint, string packageFile, string packageLinkedService = null);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string assemblyName, string entryPoint, string packageFile, string packageLinkedService) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataFactories.Models.DotNetActivity.#ctor(System.String,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (assemblyName As String, entryPoint As String, packageFile As String, Optional packageLinkedService As String = null)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="assemblyName" Type="System.String" />
@@ -60,10 +63,11 @@
       <MemberSignature Language="C#" Value="public string AssemblyName { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string AssemblyName" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactories.Models.DotNetActivity.AssemblyName" />
+      <MemberSignature Language="VB.NET" Value="Public Property AssemblyName As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -85,10 +89,11 @@
       <MemberSignature Language="C#" Value="public string EntryPoint { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string EntryPoint" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactories.Models.DotNetActivity.EntryPoint" />
+      <MemberSignature Language="VB.NET" Value="Public Property EntryPoint As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -110,10 +115,11 @@
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,string&gt; ExtendedProperties { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, string&gt; ExtendedProperties" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactories.Models.DotNetActivity.ExtendedProperties" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExtendedProperties As IDictionary(Of String, String)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;</ReturnType>
@@ -132,10 +138,11 @@
       <MemberSignature Language="C#" Value="public string PackageFile { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string PackageFile" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactories.Models.DotNetActivity.PackageFile" />
+      <MemberSignature Language="VB.NET" Value="Public Property PackageFile As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -157,10 +164,11 @@
       <MemberSignature Language="C#" Value="public string PackageLinkedService { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string PackageLinkedService" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactories.Models.DotNetActivity.PackageLinkedService" />
+      <MemberSignature Language="VB.NET" Value="Public Property PackageLinkedService As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

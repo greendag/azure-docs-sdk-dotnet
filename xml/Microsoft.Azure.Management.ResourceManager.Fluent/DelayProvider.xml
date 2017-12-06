@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public class DelayProvider" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DelayProvider extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.ResourceManager.Fluent.DelayProvider" />
+  <TypeSignature Language="VB.NET" Value="Public Class DelayProvider" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.ResourceManager.Fluent</AssemblyName>
     <AssemblyVersion>1.0.0.60</AssemblyVersion>
@@ -19,10 +20,11 @@
       <MemberSignature Language="C#" Value="public DelayProvider ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.Fluent.DelayProvider.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -34,10 +36,11 @@
       <MemberSignature Language="C#" Value="public void Delay (int milliseconds);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Delay(int32 milliseconds) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.Fluent.DelayProvider.Delay(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Delay (milliseconds As Integer)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -57,8 +60,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.Fluent.DelayProvider.DelayAsync(System.Int32,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>

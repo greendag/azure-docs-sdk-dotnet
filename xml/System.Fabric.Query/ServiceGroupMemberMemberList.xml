@@ -2,10 +2,10 @@
   <TypeSignature Language="C#" Value="public sealed class ServiceGroupMemberMemberList : System.Collections.Generic.ICollection&lt;System.Fabric.Query.ServiceGroupMemberMember&gt;, System.Collections.Generic.IEnumerable&lt;System.Fabric.Query.ServiceGroupMemberMember&gt;, System.Collections.Generic.IList&lt;System.Fabric.Query.ServiceGroupMemberMember&gt;" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ServiceGroupMemberMemberList extends System.Object implements class System.Collections.Generic.ICollection`1&lt;class System.Fabric.Query.ServiceGroupMemberMember&gt;, class System.Collections.Generic.IEnumerable`1&lt;class System.Fabric.Query.ServiceGroupMemberMember&gt;, class System.Collections.Generic.IList`1&lt;class System.Fabric.Query.ServiceGroupMemberMember&gt;, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:System.Fabric.Query.ServiceGroupMemberMemberList" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ServiceGroupMemberMemberList&#xA;Implements ICollection(Of ServiceGroupMemberMember), IEnumerable(Of ServiceGroupMemberMember), IList(Of ServiceGroupMemberMember)" />
   <AssemblyInfo>
     <AssemblyName>System.Fabric</AssemblyName>
-    <AssemblyVersion>5.0.0.0</AssemblyVersion>
-    <AssemblyVersion>255.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -32,11 +32,11 @@
       <MemberSignature Language="C#" Value="public void Add (System.Fabric.Query.ServiceGroupMemberMember item);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Add(class System.Fabric.Query.ServiceGroupMemberMember item) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.Query.ServiceGroupMemberMemberList.Add(System.Fabric.Query.ServiceGroupMemberMember)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Add (item As ServiceGroupMemberMember)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -56,11 +56,11 @@
       <MemberSignature Language="C#" Value="public void Clear ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Clear() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.Query.ServiceGroupMemberMemberList.Clear" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Clear ()" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -77,11 +77,11 @@
       <MemberSignature Language="C#" Value="public bool Contains (System.Fabric.Query.ServiceGroupMemberMember item);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Contains(class System.Fabric.Query.ServiceGroupMemberMember item) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.Query.ServiceGroupMemberMemberList.Contains(System.Fabric.Query.ServiceGroupMemberMember)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Contains (item As ServiceGroupMemberMember) As Boolean" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -102,11 +102,11 @@
       <MemberSignature Language="C#" Value="public void CopyTo (System.Fabric.Query.ServiceGroupMemberMember[] array, int arrayIndex);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void CopyTo(class System.Fabric.Query.ServiceGroupMemberMember[] array, int32 arrayIndex) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.Query.ServiceGroupMemberMemberList.CopyTo(System.Fabric.Query.ServiceGroupMemberMember[],System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub CopyTo (array As ServiceGroupMemberMember(), arrayIndex As Integer)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -128,11 +128,11 @@
       <MemberSignature Language="C#" Value="public int Count { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Query.ServiceGroupMemberMemberList.Count" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -149,11 +149,11 @@
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerator&lt;System.Fabric.Query.ServiceGroupMemberMember&gt; GetEnumerator ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.IEnumerator`1&lt;class System.Fabric.Query.ServiceGroupMemberMember&gt; GetEnumerator() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.Query.ServiceGroupMemberMemberList.GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetEnumerator () As IEnumerator(Of ServiceGroupMemberMember)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerator&lt;System.Fabric.Query.ServiceGroupMemberMember&gt;</ReturnType>
@@ -171,11 +171,11 @@
       <MemberSignature Language="C#" Value="public int IndexOf (System.Fabric.Query.ServiceGroupMemberMember item);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 IndexOf(class System.Fabric.Query.ServiceGroupMemberMember item) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.Query.ServiceGroupMemberMemberList.IndexOf(System.Fabric.Query.ServiceGroupMemberMember)" />
+      <MemberSignature Language="VB.NET" Value="Public Function IndexOf (item As ServiceGroupMemberMember) As Integer" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -196,11 +196,11 @@
       <MemberSignature Language="C#" Value="public void Insert (int index, System.Fabric.Query.ServiceGroupMemberMember item);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Insert(int32 index, class System.Fabric.Query.ServiceGroupMemberMember item) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.Query.ServiceGroupMemberMemberList.Insert(System.Int32,System.Fabric.Query.ServiceGroupMemberMember)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Insert (index As Integer, item As ServiceGroupMemberMember)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -222,11 +222,11 @@
       <MemberSignature Language="C#" Value="public bool IsReadOnly { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool IsReadOnly" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Query.ServiceGroupMemberMemberList.IsReadOnly" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsReadOnly As Boolean" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -243,11 +243,11 @@
       <MemberSignature Language="C#" Value="public System.Fabric.Query.ServiceGroupMemberMember this[int index] { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Fabric.Query.ServiceGroupMemberMember Item(int32)" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Query.ServiceGroupMemberMemberList.Item(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Default Public Property Item(index As Integer) As ServiceGroupMemberMember" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Fabric.Query.ServiceGroupMemberMember</ReturnType>
@@ -268,11 +268,11 @@
       <MemberSignature Language="C#" Value="public bool Remove (System.Fabric.Query.ServiceGroupMemberMember item);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Remove(class System.Fabric.Query.ServiceGroupMemberMember item) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.Query.ServiceGroupMemberMemberList.Remove(System.Fabric.Query.ServiceGroupMemberMember)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Remove (item As ServiceGroupMemberMember) As Boolean" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -293,11 +293,11 @@
       <MemberSignature Language="C#" Value="public void RemoveAt (int index);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RemoveAt(int32 index) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.Query.ServiceGroupMemberMemberList.RemoveAt(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RemoveAt (index As Integer)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -317,11 +317,11 @@
       <MemberSignature Language="C#" Value="System.Collections.IEnumerator IEnumerable.GetEnumerator ();" />
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.Query.ServiceGroupMemberMemberList.System#Collections#IEnumerable#GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Function GetEnumerator () As IEnumerator Implements IEnumerable.GetEnumerator" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.IEnumerator</ReturnType>

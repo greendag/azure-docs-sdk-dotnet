@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public class BasicHttpRelayBinding : System.ServiceModel.Channels.Binding, System.ServiceModel.Channels.IBindingRuntimePreferences" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit BasicHttpRelayBinding extends System.ServiceModel.Channels.Binding implements class System.ServiceModel.Channels.IBindingRuntimePreferences" />
   <TypeSignature Language="DocId" Value="T:Microsoft.ServiceBus.BasicHttpRelayBinding" />
+  <TypeSignature Language="VB.NET" Value="Public Class BasicHttpRelayBinding&#xA;Inherits Binding&#xA;Implements IBindingRuntimePreferences" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.ServiceBus</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>
@@ -24,10 +25,11 @@
       <MemberSignature Language="C#" Value="public BasicHttpRelayBinding ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.BasicHttpRelayBinding.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -39,10 +41,11 @@
       <MemberSignature Language="C#" Value="public BasicHttpRelayBinding (string configurationName);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string configurationName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.BasicHttpRelayBinding.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (configurationName As String)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="configurationName" Type="System.String" />
@@ -60,8 +63,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.BasicHttpRelayBinding.#ctor(Microsoft.ServiceBus.EndToEndBasicHttpSecurityMode,Microsoft.ServiceBus.RelayClientAuthenticationType)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="securityMode" Type="Microsoft.ServiceBus.EndToEndBasicHttpSecurityMode" />
@@ -79,10 +82,11 @@
       <MemberSignature Language="C#" Value="public bool AllowCookies { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool AllowCookies" />
       <MemberSignature Language="DocId" Value="P:Microsoft.ServiceBus.BasicHttpRelayBinding.AllowCookies" />
+      <MemberSignature Language="VB.NET" Value="Public Property AllowCookies As Boolean" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -97,10 +101,11 @@
       <MemberSignature Language="C#" Value="public override System.ServiceModel.Channels.BindingElementCollection CreateBindingElements ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance class System.ServiceModel.Channels.BindingElementCollection CreateBindingElements() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.BasicHttpRelayBinding.CreateBindingElements" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function CreateBindingElements () As BindingElementCollection" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.ServiceModel.Channels.BindingElementCollection</ReturnType>
@@ -118,10 +123,11 @@
       <MemberSignature Language="C#" Value="public System.ServiceModel.EnvelopeVersion EnvelopeVersion { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.ServiceModel.EnvelopeVersion EnvelopeVersion" />
       <MemberSignature Language="DocId" Value="P:Microsoft.ServiceBus.BasicHttpRelayBinding.EnvelopeVersion" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EnvelopeVersion As EnvelopeVersion" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.ServiceModel.EnvelopeVersion</ReturnType>
@@ -136,10 +142,11 @@
       <MemberSignature Language="C#" Value="public System.ServiceModel.HostNameComparisonMode HostNameComparisonMode { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.ServiceModel.HostNameComparisonMode HostNameComparisonMode" />
       <MemberSignature Language="DocId" Value="P:Microsoft.ServiceBus.BasicHttpRelayBinding.HostNameComparisonMode" />
+      <MemberSignature Language="VB.NET" Value="Public Property HostNameComparisonMode As HostNameComparisonMode" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.ServiceModel.HostNameComparisonMode</ReturnType>
@@ -154,10 +161,11 @@
       <MemberSignature Language="C#" Value="public bool IsDynamic { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool IsDynamic" />
       <MemberSignature Language="DocId" Value="P:Microsoft.ServiceBus.BasicHttpRelayBinding.IsDynamic" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsDynamic As Boolean" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -172,10 +180,11 @@
       <MemberSignature Language="C#" Value="public long MaxBufferPoolSize { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int64 MaxBufferPoolSize" />
       <MemberSignature Language="DocId" Value="P:Microsoft.ServiceBus.BasicHttpRelayBinding.MaxBufferPoolSize" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaxBufferPoolSize As Long" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int64</ReturnType>
@@ -190,10 +199,11 @@
       <MemberSignature Language="C#" Value="public int MaxBufferSize { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 MaxBufferSize" />
       <MemberSignature Language="DocId" Value="P:Microsoft.ServiceBus.BasicHttpRelayBinding.MaxBufferSize" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaxBufferSize As Integer" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -209,10 +219,11 @@
       <MemberSignature Language="C#" Value="public long MaxReceivedMessageSize { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int64 MaxReceivedMessageSize" />
       <MemberSignature Language="DocId" Value="P:Microsoft.ServiceBus.BasicHttpRelayBinding.MaxReceivedMessageSize" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaxReceivedMessageSize As Long" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int64</ReturnType>
@@ -228,10 +239,11 @@
       <MemberSignature Language="C#" Value="public System.ServiceModel.WSMessageEncoding MessageEncoding { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.ServiceModel.WSMessageEncoding MessageEncoding" />
       <MemberSignature Language="DocId" Value="P:Microsoft.ServiceBus.BasicHttpRelayBinding.MessageEncoding" />
+      <MemberSignature Language="VB.NET" Value="Public Property MessageEncoding As WSMessageEncoding" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.ServiceModel.WSMessageEncoding</ReturnType>
@@ -247,10 +259,11 @@
       <MemberSignature Language="C#" Value="public Uri ProxyAddress { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Uri ProxyAddress" />
       <MemberSignature Language="DocId" Value="P:Microsoft.ServiceBus.BasicHttpRelayBinding.ProxyAddress" />
+      <MemberSignature Language="VB.NET" Value="Public Property ProxyAddress As Uri" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Uri</ReturnType>
@@ -265,10 +278,11 @@
       <MemberSignature Language="C#" Value="public System.Xml.XmlDictionaryReaderQuotas ReaderQuotas { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Xml.XmlDictionaryReaderQuotas ReaderQuotas" />
       <MemberSignature Language="DocId" Value="P:Microsoft.ServiceBus.BasicHttpRelayBinding.ReaderQuotas" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReaderQuotas As XmlDictionaryReaderQuotas" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Xml.XmlDictionaryReaderQuotas</ReturnType>
@@ -284,10 +298,11 @@
       <MemberSignature Language="C#" Value="public override string Scheme { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Scheme" />
       <MemberSignature Language="DocId" Value="P:Microsoft.ServiceBus.BasicHttpRelayBinding.Scheme" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property Scheme As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -302,10 +317,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.ServiceBus.BasicHttpRelaySecurity Security { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.ServiceBus.BasicHttpRelaySecurity Security" />
       <MemberSignature Language="DocId" Value="P:Microsoft.ServiceBus.BasicHttpRelayBinding.Security" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Security As BasicHttpRelaySecurity" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.ServiceBus.BasicHttpRelaySecurity</ReturnType>
@@ -321,10 +337,11 @@
       <MemberSignature Language="C#" Value="bool System.ServiceModel.Channels.IBindingRuntimePreferences.ReceiveSynchronously { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool System.ServiceModel.Channels.IBindingRuntimePreferences.ReceiveSynchronously" />
       <MemberSignature Language="DocId" Value="P:Microsoft.ServiceBus.BasicHttpRelayBinding.System#ServiceModel#Channels#IBindingRuntimePreferences#ReceiveSynchronously" />
+      <MemberSignature Language="VB.NET" Value=" ReadOnly Property ReceiveSynchronously As Boolean Implements IBindingRuntimePreferences.ReceiveSynchronously" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -339,10 +356,11 @@
       <MemberSignature Language="C#" Value="public System.Text.Encoding TextEncoding { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Text.Encoding TextEncoding" />
       <MemberSignature Language="DocId" Value="P:Microsoft.ServiceBus.BasicHttpRelayBinding.TextEncoding" />
+      <MemberSignature Language="VB.NET" Value="Public Property TextEncoding As Encoding" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Text.Encoding</ReturnType>
@@ -357,10 +375,11 @@
       <MemberSignature Language="C#" Value="public System.ServiceModel.TransferMode TransferMode { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.ServiceModel.TransferMode TransferMode" />
       <MemberSignature Language="DocId" Value="P:Microsoft.ServiceBus.BasicHttpRelayBinding.TransferMode" />
+      <MemberSignature Language="VB.NET" Value="Public Property TransferMode As TransferMode" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.ServiceModel.TransferMode</ReturnType>
@@ -376,10 +395,11 @@
       <MemberSignature Language="C#" Value="public bool UseDefaultWebProxy { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool UseDefaultWebProxy" />
       <MemberSignature Language="DocId" Value="P:Microsoft.ServiceBus.BasicHttpRelayBinding.UseDefaultWebProxy" />
+      <MemberSignature Language="VB.NET" Value="Public Property UseDefaultWebProxy As Boolean" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>

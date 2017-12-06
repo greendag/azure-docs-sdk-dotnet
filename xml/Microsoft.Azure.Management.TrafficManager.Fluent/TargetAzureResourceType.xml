@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public class TargetAzureResourceType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TargetAzureResourceType extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.TrafficManager.Fluent.TargetAzureResourceType" />
+  <TypeSignature Language="VB.NET" Value="Public Class TargetAzureResourceType" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.TrafficManager.Fluent</AssemblyName>
     <AssemblyVersion>1.0.0.60</AssemblyVersion>
@@ -21,10 +22,11 @@
       <MemberSignature Language="C#" Value="public TargetAzureResourceType (string resourceProviderName, string resourceType);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string resourceProviderName, string resourceType) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.TrafficManager.Fluent.TargetAzureResourceType.#ctor(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (resourceProviderName As String, resourceType As String)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.TrafficManager.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="resourceProviderName" Type="System.String" />
@@ -43,10 +45,11 @@
       <MemberSignature Language="C#" Value="public static readonly Microsoft.Azure.Management.TrafficManager.Fluent.TargetAzureResourceType CloudService;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Azure.Management.TrafficManager.Fluent.TargetAzureResourceType CloudService" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.TrafficManager.Fluent.TargetAzureResourceType.CloudService" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CloudService As TargetAzureResourceType " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.TrafficManager.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.TrafficManager.Fluent.TargetAzureResourceType</ReturnType>
@@ -60,10 +63,11 @@
       <MemberSignature Language="C#" Value="public override bool Equals (object obj);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.TrafficManager.Fluent.TargetAzureResourceType.Equals(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.TrafficManager.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -82,10 +86,11 @@
       <MemberSignature Language="C#" Value="public override int GetHashCode ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.TrafficManager.Fluent.TargetAzureResourceType.GetHashCode" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.TrafficManager.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -98,13 +103,14 @@
       </Docs>
     </Member>
     <Member MemberName="op_Equality">
-      <MemberSignature Language="C#" Value="public static bool op_Equality (Microsoft.Azure.Management.TrafficManager.Fluent.TargetAzureResourceType lhs, Microsoft.Azure.Management.TrafficManager.Fluent.TargetAzureResourceType rhs);" />
+      <MemberSignature Language="C#" Value="public static bool operator == (Microsoft.Azure.Management.TrafficManager.Fluent.TargetAzureResourceType lhs, Microsoft.Azure.Management.TrafficManager.Fluent.TargetAzureResourceType rhs);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Equality(class Microsoft.Azure.Management.TrafficManager.Fluent.TargetAzureResourceType lhs, class Microsoft.Azure.Management.TrafficManager.Fluent.TargetAzureResourceType rhs) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.TrafficManager.Fluent.TargetAzureResourceType.op_Equality(Microsoft.Azure.Management.TrafficManager.Fluent.TargetAzureResourceType,Microsoft.Azure.Management.TrafficManager.Fluent.TargetAzureResourceType)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator == (lhs As TargetAzureResourceType, rhs As TargetAzureResourceType) As Boolean" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.TrafficManager.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -122,13 +128,14 @@
       </Docs>
     </Member>
     <Member MemberName="op_Inequality">
-      <MemberSignature Language="C#" Value="public static bool op_Inequality (Microsoft.Azure.Management.TrafficManager.Fluent.TargetAzureResourceType lhs, Microsoft.Azure.Management.TrafficManager.Fluent.TargetAzureResourceType rhs);" />
+      <MemberSignature Language="C#" Value="public static bool operator != (Microsoft.Azure.Management.TrafficManager.Fluent.TargetAzureResourceType lhs, Microsoft.Azure.Management.TrafficManager.Fluent.TargetAzureResourceType rhs);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Inequality(class Microsoft.Azure.Management.TrafficManager.Fluent.TargetAzureResourceType lhs, class Microsoft.Azure.Management.TrafficManager.Fluent.TargetAzureResourceType rhs) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.TrafficManager.Fluent.TargetAzureResourceType.op_Inequality(Microsoft.Azure.Management.TrafficManager.Fluent.TargetAzureResourceType,Microsoft.Azure.Management.TrafficManager.Fluent.TargetAzureResourceType)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator != (lhs As TargetAzureResourceType, rhs As TargetAzureResourceType) As Boolean" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.TrafficManager.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -149,10 +156,11 @@
       <MemberSignature Language="C#" Value="public static readonly Microsoft.Azure.Management.TrafficManager.Fluent.TargetAzureResourceType PublicIP;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Azure.Management.TrafficManager.Fluent.TargetAzureResourceType PublicIP" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.TrafficManager.Fluent.TargetAzureResourceType.PublicIP" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PublicIP As TargetAzureResourceType " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.TrafficManager.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.TrafficManager.Fluent.TargetAzureResourceType</ReturnType>
@@ -166,10 +174,11 @@
       <MemberSignature Language="C#" Value="public override string ToString ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.TrafficManager.Fluent.TargetAzureResourceType.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.TrafficManager.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -185,10 +194,11 @@
       <MemberSignature Language="C#" Value="public static readonly Microsoft.Azure.Management.TrafficManager.Fluent.TargetAzureResourceType WebApp;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Azure.Management.TrafficManager.Fluent.TargetAzureResourceType WebApp" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.TrafficManager.Fluent.TargetAzureResourceType.WebApp" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly WebApp As TargetAzureResourceType " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.TrafficManager.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.TrafficManager.Fluent.TargetAzureResourceType</ReturnType>

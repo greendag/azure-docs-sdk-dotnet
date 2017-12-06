@@ -2,15 +2,16 @@
   <TypeSignature Language="C#" Value="public sealed class RangeIndex : Microsoft.Azure.Documents.Index, ICloneable" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit RangeIndex extends Microsoft.Azure.Documents.Index implements class System.ICloneable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Documents.RangeIndex" />
-  <AssemblyInfo>
-    <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
-    <AssemblyVersion>1.14.0.0</AssemblyVersion>
-    <AssemblyVersion>1.16.0.0</AssemblyVersion>
-    <AssemblyVersion>1.17.0.0</AssemblyVersion>
-  </AssemblyInfo>
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class RangeIndex&#xA;Inherits Index&#xA;Implements ICloneable" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
-    <AssemblyVersion>1.5.0.0</AssemblyVersion>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+    <AssemblyVersion>1.7.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+    <AssemblyVersion>1.18.0.0</AssemblyVersion>
+    <AssemblyVersion>1.19.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Microsoft.Azure.Documents.Index</BaseTypeName>
@@ -22,7 +23,7 @@
   </Interfaces>
   <Docs>
     <summary>
-            Specifies an instance of the <see cref="T:Microsoft.Azure.Documents.RangeIndex" /> class in the Azure DocumentDB database service.
+            Specifies an instance of the <see cref="T:Microsoft.Azure.Documents.RangeIndex" /> class in the Azure Cosmos DB service.
             </summary>
     <remarks>
             Can be used to serve queries like: SELECT * FROM docs d WHERE d.prop &gt; 5.
@@ -35,14 +36,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.RangeIndex.#ctor(Microsoft.Azure.Documents.DataType)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
-        <AssemblyVersion>1.16.0.0</AssemblyVersion>
-        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
-        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.18.0.0</AssemblyVersion>
+        <AssemblyVersion>1.19.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="dataType" Type="Microsoft.Azure.Documents.DataType" />
@@ -50,10 +51,20 @@
       <Docs>
         <param name="dataType">Specifies the target data type for the index path specification.</param>
         <summary>
-            Initializes a new instance of the <see cref="T:Microsoft.Azure.Documents.RangeIndex" /> class with specified DataType for the Azure DocumentDB database service.
+            Initializes a new instance of the <see cref="T:Microsoft.Azure.Documents.RangeIndex" /> class with specified DataType for the Azure Cosmos DB service.
             </summary>
         <remarks>To be added.</remarks>
         <altmember cref="P:Microsoft.Azure.Documents.RangeIndex.DataType" />
+        <example>
+            Here is an example to instantiate RangeIndex class passing in the DataType:
+            <code language="c#"><![CDATA[
+            RangeIndex rangeIndex = new RangeIndex(DataType.Number);
+            ]]></code></example>
+        <example>
+            Here is an example to instantiate RangeIndex class passing in the DataType:
+            <code language="c#"><![CDATA[
+            RangeIndex rangeIndex = new RangeIndex(DataType.Number);
+            ]]></code></example>
         <example>
             Here is an example to instantiate RangeIndex class passing in the DataType:
             <code language="c#"><![CDATA[
@@ -97,14 +108,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.RangeIndex.#ctor(Microsoft.Azure.Documents.DataType,System.Int16)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
-        <AssemblyVersion>1.16.0.0</AssemblyVersion>
-        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
-        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.18.0.0</AssemblyVersion>
+        <AssemblyVersion>1.19.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="dataType" Type="Microsoft.Azure.Documents.DataType" />
@@ -114,10 +125,20 @@
         <param name="dataType">Specifies the target data type for the index path specification.</param>
         <param name="precision">Specifies the precision to be used for the data type associated with this index.</param>
         <summary>
-            Initializes a new instance of the <see cref="T:Microsoft.Azure.Documents.RangeIndex" /> class with specified DataType and precision for the Azure DocumentDB database service.
+            Initializes a new instance of the <see cref="T:Microsoft.Azure.Documents.RangeIndex" /> class with specified DataType and precision for the Azure Cosmos DB service.
             </summary>
         <remarks>To be added.</remarks>
         <altmember cref="P:Microsoft.Azure.Documents.RangeIndex.DataType" />
+        <example>
+            Here is an example to instantiate RangeIndex class passing in the DataType and precision:
+            <code language="c#"><![CDATA[
+            RangeIndex rangeIndex = new RangeIndex(DataType.Number, -1);
+            ]]></code></example>
+        <example>
+            Here is an example to instantiate RangeIndex class passing in the DataType and precision:
+            <code language="c#"><![CDATA[
+            RangeIndex rangeIndex = new RangeIndex(DataType.Number, -1);
+            ]]></code></example>
         <example>
             Here is an example to instantiate RangeIndex class passing in the DataType and precision:
             <code language="c#"><![CDATA[
@@ -159,16 +180,17 @@
       <MemberSignature Language="C#" Value="public object Clone ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object Clone() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.RangeIndex.Clone" />
+      <MemberSignature Language="VB.NET" Value="Public Function Clone () As Object" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
-        <AssemblyVersion>1.16.0.0</AssemblyVersion>
-        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
-        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.18.0.0</AssemblyVersion>
+        <AssemblyVersion>1.19.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Object</ReturnType>
@@ -176,7 +198,7 @@
       <Parameters />
       <Docs>
         <summary>
-            Creates a copy of the range index for the Azure DocumentDB database service.
+            Creates a copy of the range index for the Azure Cosmos DB service.
             </summary>
         <returns>A clone of the range index.</returns>
         <remarks>To be added.</remarks>
@@ -186,16 +208,17 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Documents.DataType DataType { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Azure.Documents.DataType DataType" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Documents.RangeIndex.DataType" />
+      <MemberSignature Language="VB.NET" Value="Public Property DataType As DataType" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
-        <AssemblyVersion>1.16.0.0</AssemblyVersion>
-        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
-        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.18.0.0</AssemblyVersion>
+        <AssemblyVersion>1.19.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -210,7 +233,7 @@
       </ReturnValue>
       <Docs>
         <summary>
-            Gets or sets the data type for which this index should be applied in the Azure DocumentDB database service.
+            Gets or sets the data type for which this index should be applied in the Azure Cosmos DB service.
             </summary>
         <value>
             The data type for which this index should be applied.
@@ -222,16 +245,17 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;short&gt; Precision { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int16&gt; Precision" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Documents.RangeIndex.Precision" />
+      <MemberSignature Language="VB.NET" Value="Public Property Precision As Nullable(Of Short)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
-        <AssemblyVersion>1.14.0.0</AssemblyVersion>
-        <AssemblyVersion>1.16.0.0</AssemblyVersion>
-        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
-        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.18.0.0</AssemblyVersion>
+        <AssemblyVersion>1.19.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -243,7 +267,7 @@
       </ReturnValue>
       <Docs>
         <summary>
-            Gets or sets the precision for this particular index in the Azure DocumentDB database service.
+            Gets or sets the precision for this particular index in the Azure Cosmos DB service.
             </summary>
         <value>
             The precision for this particular index. Returns null, if not set.

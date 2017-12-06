@@ -2,9 +2,10 @@
   <TypeSignature Language="C#" Value="public class CopyActivity : Microsoft.Azure.Management.DataFactory.Models.ExecutionActivity" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CopyActivity extends Microsoft.Azure.Management.DataFactory.Models.ExecutionActivity" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.DataFactory.Models.CopyActivity" />
+  <TypeSignature Language="VB.NET" Value="Public Class CopyActivity&#xA;Inherits ExecutionActivity" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+    <AssemblyVersion>0.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Microsoft.Azure.Management.DataFactory.Models.ExecutionActivity</BaseTypeName>
@@ -29,10 +30,11 @@
       <MemberSignature Language="C#" Value="public CopyActivity ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataFactory.Models.CopyActivity.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -49,7 +51,7 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="name" Type="System.String" />
@@ -109,10 +111,11 @@
       <MemberSignature Language="C#" Value="public object CloudDataMovementUnits { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object CloudDataMovementUnits" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactory.Models.CopyActivity.CloudDataMovementUnits" />
+      <MemberSignature Language="VB.NET" Value="Public Property CloudDataMovementUnits As Object" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -136,10 +139,11 @@
       <MemberSignature Language="C#" Value="public object EnableSkipIncompatibleRow { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object EnableSkipIncompatibleRow" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactory.Models.CopyActivity.EnableSkipIncompatibleRow" />
+      <MemberSignature Language="VB.NET" Value="Public Property EnableSkipIncompatibleRow As Object" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -162,10 +166,11 @@
       <MemberSignature Language="C#" Value="public object EnableStaging { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object EnableStaging" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactory.Models.CopyActivity.EnableStaging" />
+      <MemberSignature Language="VB.NET" Value="Public Property EnableStaging As Object" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -189,10 +194,11 @@
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.Management.DataFactory.Models.DatasetReference&gt; Inputs { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.DataFactory.Models.DatasetReference&gt; Inputs" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactory.Models.CopyActivity.Inputs" />
+      <MemberSignature Language="VB.NET" Value="Public Property Inputs As IList(Of DatasetReference)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -214,10 +220,11 @@
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.Management.DataFactory.Models.DatasetReference&gt; Outputs { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.DataFactory.Models.DatasetReference&gt; Outputs" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactory.Models.CopyActivity.Outputs" />
+      <MemberSignature Language="VB.NET" Value="Public Property Outputs As IList(Of DatasetReference)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -239,10 +246,11 @@
       <MemberSignature Language="C#" Value="public object ParallelCopies { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object ParallelCopies" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactory.Models.CopyActivity.ParallelCopies" />
+      <MemberSignature Language="VB.NET" Value="Public Property ParallelCopies As Object" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -266,10 +274,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.DataFactory.Models.RedirectIncompatibleRowSettings RedirectIncompatibleRowSettings { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.DataFactory.Models.RedirectIncompatibleRowSettings RedirectIncompatibleRowSettings" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactory.Models.CopyActivity.RedirectIncompatibleRowSettings" />
+      <MemberSignature Language="VB.NET" Value="Public Property RedirectIncompatibleRowSettings As RedirectIncompatibleRowSettings" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -292,10 +301,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.DataFactory.Models.CopySink Sink { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.DataFactory.Models.CopySink Sink" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactory.Models.CopyActivity.Sink" />
+      <MemberSignature Language="VB.NET" Value="Public Property Sink As CopySink" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -317,10 +327,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.DataFactory.Models.CopySource Source { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.DataFactory.Models.CopySource Source" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactory.Models.CopyActivity.Source" />
+      <MemberSignature Language="VB.NET" Value="Public Property Source As CopySource" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -342,10 +353,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.DataFactory.Models.StagingSettings StagingSettings { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.DataFactory.Models.StagingSettings StagingSettings" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactory.Models.CopyActivity.StagingSettings" />
+      <MemberSignature Language="VB.NET" Value="Public Property StagingSettings As StagingSettings" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -368,10 +380,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.DataFactory.Models.CopyTranslator Translator { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.DataFactory.Models.CopyTranslator Translator" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactory.Models.CopyActivity.Translator" />
+      <MemberSignature Language="VB.NET" Value="Public Property Translator As CopyTranslator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -394,10 +407,11 @@
       <MemberSignature Language="C#" Value="public override void Validate ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void Validate() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataFactory.Models.CopyActivity.Validate" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub Validate ()" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>

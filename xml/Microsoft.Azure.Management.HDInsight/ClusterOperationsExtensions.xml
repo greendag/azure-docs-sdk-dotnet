@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public static class ClusterOperationsExtensions" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit ClusterOperationsExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module ClusterOperationsExtensions" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -21,8 +22,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.BeginConfiguringHttpSettings(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String,Microsoft.Azure.Management.HDInsight.Models.HttpSettingsParameters)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.HDInsight.Models.HDInsightOperationResponse</ReturnType>
@@ -49,8 +50,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.BeginConfiguringHttpSettingsAsync(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String,Microsoft.Azure.Management.HDInsight.Models.HttpSettingsParameters)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.HDInsightOperationResponse&gt;</ReturnType>
@@ -75,10 +76,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.HDInsight.Models.HDInsightOperationResponse BeginConfiguringRdpSettings (this Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, Microsoft.Azure.Management.HDInsight.Models.RDPSettingsParameters rdpParameters);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.HDInsight.Models.HDInsightOperationResponse BeginConfiguringRdpSettings(class Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, class Microsoft.Azure.Management.HDInsight.Models.RDPSettingsParameters rdpParameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.BeginConfiguringRdpSettings(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String,Microsoft.Azure.Management.HDInsight.Models.RDPSettingsParameters)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginConfiguringRdpSettings (operations As IClusterOperations, resourceGroupName As String, clusterName As String, rdpParameters As RDPSettingsParameters) As HDInsightOperationResponse" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.HDInsight.Models.HDInsightOperationResponse</ReturnType>
@@ -103,10 +105,11 @@
       <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.HDInsightOperationResponse&gt; BeginConfiguringRdpSettingsAsync (this Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, Microsoft.Azure.Management.HDInsight.Models.RDPSettingsParameters rdpParameters);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.HDInsight.Models.HDInsightOperationResponse&gt; BeginConfiguringRdpSettingsAsync(class Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, class Microsoft.Azure.Management.HDInsight.Models.RDPSettingsParameters rdpParameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.BeginConfiguringRdpSettingsAsync(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String,Microsoft.Azure.Management.HDInsight.Models.RDPSettingsParameters)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginConfiguringRdpSettingsAsync (operations As IClusterOperations, resourceGroupName As String, clusterName As String, rdpParameters As RDPSettingsParameters) As Task(Of HDInsightOperationResponse)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.HDInsightOperationResponse&gt;</ReturnType>
@@ -133,8 +136,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.BeginCreating(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String,Microsoft.Azure.Management.HDInsight.Models.ClusterCreateParameters)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.HDInsight.Models.ClusterCreateResponse</ReturnType>
@@ -159,10 +162,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.HDInsight.Models.ClusterCreateResponse BeginCreating (this Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, Microsoft.Azure.Management.HDInsight.Models.ClusterCreateParametersExtended clusterCreateParameters);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.HDInsight.Models.ClusterCreateResponse BeginCreating(class Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, class Microsoft.Azure.Management.HDInsight.Models.ClusterCreateParametersExtended clusterCreateParameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.BeginCreating(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String,Microsoft.Azure.Management.HDInsight.Models.ClusterCreateParametersExtended)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginCreating (operations As IClusterOperations, resourceGroupName As String, clusterName As String, clusterCreateParameters As ClusterCreateParametersExtended) As ClusterCreateResponse" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.HDInsight.Models.ClusterCreateResponse</ReturnType>
@@ -189,8 +193,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.BeginCreatingAsync(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String,Microsoft.Azure.Management.HDInsight.Models.ClusterCreateParameters)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.ClusterCreateResponse&gt;</ReturnType>
@@ -215,10 +219,11 @@
       <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.ClusterCreateResponse&gt; BeginCreatingAsync (this Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, Microsoft.Azure.Management.HDInsight.Models.ClusterCreateParametersExtended clusterCreateParameters);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.HDInsight.Models.ClusterCreateResponse&gt; BeginCreatingAsync(class Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, class Microsoft.Azure.Management.HDInsight.Models.ClusterCreateParametersExtended clusterCreateParameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.BeginCreatingAsync(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String,Microsoft.Azure.Management.HDInsight.Models.ClusterCreateParametersExtended)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginCreatingAsync (operations As IClusterOperations, resourceGroupName As String, clusterName As String, clusterCreateParameters As ClusterCreateParametersExtended) As Task(Of ClusterCreateResponse)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.ClusterCreateResponse&gt;</ReturnType>
@@ -243,10 +248,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.HDInsight.Models.HDInsightOperationResponse BeginDeleting (this Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.HDInsight.Models.HDInsightOperationResponse BeginDeleting(class Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.BeginDeleting(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginDeleting (operations As IClusterOperations, resourceGroupName As String, clusterName As String) As HDInsightOperationResponse" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.HDInsight.Models.HDInsightOperationResponse</ReturnType>
@@ -269,10 +275,11 @@
       <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.HDInsightOperationResponse&gt; BeginDeletingAsync (this Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.HDInsight.Models.HDInsightOperationResponse&gt; BeginDeletingAsync(class Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.BeginDeletingAsync(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginDeletingAsync (operations As IClusterOperations, resourceGroupName As String, clusterName As String) As Task(Of HDInsightOperationResponse)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.HDInsightOperationResponse&gt;</ReturnType>
@@ -295,10 +302,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.HDInsight.Models.HDInsightOperationResponse BeginDisablingHttp (this Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.HDInsight.Models.HDInsightOperationResponse BeginDisablingHttp(class Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.BeginDisablingHttp(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginDisablingHttp (operations As IClusterOperations, resourceGroupName As String, clusterName As String) As HDInsightOperationResponse" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.HDInsight.Models.HDInsightOperationResponse</ReturnType>
@@ -321,10 +329,11 @@
       <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.HDInsightOperationResponse&gt; BeginDisablingHttpAsync (this Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.HDInsight.Models.HDInsightOperationResponse&gt; BeginDisablingHttpAsync(class Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.BeginDisablingHttpAsync(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginDisablingHttpAsync (operations As IClusterOperations, resourceGroupName As String, clusterName As String) As Task(Of HDInsightOperationResponse)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.HDInsightOperationResponse&gt;</ReturnType>
@@ -347,10 +356,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.HDInsight.Models.HDInsightOperationResponse BeginDisablingRdp (this Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.HDInsight.Models.HDInsightOperationResponse BeginDisablingRdp(class Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.BeginDisablingRdp(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginDisablingRdp (operations As IClusterOperations, resourceGroupName As String, clusterName As String) As HDInsightOperationResponse" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.HDInsight.Models.HDInsightOperationResponse</ReturnType>
@@ -373,10 +383,11 @@
       <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.HDInsightOperationResponse&gt; BeginDisablingRdpAsync (this Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.HDInsight.Models.HDInsightOperationResponse&gt; BeginDisablingRdpAsync(class Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.BeginDisablingRdpAsync(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginDisablingRdpAsync (operations As IClusterOperations, resourceGroupName As String, clusterName As String) As Task(Of HDInsightOperationResponse)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.HDInsightOperationResponse&gt;</ReturnType>
@@ -399,10 +410,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.HDInsight.Models.HDInsightOperationResponse BeginEnablingHttp (this Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, string username, string password);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.HDInsight.Models.HDInsightOperationResponse BeginEnablingHttp(class Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, string username, string password) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.BeginEnablingHttp(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginEnablingHttp (operations As IClusterOperations, resourceGroupName As String, clusterName As String, username As String, password As String) As HDInsightOperationResponse" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.HDInsight.Models.HDInsightOperationResponse</ReturnType>
@@ -429,10 +441,11 @@
       <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.HDInsightOperationResponse&gt; BeginEnablingHttpAsync (this Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, string username, string password);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.HDInsight.Models.HDInsightOperationResponse&gt; BeginEnablingHttpAsync(class Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, string username, string password) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.BeginEnablingHttpAsync(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginEnablingHttpAsync (operations As IClusterOperations, resourceGroupName As String, clusterName As String, username As String, password As String) As Task(Of HDInsightOperationResponse)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.HDInsightOperationResponse&gt;</ReturnType>
@@ -459,10 +472,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.HDInsight.Models.HDInsightOperationResponse BeginEnablingRdp (this Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, string rdpUsername, string rdpPassword, DateTime rdpExpiryDate);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.HDInsight.Models.HDInsightOperationResponse BeginEnablingRdp(class Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, string rdpUsername, string rdpPassword, valuetype System.DateTime rdpExpiryDate) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.BeginEnablingRdp(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String,System.String,System.String,System.DateTime)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginEnablingRdp (operations As IClusterOperations, resourceGroupName As String, clusterName As String, rdpUsername As String, rdpPassword As String, rdpExpiryDate As DateTime) As HDInsightOperationResponse" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.HDInsight.Models.HDInsightOperationResponse</ReturnType>
@@ -491,10 +505,11 @@
       <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.HDInsightOperationResponse&gt; BeginEnablingRdpAsync (this Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, string rdpUsername, string rdpPassword, DateTime rdpExpiryDate);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.HDInsight.Models.HDInsightOperationResponse&gt; BeginEnablingRdpAsync(class Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, string rdpUsername, string rdpPassword, valuetype System.DateTime rdpExpiryDate) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.BeginEnablingRdpAsync(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String,System.String,System.String,System.DateTime)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginEnablingRdpAsync (operations As IClusterOperations, resourceGroupName As String, clusterName As String, rdpUsername As String, rdpPassword As String, rdpExpiryDate As DateTime) As Task(Of HDInsightOperationResponse)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.HDInsightOperationResponse&gt;</ReturnType>
@@ -525,8 +540,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.BeginExecuteScriptActions(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String,Microsoft.Azure.Management.HDInsight.Models.ExecuteScriptActionParameters)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.HDInsight.Models.HDInsightOperationResponse</ReturnType>
@@ -551,10 +566,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.HDInsight.Models.HDInsightOperationResponse BeginExecuteScriptActions (this Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, System.Collections.Generic.IList&lt;Microsoft.Azure.Management.HDInsight.Models.RuntimeScriptAction&gt; scriptActions, bool persistOnSuccess);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.HDInsight.Models.HDInsightOperationResponse BeginExecuteScriptActions(class Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.HDInsight.Models.RuntimeScriptAction&gt; scriptActions, bool persistOnSuccess) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.BeginExecuteScriptActions(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String,System.Collections.Generic.IList{Microsoft.Azure.Management.HDInsight.Models.RuntimeScriptAction},System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginExecuteScriptActions (operations As IClusterOperations, resourceGroupName As String, clusterName As String, scriptActions As IList(Of RuntimeScriptAction), persistOnSuccess As Boolean) As HDInsightOperationResponse" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.HDInsight.Models.HDInsightOperationResponse</ReturnType>
@@ -583,8 +599,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.BeginExecuteScriptActionsAsync(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String,Microsoft.Azure.Management.HDInsight.Models.ExecuteScriptActionParameters)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.HDInsightOperationResponse&gt;</ReturnType>
@@ -609,10 +625,11 @@
       <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.HDInsightOperationResponse&gt; BeginExecuteScriptActionsAsync (this Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, System.Collections.Generic.IList&lt;Microsoft.Azure.Management.HDInsight.Models.RuntimeScriptAction&gt; scriptActions, bool persistOnSuccess);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.HDInsight.Models.HDInsightOperationResponse&gt; BeginExecuteScriptActionsAsync(class Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.HDInsight.Models.RuntimeScriptAction&gt; scriptActions, bool persistOnSuccess) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.BeginExecuteScriptActionsAsync(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String,System.Collections.Generic.IList{Microsoft.Azure.Management.HDInsight.Models.RuntimeScriptAction},System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginExecuteScriptActionsAsync (operations As IClusterOperations, resourceGroupName As String, clusterName As String, scriptActions As IList(Of RuntimeScriptAction), persistOnSuccess As Boolean) As Task(Of HDInsightOperationResponse)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.HDInsightOperationResponse&gt;</ReturnType>
@@ -639,10 +656,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.HDInsight.Models.HDInsightOperationResponse BeginResizing (this Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, Microsoft.Azure.Management.HDInsight.Models.ClusterResizeParameters resizeParameters);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.HDInsight.Models.HDInsightOperationResponse BeginResizing(class Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, class Microsoft.Azure.Management.HDInsight.Models.ClusterResizeParameters resizeParameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.BeginResizing(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String,Microsoft.Azure.Management.HDInsight.Models.ClusterResizeParameters)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginResizing (operations As IClusterOperations, resourceGroupName As String, clusterName As String, resizeParameters As ClusterResizeParameters) As HDInsightOperationResponse" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.HDInsight.Models.HDInsightOperationResponse</ReturnType>
@@ -667,10 +685,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.HDInsight.Models.HDInsightOperationResponse BeginResizing (this Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, int targetInstanceCount);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.HDInsight.Models.HDInsightOperationResponse BeginResizing(class Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, int32 targetInstanceCount) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.BeginResizing(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginResizing (operations As IClusterOperations, resourceGroupName As String, clusterName As String, targetInstanceCount As Integer) As HDInsightOperationResponse" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.HDInsight.Models.HDInsightOperationResponse</ReturnType>
@@ -695,10 +714,11 @@
       <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.HDInsightOperationResponse&gt; BeginResizingAsync (this Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, Microsoft.Azure.Management.HDInsight.Models.ClusterResizeParameters resizeParameters);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.HDInsight.Models.HDInsightOperationResponse&gt; BeginResizingAsync(class Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, class Microsoft.Azure.Management.HDInsight.Models.ClusterResizeParameters resizeParameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.BeginResizingAsync(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String,Microsoft.Azure.Management.HDInsight.Models.ClusterResizeParameters)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginResizingAsync (operations As IClusterOperations, resourceGroupName As String, clusterName As String, resizeParameters As ClusterResizeParameters) As Task(Of HDInsightOperationResponse)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.HDInsightOperationResponse&gt;</ReturnType>
@@ -723,10 +743,11 @@
       <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.HDInsightOperationResponse&gt; BeginResizingAsync (this Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, int targetInstanceCount);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.HDInsight.Models.HDInsightOperationResponse&gt; BeginResizingAsync(class Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, int32 targetInstanceCount) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.BeginResizingAsync(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginResizingAsync (operations As IClusterOperations, resourceGroupName As String, clusterName As String, targetInstanceCount As Integer) As Task(Of HDInsightOperationResponse)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.HDInsightOperationResponse&gt;</ReturnType>
@@ -753,8 +774,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.ConfigureHttpSettings(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String,Microsoft.Azure.Management.HDInsight.Models.HttpSettingsParameters)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.HDInsight.Models.OperationResource</ReturnType>
@@ -781,8 +802,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.ConfigureHttpSettingsAsync(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String,Microsoft.Azure.Management.HDInsight.Models.HttpSettingsParameters)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.OperationResource&gt;</ReturnType>
@@ -807,10 +828,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.HDInsight.Models.OperationResource ConfigureRdpSettings (this Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, Microsoft.Azure.Management.HDInsight.Models.RDPSettingsParameters rdpParameters);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.HDInsight.Models.OperationResource ConfigureRdpSettings(class Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, class Microsoft.Azure.Management.HDInsight.Models.RDPSettingsParameters rdpParameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.ConfigureRdpSettings(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String,Microsoft.Azure.Management.HDInsight.Models.RDPSettingsParameters)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ConfigureRdpSettings (operations As IClusterOperations, resourceGroupName As String, clusterName As String, rdpParameters As RDPSettingsParameters) As OperationResource" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.HDInsight.Models.OperationResource</ReturnType>
@@ -835,10 +857,11 @@
       <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.OperationResource&gt; ConfigureRdpSettingsAsync (this Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, Microsoft.Azure.Management.HDInsight.Models.RDPSettingsParameters rdpParameters);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.HDInsight.Models.OperationResource&gt; ConfigureRdpSettingsAsync(class Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, class Microsoft.Azure.Management.HDInsight.Models.RDPSettingsParameters rdpParameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.ConfigureRdpSettingsAsync(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String,Microsoft.Azure.Management.HDInsight.Models.RDPSettingsParameters)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ConfigureRdpSettingsAsync (operations As IClusterOperations, resourceGroupName As String, clusterName As String, rdpParameters As RDPSettingsParameters) As Task(Of OperationResource)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.OperationResource&gt;</ReturnType>
@@ -865,8 +888,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.Create(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String,Microsoft.Azure.Management.HDInsight.Models.ClusterCreateParameters)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.HDInsight.Models.ClusterGetResponse</ReturnType>
@@ -891,10 +914,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.HDInsight.Models.ClusterGetResponse Create (this Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, Microsoft.Azure.Management.HDInsight.Models.ClusterCreateParametersExtended clusterCreateParameters);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.HDInsight.Models.ClusterGetResponse Create(class Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, class Microsoft.Azure.Management.HDInsight.Models.ClusterCreateParametersExtended clusterCreateParameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.Create(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String,Microsoft.Azure.Management.HDInsight.Models.ClusterCreateParametersExtended)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Create (operations As IClusterOperations, resourceGroupName As String, clusterName As String, clusterCreateParameters As ClusterCreateParametersExtended) As ClusterGetResponse" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.HDInsight.Models.ClusterGetResponse</ReturnType>
@@ -921,8 +945,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.CreateAsync(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String,Microsoft.Azure.Management.HDInsight.Models.ClusterCreateParameters)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.ClusterGetResponse&gt;</ReturnType>
@@ -947,10 +971,11 @@
       <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.ClusterGetResponse&gt; CreateAsync (this Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, Microsoft.Azure.Management.HDInsight.Models.ClusterCreateParametersExtended clusterCreateParameters);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.HDInsight.Models.ClusterGetResponse&gt; CreateAsync(class Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, class Microsoft.Azure.Management.HDInsight.Models.ClusterCreateParametersExtended clusterCreateParameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.CreateAsync(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String,Microsoft.Azure.Management.HDInsight.Models.ClusterCreateParametersExtended)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function CreateAsync (operations As IClusterOperations, resourceGroupName As String, clusterName As String, clusterCreateParameters As ClusterCreateParametersExtended) As Task(Of ClusterGetResponse)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.ClusterGetResponse&gt;</ReturnType>
@@ -975,10 +1000,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.HDInsight.Models.OperationResource Delete (this Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.HDInsight.Models.OperationResource Delete(class Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.Delete(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Delete (operations As IClusterOperations, resourceGroupName As String, clusterName As String) As OperationResource" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.HDInsight.Models.OperationResource</ReturnType>
@@ -1001,10 +1027,11 @@
       <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.OperationResource&gt; DeleteAsync (this Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.HDInsight.Models.OperationResource&gt; DeleteAsync(class Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.DeleteAsync(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function DeleteAsync (operations As IClusterOperations, resourceGroupName As String, clusterName As String) As Task(Of OperationResource)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.OperationResource&gt;</ReturnType>
@@ -1027,10 +1054,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.AzureOperationResponse DeletePersistedScript (this Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, string scriptName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.AzureOperationResponse DeletePersistedScript(class Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, string scriptName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.DeletePersistedScript(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function DeletePersistedScript (operations As IClusterOperations, resourceGroupName As String, clusterName As String, scriptName As String) As AzureOperationResponse" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.AzureOperationResponse</ReturnType>
@@ -1055,10 +1083,11 @@
       <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.AzureOperationResponse&gt; DeletePersistedScriptAsync (this Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, string scriptName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.AzureOperationResponse&gt; DeletePersistedScriptAsync(class Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, string scriptName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.DeletePersistedScriptAsync(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function DeletePersistedScriptAsync (operations As IClusterOperations, resourceGroupName As String, clusterName As String, scriptName As String) As Task(Of AzureOperationResponse)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.AzureOperationResponse&gt;</ReturnType>
@@ -1083,10 +1112,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.HDInsight.Models.OperationResource DisableHttp (this Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.HDInsight.Models.OperationResource DisableHttp(class Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.DisableHttp(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function DisableHttp (operations As IClusterOperations, resourceGroupName As String, clusterName As String) As OperationResource" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.HDInsight.Models.OperationResource</ReturnType>
@@ -1109,10 +1139,11 @@
       <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.OperationResource&gt; DisableHttpAsync (this Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.HDInsight.Models.OperationResource&gt; DisableHttpAsync(class Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.DisableHttpAsync(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function DisableHttpAsync (operations As IClusterOperations, resourceGroupName As String, clusterName As String) As Task(Of OperationResource)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.OperationResource&gt;</ReturnType>
@@ -1135,10 +1166,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.HDInsight.Models.OperationResource DisableRdp (this Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.HDInsight.Models.OperationResource DisableRdp(class Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.DisableRdp(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function DisableRdp (operations As IClusterOperations, resourceGroupName As String, clusterName As String) As OperationResource" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.HDInsight.Models.OperationResource</ReturnType>
@@ -1161,10 +1193,11 @@
       <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.OperationResource&gt; DisableRdpAsync (this Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.HDInsight.Models.OperationResource&gt; DisableRdpAsync(class Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.DisableRdpAsync(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function DisableRdpAsync (operations As IClusterOperations, resourceGroupName As String, clusterName As String) As Task(Of OperationResource)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.OperationResource&gt;</ReturnType>
@@ -1187,10 +1220,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.HDInsight.Models.OperationResource EnableHttp (this Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, string username, string password);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.HDInsight.Models.OperationResource EnableHttp(class Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, string username, string password) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.EnableHttp(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function EnableHttp (operations As IClusterOperations, resourceGroupName As String, clusterName As String, username As String, password As String) As OperationResource" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.HDInsight.Models.OperationResource</ReturnType>
@@ -1217,10 +1251,11 @@
       <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.OperationResource&gt; EnableHttpAsync (this Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, string username, string password);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.HDInsight.Models.OperationResource&gt; EnableHttpAsync(class Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, string username, string password) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.EnableHttpAsync(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function EnableHttpAsync (operations As IClusterOperations, resourceGroupName As String, clusterName As String, username As String, password As String) As Task(Of OperationResource)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.OperationResource&gt;</ReturnType>
@@ -1247,10 +1282,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.HDInsight.Models.OperationResource EnableRdp (this Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, string rdpUsername, string rdpPassword, DateTime rdpExpiryDate);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.HDInsight.Models.OperationResource EnableRdp(class Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, string rdpUsername, string rdpPassword, valuetype System.DateTime rdpExpiryDate) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.EnableRdp(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String,System.String,System.String,System.DateTime)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function EnableRdp (operations As IClusterOperations, resourceGroupName As String, clusterName As String, rdpUsername As String, rdpPassword As String, rdpExpiryDate As DateTime) As OperationResource" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.HDInsight.Models.OperationResource</ReturnType>
@@ -1279,10 +1315,11 @@
       <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.OperationResource&gt; EnableRdpAsync (this Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, string rdpUsername, string rdpPassword, DateTime rdpExpiryDate);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.HDInsight.Models.OperationResource&gt; EnableRdpAsync(class Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, string rdpUsername, string rdpPassword, valuetype System.DateTime rdpExpiryDate) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.EnableRdpAsync(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String,System.String,System.String,System.DateTime)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function EnableRdpAsync (operations As IClusterOperations, resourceGroupName As String, clusterName As String, rdpUsername As String, rdpPassword As String, rdpExpiryDate As DateTime) As Task(Of OperationResource)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.OperationResource&gt;</ReturnType>
@@ -1313,8 +1350,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.ExecuteScriptActions(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String,Microsoft.Azure.Management.HDInsight.Models.ExecuteScriptActionParameters)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.HDInsight.Models.OperationResource</ReturnType>
@@ -1339,10 +1376,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.HDInsight.Models.OperationResource ExecuteScriptActions (this Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, System.Collections.Generic.IList&lt;Microsoft.Azure.Management.HDInsight.Models.RuntimeScriptAction&gt; scriptActions, bool persistOnSuccess);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.HDInsight.Models.OperationResource ExecuteScriptActions(class Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.HDInsight.Models.RuntimeScriptAction&gt; scriptActions, bool persistOnSuccess) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.ExecuteScriptActions(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String,System.Collections.Generic.IList{Microsoft.Azure.Management.HDInsight.Models.RuntimeScriptAction},System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ExecuteScriptActions (operations As IClusterOperations, resourceGroupName As String, clusterName As String, scriptActions As IList(Of RuntimeScriptAction), persistOnSuccess As Boolean) As OperationResource" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.HDInsight.Models.OperationResource</ReturnType>
@@ -1371,8 +1409,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.ExecuteScriptActionsAsync(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String,Microsoft.Azure.Management.HDInsight.Models.ExecuteScriptActionParameters)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.OperationResource&gt;</ReturnType>
@@ -1397,10 +1435,11 @@
       <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.OperationResource&gt; ExecuteScriptActionsAsync (this Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, System.Collections.Generic.IList&lt;Microsoft.Azure.Management.HDInsight.Models.RuntimeScriptAction&gt; scriptActions, bool persistOnSuccess);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.HDInsight.Models.OperationResource&gt; ExecuteScriptActionsAsync(class Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.HDInsight.Models.RuntimeScriptAction&gt; scriptActions, bool persistOnSuccess) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.ExecuteScriptActionsAsync(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String,System.Collections.Generic.IList{Microsoft.Azure.Management.HDInsight.Models.RuntimeScriptAction},System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ExecuteScriptActionsAsync (operations As IClusterOperations, resourceGroupName As String, clusterName As String, scriptActions As IList(Of RuntimeScriptAction), persistOnSuccess As Boolean) As Task(Of OperationResource)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.OperationResource&gt;</ReturnType>
@@ -1427,10 +1466,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.HDInsight.Models.ClusterGetResponse Get (this Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.HDInsight.Models.ClusterGetResponse Get(class Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.Get(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Get (operations As IClusterOperations, resourceGroupName As String, clusterName As String) As ClusterGetResponse" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.HDInsight.Models.ClusterGetResponse</ReturnType>
@@ -1453,10 +1493,11 @@
       <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.ClusterGetResponse&gt; GetAsync (this Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.HDInsight.Models.ClusterGetResponse&gt; GetAsync(class Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.GetAsync(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAsync (operations As IClusterOperations, resourceGroupName As String, clusterName As String) As Task(Of ClusterGetResponse)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.ClusterGetResponse&gt;</ReturnType>
@@ -1479,10 +1520,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.HDInsight.Models.CapabilitiesResponse GetCapabilities (this Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string location);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.HDInsight.Models.CapabilitiesResponse GetCapabilities(class Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string location) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.GetCapabilities(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetCapabilities (operations As IClusterOperations, location As String) As CapabilitiesResponse" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.HDInsight.Models.CapabilitiesResponse</ReturnType>
@@ -1503,10 +1545,11 @@
       <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.CapabilitiesResponse&gt; GetCapabilitiesAsync (this Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string location);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.HDInsight.Models.CapabilitiesResponse&gt; GetCapabilitiesAsync(class Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string location) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.GetCapabilitiesAsync(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetCapabilitiesAsync (operations As IClusterOperations, location As String) As Task(Of CapabilitiesResponse)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.CapabilitiesResponse&gt;</ReturnType>
@@ -1527,10 +1570,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.HDInsight.Models.ClusterConfigurationsResponse GetClusterConfigurations (this Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, string configurationName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.HDInsight.Models.ClusterConfigurationsResponse GetClusterConfigurations(class Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, string configurationName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.GetClusterConfigurations(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetClusterConfigurations (operations As IClusterOperations, resourceGroupName As String, clusterName As String, configurationName As String) As ClusterConfigurationsResponse" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.HDInsight.Models.ClusterConfigurationsResponse</ReturnType>
@@ -1555,10 +1599,11 @@
       <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.ClusterConfigurationsResponse&gt; GetClusterConfigurationsAsync (this Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, string configurationName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.HDInsight.Models.ClusterConfigurationsResponse&gt; GetClusterConfigurationsAsync(class Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, string configurationName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.GetClusterConfigurationsAsync(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetClusterConfigurationsAsync (operations As IClusterOperations, resourceGroupName As String, clusterName As String, configurationName As String) As Task(Of ClusterConfigurationsResponse)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.ClusterConfigurationsResponse&gt;</ReturnType>
@@ -1583,10 +1628,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.HDInsight.Models.HttpConnectivitySettings GetConnectivitySettings (this Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.HDInsight.Models.HttpConnectivitySettings GetConnectivitySettings(class Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.GetConnectivitySettings(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetConnectivitySettings (operations As IClusterOperations, resourceGroupName As String, clusterName As String) As HttpConnectivitySettings" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.HDInsight.Models.HttpConnectivitySettings</ReturnType>
@@ -1609,10 +1655,11 @@
       <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.HttpConnectivitySettings&gt; GetConnectivitySettingsAsync (this Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.HDInsight.Models.HttpConnectivitySettings&gt; GetConnectivitySettingsAsync(class Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.GetConnectivitySettingsAsync(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetConnectivitySettingsAsync (operations As IClusterOperations, resourceGroupName As String, clusterName As String) As Task(Of HttpConnectivitySettings)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.HttpConnectivitySettings&gt;</ReturnType>
@@ -1635,10 +1682,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.HDInsight.Models.ClusterGetResponse GetCreateStatus (this Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string operationStatusLink);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.HDInsight.Models.ClusterGetResponse GetCreateStatus(class Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string operationStatusLink) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.GetCreateStatus(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetCreateStatus (operations As IClusterOperations, operationStatusLink As String) As ClusterGetResponse" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.HDInsight.Models.ClusterGetResponse</ReturnType>
@@ -1659,10 +1707,11 @@
       <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.ClusterGetResponse&gt; GetCreateStatusAsync (this Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string operationStatusLink);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.HDInsight.Models.ClusterGetResponse&gt; GetCreateStatusAsync(class Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string operationStatusLink) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.GetCreateStatusAsync(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetCreateStatusAsync (operations As IClusterOperations, operationStatusLink As String) As Task(Of ClusterGetResponse)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.ClusterGetResponse&gt;</ReturnType>
@@ -1683,10 +1732,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.HDInsight.Models.OperationResource GetDeleteStatus (this Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string operationStatusLink);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.HDInsight.Models.OperationResource GetDeleteStatus(class Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string operationStatusLink) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.GetDeleteStatus(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetDeleteStatus (operations As IClusterOperations, operationStatusLink As String) As OperationResource" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.HDInsight.Models.OperationResource</ReturnType>
@@ -1707,10 +1757,11 @@
       <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.OperationResource&gt; GetDeleteStatusAsync (this Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string operationStatusLink);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.HDInsight.Models.OperationResource&gt; GetDeleteStatusAsync(class Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string operationStatusLink) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.GetDeleteStatusAsync(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetDeleteStatusAsync (operations As IClusterOperations, operationStatusLink As String) As Task(Of OperationResource)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.OperationResource&gt;</ReturnType>
@@ -1731,10 +1782,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.HDInsight.Models.ClusterRuntimeScriptActionDetailResponse GetScriptExecutionDetail (this Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, long scriptExecutionId);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.HDInsight.Models.ClusterRuntimeScriptActionDetailResponse GetScriptExecutionDetail(class Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, int64 scriptExecutionId) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.GetScriptExecutionDetail(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String,System.Int64)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetScriptExecutionDetail (operations As IClusterOperations, resourceGroupName As String, clusterName As String, scriptExecutionId As Long) As ClusterRuntimeScriptActionDetailResponse" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.HDInsight.Models.ClusterRuntimeScriptActionDetailResponse</ReturnType>
@@ -1759,10 +1811,11 @@
       <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.ClusterRuntimeScriptActionDetailResponse&gt; GetScriptExecutionDetailAsync (this Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, long scriptExecutionId);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.HDInsight.Models.ClusterRuntimeScriptActionDetailResponse&gt; GetScriptExecutionDetailAsync(class Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, int64 scriptExecutionId) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.GetScriptExecutionDetailAsync(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String,System.Int64)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetScriptExecutionDetailAsync (operations As IClusterOperations, resourceGroupName As String, clusterName As String, scriptExecutionId As Long) As Task(Of ClusterRuntimeScriptActionDetailResponse)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.ClusterRuntimeScriptActionDetailResponse&gt;</ReturnType>
@@ -1787,10 +1840,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.HDInsight.Models.ClusterListResponse List (this Microsoft.Azure.Management.HDInsight.IClusterOperations operations);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.HDInsight.Models.ClusterListResponse List(class Microsoft.Azure.Management.HDInsight.IClusterOperations operations) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.List(Microsoft.Azure.Management.HDInsight.IClusterOperations)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function List (operations As IClusterOperations) As ClusterListResponse" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.HDInsight.Models.ClusterListResponse</ReturnType>
@@ -1809,10 +1863,11 @@
       <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.ClusterListResponse&gt; ListAsync (this Microsoft.Azure.Management.HDInsight.IClusterOperations operations);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.HDInsight.Models.ClusterListResponse&gt; ListAsync(class Microsoft.Azure.Management.HDInsight.IClusterOperations operations) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.ListAsync(Microsoft.Azure.Management.HDInsight.IClusterOperations)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListAsync (operations As IClusterOperations) As Task(Of ClusterListResponse)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.ClusterListResponse&gt;</ReturnType>
@@ -1831,10 +1886,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.HDInsight.Models.ClusterListResponse ListByResourceGroup (this Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.HDInsight.Models.ClusterListResponse ListByResourceGroup(class Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.ListByResourceGroup(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListByResourceGroup (operations As IClusterOperations, resourceGroupName As String) As ClusterListResponse" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.HDInsight.Models.ClusterListResponse</ReturnType>
@@ -1855,10 +1911,11 @@
       <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.ClusterListResponse&gt; ListByResourceGroupAsync (this Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.HDInsight.Models.ClusterListResponse&gt; ListByResourceGroupAsync(class Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.ListByResourceGroupAsync(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListByResourceGroupAsync (operations As IClusterOperations, resourceGroupName As String) As Task(Of ClusterListResponse)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.ClusterListResponse&gt;</ReturnType>
@@ -1879,10 +1936,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.HDInsight.Models.ClusterListPersistedScriptActionsResponse ListPersistedScripts (this Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.HDInsight.Models.ClusterListPersistedScriptActionsResponse ListPersistedScripts(class Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.ListPersistedScripts(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListPersistedScripts (operations As IClusterOperations, resourceGroupName As String, clusterName As String) As ClusterListPersistedScriptActionsResponse" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.HDInsight.Models.ClusterListPersistedScriptActionsResponse</ReturnType>
@@ -1905,10 +1963,11 @@
       <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.ClusterListPersistedScriptActionsResponse&gt; ListPersistedScriptsAsync (this Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.HDInsight.Models.ClusterListPersistedScriptActionsResponse&gt; ListPersistedScriptsAsync(class Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.ListPersistedScriptsAsync(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListPersistedScriptsAsync (operations As IClusterOperations, resourceGroupName As String, clusterName As String) As Task(Of ClusterListPersistedScriptActionsResponse)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.ClusterListPersistedScriptActionsResponse&gt;</ReturnType>
@@ -1931,10 +1990,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.HDInsight.Models.ClusterListRuntimeScriptActionDetailResponse ListScriptExecutionHistory (this Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.HDInsight.Models.ClusterListRuntimeScriptActionDetailResponse ListScriptExecutionHistory(class Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.ListScriptExecutionHistory(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListScriptExecutionHistory (operations As IClusterOperations, resourceGroupName As String, clusterName As String) As ClusterListRuntimeScriptActionDetailResponse" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.HDInsight.Models.ClusterListRuntimeScriptActionDetailResponse</ReturnType>
@@ -1957,10 +2017,11 @@
       <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.ClusterListRuntimeScriptActionDetailResponse&gt; ListScriptExecutionHistoryAsync (this Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.HDInsight.Models.ClusterListRuntimeScriptActionDetailResponse&gt; ListScriptExecutionHistoryAsync(class Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.ListScriptExecutionHistoryAsync(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListScriptExecutionHistoryAsync (operations As IClusterOperations, resourceGroupName As String, clusterName As String) As Task(Of ClusterListRuntimeScriptActionDetailResponse)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.ClusterListRuntimeScriptActionDetailResponse&gt;</ReturnType>
@@ -1983,10 +2044,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.AzureOperationResponse PromoteScript (this Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, long scriptExecutionId);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.AzureOperationResponse PromoteScript(class Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, int64 scriptExecutionId) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.PromoteScript(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String,System.Int64)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function PromoteScript (operations As IClusterOperations, resourceGroupName As String, clusterName As String, scriptExecutionId As Long) As AzureOperationResponse" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.AzureOperationResponse</ReturnType>
@@ -2011,10 +2073,11 @@
       <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.AzureOperationResponse&gt; PromoteScriptAsync (this Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, long scriptExecutionId);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.AzureOperationResponse&gt; PromoteScriptAsync(class Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, int64 scriptExecutionId) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.PromoteScriptAsync(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String,System.Int64)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function PromoteScriptAsync (operations As IClusterOperations, resourceGroupName As String, clusterName As String, scriptExecutionId As Long) As Task(Of AzureOperationResponse)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.AzureOperationResponse&gt;</ReturnType>
@@ -2039,10 +2102,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.HDInsight.Models.OperationResource Resize (this Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, Microsoft.Azure.Management.HDInsight.Models.ClusterResizeParameters resizeParameters);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.HDInsight.Models.OperationResource Resize(class Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, class Microsoft.Azure.Management.HDInsight.Models.ClusterResizeParameters resizeParameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.Resize(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String,Microsoft.Azure.Management.HDInsight.Models.ClusterResizeParameters)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Resize (operations As IClusterOperations, resourceGroupName As String, clusterName As String, resizeParameters As ClusterResizeParameters) As OperationResource" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.HDInsight.Models.OperationResource</ReturnType>
@@ -2067,10 +2131,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.HDInsight.Models.OperationResource Resize (this Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, int targetInstanceCount);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.HDInsight.Models.OperationResource Resize(class Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, int32 targetInstanceCount) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.Resize(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Resize (operations As IClusterOperations, resourceGroupName As String, clusterName As String, targetInstanceCount As Integer) As OperationResource" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.HDInsight.Models.OperationResource</ReturnType>
@@ -2095,10 +2160,11 @@
       <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.OperationResource&gt; ResizeAsync (this Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, Microsoft.Azure.Management.HDInsight.Models.ClusterResizeParameters resizeParameters);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.HDInsight.Models.OperationResource&gt; ResizeAsync(class Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, class Microsoft.Azure.Management.HDInsight.Models.ClusterResizeParameters resizeParameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.ResizeAsync(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String,Microsoft.Azure.Management.HDInsight.Models.ClusterResizeParameters)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ResizeAsync (operations As IClusterOperations, resourceGroupName As String, clusterName As String, resizeParameters As ClusterResizeParameters) As Task(Of OperationResource)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.OperationResource&gt;</ReturnType>
@@ -2123,10 +2189,11 @@
       <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.OperationResource&gt; ResizeAsync (this Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, int targetInstanceCount);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.HDInsight.Models.OperationResource&gt; ResizeAsync(class Microsoft.Azure.Management.HDInsight.IClusterOperations operations, string resourceGroupName, string clusterName, int32 targetInstanceCount) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.ClusterOperationsExtensions.ResizeAsync(Microsoft.Azure.Management.HDInsight.IClusterOperations,System.String,System.String,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ResizeAsync (operations As IClusterOperations, resourceGroupName As String, clusterName As String, targetInstanceCount As Integer) As Task(Of OperationResource)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.HDInsight.Models.OperationResource&gt;</ReturnType>

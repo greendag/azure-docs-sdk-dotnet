@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public struct RestoreContext" />
   <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit RestoreContext extends System.ValueType" />
   <TypeSignature Language="DocId" Value="T:Microsoft.ServiceFabric.Data.RestoreContext" />
+  <TypeSignature Language="VB.NET" Value="Public Structure RestoreContext" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.ServiceFabric.Data.Interfaces</AssemblyName>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
@@ -21,10 +22,11 @@
       <MemberSignature Language="C#" Value="public RestoreContext (Microsoft.ServiceFabric.Data.IStateProviderReplica stateProviderReplica);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.ServiceFabric.Data.IStateProviderReplica stateProviderReplica) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Data.RestoreContext.#ctor(Microsoft.ServiceFabric.Data.IStateProviderReplica)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (stateProviderReplica As IStateProviderReplica)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data.Interfaces</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="stateProviderReplica" Type="Microsoft.ServiceFabric.Data.IStateProviderReplica" />
@@ -45,8 +47,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Data.RestoreContext.RestoreAsync(Microsoft.ServiceFabric.Data.RestoreDescription)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data.Interfaces</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -122,8 +124,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Data.RestoreContext.RestoreAsync(Microsoft.ServiceFabric.Data.RestoreDescription,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data.Interfaces</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>

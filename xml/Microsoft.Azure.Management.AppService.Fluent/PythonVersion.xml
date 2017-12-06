@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public class PythonVersion : Microsoft.Azure.Management.ResourceManager.Fluent.Core.ExpandableStringEnum&lt;Microsoft.Azure.Management.AppService.Fluent.PythonVersion&gt;" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit PythonVersion extends Microsoft.Azure.Management.ResourceManager.Fluent.Core.ExpandableStringEnum`1&lt;class Microsoft.Azure.Management.AppService.Fluent.PythonVersion&gt;" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.AppService.Fluent.PythonVersion" />
+  <TypeSignature Language="VB.NET" Value="Public Class PythonVersion&#xA;Inherits ExpandableStringEnum(Of PythonVersion)" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
     <AssemblyVersion>1.0.0.60</AssemblyVersion>
@@ -24,10 +25,11 @@
       <MemberSignature Language="C#" Value="public PythonVersion ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.PythonVersion.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -39,10 +41,11 @@
       <MemberSignature Language="C#" Value="public static readonly Microsoft.Azure.Management.AppService.Fluent.PythonVersion Off;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Azure.Management.AppService.Fluent.PythonVersion Off" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.AppService.Fluent.PythonVersion.Off" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Off As PythonVersion " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.AppService.Fluent.PythonVersion</ReturnType>
@@ -56,10 +59,11 @@
       <MemberSignature Language="C#" Value="public static readonly Microsoft.Azure.Management.AppService.Fluent.PythonVersion V27;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Azure.Management.AppService.Fluent.PythonVersion V27" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.AppService.Fluent.PythonVersion.V27" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly V27 As PythonVersion " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.AppService.Fluent.PythonVersion</ReturnType>
@@ -73,10 +77,11 @@
       <MemberSignature Language="C#" Value="public static readonly Microsoft.Azure.Management.AppService.Fluent.PythonVersion V34;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Azure.Management.AppService.Fluent.PythonVersion V34" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.AppService.Fluent.PythonVersion.V34" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly V34 As PythonVersion " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.AppService.Fluent.PythonVersion</ReturnType>

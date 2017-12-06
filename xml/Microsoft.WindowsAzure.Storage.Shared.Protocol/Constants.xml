@@ -2,10 +2,9 @@
   <TypeSignature Language="C#" Value="public static class Constants" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit Constants extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants" />
+  <TypeSignature Language="VB.NET" Value="Public Class Constants" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-    <AssemblyVersion>8.1.1.0</AssemblyVersion>
-    <AssemblyVersion>8.1.3.0</AssemblyVersion>
     <AssemblyVersion>8.4.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
@@ -23,11 +22,10 @@
       <MemberSignature Language="C#" Value="public const string AccessPolicy;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string AccessPolicy" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.AccessPolicy" />
+      <MemberSignature Language="VB.NET" Value="Public Const AccessPolicy As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -44,6 +42,7 @@
       <MemberSignature Language="C#" Value="public const string AccessTierElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string AccessTierElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.AccessTierElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const AccessTierElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
@@ -63,11 +62,10 @@
       <MemberSignature Language="C#" Value="public const string AppendBlobValue;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string AppendBlobValue" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.AppendBlobValue" />
+      <MemberSignature Language="VB.NET" Value="Public Const AppendBlobValue As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -84,6 +82,7 @@
       <MemberSignature Language="C#" Value="public const string ArchiveStatusElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string ArchiveStatusElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.ArchiveStatusElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const ArchiveStatusElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
@@ -103,11 +102,10 @@
       <MemberSignature Language="C#" Value="public const string BlobElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string BlobElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.BlobElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const BlobElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -124,11 +122,10 @@
       <MemberSignature Language="C#" Value="public const string BlobPrefixElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string BlobPrefixElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.BlobPrefixElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const BlobPrefixElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -145,11 +142,10 @@
       <MemberSignature Language="C#" Value="public const string BlobsElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string BlobsElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.BlobsElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const BlobsElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -166,11 +162,10 @@
       <MemberSignature Language="C#" Value="public const string BlobTypeElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string BlobTypeElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.BlobTypeElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const BlobTypeElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -187,11 +182,10 @@
       <MemberSignature Language="C#" Value="public const string BlockBlobValue;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string BlockBlobValue" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.BlockBlobValue" />
+      <MemberSignature Language="VB.NET" Value="Public Const BlockBlobValue As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -208,11 +202,10 @@
       <MemberSignature Language="C#" Value="public const string BlockElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string BlockElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.BlockElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const BlockElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -229,11 +222,10 @@
       <MemberSignature Language="C#" Value="public const string BlockListElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string BlockListElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.BlockListElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const BlockListElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -250,11 +242,10 @@
       <MemberSignature Language="C#" Value="public const string CacheControlElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string CacheControlElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.CacheControlElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const CacheControlElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -271,11 +262,10 @@
       <MemberSignature Language="C#" Value="public const string ClearRangeElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string ClearRangeElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.ClearRangeElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const ClearRangeElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -292,11 +282,10 @@
       <MemberSignature Language="C#" Value="public const string CommittedBlocksElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string CommittedBlocksElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.CommittedBlocksElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const CommittedBlocksElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -313,11 +302,10 @@
       <MemberSignature Language="C#" Value="public const string CommittedElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string CommittedElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.CommittedElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const CommittedElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -334,11 +322,10 @@
       <MemberSignature Language="C#" Value="public const string ContainerElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string ContainerElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.ContainerElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const ContainerElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -355,11 +342,10 @@
       <MemberSignature Language="C#" Value="public const string ContainerNameElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string ContainerNameElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.ContainerNameElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const ContainerNameElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -376,11 +362,10 @@
       <MemberSignature Language="C#" Value="public const string ContainersElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string ContainersElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.ContainersElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const ContainersElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -397,11 +382,10 @@
       <MemberSignature Language="C#" Value="public const string ContentEncodingElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string ContentEncodingElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.ContentEncodingElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const ContentEncodingElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -418,11 +402,10 @@
       <MemberSignature Language="C#" Value="public const string ContentLanguageElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string ContentLanguageElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.ContentLanguageElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const ContentLanguageElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -439,11 +422,10 @@
       <MemberSignature Language="C#" Value="public const string ContentLengthElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string ContentLengthElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.ContentLengthElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const ContentLengthElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -460,11 +442,10 @@
       <MemberSignature Language="C#" Value="public const string ContentMD5Element;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string ContentMD5Element" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.ContentMD5Element" />
+      <MemberSignature Language="VB.NET" Value="Public Const ContentMD5Element As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -481,11 +462,10 @@
       <MemberSignature Language="C#" Value="public const string ContentTypeElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string ContentTypeElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.ContentTypeElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const ContentTypeElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -502,11 +482,10 @@
       <MemberSignature Language="C#" Value="public const string CopyAbortedValue;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string CopyAbortedValue" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.CopyAbortedValue" />
+      <MemberSignature Language="VB.NET" Value="Public Const CopyAbortedValue As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -523,11 +502,10 @@
       <MemberSignature Language="C#" Value="public const string CopyCompletionTimeElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string CopyCompletionTimeElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.CopyCompletionTimeElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const CopyCompletionTimeElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -544,11 +522,10 @@
       <MemberSignature Language="C#" Value="public const string CopyDestinationSnapshotElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string CopyDestinationSnapshotElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.CopyDestinationSnapshotElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const CopyDestinationSnapshotElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -565,11 +542,10 @@
       <MemberSignature Language="C#" Value="public const string CopyFailedValue;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string CopyFailedValue" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.CopyFailedValue" />
+      <MemberSignature Language="VB.NET" Value="Public Const CopyFailedValue As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -586,11 +562,10 @@
       <MemberSignature Language="C#" Value="public const string CopyIdElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string CopyIdElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.CopyIdElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const CopyIdElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -607,11 +582,10 @@
       <MemberSignature Language="C#" Value="public const string CopyPendingValue;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string CopyPendingValue" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.CopyPendingValue" />
+      <MemberSignature Language="VB.NET" Value="Public Const CopyPendingValue As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -628,11 +602,10 @@
       <MemberSignature Language="C#" Value="public const string CopyProgressElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string CopyProgressElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.CopyProgressElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const CopyProgressElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -649,11 +622,10 @@
       <MemberSignature Language="C#" Value="public const string CopySourceElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string CopySourceElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.CopySourceElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const CopySourceElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -670,11 +642,10 @@
       <MemberSignature Language="C#" Value="public const string CopyStatusDescriptionElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string CopyStatusDescriptionElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.CopyStatusDescriptionElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const CopyStatusDescriptionElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -691,11 +662,10 @@
       <MemberSignature Language="C#" Value="public const string CopyStatusElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string CopyStatusElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.CopyStatusElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const CopyStatusElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -712,11 +682,10 @@
       <MemberSignature Language="C#" Value="public const string CopySuccessValue;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string CopySuccessValue" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.CopySuccessValue" />
+      <MemberSignature Language="VB.NET" Value="Public Const CopySuccessValue As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -733,11 +702,10 @@
       <MemberSignature Language="C#" Value="public static readonly TimeSpan DefaultClientSideTimeout;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype System.TimeSpan DefaultClientSideTimeout" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.DefaultClientSideTimeout" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly DefaultClientSideTimeout As TimeSpan " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -754,11 +722,10 @@
       <MemberSignature Language="C#" Value="public const int DefaultSubStreamBufferSize = 4194304;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal int32 DefaultSubStreamBufferSize = (4194304)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.DefaultSubStreamBufferSize" />
+      <MemberSignature Language="VB.NET" Value="Public Const DefaultSubStreamBufferSize As Integer  = 4194304" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -776,11 +743,10 @@
       <MemberSignature Language="C#" Value="public const int DefaultWriteBlockSizeBytes = 4194304;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal int32 DefaultWriteBlockSizeBytes = (4194304)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.DefaultWriteBlockSizeBytes" />
+      <MemberSignature Language="VB.NET" Value="Public Const DefaultWriteBlockSizeBytes As Integer  = 4194304" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -798,11 +764,10 @@
       <MemberSignature Language="C#" Value="public const string DelimiterElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string DelimiterElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.DelimiterElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const DelimiterElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -819,11 +784,10 @@
       <MemberSignature Language="C#" Value="public const string DequeueCountElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string DequeueCountElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.DequeueCountElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const DequeueCountElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -840,11 +804,10 @@
       <MemberSignature Language="C#" Value="public const string DirectoryPathElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string DirectoryPathElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.DirectoryPathElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const DirectoryPathElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -861,11 +824,10 @@
       <MemberSignature Language="C#" Value="public const string EndElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string EndElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.EndElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const EndElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -882,11 +844,10 @@
       <MemberSignature Language="C#" Value="public const string EntriesElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string EntriesElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.EntriesElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const EntriesElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -903,11 +864,10 @@
       <MemberSignature Language="C#" Value="public const string EnumerationResultsElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string EnumerationResultsElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.EnumerationResultsElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const EnumerationResultsElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -924,11 +884,10 @@
       <MemberSignature Language="C#" Value="public const string ErrorCode;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string ErrorCode" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.ErrorCode" />
+      <MemberSignature Language="VB.NET" Value="Public Const ErrorCode As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -945,11 +904,10 @@
       <MemberSignature Language="C#" Value="public const string ErrorExceptionMessage;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string ErrorExceptionMessage" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.ErrorExceptionMessage" />
+      <MemberSignature Language="VB.NET" Value="Public Const ErrorExceptionMessage As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -966,11 +924,10 @@
       <MemberSignature Language="C#" Value="public const string ErrorExceptionStackTrace;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string ErrorExceptionStackTrace" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.ErrorExceptionStackTrace" />
+      <MemberSignature Language="VB.NET" Value="Public Const ErrorExceptionStackTrace As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -987,11 +944,10 @@
       <MemberSignature Language="C#" Value="public const string ErrorMessage;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string ErrorMessage" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.ErrorMessage" />
+      <MemberSignature Language="VB.NET" Value="Public Const ErrorMessage As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1008,11 +964,10 @@
       <MemberSignature Language="C#" Value="public const string ErrorRootElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string ErrorRootElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.ErrorRootElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const ErrorRootElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1029,11 +984,10 @@
       <MemberSignature Language="C#" Value="public const string EtagElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string EtagElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.EtagElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const EtagElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1050,11 +1004,10 @@
       <MemberSignature Language="C#" Value="public const string ExpirationTimeElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string ExpirationTimeElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.ExpirationTimeElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const ExpirationTimeElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1071,11 +1024,10 @@
       <MemberSignature Language="C#" Value="public const string Expiry;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string Expiry" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.Expiry" />
+      <MemberSignature Language="VB.NET" Value="Public Const Expiry As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1092,11 +1044,10 @@
       <MemberSignature Language="C#" Value="public const string FileDirectoryElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string FileDirectoryElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.FileDirectoryElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const FileDirectoryElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1113,11 +1064,10 @@
       <MemberSignature Language="C#" Value="public const string FileElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string FileElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.FileElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const FileElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1134,11 +1084,10 @@
       <MemberSignature Language="C#" Value="public const string FileRangeElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string FileRangeElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.FileRangeElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const FileRangeElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1155,11 +1104,10 @@
       <MemberSignature Language="C#" Value="public const string FileRangeListElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string FileRangeListElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.FileRangeListElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const FileRangeListElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1176,11 +1124,10 @@
       <MemberSignature Language="C#" Value="public const long GB = 1073741824;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal int64 GB = (1073741824)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.GB" />
+      <MemberSignature Language="VB.NET" Value="Public Const GB As Long  = 1073741824" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1198,11 +1145,10 @@
       <MemberSignature Language="C#" Value="public const string GeoBootstrapValue;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string GeoBootstrapValue" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.GeoBootstrapValue" />
+      <MemberSignature Language="VB.NET" Value="Public Const GeoBootstrapValue As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1219,11 +1165,10 @@
       <MemberSignature Language="C#" Value="public const string GeoLiveValue;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string GeoLiveValue" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.GeoLiveValue" />
+      <MemberSignature Language="VB.NET" Value="Public Const GeoLiveValue As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1240,11 +1185,10 @@
       <MemberSignature Language="C#" Value="public const string GeoUnavailableValue;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string GeoUnavailableValue" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.GeoUnavailableValue" />
+      <MemberSignature Language="VB.NET" Value="Public Const GeoUnavailableValue As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1261,11 +1205,10 @@
       <MemberSignature Language="C#" Value="public const string Id;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string Id" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.Id" />
+      <MemberSignature Language="VB.NET" Value="Public Const Id As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1282,11 +1225,10 @@
       <MemberSignature Language="C#" Value="public const string IncrementalCopy;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string IncrementalCopy" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.IncrementalCopy" />
+      <MemberSignature Language="VB.NET" Value="Public Const IncrementalCopy As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1303,11 +1245,10 @@
       <MemberSignature Language="C#" Value="public const string InsertionTimeElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string InsertionTimeElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.InsertionTimeElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const InsertionTimeElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1324,11 +1265,10 @@
       <MemberSignature Language="C#" Value="public const string InvalidMetadataName;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string InvalidMetadataName" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.InvalidMetadataName" />
+      <MemberSignature Language="VB.NET" Value="Public Const InvalidMetadataName As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1345,11 +1285,10 @@
       <MemberSignature Language="C#" Value="public const long KB = 1024;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal int64 KB = (1024)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.KB" />
+      <MemberSignature Language="VB.NET" Value="Public Const KB As Long  = 1024" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1367,11 +1306,10 @@
       <MemberSignature Language="C#" Value="public const string LastModifiedElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string LastModifiedElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.LastModifiedElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const LastModifiedElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1388,11 +1326,10 @@
       <MemberSignature Language="C#" Value="public const string LatestElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string LatestElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.LatestElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const LatestElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1409,11 +1346,10 @@
       <MemberSignature Language="C#" Value="public const string LeaseAvailableValue;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string LeaseAvailableValue" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.LeaseAvailableValue" />
+      <MemberSignature Language="VB.NET" Value="Public Const LeaseAvailableValue As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1430,11 +1366,10 @@
       <MemberSignature Language="C#" Value="public const string LeaseBreakingValue;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string LeaseBreakingValue" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.LeaseBreakingValue" />
+      <MemberSignature Language="VB.NET" Value="Public Const LeaseBreakingValue As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1451,11 +1386,10 @@
       <MemberSignature Language="C#" Value="public const string LeaseBrokenValue;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string LeaseBrokenValue" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.LeaseBrokenValue" />
+      <MemberSignature Language="VB.NET" Value="Public Const LeaseBrokenValue As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1472,11 +1406,10 @@
       <MemberSignature Language="C#" Value="public const string LeaseDurationElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string LeaseDurationElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.LeaseDurationElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const LeaseDurationElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1493,11 +1426,10 @@
       <MemberSignature Language="C#" Value="public const string LeasedValue;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string LeasedValue" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.LeasedValue" />
+      <MemberSignature Language="VB.NET" Value="Public Const LeasedValue As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1514,11 +1446,10 @@
       <MemberSignature Language="C#" Value="public const string LeaseExpiredValue;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string LeaseExpiredValue" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.LeaseExpiredValue" />
+      <MemberSignature Language="VB.NET" Value="Public Const LeaseExpiredValue As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1535,11 +1466,10 @@
       <MemberSignature Language="C#" Value="public const string LeaseFixedValue;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string LeaseFixedValue" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.LeaseFixedValue" />
+      <MemberSignature Language="VB.NET" Value="Public Const LeaseFixedValue As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1556,11 +1486,10 @@
       <MemberSignature Language="C#" Value="public const string LeaseInfiniteValue;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string LeaseInfiniteValue" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.LeaseInfiniteValue" />
+      <MemberSignature Language="VB.NET" Value="Public Const LeaseInfiniteValue As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1577,11 +1506,10 @@
       <MemberSignature Language="C#" Value="public const string LeaseStateElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string LeaseStateElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.LeaseStateElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const LeaseStateElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1598,11 +1526,10 @@
       <MemberSignature Language="C#" Value="public const string LeaseStatusElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string LeaseStatusElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.LeaseStatusElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const LeaseStatusElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1619,11 +1546,10 @@
       <MemberSignature Language="C#" Value="public const string LockedValue;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string LockedValue" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.LockedValue" />
+      <MemberSignature Language="VB.NET" Value="Public Const LockedValue As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1640,11 +1566,10 @@
       <MemberSignature Language="C#" Value="public const string MarkerElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string MarkerElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.MarkerElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const MarkerElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1661,11 +1586,10 @@
       <MemberSignature Language="C#" Value="public const int MaxAppendBlockSize = 4194304;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal int32 MaxAppendBlockSize = (4194304)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.MaxAppendBlockSize" />
+      <MemberSignature Language="VB.NET" Value="Public Const MaxAppendBlockSize As Integer  = 4194304" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1683,11 +1607,10 @@
       <MemberSignature Language="C#" Value="public const long MaxBlobSize = 5242880000000;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal int64 MaxBlobSize = (5242880000000)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.MaxBlobSize" />
+      <MemberSignature Language="VB.NET" Value="Public Const MaxBlobSize As Long  = 5242880000000" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1705,11 +1628,10 @@
       <MemberSignature Language="C#" Value="public const long MaxBlockNumber = 50000;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal int64 MaxBlockNumber = (50000)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.MaxBlockNumber" />
+      <MemberSignature Language="VB.NET" Value="Public Const MaxBlockNumber As Long  = 50000" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1727,11 +1649,10 @@
       <MemberSignature Language="C#" Value="public const int MaxBlockSize = 104857600;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal int32 MaxBlockSize = (104857600)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.MaxBlockSize" />
+      <MemberSignature Language="VB.NET" Value="Public Const MaxBlockSize As Integer  = 104857600" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1749,11 +1670,10 @@
       <MemberSignature Language="C#" Value="public static readonly TimeSpan MaximumAllowedTimeout;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype System.TimeSpan MaximumAllowedTimeout" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.MaximumAllowedTimeout" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MaximumAllowedTimeout As TimeSpan " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1770,11 +1690,10 @@
       <MemberSignature Language="C#" Value="public const int MaximumBreakLeasePeriod = 60;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal int32 MaximumBreakLeasePeriod = (60)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.MaximumBreakLeasePeriod" />
+      <MemberSignature Language="VB.NET" Value="Public Const MaximumBreakLeasePeriod As Integer  = 60" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1792,11 +1711,10 @@
       <MemberSignature Language="C#" Value="public const int MaximumLeaseDuration = 60;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal int32 MaximumLeaseDuration = (60)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.MaximumLeaseDuration" />
+      <MemberSignature Language="VB.NET" Value="Public Const MaximumLeaseDuration As Integer  = 60" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1814,11 +1732,10 @@
       <MemberSignature Language="C#" Value="public static readonly TimeSpan MaximumRetryBackoff;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype System.TimeSpan MaximumRetryBackoff" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.MaximumRetryBackoff" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MaximumRetryBackoff As TimeSpan " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1835,11 +1752,10 @@
       <MemberSignature Language="C#" Value="public static readonly TimeSpan MaxMaximumExecutionTime;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype System.TimeSpan MaxMaximumExecutionTime" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.MaxMaximumExecutionTime" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MaxMaximumExecutionTime As TimeSpan " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1856,11 +1772,10 @@
       <MemberSignature Language="C#" Value="public const int MaxParallelOperationThreadCount = 64;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal int32 MaxParallelOperationThreadCount = (64)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.MaxParallelOperationThreadCount" />
+      <MemberSignature Language="VB.NET" Value="Public Const MaxParallelOperationThreadCount As Integer  = 64" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1878,11 +1793,10 @@
       <MemberSignature Language="C#" Value="public const int MaxRangeGetContentMD5Size = 4194304;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal int32 MaxRangeGetContentMD5Size = (4194304)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.MaxRangeGetContentMD5Size" />
+      <MemberSignature Language="VB.NET" Value="Public Const MaxRangeGetContentMD5Size As Integer  = 4194304" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1900,11 +1814,10 @@
       <MemberSignature Language="C#" Value="public const string MaxResults;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string MaxResults" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.MaxResults" />
+      <MemberSignature Language="VB.NET" Value="Public Const MaxResults As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1921,11 +1834,10 @@
       <MemberSignature Language="C#" Value="public const string MaxResultsElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string MaxResultsElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.MaxResultsElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const MaxResultsElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1942,11 +1854,10 @@
       <MemberSignature Language="C#" Value="public const int MaxSharedAccessPolicyIdentifiers = 5;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal int32 MaxSharedAccessPolicyIdentifiers = (5)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.MaxSharedAccessPolicyIdentifiers" />
+      <MemberSignature Language="VB.NET" Value="Public Const MaxSharedAccessPolicyIdentifiers As Integer  = 5" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1964,11 +1875,10 @@
       <MemberSignature Language="C#" Value="public const long MaxSingleUploadBlobSize = 268435456;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal int64 MaxSingleUploadBlobSize = (268435456)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.MaxSingleUploadBlobSize" />
+      <MemberSignature Language="VB.NET" Value="Public Const MaxSingleUploadBlobSize As Long  = 268435456" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1986,11 +1896,10 @@
       <MemberSignature Language="C#" Value="public const long MB = 1048576;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal int64 MB = (1048576)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.MB" />
+      <MemberSignature Language="VB.NET" Value="Public Const MB As Long  = 1048576" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2008,11 +1917,10 @@
       <MemberSignature Language="C#" Value="public const string MessageElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string MessageElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.MessageElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const MessageElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2029,11 +1937,10 @@
       <MemberSignature Language="C#" Value="public const string MessageIdElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string MessageIdElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.MessageIdElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const MessageIdElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2050,11 +1957,10 @@
       <MemberSignature Language="C#" Value="public const string Messages;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string Messages" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.Messages" />
+      <MemberSignature Language="VB.NET" Value="Public Const Messages As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2071,11 +1977,10 @@
       <MemberSignature Language="C#" Value="public const string MessagesElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string MessagesElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.MessagesElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const MessagesElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2092,11 +1997,10 @@
       <MemberSignature Language="C#" Value="public const string MessageTextElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string MessageTextElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.MessageTextElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const MessageTextElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2113,11 +2017,10 @@
       <MemberSignature Language="C#" Value="public const string MetadataElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string MetadataElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.MetadataElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const MetadataElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2134,11 +2037,10 @@
       <MemberSignature Language="C#" Value="public const int MinimumBreakLeasePeriod = 0;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal int32 MinimumBreakLeasePeriod = (0)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.MinimumBreakLeasePeriod" />
+      <MemberSignature Language="VB.NET" Value="Public Const MinimumBreakLeasePeriod As Integer  = 0" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2156,11 +2058,10 @@
       <MemberSignature Language="C#" Value="public const int MinimumLeaseDuration = 15;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal int32 MinimumLeaseDuration = (15)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.MinimumLeaseDuration" />
+      <MemberSignature Language="VB.NET" Value="Public Const MinimumLeaseDuration As Integer  = 15" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2178,11 +2079,10 @@
       <MemberSignature Language="C#" Value="public const int MinLargeBlockSize = 4194305;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal int32 MinLargeBlockSize = (4194305)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.MinLargeBlockSize" />
+      <MemberSignature Language="VB.NET" Value="Public Const MinLargeBlockSize As Integer  = 4194305" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2200,11 +2100,10 @@
       <MemberSignature Language="C#" Value="public const string NameElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string NameElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.NameElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const NameElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2221,11 +2120,10 @@
       <MemberSignature Language="C#" Value="public const string NextMarkerElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string NextMarkerElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.NextMarkerElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const NextMarkerElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2242,11 +2140,10 @@
       <MemberSignature Language="C#" Value="public const string PageBlobValue;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string PageBlobValue" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.PageBlobValue" />
+      <MemberSignature Language="VB.NET" Value="Public Const PageBlobValue As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2263,11 +2160,10 @@
       <MemberSignature Language="C#" Value="public const string PageListElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string PageListElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.PageListElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const PageListElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2284,11 +2180,10 @@
       <MemberSignature Language="C#" Value="public const string PageRangeElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string PageRangeElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.PageRangeElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const PageRangeElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2305,11 +2200,10 @@
       <MemberSignature Language="C#" Value="public const int PageSize = 512;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal int32 PageSize = (512)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.PageSize" />
+      <MemberSignature Language="VB.NET" Value="Public Const PageSize As Integer  = 512" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2327,11 +2221,10 @@
       <MemberSignature Language="C#" Value="public const string Permission;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string Permission" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.Permission" />
+      <MemberSignature Language="VB.NET" Value="Public Const Permission As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2348,11 +2241,10 @@
       <MemberSignature Language="C#" Value="public const string PopReceiptElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string PopReceiptElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.PopReceiptElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const PopReceiptElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2369,11 +2261,10 @@
       <MemberSignature Language="C#" Value="public const string PrefixElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string PrefixElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.PrefixElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const PrefixElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2390,11 +2281,10 @@
       <MemberSignature Language="C#" Value="public const string PropertiesElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string PropertiesElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.PropertiesElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const PropertiesElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2411,11 +2301,10 @@
       <MemberSignature Language="C#" Value="public const string PublicAccessElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string PublicAccessElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.PublicAccessElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const PublicAccessElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2432,11 +2321,10 @@
       <MemberSignature Language="C#" Value="public const string QueueElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string QueueElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.QueueElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const QueueElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2453,11 +2341,10 @@
       <MemberSignature Language="C#" Value="public const string QueueNameElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string QueueNameElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.QueueNameElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const QueueNameElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2474,11 +2361,10 @@
       <MemberSignature Language="C#" Value="public const string QueuesElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string QueuesElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.QueuesElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const QueuesElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2495,11 +2381,10 @@
       <MemberSignature Language="C#" Value="public const string QuotaElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string QuotaElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.QuotaElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const QuotaElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2516,6 +2401,7 @@
       <MemberSignature Language="C#" Value="public const string RehydratePendingToCool;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string RehydratePendingToCool" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.RehydratePendingToCool" />
+      <MemberSignature Language="VB.NET" Value="Public Const RehydratePendingToCool As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
@@ -2535,6 +2421,7 @@
       <MemberSignature Language="C#" Value="public const string RehydratePendingToHot;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string RehydratePendingToHot" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.RehydratePendingToHot" />
+      <MemberSignature Language="VB.NET" Value="Public Const RehydratePendingToHot As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
@@ -2554,11 +2441,10 @@
       <MemberSignature Language="C#" Value="public const string ServerEncryptionElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string ServerEncryptionElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.ServerEncryptionElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const ServerEncryptionElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2575,11 +2461,10 @@
       <MemberSignature Language="C#" Value="public const string ServiceEndpointElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string ServiceEndpointElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.ServiceEndpointElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const ServiceEndpointElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2596,11 +2481,10 @@
       <MemberSignature Language="C#" Value="public const string ShareElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string ShareElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.ShareElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const ShareElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2617,11 +2501,10 @@
       <MemberSignature Language="C#" Value="public const string ShareNameElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string ShareNameElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.ShareNameElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const ShareNameElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2638,11 +2521,10 @@
       <MemberSignature Language="C#" Value="public const string SharesElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string SharesElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.SharesElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const SharesElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2659,11 +2541,10 @@
       <MemberSignature Language="C#" Value="public const string SignedIdentifier;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string SignedIdentifier" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.SignedIdentifier" />
+      <MemberSignature Language="VB.NET" Value="Public Const SignedIdentifier As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2680,11 +2561,10 @@
       <MemberSignature Language="C#" Value="public const string SignedIdentifiers;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string SignedIdentifiers" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.SignedIdentifiers" />
+      <MemberSignature Language="VB.NET" Value="Public Const SignedIdentifiers As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2701,11 +2581,10 @@
       <MemberSignature Language="C#" Value="public const string SizeElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string SizeElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.SizeElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const SizeElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2722,11 +2601,10 @@
       <MemberSignature Language="C#" Value="public const string SnapshotElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string SnapshotElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.SnapshotElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const SnapshotElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2743,11 +2621,10 @@
       <MemberSignature Language="C#" Value="public const string Start;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string Start" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.Start" />
+      <MemberSignature Language="VB.NET" Value="Public Const Start As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2764,11 +2641,10 @@
       <MemberSignature Language="C#" Value="public const string StartElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string StartElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.StartElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const StartElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2785,11 +2661,10 @@
       <MemberSignature Language="C#" Value="public const string TimeNextVisibleElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string TimeNextVisibleElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.TimeNextVisibleElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const TimeNextVisibleElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2806,11 +2681,10 @@
       <MemberSignature Language="C#" Value="public const string UncommittedBlocksElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string UncommittedBlocksElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.UncommittedBlocksElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const UncommittedBlocksElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2827,11 +2701,10 @@
       <MemberSignature Language="C#" Value="public const string UncommittedElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string UncommittedElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.UncommittedElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const UncommittedElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2848,11 +2721,10 @@
       <MemberSignature Language="C#" Value="public const string UnlockedValue;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string UnlockedValue" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.UnlockedValue" />
+      <MemberSignature Language="VB.NET" Value="Public Const UnlockedValue As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2869,11 +2741,10 @@
       <MemberSignature Language="C#" Value="public const string UrlElement;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string UrlElement" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.Storage.Shared.Protocol.Constants.UrlElement" />
+      <MemberSignature Language="VB.NET" Value="Public Const UrlElement As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>8.1.1.0</AssemblyVersion>
-        <AssemblyVersion>8.1.3.0</AssemblyVersion>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public interface IReliableDictionary&lt;TKey,TValue&gt; : Microsoft.ServiceFabric.Data.Collections.IReliableCollection&lt;System.Collections.Generic.KeyValuePair&lt;TKey,TValue&gt;&gt; where TKey : IComparable&lt;TKey&gt;, IEquatable&lt;TKey&gt;" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IReliableDictionary`2&lt;(class System.IComparable`1&lt;!TKey&gt;, class System.IEquatable`1&lt;!TKey&gt;) TKey, TValue&gt; implements class Microsoft.ServiceFabric.Data.Collections.IReliableCollection`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;!TKey, !TValue&gt;&gt;, class Microsoft.ServiceFabric.Data.IReliableState" />
   <TypeSignature Language="DocId" Value="T:Microsoft.ServiceFabric.Data.Collections.IReliableDictionary`2" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IReliableDictionary(Of TKey, TValue)&#xA;Implements IReliableCollection(Of KeyValuePair(Of TKey, TValue))" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.ServiceFabric.Data.Interfaces</AssemblyName>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
@@ -41,10 +42,11 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task AddAsync (Microsoft.ServiceFabric.Data.ITransaction tx, TKey key, TValue value);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task AddAsync(class Microsoft.ServiceFabric.Data.ITransaction tx, !TKey key, !TValue value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Data.Collections.IReliableDictionary`2.AddAsync(Microsoft.ServiceFabric.Data.ITransaction,`0,`1)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AddAsync (tx As ITransaction, key As TKey, value As TValue) As Task" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data.Interfaces</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -68,13 +70,13 @@
         <exception cref="T:System.ArgumentException">A value with the same key already exists in the Reliable Dictionary.</exception>
         <exception cref="T:System.TimeoutException">The operation failed to complete within the default timeout.</exception>
         <exception cref="T:System.Fabric.FabricNotPrimaryException">The exception that is thrown when the <see cref="T:Microsoft.ServiceFabric.Data.Collections.IReliableDictionary`2" /> is not in <see cref="F:System.Fabric.ReplicaRole.Primary" />.</exception>
+        <exception cref="T:System.Fabric.TransactionFaultedException">The transaction has been internally faulted by the system. Retry the operation on a new transaction</exception>
         <exception cref="T:System.InvalidOperationException">
             Thrown when a method call is invalid for the object's current state.
             Example, transaction used is already terminated: committed or aborted by the user.
             If this exception is thrown, it is highly likely that there is a bug in the service code of the use of transactions.
             </exception>
         <exception cref="T:System.Fabric.FabricObjectClosedException">Indicates that the Reliable Dictionary is closed or deleted.</exception>
-        <exception cref="T:System.Fabric.TransactionFaultedException">The transaction has been internally faulted by the system. Retry the operation on a new transaction</exception>
       </Docs>
     </Member>
     <Member MemberName="AddAsync">
@@ -83,8 +85,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Data.Collections.IReliableDictionary`2.AddAsync(Microsoft.ServiceFabric.Data.ITransaction,`0,`1,System.TimeSpan,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data.Interfaces</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -113,23 +115,24 @@
         <exception cref="T:System.TimeoutException">The operation failed to complete within the given timeout.</exception>
         <exception cref="T:System.OperationCanceledException">The operation was canceled.</exception>
         <exception cref="T:System.Fabric.FabricNotPrimaryException">The exception that is thrown when the <see cref="T:Microsoft.ServiceFabric.Data.Collections.IReliableDictionary`2" /> is not in <see cref="F:System.Fabric.ReplicaRole.Primary" />.</exception>
+        <exception cref="T:System.Fabric.TransactionFaultedException">The transaction has been internally faulted by the system. Retry the operation on a new transaction</exception>
         <exception cref="T:System.InvalidOperationException">
             Thrown when a method call is invalid for the object's current state.
             Example, transaction used is already terminated: committed or aborted by the user.
             If this exception is thrown, it is highly likely that there is a bug in the service code of the use of transactions.
             </exception>
         <exception cref="T:System.Fabric.FabricObjectClosedException">Indicates that the Reliable Dictionary is closed or deleted.</exception>
-        <exception cref="T:System.Fabric.TransactionFaultedException">The transaction has been internally faulted by the system. Retry the operation on a new transaction</exception>
       </Docs>
     </Member>
     <Member MemberName="AddOrUpdateAsync">
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;TValue&gt; AddOrUpdateAsync (Microsoft.ServiceFabric.Data.ITransaction tx, TKey key, Func&lt;TKey,TValue&gt; addValueFactory, Func&lt;TKey,TValue,TValue&gt; updateValueFactory);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;!TValue&gt; AddOrUpdateAsync(class Microsoft.ServiceFabric.Data.ITransaction tx, !TKey key, class System.Func`2&lt;!TKey, !TValue&gt; addValueFactory, class System.Func`3&lt;!TKey, !TValue, !TValue&gt; updateValueFactory) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Data.Collections.IReliableDictionary`2.AddOrUpdateAsync(Microsoft.ServiceFabric.Data.ITransaction,`0,System.Func{`0,`1},System.Func{`0,`1,`1})" />
+      <MemberSignature Language="VB.NET" Value="Public Function AddOrUpdateAsync (tx As ITransaction, key As TKey, addValueFactory As Func(Of TKey, TValue), updateValueFactory As Func(Of TKey, TValue, TValue)) As Task(Of TValue)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data.Interfaces</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;TValue&gt;</ReturnType>
@@ -158,23 +161,24 @@
           <paramref name="tx" /> is null, or <paramref name="key" /> is null or cannot be serialized, or <paramref name="addValueFactory" /> is null, or <paramref name="updateValueFactory" /> is null.</exception>
         <exception cref="T:System.TimeoutException">The operation failed to complete within the default timeout.</exception>
         <exception cref="T:System.Fabric.FabricNotPrimaryException">The exception that is thrown when the <see cref="T:Microsoft.ServiceFabric.Data.Collections.IReliableDictionary`2" /> is not in <see cref="F:System.Fabric.ReplicaRole.Primary" />.</exception>
+        <exception cref="T:System.Fabric.TransactionFaultedException">The transaction has been internally faulted by the system. Retry the operation on a new transaction</exception>
         <exception cref="T:System.InvalidOperationException">
             Thrown when a method call is invalid for the object's current state.
             Example, transaction used is already terminated: committed or aborted by the user.
             If this exception is thrown, it is highly likely that there is a bug in the service code of the use of transactions.
             </exception>
         <exception cref="T:System.Fabric.FabricObjectClosedException">Indicates that the Reliable Dictionary is closed or deleted.</exception>
-        <exception cref="T:System.Fabric.TransactionFaultedException">The transaction has been internally faulted by the system. Retry the operation on a new transaction</exception>
       </Docs>
     </Member>
     <Member MemberName="AddOrUpdateAsync">
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;TValue&gt; AddOrUpdateAsync (Microsoft.ServiceFabric.Data.ITransaction tx, TKey key, TValue addValue, Func&lt;TKey,TValue,TValue&gt; updateValueFactory);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;!TValue&gt; AddOrUpdateAsync(class Microsoft.ServiceFabric.Data.ITransaction tx, !TKey key, !TValue addValue, class System.Func`3&lt;!TKey, !TValue, !TValue&gt; updateValueFactory) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Data.Collections.IReliableDictionary`2.AddOrUpdateAsync(Microsoft.ServiceFabric.Data.ITransaction,`0,`1,System.Func{`0,`1,`1})" />
+      <MemberSignature Language="VB.NET" Value="Public Function AddOrUpdateAsync (tx As ITransaction, key As TKey, addValue As TValue, updateValueFactory As Func(Of TKey, TValue, TValue)) As Task(Of TValue)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data.Interfaces</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;TValue&gt;</ReturnType>
@@ -203,13 +207,13 @@
           <paramref name="tx" /> is null, or <paramref name="key" /> is null or cannot be serialized, or <paramref name="updateValueFactory" /> is null.</exception>
         <exception cref="T:System.TimeoutException">The operation failed to complete within the default timeout.</exception>
         <exception cref="T:System.Fabric.FabricNotPrimaryException">The exception that is thrown when the <see cref="T:Microsoft.ServiceFabric.Data.Collections.IReliableDictionary`2" /> is not in <see cref="F:System.Fabric.ReplicaRole.Primary" />.</exception>
+        <exception cref="T:System.Fabric.TransactionFaultedException">The transaction has been internally faulted by the system. Retry the operation on a new transaction</exception>
         <exception cref="T:System.InvalidOperationException">
             Thrown when a method call is invalid for the object's current state.
             Example, transaction used is already terminated: committed or aborted by the user.
             If this exception is thrown, it is highly likely that there is a bug in the service code of the use of transactions.
             </exception>
         <exception cref="T:System.Fabric.FabricObjectClosedException">Indicates that the Reliable Dictionary is closed or deleted.</exception>
-        <exception cref="T:System.Fabric.TransactionFaultedException">The transaction has been internally faulted by the system. Retry the operation on a new transaction</exception>
       </Docs>
     </Member>
     <Member MemberName="AddOrUpdateAsync">
@@ -218,8 +222,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Data.Collections.IReliableDictionary`2.AddOrUpdateAsync(Microsoft.ServiceFabric.Data.ITransaction,`0,System.Func{`0,`1},System.Func{`0,`1,`1},System.TimeSpan,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data.Interfaces</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;TValue&gt;</ReturnType>
@@ -255,13 +259,13 @@
         <exception cref="T:System.TimeoutException">The operation failed to complete within the given timeout.</exception>
         <exception cref="T:System.OperationCanceledException">The operation was canceled.</exception>
         <exception cref="T:System.Fabric.FabricNotPrimaryException">The exception that is thrown when the <see cref="T:Microsoft.ServiceFabric.Data.Collections.IReliableDictionary`2" /> is not in <see cref="F:System.Fabric.ReplicaRole.Primary" />.</exception>
+        <exception cref="T:System.Fabric.TransactionFaultedException">The transaction has been internally faulted by the system. Retry the operation on a new transaction</exception>
         <exception cref="T:System.InvalidOperationException">
             Thrown when a method call is invalid for the object's current state.
             Example, transaction used is already terminated: committed or aborted by the user.
             If this exception is thrown, it is highly likely that there is a bug in the service code of the use of transactions.
             </exception>
         <exception cref="T:System.Fabric.FabricObjectClosedException">Indicates that the Reliable Dictionary is closed or deleted.</exception>
-        <exception cref="T:System.Fabric.TransactionFaultedException">The transaction has been internally faulted by the system. Retry the operation on a new transaction</exception>
       </Docs>
     </Member>
     <Member MemberName="AddOrUpdateAsync">
@@ -270,8 +274,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Data.Collections.IReliableDictionary`2.AddOrUpdateAsync(Microsoft.ServiceFabric.Data.ITransaction,`0,`1,System.Func{`0,`1,`1},System.TimeSpan,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data.Interfaces</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;TValue&gt;</ReturnType>
@@ -307,13 +311,13 @@
         <exception cref="T:System.TimeoutException">The operation failed to complete within the given timeout.</exception>
         <exception cref="T:System.OperationCanceledException">The operation was canceled.</exception>
         <exception cref="T:System.Fabric.FabricNotPrimaryException">The exception that is thrown when the <see cref="T:Microsoft.ServiceFabric.Data.Collections.IReliableDictionary`2" /> is not in <see cref="F:System.Fabric.ReplicaRole.Primary" />.</exception>
+        <exception cref="T:System.Fabric.TransactionFaultedException">The transaction has been internally faulted by the system. Retry the operation on a new transaction</exception>
         <exception cref="T:System.InvalidOperationException">
             Thrown when a method call is invalid for the object's current state.
             Example, transaction used is already terminated: committed or aborted by the user.
             If this exception is thrown, it is highly likely that there is a bug in the service code of the use of transactions.
             </exception>
         <exception cref="T:System.Fabric.FabricObjectClosedException">Indicates that the Reliable Dictionary is closed or deleted.</exception>
-        <exception cref="T:System.Fabric.TransactionFaultedException">The transaction has been internally faulted by the system. Retry the operation on a new transaction</exception>
       </Docs>
     </Member>
     <Member MemberName="ClearAsync">
@@ -322,8 +326,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Data.Collections.IReliableDictionary`2.ClearAsync(System.TimeSpan,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data.Interfaces</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -351,10 +355,11 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;bool&gt; ContainsKeyAsync (Microsoft.ServiceFabric.Data.ITransaction tx, TKey key);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;bool&gt; ContainsKeyAsync(class Microsoft.ServiceFabric.Data.ITransaction tx, !TKey key) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Data.Collections.IReliableDictionary`2.ContainsKeyAsync(Microsoft.ServiceFabric.Data.ITransaction,`0)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ContainsKeyAsync (tx As ITransaction, key As TKey) As Task(Of Boolean)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data.Interfaces</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Boolean&gt;</ReturnType>
@@ -380,13 +385,13 @@
             One reason it may be thrown in the <see cref="F:System.Fabric.ReplicaRole.Primary" /> role is loss of <see cref="P:System.Fabric.IStatefulServicePartition.ReadStatus" />.
             One reason it may be thrown in the <see cref="F:System.Fabric.ReplicaRole.ActiveSecondary" /> role is that Reliable Collection's state is not yet consistent.
             </exception>
+        <exception cref="T:System.Fabric.TransactionFaultedException">The transaction has been internally faulted by the system. Retry the operation on a new transaction</exception>
         <exception cref="T:System.InvalidOperationException">
             Thrown when a method call is invalid for the object's current state.
             Example, transaction used is already terminated: committed or aborted by the user.
             If this exception is thrown, it is highly likely that there is a bug in the service code of the use of transactions.
             </exception>
         <exception cref="T:System.Fabric.FabricObjectClosedException">Indicates that the Reliable Dictionary is closed or deleted.</exception>
-        <exception cref="T:System.Fabric.TransactionFaultedException">The transaction has been internally faulted by the system. Retry the operation on a new transaction</exception>
       </Docs>
     </Member>
     <Member MemberName="ContainsKeyAsync">
@@ -395,8 +400,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Data.Collections.IReliableDictionary`2.ContainsKeyAsync(Microsoft.ServiceFabric.Data.ITransaction,`0,Microsoft.ServiceFabric.Data.Collections.LockMode)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data.Interfaces</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Boolean&gt;</ReturnType>
@@ -424,13 +429,13 @@
             One reason it may be thrown in the <see cref="F:System.Fabric.ReplicaRole.Primary" /> role is loss of <see cref="P:System.Fabric.IStatefulServicePartition.ReadStatus" />.
             One reason it may be thrown in the <see cref="F:System.Fabric.ReplicaRole.ActiveSecondary" /> role is that Reliable Collection's state is not yet consistent.
             </exception>
+        <exception cref="T:System.Fabric.TransactionFaultedException">The transaction has been internally faulted by the system. Retry the operation on a new transaction</exception>
         <exception cref="T:System.InvalidOperationException">
             Thrown when a method call is invalid for the object's current state.
             Example, transaction used is already terminated: committed or aborted by the user.
             If this exception is thrown, it is highly likely that there is a bug in the service code of the use of transactions.
             </exception>
         <exception cref="T:System.Fabric.FabricObjectClosedException">Indicates that the Reliable Dictionary is closed or deleted.</exception>
-        <exception cref="T:System.Fabric.TransactionFaultedException">The transaction has been internally faulted by the system. Retry the operation on a new transaction</exception>
       </Docs>
     </Member>
     <Member MemberName="ContainsKeyAsync">
@@ -439,8 +444,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Data.Collections.IReliableDictionary`2.ContainsKeyAsync(Microsoft.ServiceFabric.Data.ITransaction,`0,System.TimeSpan,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data.Interfaces</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Boolean&gt;</ReturnType>
@@ -473,13 +478,13 @@
             One reason it may be thrown in the <see cref="F:System.Fabric.ReplicaRole.Primary" /> role is loss of <see cref="P:System.Fabric.IStatefulServicePartition.ReadStatus" />.
             One reason it may be thrown in the <see cref="F:System.Fabric.ReplicaRole.ActiveSecondary" /> role is that Reliable Collection's state is not yet consistent.
             </exception>
+        <exception cref="T:System.Fabric.TransactionFaultedException">The transaction has been internally faulted by the system. Retry the operation on a new transaction</exception>
         <exception cref="T:System.InvalidOperationException">
             Thrown when a method call is invalid for the object's current state.
             Example, transaction used is already terminated: committed or aborted by the user.
             If this exception is thrown, it is highly likely that there is a bug in the service code of the use of transactions.
             </exception>
         <exception cref="T:System.Fabric.FabricObjectClosedException">Indicates that the Reliable Dictionary is closed or deleted.</exception>
-        <exception cref="T:System.Fabric.TransactionFaultedException">The transaction has been internally faulted by the system. Retry the operation on a new transaction</exception>
       </Docs>
     </Member>
     <Member MemberName="ContainsKeyAsync">
@@ -488,8 +493,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Data.Collections.IReliableDictionary`2.ContainsKeyAsync(Microsoft.ServiceFabric.Data.ITransaction,`0,Microsoft.ServiceFabric.Data.Collections.LockMode,System.TimeSpan,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data.Interfaces</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Boolean&gt;</ReturnType>
@@ -524,23 +529,24 @@
             One reason it may be thrown in the <see cref="F:System.Fabric.ReplicaRole.Primary" /> role is loss of <see cref="P:System.Fabric.IStatefulServicePartition.ReadStatus" />.
             One reason it may be thrown in the <see cref="F:System.Fabric.ReplicaRole.ActiveSecondary" /> role is that Reliable Collection's state is not yet consistent.
             </exception>
+        <exception cref="T:System.Fabric.TransactionFaultedException">The transaction has been internally faulted by the system. Retry the operation on a new transaction</exception>
         <exception cref="T:System.InvalidOperationException">
             Thrown when a method call is invalid for the object's current state.
             Example, transaction used is already terminated: committed or aborted by the user.
             If this exception is thrown, it is highly likely that there is a bug in the service code of the use of transactions.
             </exception>
         <exception cref="T:System.Fabric.FabricObjectClosedException">Indicates that the Reliable Dictionary is closed or deleted.</exception>
-        <exception cref="T:System.Fabric.TransactionFaultedException">The transaction has been internally faulted by the system. Retry the operation on a new transaction</exception>
       </Docs>
     </Member>
     <Member MemberName="CreateEnumerableAsync">
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.ServiceFabric.Data.IAsyncEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;TKey,TValue&gt;&gt;&gt; CreateEnumerableAsync (Microsoft.ServiceFabric.Data.ITransaction txn);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.ServiceFabric.Data.IAsyncEnumerable`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;!TKey, !TValue&gt;&gt;&gt; CreateEnumerableAsync(class Microsoft.ServiceFabric.Data.ITransaction txn) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Data.Collections.IReliableDictionary`2.CreateEnumerableAsync(Microsoft.ServiceFabric.Data.ITransaction)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateEnumerableAsync (txn As ITransaction) As Task(Of IAsyncEnumerable(Of KeyValuePair(Of TKey, TValue)))" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data.Interfaces</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.ServiceFabric.Data.IAsyncEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;TKey,TValue&gt;&gt;&gt;</ReturnType>
@@ -568,6 +574,7 @@
             One reason it may be thrown in the <see cref="F:System.Fabric.ReplicaRole.Primary" /> role is loss of <see cref="P:System.Fabric.IStatefulServicePartition.ReadStatus" />.
             One reason it may be thrown in the <see cref="F:System.Fabric.ReplicaRole.ActiveSecondary" /> role is that Reliable Collection's state is not yet consistent.
             </exception>
+        <exception cref="T:System.Fabric.TransactionFaultedException">The transaction has been internally faulted by the system. Retry the operation on a new transaction</exception>
         <exception cref="T:System.InvalidOperationException">
             Thrown when a method call is invalid for the object's current state.
             Example, transaction used is already terminated: committed or aborted by the user.
@@ -576,7 +583,6 @@
         <exception cref="T:System.Fabric.FabricObjectClosedException">
           <para>Indicates that the Reliable Dictionary is closed or deleted.</para>
         </exception>
-        <exception cref="T:System.Fabric.TransactionFaultedException">The transaction has been internally faulted by the system. Retry the operation on a new transaction</exception>
       </Docs>
     </Member>
     <Member MemberName="CreateEnumerableAsync">
@@ -585,8 +591,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Data.Collections.IReliableDictionary`2.CreateEnumerableAsync(Microsoft.ServiceFabric.Data.ITransaction,Microsoft.ServiceFabric.Data.Collections.EnumerationMode)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data.Interfaces</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.ServiceFabric.Data.IAsyncEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;TKey,TValue&gt;&gt;&gt;</ReturnType>
@@ -616,6 +622,7 @@
             One reason it may be thrown in the <see cref="F:System.Fabric.ReplicaRole.Primary" /> role is loss of <see cref="P:System.Fabric.IStatefulServicePartition.ReadStatus" />.
             One reason it may be thrown in the <see cref="F:System.Fabric.ReplicaRole.ActiveSecondary" /> role is that Reliable Collection's state is not yet consistent.
             </exception>
+        <exception cref="T:System.Fabric.TransactionFaultedException">The transaction has been internally faulted by the system. Retry the operation on a new transaction</exception>
         <exception cref="T:System.InvalidOperationException">
             Thrown when a method call is invalid for the object's current state.
             Example, transaction used is already terminated: committed or aborted by the user.
@@ -624,7 +631,6 @@
         <exception cref="T:System.Fabric.FabricObjectClosedException">
           <para>Indicates that the Reliable Dictionary is closed or deleted.</para>
         </exception>
-        <exception cref="T:System.Fabric.TransactionFaultedException">The transaction has been internally faulted by the system. Retry the operation on a new transaction</exception>
       </Docs>
     </Member>
     <Member MemberName="CreateEnumerableAsync">
@@ -633,8 +639,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Data.Collections.IReliableDictionary`2.CreateEnumerableAsync(Microsoft.ServiceFabric.Data.ITransaction,System.Func{`0,System.Boolean},Microsoft.ServiceFabric.Data.Collections.EnumerationMode)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data.Interfaces</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.ServiceFabric.Data.IAsyncEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;TKey,TValue&gt;&gt;&gt;</ReturnType>
@@ -666,6 +672,7 @@
             One reason it may be thrown in the <see cref="F:System.Fabric.ReplicaRole.Primary" /> role is loss of <see cref="P:System.Fabric.IStatefulServicePartition.ReadStatus" />.
             One reason it may be thrown in the <see cref="F:System.Fabric.ReplicaRole.ActiveSecondary" /> role is that Reliable Collection's state is not yet consistent.
             </exception>
+        <exception cref="T:System.Fabric.TransactionFaultedException">The transaction has been internally faulted by the system. Retry the operation on a new transaction</exception>
         <exception cref="T:System.InvalidOperationException">
             Thrown when a method call is invalid for the object's current state.
             Example, transaction used is already terminated: committed or aborted by the user.
@@ -674,17 +681,17 @@
         <exception cref="T:System.Fabric.FabricObjectClosedException">
           <para>Indicates that the Reliable Dictionary is closed or deleted.</para>
         </exception>
-        <exception cref="T:System.Fabric.TransactionFaultedException">The transaction has been internally faulted by the system. Retry the operation on a new transaction</exception>
       </Docs>
     </Member>
     <Member MemberName="DictionaryChanged">
-      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.ServiceFabric.Data.Notifications.NotifyDictionaryChangedEventArgs&lt;TKey,TValue&gt;&gt; DictionaryChanged;" />
+      <MemberSignature Language="C#" Value="event EventHandler&lt;Microsoft.ServiceFabric.Data.Notifications.NotifyDictionaryChangedEventArgs&lt;TKey,TValue&gt;&gt; DictionaryChanged;" />
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.ServiceFabric.Data.Notifications.NotifyDictionaryChangedEventArgs`2&lt;!TKey, !TValue&gt;&gt; DictionaryChanged" />
       <MemberSignature Language="DocId" Value="E:Microsoft.ServiceFabric.Data.Collections.IReliableDictionary`2.DictionaryChanged" />
+      <MemberSignature Language="VB.NET" Value="Event DictionaryChanged As EventHandler(Of NotifyDictionaryChangedEventArgs(Of TKey, TValue)) " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data.Interfaces</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.EventHandler&lt;Microsoft.ServiceFabric.Data.Notifications.NotifyDictionaryChangedEventArgs&lt;TKey,TValue&gt;&gt;</ReturnType>
@@ -701,10 +708,11 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;TValue&gt; GetOrAddAsync (Microsoft.ServiceFabric.Data.ITransaction tx, TKey key, Func&lt;TKey,TValue&gt; valueFactory);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;!TValue&gt; GetOrAddAsync(class Microsoft.ServiceFabric.Data.ITransaction tx, !TKey key, class System.Func`2&lt;!TKey, !TValue&gt; valueFactory) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Data.Collections.IReliableDictionary`2.GetOrAddAsync(Microsoft.ServiceFabric.Data.ITransaction,`0,System.Func{`0,`1})" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetOrAddAsync (tx As ITransaction, key As TKey, valueFactory As Func(Of TKey, TValue)) As Task(Of TValue)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data.Interfaces</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;TValue&gt;</ReturnType>
@@ -731,23 +739,24 @@
           <paramref name="tx" /> is null, or <paramref name="key" /> is null or cannot be serialized, or <paramref name="valueFactory" /> is null.</exception>
         <exception cref="T:System.TimeoutException">The operation failed to complete within the default timeout.</exception>
         <exception cref="T:System.Fabric.FabricNotPrimaryException">The exception that is thrown when the <see cref="T:Microsoft.ServiceFabric.Data.Collections.IReliableDictionary`2" /> is not in <see cref="F:System.Fabric.ReplicaRole.Primary" />.</exception>
+        <exception cref="T:System.Fabric.TransactionFaultedException">The transaction has been internally faulted by the system. Retry the operation on a new transaction</exception>
         <exception cref="T:System.InvalidOperationException">
             Thrown when a method call is invalid for the object's current state.
             Example, transaction used is already terminated: committed or aborted by the user.
             If this exception is thrown, it is highly likely that there is a bug in the service code of the use of transactions.
             </exception>
         <exception cref="T:System.Fabric.FabricObjectClosedException">Indicates that the Reliable Dictionary is closed or deleted.</exception>
-        <exception cref="T:System.Fabric.TransactionFaultedException">The transaction has been internally faulted by the system. Retry the operation on a new transaction</exception>
       </Docs>
     </Member>
     <Member MemberName="GetOrAddAsync">
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;TValue&gt; GetOrAddAsync (Microsoft.ServiceFabric.Data.ITransaction tx, TKey key, TValue value);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;!TValue&gt; GetOrAddAsync(class Microsoft.ServiceFabric.Data.ITransaction tx, !TKey key, !TValue value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Data.Collections.IReliableDictionary`2.GetOrAddAsync(Microsoft.ServiceFabric.Data.ITransaction,`0,`1)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetOrAddAsync (tx As ITransaction, key As TKey, value As TValue) As Task(Of TValue)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data.Interfaces</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;TValue&gt;</ReturnType>
@@ -774,13 +783,13 @@
           <paramref name="tx" /> is null, or <paramref name="key" /> is null or cannot be serialized.</exception>
         <exception cref="T:System.TimeoutException">The operation failed to complete within the default timeout.</exception>
         <exception cref="T:System.Fabric.FabricNotPrimaryException">The exception that is thrown when the <see cref="T:Microsoft.ServiceFabric.Data.Collections.IReliableDictionary`2" /> is not in <see cref="F:System.Fabric.ReplicaRole.Primary" />.</exception>
+        <exception cref="T:System.Fabric.TransactionFaultedException">The transaction has been internally faulted by the system. Retry the operation on a new transaction</exception>
         <exception cref="T:System.InvalidOperationException">
             Thrown when a method call is invalid for the object's current state.
             Example, transaction used is already terminated: committed or aborted by the user.
             If this exception is thrown, it is highly likely that there is a bug in the service code of the use of transactions.
             </exception>
         <exception cref="T:System.Fabric.FabricObjectClosedException">Indicates that the Reliable Dictionary is closed or deleted.</exception>
-        <exception cref="T:System.Fabric.TransactionFaultedException">The transaction has been internally faulted by the system. Retry the operation on a new transaction</exception>
       </Docs>
     </Member>
     <Member MemberName="GetOrAddAsync">
@@ -789,8 +798,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Data.Collections.IReliableDictionary`2.GetOrAddAsync(Microsoft.ServiceFabric.Data.ITransaction,`0,System.Func{`0,`1},System.TimeSpan,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data.Interfaces</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;TValue&gt;</ReturnType>
@@ -824,13 +833,13 @@
         <exception cref="T:System.TimeoutException">The operation failed to complete within the given timeout.</exception>
         <exception cref="T:System.OperationCanceledException">The operation was canceled.</exception>
         <exception cref="T:System.Fabric.FabricNotPrimaryException">The exception that is thrown when the <see cref="T:Microsoft.ServiceFabric.Data.Collections.IReliableDictionary`2" /> is not in <see cref="F:System.Fabric.ReplicaRole.Primary" />.</exception>
+        <exception cref="T:System.Fabric.TransactionFaultedException">The transaction has been internally faulted by the system. Retry the operation on a new transaction</exception>
         <exception cref="T:System.InvalidOperationException">
             Thrown when a method call is invalid for the object's current state.
             Example, transaction used is already terminated: committed or aborted by the user.
             If this exception is thrown, it is highly likely that there is a bug in the service code of the use of transactions.
             </exception>
         <exception cref="T:System.Fabric.FabricObjectClosedException">Indicates that the Reliable Dictionary is closed or deleted.</exception>
-        <exception cref="T:System.Fabric.TransactionFaultedException">The transaction has been internally faulted by the system. Retry the operation on a new transaction</exception>
       </Docs>
     </Member>
     <Member MemberName="GetOrAddAsync">
@@ -839,8 +848,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Data.Collections.IReliableDictionary`2.GetOrAddAsync(Microsoft.ServiceFabric.Data.ITransaction,`0,`1,System.TimeSpan,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data.Interfaces</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;TValue&gt;</ReturnType>
@@ -873,23 +882,24 @@
         <exception cref="T:System.TimeoutException">The operation failed to complete within the given timeout.</exception>
         <exception cref="T:System.OperationCanceledException">The operation was canceled.</exception>
         <exception cref="T:System.Fabric.FabricNotPrimaryException">The exception that is thrown when the <see cref="T:Microsoft.ServiceFabric.Data.Collections.IReliableDictionary`2" /> is not in <see cref="F:System.Fabric.ReplicaRole.Primary" />.</exception>
+        <exception cref="T:System.Fabric.TransactionFaultedException">The transaction has been internally faulted by the system. Retry the operation on a new transaction</exception>
         <exception cref="T:System.InvalidOperationException">
             Thrown when a method call is invalid for the object's current state.
             Example, transaction used is already terminated: committed or aborted by the user.
             If this exception is thrown, it is highly likely that there is a bug in the service code of the use of transactions.
             </exception>
         <exception cref="T:System.Fabric.FabricObjectClosedException">Indicates that the Reliable Dictionary is closed or deleted.</exception>
-        <exception cref="T:System.Fabric.TransactionFaultedException">The transaction has been internally faulted by the system. Retry the operation on a new transaction</exception>
       </Docs>
     </Member>
     <Member MemberName="RebuildNotificationAsyncCallback">
       <MemberSignature Language="C#" Value="public Func&lt;Microsoft.ServiceFabric.Data.Collections.IReliableDictionary&lt;TKey,TValue&gt;,Microsoft.ServiceFabric.Data.Notifications.NotifyDictionaryRebuildEventArgs&lt;TKey,TValue&gt;,System.Threading.Tasks.Task&gt; RebuildNotificationAsyncCallback { set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Func`3&lt;class Microsoft.ServiceFabric.Data.Collections.IReliableDictionary`2&lt;!TKey, !TValue&gt;, class Microsoft.ServiceFabric.Data.Notifications.NotifyDictionaryRebuildEventArgs`2&lt;!TKey, !TValue&gt;, class System.Threading.Tasks.Task&gt; RebuildNotificationAsyncCallback" />
       <MemberSignature Language="DocId" Value="P:Microsoft.ServiceFabric.Data.Collections.IReliableDictionary`2.RebuildNotificationAsyncCallback" />
+      <MemberSignature Language="VB.NET" Value="Public Property RebuildNotificationAsyncCallback As Func(Of IReliableDictionary(Of TKey, TValue), NotifyDictionaryRebuildEventArgs(Of TKey, TValue), Task)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data.Interfaces</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Func&lt;Microsoft.ServiceFabric.Data.Collections.IReliableDictionary&lt;TKey,TValue&gt;,Microsoft.ServiceFabric.Data.Notifications.NotifyDictionaryRebuildEventArgs&lt;TKey,TValue&gt;,System.Threading.Tasks.Task&gt;</ReturnType>
@@ -913,10 +923,11 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task SetAsync (Microsoft.ServiceFabric.Data.ITransaction tx, TKey key, TValue value);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task SetAsync(class Microsoft.ServiceFabric.Data.ITransaction tx, !TKey key, !TValue value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Data.Collections.IReliableDictionary`2.SetAsync(Microsoft.ServiceFabric.Data.ITransaction,`0,`1)" />
+      <MemberSignature Language="VB.NET" Value="Public Function SetAsync (tx As ITransaction, key As TKey, value As TValue) As Task" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data.Interfaces</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -942,13 +953,13 @@
           <paramref name="key" /> does not exist in the Reliable Dictionary.</exception>
         <exception cref="T:System.TimeoutException">The operation failed to complete within the default timeout.</exception>
         <exception cref="T:System.Fabric.FabricNotPrimaryException">The exception that is thrown when the <see cref="T:Microsoft.ServiceFabric.Data.Collections.IReliableDictionary`2" /> is not in <see cref="F:System.Fabric.ReplicaRole.Primary" />.</exception>
+        <exception cref="T:System.Fabric.TransactionFaultedException">The transaction has been internally faulted by the system. Retry the operation on a new transaction</exception>
         <exception cref="T:System.InvalidOperationException">
             Thrown when a method call is invalid for the object's current state.
             Example, transaction used is already terminated: committed or aborted by the user.
             If this exception is thrown, it is highly likely that there is a bug in the service code of the use of transactions.
             </exception>
         <exception cref="T:System.Fabric.FabricObjectClosedException">Indicates that the Reliable Dictionary is closed or deleted.</exception>
-        <exception cref="T:System.Fabric.TransactionFaultedException">The transaction has been internally faulted by the system. Retry the operation on a new transaction</exception>
       </Docs>
     </Member>
     <Member MemberName="SetAsync">
@@ -957,8 +968,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Data.Collections.IReliableDictionary`2.SetAsync(Microsoft.ServiceFabric.Data.ITransaction,`0,`1,System.TimeSpan,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data.Interfaces</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -989,23 +1000,24 @@
         <exception cref="T:System.TimeoutException">The operation failed to complete within the given timeout.</exception>
         <exception cref="T:System.OperationCanceledException">The operation was canceled.</exception>
         <exception cref="T:System.Fabric.FabricNotPrimaryException">The exception that is thrown when the <see cref="T:Microsoft.ServiceFabric.Data.Collections.IReliableDictionary`2" /> is not in <see cref="F:System.Fabric.ReplicaRole.Primary" />.</exception>
+        <exception cref="T:System.Fabric.TransactionFaultedException">The transaction has been internally faulted by the system. Retry the operation on a new transaction</exception>
         <exception cref="T:System.InvalidOperationException">
             Thrown when a method call is invalid for the object's current state.
             Example, transaction used is already terminated: committed or aborted by the user.
             If this exception is thrown, it is highly likely that there is a bug in the service code of the use of transactions.
             </exception>
         <exception cref="T:System.Fabric.FabricObjectClosedException">Indicates that the Reliable Dictionary is closed or deleted.</exception>
-        <exception cref="T:System.Fabric.TransactionFaultedException">The transaction has been internally faulted by the system. Retry the operation on a new transaction</exception>
       </Docs>
     </Member>
     <Member MemberName="TryAddAsync">
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;bool&gt; TryAddAsync (Microsoft.ServiceFabric.Data.ITransaction tx, TKey key, TValue value);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;bool&gt; TryAddAsync(class Microsoft.ServiceFabric.Data.ITransaction tx, !TKey key, !TValue value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Data.Collections.IReliableDictionary`2.TryAddAsync(Microsoft.ServiceFabric.Data.ITransaction,`0,`1)" />
+      <MemberSignature Language="VB.NET" Value="Public Function TryAddAsync (tx As ITransaction, key As TKey, value As TValue) As Task(Of Boolean)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data.Interfaces</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Boolean&gt;</ReturnType>
@@ -1028,13 +1040,13 @@
           <paramref name="tx" /> is null, or <paramref name="key" /> is null or cannot be serialized.</exception>
         <exception cref="T:System.TimeoutException">The operation failed to complete within the default timeout.</exception>
         <exception cref="T:System.Fabric.FabricNotPrimaryException">The exception that is thrown when the <see cref="T:Microsoft.ServiceFabric.Data.Collections.IReliableDictionary`2" /> is not in <see cref="F:System.Fabric.ReplicaRole.Primary" />.</exception>
+        <exception cref="T:System.Fabric.TransactionFaultedException">The transaction has been internally faulted by the system. Retry the operation on a new transaction</exception>
         <exception cref="T:System.InvalidOperationException">
             Thrown when a method call is invalid for the object's current state.
             Example, transaction used is already terminated: committed or aborted by the user.
             If this exception is thrown, it is highly likely that there is a bug in the service code of the use of transactions.
             </exception>
         <exception cref="T:System.Fabric.FabricObjectClosedException">Indicates that the Reliable Dictionary is closed or deleted.</exception>
-        <exception cref="T:System.Fabric.TransactionFaultedException">The transaction has been internally faulted by the system. Retry the operation on a new transaction</exception>
       </Docs>
     </Member>
     <Member MemberName="TryAddAsync">
@@ -1043,8 +1055,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Data.Collections.IReliableDictionary`2.TryAddAsync(Microsoft.ServiceFabric.Data.ITransaction,`0,`1,System.TimeSpan,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data.Interfaces</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Boolean&gt;</ReturnType>
@@ -1074,23 +1086,24 @@
         <exception cref="T:System.TimeoutException">The operation failed to complete within the given timeout.</exception>
         <exception cref="T:System.OperationCanceledException">The operation was canceled.</exception>
         <exception cref="T:System.Fabric.FabricNotPrimaryException">The exception that is thrown when the <see cref="T:Microsoft.ServiceFabric.Data.Collections.IReliableDictionary`2" /> is not in <see cref="F:System.Fabric.ReplicaRole.Primary" />.</exception>
+        <exception cref="T:System.Fabric.TransactionFaultedException">The transaction has been internally faulted by the system. Retry the operation on a new transaction</exception>
         <exception cref="T:System.InvalidOperationException">
             Thrown when a method call is invalid for the object's current state.
             Example, transaction used is already terminated: committed or aborted by the user.
             If this exception is thrown, it is highly likely that there is a bug in the service code of the use of transactions.
             </exception>
         <exception cref="T:System.Fabric.FabricObjectClosedException">Indicates that the Reliable Dictionary is closed or deleted.</exception>
-        <exception cref="T:System.Fabric.TransactionFaultedException">The transaction has been internally faulted by the system. Retry the operation on a new transaction</exception>
       </Docs>
     </Member>
     <Member MemberName="TryGetValueAsync">
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.ServiceFabric.Data.ConditionalValue&lt;TValue&gt;&gt; TryGetValueAsync (Microsoft.ServiceFabric.Data.ITransaction tx, TKey key);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;valuetype Microsoft.ServiceFabric.Data.ConditionalValue`1&lt;!TValue&gt;&gt; TryGetValueAsync(class Microsoft.ServiceFabric.Data.ITransaction tx, !TKey key) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Data.Collections.IReliableDictionary`2.TryGetValueAsync(Microsoft.ServiceFabric.Data.ITransaction,`0)" />
+      <MemberSignature Language="VB.NET" Value="Public Function TryGetValueAsync (tx As ITransaction, key As TKey) As Task(Of ConditionalValue(Of TValue))" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data.Interfaces</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.ServiceFabric.Data.ConditionalValue&lt;TValue&gt;&gt;</ReturnType>
@@ -1119,13 +1132,13 @@
             One reason it may be thrown in the <see cref="F:System.Fabric.ReplicaRole.Primary" /> role is loss of <see cref="P:System.Fabric.IStatefulServicePartition.ReadStatus" />.
             One reason it may be thrown in the <see cref="F:System.Fabric.ReplicaRole.ActiveSecondary" /> role is that Reliable Collection's state is not yet consistent.
             </exception>
+        <exception cref="T:System.Fabric.TransactionFaultedException">The transaction has been internally faulted by the system. Retry the operation on a new transaction</exception>
         <exception cref="T:System.InvalidOperationException">
             Thrown when a method call is invalid for the object's current state.
             Example, transaction used is already terminated: committed or aborted by the user.
             If this exception is thrown, it is highly likely that there is a bug in the service code of the use of transactions.
             </exception>
         <exception cref="T:System.Fabric.FabricObjectClosedException">Indicates that the Reliable Dictionary is closed or deleted.</exception>
-        <exception cref="T:System.Fabric.TransactionFaultedException">The transaction has been internally faulted by the system. Retry the operation on a new transaction</exception>
       </Docs>
     </Member>
     <Member MemberName="TryGetValueAsync">
@@ -1134,8 +1147,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Data.Collections.IReliableDictionary`2.TryGetValueAsync(Microsoft.ServiceFabric.Data.ITransaction,`0,Microsoft.ServiceFabric.Data.Collections.LockMode)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data.Interfaces</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.ServiceFabric.Data.ConditionalValue&lt;TValue&gt;&gt;</ReturnType>
@@ -1166,13 +1179,13 @@
             One reason it may be thrown in the <see cref="F:System.Fabric.ReplicaRole.Primary" /> role is loss of <see cref="P:System.Fabric.IStatefulServicePartition.ReadStatus" />.
             One reason it may be thrown in the <see cref="F:System.Fabric.ReplicaRole.ActiveSecondary" /> role is that Reliable Collection's state is not yet consistent.
             </exception>
+        <exception cref="T:System.Fabric.TransactionFaultedException">The transaction has been internally faulted by the system. Retry the operation on a new transaction</exception>
         <exception cref="T:System.InvalidOperationException">
             Thrown when a method call is invalid for the object's current state.
             Example, transaction used is already terminated: committed or aborted by the user.
             If this exception is thrown, it is highly likely that there is a bug in the service code of the use of transactions.
             </exception>
         <exception cref="T:System.Fabric.FabricObjectClosedException">Indicates that the Reliable Dictionary is closed or deleted.</exception>
-        <exception cref="T:System.Fabric.TransactionFaultedException">The transaction has been internally faulted by the system. Retry the operation on a new transaction</exception>
       </Docs>
     </Member>
     <Member MemberName="TryGetValueAsync">
@@ -1181,8 +1194,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Data.Collections.IReliableDictionary`2.TryGetValueAsync(Microsoft.ServiceFabric.Data.ITransaction,`0,System.TimeSpan,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data.Interfaces</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.ServiceFabric.Data.ConditionalValue&lt;TValue&gt;&gt;</ReturnType>
@@ -1218,13 +1231,13 @@
             One reason it may be thrown in the <see cref="F:System.Fabric.ReplicaRole.Primary" /> role is loss of <see cref="P:System.Fabric.IStatefulServicePartition.ReadStatus" />.
             One reason it may be thrown in the <see cref="F:System.Fabric.ReplicaRole.ActiveSecondary" /> role is that Reliable Collection's state is not yet consistent.
             </exception>
+        <exception cref="T:System.Fabric.TransactionFaultedException">The transaction has been internally faulted by the system. Retry the operation on a new transaction</exception>
         <exception cref="T:System.InvalidOperationException">
             Thrown when a method call is invalid for the object's current state.
             Example, transaction used is already terminated: committed or aborted by the user.
             If this exception is thrown, it is highly likely that there is a bug in the service code of the use of transactions.
             </exception>
         <exception cref="T:System.Fabric.FabricObjectClosedException">Indicates that the Reliable Dictionary is closed or deleted.</exception>
-        <exception cref="T:System.Fabric.TransactionFaultedException">The transaction has been internally faulted by the system. Retry the operation on a new transaction</exception>
       </Docs>
     </Member>
     <Member MemberName="TryGetValueAsync">
@@ -1233,8 +1246,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Data.Collections.IReliableDictionary`2.TryGetValueAsync(Microsoft.ServiceFabric.Data.ITransaction,`0,Microsoft.ServiceFabric.Data.Collections.LockMode,System.TimeSpan,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data.Interfaces</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.ServiceFabric.Data.ConditionalValue&lt;TValue&gt;&gt;</ReturnType>
@@ -1272,23 +1285,24 @@
             One reason it may be thrown in the <see cref="F:System.Fabric.ReplicaRole.Primary" /> role is loss of <see cref="P:System.Fabric.IStatefulServicePartition.ReadStatus" />.
             One reason it may be thrown in the <see cref="F:System.Fabric.ReplicaRole.ActiveSecondary" /> role is that Reliable Collection's state is not yet consistent.
             </exception>
+        <exception cref="T:System.Fabric.TransactionFaultedException">The transaction has been internally faulted by the system. Retry the operation on a new transaction</exception>
         <exception cref="T:System.InvalidOperationException">
             Thrown when a method call is invalid for the object's current state.
             Example, transaction used is already terminated: committed or aborted by the user.
             If this exception is thrown, it is highly likely that there is a bug in the service code of the use of transactions.
             </exception>
         <exception cref="T:System.Fabric.FabricObjectClosedException">Indicates that the Reliable Dictionary is closed or deleted.</exception>
-        <exception cref="T:System.Fabric.TransactionFaultedException">The transaction has been internally faulted by the system. Retry the operation on a new transaction</exception>
       </Docs>
     </Member>
     <Member MemberName="TryRemoveAsync">
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.ServiceFabric.Data.ConditionalValue&lt;TValue&gt;&gt; TryRemoveAsync (Microsoft.ServiceFabric.Data.ITransaction tx, TKey key);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;valuetype Microsoft.ServiceFabric.Data.ConditionalValue`1&lt;!TValue&gt;&gt; TryRemoveAsync(class Microsoft.ServiceFabric.Data.ITransaction tx, !TKey key) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Data.Collections.IReliableDictionary`2.TryRemoveAsync(Microsoft.ServiceFabric.Data.ITransaction,`0)" />
+      <MemberSignature Language="VB.NET" Value="Public Function TryRemoveAsync (tx As ITransaction, key As TKey) As Task(Of ConditionalValue(Of TValue))" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data.Interfaces</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.ServiceFabric.Data.ConditionalValue&lt;TValue&gt;&gt;</ReturnType>
@@ -1312,13 +1326,13 @@
           <paramref name="tx" /> is null, or <paramref name="key" /> is null or cannot be serialized.</exception>
         <exception cref="T:System.TimeoutException">The operation failed to complete within the default timeout.</exception>
         <exception cref="T:System.Fabric.FabricNotPrimaryException">The exception that is thrown when the <see cref="T:Microsoft.ServiceFabric.Data.Collections.IReliableDictionary`2" /> is not in <see cref="F:System.Fabric.ReplicaRole.Primary" />.</exception>
+        <exception cref="T:System.Fabric.TransactionFaultedException">The transaction has been internally faulted by the system. Retry the operation on a new transaction</exception>
         <exception cref="T:System.InvalidOperationException">
             Thrown when a method call is invalid for the object's current state.
             Example, transaction used is already terminated: committed or aborted by the user.
             If this exception is thrown, it is highly likely that there is a bug in the service code of the use of transactions.
             </exception>
         <exception cref="T:System.Fabric.FabricObjectClosedException">Indicates that the Reliable Dictionary is closed or deleted.</exception>
-        <exception cref="T:System.Fabric.TransactionFaultedException">The transaction has been internally faulted by the system. Retry the operation on a new transaction</exception>
       </Docs>
     </Member>
     <Member MemberName="TryRemoveAsync">
@@ -1327,8 +1341,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Data.Collections.IReliableDictionary`2.TryRemoveAsync(Microsoft.ServiceFabric.Data.ITransaction,`0,System.TimeSpan,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data.Interfaces</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.ServiceFabric.Data.ConditionalValue&lt;TValue&gt;&gt;</ReturnType>
@@ -1359,23 +1373,24 @@
         <exception cref="T:System.TimeoutException">The operation failed to complete within the given timeout.</exception>
         <exception cref="T:System.OperationCanceledException">The operation was canceled.</exception>
         <exception cref="T:System.Fabric.FabricNotPrimaryException">The exception that is thrown when the <see cref="T:Microsoft.ServiceFabric.Data.Collections.IReliableDictionary`2" /> is not in <see cref="F:System.Fabric.ReplicaRole.Primary" />.</exception>
+        <exception cref="T:System.Fabric.TransactionFaultedException">The transaction has been internally faulted by the system. Retry the operation on a new transaction</exception>
         <exception cref="T:System.InvalidOperationException">
             Thrown when a method call is invalid for the object's current state.
             Example, transaction used is already terminated: committed or aborted by the user.
             If this exception is thrown, it is highly likely that there is a bug in the service code of the use of transactions.
             </exception>
         <exception cref="T:System.Fabric.FabricObjectClosedException">Indicates that the Reliable Dictionary is closed or deleted.</exception>
-        <exception cref="T:System.Fabric.TransactionFaultedException">The transaction has been internally faulted by the system. Retry the operation on a new transaction</exception>
       </Docs>
     </Member>
     <Member MemberName="TryUpdateAsync">
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;bool&gt; TryUpdateAsync (Microsoft.ServiceFabric.Data.ITransaction tx, TKey key, TValue newValue, TValue comparisonValue);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;bool&gt; TryUpdateAsync(class Microsoft.ServiceFabric.Data.ITransaction tx, !TKey key, !TValue newValue, !TValue comparisonValue) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Data.Collections.IReliableDictionary`2.TryUpdateAsync(Microsoft.ServiceFabric.Data.ITransaction,`0,`1,`1)" />
+      <MemberSignature Language="VB.NET" Value="Public Function TryUpdateAsync (tx As ITransaction, key As TKey, newValue As TValue, comparisonValue As TValue) As Task(Of Boolean)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data.Interfaces</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Boolean&gt;</ReturnType>
@@ -1400,13 +1415,13 @@
           <paramref name="tx" /> is null, or <paramref name="key" /> is null or cannot be serialized.</exception>
         <exception cref="T:System.TimeoutException">The operation failed to complete within the default timeout.</exception>
         <exception cref="T:System.Fabric.FabricNotPrimaryException">The exception that is thrown when the <see cref="T:Microsoft.ServiceFabric.Data.Collections.IReliableDictionary`2" /> is not in <see cref="F:System.Fabric.ReplicaRole.Primary" />.</exception>
+        <exception cref="T:System.Fabric.TransactionFaultedException">The transaction has been internally faulted by the system. Retry the operation on a new transaction</exception>
         <exception cref="T:System.InvalidOperationException">
             Thrown when a method call is invalid for the object's current state.
             Example, transaction used is already terminated: committed or aborted by the user.
             If this exception is thrown, it is highly likely that there is a bug in the service code of the use of transactions.
             </exception>
         <exception cref="T:System.Fabric.FabricObjectClosedException">Indicates that the Reliable Dictionary is closed or deleted.</exception>
-        <exception cref="T:System.Fabric.TransactionFaultedException">The transaction has been internally faulted by the system. Retry the operation on a new transaction</exception>
       </Docs>
     </Member>
     <Member MemberName="TryUpdateAsync">
@@ -1415,8 +1430,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Data.Collections.IReliableDictionary`2.TryUpdateAsync(Microsoft.ServiceFabric.Data.ITransaction,`0,`1,`1,System.TimeSpan,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data.Interfaces</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Boolean&gt;</ReturnType>
@@ -1448,13 +1463,13 @@
         <exception cref="T:System.TimeoutException">The operation failed to complete within the given timeout.</exception>
         <exception cref="T:System.OperationCanceledException">The operation was canceled.</exception>
         <exception cref="T:System.Fabric.FabricNotPrimaryException">The exception that is thrown when the <see cref="T:Microsoft.ServiceFabric.Data.Collections.IReliableDictionary`2" /> is not in <see cref="F:System.Fabric.ReplicaRole.Primary" />.</exception>
+        <exception cref="T:System.Fabric.TransactionFaultedException">The transaction has been internally faulted by the system. Retry the operation on a new transaction</exception>
         <exception cref="T:System.InvalidOperationException">
             Thrown when a method call is invalid for the object's current state.
             Example, transaction used is already terminated: committed or aborted by the user.
             If this exception is thrown, it is highly likely that there is a bug in the service code of the use of transactions.
             </exception>
         <exception cref="T:System.Fabric.FabricObjectClosedException">Indicates that the Reliable Dictionary is closed or deleted.</exception>
-        <exception cref="T:System.Fabric.TransactionFaultedException">The transaction has been internally faulted by the system. Retry the operation on a new transaction</exception>
       </Docs>
     </Member>
   </Members>

@@ -2,9 +2,9 @@
   <TypeSignature Language="C#" Value="public interface IUsageOperations" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IUsageOperations" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Storage.IUsageOperations" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IUsageOperations" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Storage</AssemblyName>
-    <AssemblyVersion>6.0.0.0</AssemblyVersion>
     <AssemblyVersion>7.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Interfaces />
@@ -22,7 +22,6 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Storage</AssemblyName>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

@@ -2,10 +2,10 @@
   <TypeSignature Language="C#" Value="public enum RollingUpgradeMode" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed RollingUpgradeMode extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:System.Fabric.RollingUpgradeMode" />
+  <TypeSignature Language="VB.NET" Value="Public Enum RollingUpgradeMode" />
   <AssemblyInfo>
     <AssemblyName>System.Fabric</AssemblyName>
-    <AssemblyVersion>5.0.0.0</AssemblyVersion>
-    <AssemblyVersion>255.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
@@ -23,15 +23,16 @@
       <MemberSignature Language="C#" Value="Invalid" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype System.Fabric.RollingUpgradeMode Invalid = int32(0)" />
       <MemberSignature Language="DocId" Value="F:System.Fabric.RollingUpgradeMode.Invalid" />
+      <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Fabric.RollingUpgradeMode</ReturnType>
       </ReturnValue>
+      <MemberValue>0</MemberValue>
       <Docs>
         <summary>
           <para>All Service Fabric enumerations have reserved Invalid flag.</para>
@@ -42,15 +43,16 @@
       <MemberSignature Language="C#" Value="Monitored" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype System.Fabric.RollingUpgradeMode Monitored = int32(3)" />
       <MemberSignature Language="DocId" Value="F:System.Fabric.RollingUpgradeMode.Monitored" />
+      <MemberSignature Language="VB.NET" Value="Monitored" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Fabric.RollingUpgradeMode</ReturnType>
       </ReturnValue>
+      <MemberValue>3</MemberValue>
       <Docs>
         <summary>
           <para>Specifies that the upgrade should be monitored automatic.</para>
@@ -66,15 +68,16 @@
       <MemberSignature Language="C#" Value="UnmonitoredAuto" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype System.Fabric.RollingUpgradeMode UnmonitoredAuto = int32(1)" />
       <MemberSignature Language="DocId" Value="F:System.Fabric.RollingUpgradeMode.UnmonitoredAuto" />
+      <MemberSignature Language="VB.NET" Value="UnmonitoredAuto" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Fabric.RollingUpgradeMode</ReturnType>
       </ReturnValue>
+      <MemberValue>1</MemberValue>
       <Docs>
         <summary>
           <para>Specifies that the upgrade should be unmonitored automatic.</para>
@@ -88,15 +91,16 @@
       <MemberSignature Language="C#" Value="UnmonitoredManual" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype System.Fabric.RollingUpgradeMode UnmonitoredManual = int32(2)" />
       <MemberSignature Language="DocId" Value="F:System.Fabric.RollingUpgradeMode.UnmonitoredManual" />
+      <MemberSignature Language="VB.NET" Value="UnmonitoredManual" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Fabric.RollingUpgradeMode</ReturnType>
       </ReturnValue>
+      <MemberValue>2</MemberValue>
       <Docs>
         <summary>
           <para>Specifies that the upgrade should be unmonitored manual.</para>

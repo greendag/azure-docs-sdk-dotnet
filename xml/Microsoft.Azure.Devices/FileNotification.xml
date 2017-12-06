@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public class FileNotification" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit FileNotification extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Devices.FileNotification" />
+  <TypeSignature Language="VB.NET" Value="Public Class FileNotification" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -21,10 +22,11 @@
       <MemberSignature Language="C#" Value="public FileNotification ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Devices.FileNotification.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -36,10 +38,11 @@
       <MemberSignature Language="C#" Value="public string BlobName { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string BlobName" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Devices.FileNotification.BlobName" />
+      <MemberSignature Language="VB.NET" Value="Public Property BlobName As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -59,10 +62,11 @@
       <MemberSignature Language="C#" Value="public long BlobSizeInBytes { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int64 BlobSizeInBytes" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Devices.FileNotification.BlobSizeInBytes" />
+      <MemberSignature Language="VB.NET" Value="Public Property BlobSizeInBytes As Long" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -82,10 +86,11 @@
       <MemberSignature Language="C#" Value="public string BlobUri { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string BlobUri" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Devices.FileNotification.BlobUri" />
+      <MemberSignature Language="VB.NET" Value="Public Property BlobUri As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -105,10 +110,11 @@
       <MemberSignature Language="C#" Value="public string DeviceId { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string DeviceId" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Devices.FileNotification.DeviceId" />
+      <MemberSignature Language="VB.NET" Value="Public Property DeviceId As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -128,10 +134,11 @@
       <MemberSignature Language="C#" Value="public DateTime EnqueuedTimeUtc { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime EnqueuedTimeUtc" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Devices.FileNotification.EnqueuedTimeUtc" />
+      <MemberSignature Language="VB.NET" Value="Public Property EnqueuedTimeUtc As DateTime" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -151,10 +158,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;DateTimeOffset&gt; LastUpdatedTime { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; LastUpdatedTime" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Devices.FileNotification.LastUpdatedTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property LastUpdatedTime As Nullable(Of DateTimeOffset)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>

@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public static class RunbookDraftOperationsExtensions" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit RunbookDraftOperationsExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Automation.RunbookDraftOperationsExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module RunbookDraftOperationsExtensions" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -19,10 +20,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Automation.Models.LongRunningOperationResultResponse BeginPublish (this Microsoft.Azure.Management.Automation.IRunbookDraftOperations operations, string resourceGroupName, string automationAccount, Microsoft.Azure.Management.Automation.Models.RunbookDraftPublishParameters parameters);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Automation.Models.LongRunningOperationResultResponse BeginPublish(class Microsoft.Azure.Management.Automation.IRunbookDraftOperations operations, string resourceGroupName, string automationAccount, class Microsoft.Azure.Management.Automation.Models.RunbookDraftPublishParameters parameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Automation.RunbookDraftOperationsExtensions.BeginPublish(Microsoft.Azure.Management.Automation.IRunbookDraftOperations,System.String,System.String,Microsoft.Azure.Management.Automation.Models.RunbookDraftPublishParameters)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginPublish (operations As IRunbookDraftOperations, resourceGroupName As String, automationAccount As String, parameters As RunbookDraftPublishParameters) As LongRunningOperationResultResponse" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Automation.Models.LongRunningOperationResultResponse</ReturnType>
@@ -47,10 +49,11 @@
       <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.LongRunningOperationResultResponse&gt; BeginPublishAsync (this Microsoft.Azure.Management.Automation.IRunbookDraftOperations operations, string resourceGroupName, string automationAccount, Microsoft.Azure.Management.Automation.Models.RunbookDraftPublishParameters parameters);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Automation.Models.LongRunningOperationResultResponse&gt; BeginPublishAsync(class Microsoft.Azure.Management.Automation.IRunbookDraftOperations operations, string resourceGroupName, string automationAccount, class Microsoft.Azure.Management.Automation.Models.RunbookDraftPublishParameters parameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Automation.RunbookDraftOperationsExtensions.BeginPublishAsync(Microsoft.Azure.Management.Automation.IRunbookDraftOperations,System.String,System.String,Microsoft.Azure.Management.Automation.Models.RunbookDraftPublishParameters)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginPublishAsync (operations As IRunbookDraftOperations, resourceGroupName As String, automationAccount As String, parameters As RunbookDraftPublishParameters) As Task(Of LongRunningOperationResultResponse)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.LongRunningOperationResultResponse&gt;</ReturnType>
@@ -75,10 +78,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Automation.Models.LongRunningOperationResultResponse BeginUpdate (this Microsoft.Azure.Management.Automation.IRunbookDraftOperations operations, string resourceGroupName, string automationAccount, Microsoft.Azure.Management.Automation.Models.RunbookDraftUpdateParameters parameters);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Automation.Models.LongRunningOperationResultResponse BeginUpdate(class Microsoft.Azure.Management.Automation.IRunbookDraftOperations operations, string resourceGroupName, string automationAccount, class Microsoft.Azure.Management.Automation.Models.RunbookDraftUpdateParameters parameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Automation.RunbookDraftOperationsExtensions.BeginUpdate(Microsoft.Azure.Management.Automation.IRunbookDraftOperations,System.String,System.String,Microsoft.Azure.Management.Automation.Models.RunbookDraftUpdateParameters)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginUpdate (operations As IRunbookDraftOperations, resourceGroupName As String, automationAccount As String, parameters As RunbookDraftUpdateParameters) As LongRunningOperationResultResponse" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Automation.Models.LongRunningOperationResultResponse</ReturnType>
@@ -103,10 +107,11 @@
       <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.LongRunningOperationResultResponse&gt; BeginUpdateAsync (this Microsoft.Azure.Management.Automation.IRunbookDraftOperations operations, string resourceGroupName, string automationAccount, Microsoft.Azure.Management.Automation.Models.RunbookDraftUpdateParameters parameters);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Automation.Models.LongRunningOperationResultResponse&gt; BeginUpdateAsync(class Microsoft.Azure.Management.Automation.IRunbookDraftOperations operations, string resourceGroupName, string automationAccount, class Microsoft.Azure.Management.Automation.Models.RunbookDraftUpdateParameters parameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Automation.RunbookDraftOperationsExtensions.BeginUpdateAsync(Microsoft.Azure.Management.Automation.IRunbookDraftOperations,System.String,System.String,Microsoft.Azure.Management.Automation.Models.RunbookDraftUpdateParameters)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginUpdateAsync (operations As IRunbookDraftOperations, resourceGroupName As String, automationAccount As String, parameters As RunbookDraftUpdateParameters) As Task(Of LongRunningOperationResultResponse)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.LongRunningOperationResultResponse&gt;</ReturnType>
@@ -131,10 +136,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Automation.Models.LongRunningOperationResultResponse BeginUpdateGraph (this Microsoft.Azure.Management.Automation.IRunbookDraftOperations operations, string resourceGroupName, string automationAccount, Microsoft.Azure.Management.Automation.Models.RunbookDraftUpdateParameters parameters);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Automation.Models.LongRunningOperationResultResponse BeginUpdateGraph(class Microsoft.Azure.Management.Automation.IRunbookDraftOperations operations, string resourceGroupName, string automationAccount, class Microsoft.Azure.Management.Automation.Models.RunbookDraftUpdateParameters parameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Automation.RunbookDraftOperationsExtensions.BeginUpdateGraph(Microsoft.Azure.Management.Automation.IRunbookDraftOperations,System.String,System.String,Microsoft.Azure.Management.Automation.Models.RunbookDraftUpdateParameters)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginUpdateGraph (operations As IRunbookDraftOperations, resourceGroupName As String, automationAccount As String, parameters As RunbookDraftUpdateParameters) As LongRunningOperationResultResponse" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Automation.Models.LongRunningOperationResultResponse</ReturnType>
@@ -159,10 +165,11 @@
       <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.LongRunningOperationResultResponse&gt; BeginUpdateGraphAsync (this Microsoft.Azure.Management.Automation.IRunbookDraftOperations operations, string resourceGroupName, string automationAccount, Microsoft.Azure.Management.Automation.Models.RunbookDraftUpdateParameters parameters);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Automation.Models.LongRunningOperationResultResponse&gt; BeginUpdateGraphAsync(class Microsoft.Azure.Management.Automation.IRunbookDraftOperations operations, string resourceGroupName, string automationAccount, class Microsoft.Azure.Management.Automation.Models.RunbookDraftUpdateParameters parameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Automation.RunbookDraftOperationsExtensions.BeginUpdateGraphAsync(Microsoft.Azure.Management.Automation.IRunbookDraftOperations,System.String,System.String,Microsoft.Azure.Management.Automation.Models.RunbookDraftUpdateParameters)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginUpdateGraphAsync (operations As IRunbookDraftOperations, resourceGroupName As String, automationAccount As String, parameters As RunbookDraftUpdateParameters) As Task(Of LongRunningOperationResultResponse)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.LongRunningOperationResultResponse&gt;</ReturnType>
@@ -187,10 +194,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Automation.Models.RunbookContentResponse Content (this Microsoft.Azure.Management.Automation.IRunbookDraftOperations operations, string resourceGroupName, string automationAccount, string runbookName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Automation.Models.RunbookContentResponse Content(class Microsoft.Azure.Management.Automation.IRunbookDraftOperations operations, string resourceGroupName, string automationAccount, string runbookName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Automation.RunbookDraftOperationsExtensions.Content(Microsoft.Azure.Management.Automation.IRunbookDraftOperations,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Content (operations As IRunbookDraftOperations, resourceGroupName As String, automationAccount As String, runbookName As String) As RunbookContentResponse" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Automation.Models.RunbookContentResponse</ReturnType>
@@ -215,10 +223,11 @@
       <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.RunbookContentResponse&gt; ContentAsync (this Microsoft.Azure.Management.Automation.IRunbookDraftOperations operations, string resourceGroupName, string automationAccount, string runbookName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Automation.Models.RunbookContentResponse&gt; ContentAsync(class Microsoft.Azure.Management.Automation.IRunbookDraftOperations operations, string resourceGroupName, string automationAccount, string runbookName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Automation.RunbookDraftOperationsExtensions.ContentAsync(Microsoft.Azure.Management.Automation.IRunbookDraftOperations,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ContentAsync (operations As IRunbookDraftOperations, resourceGroupName As String, automationAccount As String, runbookName As String) As Task(Of RunbookContentResponse)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.RunbookContentResponse&gt;</ReturnType>
@@ -243,10 +252,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Automation.Models.RunbookDraftGetResponse Get (this Microsoft.Azure.Management.Automation.IRunbookDraftOperations operations, string resourceGroupName, string automationAccount, string runbookName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Automation.Models.RunbookDraftGetResponse Get(class Microsoft.Azure.Management.Automation.IRunbookDraftOperations operations, string resourceGroupName, string automationAccount, string runbookName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Automation.RunbookDraftOperationsExtensions.Get(Microsoft.Azure.Management.Automation.IRunbookDraftOperations,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Get (operations As IRunbookDraftOperations, resourceGroupName As String, automationAccount As String, runbookName As String) As RunbookDraftGetResponse" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Automation.Models.RunbookDraftGetResponse</ReturnType>
@@ -271,10 +281,11 @@
       <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.RunbookDraftGetResponse&gt; GetAsync (this Microsoft.Azure.Management.Automation.IRunbookDraftOperations operations, string resourceGroupName, string automationAccount, string runbookName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Automation.Models.RunbookDraftGetResponse&gt; GetAsync(class Microsoft.Azure.Management.Automation.IRunbookDraftOperations operations, string resourceGroupName, string automationAccount, string runbookName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Automation.RunbookDraftOperationsExtensions.GetAsync(Microsoft.Azure.Management.Automation.IRunbookDraftOperations,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAsync (operations As IRunbookDraftOperations, resourceGroupName As String, automationAccount As String, runbookName As String) As Task(Of RunbookDraftGetResponse)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.RunbookDraftGetResponse&gt;</ReturnType>
@@ -299,10 +310,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Automation.Models.LongRunningOperationResultResponse Publish (this Microsoft.Azure.Management.Automation.IRunbookDraftOperations operations, string resourceGroupName, string automationAccount, Microsoft.Azure.Management.Automation.Models.RunbookDraftPublishParameters parameters);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Automation.Models.LongRunningOperationResultResponse Publish(class Microsoft.Azure.Management.Automation.IRunbookDraftOperations operations, string resourceGroupName, string automationAccount, class Microsoft.Azure.Management.Automation.Models.RunbookDraftPublishParameters parameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Automation.RunbookDraftOperationsExtensions.Publish(Microsoft.Azure.Management.Automation.IRunbookDraftOperations,System.String,System.String,Microsoft.Azure.Management.Automation.Models.RunbookDraftPublishParameters)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Publish (operations As IRunbookDraftOperations, resourceGroupName As String, automationAccount As String, parameters As RunbookDraftPublishParameters) As LongRunningOperationResultResponse" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Automation.Models.LongRunningOperationResultResponse</ReturnType>
@@ -327,10 +339,11 @@
       <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.LongRunningOperationResultResponse&gt; PublishAsync (this Microsoft.Azure.Management.Automation.IRunbookDraftOperations operations, string resourceGroupName, string automationAccount, Microsoft.Azure.Management.Automation.Models.RunbookDraftPublishParameters parameters);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Automation.Models.LongRunningOperationResultResponse&gt; PublishAsync(class Microsoft.Azure.Management.Automation.IRunbookDraftOperations operations, string resourceGroupName, string automationAccount, class Microsoft.Azure.Management.Automation.Models.RunbookDraftPublishParameters parameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Automation.RunbookDraftOperationsExtensions.PublishAsync(Microsoft.Azure.Management.Automation.IRunbookDraftOperations,System.String,System.String,Microsoft.Azure.Management.Automation.Models.RunbookDraftPublishParameters)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function PublishAsync (operations As IRunbookDraftOperations, resourceGroupName As String, automationAccount As String, parameters As RunbookDraftPublishParameters) As Task(Of LongRunningOperationResultResponse)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.LongRunningOperationResultResponse&gt;</ReturnType>
@@ -355,10 +368,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Automation.Models.RunbookDraftUndoEditResponse UndoEdit (this Microsoft.Azure.Management.Automation.IRunbookDraftOperations operations, string resourceGroupName, string automationAccount, string runbookName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Automation.Models.RunbookDraftUndoEditResponse UndoEdit(class Microsoft.Azure.Management.Automation.IRunbookDraftOperations operations, string resourceGroupName, string automationAccount, string runbookName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Automation.RunbookDraftOperationsExtensions.UndoEdit(Microsoft.Azure.Management.Automation.IRunbookDraftOperations,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UndoEdit (operations As IRunbookDraftOperations, resourceGroupName As String, automationAccount As String, runbookName As String) As RunbookDraftUndoEditResponse" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Automation.Models.RunbookDraftUndoEditResponse</ReturnType>
@@ -383,10 +397,11 @@
       <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.RunbookDraftUndoEditResponse&gt; UndoEditAsync (this Microsoft.Azure.Management.Automation.IRunbookDraftOperations operations, string resourceGroupName, string automationAccount, string runbookName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Automation.Models.RunbookDraftUndoEditResponse&gt; UndoEditAsync(class Microsoft.Azure.Management.Automation.IRunbookDraftOperations operations, string resourceGroupName, string automationAccount, string runbookName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Automation.RunbookDraftOperationsExtensions.UndoEditAsync(Microsoft.Azure.Management.Automation.IRunbookDraftOperations,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UndoEditAsync (operations As IRunbookDraftOperations, resourceGroupName As String, automationAccount As String, runbookName As String) As Task(Of RunbookDraftUndoEditResponse)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.RunbookDraftUndoEditResponse&gt;</ReturnType>
@@ -411,10 +426,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Automation.Models.LongRunningOperationResultResponse Update (this Microsoft.Azure.Management.Automation.IRunbookDraftOperations operations, string resourceGroupName, string automationAccount, Microsoft.Azure.Management.Automation.Models.RunbookDraftUpdateParameters parameters);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Automation.Models.LongRunningOperationResultResponse Update(class Microsoft.Azure.Management.Automation.IRunbookDraftOperations operations, string resourceGroupName, string automationAccount, class Microsoft.Azure.Management.Automation.Models.RunbookDraftUpdateParameters parameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Automation.RunbookDraftOperationsExtensions.Update(Microsoft.Azure.Management.Automation.IRunbookDraftOperations,System.String,System.String,Microsoft.Azure.Management.Automation.Models.RunbookDraftUpdateParameters)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Update (operations As IRunbookDraftOperations, resourceGroupName As String, automationAccount As String, parameters As RunbookDraftUpdateParameters) As LongRunningOperationResultResponse" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Automation.Models.LongRunningOperationResultResponse</ReturnType>
@@ -439,10 +455,11 @@
       <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.LongRunningOperationResultResponse&gt; UpdateAsync (this Microsoft.Azure.Management.Automation.IRunbookDraftOperations operations, string resourceGroupName, string automationAccount, Microsoft.Azure.Management.Automation.Models.RunbookDraftUpdateParameters parameters);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Automation.Models.LongRunningOperationResultResponse&gt; UpdateAsync(class Microsoft.Azure.Management.Automation.IRunbookDraftOperations operations, string resourceGroupName, string automationAccount, class Microsoft.Azure.Management.Automation.Models.RunbookDraftUpdateParameters parameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Automation.RunbookDraftOperationsExtensions.UpdateAsync(Microsoft.Azure.Management.Automation.IRunbookDraftOperations,System.String,System.String,Microsoft.Azure.Management.Automation.Models.RunbookDraftUpdateParameters)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UpdateAsync (operations As IRunbookDraftOperations, resourceGroupName As String, automationAccount As String, parameters As RunbookDraftUpdateParameters) As Task(Of LongRunningOperationResultResponse)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.LongRunningOperationResultResponse&gt;</ReturnType>
@@ -467,10 +484,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Automation.Models.LongRunningOperationResultResponse UpdateGraph (this Microsoft.Azure.Management.Automation.IRunbookDraftOperations operations, string resourceGroupName, string automationAccount, Microsoft.Azure.Management.Automation.Models.RunbookDraftUpdateParameters parameters);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Automation.Models.LongRunningOperationResultResponse UpdateGraph(class Microsoft.Azure.Management.Automation.IRunbookDraftOperations operations, string resourceGroupName, string automationAccount, class Microsoft.Azure.Management.Automation.Models.RunbookDraftUpdateParameters parameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Automation.RunbookDraftOperationsExtensions.UpdateGraph(Microsoft.Azure.Management.Automation.IRunbookDraftOperations,System.String,System.String,Microsoft.Azure.Management.Automation.Models.RunbookDraftUpdateParameters)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UpdateGraph (operations As IRunbookDraftOperations, resourceGroupName As String, automationAccount As String, parameters As RunbookDraftUpdateParameters) As LongRunningOperationResultResponse" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Automation.Models.LongRunningOperationResultResponse</ReturnType>
@@ -495,10 +513,11 @@
       <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.LongRunningOperationResultResponse&gt; UpdateGraphAsync (this Microsoft.Azure.Management.Automation.IRunbookDraftOperations operations, string resourceGroupName, string automationAccount, Microsoft.Azure.Management.Automation.Models.RunbookDraftUpdateParameters parameters);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Automation.Models.LongRunningOperationResultResponse&gt; UpdateGraphAsync(class Microsoft.Azure.Management.Automation.IRunbookDraftOperations operations, string resourceGroupName, string automationAccount, class Microsoft.Azure.Management.Automation.Models.RunbookDraftUpdateParameters parameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Automation.RunbookDraftOperationsExtensions.UpdateGraphAsync(Microsoft.Azure.Management.Automation.IRunbookDraftOperations,System.String,System.String,Microsoft.Azure.Management.Automation.Models.RunbookDraftUpdateParameters)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UpdateGraphAsync (operations As IRunbookDraftOperations, resourceGroupName As String, automationAccount As String, parameters As RunbookDraftUpdateParameters) As Task(Of LongRunningOperationResultResponse)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.LongRunningOperationResultResponse&gt;</ReturnType>

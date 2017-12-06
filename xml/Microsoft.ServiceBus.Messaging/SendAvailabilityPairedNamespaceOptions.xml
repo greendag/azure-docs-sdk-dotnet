@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public sealed class SendAvailabilityPairedNamespaceOptions : Microsoft.ServiceBus.Messaging.PairedNamespaceOptions" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit SendAvailabilityPairedNamespaceOptions extends Microsoft.ServiceBus.Messaging.PairedNamespaceOptions" />
   <TypeSignature Language="DocId" Value="T:Microsoft.ServiceBus.Messaging.SendAvailabilityPairedNamespaceOptions" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SendAvailabilityPairedNamespaceOptions&#xA;Inherits PairedNamespaceOptions" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.ServiceBus</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>
@@ -21,8 +22,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.SendAvailabilityPairedNamespaceOptions.#ctor(Microsoft.ServiceBus.NamespaceManager,Microsoft.ServiceBus.Messaging.MessagingFactory)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="secondaryNamespaceManager" Type="Microsoft.ServiceBus.NamespaceManager" />
@@ -41,8 +42,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.SendAvailabilityPairedNamespaceOptions.#ctor(Microsoft.ServiceBus.NamespaceManager,Microsoft.ServiceBus.Messaging.MessagingFactory,System.Int32)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="secondaryNamespaceManager" Type="Microsoft.ServiceBus.NamespaceManager" />
@@ -63,8 +64,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.SendAvailabilityPairedNamespaceOptions.#ctor(Microsoft.ServiceBus.NamespaceManager,Microsoft.ServiceBus.Messaging.MessagingFactory,System.Int32,System.TimeSpan,System.Boolean)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="secondaryNamespaceManager" Type="Microsoft.ServiceBus.NamespaceManager" />
@@ -87,10 +88,11 @@
       <MemberSignature Language="C#" Value="public int BacklogQueueCount { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 BacklogQueueCount" />
       <MemberSignature Language="DocId" Value="P:Microsoft.ServiceBus.Messaging.SendAvailabilityPairedNamespaceOptions.BacklogQueueCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BacklogQueueCount As Integer" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -102,13 +104,14 @@
       </Docs>
     </Member>
     <Member MemberName="ClearPairing">
-      <MemberSignature Language="C#" Value="protected override void ClearPairing ();" />
+      <MemberSignature Language="C#" Value="protected internal override void ClearPairing ();" />
       <MemberSignature Language="ILAsm" Value=".method familyorassemblyhidebysig virtual instance void ClearPairing() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.SendAvailabilityPairedNamespaceOptions.ClearPairing" />
+      <MemberSignature Language="VB.NET" Value="Protected Friend Overrides Sub ClearPairing ()" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -123,10 +126,11 @@
       <MemberSignature Language="C#" Value="public bool EnableSyphon { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool EnableSyphon" />
       <MemberSignature Language="DocId" Value="P:Microsoft.ServiceBus.Messaging.SendAvailabilityPairedNamespaceOptions.EnableSyphon" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EnableSyphon As Boolean" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -141,10 +145,11 @@
       <MemberSignature Language="C#" Value="public void MarkPathHealthy (string path);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void MarkPathHealthy(string path) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.SendAvailabilityPairedNamespaceOptions.MarkPathHealthy(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub MarkPathHealthy (path As String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -162,10 +167,11 @@
       <MemberSignature Language="C#" Value="protected override void OnNotifyPrimarySendResult (string path, bool success);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnNotifyPrimarySendResult(string path, bool success) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.SendAvailabilityPairedNamespaceOptions.OnNotifyPrimarySendResult(System.String,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnNotifyPrimarySendResult (path As String, success As Boolean)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -185,10 +191,11 @@
       <MemberSignature Language="C#" Value="public TimeSpan PingPrimaryInterval { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.TimeSpan PingPrimaryInterval" />
       <MemberSignature Language="DocId" Value="P:Microsoft.ServiceBus.Messaging.SendAvailabilityPairedNamespaceOptions.PingPrimaryInterval" />
+      <MemberSignature Language="VB.NET" Value="Public Property PingPrimaryInterval As TimeSpan" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.TimeSpan</ReturnType>

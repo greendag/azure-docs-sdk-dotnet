@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public class HybridConnectionInner : Microsoft.Azure.Management.ResourceManager.Fluent.Resource" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit HybridConnectionInner extends Microsoft.Azure.Management.ResourceManager.Fluent.Resource" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.AppService.Fluent.Models.HybridConnectionInner" />
+  <TypeSignature Language="VB.NET" Value="Public Class HybridConnectionInner&#xA;Inherits Resource" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
     <AssemblyVersion>1.0.0.60</AssemblyVersion>
@@ -27,10 +28,11 @@
       <MemberSignature Language="C#" Value="public HybridConnectionInner ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.Models.HybridConnectionInner.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -44,10 +46,11 @@
       <MemberSignature Language="C#" Value="public HybridConnectionInner (string location = null, string id = null, string name = null, string type = null, System.Collections.Generic.IDictionary&lt;string,string&gt; tags = null, string serviceBusNamespace = null, string relayName = null, string relayArmUri = null, string hostname = null, Nullable&lt;int&gt; port = null, string sendKeyName = null, string sendKeyValue = null);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string location, string id, string name, string type, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags, string serviceBusNamespace, string relayName, string relayArmUri, string hostname, valuetype System.Nullable`1&lt;int32&gt; port, string sendKeyName, string sendKeyValue) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.Models.HybridConnectionInner.#ctor(System.String,System.String,System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.String},System.String,System.String,System.String,System.String,System.Nullable{System.Int32},System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (Optional location As String = null, Optional id As String = null, Optional name As String = null, Optional type As String = null, Optional tags As IDictionary(Of String, String) = null, Optional serviceBusNamespace As String = null, Optional relayName As String = null, Optional relayArmUri As String = null, Optional hostname As String = null, Optional port As Nullable(Of Integer) = null, Optional sendKeyName As String = null, Optional sendKeyValue As String = null)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="location" Type="System.String" />
@@ -76,12 +79,12 @@
             relay.</param>
         <param name="hostname">The hostname of the endpoint.</param>
         <param name="port">The port of the endpoint.</param>
-        <param name="sendKeyName">The name of the Service Bus key which
-            has Send permissions. This is used to authenticate to Service
+        <param name="sendKeyName">The name of the Service Bus key which has
+            Send permissions. This is used to authenticate to Service
             Bus.</param>
         <param name="sendKeyValue">The value of the Service Bus key. This
-            is used to authenticate to Service Bus. In ARM this key will not
-            be returned
+            is used to authenticate to Service Bus. In ARM this key will not be
+            returned
             normally, use the POST /listKeys API instead.</param>
         <summary>
             Initializes a new instance of the HybridConnectionInner class.
@@ -93,10 +96,11 @@
       <MemberSignature Language="C#" Value="public string Hostname { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Hostname" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.AppService.Fluent.Models.HybridConnectionInner.Hostname" />
+      <MemberSignature Language="VB.NET" Value="Public Property Hostname As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -118,10 +122,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; Port { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; Port" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.AppService.Fluent.Models.HybridConnectionInner.Port" />
+      <MemberSignature Language="VB.NET" Value="Public Property Port As Nullable(Of Integer)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -143,10 +148,11 @@
       <MemberSignature Language="C#" Value="public string RelayArmUri { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string RelayArmUri" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.AppService.Fluent.Models.HybridConnectionInner.RelayArmUri" />
+      <MemberSignature Language="VB.NET" Value="Public Property RelayArmUri As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -168,10 +174,11 @@
       <MemberSignature Language="C#" Value="public string RelayName { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string RelayName" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.AppService.Fluent.Models.HybridConnectionInner.RelayName" />
+      <MemberSignature Language="VB.NET" Value="Public Property RelayName As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -193,10 +200,11 @@
       <MemberSignature Language="C#" Value="public string SendKeyName { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string SendKeyName" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.AppService.Fluent.Models.HybridConnectionInner.SendKeyName" />
+      <MemberSignature Language="VB.NET" Value="Public Property SendKeyName As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -219,10 +227,11 @@
       <MemberSignature Language="C#" Value="public string SendKeyValue { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string SendKeyValue" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.AppService.Fluent.Models.HybridConnectionInner.SendKeyValue" />
+      <MemberSignature Language="VB.NET" Value="Public Property SendKeyValue As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -246,10 +255,11 @@
       <MemberSignature Language="C#" Value="public string ServiceBusNamespace { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string ServiceBusNamespace" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.AppService.Fluent.Models.HybridConnectionInner.ServiceBusNamespace" />
+      <MemberSignature Language="VB.NET" Value="Public Property ServiceBusNamespace As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>

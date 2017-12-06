@@ -2,10 +2,10 @@
   <TypeSignature Language="C#" Value="public class LoadMetricType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit LoadMetricType extends System.Object" />
   <TypeSignature Language="DocId" Value="T:System.Fabric.Management.ServiceModel.LoadMetricType" />
+  <TypeSignature Language="VB.NET" Value="Public Class LoadMetricType" />
   <AssemblyInfo>
     <AssemblyName>System.Fabric.Management.ServiceModel</AssemblyName>
-    <AssemblyVersion>5.0.0.0</AssemblyVersion>
-    <AssemblyVersion>255.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -31,11 +31,11 @@
       <MemberSignature Language="C#" Value="public LoadMetricType ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.Management.ServiceModel.LoadMetricType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric.Management.ServiceModel</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -47,11 +47,11 @@
       <MemberSignature Language="C#" Value="public long DefaultLoad { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int64 DefaultLoad" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Management.ServiceModel.LoadMetricType.DefaultLoad" />
+      <MemberSignature Language="VB.NET" Value="Public Property DefaultLoad As Long" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric.Management.ServiceModel</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -74,11 +74,11 @@
       <MemberSignature Language="C#" Value="public string Name { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Name" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Management.ServiceModel.LoadMetricType.Name" />
+      <MemberSignature Language="VB.NET" Value="Public Property Name As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric.Management.ServiceModel</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -98,11 +98,11 @@
       <MemberSignature Language="C#" Value="public long PrimaryDefaultLoad { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int64 PrimaryDefaultLoad" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Management.ServiceModel.LoadMetricType.PrimaryDefaultLoad" />
+      <MemberSignature Language="VB.NET" Value="Public Property PrimaryDefaultLoad As Long" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric.Management.ServiceModel</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -125,11 +125,11 @@
       <MemberSignature Language="C#" Value="public long SecondaryDefaultLoad { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int64 SecondaryDefaultLoad" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Management.ServiceModel.LoadMetricType.SecondaryDefaultLoad" />
+      <MemberSignature Language="VB.NET" Value="Public Property SecondaryDefaultLoad As Long" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric.Management.ServiceModel</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -152,11 +152,11 @@
       <MemberSignature Language="C#" Value="public System.Fabric.Management.ServiceModel.LoadMetricTypeWeight Weight { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Fabric.Management.ServiceModel.LoadMetricTypeWeight Weight" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Management.ServiceModel.LoadMetricType.Weight" />
+      <MemberSignature Language="VB.NET" Value="Public Property Weight As LoadMetricTypeWeight" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric.Management.ServiceModel</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -176,11 +176,11 @@
       <MemberSignature Language="C#" Value="public bool WeightSpecified { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool WeightSpecified" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Management.ServiceModel.LoadMetricType.WeightSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property WeightSpecified As Boolean" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric.Management.ServiceModel</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>

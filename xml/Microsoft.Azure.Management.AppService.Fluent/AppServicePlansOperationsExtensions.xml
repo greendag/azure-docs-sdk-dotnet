@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public static class AppServicePlansOperationsExtensions" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit AppServicePlansOperationsExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module AppServicePlansOperationsExtensions" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
     <AssemblyVersion>1.0.0.60</AssemblyVersion>
@@ -21,10 +22,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.AppService.Fluent.Models.AppServicePlanInner BeginCreateOrUpdate (this Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string resourceGroupName, string name, Microsoft.Azure.Management.AppService.Fluent.Models.AppServicePlanInner appServicePlan);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.AppService.Fluent.Models.AppServicePlanInner BeginCreateOrUpdate(class Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string resourceGroupName, string name, class Microsoft.Azure.Management.AppService.Fluent.Models.AppServicePlanInner appServicePlan) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.BeginCreateOrUpdate(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String,System.String,Microsoft.Azure.Management.AppService.Fluent.Models.AppServicePlanInner)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginCreateOrUpdate (operations As IAppServicePlansOperations, resourceGroupName As String, name As String, appServicePlan As AppServicePlanInner) As AppServicePlanInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.AppService.Fluent.Models.AppServicePlanInner</ReturnType>
@@ -63,12 +65,12 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.BeginCreateOrUpdateAsync(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String,System.String,Microsoft.Azure.Management.AppService.Fluent.Models.AppServicePlanInner,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions/&lt;BeginCreateOrUpdateAsync&gt;d__9))</AttributeName>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions/&lt;BeginCreateOrUpdateAsync&gt;d__53))</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -110,10 +112,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.AppService.Fluent.Models.AppServicePlanInner CreateOrUpdate (this Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string resourceGroupName, string name, Microsoft.Azure.Management.AppService.Fluent.Models.AppServicePlanInner appServicePlan);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.AppService.Fluent.Models.AppServicePlanInner CreateOrUpdate(class Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string resourceGroupName, string name, class Microsoft.Azure.Management.AppService.Fluent.Models.AppServicePlanInner appServicePlan) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.CreateOrUpdate(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String,System.String,Microsoft.Azure.Management.AppService.Fluent.Models.AppServicePlanInner)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function CreateOrUpdate (operations As IAppServicePlansOperations, resourceGroupName As String, name As String, appServicePlan As AppServicePlanInner) As AppServicePlanInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.AppService.Fluent.Models.AppServicePlanInner</ReturnType>
@@ -152,8 +155,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.CreateOrUpdateAsync(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String,System.String,Microsoft.Azure.Management.AppService.Fluent.Models.AppServicePlanInner,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -199,10 +202,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.AppService.Fluent.Models.VnetRouteInner CreateOrUpdateVnetRoute (this Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string resourceGroupName, string name, string vnetName, string routeName, Microsoft.Azure.Management.AppService.Fluent.Models.VnetRouteInner route);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.AppService.Fluent.Models.VnetRouteInner CreateOrUpdateVnetRoute(class Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string resourceGroupName, string name, string vnetName, string routeName, class Microsoft.Azure.Management.AppService.Fluent.Models.VnetRouteInner route) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.CreateOrUpdateVnetRoute(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String,System.String,System.String,System.String,Microsoft.Azure.Management.AppService.Fluent.Models.VnetRouteInner)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function CreateOrUpdateVnetRoute (operations As IAppServicePlansOperations, resourceGroupName As String, name As String, vnetName As String, routeName As String, route As VnetRouteInner) As VnetRouteInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.AppService.Fluent.Models.VnetRouteInner</ReturnType>
@@ -249,12 +253,12 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.CreateOrUpdateVnetRouteAsync(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String,System.String,System.String,System.String,Microsoft.Azure.Management.AppService.Fluent.Models.VnetRouteInner,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions/&lt;CreateOrUpdateVnetRouteAsync&gt;d__49))</AttributeName>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions/&lt;CreateOrUpdateVnetRouteAsync&gt;d__45))</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -304,10 +308,11 @@
       <MemberSignature Language="C#" Value="public static void Delete (this Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string resourceGroupName, string name);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Delete(class Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string resourceGroupName, string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.Delete(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub Delete (operations As IAppServicePlansOperations, resourceGroupName As String, name As String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -341,12 +346,12 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.DeleteAsync(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions/&lt;DeleteAsync&gt;d__11))</AttributeName>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions/&lt;DeleteAsync&gt;d__9))</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -384,10 +389,11 @@
       <MemberSignature Language="C#" Value="public static void DeleteHybridConnection (this Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string resourceGroupName, string name, string namespaceName, string relayName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void DeleteHybridConnection(class Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string resourceGroupName, string name, string namespaceName, string relayName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.DeleteHybridConnection(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub DeleteHybridConnection (operations As IAppServicePlansOperations, resourceGroupName As String, name As String, namespaceName As String, relayName As String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -429,12 +435,12 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.DeleteHybridConnectionAsync(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions/&lt;DeleteHybridConnectionAsync&gt;d__19))</AttributeName>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions/&lt;DeleteHybridConnectionAsync&gt;d__15))</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -480,10 +486,11 @@
       <MemberSignature Language="C#" Value="public static void DeleteVnetRoute (this Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string resourceGroupName, string name, string vnetName, string routeName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void DeleteVnetRoute(class Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string resourceGroupName, string name, string vnetName, string routeName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.DeleteVnetRoute(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub DeleteVnetRoute (operations As IAppServicePlansOperations, resourceGroupName As String, name As String, vnetName As String, routeName As String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -525,12 +532,12 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.DeleteVnetRouteAsync(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions/&lt;DeleteVnetRouteAsync&gt;d__51))</AttributeName>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions/&lt;DeleteVnetRouteAsync&gt;d__47))</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -576,10 +583,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.AppService.Fluent.Models.AppServicePlanInner Get (this Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string resourceGroupName, string name);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.AppService.Fluent.Models.AppServicePlanInner Get(class Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string resourceGroupName, string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.Get(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Get (operations As IAppServicePlansOperations, resourceGroupName As String, name As String) As AppServicePlanInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.AppService.Fluent.Models.AppServicePlanInner</ReturnType>
@@ -614,8 +622,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.GetAsync(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -657,10 +665,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.AppService.Fluent.Models.HybridConnectionInner GetHybridConnection (this Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string resourceGroupName, string name, string namespaceName, string relayName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.AppService.Fluent.Models.HybridConnectionInner GetHybridConnection(class Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string resourceGroupName, string name, string namespaceName, string relayName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.GetHybridConnection(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetHybridConnection (operations As IAppServicePlansOperations, resourceGroupName As String, name As String, namespaceName As String, relayName As String) As HybridConnectionInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.AppService.Fluent.Models.HybridConnectionInner</ReturnType>
@@ -703,12 +712,12 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.GetHybridConnectionAsync(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions/&lt;GetHybridConnectionAsync&gt;d__15))</AttributeName>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions/&lt;GetHybridConnectionAsync&gt;d__13))</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -754,10 +763,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.AppService.Fluent.Models.HybridConnectionLimitsInner GetHybridConnectionPlanLimit (this Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string resourceGroupName, string name);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.AppService.Fluent.Models.HybridConnectionLimitsInner GetHybridConnectionPlanLimit(class Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string resourceGroupName, string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.GetHybridConnectionPlanLimit(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetHybridConnectionPlanLimit (operations As IAppServicePlansOperations, resourceGroupName As String, name As String) As HybridConnectionLimitsInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.AppService.Fluent.Models.HybridConnectionLimitsInner</ReturnType>
@@ -794,12 +804,12 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.GetHybridConnectionPlanLimitAsync(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions/&lt;GetHybridConnectionPlanLimitAsync&gt;d__25))</AttributeName>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions/&lt;GetHybridConnectionPlanLimitAsync&gt;d__21))</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -839,10 +849,11 @@
       <MemberSignature Language="C#" Value="public static System.Collections.Generic.IList&lt;Microsoft.Azure.Management.AppService.Fluent.Models.VnetRouteInner&gt; GetRouteForVnet (this Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string resourceGroupName, string name, string vnetName, string routeName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.AppService.Fluent.Models.VnetRouteInner&gt; GetRouteForVnet(class Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string resourceGroupName, string name, string vnetName, string routeName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.GetRouteForVnet(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetRouteForVnet (operations As IAppServicePlansOperations, resourceGroupName As String, name As String, vnetName As String, routeName As String) As IList(Of VnetRouteInner)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Azure.Management.AppService.Fluent.Models.VnetRouteInner&gt;</ReturnType>
@@ -885,12 +896,12 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.GetRouteForVnetAsync(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions/&lt;GetRouteForVnetAsync&gt;d__47))</AttributeName>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions/&lt;GetRouteForVnetAsync&gt;d__43))</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -936,10 +947,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.AppService.Fluent.Models.VnetInfoInner GetVnetFromServerFarm (this Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string resourceGroupName, string name, string vnetName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.AppService.Fluent.Models.VnetInfoInner GetVnetFromServerFarm(class Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string resourceGroupName, string name, string vnetName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.GetVnetFromServerFarm(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetVnetFromServerFarm (operations As IAppServicePlansOperations, resourceGroupName As String, name As String, vnetName As String) As VnetInfoInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.AppService.Fluent.Models.VnetInfoInner</ReturnType>
@@ -978,12 +990,12 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.GetVnetFromServerFarmAsync(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions/&lt;GetVnetFromServerFarmAsync&gt;d__39))</AttributeName>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions/&lt;GetVnetFromServerFarmAsync&gt;d__35))</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1025,10 +1037,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.AppService.Fluent.Models.VnetGatewayInner GetVnetGateway (this Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string resourceGroupName, string name, string vnetName, string gatewayName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.AppService.Fluent.Models.VnetGatewayInner GetVnetGateway(class Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string resourceGroupName, string name, string vnetName, string gatewayName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.GetVnetGateway(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetVnetGateway (operations As IAppServicePlansOperations, resourceGroupName As String, name As String, vnetName As String, gatewayName As String) As VnetGatewayInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.AppService.Fluent.Models.VnetGatewayInner</ReturnType>
@@ -1071,12 +1084,12 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.GetVnetGatewayAsync(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions/&lt;GetVnetGatewayAsync&gt;d__41))</AttributeName>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions/&lt;GetVnetGatewayAsync&gt;d__37))</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1122,10 +1135,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.AppServicePlanInner&gt; List (this Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, Nullable&lt;bool&gt; detailed = null);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.AppService.Fluent.Models.AppServicePlanInner&gt; List(class Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, valuetype System.Nullable`1&lt;bool&gt; detailed) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.List(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.Nullable{System.Boolean})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function List (operations As IAppServicePlansOperations, Optional detailed As Nullable(Of Boolean) = null) As IPage(Of AppServicePlanInner)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.AppServicePlanInner&gt;</ReturnType>
@@ -1140,8 +1154,8 @@
             </param>
         <param name="detailed">
             Specify &lt;code&gt;true&lt;/code&gt; to return all App Service plan
-            properties. The default is &lt;code&gt;false&lt;/code&gt;, which returns
-            a subset of the properties.
+            properties. The default is &lt;code&gt;false&lt;/code&gt;, which returns a
+            subset of the properties.
             Retrieval of all properties may increase the API latency.
             </param>
         <summary>
@@ -1159,8 +1173,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.ListAsync(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.Nullable{System.Boolean},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1181,8 +1195,8 @@
             </param>
         <param name="detailed">
             Specify &lt;code&gt;true&lt;/code&gt; to return all App Service plan
-            properties. The default is &lt;code&gt;false&lt;/code&gt;, which returns
-            a subset of the properties.
+            properties. The default is &lt;code&gt;false&lt;/code&gt;, which returns a
+            subset of the properties.
             Retrieval of all properties may increase the API latency.
             </param>
         <param name="cancellationToken">
@@ -1201,10 +1215,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.AppServicePlanInner&gt; ListByResourceGroup (this Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string resourceGroupName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.AppService.Fluent.Models.AppServicePlanInner&gt; ListByResourceGroup(class Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string resourceGroupName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.ListByResourceGroup(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListByResourceGroup (operations As IAppServicePlansOperations, resourceGroupName As String) As IPage(Of AppServicePlanInner)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.AppServicePlanInner&gt;</ReturnType>
@@ -1235,8 +1250,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.ListByResourceGroupAsync(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1274,10 +1289,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.AppServicePlanInner&gt; ListByResourceGroupNext (this Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string nextPageLink);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.AppService.Fluent.Models.AppServicePlanInner&gt; ListByResourceGroupNext(class Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string nextPageLink) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.ListByResourceGroupNext(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListByResourceGroupNext (operations As IAppServicePlansOperations, nextPageLink As String) As IPage(Of AppServicePlanInner)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.AppServicePlanInner&gt;</ReturnType>
@@ -1308,12 +1324,12 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.ListByResourceGroupNextAsync(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions/&lt;ListByResourceGroupNextAsync&gt;d__59))</AttributeName>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions/&lt;ListByResourceGroupNextAsync&gt;d__57))</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1347,10 +1363,11 @@
       <MemberSignature Language="C#" Value="public static System.Collections.Generic.IList&lt;Microsoft.Azure.Management.AppService.Fluent.Models.CapabilityInner&gt; ListCapabilities (this Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string resourceGroupName, string name);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.AppService.Fluent.Models.CapabilityInner&gt; ListCapabilities(class Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string resourceGroupName, string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.ListCapabilities(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListCapabilities (operations As IAppServicePlansOperations, resourceGroupName As String, name As String) As IList(Of CapabilityInner)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Azure.Management.AppService.Fluent.Models.CapabilityInner&gt;</ReturnType>
@@ -1385,12 +1402,12 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.ListCapabilitiesAsync(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions/&lt;ListCapabilitiesAsync&gt;d__13))</AttributeName>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions/&lt;ListCapabilitiesAsync&gt;d__11))</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1428,10 +1445,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.AppService.Fluent.Models.HybridConnectionKeyInner ListHybridConnectionKeys (this Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string resourceGroupName, string name, string namespaceName, string relayName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.AppService.Fluent.Models.HybridConnectionKeyInner ListHybridConnectionKeys(class Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string resourceGroupName, string name, string namespaceName, string relayName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.ListHybridConnectionKeys(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListHybridConnectionKeys (operations As IAppServicePlansOperations, resourceGroupName As String, name As String, namespaceName As String, relayName As String) As HybridConnectionKeyInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.AppService.Fluent.Models.HybridConnectionKeyInner</ReturnType>
@@ -1474,12 +1492,12 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.ListHybridConnectionKeysAsync(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions/&lt;ListHybridConnectionKeysAsync&gt;d__21))</AttributeName>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions/&lt;ListHybridConnectionKeysAsync&gt;d__17))</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1525,10 +1543,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.HybridConnectionInner&gt; ListHybridConnections (this Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string resourceGroupName, string name);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.AppService.Fluent.Models.HybridConnectionInner&gt; ListHybridConnections(class Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string resourceGroupName, string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.ListHybridConnections(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListHybridConnections (operations As IAppServicePlansOperations, resourceGroupName As String, name As String) As IPage(Of HybridConnectionInner)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.HybridConnectionInner&gt;</ReturnType>
@@ -1563,12 +1582,12 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.ListHybridConnectionsAsync(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions/&lt;ListHybridConnectionsAsync&gt;d__27))</AttributeName>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions/&lt;ListHybridConnectionsAsync&gt;d__23))</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1606,10 +1625,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.HybridConnectionInner&gt; ListHybridConnectionsNext (this Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string nextPageLink);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.AppService.Fluent.Models.HybridConnectionInner&gt; ListHybridConnectionsNext(class Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string nextPageLink) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.ListHybridConnectionsNext(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListHybridConnectionsNext (operations As IAppServicePlansOperations, nextPageLink As String) As IPage(Of HybridConnectionInner)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.HybridConnectionInner&gt;</ReturnType>
@@ -1640,12 +1660,12 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.ListHybridConnectionsNextAsync(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions/&lt;ListHybridConnectionsNextAsync&gt;d__63))</AttributeName>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions/&lt;ListHybridConnectionsNextAsync&gt;d__61))</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1679,10 +1699,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.ResourceMetricDefinitionInner&gt; ListMetricDefintions (this Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string resourceGroupName, string name);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.AppService.Fluent.Models.ResourceMetricDefinitionInner&gt; ListMetricDefintions(class Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string resourceGroupName, string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.ListMetricDefintions(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListMetricDefintions (operations As IAppServicePlansOperations, resourceGroupName As String, name As String) As IPage(Of ResourceMetricDefinitionInner)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.ResourceMetricDefinitionInner&gt;</ReturnType>
@@ -1719,12 +1740,12 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.ListMetricDefintionsAsync(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions/&lt;ListMetricDefintionsAsync&gt;d__29))</AttributeName>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions/&lt;ListMetricDefintionsAsync&gt;d__25))</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1764,10 +1785,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.ResourceMetricDefinitionInner&gt; ListMetricDefintionsNext (this Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string nextPageLink);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.AppService.Fluent.Models.ResourceMetricDefinitionInner&gt; ListMetricDefintionsNext(class Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string nextPageLink) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.ListMetricDefintionsNext(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListMetricDefintionsNext (operations As IAppServicePlansOperations, nextPageLink As String) As IPage(Of ResourceMetricDefinitionInner)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.ResourceMetricDefinitionInner&gt;</ReturnType>
@@ -1800,12 +1822,12 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.ListMetricDefintionsNextAsync(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions/&lt;ListMetricDefintionsNextAsync&gt;d__65))</AttributeName>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions/&lt;ListMetricDefintionsNextAsync&gt;d__63))</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1841,10 +1863,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.ResourceMetric&gt; ListMetrics (this Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string resourceGroupName, string name, Nullable&lt;bool&gt; details = null, string filter = null);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.AppService.Fluent.Models.ResourceMetric&gt; ListMetrics(class Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string resourceGroupName, string name, valuetype System.Nullable`1&lt;bool&gt; details, string filter) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.ListMetrics(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String,System.String,System.Nullable{System.Boolean},System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListMetrics (operations As IAppServicePlansOperations, resourceGroupName As String, name As String, Optional details As Nullable(Of Boolean) = null, Optional filter As String = null) As IPage(Of ResourceMetric)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.ResourceMetric&gt;</ReturnType>
@@ -1891,12 +1914,12 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.ListMetricsAsync(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String,System.String,System.Nullable{System.Boolean},System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions/&lt;ListMetricsAsync&gt;d__31))</AttributeName>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions/&lt;ListMetricsAsync&gt;d__27))</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1946,10 +1969,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.ResourceMetric&gt; ListMetricsNext (this Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string nextPageLink);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.AppService.Fluent.Models.ResourceMetric&gt; ListMetricsNext(class Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string nextPageLink) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.ListMetricsNext(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListMetricsNext (operations As IAppServicePlansOperations, nextPageLink As String) As IPage(Of ResourceMetric)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.ResourceMetric&gt;</ReturnType>
@@ -1980,12 +2004,12 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.ListMetricsNextAsync(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions/&lt;ListMetricsNextAsync&gt;d__67))</AttributeName>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions/&lt;ListMetricsNextAsync&gt;d__65))</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2019,10 +2043,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.AppServicePlanInner&gt; ListNext (this Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string nextPageLink);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.AppService.Fluent.Models.AppServicePlanInner&gt; ListNext(class Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string nextPageLink) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.ListNext(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListNext (operations As IAppServicePlansOperations, nextPageLink As String) As IPage(Of AppServicePlanInner)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.AppServicePlanInner&gt;</ReturnType>
@@ -2053,12 +2078,12 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.ListNextAsync(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions/&lt;ListNextAsync&gt;d__57))</AttributeName>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions/&lt;ListNextAsync&gt;d__55))</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2092,10 +2117,11 @@
       <MemberSignature Language="C#" Value="public static System.Collections.Generic.IList&lt;Microsoft.Azure.Management.AppService.Fluent.Models.VnetRouteInner&gt; ListRoutesForVnet (this Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string resourceGroupName, string name, string vnetName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.AppService.Fluent.Models.VnetRouteInner&gt; ListRoutesForVnet(class Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string resourceGroupName, string name, string vnetName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.ListRoutesForVnet(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListRoutesForVnet (operations As IAppServicePlansOperations, resourceGroupName As String, name As String, vnetName As String) As IList(Of VnetRouteInner)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Azure.Management.AppService.Fluent.Models.VnetRouteInner&gt;</ReturnType>
@@ -2120,13 +2146,13 @@
             Name of the Virtual Network.
             </param>
         <summary>
-            Get all routes that are associated with a Virtual Network in an App
-            Service plan.
+            Get all routes that are associated with a Virtual Network in an App Service
+            plan.
             </summary>
         <returns>To be added.</returns>
         <remarks>
-            Get all routes that are associated with a Virtual Network in an App
-            Service plan.
+            Get all routes that are associated with a Virtual Network in an App Service
+            plan.
             </remarks>
       </Docs>
     </Member>
@@ -2136,12 +2162,12 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.ListRoutesForVnetAsync(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions/&lt;ListRoutesForVnetAsync&gt;d__45))</AttributeName>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions/&lt;ListRoutesForVnetAsync&gt;d__41))</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2171,13 +2197,13 @@
             The cancellation token.
             </param>
         <summary>
-            Get all routes that are associated with a Virtual Network in an App
-            Service plan.
+            Get all routes that are associated with a Virtual Network in an App Service
+            plan.
             </summary>
         <returns>To be added.</returns>
         <remarks>
-            Get all routes that are associated with a Virtual Network in an App
-            Service plan.
+            Get all routes that are associated with a Virtual Network in an App Service
+            plan.
             </remarks>
       </Docs>
     </Member>
@@ -2185,10 +2211,11 @@
       <MemberSignature Language="C#" Value="public static System.Collections.Generic.IList&lt;Microsoft.Azure.Management.AppService.Fluent.Models.VnetInfoInner&gt; ListVnets (this Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string resourceGroupName, string name);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.AppService.Fluent.Models.VnetInfoInner&gt; ListVnets(class Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string resourceGroupName, string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.ListVnets(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListVnets (operations As IAppServicePlansOperations, resourceGroupName As String, name As String) As IList(Of VnetInfoInner)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Azure.Management.AppService.Fluent.Models.VnetInfoInner&gt;</ReturnType>
@@ -2223,12 +2250,12 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.ListVnetsAsync(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions/&lt;ListVnetsAsync&gt;d__37))</AttributeName>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions/&lt;ListVnetsAsync&gt;d__33))</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2266,10 +2293,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.SiteInner&gt; ListWebApps (this Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string resourceGroupName, string name, string skipToken = null, string filter = null, string top = null);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.AppService.Fluent.Models.SiteInner&gt; ListWebApps(class Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string resourceGroupName, string name, string skipToken, string filter, string top) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.ListWebApps(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String,System.String,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListWebApps (operations As IAppServicePlansOperations, resourceGroupName As String, name As String, Optional skipToken As String = null, Optional filter As String = null, Optional top As String = null) As IPage(Of SiteInner)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.SiteInner&gt;</ReturnType>
@@ -2295,8 +2323,8 @@
         <param name="skipToken">
             Skip to a web app in the list of webapps associated with app service plan.
             If specified, the resulting list will contain web apps starting from
-            (including) the skipToken. Otherwise, the resulting list contains web
-            apps from the start of the list
+            (including) the skipToken. Otherwise, the resulting list contains web apps
+            from the start of the list
             </param>
         <param name="filter">
             Supported filter: $filter=state eq running. Returns only web apps that are
@@ -2320,12 +2348,12 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.ListWebAppsAsync(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions/&lt;ListWebAppsAsync&gt;d__35))</AttributeName>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions/&lt;ListWebAppsAsync&gt;d__31))</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2353,8 +2381,8 @@
         <param name="skipToken">
             Skip to a web app in the list of webapps associated with app service plan.
             If specified, the resulting list will contain web apps starting from
-            (including) the skipToken. Otherwise, the resulting list contains web
-            apps from the start of the list
+            (including) the skipToken. Otherwise, the resulting list contains web apps
+            from the start of the list
             </param>
         <param name="filter">
             Supported filter: $filter=state eq running. Returns only web apps that are
@@ -2379,10 +2407,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;string&gt; ListWebAppsByHybridConnection (this Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string resourceGroupName, string name, string namespaceName, string relayName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;string&gt; ListWebAppsByHybridConnection(class Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string resourceGroupName, string name, string namespaceName, string relayName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.ListWebAppsByHybridConnection(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListWebAppsByHybridConnection (operations As IAppServicePlansOperations, resourceGroupName As String, name As String, namespaceName As String, relayName As String) As IPage(Of String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;System.String&gt;</ReturnType>
@@ -2425,12 +2454,12 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.ListWebAppsByHybridConnectionAsync(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions/&lt;ListWebAppsByHybridConnectionAsync&gt;d__23))</AttributeName>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions/&lt;ListWebAppsByHybridConnectionAsync&gt;d__19))</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2476,10 +2505,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;string&gt; ListWebAppsByHybridConnectionNext (this Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string nextPageLink);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;string&gt; ListWebAppsByHybridConnectionNext(class Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string nextPageLink) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.ListWebAppsByHybridConnectionNext(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListWebAppsByHybridConnectionNext (operations As IAppServicePlansOperations, nextPageLink As String) As IPage(Of String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;System.String&gt;</ReturnType>
@@ -2510,12 +2540,12 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.ListWebAppsByHybridConnectionNextAsync(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions/&lt;ListWebAppsByHybridConnectionNextAsync&gt;d__61))</AttributeName>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions/&lt;ListWebAppsByHybridConnectionNextAsync&gt;d__59))</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2549,10 +2579,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.SiteInner&gt; ListWebAppsNext (this Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string nextPageLink);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.AppService.Fluent.Models.SiteInner&gt; ListWebAppsNext(class Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string nextPageLink) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.ListWebAppsNext(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListWebAppsNext (operations As IAppServicePlansOperations, nextPageLink As String) As IPage(Of SiteInner)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.SiteInner&gt;</ReturnType>
@@ -2583,12 +2614,12 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.ListWebAppsNextAsync(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions/&lt;ListWebAppsNextAsync&gt;d__69))</AttributeName>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions/&lt;ListWebAppsNextAsync&gt;d__67))</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2622,10 +2653,11 @@
       <MemberSignature Language="C#" Value="public static void RebootWorker (this Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string resourceGroupName, string name, string workerName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void RebootWorker(class Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string resourceGroupName, string name, string workerName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.RebootWorker(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub RebootWorker (operations As IAppServicePlansOperations, resourceGroupName As String, name As String, workerName As String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -2663,12 +2695,12 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.RebootWorkerAsync(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions/&lt;RebootWorkerAsync&gt;d__55))</AttributeName>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions/&lt;RebootWorkerAsync&gt;d__51))</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2710,10 +2742,11 @@
       <MemberSignature Language="C#" Value="public static void RestartWebApps (this Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string resourceGroupName, string name, Nullable&lt;bool&gt; softRestart = null);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void RestartWebApps(class Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string resourceGroupName, string name, valuetype System.Nullable`1&lt;bool&gt; softRestart) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.RestartWebApps(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String,System.String,System.Nullable{System.Boolean})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub RestartWebApps (operations As IAppServicePlansOperations, resourceGroupName As String, name As String, Optional softRestart As Nullable(Of Boolean) = null)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -2736,9 +2769,9 @@
             </param>
         <param name="softRestart">
             Specify &lt;code&gt;true&lt;/code&gt; to performa a soft restart, applies
-            the configuration settings and restarts the apps if necessary. The
-            default is &lt;code&gt;false&lt;/code&gt;, which always restarts and
-            reprovisions the apps
+            the configuration settings and restarts the apps if necessary. The default
+            is &lt;code&gt;false&lt;/code&gt;, which always restarts and reprovisions
+            the apps
             </param>
         <summary>
             Restart all apps in an App Service plan.
@@ -2754,12 +2787,12 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.RestartWebAppsAsync(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String,System.String,System.Nullable{System.Boolean},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions/&lt;RestartWebAppsAsync&gt;d__33))</AttributeName>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions/&lt;RestartWebAppsAsync&gt;d__29))</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2784,9 +2817,9 @@
             </param>
         <param name="softRestart">
             Specify &lt;code&gt;true&lt;/code&gt; to performa a soft restart, applies
-            the configuration settings and restarts the apps if necessary. The
-            default is &lt;code&gt;false&lt;/code&gt;, which always restarts and
-            reprovisions the apps
+            the configuration settings and restarts the apps if necessary. The default
+            is &lt;code&gt;false&lt;/code&gt;, which always restarts and reprovisions
+            the apps
             </param>
         <param name="cancellationToken">
             The cancellation token.
@@ -2797,115 +2830,6 @@
         <returns>To be added.</returns>
         <remarks>
             Restart all apps in an App Service plan.
-            </remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="UpdateHybridConnection">
-      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.AppService.Fluent.Models.HybridConnectionInner UpdateHybridConnection (this Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string resourceGroupName, string name, string namespaceName, string relayName, Microsoft.Azure.Management.AppService.Fluent.Models.HybridConnectionInner connection);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.AppService.Fluent.Models.HybridConnectionInner UpdateHybridConnection(class Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string resourceGroupName, string name, string namespaceName, string relayName, class Microsoft.Azure.Management.AppService.Fluent.Models.HybridConnectionInner connection) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.UpdateHybridConnection(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String,System.String,System.String,System.String,Microsoft.Azure.Management.AppService.Fluent.Models.HybridConnectionInner)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
-        <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Microsoft.Azure.Management.AppService.Fluent.Models.HybridConnectionInner</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="operations" Type="Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations" RefType="this" />
-        <Parameter Name="resourceGroupName" Type="System.String" />
-        <Parameter Name="name" Type="System.String" />
-        <Parameter Name="namespaceName" Type="System.String" />
-        <Parameter Name="relayName" Type="System.String" />
-        <Parameter Name="connection" Type="Microsoft.Azure.Management.AppService.Fluent.Models.HybridConnectionInner" />
-      </Parameters>
-      <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Name of the App Service plan.
-            </param>
-        <param name="namespaceName">
-            Name of the Service Bus namespace.
-            </param>
-        <param name="relayName">
-            Name of the Service Bus relay.
-            </param>
-        <param name="connection">
-            The Hybrid Connection entity.
-            </param>
-        <summary>
-            Update a Hybrid Connection in use in an App Service plan. This operation
-            will fail if the Hybrid Connection does not already exist.
-            </summary>
-        <returns>To be added.</returns>
-        <remarks>
-            Update a Hybrid Connection in use in an App Service plan. This operation
-            will fail if the Hybrid Connection does not already exist.
-            </remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="UpdateHybridConnectionAsync">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.AppService.Fluent.Models.HybridConnectionInner&gt; UpdateHybridConnectionAsync (this Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string resourceGroupName, string name, string namespaceName, string relayName, Microsoft.Azure.Management.AppService.Fluent.Models.HybridConnectionInner connection, System.Threading.CancellationToken cancellationToken = null);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.AppService.Fluent.Models.HybridConnectionInner&gt; UpdateHybridConnectionAsync(class Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string resourceGroupName, string name, string namespaceName, string relayName, class Microsoft.Azure.Management.AppService.Fluent.Models.HybridConnectionInner connection, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.UpdateHybridConnectionAsync(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String,System.String,System.String,System.String,Microsoft.Azure.Management.AppService.Fluent.Models.HybridConnectionInner,System.Threading.CancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
-        <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions/&lt;UpdateHybridConnectionAsync&gt;d__17))</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.AppService.Fluent.Models.HybridConnectionInner&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="operations" Type="Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations" RefType="this" />
-        <Parameter Name="resourceGroupName" Type="System.String" />
-        <Parameter Name="name" Type="System.String" />
-        <Parameter Name="namespaceName" Type="System.String" />
-        <Parameter Name="relayName" Type="System.String" />
-        <Parameter Name="connection" Type="Microsoft.Azure.Management.AppService.Fluent.Models.HybridConnectionInner" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
-      </Parameters>
-      <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Name of the App Service plan.
-            </param>
-        <param name="namespaceName">
-            Name of the Service Bus namespace.
-            </param>
-        <param name="relayName">
-            Name of the Service Bus relay.
-            </param>
-        <param name="connection">
-            The Hybrid Connection entity.
-            </param>
-        <param name="cancellationToken">
-            The cancellation token.
-            </param>
-        <summary>
-            Update a Hybrid Connection in use in an App Service plan. This operation
-            will fail if the Hybrid Connection does not already exist.
-            </summary>
-        <returns>To be added.</returns>
-        <remarks>
-            Update a Hybrid Connection in use in an App Service plan. This operation
-            will fail if the Hybrid Connection does not already exist.
             </remarks>
       </Docs>
     </Member>
@@ -2913,10 +2837,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.AppService.Fluent.Models.VnetGatewayInner UpdateVnetGateway (this Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string resourceGroupName, string name, string vnetName, string gatewayName, Microsoft.Azure.Management.AppService.Fluent.Models.VnetGatewayInner connectionEnvelope);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.AppService.Fluent.Models.VnetGatewayInner UpdateVnetGateway(class Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string resourceGroupName, string name, string vnetName, string gatewayName, class Microsoft.Azure.Management.AppService.Fluent.Models.VnetGatewayInner connectionEnvelope) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.UpdateVnetGateway(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String,System.String,System.String,System.String,Microsoft.Azure.Management.AppService.Fluent.Models.VnetGatewayInner)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UpdateVnetGateway (operations As IAppServicePlansOperations, resourceGroupName As String, name As String, vnetName As String, gatewayName As String, connectionEnvelope As VnetGatewayInner) As VnetGatewayInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.AppService.Fluent.Models.VnetGatewayInner</ReturnType>
@@ -2963,12 +2888,12 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.UpdateVnetGatewayAsync(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String,System.String,System.String,System.String,Microsoft.Azure.Management.AppService.Fluent.Models.VnetGatewayInner,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions/&lt;UpdateVnetGatewayAsync&gt;d__43))</AttributeName>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions/&lt;UpdateVnetGatewayAsync&gt;d__39))</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -3018,10 +2943,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.AppService.Fluent.Models.VnetRouteInner UpdateVnetRoute (this Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string resourceGroupName, string name, string vnetName, string routeName, Microsoft.Azure.Management.AppService.Fluent.Models.VnetRouteInner route);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.AppService.Fluent.Models.VnetRouteInner UpdateVnetRoute(class Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations operations, string resourceGroupName, string name, string vnetName, string routeName, class Microsoft.Azure.Management.AppService.Fluent.Models.VnetRouteInner route) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.UpdateVnetRoute(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String,System.String,System.String,System.String,Microsoft.Azure.Management.AppService.Fluent.Models.VnetRouteInner)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UpdateVnetRoute (operations As IAppServicePlansOperations, resourceGroupName As String, name As String, vnetName As String, routeName As String, route As VnetRouteInner) As VnetRouteInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.AppService.Fluent.Models.VnetRouteInner</ReturnType>
@@ -3068,12 +2994,12 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions.UpdateVnetRouteAsync(Microsoft.Azure.Management.AppService.Fluent.IAppServicePlansOperations,System.String,System.String,System.String,System.String,Microsoft.Azure.Management.AppService.Fluent.Models.VnetRouteInner,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions/&lt;UpdateVnetRouteAsync&gt;d__53))</AttributeName>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServicePlansOperationsExtensions/&lt;UpdateVnetRouteAsync&gt;d__49))</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

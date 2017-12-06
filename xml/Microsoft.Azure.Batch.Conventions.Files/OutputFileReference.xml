@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public sealed class OutputFileReference" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit OutputFileReference extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Batch.Conventions.Files.OutputFileReference" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class OutputFileReference" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Batch.Conventions.Files</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>
@@ -11,9 +12,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-            A reference to a task or job output file in persistent storage.
-            </summary>
+    <summary>To be added.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -21,20 +20,17 @@
       <MemberSignature Language="C#" Value="public Microsoft.WindowsAzure.Storage.Blob.ICloudBlob CloudBlob { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.WindowsAzure.Storage.Blob.ICloudBlob CloudBlob" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Batch.Conventions.Files.OutputFileReference.CloudBlob" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CloudBlob As ICloudBlob" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Batch.Conventions.Files</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.Storage.Blob.ICloudBlob</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-            Gets a reference to the underlying <see cref="T:Microsoft.WindowsAzure.Storage.Blob.ICloudBlob" /> object representing the
-            file in persistent storage. This can be used to invoke blob methods or overloads not surfaced
-            by the <see cref="T:Microsoft.Azure.Batch.Conventions.Files.OutputFileReference" /> abstraction.
-            </summary>
+        <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -45,8 +41,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Batch.Conventions.Files.OutputFileReference.DeleteAsync(System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Batch.Conventions.Files</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -60,13 +56,10 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="cancellationToken">A <see cref="T:System.Threading.CancellationToken" /> for controlling the lifetime of the asynchronous operation.</param>
-        <summary>
-            Deletes the file from persistent storage.
-            </summary>
-        <returns>A <see cref="T:System.Threading.Tasks.Task" /> that represents the asynchronous operation.</returns>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <altmember cref="M:Microsoft.WindowsAzure.Storage.Blob.ICloudBlob.DeleteAsync" />
       </Docs>
     </Member>
     <Member MemberName="DownloadToByteArrayAsync">
@@ -75,8 +68,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Batch.Conventions.Files.OutputFileReference.DownloadToByteArrayAsync(System.Byte[],System.Int32,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Batch.Conventions.Files</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -92,15 +85,12 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="target">The target byte array.</param>
-        <param name="index">The starting offset in the byte array</param>
-        <param name="cancellationToken">A <see cref="T:System.Threading.CancellationToken" /> for controlling the lifetime of the asynchronous operation.</param>
-        <summary>
-            Downloads the contents of the file to a byte array.
-            </summary>
-        <returns>The total number of bytes read into the buffer.</returns>
+        <param name="target">To be added.</param>
+        <param name="index">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <altmember cref="M:Microsoft.WindowsAzure.Storage.Blob.ICloudBlob.DownloadToByteArrayAsync(System.Byte[],System.Int32)" />
       </Docs>
     </Member>
     <Member MemberName="DownloadToFileAsync">
@@ -109,8 +99,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Batch.Conventions.Files.OutputFileReference.DownloadToFileAsync(System.String,System.IO.FileMode,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Batch.Conventions.Files</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -126,15 +116,12 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="path">The path to which to download the file.</param>
-        <param name="mode">Specifies how to open or create the file.</param>
-        <param name="cancellationToken">A <see cref="T:System.Threading.CancellationToken" /> for controlling the lifetime of the asynchronous operation.</param>
-        <summary>
-            Downloads the contents of the file to a specified path.
-            </summary>
-        <returns>A <see cref="T:System.Threading.Tasks.Task" /> that represents the asynchronous operation.</returns>
+        <param name="path">To be added.</param>
+        <param name="mode">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <altmember cref="M:Microsoft.WindowsAzure.Storage.Blob.ICloudBlob.DownloadToFileAsync(System.String,System.IO.FileMode)" />
       </Docs>
     </Member>
     <Member MemberName="DownloadToStreamAsync">
@@ -143,8 +130,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Batch.Conventions.Files.OutputFileReference.DownloadToStreamAsync(System.IO.Stream,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Batch.Conventions.Files</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -159,36 +146,30 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="target">The target stream.</param>
-        <param name="cancellationToken">A <see cref="T:System.Threading.CancellationToken" /> for controlling the lifetime of the asynchronous operation.</param>
-        <summary>
-            Downloads the contents of the file to a stream.
-            </summary>
-        <returns>A <see cref="T:System.Threading.Tasks.Task" /> that represents the asynchronous operation.</returns>
+        <param name="target">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <altmember cref="M:Microsoft.WindowsAzure.Storage.Blob.ICloudBlob.DownloadToStreamAsync(System.IO.Stream)" />
       </Docs>
     </Member>
     <Member MemberName="FilePath">
       <MemberSignature Language="C#" Value="public string FilePath { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string FilePath" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Batch.Conventions.Files.OutputFileReference.FilePath" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FilePath As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Batch.Conventions.Files</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-            Gets the path under which the file was stored.
-            </summary>
+        <summary>To be added.</summary>
         <value>To be added.</value>
-        <remarks>If the file was stored under a directory path, the FilePath property uses the directory
-            separator of the underlying blob storage (for example, mydirectory/myfile.txt). Such paths may
-            not be directly usable as Windows paths.</remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="OpenReadAsync">
@@ -197,8 +178,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Batch.Conventions.Files.OutputFileReference.OpenReadAsync(System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Batch.Conventions.Files</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -212,31 +193,27 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="cancellationToken">A <see cref="T:System.Threading.CancellationToken" /> for controlling the lifetime of the asynchronous operation.</param>
-        <summary>
-            Opens a stream for reading from the file in persistent storage.
-            </summary>
-        <returns>A stream to be used for reading from the blob.</returns>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <altmember cref="M:Microsoft.WindowsAzure.Storage.Blob.ICloudBlob.OpenReadAsync(Microsoft.WindowsAzure.Storage.AccessCondition,Microsoft.WindowsAzure.Storage.Blob.BlobRequestOptions,Microsoft.WindowsAzure.Storage.OperationContext)" />
       </Docs>
     </Member>
     <Member MemberName="Uri">
       <MemberSignature Language="C#" Value="public Uri Uri { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Uri Uri" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Batch.Conventions.Files.OutputFileReference.Uri" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Uri As Uri" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Batch.Conventions.Files</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Uri</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-            Gets the URI of the file in persistent storage.
-            </summary>
+        <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

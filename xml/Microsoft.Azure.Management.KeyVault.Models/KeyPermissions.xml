@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public static class KeyPermissions" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit KeyPermissions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.KeyVault.Models.KeyPermissions" />
+  <TypeSignature Language="VB.NET" Value="Public Class KeyPermissions" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.KeyVault</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -21,10 +22,11 @@
       <MemberSignature Language="C#" Value="public const string Backup;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string Backup" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.KeyVault.Models.KeyPermissions.Backup" />
+      <MemberSignature Language="VB.NET" Value="Public Const Backup As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.KeyVault</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -38,10 +40,11 @@
       <MemberSignature Language="C#" Value="public const string Create;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string Create" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.KeyVault.Models.KeyPermissions.Create" />
+      <MemberSignature Language="VB.NET" Value="Public Const Create As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.KeyVault</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -55,10 +58,11 @@
       <MemberSignature Language="C#" Value="public const string Decrypt;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string Decrypt" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.KeyVault.Models.KeyPermissions.Decrypt" />
+      <MemberSignature Language="VB.NET" Value="Public Const Decrypt As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.KeyVault</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -72,10 +76,11 @@
       <MemberSignature Language="C#" Value="public const string Delete;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string Delete" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.KeyVault.Models.KeyPermissions.Delete" />
+      <MemberSignature Language="VB.NET" Value="Public Const Delete As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.KeyVault</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -89,10 +94,11 @@
       <MemberSignature Language="C#" Value="public const string Encrypt;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string Encrypt" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.KeyVault.Models.KeyPermissions.Encrypt" />
+      <MemberSignature Language="VB.NET" Value="Public Const Encrypt As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.KeyVault</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -106,10 +112,11 @@
       <MemberSignature Language="C#" Value="public const string Get;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string Get" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.KeyVault.Models.KeyPermissions.Get" />
+      <MemberSignature Language="VB.NET" Value="Public Const Get As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.KeyVault</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -123,10 +130,11 @@
       <MemberSignature Language="C#" Value="public const string Import;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string Import" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.KeyVault.Models.KeyPermissions.Import" />
+      <MemberSignature Language="VB.NET" Value="Public Const Import As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.KeyVault</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -140,10 +148,11 @@
       <MemberSignature Language="C#" Value="public const string List;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string List" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.KeyVault.Models.KeyPermissions.List" />
+      <MemberSignature Language="VB.NET" Value="Public Const List As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.KeyVault</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -157,6 +166,7 @@
       <MemberSignature Language="C#" Value="public const string Purge;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string Purge" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.KeyVault.Models.KeyPermissions.Purge" />
+      <MemberSignature Language="VB.NET" Value="Public Const Purge As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.KeyVault</AssemblyName>
@@ -174,6 +184,7 @@
       <MemberSignature Language="C#" Value="public const string Recover;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string Recover" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.KeyVault.Models.KeyPermissions.Recover" />
+      <MemberSignature Language="VB.NET" Value="Public Const Recover As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.KeyVault</AssemblyName>
@@ -191,10 +202,11 @@
       <MemberSignature Language="C#" Value="public const string Restore;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string Restore" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.KeyVault.Models.KeyPermissions.Restore" />
+      <MemberSignature Language="VB.NET" Value="Public Const Restore As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.KeyVault</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -208,10 +220,11 @@
       <MemberSignature Language="C#" Value="public const string Sign;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string Sign" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.KeyVault.Models.KeyPermissions.Sign" />
+      <MemberSignature Language="VB.NET" Value="Public Const Sign As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.KeyVault</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -225,10 +238,11 @@
       <MemberSignature Language="C#" Value="public const string UnwrapKey;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string UnwrapKey" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.KeyVault.Models.KeyPermissions.UnwrapKey" />
+      <MemberSignature Language="VB.NET" Value="Public Const UnwrapKey As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.KeyVault</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -242,10 +256,11 @@
       <MemberSignature Language="C#" Value="public const string Update;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string Update" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.KeyVault.Models.KeyPermissions.Update" />
+      <MemberSignature Language="VB.NET" Value="Public Const Update As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.KeyVault</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -259,10 +274,11 @@
       <MemberSignature Language="C#" Value="public const string Verify;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string Verify" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.KeyVault.Models.KeyPermissions.Verify" />
+      <MemberSignature Language="VB.NET" Value="Public Const Verify As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.KeyVault</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -276,10 +292,11 @@
       <MemberSignature Language="C#" Value="public const string WrapKey;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string WrapKey" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.KeyVault.Models.KeyPermissions.WrapKey" />
+      <MemberSignature Language="VB.NET" Value="Public Const WrapKey As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.KeyVault</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

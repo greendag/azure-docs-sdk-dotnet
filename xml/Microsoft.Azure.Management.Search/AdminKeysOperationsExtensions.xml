@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public static class AdminKeysOperationsExtensions" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit AdminKeysOperationsExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Search.AdminKeysOperationsExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module AdminKeysOperationsExtensions" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Search</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,8 +24,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Search.AdminKeysOperationsExtensions.Get(Microsoft.Azure.Management.Search.IAdminKeysOperations,System.String,System.String,Microsoft.Azure.Management.Search.Models.SearchManagementRequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Search</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Search.Models.AdminKeyResult</ReturnType>
@@ -64,8 +65,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Search.AdminKeysOperationsExtensions.GetAsync(Microsoft.Azure.Management.Search.IAdminKeysOperations,System.String,System.String,Microsoft.Azure.Management.Search.Models.SearchManagementRequestOptions,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Search</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -114,8 +115,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Search.AdminKeysOperationsExtensions.Regenerate(Microsoft.Azure.Management.Search.IAdminKeysOperations,System.String,System.String,Microsoft.Azure.Management.Search.Models.AdminKeyKind,Microsoft.Azure.Management.Search.Models.SearchManagementRequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Search</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Search.Models.AdminKeyResult</ReturnType>
@@ -160,8 +161,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Search.AdminKeysOperationsExtensions.RegenerateAsync(Microsoft.Azure.Management.Search.IAdminKeysOperations,System.String,System.String,Microsoft.Azure.Management.Search.Models.AdminKeyKind,Microsoft.Azure.Management.Search.Models.SearchManagementRequestOptions,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Search</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>

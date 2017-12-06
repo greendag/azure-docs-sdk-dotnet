@@ -2,9 +2,10 @@
   <TypeSignature Language="C#" Value="public interface IJob" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IJob" />
   <TypeSignature Language="DocId" Value="T:Microsoft.WindowsAzure.MediaServices.Client.IJob" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IJob" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client</AssemblyName>
-    <AssemblyVersion>3.8.0.5</AssemblyVersion>
+    <AssemblyVersion>4.0.0.4</AssemblyVersion>
   </AssemblyInfo>
   <Interfaces />
   <Docs>
@@ -16,10 +17,11 @@
       <MemberSignature Language="C#" Value="public void Cancel ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Cancel() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.MediaServices.Client.IJob.Cancel" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Cancel ()" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -34,10 +36,11 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task CancelAsync ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task CancelAsync() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.MediaServices.Client.IJob.CancelAsync" />
+      <MemberSignature Language="VB.NET" Value="Public Function CancelAsync () As Task" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -53,10 +56,11 @@
       <MemberSignature Language="C#" Value="public DateTime Created { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime Created" />
       <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.MediaServices.Client.IJob.Created" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Created As DateTime" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.DateTime</ReturnType>
@@ -71,10 +75,11 @@
       <MemberSignature Language="C#" Value="public void Delete ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Delete() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.MediaServices.Client.IJob.Delete" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Delete ()" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -89,10 +94,11 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task DeleteAsync ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task DeleteAsync() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.MediaServices.Client.IJob.DeleteAsync" />
+      <MemberSignature Language="VB.NET" Value="Public Function DeleteAsync () As Task" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -108,10 +114,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; EndTime { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; EndTime" />
       <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.MediaServices.Client.IJob.EndTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EndTime As Nullable(Of DateTime)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
@@ -128,8 +135,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.MediaServices.Client.IJob.GetExecutionProgressTask(System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -148,10 +155,11 @@
       <MemberSignature Language="C#" Value="public string Id { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Id" />
       <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.MediaServices.Client.IJob.Id" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Id As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -166,10 +174,11 @@
       <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.WindowsAzure.MediaServices.Client.IAsset&gt; InputMediaAssets { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.ObjectModel.ReadOnlyCollection`1&lt;class Microsoft.WindowsAzure.MediaServices.Client.IAsset&gt; InputMediaAssets" />
       <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.MediaServices.Client.IJob.InputMediaAssets" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InputMediaAssets As ReadOnlyCollection(Of IAsset)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.WindowsAzure.MediaServices.Client.IAsset&gt;</ReturnType>
@@ -184,10 +193,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.WindowsAzure.MediaServices.Client.JobNotificationSubscriptionCollection JobNotificationSubscriptions { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.WindowsAzure.MediaServices.Client.JobNotificationSubscriptionCollection JobNotificationSubscriptions" />
       <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.MediaServices.Client.IJob.JobNotificationSubscriptions" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property JobNotificationSubscriptions As JobNotificationSubscriptionCollection" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.MediaServices.Client.JobNotificationSubscriptionCollection</ReturnType>
@@ -202,10 +212,11 @@
       <MemberSignature Language="C#" Value="public DateTime LastModified { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime LastModified" />
       <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.MediaServices.Client.IJob.LastModified" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LastModified As DateTime" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.DateTime</ReturnType>
@@ -220,10 +231,11 @@
       <MemberSignature Language="C#" Value="public string Name { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Name" />
       <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.MediaServices.Client.IJob.Name" />
+      <MemberSignature Language="VB.NET" Value="Public Property Name As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -238,10 +250,11 @@
       <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.WindowsAzure.MediaServices.Client.IAsset&gt; OutputMediaAssets { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.ObjectModel.ReadOnlyCollection`1&lt;class Microsoft.WindowsAzure.MediaServices.Client.IAsset&gt; OutputMediaAssets" />
       <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.MediaServices.Client.IJob.OutputMediaAssets" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OutputMediaAssets As ReadOnlyCollection(Of IAsset)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.WindowsAzure.MediaServices.Client.IAsset&gt;</ReturnType>
@@ -256,10 +269,11 @@
       <MemberSignature Language="C#" Value="public int Priority { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 Priority" />
       <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.MediaServices.Client.IJob.Priority" />
+      <MemberSignature Language="VB.NET" Value="Public Property Priority As Integer" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -274,10 +288,11 @@
       <MemberSignature Language="C#" Value="public void Refresh ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Refresh() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.MediaServices.Client.IJob.Refresh" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Refresh ()" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -292,10 +307,11 @@
       <MemberSignature Language="C#" Value="public TimeSpan RunningDuration { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.TimeSpan RunningDuration" />
       <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.MediaServices.Client.IJob.RunningDuration" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RunningDuration As TimeSpan" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.TimeSpan</ReturnType>
@@ -310,10 +326,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.WindowsAzure.MediaServices.Client.IJobTemplate SaveAsTemplate (string templateName);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.WindowsAzure.MediaServices.Client.IJobTemplate SaveAsTemplate(string templateName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.MediaServices.Client.IJob.SaveAsTemplate(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function SaveAsTemplate (templateName As String) As IJobTemplate" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.MediaServices.Client.IJobTemplate</ReturnType>
@@ -332,10 +349,11 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.MediaServices.Client.IJobTemplate&gt; SaveAsTemplateAsync (string templateName);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.WindowsAzure.MediaServices.Client.IJobTemplate&gt; SaveAsTemplateAsync(string templateName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.MediaServices.Client.IJob.SaveAsTemplateAsync(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function SaveAsTemplateAsync (templateName As String) As Task(Of IJobTemplate)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.MediaServices.Client.IJobTemplate&gt;</ReturnType>
@@ -354,10 +372,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; StartTime { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; StartTime" />
       <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.MediaServices.Client.IJob.StartTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StartTime As Nullable(Of DateTime)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
@@ -372,10 +391,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.WindowsAzure.MediaServices.Client.JobState State { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.WindowsAzure.MediaServices.Client.JobState State" />
       <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.MediaServices.Client.IJob.State" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property State As JobState" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.MediaServices.Client.JobState</ReturnType>
@@ -387,13 +407,14 @@
       </Docs>
     </Member>
     <Member MemberName="StateChanged">
-      <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.WindowsAzure.MediaServices.Client.JobStateChangedEventArgs&gt; StateChanged;" />
+      <MemberSignature Language="C#" Value="event EventHandler&lt;Microsoft.WindowsAzure.MediaServices.Client.JobStateChangedEventArgs&gt; StateChanged;" />
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.WindowsAzure.MediaServices.Client.JobStateChangedEventArgs&gt; StateChanged" />
       <MemberSignature Language="DocId" Value="E:Microsoft.WindowsAzure.MediaServices.Client.IJob.StateChanged" />
+      <MemberSignature Language="VB.NET" Value="Event StateChanged As EventHandler(Of JobStateChangedEventArgs) " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.EventHandler&lt;Microsoft.WindowsAzure.MediaServices.Client.JobStateChangedEventArgs&gt;</ReturnType>
@@ -407,10 +428,11 @@
       <MemberSignature Language="C#" Value="public void Submit ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Submit() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.MediaServices.Client.IJob.Submit" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Submit ()" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -425,10 +447,11 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.MediaServices.Client.IJob&gt; SubmitAsync ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.WindowsAzure.MediaServices.Client.IJob&gt; SubmitAsync() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.MediaServices.Client.IJob.SubmitAsync" />
+      <MemberSignature Language="VB.NET" Value="Public Function SubmitAsync () As Task(Of IJob)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.MediaServices.Client.IJob&gt;</ReturnType>
@@ -444,10 +467,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.WindowsAzure.MediaServices.Client.TaskCollection Tasks { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.WindowsAzure.MediaServices.Client.TaskCollection Tasks" />
       <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.MediaServices.Client.IJob.Tasks" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Tasks As TaskCollection" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.MediaServices.Client.TaskCollection</ReturnType>
@@ -462,10 +486,11 @@
       <MemberSignature Language="C#" Value="public string TemplateId { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string TemplateId" />
       <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.MediaServices.Client.IJob.TemplateId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TemplateId As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -480,10 +505,11 @@
       <MemberSignature Language="C#" Value="public void Update ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Update() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.MediaServices.Client.IJob.Update" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Update ()" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -498,10 +524,11 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.MediaServices.Client.IJob&gt; UpdateAsync ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.WindowsAzure.MediaServices.Client.IJob&gt; UpdateAsync() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.MediaServices.Client.IJob.UpdateAsync" />
+      <MemberSignature Language="VB.NET" Value="Public Function UpdateAsync () As Task(Of IJob)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.WindowsAzure.MediaServices.Client.IJob&gt;</ReturnType>

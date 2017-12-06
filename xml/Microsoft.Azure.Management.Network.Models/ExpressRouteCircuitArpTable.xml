@@ -2,9 +2,9 @@
   <TypeSignature Language="C#" Value="public class ExpressRouteCircuitArpTable" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ExpressRouteCircuitArpTable extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Network.Models.ExpressRouteCircuitArpTable" />
+  <TypeSignature Language="VB.NET" Value="Public Class ExpressRouteCircuitArpTable" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-    <AssemblyVersion>9.1.0.0</AssemblyVersion>
     <AssemblyVersion>14.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
@@ -22,10 +22,10 @@
       <MemberSignature Language="C#" Value="public ExpressRouteCircuitArpTable ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.Models.ExpressRouteCircuitArpTable.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
@@ -41,10 +41,10 @@
       <MemberSignature Language="C#" Value="public ExpressRouteCircuitArpTable (Nullable&lt;int&gt; age = null, string interfaceProperty = null, string ipAddress = null, string macAddress = null);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.Nullable`1&lt;int32&gt; age, string interfaceProperty, string ipAddress, string macAddress) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.Models.ExpressRouteCircuitArpTable.#ctor(System.Nullable{System.Int32},System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (Optional age As Nullable(Of Integer) = null, Optional interfaceProperty As String = null, Optional ipAddress As String = null, Optional macAddress As String = null)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -69,10 +69,10 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; Age { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; Age" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Network.Models.ExpressRouteCircuitArpTable.Age" />
+      <MemberSignature Language="VB.NET" Value="Public Property Age As Nullable(Of Integer)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -95,10 +95,10 @@
       <MemberSignature Language="C#" Value="public string InterfaceProperty { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string InterfaceProperty" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Network.Models.ExpressRouteCircuitArpTable.InterfaceProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Property InterfaceProperty As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -121,10 +121,10 @@
       <MemberSignature Language="C#" Value="public string IpAddress { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string IpAddress" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Network.Models.ExpressRouteCircuitArpTable.IpAddress" />
+      <MemberSignature Language="VB.NET" Value="Public Property IpAddress As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -147,10 +147,10 @@
       <MemberSignature Language="C#" Value="public string MacAddress { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string MacAddress" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Network.Models.ExpressRouteCircuitArpTable.MacAddress" />
+      <MemberSignature Language="VB.NET" Value="Public Property MacAddress As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
-        <AssemblyVersion>9.1.0.0</AssemblyVersion>
         <AssemblyVersion>14.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>

@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public static class EndpointsOperationsExtensions" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit EndpointsOperationsExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Cdn.Fluent.EndpointsOperationsExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module EndpointsOperationsExtensions" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
     <AssemblyVersion>1.0.0.60</AssemblyVersion>
@@ -21,10 +22,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Cdn.Fluent.Models.EndpointInner BeginCreate (this Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations operations, string resourceGroupName, string profileName, string endpointName, Microsoft.Azure.Management.Cdn.Fluent.Models.EndpointInner endpoint);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Cdn.Fluent.Models.EndpointInner BeginCreate(class Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations operations, string resourceGroupName, string profileName, string endpointName, class Microsoft.Azure.Management.Cdn.Fluent.Models.EndpointInner endpoint) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.EndpointsOperationsExtensions.BeginCreate(Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations,System.String,System.String,System.String,Microsoft.Azure.Management.Cdn.Fluent.Models.EndpointInner)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginCreate (operations As IEndpointsOperations, resourceGroupName As String, profileName As String, endpointName As String, endpoint As EndpointInner) As EndpointInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Cdn.Fluent.Models.EndpointInner</ReturnType>
@@ -66,8 +68,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.EndpointsOperationsExtensions.BeginCreateAsync(Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations,System.String,System.String,System.String,Microsoft.Azure.Management.Cdn.Fluent.Models.EndpointInner,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -116,10 +118,11 @@
       <MemberSignature Language="C#" Value="public static void BeginDelete (this Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations operations, string resourceGroupName, string profileName, string endpointName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void BeginDelete(class Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations operations, string resourceGroupName, string profileName, string endpointName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.EndpointsOperationsExtensions.BeginDelete(Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub BeginDelete (operations As IEndpointsOperations, resourceGroupName As String, profileName As String, endpointName As String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -156,8 +159,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.EndpointsOperationsExtensions.BeginDeleteAsync(Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -202,10 +205,11 @@
       <MemberSignature Language="C#" Value="public static void BeginLoadContent (this Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations operations, string resourceGroupName, string profileName, string endpointName, System.Collections.Generic.IList&lt;string&gt; contentPaths);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void BeginLoadContent(class Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations operations, string resourceGroupName, string profileName, string endpointName, class System.Collections.Generic.IList`1&lt;string&gt; contentPaths) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.EndpointsOperationsExtensions.BeginLoadContent(Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations,System.String,System.String,System.String,System.Collections.Generic.IList{System.String})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub BeginLoadContent (operations As IEndpointsOperations, resourceGroupName As String, profileName As String, endpointName As String, contentPaths As IList(Of String))" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -246,8 +250,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.EndpointsOperationsExtensions.BeginLoadContentAsync(Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations,System.String,System.String,System.String,System.Collections.Generic.IList{System.String},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -296,10 +300,11 @@
       <MemberSignature Language="C#" Value="public static void BeginPurgeContent (this Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations operations, string resourceGroupName, string profileName, string endpointName, System.Collections.Generic.IList&lt;string&gt; contentPaths);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void BeginPurgeContent(class Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations operations, string resourceGroupName, string profileName, string endpointName, class System.Collections.Generic.IList`1&lt;string&gt; contentPaths) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.EndpointsOperationsExtensions.BeginPurgeContent(Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations,System.String,System.String,System.String,System.Collections.Generic.IList{System.String})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub BeginPurgeContent (operations As IEndpointsOperations, resourceGroupName As String, profileName As String, endpointName As String, contentPaths As IList(Of String))" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -340,8 +345,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.EndpointsOperationsExtensions.BeginPurgeContentAsync(Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations,System.String,System.String,System.String,System.Collections.Generic.IList{System.String},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -390,10 +395,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Cdn.Fluent.Models.EndpointInner BeginStart (this Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations operations, string resourceGroupName, string profileName, string endpointName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Cdn.Fluent.Models.EndpointInner BeginStart(class Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations operations, string resourceGroupName, string profileName, string endpointName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.EndpointsOperationsExtensions.BeginStart(Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginStart (operations As IEndpointsOperations, resourceGroupName As String, profileName As String, endpointName As String) As EndpointInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Cdn.Fluent.Models.EndpointInner</ReturnType>
@@ -430,8 +436,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.EndpointsOperationsExtensions.BeginStartAsync(Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -475,10 +481,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Cdn.Fluent.Models.EndpointInner BeginStop (this Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations operations, string resourceGroupName, string profileName, string endpointName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Cdn.Fluent.Models.EndpointInner BeginStop(class Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations operations, string resourceGroupName, string profileName, string endpointName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.EndpointsOperationsExtensions.BeginStop(Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginStop (operations As IEndpointsOperations, resourceGroupName As String, profileName As String, endpointName As String) As EndpointInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Cdn.Fluent.Models.EndpointInner</ReturnType>
@@ -515,8 +522,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.EndpointsOperationsExtensions.BeginStopAsync(Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -560,10 +567,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Cdn.Fluent.Models.EndpointInner BeginUpdate (this Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations operations, string resourceGroupName, string profileName, string endpointName, Microsoft.Azure.Management.Cdn.Fluent.Models.EndpointUpdateParametersInner endpointUpdateProperties);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Cdn.Fluent.Models.EndpointInner BeginUpdate(class Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations operations, string resourceGroupName, string profileName, string endpointName, class Microsoft.Azure.Management.Cdn.Fluent.Models.EndpointUpdateParametersInner endpointUpdateProperties) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.EndpointsOperationsExtensions.BeginUpdate(Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations,System.String,System.String,System.String,Microsoft.Azure.Management.Cdn.Fluent.Models.EndpointUpdateParametersInner)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginUpdate (operations As IEndpointsOperations, resourceGroupName As String, profileName As String, endpointName As String, endpointUpdateProperties As EndpointUpdateParametersInner) As EndpointInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Cdn.Fluent.Models.EndpointInner</ReturnType>
@@ -608,8 +616,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.EndpointsOperationsExtensions.BeginUpdateAsync(Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations,System.String,System.String,System.String,Microsoft.Azure.Management.Cdn.Fluent.Models.EndpointUpdateParametersInner,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -661,10 +669,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Cdn.Fluent.Models.EndpointInner Create (this Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations operations, string resourceGroupName, string profileName, string endpointName, Microsoft.Azure.Management.Cdn.Fluent.Models.EndpointInner endpoint);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Cdn.Fluent.Models.EndpointInner Create(class Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations operations, string resourceGroupName, string profileName, string endpointName, class Microsoft.Azure.Management.Cdn.Fluent.Models.EndpointInner endpoint) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.EndpointsOperationsExtensions.Create(Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations,System.String,System.String,System.String,Microsoft.Azure.Management.Cdn.Fluent.Models.EndpointInner)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Create (operations As IEndpointsOperations, resourceGroupName As String, profileName As String, endpointName As String, endpoint As EndpointInner) As EndpointInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Cdn.Fluent.Models.EndpointInner</ReturnType>
@@ -706,8 +715,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.EndpointsOperationsExtensions.CreateAsync(Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations,System.String,System.String,System.String,Microsoft.Azure.Management.Cdn.Fluent.Models.EndpointInner,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -756,10 +765,11 @@
       <MemberSignature Language="C#" Value="public static void Delete (this Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations operations, string resourceGroupName, string profileName, string endpointName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Delete(class Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations operations, string resourceGroupName, string profileName, string endpointName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.EndpointsOperationsExtensions.Delete(Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub Delete (operations As IEndpointsOperations, resourceGroupName As String, profileName As String, endpointName As String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -796,8 +806,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.EndpointsOperationsExtensions.DeleteAsync(Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -842,10 +852,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Cdn.Fluent.Models.EndpointInner Get (this Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations operations, string resourceGroupName, string profileName, string endpointName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Cdn.Fluent.Models.EndpointInner Get(class Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations operations, string resourceGroupName, string profileName, string endpointName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.EndpointsOperationsExtensions.Get(Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Get (operations As IEndpointsOperations, resourceGroupName As String, profileName As String, endpointName As String) As EndpointInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Cdn.Fluent.Models.EndpointInner</ReturnType>
@@ -883,8 +894,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.EndpointsOperationsExtensions.GetAsync(Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -929,10 +940,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Cdn.Fluent.Models.EndpointInner&gt; ListByProfile (this Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations operations, string resourceGroupName, string profileName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Cdn.Fluent.Models.EndpointInner&gt; ListByProfile(class Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations operations, string resourceGroupName, string profileName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.EndpointsOperationsExtensions.ListByProfile(Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListByProfile (operations As IEndpointsOperations, resourceGroupName As String, profileName As String) As IPage(Of EndpointInner)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Cdn.Fluent.Models.EndpointInner&gt;</ReturnType>
@@ -965,8 +977,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.EndpointsOperationsExtensions.ListByProfileAsync(Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1006,10 +1018,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Cdn.Fluent.Models.EndpointInner&gt; ListByProfileNext (this Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations operations, string nextPageLink);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Cdn.Fluent.Models.EndpointInner&gt; ListByProfileNext(class Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations operations, string nextPageLink) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.EndpointsOperationsExtensions.ListByProfileNext(Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListByProfileNext (operations As IEndpointsOperations, nextPageLink As String) As IPage(Of EndpointInner)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Cdn.Fluent.Models.EndpointInner&gt;</ReturnType>
@@ -1038,8 +1051,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.EndpointsOperationsExtensions.ListByProfileNextAsync(Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1072,16 +1085,17 @@
       </Docs>
     </Member>
     <Member MemberName="ListResourceUsage">
-      <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Cdn.Fluent.Models.ResourceUsage&gt; ListResourceUsage (this Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations operations, string resourceGroupName, string profileName, string endpointName);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Cdn.Fluent.Models.ResourceUsage&gt; ListResourceUsage(class Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations operations, string resourceGroupName, string profileName, string endpointName) cil managed" />
+      <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Cdn.Fluent.Models.ResourceUsageInner&gt; ListResourceUsage (this Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations operations, string resourceGroupName, string profileName, string endpointName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Cdn.Fluent.Models.ResourceUsageInner&gt; ListResourceUsage(class Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations operations, string resourceGroupName, string profileName, string endpointName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.EndpointsOperationsExtensions.ListResourceUsage(Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListResourceUsage (operations As IEndpointsOperations, resourceGroupName As String, profileName As String, endpointName As String) As IPage(Of ResourceUsageInner)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Cdn.Fluent.Models.ResourceUsage&gt;</ReturnType>
+        <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Cdn.Fluent.Models.ResourceUsageInner&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="operations" Type="Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations" RefType="this" />
@@ -1111,13 +1125,13 @@
       </Docs>
     </Member>
     <Member MemberName="ListResourceUsageAsync">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Cdn.Fluent.Models.ResourceUsage&gt;&gt; ListResourceUsageAsync (this Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations operations, string resourceGroupName, string profileName, string endpointName, System.Threading.CancellationToken cancellationToken = null);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Cdn.Fluent.Models.ResourceUsage&gt;&gt; ListResourceUsageAsync(class Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations operations, string resourceGroupName, string profileName, string endpointName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Cdn.Fluent.Models.ResourceUsageInner&gt;&gt; ListResourceUsageAsync (this Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations operations, string resourceGroupName, string profileName, string endpointName, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Cdn.Fluent.Models.ResourceUsageInner&gt;&gt; ListResourceUsageAsync(class Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations operations, string resourceGroupName, string profileName, string endpointName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.EndpointsOperationsExtensions.ListResourceUsageAsync(Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1125,7 +1139,7 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Cdn.Fluent.Models.ResourceUsage&gt;&gt;</ReturnType>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Cdn.Fluent.Models.ResourceUsageInner&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="operations" Type="Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations" RefType="this" />
@@ -1159,16 +1173,17 @@
       </Docs>
     </Member>
     <Member MemberName="ListResourceUsageNext">
-      <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Cdn.Fluent.Models.ResourceUsage&gt; ListResourceUsageNext (this Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations operations, string nextPageLink);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Cdn.Fluent.Models.ResourceUsage&gt; ListResourceUsageNext(class Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations operations, string nextPageLink) cil managed" />
+      <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Cdn.Fluent.Models.ResourceUsageInner&gt; ListResourceUsageNext (this Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations operations, string nextPageLink);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Cdn.Fluent.Models.ResourceUsageInner&gt; ListResourceUsageNext(class Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations operations, string nextPageLink) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.EndpointsOperationsExtensions.ListResourceUsageNext(Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListResourceUsageNext (operations As IEndpointsOperations, nextPageLink As String) As IPage(Of ResourceUsageInner)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Cdn.Fluent.Models.ResourceUsage&gt;</ReturnType>
+        <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Cdn.Fluent.Models.ResourceUsageInner&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="operations" Type="Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations" RefType="this" />
@@ -1190,13 +1205,13 @@
       </Docs>
     </Member>
     <Member MemberName="ListResourceUsageNextAsync">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Cdn.Fluent.Models.ResourceUsage&gt;&gt; ListResourceUsageNextAsync (this Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations operations, string nextPageLink, System.Threading.CancellationToken cancellationToken = null);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Cdn.Fluent.Models.ResourceUsage&gt;&gt; ListResourceUsageNextAsync(class Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations operations, string nextPageLink, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Cdn.Fluent.Models.ResourceUsageInner&gt;&gt; ListResourceUsageNextAsync (this Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations operations, string nextPageLink, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Cdn.Fluent.Models.ResourceUsageInner&gt;&gt; ListResourceUsageNextAsync(class Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations operations, string nextPageLink, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.EndpointsOperationsExtensions.ListResourceUsageNextAsync(Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1204,7 +1219,7 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Cdn.Fluent.Models.ResourceUsage&gt;&gt;</ReturnType>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Cdn.Fluent.Models.ResourceUsageInner&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="operations" Type="Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations" RefType="this" />
@@ -1233,10 +1248,11 @@
       <MemberSignature Language="C#" Value="public static void LoadContent (this Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations operations, string resourceGroupName, string profileName, string endpointName, System.Collections.Generic.IList&lt;string&gt; contentPaths);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void LoadContent(class Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations operations, string resourceGroupName, string profileName, string endpointName, class System.Collections.Generic.IList`1&lt;string&gt; contentPaths) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.EndpointsOperationsExtensions.LoadContent(Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations,System.String,System.String,System.String,System.Collections.Generic.IList{System.String})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub LoadContent (operations As IEndpointsOperations, resourceGroupName As String, profileName As String, endpointName As String, contentPaths As IList(Of String))" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1277,8 +1293,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.EndpointsOperationsExtensions.LoadContentAsync(Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations,System.String,System.String,System.String,System.Collections.Generic.IList{System.String},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1327,10 +1343,11 @@
       <MemberSignature Language="C#" Value="public static void PurgeContent (this Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations operations, string resourceGroupName, string profileName, string endpointName, System.Collections.Generic.IList&lt;string&gt; contentPaths);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void PurgeContent(class Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations operations, string resourceGroupName, string profileName, string endpointName, class System.Collections.Generic.IList`1&lt;string&gt; contentPaths) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.EndpointsOperationsExtensions.PurgeContent(Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations,System.String,System.String,System.String,System.Collections.Generic.IList{System.String})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub PurgeContent (operations As IEndpointsOperations, resourceGroupName As String, profileName As String, endpointName As String, contentPaths As IList(Of String))" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1371,8 +1388,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.EndpointsOperationsExtensions.PurgeContentAsync(Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations,System.String,System.String,System.String,System.Collections.Generic.IList{System.String},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1421,10 +1438,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Cdn.Fluent.Models.EndpointInner Start (this Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations operations, string resourceGroupName, string profileName, string endpointName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Cdn.Fluent.Models.EndpointInner Start(class Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations operations, string resourceGroupName, string profileName, string endpointName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.EndpointsOperationsExtensions.Start(Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Start (operations As IEndpointsOperations, resourceGroupName As String, profileName As String, endpointName As String) As EndpointInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Cdn.Fluent.Models.EndpointInner</ReturnType>
@@ -1461,8 +1479,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.EndpointsOperationsExtensions.StartAsync(Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1506,10 +1524,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Cdn.Fluent.Models.EndpointInner Stop (this Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations operations, string resourceGroupName, string profileName, string endpointName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Cdn.Fluent.Models.EndpointInner Stop(class Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations operations, string resourceGroupName, string profileName, string endpointName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.EndpointsOperationsExtensions.Stop(Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Stop (operations As IEndpointsOperations, resourceGroupName As String, profileName As String, endpointName As String) As EndpointInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Cdn.Fluent.Models.EndpointInner</ReturnType>
@@ -1546,8 +1565,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.EndpointsOperationsExtensions.StopAsync(Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1591,10 +1610,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Cdn.Fluent.Models.EndpointInner Update (this Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations operations, string resourceGroupName, string profileName, string endpointName, Microsoft.Azure.Management.Cdn.Fluent.Models.EndpointUpdateParametersInner endpointUpdateProperties);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Cdn.Fluent.Models.EndpointInner Update(class Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations operations, string resourceGroupName, string profileName, string endpointName, class Microsoft.Azure.Management.Cdn.Fluent.Models.EndpointUpdateParametersInner endpointUpdateProperties) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.EndpointsOperationsExtensions.Update(Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations,System.String,System.String,System.String,Microsoft.Azure.Management.Cdn.Fluent.Models.EndpointUpdateParametersInner)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Update (operations As IEndpointsOperations, resourceGroupName As String, profileName As String, endpointName As String, endpointUpdateProperties As EndpointUpdateParametersInner) As EndpointInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Cdn.Fluent.Models.EndpointInner</ReturnType>
@@ -1639,8 +1659,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.EndpointsOperationsExtensions.UpdateAsync(Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations,System.String,System.String,System.String,Microsoft.Azure.Management.Cdn.Fluent.Models.EndpointUpdateParametersInner,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1692,10 +1712,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Cdn.Fluent.Models.ValidateCustomDomainOutputInner ValidateCustomDomain (this Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations operations, string resourceGroupName, string profileName, string endpointName, string hostName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Cdn.Fluent.Models.ValidateCustomDomainOutputInner ValidateCustomDomain(class Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations operations, string resourceGroupName, string profileName, string endpointName, string hostName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.EndpointsOperationsExtensions.ValidateCustomDomain(Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations,System.String,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ValidateCustomDomain (operations As IEndpointsOperations, resourceGroupName As String, profileName As String, endpointName As String, hostName As String) As ValidateCustomDomainOutputInner" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Cdn.Fluent.Models.ValidateCustomDomainOutputInner</ReturnType>
@@ -1737,8 +1758,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.EndpointsOperationsExtensions.ValidateCustomDomainAsync(Microsoft.Azure.Management.Cdn.Fluent.IEndpointsOperations,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>

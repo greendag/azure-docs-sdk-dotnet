@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public class SftpLinkedService : Microsoft.Azure.Management.DataFactories.Models.LinkedServiceTypeProperties" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SftpLinkedService extends Microsoft.Azure.Management.DataFactories.Models.LinkedServiceTypeProperties" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.DataFactories.Models.SftpLinkedService" />
+  <TypeSignature Language="VB.NET" Value="Public Class SftpLinkedService&#xA;Inherits LinkedServiceTypeProperties" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -26,10 +27,11 @@
       <MemberSignature Language="C#" Value="public SftpLinkedService ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataFactories.Models.SftpLinkedService.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -43,10 +45,11 @@
       <MemberSignature Language="C#" Value="public SftpLinkedService (string host, string authenticationType, string username);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string host, string authenticationType, string username) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataFactories.Models.SftpLinkedService.#ctor(System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (host As String, authenticationType As String, username As String)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="host" Type="System.String" />
@@ -67,10 +70,11 @@
       <MemberSignature Language="C#" Value="public string AuthenticationType { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string AuthenticationType" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactories.Models.SftpLinkedService.AuthenticationType" />
+      <MemberSignature Language="VB.NET" Value="Public Property AuthenticationType As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -92,10 +96,11 @@
       <MemberSignature Language="C#" Value="public string EncryptedCredential { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string EncryptedCredential" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactories.Models.SftpLinkedService.EncryptedCredential" />
+      <MemberSignature Language="VB.NET" Value="Public Property EncryptedCredential As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -112,10 +117,11 @@
       <MemberSignature Language="C#" Value="public string GatewayName { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string GatewayName" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactories.Models.SftpLinkedService.GatewayName" />
+      <MemberSignature Language="VB.NET" Value="Public Property GatewayName As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -132,10 +138,11 @@
       <MemberSignature Language="C#" Value="public string Host { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Host" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactories.Models.SftpLinkedService.Host" />
+      <MemberSignature Language="VB.NET" Value="Public Property Host As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -157,10 +164,11 @@
       <MemberSignature Language="C#" Value="public string HostKeyFingerprint { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string HostKeyFingerprint" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactories.Models.SftpLinkedService.HostKeyFingerprint" />
+      <MemberSignature Language="VB.NET" Value="Public Property HostKeyFingerprint As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -178,10 +186,11 @@
       <MemberSignature Language="C#" Value="public string PassPhrase { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string PassPhrase" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactories.Models.SftpLinkedService.PassPhrase" />
+      <MemberSignature Language="VB.NET" Value="Public Property PassPhrase As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -198,10 +207,11 @@
       <MemberSignature Language="C#" Value="public string Password { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Password" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactories.Models.SftpLinkedService.Password" />
+      <MemberSignature Language="VB.NET" Value="Public Property Password As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -218,10 +228,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; Port { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; Port" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactories.Models.SftpLinkedService.Port" />
+      <MemberSignature Language="VB.NET" Value="Public Property Port As Nullable(Of Integer)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
@@ -238,10 +249,11 @@
       <MemberSignature Language="C#" Value="public string PrivateKeyContent { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string PrivateKeyContent" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactories.Models.SftpLinkedService.PrivateKeyContent" />
+      <MemberSignature Language="VB.NET" Value="Public Property PrivateKeyContent As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -260,10 +272,11 @@
       <MemberSignature Language="C#" Value="public string PrivateKeyPath { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string PrivateKeyPath" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactories.Models.SftpLinkedService.PrivateKeyPath" />
+      <MemberSignature Language="VB.NET" Value="Public Property PrivateKeyPath As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -282,10 +295,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; SkipHostKeyValidation { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; SkipHostKeyValidation" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactories.Models.SftpLinkedService.SkipHostKeyValidation" />
+      <MemberSignature Language="VB.NET" Value="Public Property SkipHostKeyValidation As Nullable(Of Boolean)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
@@ -302,10 +316,11 @@
       <MemberSignature Language="C#" Value="public string Username { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Username" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactories.Models.SftpLinkedService.Username" />
+      <MemberSignature Language="VB.NET" Value="Public Property Username As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

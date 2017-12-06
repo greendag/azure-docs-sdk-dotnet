@@ -2,10 +2,10 @@
   <TypeSignature Language="C#" Value="public sealed class PagedApplicationTypeQueryDescription" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit PagedApplicationTypeQueryDescription extends System.Object" />
   <TypeSignature Language="DocId" Value="T:System.Fabric.Description.PagedApplicationTypeQueryDescription" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class PagedApplicationTypeQueryDescription" />
   <AssemblyInfo>
     <AssemblyName>System.Fabric</AssemblyName>
-    <AssemblyVersion>5.0.0.0</AssemblyVersion>
-    <AssemblyVersion>255.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -26,11 +26,11 @@
       <MemberSignature Language="C#" Value="public PagedApplicationTypeQueryDescription ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.Description.PagedApplicationTypeQueryDescription.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -40,15 +40,42 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="ApplicationTypeDefinitionKindFilter">
+      <MemberSignature Language="C#" Value="public System.Fabric.Description.ApplicationTypeDefinitionKindFilter ApplicationTypeDefinitionKindFilter { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Fabric.Description.ApplicationTypeDefinitionKindFilter ApplicationTypeDefinitionKindFilter" />
+      <MemberSignature Language="DocId" Value="P:System.Fabric.Description.PagedApplicationTypeQueryDescription.ApplicationTypeDefinitionKindFilter" />
+      <MemberSignature Language="VB.NET" Value="Public Property ApplicationTypeDefinitionKindFilter As ApplicationTypeDefinitionKindFilter" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Fabric.Description.ApplicationTypeDefinitionKindFilter</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <para>Gets or sets the definition kind used to filter the application types that will be returned.
+            </para>
+        </summary>
+        <value>
+          <para>The definition kind used to filter the application types.</para>
+        </value>
+        <remarks>
+          <para>If ApplicationTypeDefinitionKindFilter is not specified, the result would not be filtered by definition kind.</para>
+          <para>ApplicationTypeNameFilter and ApplicationTypeDefinitionKindFilter can not be specified together.</para>
+        </remarks>
+      </Docs>
+    </Member>
     <Member MemberName="ApplicationTypeNameFilter">
       <MemberSignature Language="C#" Value="public string ApplicationTypeNameFilter { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string ApplicationTypeNameFilter" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Description.PagedApplicationTypeQueryDescription.ApplicationTypeNameFilter" />
+      <MemberSignature Language="VB.NET" Value="Public Property ApplicationTypeNameFilter As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -68,6 +95,9 @@
             This value should not contain the version of the application type, and matches all versions of the same application type name.
             To request all the application types do not set this value.
             </para>
+          <para>
+            ApplicationTypeNameFilter and ApplicationTypeDefinitionKindFilter can not be specified together.
+            </para>
         </remarks>
       </Docs>
     </Member>
@@ -75,10 +105,11 @@
       <MemberSignature Language="C#" Value="public string ApplicationTypeVersionFilter { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string ApplicationTypeVersionFilter" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Description.PagedApplicationTypeQueryDescription.ApplicationTypeVersionFilter" />
+      <MemberSignature Language="VB.NET" Value="Public Property ApplicationTypeVersionFilter As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Fabric</AssemblyName>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -108,11 +139,11 @@
       <MemberSignature Language="C#" Value="public string ContinuationToken { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string ContinuationToken" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Description.PagedApplicationTypeQueryDescription.ContinuationToken" />
+      <MemberSignature Language="VB.NET" Value="Public Property ContinuationToken As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -141,11 +172,11 @@
       <MemberSignature Language="C#" Value="public bool ExcludeApplicationParameters { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool ExcludeApplicationParameters" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Description.PagedApplicationTypeQueryDescription.ExcludeApplicationParameters" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExcludeApplicationParameters As Boolean" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -169,11 +200,11 @@
       <MemberSignature Language="C#" Value="public long MaxResults { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int64 MaxResults" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Description.PagedApplicationTypeQueryDescription.MaxResults" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaxResults As Long" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int64</ReturnType>
@@ -199,11 +230,11 @@
       <MemberSignature Language="C#" Value="public override string ToString ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.Description.PagedApplicationTypeQueryDescription.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

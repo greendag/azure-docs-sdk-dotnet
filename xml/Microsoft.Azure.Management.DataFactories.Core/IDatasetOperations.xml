@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public interface IDatasetOperations" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IDatasetOperations" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.DataFactories.Core.IDatasetOperations" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IDatasetOperations" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -20,8 +21,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataFactories.Core.IDatasetOperations.BeginCreateOrUpdateAsync(System.String,System.String,Microsoft.Azure.Management.DataFactories.Core.Models.DatasetCreateOrUpdateParameters,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.DataFactories.Core.Models.DatasetCreateOrUpdateResponse&gt;</ReturnType>
@@ -60,8 +61,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataFactories.Core.IDatasetOperations.BeginCreateOrUpdateWithRawJsonContentAsync(System.String,System.String,System.String,Microsoft.Azure.Management.DataFactories.Core.Models.DatasetCreateOrUpdateWithRawJsonContentParameters,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.DataFactories.Core.Models.DatasetCreateOrUpdateResponse&gt;</ReturnType>
@@ -105,8 +106,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataFactories.Core.IDatasetOperations.BeginDeleteAsync(System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.DataFactories.Common.Models.LongRunningOperationResponse&gt;</ReturnType>
@@ -145,8 +146,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataFactories.Core.IDatasetOperations.CreateOrUpdateAsync(System.String,System.String,Microsoft.Azure.Management.DataFactories.Core.Models.DatasetCreateOrUpdateParameters,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.DataFactories.Core.Models.DatasetCreateOrUpdateResponse&gt;</ReturnType>
@@ -185,8 +186,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataFactories.Core.IDatasetOperations.CreateOrUpdateWithRawJsonContentAsync(System.String,System.String,System.String,Microsoft.Azure.Management.DataFactories.Core.Models.DatasetCreateOrUpdateWithRawJsonContentParameters,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.DataFactories.Core.Models.DatasetCreateOrUpdateResponse&gt;</ReturnType>
@@ -230,8 +231,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataFactories.Core.IDatasetOperations.DeleteAsync(System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.DataFactories.Common.Models.LongRunningOperationResponse&gt;</ReturnType>
@@ -270,8 +271,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataFactories.Core.IDatasetOperations.GetAsync(System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.DataFactories.Core.Models.DatasetGetResponse&gt;</ReturnType>
@@ -310,8 +311,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataFactories.Core.IDatasetOperations.GetCreateOrUpdateStatusAsync(System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.DataFactories.Core.Models.DatasetCreateOrUpdateResponse&gt;</ReturnType>
@@ -340,8 +341,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataFactories.Core.IDatasetOperations.ListAsync(System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.DataFactories.Core.Models.DatasetListResponse&gt;</ReturnType>
@@ -377,8 +378,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataFactories.Core.IDatasetOperations.ListNextAsync(System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.DataFactories.Core.Models.DatasetListResponse&gt;</ReturnType>

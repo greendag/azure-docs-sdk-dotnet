@@ -2,10 +2,10 @@
   <TypeSignature Language="C#" Value="public enum OperationType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OperationType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:System.Fabric.OperationType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum OperationType" />
   <AssemblyInfo>
     <AssemblyName>System.Fabric</AssemblyName>
-    <AssemblyVersion>5.0.0.0</AssemblyVersion>
-    <AssemblyVersion>255.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
@@ -21,15 +21,16 @@
       <MemberSignature Language="C#" Value="AtomicGroupOperation" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype System.Fabric.OperationType AtomicGroupOperation = int32(32)" />
       <MemberSignature Language="DocId" Value="F:System.Fabric.OperationType.AtomicGroupOperation" />
+      <MemberSignature Language="VB.NET" Value="AtomicGroupOperation" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Fabric.OperationType</ReturnType>
       </ReturnValue>
+      <MemberValue>32</MemberValue>
       <Docs>
         <summary>
           <para>Specifies that the operation is a part of an atomic group.</para>
@@ -40,15 +41,16 @@
       <MemberSignature Language="C#" Value="CommitAtomicGroup" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype System.Fabric.OperationType CommitAtomicGroup = int32(64)" />
       <MemberSignature Language="DocId" Value="F:System.Fabric.OperationType.CommitAtomicGroup" />
+      <MemberSignature Language="VB.NET" Value="CommitAtomicGroup" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Fabric.OperationType</ReturnType>
       </ReturnValue>
+      <MemberValue>64</MemberValue>
       <Docs>
         <summary>
           <para>Specifies that a particular atomic group to be committed.</para>
@@ -59,15 +61,16 @@
       <MemberSignature Language="C#" Value="CreateAtomicGroup" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype System.Fabric.OperationType CreateAtomicGroup = int32(16)" />
       <MemberSignature Language="DocId" Value="F:System.Fabric.OperationType.CreateAtomicGroup" />
+      <MemberSignature Language="VB.NET" Value="CreateAtomicGroup" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Fabric.OperationType</ReturnType>
       </ReturnValue>
+      <MemberValue>16</MemberValue>
       <Docs>
         <summary>
           <para>Specifies that a particular atomic group to be created.</para>
@@ -78,15 +81,16 @@
       <MemberSignature Language="C#" Value="EndOfStream" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype System.Fabric.OperationType EndOfStream = int32(2)" />
       <MemberSignature Language="DocId" Value="F:System.Fabric.OperationType.EndOfStream" />
+      <MemberSignature Language="VB.NET" Value="EndOfStream" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Fabric.OperationType</ReturnType>
       </ReturnValue>
+      <MemberValue>2</MemberValue>
       <Docs>
         <summary>This supports the Service Fabric infrastructure and is not meant to be used directly from your code.</summary>
       </Docs>
@@ -95,15 +99,16 @@
       <MemberSignature Language="C#" Value="HasAtomicGroupMask" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype System.Fabric.OperationType HasAtomicGroupMask = int32(240)" />
       <MemberSignature Language="DocId" Value="F:System.Fabric.OperationType.HasAtomicGroupMask" />
+      <MemberSignature Language="VB.NET" Value="HasAtomicGroupMask" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Fabric.OperationType</ReturnType>
       </ReturnValue>
+      <MemberValue>240</MemberValue>
       <Docs>
         <summary>
           <para>Specifies that the operation has an atomic group mask.</para>
@@ -114,15 +119,16 @@
       <MemberSignature Language="C#" Value="Invalid" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype System.Fabric.OperationType Invalid = int32(0)" />
       <MemberSignature Language="DocId" Value="F:System.Fabric.OperationType.Invalid" />
+      <MemberSignature Language="VB.NET" Value="Invalid" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Fabric.OperationType</ReturnType>
       </ReturnValue>
+      <MemberValue>0</MemberValue>
       <Docs>
         <summary>
           <para>Specifies that the operation is invalid.</para>
@@ -133,15 +139,16 @@
       <MemberSignature Language="C#" Value="Normal" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype System.Fabric.OperationType Normal = int32(1)" />
       <MemberSignature Language="DocId" Value="F:System.Fabric.OperationType.Normal" />
+      <MemberSignature Language="VB.NET" Value="Normal" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Fabric.OperationType</ReturnType>
       </ReturnValue>
+      <MemberValue>1</MemberValue>
       <Docs>
         <summary>
           <para>Specifies that the operation is not part of an atomic group and should be processed as a standalone copy or replication operation.</para>
@@ -152,15 +159,16 @@
       <MemberSignature Language="C#" Value="RollbackAtomicGroup" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype System.Fabric.OperationType RollbackAtomicGroup = int32(128)" />
       <MemberSignature Language="DocId" Value="F:System.Fabric.OperationType.RollbackAtomicGroup" />
+      <MemberSignature Language="VB.NET" Value="RollbackAtomicGroup" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Fabric.OperationType</ReturnType>
       </ReturnValue>
+      <MemberValue>128</MemberValue>
       <Docs>
         <summary>
           <para>Specifies that a particular atomic group should be rolled back.</para>

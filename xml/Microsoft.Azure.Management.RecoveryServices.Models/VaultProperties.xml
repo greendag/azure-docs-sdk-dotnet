@@ -2,9 +2,9 @@
   <TypeSignature Language="C#" Value="public class VaultProperties" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit VaultProperties extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.RecoveryServices.Models.VaultProperties" />
+  <TypeSignature Language="VB.NET" Value="Public Class VaultProperties" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.RecoveryServices</AssemblyName>
-    <AssemblyVersion>4.1.0.0</AssemblyVersion>
     <AssemblyVersion>4.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
@@ -22,34 +22,14 @@
       <MemberSignature Language="C#" Value="public VaultProperties ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.RecoveryServices.Models.VaultProperties.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.RecoveryServices</AssemblyName>
-        <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>
-            Initializes a new instance of the VaultProperties class.
-            </summary>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public VaultProperties (string provisioningState = null);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string provisioningState) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.RecoveryServices.Models.VaultProperties.#ctor(System.String)" />
-      <MemberType>Constructor</MemberType>
-      <AssemblyInfo>
-        <AssemblyVersion>4.1.0.0</AssemblyVersion>
-        <AssemblyName>Microsoft.Azure.Management.RecoveryServices</AssemblyName>
-      </AssemblyInfo>
-      <Parameters>
-        <Parameter Name="provisioningState" Type="System.String" />
-      </Parameters>
-      <Docs>
-        <param name="provisioningState">Provisioning State.</param>
         <summary>
             Initializes a new instance of the VaultProperties class.
             </summary>
@@ -82,10 +62,10 @@
       <MemberSignature Language="C#" Value="public string ProvisioningState { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string ProvisioningState" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.RecoveryServices.Models.VaultProperties.ProvisioningState" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProvisioningState As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.RecoveryServices</AssemblyName>
-        <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -108,6 +88,7 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.RecoveryServices.Models.UpgradeDetails UpgradeDetails { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.RecoveryServices.Models.UpgradeDetails UpgradeDetails" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.RecoveryServices.Models.VaultProperties.UpgradeDetails" />
+      <MemberSignature Language="VB.NET" Value="Public Property UpgradeDetails As UpgradeDetails" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.RecoveryServices</AssemblyName>

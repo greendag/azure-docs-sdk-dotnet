@@ -2,9 +2,9 @@
   <TypeSignature Language="C#" Value="public static class AdalError" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit AdalError extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.IdentityModel.Clients.ActiveDirectory.AdalError" />
+  <TypeSignature Language="VB.NET" Value="Public Class AdalError" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-    <AssemblyVersion>3.13.9.1126</AssemblyVersion>
     <AssemblyVersion>3.16.0.14</AssemblyVersion>
   </AssemblyInfo>
   <Base>
@@ -22,10 +22,10 @@
       <MemberSignature Language="C#" Value="public const string AccessingWsMetadataExchangeFailed;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string AccessingWsMetadataExchangeFailed" />
       <MemberSignature Language="DocId" Value="F:Microsoft.IdentityModel.Clients.ActiveDirectory.AdalError.AccessingWsMetadataExchangeFailed" />
+      <MemberSignature Language="VB.NET" Value="Public Const AccessingWsMetadataExchangeFailed As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -42,10 +42,10 @@
       <MemberSignature Language="C#" Value="public const string AssemblyLoadFailed;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string AssemblyLoadFailed" />
       <MemberSignature Language="DocId" Value="F:Microsoft.IdentityModel.Clients.ActiveDirectory.AdalError.AssemblyLoadFailed" />
+      <MemberSignature Language="VB.NET" Value="Public Const AssemblyLoadFailed As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -62,10 +62,10 @@
       <MemberSignature Language="C#" Value="public const string AssemblyNotFound;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string AssemblyNotFound" />
       <MemberSignature Language="DocId" Value="F:Microsoft.IdentityModel.Clients.ActiveDirectory.AdalError.AssemblyNotFound" />
+      <MemberSignature Language="VB.NET" Value="Public Const AssemblyNotFound As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -82,10 +82,10 @@
       <MemberSignature Language="C#" Value="public const string AuthenticationCanceled;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string AuthenticationCanceled" />
       <MemberSignature Language="DocId" Value="F:Microsoft.IdentityModel.Clients.ActiveDirectory.AdalError.AuthenticationCanceled" />
+      <MemberSignature Language="VB.NET" Value="Public Const AuthenticationCanceled As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -102,10 +102,10 @@
       <MemberSignature Language="C#" Value="public const string AuthenticationFailed;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string AuthenticationFailed" />
       <MemberSignature Language="DocId" Value="F:Microsoft.IdentityModel.Clients.ActiveDirectory.AdalError.AuthenticationFailed" />
+      <MemberSignature Language="VB.NET" Value="Public Const AuthenticationFailed As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -122,10 +122,10 @@
       <MemberSignature Language="C#" Value="public const string AuthenticationUiFailed;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string AuthenticationUiFailed" />
       <MemberSignature Language="DocId" Value="F:Microsoft.IdentityModel.Clients.ActiveDirectory.AdalError.AuthenticationUiFailed" />
+      <MemberSignature Language="VB.NET" Value="Public Const AuthenticationUiFailed As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -142,10 +142,10 @@
       <MemberSignature Language="C#" Value="public const string AuthorityNotInValidList;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string AuthorityNotInValidList" />
       <MemberSignature Language="DocId" Value="F:Microsoft.IdentityModel.Clients.ActiveDirectory.AdalError.AuthorityNotInValidList" />
+      <MemberSignature Language="VB.NET" Value="Public Const AuthorityNotInValidList As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -162,10 +162,10 @@
       <MemberSignature Language="C#" Value="public const string AuthorityValidationFailed;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string AuthorityValidationFailed" />
       <MemberSignature Language="DocId" Value="F:Microsoft.IdentityModel.Clients.ActiveDirectory.AdalError.AuthorityValidationFailed" />
+      <MemberSignature Language="VB.NET" Value="Public Const AuthorityValidationFailed As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -182,10 +182,10 @@
       <MemberSignature Language="C#" Value="public const string BrokerReponseHashMismatch;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string BrokerReponseHashMismatch" />
       <MemberSignature Language="DocId" Value="F:Microsoft.IdentityModel.Clients.ActiveDirectory.AdalError.BrokerReponseHashMismatch" />
+      <MemberSignature Language="VB.NET" Value="Public Const BrokerReponseHashMismatch As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -202,10 +202,10 @@
       <MemberSignature Language="C#" Value="public const string CertificateKeySizeTooSmall;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string CertificateKeySizeTooSmall" />
       <MemberSignature Language="DocId" Value="F:Microsoft.IdentityModel.Clients.ActiveDirectory.AdalError.CertificateKeySizeTooSmall" />
+      <MemberSignature Language="VB.NET" Value="Public Const CertificateKeySizeTooSmall As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -222,10 +222,10 @@
       <MemberSignature Language="C#" Value="public const string DeviceCertificateNotFound;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string DeviceCertificateNotFound" />
       <MemberSignature Language="DocId" Value="F:Microsoft.IdentityModel.Clients.ActiveDirectory.AdalError.DeviceCertificateNotFound" />
+      <MemberSignature Language="VB.NET" Value="Public Const DeviceCertificateNotFound As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -242,10 +242,10 @@
       <MemberSignature Language="C#" Value="public const string DuplicateQueryParameter;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string DuplicateQueryParameter" />
       <MemberSignature Language="DocId" Value="F:Microsoft.IdentityModel.Clients.ActiveDirectory.AdalError.DuplicateQueryParameter" />
+      <MemberSignature Language="VB.NET" Value="Public Const DuplicateQueryParameter As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -262,10 +262,10 @@
       <MemberSignature Language="C#" Value="public const string EmailAddressSuffixMismatch;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string EmailAddressSuffixMismatch" />
       <MemberSignature Language="DocId" Value="F:Microsoft.IdentityModel.Clients.ActiveDirectory.AdalError.EmailAddressSuffixMismatch" />
+      <MemberSignature Language="VB.NET" Value="Public Const EmailAddressSuffixMismatch As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -282,10 +282,10 @@
       <MemberSignature Language="C#" Value="public const string EncodedTokenTooLong;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string EncodedTokenTooLong" />
       <MemberSignature Language="DocId" Value="F:Microsoft.IdentityModel.Clients.ActiveDirectory.AdalError.EncodedTokenTooLong" />
+      <MemberSignature Language="VB.NET" Value="Public Const EncodedTokenTooLong As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -302,10 +302,10 @@
       <MemberSignature Language="C#" Value="public const string FailedToAcquireTokenSilently;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string FailedToAcquireTokenSilently" />
       <MemberSignature Language="DocId" Value="F:Microsoft.IdentityModel.Clients.ActiveDirectory.AdalError.FailedToAcquireTokenSilently" />
+      <MemberSignature Language="VB.NET" Value="Public Const FailedToAcquireTokenSilently As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -322,10 +322,10 @@
       <MemberSignature Language="C#" Value="public const string FailedToRefreshToken;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string FailedToRefreshToken" />
       <MemberSignature Language="DocId" Value="F:Microsoft.IdentityModel.Clients.ActiveDirectory.AdalError.FailedToRefreshToken" />
+      <MemberSignature Language="VB.NET" Value="Public Const FailedToRefreshToken As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -342,10 +342,10 @@
       <MemberSignature Language="C#" Value="public const string FederatedServiceReturnedError;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string FederatedServiceReturnedError" />
       <MemberSignature Language="DocId" Value="F:Microsoft.IdentityModel.Clients.ActiveDirectory.AdalError.FederatedServiceReturnedError" />
+      <MemberSignature Language="VB.NET" Value="Public Const FederatedServiceReturnedError As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -362,10 +362,10 @@
       <MemberSignature Language="C#" Value="public const string GetUserNameFailed;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string GetUserNameFailed" />
       <MemberSignature Language="DocId" Value="F:Microsoft.IdentityModel.Clients.ActiveDirectory.AdalError.GetUserNameFailed" />
+      <MemberSignature Language="VB.NET" Value="Public Const GetUserNameFailed As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -382,10 +382,10 @@
       <MemberSignature Language="C#" Value="public const string IdentityProtocolLoginUrlNull;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string IdentityProtocolLoginUrlNull" />
       <MemberSignature Language="DocId" Value="F:Microsoft.IdentityModel.Clients.ActiveDirectory.AdalError.IdentityProtocolLoginUrlNull" />
+      <MemberSignature Language="VB.NET" Value="Public Const IdentityProtocolLoginUrlNull As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -402,10 +402,10 @@
       <MemberSignature Language="C#" Value="public const string IdentityProtocolMismatch;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string IdentityProtocolMismatch" />
       <MemberSignature Language="DocId" Value="F:Microsoft.IdentityModel.Clients.ActiveDirectory.AdalError.IdentityProtocolMismatch" />
+      <MemberSignature Language="VB.NET" Value="Public Const IdentityProtocolMismatch As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -422,10 +422,10 @@
       <MemberSignature Language="C#" Value="public const string IdentityProviderRequestFailed;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string IdentityProviderRequestFailed" />
       <MemberSignature Language="DocId" Value="F:Microsoft.IdentityModel.Clients.ActiveDirectory.AdalError.IdentityProviderRequestFailed" />
+      <MemberSignature Language="VB.NET" Value="Public Const IdentityProviderRequestFailed As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -442,10 +442,10 @@
       <MemberSignature Language="C#" Value="public const string IntegratedAuthFailed;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string IntegratedAuthFailed" />
       <MemberSignature Language="DocId" Value="F:Microsoft.IdentityModel.Clients.ActiveDirectory.AdalError.IntegratedAuthFailed" />
+      <MemberSignature Language="VB.NET" Value="Public Const IntegratedAuthFailed As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -462,6 +462,7 @@
       <MemberSignature Language="C#" Value="public const string InteractionRequired;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string InteractionRequired" />
       <MemberSignature Language="DocId" Value="F:Microsoft.IdentityModel.Clients.ActiveDirectory.AdalError.InteractionRequired" />
+      <MemberSignature Language="VB.NET" Value="Public Const InteractionRequired As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
@@ -481,10 +482,10 @@
       <MemberSignature Language="C#" Value="public const string InvalidArgument;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string InvalidArgument" />
       <MemberSignature Language="DocId" Value="F:Microsoft.IdentityModel.Clients.ActiveDirectory.AdalError.InvalidArgument" />
+      <MemberSignature Language="VB.NET" Value="Public Const InvalidArgument As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -501,10 +502,10 @@
       <MemberSignature Language="C#" Value="public const string InvalidAuthorityType;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string InvalidAuthorityType" />
       <MemberSignature Language="DocId" Value="F:Microsoft.IdentityModel.Clients.ActiveDirectory.AdalError.InvalidAuthorityType" />
+      <MemberSignature Language="VB.NET" Value="Public Const InvalidAuthorityType As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -521,10 +522,10 @@
       <MemberSignature Language="C#" Value="public const string InvalidCredentialType;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string InvalidCredentialType" />
       <MemberSignature Language="DocId" Value="F:Microsoft.IdentityModel.Clients.ActiveDirectory.AdalError.InvalidCredentialType" />
+      <MemberSignature Language="VB.NET" Value="Public Const InvalidCredentialType As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -541,10 +542,10 @@
       <MemberSignature Language="C#" Value="public const string InvalidOwnerWindowType;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string InvalidOwnerWindowType" />
       <MemberSignature Language="DocId" Value="F:Microsoft.IdentityModel.Clients.ActiveDirectory.AdalError.InvalidOwnerWindowType" />
+      <MemberSignature Language="VB.NET" Value="Public Const InvalidOwnerWindowType As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -561,10 +562,10 @@
       <MemberSignature Language="C#" Value="public const string InvalidServiceUrl;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string InvalidServiceUrl" />
       <MemberSignature Language="DocId" Value="F:Microsoft.IdentityModel.Clients.ActiveDirectory.AdalError.InvalidServiceUrl" />
+      <MemberSignature Language="VB.NET" Value="Public Const InvalidServiceUrl As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -581,10 +582,10 @@
       <MemberSignature Language="C#" Value="public const string MissingFederationMetadataUrl;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string MissingFederationMetadataUrl" />
       <MemberSignature Language="DocId" Value="F:Microsoft.IdentityModel.Clients.ActiveDirectory.AdalError.MissingFederationMetadataUrl" />
+      <MemberSignature Language="VB.NET" Value="Public Const MissingFederationMetadataUrl As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -601,10 +602,10 @@
       <MemberSignature Language="C#" Value="public const string MultipleTokensMatched;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string MultipleTokensMatched" />
       <MemberSignature Language="DocId" Value="F:Microsoft.IdentityModel.Clients.ActiveDirectory.AdalError.MultipleTokensMatched" />
+      <MemberSignature Language="VB.NET" Value="Public Const MultipleTokensMatched As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -621,10 +622,10 @@
       <MemberSignature Language="C#" Value="public const string NetworkNotAvailable;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string NetworkNotAvailable" />
       <MemberSignature Language="DocId" Value="F:Microsoft.IdentityModel.Clients.ActiveDirectory.AdalError.NetworkNotAvailable" />
+      <MemberSignature Language="VB.NET" Value="Public Const NetworkNotAvailable As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -641,10 +642,10 @@
       <MemberSignature Language="C#" Value="public const string NoDataFromSts;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string NoDataFromSts" />
       <MemberSignature Language="DocId" Value="F:Microsoft.IdentityModel.Clients.ActiveDirectory.AdalError.NoDataFromSts" />
+      <MemberSignature Language="VB.NET" Value="Public Const NoDataFromSts As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -661,10 +662,10 @@
       <MemberSignature Language="C#" Value="public const string NonHttpsRedirectNotSupported;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string NonHttpsRedirectNotSupported" />
       <MemberSignature Language="DocId" Value="F:Microsoft.IdentityModel.Clients.ActiveDirectory.AdalError.NonHttpsRedirectNotSupported" />
+      <MemberSignature Language="VB.NET" Value="Public Const NonHttpsRedirectNotSupported As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -681,10 +682,10 @@
       <MemberSignature Language="C#" Value="public const string ParsingWsMetadataExchangeFailed;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string ParsingWsMetadataExchangeFailed" />
       <MemberSignature Language="DocId" Value="F:Microsoft.IdentityModel.Clients.ActiveDirectory.AdalError.ParsingWsMetadataExchangeFailed" />
+      <MemberSignature Language="VB.NET" Value="Public Const ParsingWsMetadataExchangeFailed As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -701,10 +702,10 @@
       <MemberSignature Language="C#" Value="public const string ParsingWsTrustResponseFailed;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string ParsingWsTrustResponseFailed" />
       <MemberSignature Language="DocId" Value="F:Microsoft.IdentityModel.Clients.ActiveDirectory.AdalError.ParsingWsTrustResponseFailed" />
+      <MemberSignature Language="VB.NET" Value="Public Const ParsingWsTrustResponseFailed As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -721,10 +722,10 @@
       <MemberSignature Language="C#" Value="public const string PasswordRequiredForManagedUserError;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string PasswordRequiredForManagedUserError" />
       <MemberSignature Language="DocId" Value="F:Microsoft.IdentityModel.Clients.ActiveDirectory.AdalError.PasswordRequiredForManagedUserError" />
+      <MemberSignature Language="VB.NET" Value="Public Const PasswordRequiredForManagedUserError As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -741,10 +742,10 @@
       <MemberSignature Language="C#" Value="public const string ServiceReturnedError;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string ServiceReturnedError" />
       <MemberSignature Language="DocId" Value="F:Microsoft.IdentityModel.Clients.ActiveDirectory.AdalError.ServiceReturnedError" />
+      <MemberSignature Language="VB.NET" Value="Public Const ServiceReturnedError As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -761,10 +762,10 @@
       <MemberSignature Language="C#" Value="public const string ServiceUnavailable;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string ServiceUnavailable" />
       <MemberSignature Language="DocId" Value="F:Microsoft.IdentityModel.Clients.ActiveDirectory.AdalError.ServiceUnavailable" />
+      <MemberSignature Language="VB.NET" Value="Public Const ServiceUnavailable As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -781,10 +782,10 @@
       <MemberSignature Language="C#" Value="public const string StsMetadataRequestFailed;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string StsMetadataRequestFailed" />
       <MemberSignature Language="DocId" Value="F:Microsoft.IdentityModel.Clients.ActiveDirectory.AdalError.StsMetadataRequestFailed" />
+      <MemberSignature Language="VB.NET" Value="Public Const StsMetadataRequestFailed As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -801,10 +802,10 @@
       <MemberSignature Language="C#" Value="public const string StsTokenRequestFailed;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string StsTokenRequestFailed" />
       <MemberSignature Language="DocId" Value="F:Microsoft.IdentityModel.Clients.ActiveDirectory.AdalError.StsTokenRequestFailed" />
+      <MemberSignature Language="VB.NET" Value="Public Const StsTokenRequestFailed As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -821,10 +822,10 @@
       <MemberSignature Language="C#" Value="public const string UnauthorizedResponseExpected;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string UnauthorizedResponseExpected" />
       <MemberSignature Language="DocId" Value="F:Microsoft.IdentityModel.Clients.ActiveDirectory.AdalError.UnauthorizedResponseExpected" />
+      <MemberSignature Language="VB.NET" Value="Public Const UnauthorizedResponseExpected As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -841,10 +842,10 @@
       <MemberSignature Language="C#" Value="public const string Unknown;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string Unknown" />
       <MemberSignature Language="DocId" Value="F:Microsoft.IdentityModel.Clients.ActiveDirectory.AdalError.Unknown" />
+      <MemberSignature Language="VB.NET" Value="Public Const Unknown As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -861,10 +862,10 @@
       <MemberSignature Language="C#" Value="public const string UnknownUser;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string UnknownUser" />
       <MemberSignature Language="DocId" Value="F:Microsoft.IdentityModel.Clients.ActiveDirectory.AdalError.UnknownUser" />
+      <MemberSignature Language="VB.NET" Value="Public Const UnknownUser As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -881,10 +882,10 @@
       <MemberSignature Language="C#" Value="public const string UnknownUserType;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string UnknownUserType" />
       <MemberSignature Language="DocId" Value="F:Microsoft.IdentityModel.Clients.ActiveDirectory.AdalError.UnknownUserType" />
+      <MemberSignature Language="VB.NET" Value="Public Const UnknownUserType As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -901,10 +902,10 @@
       <MemberSignature Language="C#" Value="public const string UserInteractionRequired;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string UserInteractionRequired" />
       <MemberSignature Language="DocId" Value="F:Microsoft.IdentityModel.Clients.ActiveDirectory.AdalError.UserInteractionRequired" />
+      <MemberSignature Language="VB.NET" Value="Public Const UserInteractionRequired As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -925,10 +926,10 @@
       <MemberSignature Language="C#" Value="public const string UserMismatch;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string UserMismatch" />
       <MemberSignature Language="DocId" Value="F:Microsoft.IdentityModel.Clients.ActiveDirectory.AdalError.UserMismatch" />
+      <MemberSignature Language="VB.NET" Value="Public Const UserMismatch As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -945,10 +946,10 @@
       <MemberSignature Language="C#" Value="public const string UserRealmDiscoveryFailed;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string UserRealmDiscoveryFailed" />
       <MemberSignature Language="DocId" Value="F:Microsoft.IdentityModel.Clients.ActiveDirectory.AdalError.UserRealmDiscoveryFailed" />
+      <MemberSignature Language="VB.NET" Value="Public Const UserRealmDiscoveryFailed As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -965,10 +966,10 @@
       <MemberSignature Language="C#" Value="public const string WsTrustEndpointNotFoundInMetadataDocument;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string WsTrustEndpointNotFoundInMetadataDocument" />
       <MemberSignature Language="DocId" Value="F:Microsoft.IdentityModel.Clients.ActiveDirectory.AdalError.WsTrustEndpointNotFoundInMetadataDocument" />
+      <MemberSignature Language="VB.NET" Value="Public Const WsTrustEndpointNotFoundInMetadataDocument As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.13.9.1126</AssemblyVersion>
         <AssemblyVersion>3.16.0.14</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

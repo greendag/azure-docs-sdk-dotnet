@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public class UaxUrlEmailTokenizer : Microsoft.Azure.Search.Models.Tokenizer" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit UaxUrlEmailTokenizer extends Microsoft.Azure.Search.Models.Tokenizer" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Search.Models.UaxUrlEmailTokenizer" />
+  <TypeSignature Language="VB.NET" Value="Public Class UaxUrlEmailTokenizer&#xA;Inherits Tokenizer" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Search</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>
@@ -28,11 +29,12 @@
       <MemberSignature Language="C#" Value="public UaxUrlEmailTokenizer ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Search.Models.UaxUrlEmailTokenizer.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
-        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -46,11 +48,12 @@
       <MemberSignature Language="C#" Value="public UaxUrlEmailTokenizer (string name, Nullable&lt;int&gt; maxTokenLength = null);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string name, valuetype System.Nullable`1&lt;int32&gt; maxTokenLength) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Search.Models.UaxUrlEmailTokenizer.#ctor(System.String,System.Nullable{System.Int32})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (name As String, Optional maxTokenLength As Nullable(Of Integer) = null)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
-        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="name" Type="System.String" />
@@ -74,11 +77,12 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; MaxTokenLength { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; MaxTokenLength" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Search.Models.UaxUrlEmailTokenizer.MaxTokenLength" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaxTokenLength As Nullable(Of Integer)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
-        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -91,8 +95,8 @@
       <Docs>
         <summary>
             Gets or sets the maximum token length. Default is 255. Tokens
-            longer than the maximum length are split. The maximum token length
-            that can be used is 300 characters.
+            longer than the maximum length are split. The maximum token
+            length that can be used is 300 characters.
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -102,11 +106,12 @@
       <MemberSignature Language="C#" Value="public override void Validate ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void Validate() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Search.Models.UaxUrlEmailTokenizer.Validate" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub Validate ()" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
-        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>

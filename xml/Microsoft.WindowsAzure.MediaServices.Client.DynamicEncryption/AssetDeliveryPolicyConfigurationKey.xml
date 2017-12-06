@@ -2,9 +2,10 @@
   <TypeSignature Language="C#" Value="public enum AssetDeliveryPolicyConfigurationKey" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed AssetDeliveryPolicyConfigurationKey extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.WindowsAzure.MediaServices.Client.DynamicEncryption.AssetDeliveryPolicyConfigurationKey" />
+  <TypeSignature Language="VB.NET" Value="Public Enum AssetDeliveryPolicyConfigurationKey" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client</AssemblyName>
-    <AssemblyVersion>3.8.0.5</AssemblyVersion>
+    <AssemblyVersion>4.0.0.4</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
@@ -14,18 +15,38 @@
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
-    <Member MemberName="CommonEncryptionIVForCbcs">
-      <MemberSignature Language="C#" Value="CommonEncryptionIVForCbcs" />
-      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.WindowsAzure.MediaServices.Client.DynamicEncryption.AssetDeliveryPolicyConfigurationKey CommonEncryptionIVForCbcs = int32(11)" />
-      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.MediaServices.Client.DynamicEncryption.AssetDeliveryPolicyConfigurationKey.CommonEncryptionIVForCbcs" />
+    <Member MemberName="AllowPersistentLicense">
+      <MemberSignature Language="C#" Value="AllowPersistentLicense" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.WindowsAzure.MediaServices.Client.DynamicEncryption.AssetDeliveryPolicyConfigurationKey AllowPersistentLicense = int32(13)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.MediaServices.Client.DynamicEncryption.AssetDeliveryPolicyConfigurationKey.AllowPersistentLicense" />
+      <MemberSignature Language="VB.NET" Value="AllowPersistentLicense" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.MediaServices.Client.DynamicEncryption.AssetDeliveryPolicyConfigurationKey</ReturnType>
       </ReturnValue>
+      <MemberValue>13</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="CommonEncryptionIVForCbcs">
+      <MemberSignature Language="C#" Value="CommonEncryptionIVForCbcs" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.WindowsAzure.MediaServices.Client.DynamicEncryption.AssetDeliveryPolicyConfigurationKey CommonEncryptionIVForCbcs = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.MediaServices.Client.DynamicEncryption.AssetDeliveryPolicyConfigurationKey.CommonEncryptionIVForCbcs" />
+      <MemberSignature Language="VB.NET" Value="CommonEncryptionIVForCbcs" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.WindowsAzure.MediaServices.Client.DynamicEncryption.AssetDeliveryPolicyConfigurationKey</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -34,14 +55,16 @@
       <MemberSignature Language="C#" Value="EnvelopeBaseKeyAcquisitionUrl" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.WindowsAzure.MediaServices.Client.DynamicEncryption.AssetDeliveryPolicyConfigurationKey EnvelopeBaseKeyAcquisitionUrl = int32(2)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.MediaServices.Client.DynamicEncryption.AssetDeliveryPolicyConfigurationKey.EnvelopeBaseKeyAcquisitionUrl" />
+      <MemberSignature Language="VB.NET" Value="EnvelopeBaseKeyAcquisitionUrl" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.MediaServices.Client.DynamicEncryption.AssetDeliveryPolicyConfigurationKey</ReturnType>
       </ReturnValue>
+      <MemberValue>2</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -50,14 +73,16 @@
       <MemberSignature Language="C#" Value="EnvelopeEncryptionIV" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.WindowsAzure.MediaServices.Client.DynamicEncryption.AssetDeliveryPolicyConfigurationKey EnvelopeEncryptionIV = int32(6)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.MediaServices.Client.DynamicEncryption.AssetDeliveryPolicyConfigurationKey.EnvelopeEncryptionIV" />
+      <MemberSignature Language="VB.NET" Value="EnvelopeEncryptionIV" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.MediaServices.Client.DynamicEncryption.AssetDeliveryPolicyConfigurationKey</ReturnType>
       </ReturnValue>
+      <MemberValue>6</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -66,14 +91,16 @@
       <MemberSignature Language="C#" Value="EnvelopeEncryptionIVAsBase64" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.WindowsAzure.MediaServices.Client.DynamicEncryption.AssetDeliveryPolicyConfigurationKey EnvelopeEncryptionIVAsBase64 = int32(3)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.MediaServices.Client.DynamicEncryption.AssetDeliveryPolicyConfigurationKey.EnvelopeEncryptionIVAsBase64" />
+      <MemberSignature Language="VB.NET" Value="EnvelopeEncryptionIVAsBase64" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.MediaServices.Client.DynamicEncryption.AssetDeliveryPolicyConfigurationKey</ReturnType>
       </ReturnValue>
+      <MemberValue>3</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -82,14 +109,16 @@
       <MemberSignature Language="C#" Value="EnvelopeKeyAcquisitionUrl" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.WindowsAzure.MediaServices.Client.DynamicEncryption.AssetDeliveryPolicyConfigurationKey EnvelopeKeyAcquisitionUrl = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.MediaServices.Client.DynamicEncryption.AssetDeliveryPolicyConfigurationKey.EnvelopeKeyAcquisitionUrl" />
+      <MemberSignature Language="VB.NET" Value="EnvelopeKeyAcquisitionUrl" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.MediaServices.Client.DynamicEncryption.AssetDeliveryPolicyConfigurationKey</ReturnType>
       </ReturnValue>
+      <MemberValue>1</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -98,14 +127,16 @@
       <MemberSignature Language="C#" Value="FairPlayBaseLicenseAcquisitionUrl" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.WindowsAzure.MediaServices.Client.DynamicEncryption.AssetDeliveryPolicyConfigurationKey FairPlayBaseLicenseAcquisitionUrl = int32(10)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.MediaServices.Client.DynamicEncryption.AssetDeliveryPolicyConfigurationKey.FairPlayBaseLicenseAcquisitionUrl" />
+      <MemberSignature Language="VB.NET" Value="FairPlayBaseLicenseAcquisitionUrl" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.MediaServices.Client.DynamicEncryption.AssetDeliveryPolicyConfigurationKey</ReturnType>
       </ReturnValue>
+      <MemberValue>10</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -114,14 +145,16 @@
       <MemberSignature Language="C#" Value="FairPlayLicenseAcquisitionUrl" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.WindowsAzure.MediaServices.Client.DynamicEncryption.AssetDeliveryPolicyConfigurationKey FairPlayLicenseAcquisitionUrl = int32(9)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.MediaServices.Client.DynamicEncryption.AssetDeliveryPolicyConfigurationKey.FairPlayLicenseAcquisitionUrl" />
+      <MemberSignature Language="VB.NET" Value="FairPlayLicenseAcquisitionUrl" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.MediaServices.Client.DynamicEncryption.AssetDeliveryPolicyConfigurationKey</ReturnType>
       </ReturnValue>
+      <MemberValue>9</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -130,14 +163,16 @@
       <MemberSignature Language="C#" Value="None" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.WindowsAzure.MediaServices.Client.DynamicEncryption.AssetDeliveryPolicyConfigurationKey None = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.MediaServices.Client.DynamicEncryption.AssetDeliveryPolicyConfigurationKey.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.MediaServices.Client.DynamicEncryption.AssetDeliveryPolicyConfigurationKey</ReturnType>
       </ReturnValue>
+      <MemberValue>0</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -146,14 +181,16 @@
       <MemberSignature Language="C#" Value="PlayReadyCustomAttributes" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.WindowsAzure.MediaServices.Client.DynamicEncryption.AssetDeliveryPolicyConfigurationKey PlayReadyCustomAttributes = int32(5)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.MediaServices.Client.DynamicEncryption.AssetDeliveryPolicyConfigurationKey.PlayReadyCustomAttributes" />
+      <MemberSignature Language="VB.NET" Value="PlayReadyCustomAttributes" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.MediaServices.Client.DynamicEncryption.AssetDeliveryPolicyConfigurationKey</ReturnType>
       </ReturnValue>
+      <MemberValue>5</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -162,14 +199,34 @@
       <MemberSignature Language="C#" Value="PlayReadyLicenseAcquisitionUrl" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.WindowsAzure.MediaServices.Client.DynamicEncryption.AssetDeliveryPolicyConfigurationKey PlayReadyLicenseAcquisitionUrl = int32(4)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.MediaServices.Client.DynamicEncryption.AssetDeliveryPolicyConfigurationKey.PlayReadyLicenseAcquisitionUrl" />
+      <MemberSignature Language="VB.NET" Value="PlayReadyLicenseAcquisitionUrl" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.MediaServices.Client.DynamicEncryption.AssetDeliveryPolicyConfigurationKey</ReturnType>
       </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="UnencryptedTracksByFourCC">
+      <MemberSignature Language="C#" Value="UnencryptedTracksByFourCC" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.WindowsAzure.MediaServices.Client.DynamicEncryption.AssetDeliveryPolicyConfigurationKey UnencryptedTracksByFourCC = int32(12)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.MediaServices.Client.DynamicEncryption.AssetDeliveryPolicyConfigurationKey.UnencryptedTracksByFourCC" />
+      <MemberSignature Language="VB.NET" Value="UnencryptedTracksByFourCC" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.WindowsAzure.MediaServices.Client.DynamicEncryption.AssetDeliveryPolicyConfigurationKey</ReturnType>
+      </ReturnValue>
+      <MemberValue>12</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -178,14 +235,16 @@
       <MemberSignature Language="C#" Value="WidevineBaseLicenseAcquisitionUrl" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.WindowsAzure.MediaServices.Client.DynamicEncryption.AssetDeliveryPolicyConfigurationKey WidevineBaseLicenseAcquisitionUrl = int32(8)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.MediaServices.Client.DynamicEncryption.AssetDeliveryPolicyConfigurationKey.WidevineBaseLicenseAcquisitionUrl" />
+      <MemberSignature Language="VB.NET" Value="WidevineBaseLicenseAcquisitionUrl" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.MediaServices.Client.DynamicEncryption.AssetDeliveryPolicyConfigurationKey</ReturnType>
       </ReturnValue>
+      <MemberValue>8</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -194,14 +253,16 @@
       <MemberSignature Language="C#" Value="WidevineLicenseAcquisitionUrl" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.WindowsAzure.MediaServices.Client.DynamicEncryption.AssetDeliveryPolicyConfigurationKey WidevineLicenseAcquisitionUrl = int32(7)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.WindowsAzure.MediaServices.Client.DynamicEncryption.AssetDeliveryPolicyConfigurationKey.WidevineLicenseAcquisitionUrl" />
+      <MemberSignature Language="VB.NET" Value="WidevineLicenseAcquisitionUrl" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.8.0.5</AssemblyVersion>
         <AssemblyName>Microsoft.WindowsAzure.MediaServices.Client</AssemblyName>
+        <AssemblyVersion>4.0.0.4</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.MediaServices.Client.DynamicEncryption.AssetDeliveryPolicyConfigurationKey</ReturnType>
       </ReturnValue>
+      <MemberValue>7</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>

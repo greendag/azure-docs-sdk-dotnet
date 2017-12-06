@@ -2,14 +2,13 @@
   <TypeSignature Language="C#" Value="public static class MabServerType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit MabServerType extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.RecoveryServices.Backup.Models.MabServerType" />
+  <TypeSignature Language="VB.NET" Value="Public Class MabServerType" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.RecoveryServices.Backup</AssemblyName>
-    <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
-    <BaseTypeName>System.Enum</BaseTypeName>
-    <BaseTypeName FrameworkAlternate="azuremgmtrecoveryservicesbackup-2.1.0-preview">System.Object</BaseTypeName>
+    <BaseTypeName>System.Object</BaseTypeName>
   </Base>
   <Interfaces />
   <Docs>
@@ -23,6 +22,7 @@
       <MemberSignature Language="C#" Value="public const string AzureBackupServerContainer;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string AzureBackupServerContainer" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.RecoveryServices.Backup.Models.MabServerType.AzureBackupServerContainer" />
+      <MemberSignature Language="VB.NET" Value="Public Const AzureBackupServerContainer As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.RecoveryServices.Backup</AssemblyName>
@@ -40,10 +40,10 @@
       <MemberSignature Language="C#" Value="public const string AzureSqlContainer;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string AzureSqlContainer" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.RecoveryServices.Backup.Models.MabServerType.AzureSqlContainer" />
+      <MemberSignature Language="VB.NET" Value="Public Const AzureSqlContainer As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.RecoveryServices.Backup</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -58,6 +58,7 @@
       <MemberSignature Language="C#" Value="public const string Cluster;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string Cluster" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.RecoveryServices.Backup.Models.MabServerType.Cluster" />
+      <MemberSignature Language="VB.NET" Value="Public Const Cluster As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.RecoveryServices.Backup</AssemblyName>
@@ -75,10 +76,10 @@
       <MemberSignature Language="C#" Value="public const string DPMContainer;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string DPMContainer" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.RecoveryServices.Backup.Models.MabServerType.DPMContainer" />
+      <MemberSignature Language="VB.NET" Value="Public Const DPMContainer As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.RecoveryServices.Backup</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -93,10 +94,10 @@
       <MemberSignature Language="C#" Value="public const string IaasVMContainer;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string IaasVMContainer" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.RecoveryServices.Backup.Models.MabServerType.IaasVMContainer" />
+      <MemberSignature Language="VB.NET" Value="Public Const IaasVMContainer As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.RecoveryServices.Backup</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -111,10 +112,10 @@
       <MemberSignature Language="C#" Value="public const string IaasVMServiceContainer;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string IaasVMServiceContainer" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.RecoveryServices.Backup.Models.MabServerType.IaasVMServiceContainer" />
+      <MemberSignature Language="VB.NET" Value="Public Const IaasVMServiceContainer As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.RecoveryServices.Backup</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -129,10 +130,10 @@
       <MemberSignature Language="C#" Value="public const string Invalid;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string Invalid" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.RecoveryServices.Backup.Models.MabServerType.Invalid" />
+      <MemberSignature Language="VB.NET" Value="Public Const Invalid As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.RecoveryServices.Backup</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -147,10 +148,10 @@
       <MemberSignature Language="C#" Value="public const string MABContainer;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string MABContainer" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.RecoveryServices.Backup.Models.MabServerType.MABContainer" />
+      <MemberSignature Language="VB.NET" Value="Public Const MABContainer As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.RecoveryServices.Backup</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -165,10 +166,10 @@
       <MemberSignature Language="C#" Value="public const string Unknown;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string Unknown" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.RecoveryServices.Backup.Models.MabServerType.Unknown" />
+      <MemberSignature Language="VB.NET" Value="Public Const Unknown As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.RecoveryServices.Backup</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -183,6 +184,7 @@
       <MemberSignature Language="C#" Value="public const string VCenter;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string VCenter" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.RecoveryServices.Backup.Models.MabServerType.VCenter" />
+      <MemberSignature Language="VB.NET" Value="Public Const VCenter As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.RecoveryServices.Backup</AssemblyName>
@@ -200,10 +202,10 @@
       <MemberSignature Language="C#" Value="public const string Windows;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string Windows" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.RecoveryServices.Backup.Models.MabServerType.Windows" />
+      <MemberSignature Language="VB.NET" Value="Public Const Windows As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.RecoveryServices.Backup</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

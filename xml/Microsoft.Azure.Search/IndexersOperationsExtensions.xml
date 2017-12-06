@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public static class IndexersOperationsExtensions" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit IndexersOperationsExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Search.IndexersOperationsExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module IndexersOperationsExtensions" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Search</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>
@@ -18,6 +19,24 @@
     <summary>
             Extension methods for IndexersOperations.
             </summary>
+    <summary>
+            Operations for managing indexers. 
+            <see href="https://docs.microsoft.com/rest/api/searchservice/Indexer-operations" /></summary>
+    <summary>
+            Extension methods for IndexersOperations.
+            </summary>
+    <summary>
+            Operations for managing indexers. 
+            <see href="https://docs.microsoft.com/rest/api/searchservice/Indexer-operations" /></summary>
+    <summary>
+            Extension methods for IndexersOperations.
+            </summary>
+    <summary>
+            Operations for managing indexers. 
+            <see href="https://docs.microsoft.com/rest/api/searchservice/Indexer-operations" /></summary>
+    <summary>
+            Extension methods for IndexersOperations.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -27,9 +46,9 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Search.IndexersOperationsExtensions.Create(Microsoft.Azure.Search.IIndexersOperations,Microsoft.Azure.Search.Models.Indexer,Microsoft.Azure.Search.Models.SearchRequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
-        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Search.Models.Indexer</ReturnType>
@@ -62,9 +81,9 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Search.IndexersOperationsExtensions.CreateAsync(Microsoft.Azure.Search.IIndexersOperations,Microsoft.Azure.Search.Models.Indexer,Microsoft.Azure.Search.Models.SearchRequestOptions,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
-        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -106,9 +125,9 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Search.IndexersOperationsExtensions.CreateOrUpdate(Microsoft.Azure.Search.IIndexersOperations,Microsoft.Azure.Search.Models.Indexer,Microsoft.Azure.Search.Models.SearchRequestOptions,Microsoft.Azure.Search.Models.AccessCondition)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
-        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Search.Models.Indexer</ReturnType>
@@ -146,9 +165,9 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Search.IndexersOperationsExtensions.CreateOrUpdate(Microsoft.Azure.Search.IIndexersOperations,System.String,Microsoft.Azure.Search.Models.Indexer,Microsoft.Azure.Search.Models.SearchRequestOptions,Microsoft.Azure.Search.Models.AccessCondition)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
-        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Search.Models.Indexer</ReturnType>
@@ -190,9 +209,9 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Search.IndexersOperationsExtensions.CreateOrUpdateAsync(Microsoft.Azure.Search.IIndexersOperations,Microsoft.Azure.Search.Models.Indexer,Microsoft.Azure.Search.Models.SearchRequestOptions,Microsoft.Azure.Search.Models.AccessCondition,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
-        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -239,9 +258,9 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Search.IndexersOperationsExtensions.CreateOrUpdateAsync(Microsoft.Azure.Search.IIndexersOperations,System.String,Microsoft.Azure.Search.Models.Indexer,Microsoft.Azure.Search.Models.SearchRequestOptions,Microsoft.Azure.Search.Models.AccessCondition,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
-        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -292,9 +311,9 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Search.IndexersOperationsExtensions.Delete(Microsoft.Azure.Search.IIndexersOperations,System.String,Microsoft.Azure.Search.Models.SearchRequestOptions,Microsoft.Azure.Search.Models.AccessCondition)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
-        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -330,9 +349,9 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Search.IndexersOperationsExtensions.DeleteAsync(Microsoft.Azure.Search.IIndexersOperations,System.String,Microsoft.Azure.Search.Models.SearchRequestOptions,Microsoft.Azure.Search.Models.AccessCondition,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
-        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -378,9 +397,9 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Search.IndexersOperationsExtensions.Exists(Microsoft.Azure.Search.IIndexersOperations,System.String,Microsoft.Azure.Search.Models.SearchRequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
-        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -415,9 +434,9 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Search.IndexersOperationsExtensions.ExistsAsync(Microsoft.Azure.Search.IIndexersOperations,System.String,Microsoft.Azure.Search.Models.SearchRequestOptions,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
-        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -461,9 +480,9 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Search.IndexersOperationsExtensions.Get(Microsoft.Azure.Search.IIndexersOperations,System.String,Microsoft.Azure.Search.Models.SearchRequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
-        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Search.Models.Indexer</ReturnType>
@@ -496,9 +515,9 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Search.IndexersOperationsExtensions.GetAsync(Microsoft.Azure.Search.IIndexersOperations,System.String,Microsoft.Azure.Search.Models.SearchRequestOptions,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
-        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -540,9 +559,9 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Search.IndexersOperationsExtensions.GetStatus(Microsoft.Azure.Search.IIndexersOperations,System.String,Microsoft.Azure.Search.Models.SearchRequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
-        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Search.Models.IndexerExecutionInfo</ReturnType>
@@ -575,9 +594,9 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Search.IndexersOperationsExtensions.GetStatusAsync(Microsoft.Azure.Search.IIndexersOperations,System.String,Microsoft.Azure.Search.Models.SearchRequestOptions,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
-        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -619,9 +638,9 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Search.IndexersOperationsExtensions.List(Microsoft.Azure.Search.IIndexersOperations,Microsoft.Azure.Search.Models.SearchRequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
-        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Search.Models.IndexerListResult</ReturnType>
@@ -650,9 +669,9 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Search.IndexersOperationsExtensions.ListAsync(Microsoft.Azure.Search.IIndexersOperations,Microsoft.Azure.Search.Models.SearchRequestOptions,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
-        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -690,9 +709,9 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Search.IndexersOperationsExtensions.Reset(Microsoft.Azure.Search.IIndexersOperations,System.String,Microsoft.Azure.Search.Models.SearchRequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
-        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -724,9 +743,9 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Search.IndexersOperationsExtensions.ResetAsync(Microsoft.Azure.Search.IIndexersOperations,System.String,Microsoft.Azure.Search.Models.SearchRequestOptions,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
-        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -768,9 +787,9 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Search.IndexersOperationsExtensions.Run(Microsoft.Azure.Search.IIndexersOperations,System.String,Microsoft.Azure.Search.Models.SearchRequestOptions)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
-        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -802,9 +821,9 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Search.IndexersOperationsExtensions.RunAsync(Microsoft.Azure.Search.IIndexersOperations,System.String,Microsoft.Azure.Search.Models.SearchRequestOptions,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
-        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
       </AssemblyInfo>
       <Attributes>
         <Attribute>

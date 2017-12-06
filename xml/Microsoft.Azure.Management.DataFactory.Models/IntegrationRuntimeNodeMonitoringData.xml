@@ -2,9 +2,10 @@
   <TypeSignature Language="C#" Value="public class IntegrationRuntimeNodeMonitoringData" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit IntegrationRuntimeNodeMonitoringData extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.DataFactory.Models.IntegrationRuntimeNodeMonitoringData" />
+  <TypeSignature Language="VB.NET" Value="Public Class IntegrationRuntimeNodeMonitoringData" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+    <AssemblyVersion>0.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -21,10 +22,11 @@
       <MemberSignature Language="C#" Value="public IntegrationRuntimeNodeMonitoringData ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataFactory.Models.IntegrationRuntimeNodeMonitoringData.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -39,10 +41,11 @@
       <MemberSignature Language="C#" Value="public IntegrationRuntimeNodeMonitoringData (string nodeName = null, Nullable&lt;int&gt; availableMemoryInMB = null, Nullable&lt;double&gt; cpuUtilization = null, Nullable&lt;int&gt; concurrentJobsLimit = null, Nullable&lt;int&gt; concurrentJobsRunning = null, Nullable&lt;int&gt; maxConcurrentJobs = null, Nullable&lt;double&gt; sentBytes = null, Nullable&lt;double&gt; receivedBytes = null);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string nodeName, valuetype System.Nullable`1&lt;int32&gt; availableMemoryInMB, valuetype System.Nullable`1&lt;float64&gt; cpuUtilization, valuetype System.Nullable`1&lt;int32&gt; concurrentJobsLimit, valuetype System.Nullable`1&lt;int32&gt; concurrentJobsRunning, valuetype System.Nullable`1&lt;int32&gt; maxConcurrentJobs, valuetype System.Nullable`1&lt;float64&gt; sentBytes, valuetype System.Nullable`1&lt;float64&gt; receivedBytes) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataFactory.Models.IntegrationRuntimeNodeMonitoringData.#ctor(System.String,System.Nullable{System.Int32},System.Nullable{System.Double},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Double},System.Nullable{System.Double})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (Optional nodeName As String = null, Optional availableMemoryInMB As Nullable(Of Integer) = null, Optional cpuUtilization As Nullable(Of Double) = null, Optional concurrentJobsLimit As Nullable(Of Integer) = null, Optional concurrentJobsRunning As Nullable(Of Integer) = null, Optional maxConcurrentJobs As Nullable(Of Integer) = null, Optional sentBytes As Nullable(Of Double) = null, Optional receivedBytes As Nullable(Of Double) = null)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="nodeName" Type="System.String" />
@@ -82,10 +85,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; AvailableMemoryInMB { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; AvailableMemoryInMB" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactory.Models.IntegrationRuntimeNodeMonitoringData.AvailableMemoryInMB" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AvailableMemoryInMB As Nullable(Of Integer)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -107,10 +111,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; ConcurrentJobsLimit { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; ConcurrentJobsLimit" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactory.Models.IntegrationRuntimeNodeMonitoringData.ConcurrentJobsLimit" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ConcurrentJobsLimit As Nullable(Of Integer)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -132,10 +137,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; ConcurrentJobsRunning { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; ConcurrentJobsRunning" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactory.Models.IntegrationRuntimeNodeMonitoringData.ConcurrentJobsRunning" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ConcurrentJobsRunning As Nullable(Of Integer)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -158,10 +164,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;double&gt; CpuUtilization { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;float64&gt; CpuUtilization" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactory.Models.IntegrationRuntimeNodeMonitoringData.CpuUtilization" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CpuUtilization As Nullable(Of Double)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -183,10 +190,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; MaxConcurrentJobs { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; MaxConcurrentJobs" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactory.Models.IntegrationRuntimeNodeMonitoringData.MaxConcurrentJobs" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MaxConcurrentJobs As Nullable(Of Integer)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -208,10 +216,11 @@
       <MemberSignature Language="C#" Value="public string NodeName { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string NodeName" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactory.Models.IntegrationRuntimeNodeMonitoringData.NodeName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NodeName As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -233,10 +242,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;double&gt; ReceivedBytes { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;float64&gt; ReceivedBytes" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactory.Models.IntegrationRuntimeNodeMonitoringData.ReceivedBytes" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ReceivedBytes As Nullable(Of Double)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -258,10 +268,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;double&gt; SentBytes { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;float64&gt; SentBytes" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactory.Models.IntegrationRuntimeNodeMonitoringData.SentBytes" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SentBytes As Nullable(Of Double)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>

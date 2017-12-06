@@ -1,11 +1,11 @@
 ﻿<Type Name="ReliableStateManager" FullName="Microsoft.ServiceFabric.Data.ReliableStateManager">
-  <TypeSignature Language="C#" Value="public class ReliableStateManager : Microsoft.ServiceFabric.Data.IAsyncEnumerable&lt;Microsoft.ServiceFabric.Data.IReliableState&gt;, Microsoft.ServiceFabric.Data.IReliableStateManagerReplica" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi ReliableStateManager extends System.Object implements class Microsoft.ServiceFabric.Data.IAsyncEnumerable`1&lt;class Microsoft.ServiceFabric.Data.IReliableState&gt;, class Microsoft.ServiceFabric.Data.IReliableStateManager, class Microsoft.ServiceFabric.Data.IReliableStateManagerReplica, class Microsoft.ServiceFabric.Data.IStateProviderReplica" />
+  <TypeSignature Language="C#" Value="public class ReliableStateManager : Microsoft.ServiceFabric.Data.IAsyncEnumerable&lt;Microsoft.ServiceFabric.Data.IReliableState&gt;, Microsoft.ServiceFabric.Data.IReliableStateManagerReplica2" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi ReliableStateManager extends System.Object implements class Microsoft.ServiceFabric.Data.IAsyncEnumerable`1&lt;class Microsoft.ServiceFabric.Data.IReliableState&gt;, class Microsoft.ServiceFabric.Data.IReliableStateManager, class Microsoft.ServiceFabric.Data.IReliableStateManagerReplica, class Microsoft.ServiceFabric.Data.IReliableStateManagerReplica2, class Microsoft.ServiceFabric.Data.IStateProviderReplica, class Microsoft.ServiceFabric.Data.IStateProviderReplica2" />
   <TypeSignature Language="DocId" Value="T:Microsoft.ServiceFabric.Data.ReliableStateManager" />
+  <TypeSignature Language="VB.NET" Value="Public Class ReliableStateManager&#xA;Implements IAsyncEnumerable(Of IReliableState), IReliableStateManagerReplica2" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.ServiceFabric.Data</AssemblyName>
-    <AssemblyVersion>5.0.0.0</AssemblyVersion>
-    <AssemblyVersion>255.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -15,7 +15,7 @@
       <InterfaceName>Microsoft.ServiceFabric.Data.IAsyncEnumerable&lt;Microsoft.ServiceFabric.Data.IReliableState&gt;</InterfaceName>
     </Interface>
     <Interface>
-      <InterfaceName>Microsoft.ServiceFabric.Data.IReliableStateManagerReplica</InterfaceName>
+      <InterfaceName>Microsoft.ServiceFabric.Data.IReliableStateManagerReplica2</InterfaceName>
     </Interface>
   </Interfaces>
   <Docs>
@@ -35,11 +35,11 @@
       <MemberSignature Language="C#" Value="public ReliableStateManager (System.Fabric.StatefulServiceContext serviceContext, Microsoft.ServiceFabric.Data.ReliableStateManagerConfiguration configuration = null);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Fabric.StatefulServiceContext serviceContext, class Microsoft.ServiceFabric.Data.ReliableStateManagerConfiguration configuration) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Data.ReliableStateManager.#ctor(System.Fabric.StatefulServiceContext,Microsoft.ServiceFabric.Data.ReliableStateManagerConfiguration)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (serviceContext As StatefulServiceContext, Optional configuration As ReliableStateManagerConfiguration = null)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="serviceContext" Type="System.Fabric.StatefulServiceContext" />
@@ -58,11 +58,11 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task BackupAsync (Func&lt;Microsoft.ServiceFabric.Data.BackupInfo,System.Threading.CancellationToken,System.Threading.Tasks.Task&lt;bool&gt;&gt; backupCallback);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task BackupAsync(class System.Func`3&lt;class Microsoft.ServiceFabric.Data.BackupInfo, valuetype System.Threading.CancellationToken, class System.Threading.Tasks.Task`1&lt;bool&gt;&gt; backupCallback) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Data.ReliableStateManager.BackupAsync(System.Func{Microsoft.ServiceFabric.Data.BackupInfo,System.Threading.CancellationToken,System.Threading.Tasks.Task{System.Boolean}})" />
+      <MemberSignature Language="VB.NET" Value="Public Function BackupAsync (backupCallback As Func(Of BackupInfo, CancellationToken, Task(Of Boolean))) As Task" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -90,9 +90,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Data.ReliableStateManager.BackupAsync(Microsoft.ServiceFabric.Data.BackupOption,System.TimeSpan,System.Threading.CancellationToken,System.Func{Microsoft.ServiceFabric.Data.BackupInfo,System.Threading.CancellationToken,System.Threading.Tasks.Task{System.Boolean}})" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -123,11 +122,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.ServiceFabric.Data.IAsyncEnumerator&lt;Microsoft.ServiceFabric.Data.IReliableState&gt; GetAsyncEnumerator ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.ServiceFabric.Data.IAsyncEnumerator`1&lt;class Microsoft.ServiceFabric.Data.IReliableState&gt; GetAsyncEnumerator() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Data.ReliableStateManager.GetAsyncEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetAsyncEnumerator () As IAsyncEnumerator(Of IReliableState)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.ServiceFabric.Data.IAsyncEnumerator&lt;Microsoft.ServiceFabric.Data.IReliableState&gt;</ReturnType>
@@ -148,11 +147,11 @@
       <MemberSignature Language="C#" Value="Microsoft.ServiceFabric.Data.ITransaction IReliableStateManager.CreateTransaction ();" />
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class Microsoft.ServiceFabric.Data.ITransaction Microsoft.ServiceFabric.Data.IReliableStateManager.CreateTransaction() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Data.ReliableStateManager.Microsoft#ServiceFabric#Data#IReliableStateManager#CreateTransaction" />
+      <MemberSignature Language="VB.NET" Value="Function CreateTransaction () As ITransaction Implements IReliableStateManager.CreateTransaction" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.ServiceFabric.Data.ITransaction</ReturnType>
@@ -172,11 +171,11 @@
       <MemberSignature Language="C#" Value="System.Threading.Tasks.Task&lt;T&gt; IReliableStateManager.GetOrAddAsync&lt;T&gt; (string name) where T : Microsoft.ServiceFabric.Data.IReliableState;" />
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;!!T&gt; Microsoft.ServiceFabric.Data.IReliableStateManager.GetOrAddAsync&lt;(class Microsoft.ServiceFabric.Data.IReliableState) T&gt;(string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Data.ReliableStateManager.Microsoft#ServiceFabric#Data#IReliableStateManager#GetOrAddAsync``1(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Function GetOrAddAsync(Of T As IReliableState) (name As String) As Task(Of T) Implements IReliableStateManager.GetOrAddAsync" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;T&gt;</ReturnType>
@@ -229,11 +228,11 @@
       <MemberSignature Language="C#" Value="System.Threading.Tasks.Task&lt;T&gt; IReliableStateManager.GetOrAddAsync&lt;T&gt; (Uri name) where T : Microsoft.ServiceFabric.Data.IReliableState;" />
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;!!T&gt; Microsoft.ServiceFabric.Data.IReliableStateManager.GetOrAddAsync&lt;(class Microsoft.ServiceFabric.Data.IReliableState) T&gt;(class System.Uri name) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Data.ReliableStateManager.Microsoft#ServiceFabric#Data#IReliableStateManager#GetOrAddAsync``1(System.Uri)" />
+      <MemberSignature Language="VB.NET" Value="Function GetOrAddAsync(Of T As IReliableState) (name As Uri) As Task(Of T) Implements IReliableStateManager.GetOrAddAsync" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;T&gt;</ReturnType>
@@ -286,11 +285,11 @@
       <MemberSignature Language="C#" Value="System.Threading.Tasks.Task&lt;T&gt; IReliableStateManager.GetOrAddAsync&lt;T&gt; (Microsoft.ServiceFabric.Data.ITransaction tx, string name) where T : Microsoft.ServiceFabric.Data.IReliableState;" />
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;!!T&gt; Microsoft.ServiceFabric.Data.IReliableStateManager.GetOrAddAsync&lt;(class Microsoft.ServiceFabric.Data.IReliableState) T&gt;(class Microsoft.ServiceFabric.Data.ITransaction tx, string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Data.ReliableStateManager.Microsoft#ServiceFabric#Data#IReliableStateManager#GetOrAddAsync``1(Microsoft.ServiceFabric.Data.ITransaction,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Function GetOrAddAsync(Of T As IReliableState) (tx As ITransaction, name As String) As Task(Of T) Implements IReliableStateManager.GetOrAddAsync" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;T&gt;</ReturnType>
@@ -349,11 +348,11 @@
       <MemberSignature Language="C#" Value="System.Threading.Tasks.Task&lt;T&gt; IReliableStateManager.GetOrAddAsync&lt;T&gt; (Microsoft.ServiceFabric.Data.ITransaction tx, Uri name) where T : Microsoft.ServiceFabric.Data.IReliableState;" />
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;!!T&gt; Microsoft.ServiceFabric.Data.IReliableStateManager.GetOrAddAsync&lt;(class Microsoft.ServiceFabric.Data.IReliableState) T&gt;(class Microsoft.ServiceFabric.Data.ITransaction tx, class System.Uri name) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Data.ReliableStateManager.Microsoft#ServiceFabric#Data#IReliableStateManager#GetOrAddAsync``1(Microsoft.ServiceFabric.Data.ITransaction,System.Uri)" />
+      <MemberSignature Language="VB.NET" Value="Function GetOrAddAsync(Of T As IReliableState) (tx As ITransaction, name As Uri) As Task(Of T) Implements IReliableStateManager.GetOrAddAsync" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;T&gt;</ReturnType>
@@ -412,11 +411,11 @@
       <MemberSignature Language="C#" Value="System.Threading.Tasks.Task&lt;T&gt; IReliableStateManager.GetOrAddAsync&lt;T&gt; (string name, TimeSpan timeout) where T : Microsoft.ServiceFabric.Data.IReliableState;" />
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;!!T&gt; Microsoft.ServiceFabric.Data.IReliableStateManager.GetOrAddAsync&lt;(class Microsoft.ServiceFabric.Data.IReliableState) T&gt;(string name, valuetype System.TimeSpan timeout) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Data.ReliableStateManager.Microsoft#ServiceFabric#Data#IReliableStateManager#GetOrAddAsync``1(System.String,System.TimeSpan)" />
+      <MemberSignature Language="VB.NET" Value="Function GetOrAddAsync(Of T As IReliableState) (name As String, timeout As TimeSpan) As Task(Of T) Implements IReliableStateManager.GetOrAddAsync" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;T&gt;</ReturnType>
@@ -471,11 +470,11 @@
       <MemberSignature Language="C#" Value="System.Threading.Tasks.Task&lt;T&gt; IReliableStateManager.GetOrAddAsync&lt;T&gt; (Uri name, TimeSpan timeout) where T : Microsoft.ServiceFabric.Data.IReliableState;" />
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;!!T&gt; Microsoft.ServiceFabric.Data.IReliableStateManager.GetOrAddAsync&lt;(class Microsoft.ServiceFabric.Data.IReliableState) T&gt;(class System.Uri name, valuetype System.TimeSpan timeout) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Data.ReliableStateManager.Microsoft#ServiceFabric#Data#IReliableStateManager#GetOrAddAsync``1(System.Uri,System.TimeSpan)" />
+      <MemberSignature Language="VB.NET" Value="Function GetOrAddAsync(Of T As IReliableState) (name As Uri, timeout As TimeSpan) As Task(Of T) Implements IReliableStateManager.GetOrAddAsync" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;T&gt;</ReturnType>
@@ -530,11 +529,11 @@
       <MemberSignature Language="C#" Value="System.Threading.Tasks.Task&lt;T&gt; IReliableStateManager.GetOrAddAsync&lt;T&gt; (Microsoft.ServiceFabric.Data.ITransaction tx, string name, TimeSpan timeout) where T : Microsoft.ServiceFabric.Data.IReliableState;" />
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;!!T&gt; Microsoft.ServiceFabric.Data.IReliableStateManager.GetOrAddAsync&lt;(class Microsoft.ServiceFabric.Data.IReliableState) T&gt;(class Microsoft.ServiceFabric.Data.ITransaction tx, string name, valuetype System.TimeSpan timeout) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Data.ReliableStateManager.Microsoft#ServiceFabric#Data#IReliableStateManager#GetOrAddAsync``1(Microsoft.ServiceFabric.Data.ITransaction,System.String,System.TimeSpan)" />
+      <MemberSignature Language="VB.NET" Value="Function GetOrAddAsync(Of T As IReliableState) (tx As ITransaction, name As String, timeout As TimeSpan) As Task(Of T) Implements IReliableStateManager.GetOrAddAsync" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;T&gt;</ReturnType>
@@ -595,11 +594,11 @@
       <MemberSignature Language="C#" Value="System.Threading.Tasks.Task&lt;T&gt; IReliableStateManager.GetOrAddAsync&lt;T&gt; (Microsoft.ServiceFabric.Data.ITransaction tx, Uri name, TimeSpan timeout) where T : Microsoft.ServiceFabric.Data.IReliableState;" />
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;!!T&gt; Microsoft.ServiceFabric.Data.IReliableStateManager.GetOrAddAsync&lt;(class Microsoft.ServiceFabric.Data.IReliableState) T&gt;(class Microsoft.ServiceFabric.Data.ITransaction tx, class System.Uri name, valuetype System.TimeSpan timeout) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Data.ReliableStateManager.Microsoft#ServiceFabric#Data#IReliableStateManager#GetOrAddAsync``1(Microsoft.ServiceFabric.Data.ITransaction,System.Uri,System.TimeSpan)" />
+      <MemberSignature Language="VB.NET" Value="Function GetOrAddAsync(Of T As IReliableState) (tx As ITransaction, name As Uri, timeout As TimeSpan) As Task(Of T) Implements IReliableStateManager.GetOrAddAsync" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;T&gt;</ReturnType>
@@ -660,11 +659,11 @@
       <MemberSignature Language="C#" Value="System.Threading.Tasks.Task IReliableStateManager.RemoveAsync (string name);" />
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Threading.Tasks.Task Microsoft.ServiceFabric.Data.IReliableStateManager.RemoveAsync(string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Data.ReliableStateManager.Microsoft#ServiceFabric#Data#IReliableStateManager#RemoveAsync(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Function RemoveAsync (name As String) As Task Implements IReliableStateManager.RemoveAsync" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -695,11 +694,11 @@
       <MemberSignature Language="C#" Value="System.Threading.Tasks.Task IReliableStateManager.RemoveAsync (Uri name);" />
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Threading.Tasks.Task Microsoft.ServiceFabric.Data.IReliableStateManager.RemoveAsync(class System.Uri name) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Data.ReliableStateManager.Microsoft#ServiceFabric#Data#IReliableStateManager#RemoveAsync(System.Uri)" />
+      <MemberSignature Language="VB.NET" Value="Function RemoveAsync (name As Uri) As Task Implements IReliableStateManager.RemoveAsync" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -730,11 +729,11 @@
       <MemberSignature Language="C#" Value="System.Threading.Tasks.Task IReliableStateManager.RemoveAsync (Microsoft.ServiceFabric.Data.ITransaction tx, string name);" />
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Threading.Tasks.Task Microsoft.ServiceFabric.Data.IReliableStateManager.RemoveAsync(class Microsoft.ServiceFabric.Data.ITransaction tx, string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Data.ReliableStateManager.Microsoft#ServiceFabric#Data#IReliableStateManager#RemoveAsync(Microsoft.ServiceFabric.Data.ITransaction,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Function RemoveAsync (tx As ITransaction, name As String) As Task Implements IReliableStateManager.RemoveAsync" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -771,11 +770,11 @@
       <MemberSignature Language="C#" Value="System.Threading.Tasks.Task IReliableStateManager.RemoveAsync (Microsoft.ServiceFabric.Data.ITransaction tx, Uri name);" />
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Threading.Tasks.Task Microsoft.ServiceFabric.Data.IReliableStateManager.RemoveAsync(class Microsoft.ServiceFabric.Data.ITransaction tx, class System.Uri name) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Data.ReliableStateManager.Microsoft#ServiceFabric#Data#IReliableStateManager#RemoveAsync(Microsoft.ServiceFabric.Data.ITransaction,System.Uri)" />
+      <MemberSignature Language="VB.NET" Value="Function RemoveAsync (tx As ITransaction, name As Uri) As Task Implements IReliableStateManager.RemoveAsync" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -812,11 +811,11 @@
       <MemberSignature Language="C#" Value="System.Threading.Tasks.Task IReliableStateManager.RemoveAsync (string name, TimeSpan timeout);" />
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Threading.Tasks.Task Microsoft.ServiceFabric.Data.IReliableStateManager.RemoveAsync(string name, valuetype System.TimeSpan timeout) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Data.ReliableStateManager.Microsoft#ServiceFabric#Data#IReliableStateManager#RemoveAsync(System.String,System.TimeSpan)" />
+      <MemberSignature Language="VB.NET" Value="Function RemoveAsync (name As String, timeout As TimeSpan) As Task Implements IReliableStateManager.RemoveAsync" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -849,11 +848,11 @@
       <MemberSignature Language="C#" Value="System.Threading.Tasks.Task IReliableStateManager.RemoveAsync (Uri name, TimeSpan timeout);" />
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Threading.Tasks.Task Microsoft.ServiceFabric.Data.IReliableStateManager.RemoveAsync(class System.Uri name, valuetype System.TimeSpan timeout) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Data.ReliableStateManager.Microsoft#ServiceFabric#Data#IReliableStateManager#RemoveAsync(System.Uri,System.TimeSpan)" />
+      <MemberSignature Language="VB.NET" Value="Function RemoveAsync (name As Uri, timeout As TimeSpan) As Task Implements IReliableStateManager.RemoveAsync" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -886,11 +885,11 @@
       <MemberSignature Language="C#" Value="System.Threading.Tasks.Task IReliableStateManager.RemoveAsync (Microsoft.ServiceFabric.Data.ITransaction tx, string name, TimeSpan timeout);" />
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Threading.Tasks.Task Microsoft.ServiceFabric.Data.IReliableStateManager.RemoveAsync(class Microsoft.ServiceFabric.Data.ITransaction tx, string name, valuetype System.TimeSpan timeout) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Data.ReliableStateManager.Microsoft#ServiceFabric#Data#IReliableStateManager#RemoveAsync(Microsoft.ServiceFabric.Data.ITransaction,System.String,System.TimeSpan)" />
+      <MemberSignature Language="VB.NET" Value="Function RemoveAsync (tx As ITransaction, name As String, timeout As TimeSpan) As Task Implements IReliableStateManager.RemoveAsync" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -929,11 +928,11 @@
       <MemberSignature Language="C#" Value="System.Threading.Tasks.Task IReliableStateManager.RemoveAsync (Microsoft.ServiceFabric.Data.ITransaction tx, Uri name, TimeSpan timeout);" />
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Threading.Tasks.Task Microsoft.ServiceFabric.Data.IReliableStateManager.RemoveAsync(class Microsoft.ServiceFabric.Data.ITransaction tx, class System.Uri name, valuetype System.TimeSpan timeout) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Data.ReliableStateManager.Microsoft#ServiceFabric#Data#IReliableStateManager#RemoveAsync(Microsoft.ServiceFabric.Data.ITransaction,System.Uri,System.TimeSpan)" />
+      <MemberSignature Language="VB.NET" Value="Function RemoveAsync (tx As ITransaction, name As Uri, timeout As TimeSpan) As Task Implements IReliableStateManager.RemoveAsync" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -972,11 +971,11 @@
       <MemberSignature Language="C#" Value="bool IReliableStateManager.TryAddStateSerializer&lt;T&gt; (Microsoft.ServiceFabric.Data.IStateSerializer&lt;T&gt; stateSerializer);" />
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance bool Microsoft.ServiceFabric.Data.IReliableStateManager.TryAddStateSerializer&lt;T&gt;(class Microsoft.ServiceFabric.Data.IStateSerializer`1&lt;!!T&gt; stateSerializer) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Data.ReliableStateManager.Microsoft#ServiceFabric#Data#IReliableStateManager#TryAddStateSerializer``1(Microsoft.ServiceFabric.Data.IStateSerializer{``0})" />
+      <MemberSignature Language="VB.NET" Value="Function TryAddStateSerializer(Of T) (stateSerializer As IStateSerializer(Of T)) As Boolean Implements IReliableStateManager.TryAddStateSerializer" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1010,11 +1009,11 @@
       <MemberSignature Language="C#" Value="System.Threading.Tasks.Task&lt;Microsoft.ServiceFabric.Data.ConditionalValue&lt;T&gt;&gt; IReliableStateManager.TryGetAsync&lt;T&gt; (string name) where T : Microsoft.ServiceFabric.Data.IReliableState;" />
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;valuetype Microsoft.ServiceFabric.Data.ConditionalValue`1&lt;!!T&gt;&gt; Microsoft.ServiceFabric.Data.IReliableStateManager.TryGetAsync&lt;(class Microsoft.ServiceFabric.Data.IReliableState) T&gt;(string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Data.ReliableStateManager.Microsoft#ServiceFabric#Data#IReliableStateManager#TryGetAsync``1(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Function TryGetAsync(Of T As IReliableState) (name As String) As Task(Of ConditionalValue(Of T)) Implements IReliableStateManager.TryGetAsync" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.ServiceFabric.Data.ConditionalValue&lt;T&gt;&gt;</ReturnType>
@@ -1057,11 +1056,11 @@
       <MemberSignature Language="C#" Value="System.Threading.Tasks.Task&lt;Microsoft.ServiceFabric.Data.ConditionalValue&lt;T&gt;&gt; IReliableStateManager.TryGetAsync&lt;T&gt; (Uri name) where T : Microsoft.ServiceFabric.Data.IReliableState;" />
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;valuetype Microsoft.ServiceFabric.Data.ConditionalValue`1&lt;!!T&gt;&gt; Microsoft.ServiceFabric.Data.IReliableStateManager.TryGetAsync&lt;(class Microsoft.ServiceFabric.Data.IReliableState) T&gt;(class System.Uri name) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Data.ReliableStateManager.Microsoft#ServiceFabric#Data#IReliableStateManager#TryGetAsync``1(System.Uri)" />
+      <MemberSignature Language="VB.NET" Value="Function TryGetAsync(Of T As IReliableState) (name As Uri) As Task(Of ConditionalValue(Of T)) Implements IReliableStateManager.TryGetAsync" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.ServiceFabric.Data.ConditionalValue&lt;T&gt;&gt;</ReturnType>
@@ -1104,11 +1103,11 @@
       <MemberSignature Language="C#" Value="void IStateProviderReplica.Abort ();" />
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.ServiceFabric.Data.IStateProviderReplica.Abort() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Data.ReliableStateManager.Microsoft#ServiceFabric#Data#IStateProviderReplica#Abort" />
+      <MemberSignature Language="VB.NET" Value="Sub Abort () Implements IStateProviderReplica.Abort" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1130,9 +1129,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Data.ReliableStateManager.Microsoft#ServiceFabric#Data#IStateProviderReplica#ChangeRoleAsync(System.Fabric.ReplicaRole,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -1157,9 +1155,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Data.ReliableStateManager.Microsoft#ServiceFabric#Data#IStateProviderReplica#CloseAsync(System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -1183,11 +1180,11 @@
       <MemberSignature Language="C#" Value="void IStateProviderReplica.Initialize (System.Fabric.StatefulServiceInitializationParameters initializationParameters);" />
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.ServiceFabric.Data.IStateProviderReplica.Initialize(class System.Fabric.StatefulServiceInitializationParameters initializationParameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Data.ReliableStateManager.Microsoft#ServiceFabric#Data#IStateProviderReplica#Initialize(System.Fabric.StatefulServiceInitializationParameters)" />
+      <MemberSignature Language="VB.NET" Value="Sub Initialize (initializationParameters As StatefulServiceInitializationParameters) Implements IStateProviderReplica.Initialize" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1211,9 +1208,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Data.ReliableStateManager.Microsoft#ServiceFabric#Data#IStateProviderReplica#OpenAsync(System.Fabric.ReplicaOpenMode,System.Fabric.IStatefulServicePartition,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Fabric.IReplicator&gt;</ReturnType>
@@ -1243,11 +1239,11 @@
       <MemberSignature Language="C#" Value="public Func&lt;System.Threading.CancellationToken,System.Threading.Tasks.Task&lt;bool&gt;&gt; OnDataLossAsync { set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Func`2&lt;valuetype System.Threading.CancellationToken, class System.Threading.Tasks.Task`1&lt;bool&gt;&gt; OnDataLossAsync" />
       <MemberSignature Language="DocId" Value="P:Microsoft.ServiceFabric.Data.ReliableStateManager.OnDataLossAsync" />
+      <MemberSignature Language="VB.NET" Value="Public Property OnDataLossAsync As Func(Of CancellationToken, Task(Of Boolean))" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Func&lt;System.Threading.CancellationToken,System.Threading.Tasks.Task&lt;System.Boolean&gt;&gt;</ReturnType>
@@ -1271,15 +1267,38 @@
         </remarks>
       </Docs>
     </Member>
+    <Member MemberName="OnRestoreCompletedAsync">
+      <MemberSignature Language="C#" Value="public Func&lt;System.Threading.CancellationToken,System.Threading.Tasks.Task&gt; OnRestoreCompletedAsync { set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Func`2&lt;valuetype System.Threading.CancellationToken, class System.Threading.Tasks.Task&gt; OnRestoreCompletedAsync" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ServiceFabric.Data.ReliableStateManager.OnRestoreCompletedAsync" />
+      <MemberSignature Language="VB.NET" Value="Public Property OnRestoreCompletedAsync As Func(Of CancellationToken, Task)" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.ServiceFabric.Data</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Func&lt;System.Threading.CancellationToken,System.Threading.Tasks.Task&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Function called post restore has been performed on the replica.
+            </summary>
+        <value>
+            Function called when the replica's state has been restored successfully by the framework
+            </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="RestoreAsync">
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task RestoreAsync (string backupFolderPath);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task RestoreAsync(string backupFolderPath) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Data.ReliableStateManager.RestoreAsync(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function RestoreAsync (backupFolderPath As String) As Task" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -1309,9 +1328,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Data.ReliableStateManager.RestoreAsync(System.String,Microsoft.ServiceFabric.Data.RestorePolicy,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -1341,11 +1359,11 @@
       <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.ServiceFabric.Data.Notifications.NotifyStateManagerChangedEventArgs&gt; StateManagerChanged;" />
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.ServiceFabric.Data.Notifications.NotifyStateManagerChangedEventArgs&gt; StateManagerChanged" />
       <MemberSignature Language="DocId" Value="E:Microsoft.ServiceFabric.Data.ReliableStateManager.StateManagerChanged" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event StateManagerChanged As EventHandler(Of NotifyStateManagerChangedEventArgs) " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.EventHandler&lt;Microsoft.ServiceFabric.Data.Notifications.NotifyStateManagerChangedEventArgs&gt;</ReturnType>
@@ -1362,11 +1380,11 @@
       <MemberSignature Language="C#" Value="public event EventHandler&lt;Microsoft.ServiceFabric.Data.Notifications.NotifyTransactionChangedEventArgs&gt; TransactionChanged;" />
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.ServiceFabric.Data.Notifications.NotifyTransactionChangedEventArgs&gt; TransactionChanged" />
       <MemberSignature Language="DocId" Value="E:Microsoft.ServiceFabric.Data.ReliableStateManager.TransactionChanged" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event TransactionChanged As EventHandler(Of NotifyTransactionChangedEventArgs) " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Data</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.EventHandler&lt;Microsoft.ServiceFabric.Data.Notifications.NotifyTransactionChangedEventArgs&gt;</ReturnType>

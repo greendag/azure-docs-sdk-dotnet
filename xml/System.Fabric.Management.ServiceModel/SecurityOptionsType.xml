@@ -2,9 +2,10 @@
   <TypeSignature Language="C#" Value="public class SecurityOptionsType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SecurityOptionsType extends System.Object" />
   <TypeSignature Language="DocId" Value="T:System.Fabric.Management.ServiceModel.SecurityOptionsType" />
+  <TypeSignature Language="VB.NET" Value="Public Class SecurityOptionsType" />
   <AssemblyInfo>
     <AssemblyName>System.Fabric.Management.ServiceModel</AssemblyName>
-    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -30,10 +31,11 @@
       <MemberSignature Language="C#" Value="public SecurityOptionsType ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.Management.ServiceModel.SecurityOptionsType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Fabric.Management.ServiceModel</AssemblyName>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -45,10 +47,11 @@
       <MemberSignature Language="C#" Value="public string Value { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Value" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Management.ServiceModel.SecurityOptionsType.Value" />
+      <MemberSignature Language="VB.NET" Value="Public Property Value As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Fabric.Management.ServiceModel</AssemblyName>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>

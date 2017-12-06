@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public static class OriginsOperationsExtensions" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit OriginsOperationsExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Cdn.OriginsOperationsExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module OriginsOperationsExtensions" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Cdn</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>
@@ -11,9 +12,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-            Extension methods for OriginsOperations.
-            </summary>
+    <summary>To be added.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -21,10 +20,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Cdn.Models.Origin BeginUpdate (this Microsoft.Azure.Management.Cdn.IOriginsOperations operations, string resourceGroupName, string profileName, string endpointName, string originName, Microsoft.Azure.Management.Cdn.Models.OriginUpdateParameters originUpdateProperties);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Cdn.Models.Origin BeginUpdate(class Microsoft.Azure.Management.Cdn.IOriginsOperations operations, string resourceGroupName, string profileName, string endpointName, string originName, class Microsoft.Azure.Management.Cdn.Models.OriginUpdateParameters originUpdateProperties) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.OriginsOperationsExtensions.BeginUpdate(Microsoft.Azure.Management.Cdn.IOriginsOperations,System.String,System.String,System.String,System.String,Microsoft.Azure.Management.Cdn.Models.OriginUpdateParameters)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginUpdate (operations As IOriginsOperations, resourceGroupName As String, profileName As String, endpointName As String, originName As String, originUpdateProperties As OriginUpdateParameters) As Origin" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Cdn.Models.Origin</ReturnType>
@@ -38,27 +38,13 @@
         <Parameter Name="originUpdateProperties" Type="Microsoft.Azure.Management.Cdn.Models.OriginUpdateParameters" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the Resource group within the Azure subscription.
-            </param>
-        <param name="profileName">
-            Name of the CDN profile which is unique within the resource group.
-            </param>
-        <param name="endpointName">
-            Name of the endpoint under the profile which is unique globally.
-            </param>
-        <param name="originName">
-            Name of the origin which is unique within the endpoint.
-            </param>
-        <param name="originUpdateProperties">
-            Origin properties
-            </param>
-        <summary>
-            Updates an existing origin within an endpoint.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="profileName">To be added.</param>
+        <param name="endpointName">To be added.</param>
+        <param name="originName">To be added.</param>
+        <param name="originUpdateProperties">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -69,8 +55,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.OriginsOperationsExtensions.BeginUpdateAsync(Microsoft.Azure.Management.Cdn.IOriginsOperations,System.String,System.String,System.String,System.String,Microsoft.Azure.Management.Cdn.Models.OriginUpdateParameters,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -90,30 +76,14 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the Resource group within the Azure subscription.
-            </param>
-        <param name="profileName">
-            Name of the CDN profile which is unique within the resource group.
-            </param>
-        <param name="endpointName">
-            Name of the endpoint under the profile which is unique globally.
-            </param>
-        <param name="originName">
-            Name of the origin which is unique within the endpoint.
-            </param>
-        <param name="originUpdateProperties">
-            Origin properties
-            </param>
-        <param name="cancellationToken">
-            The cancellation token.
-            </param>
-        <summary>
-            Updates an existing origin within an endpoint.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="profileName">To be added.</param>
+        <param name="endpointName">To be added.</param>
+        <param name="originName">To be added.</param>
+        <param name="originUpdateProperties">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -122,10 +92,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Cdn.Models.Origin Get (this Microsoft.Azure.Management.Cdn.IOriginsOperations operations, string resourceGroupName, string profileName, string endpointName, string originName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Cdn.Models.Origin Get(class Microsoft.Azure.Management.Cdn.IOriginsOperations operations, string resourceGroupName, string profileName, string endpointName, string originName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.OriginsOperationsExtensions.Get(Microsoft.Azure.Management.Cdn.IOriginsOperations,System.String,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Get (operations As IOriginsOperations, resourceGroupName As String, profileName As String, endpointName As String, originName As String) As Origin" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Cdn.Models.Origin</ReturnType>
@@ -138,24 +109,12 @@
         <Parameter Name="originName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the Resource group within the Azure subscription.
-            </param>
-        <param name="profileName">
-            Name of the CDN profile which is unique within the resource group.
-            </param>
-        <param name="endpointName">
-            Name of the endpoint under the profile which is unique globally.
-            </param>
-        <param name="originName">
-            Name of the origin which is unique within the endpoint.
-            </param>
-        <summary>
-            Gets an existing origin within an endpoint.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="profileName">To be added.</param>
+        <param name="endpointName">To be added.</param>
+        <param name="originName">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -166,8 +125,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.OriginsOperationsExtensions.GetAsync(Microsoft.Azure.Management.Cdn.IOriginsOperations,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -186,27 +145,13 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the Resource group within the Azure subscription.
-            </param>
-        <param name="profileName">
-            Name of the CDN profile which is unique within the resource group.
-            </param>
-        <param name="endpointName">
-            Name of the endpoint under the profile which is unique globally.
-            </param>
-        <param name="originName">
-            Name of the origin which is unique within the endpoint.
-            </param>
-        <param name="cancellationToken">
-            The cancellation token.
-            </param>
-        <summary>
-            Gets an existing origin within an endpoint.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="profileName">To be added.</param>
+        <param name="endpointName">To be added.</param>
+        <param name="originName">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -215,10 +160,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Cdn.Models.Origin&gt; ListByEndpoint (this Microsoft.Azure.Management.Cdn.IOriginsOperations operations, string resourceGroupName, string profileName, string endpointName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Cdn.Models.Origin&gt; ListByEndpoint(class Microsoft.Azure.Management.Cdn.IOriginsOperations operations, string resourceGroupName, string profileName, string endpointName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.OriginsOperationsExtensions.ListByEndpoint(Microsoft.Azure.Management.Cdn.IOriginsOperations,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListByEndpoint (operations As IOriginsOperations, resourceGroupName As String, profileName As String, endpointName As String) As IPage(Of Origin)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Cdn.Models.Origin&gt;</ReturnType>
@@ -230,21 +176,11 @@
         <Parameter Name="endpointName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the Resource group within the Azure subscription.
-            </param>
-        <param name="profileName">
-            Name of the CDN profile which is unique within the resource group.
-            </param>
-        <param name="endpointName">
-            Name of the endpoint under the profile which is unique globally.
-            </param>
-        <summary>
-            Lists all of the existing origins within an endpoint.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="profileName">To be added.</param>
+        <param name="endpointName">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -255,8 +191,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.OriginsOperationsExtensions.ListByEndpointAsync(Microsoft.Azure.Management.Cdn.IOriginsOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -274,24 +210,12 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the Resource group within the Azure subscription.
-            </param>
-        <param name="profileName">
-            Name of the CDN profile which is unique within the resource group.
-            </param>
-        <param name="endpointName">
-            Name of the endpoint under the profile which is unique globally.
-            </param>
-        <param name="cancellationToken">
-            The cancellation token.
-            </param>
-        <summary>
-            Lists all of the existing origins within an endpoint.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="profileName">To be added.</param>
+        <param name="endpointName">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -300,10 +224,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Cdn.Models.Origin&gt; ListByEndpointNext (this Microsoft.Azure.Management.Cdn.IOriginsOperations operations, string nextPageLink);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Cdn.Models.Origin&gt; ListByEndpointNext(class Microsoft.Azure.Management.Cdn.IOriginsOperations operations, string nextPageLink) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.OriginsOperationsExtensions.ListByEndpointNext(Microsoft.Azure.Management.Cdn.IOriginsOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListByEndpointNext (operations As IOriginsOperations, nextPageLink As String) As IPage(Of Origin)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Cdn.Models.Origin&gt;</ReturnType>
@@ -313,15 +238,9 @@
         <Parameter Name="nextPageLink" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="nextPageLink">
-            The NextLink from the previous successful call to List operation.
-            </param>
-        <summary>
-            Lists all of the existing origins within an endpoint.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="nextPageLink">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -332,8 +251,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.OriginsOperationsExtensions.ListByEndpointNextAsync(Microsoft.Azure.Management.Cdn.IOriginsOperations,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -349,18 +268,10 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="nextPageLink">
-            The NextLink from the previous successful call to List operation.
-            </param>
-        <param name="cancellationToken">
-            The cancellation token.
-            </param>
-        <summary>
-            Lists all of the existing origins within an endpoint.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="nextPageLink">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -369,10 +280,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Cdn.Models.Origin Update (this Microsoft.Azure.Management.Cdn.IOriginsOperations operations, string resourceGroupName, string profileName, string endpointName, string originName, Microsoft.Azure.Management.Cdn.Models.OriginUpdateParameters originUpdateProperties);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Cdn.Models.Origin Update(class Microsoft.Azure.Management.Cdn.IOriginsOperations operations, string resourceGroupName, string profileName, string endpointName, string originName, class Microsoft.Azure.Management.Cdn.Models.OriginUpdateParameters originUpdateProperties) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.OriginsOperationsExtensions.Update(Microsoft.Azure.Management.Cdn.IOriginsOperations,System.String,System.String,System.String,System.String,Microsoft.Azure.Management.Cdn.Models.OriginUpdateParameters)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Update (operations As IOriginsOperations, resourceGroupName As String, profileName As String, endpointName As String, originName As String, originUpdateProperties As OriginUpdateParameters) As Origin" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Cdn.Models.Origin</ReturnType>
@@ -386,27 +298,13 @@
         <Parameter Name="originUpdateProperties" Type="Microsoft.Azure.Management.Cdn.Models.OriginUpdateParameters" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the Resource group within the Azure subscription.
-            </param>
-        <param name="profileName">
-            Name of the CDN profile which is unique within the resource group.
-            </param>
-        <param name="endpointName">
-            Name of the endpoint under the profile which is unique globally.
-            </param>
-        <param name="originName">
-            Name of the origin which is unique within the endpoint.
-            </param>
-        <param name="originUpdateProperties">
-            Origin properties
-            </param>
-        <summary>
-            Updates an existing origin within an endpoint.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="profileName">To be added.</param>
+        <param name="endpointName">To be added.</param>
+        <param name="originName">To be added.</param>
+        <param name="originUpdateProperties">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -417,8 +315,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.OriginsOperationsExtensions.UpdateAsync(Microsoft.Azure.Management.Cdn.IOriginsOperations,System.String,System.String,System.String,System.String,Microsoft.Azure.Management.Cdn.Models.OriginUpdateParameters,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -438,30 +336,14 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the Resource group within the Azure subscription.
-            </param>
-        <param name="profileName">
-            Name of the CDN profile which is unique within the resource group.
-            </param>
-        <param name="endpointName">
-            Name of the endpoint under the profile which is unique globally.
-            </param>
-        <param name="originName">
-            Name of the origin which is unique within the endpoint.
-            </param>
-        <param name="originUpdateProperties">
-            Origin properties
-            </param>
-        <param name="cancellationToken">
-            The cancellation token.
-            </param>
-        <summary>
-            Updates an existing origin within an endpoint.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="profileName">To be added.</param>
+        <param name="endpointName">To be added.</param>
+        <param name="originName">To be added.</param>
+        <param name="originUpdateProperties">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>

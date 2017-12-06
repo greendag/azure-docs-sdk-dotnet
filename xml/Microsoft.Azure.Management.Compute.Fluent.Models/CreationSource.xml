@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public class CreationSource" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CreationSource extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Compute.Fluent.Models.CreationSource" />
+  <TypeSignature Language="VB.NET" Value="Public Class CreationSource" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
     <AssemblyVersion>1.0.0.60</AssemblyVersion>
@@ -23,8 +24,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.Models.CreationSource.#ctor(Microsoft.Azure.Management.Compute.Fluent.Models.CreationData)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="creationData" Type="Microsoft.Azure.Management.Compute.Fluent.Models.CreationData" />
@@ -41,10 +42,11 @@
       <MemberSignature Language="C#" Value="public int SourceDataDiskImageLun ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance int32 SourceDataDiskImageLun() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.Models.CreationSource.SourceDataDiskImageLun" />
+      <MemberSignature Language="VB.NET" Value="Public Function SourceDataDiskImageLun () As Integer" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -82,16 +84,25 @@
              The lun value of the data disk image if this disk or snapshot is created from
              a data disk image, -1 otherwise.
              </return>
+        <return>
+             The lun value of the data disk image if this disk or snapshot is created from
+             a data disk image, -1 otherwise.
+             </return>
+        <return>
+             The lun value of the data disk image if this disk or snapshot is created from
+             a data disk image, -1 otherwise.
+             </return>
       </Docs>
     </Member>
     <Member MemberName="SourceId">
       <MemberSignature Language="C#" Value="public string SourceId ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance string SourceId() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.Models.CreationSource.SourceId" />
+      <MemberSignature Language="VB.NET" Value="Public Function SourceId () As String" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -108,10 +119,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.Compute.Fluent.Models.CreationSourceType Type { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Azure.Management.Compute.Fluent.Models.CreationSourceType Type" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Compute.Fluent.Models.CreationSource.Type" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Type As CreationSourceType" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Compute.Fluent.Models.CreationSourceType</ReturnType>

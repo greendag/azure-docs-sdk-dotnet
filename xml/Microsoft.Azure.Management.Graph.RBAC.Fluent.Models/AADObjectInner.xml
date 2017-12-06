@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public class AADObjectInner" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AADObjectInner extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Graph.RBAC.Fluent.Models.AADObjectInner" />
+  <TypeSignature Language="VB.NET" Value="Public Class AADObjectInner" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Graph.RBAC.Fluent</AssemblyName>
     <AssemblyVersion>1.0.0.60</AssemblyVersion>
@@ -21,10 +22,11 @@
       <MemberSignature Language="C#" Value="public AADObjectInner ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Graph.RBAC.Fluent.Models.AADObjectInner.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Graph.RBAC.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -38,10 +40,11 @@
       <MemberSignature Language="C#" Value="public AADObjectInner (string objectId = null, string objectType = null, string displayName = null, string userPrincipalName = null, string mail = null, Nullable&lt;bool&gt; mailEnabled = null, Nullable&lt;bool&gt; securityEnabled = null, string signInName = null, System.Collections.Generic.IList&lt;string&gt; servicePrincipalNames = null, string userType = null);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string objectId, string objectType, string displayName, string userPrincipalName, string mail, valuetype System.Nullable`1&lt;bool&gt; mailEnabled, valuetype System.Nullable`1&lt;bool&gt; securityEnabled, string signInName, class System.Collections.Generic.IList`1&lt;string&gt; servicePrincipalNames, string userType) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Graph.RBAC.Fluent.Models.AADObjectInner.#ctor(System.String,System.String,System.String,System.String,System.String,System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.String,System.Collections.Generic.IList{System.String},System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (Optional objectId As String = null, Optional objectType As String = null, Optional displayName As String = null, Optional userPrincipalName As String = null, Optional mail As String = null, Optional mailEnabled As Nullable(Of Boolean) = null, Optional securityEnabled As Nullable(Of Boolean) = null, Optional signInName As String = null, Optional servicePrincipalNames As IList(Of String) = null, Optional userType As String = null)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Graph.RBAC.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="objectId" Type="System.String" />
@@ -80,10 +83,11 @@
       <MemberSignature Language="C#" Value="public string DisplayName { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string DisplayName" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Graph.RBAC.Fluent.Models.AADObjectInner.DisplayName" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayName As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Graph.RBAC.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -105,10 +109,11 @@
       <MemberSignature Language="C#" Value="public string Mail { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Mail" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Graph.RBAC.Fluent.Models.AADObjectInner.Mail" />
+      <MemberSignature Language="VB.NET" Value="Public Property Mail As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Graph.RBAC.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -130,10 +135,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; MailEnabled { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; MailEnabled" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Graph.RBAC.Fluent.Models.AADObjectInner.MailEnabled" />
+      <MemberSignature Language="VB.NET" Value="Public Property MailEnabled As Nullable(Of Boolean)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Graph.RBAC.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -155,10 +161,11 @@
       <MemberSignature Language="C#" Value="public string ObjectId { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string ObjectId" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Graph.RBAC.Fluent.Models.AADObjectInner.ObjectId" />
+      <MemberSignature Language="VB.NET" Value="Public Property ObjectId As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Graph.RBAC.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -180,10 +187,11 @@
       <MemberSignature Language="C#" Value="public string ObjectType { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string ObjectType" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Graph.RBAC.Fluent.Models.AADObjectInner.ObjectType" />
+      <MemberSignature Language="VB.NET" Value="Public Property ObjectType As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Graph.RBAC.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -205,10 +213,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; SecurityEnabled { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; SecurityEnabled" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Graph.RBAC.Fluent.Models.AADObjectInner.SecurityEnabled" />
+      <MemberSignature Language="VB.NET" Value="Public Property SecurityEnabled As Nullable(Of Boolean)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Graph.RBAC.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -230,10 +239,11 @@
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;string&gt; ServicePrincipalNames { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;string&gt; ServicePrincipalNames" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Graph.RBAC.Fluent.Models.AADObjectInner.ServicePrincipalNames" />
+      <MemberSignature Language="VB.NET" Value="Public Property ServicePrincipalNames As IList(Of String)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Graph.RBAC.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -256,10 +266,11 @@
       <MemberSignature Language="C#" Value="public string SignInName { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string SignInName" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Graph.RBAC.Fluent.Models.AADObjectInner.SignInName" />
+      <MemberSignature Language="VB.NET" Value="Public Property SignInName As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Graph.RBAC.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -281,10 +292,11 @@
       <MemberSignature Language="C#" Value="public string UserPrincipalName { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string UserPrincipalName" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Graph.RBAC.Fluent.Models.AADObjectInner.UserPrincipalName" />
+      <MemberSignature Language="VB.NET" Value="Public Property UserPrincipalName As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Graph.RBAC.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -306,10 +318,11 @@
       <MemberSignature Language="C#" Value="public string UserType { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string UserType" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Graph.RBAC.Fluent.Models.AADObjectInner.UserType" />
+      <MemberSignature Language="VB.NET" Value="Public Property UserType As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Graph.RBAC.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>

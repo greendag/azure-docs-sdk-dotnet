@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public interface IActivityWindowOperations" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IActivityWindowOperations" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.DataFactories.IActivityWindowOperations" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IActivityWindowOperations" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -20,8 +21,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataFactories.IActivityWindowOperations.ListAsync(Microsoft.Azure.Management.DataFactories.Models.ActivityWindowsByActivityListParameters,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.DataFactories.Models.ActivityWindowListResponse&gt;</ReturnType>
@@ -53,8 +54,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataFactories.IActivityWindowOperations.ListAsync(Microsoft.Azure.Management.DataFactories.Models.ActivityWindowsByDataFactoryListParameters,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.DataFactories.Models.ActivityWindowListResponse&gt;</ReturnType>
@@ -86,8 +87,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataFactories.IActivityWindowOperations.ListAsync(Microsoft.Azure.Management.DataFactories.Models.ActivityWindowsByDatasetListParameters,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.DataFactories.Models.ActivityWindowListResponse&gt;</ReturnType>
@@ -119,8 +120,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataFactories.IActivityWindowOperations.ListAsync(Microsoft.Azure.Management.DataFactories.Models.ActivityWindowsByPipelineListParameters,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.DataFactories.Models.ActivityWindowListResponse&gt;</ReturnType>
@@ -152,8 +153,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataFactories.IActivityWindowOperations.ListNextAsync(System.String,Microsoft.Azure.Management.DataFactories.Models.ActivityWindowsByActivityListParameters,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.DataFactories.Models.ActivityWindowListResponse&gt;</ReturnType>
@@ -189,8 +190,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataFactories.IActivityWindowOperations.ListNextAsync(System.String,Microsoft.Azure.Management.DataFactories.Models.ActivityWindowsByDataFactoryListParameters,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.DataFactories.Models.ActivityWindowListResponse&gt;</ReturnType>
@@ -226,8 +227,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataFactories.IActivityWindowOperations.ListNextAsync(System.String,Microsoft.Azure.Management.DataFactories.Models.ActivityWindowsByDatasetListParameters,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.DataFactories.Models.ActivityWindowListResponse&gt;</ReturnType>
@@ -263,8 +264,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataFactories.IActivityWindowOperations.ListNextAsync(System.String,Microsoft.Azure.Management.DataFactories.Models.ActivityWindowsByPipelineListParameters,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.DataFactories.Models.ActivityWindowListResponse&gt;</ReturnType>

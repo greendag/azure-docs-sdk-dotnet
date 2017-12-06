@@ -2,10 +2,10 @@
   <TypeSignature Language="C#" Value="public sealed class EndpointResourceDescription" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit EndpointResourceDescription extends System.Object" />
   <TypeSignature Language="DocId" Value="T:System.Fabric.Description.EndpointResourceDescription" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class EndpointResourceDescription" />
   <AssemblyInfo>
     <AssemblyName>System.Fabric</AssemblyName>
-    <AssemblyVersion>5.0.0.0</AssemblyVersion>
-    <AssemblyVersion>255.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -22,11 +22,11 @@
       <MemberSignature Language="C#" Value="public EndpointResourceDescription ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Fabric.Description.EndpointResourceDescription.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -40,11 +40,11 @@
       <MemberSignature Language="C#" Value="public string Certificate { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Certificate" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Description.EndpointResourceDescription.Certificate" />
+      <MemberSignature Language="VB.NET" Value="Public Property Certificate As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -63,10 +63,11 @@
       <MemberSignature Language="C#" Value="public string CodePackageName { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string CodePackageName" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Description.EndpointResourceDescription.CodePackageName" />
+      <MemberSignature Language="VB.NET" Value="Public Property CodePackageName As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Fabric</AssemblyName>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -91,11 +92,11 @@
       <MemberSignature Language="C#" Value="public System.Fabric.Description.EndpointType EndpointType { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Fabric.Description.EndpointType EndpointType" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Description.EndpointResourceDescription.EndpointType" />
+      <MemberSignature Language="VB.NET" Value="Public Property EndpointType As EndpointType" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Fabric.Description.EndpointType</ReturnType>
@@ -114,10 +115,11 @@
       <MemberSignature Language="C#" Value="public string IpAddressOrFqdn { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string IpAddressOrFqdn" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Description.EndpointResourceDescription.IpAddressOrFqdn" />
+      <MemberSignature Language="VB.NET" Value="Public Property IpAddressOrFqdn As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Fabric</AssemblyName>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -146,11 +148,11 @@
       <MemberSignature Language="C#" Value="public string Name { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Name" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Description.EndpointResourceDescription.Name" />
+      <MemberSignature Language="VB.NET" Value="Public Property Name As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -169,11 +171,11 @@
       <MemberSignature Language="C#" Value="public string PathSuffix { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string PathSuffix" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Description.EndpointResourceDescription.PathSuffix" />
+      <MemberSignature Language="VB.NET" Value="Public Property PathSuffix As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -192,11 +194,11 @@
       <MemberSignature Language="C#" Value="public int Port { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 Port" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Description.EndpointResourceDescription.Port" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Port As Integer" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -215,11 +217,11 @@
       <MemberSignature Language="C#" Value="public System.Fabric.Description.EndpointProtocol Protocol { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Fabric.Description.EndpointProtocol Protocol" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Description.EndpointResourceDescription.Protocol" />
+      <MemberSignature Language="VB.NET" Value="Public Property Protocol As EndpointProtocol" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Fabric.Description.EndpointProtocol</ReturnType>
@@ -238,11 +240,11 @@
       <MemberSignature Language="C#" Value="public string UriScheme { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string UriScheme" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Description.EndpointResourceDescription.UriScheme" />
+      <MemberSignature Language="VB.NET" Value="Public Property UriScheme As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public static class NotificationHubsOperationsExtensions" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit NotificationHubsOperationsExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.NotificationHubs.NotificationHubsOperationsExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module NotificationHubsOperationsExtensions" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.NotificationHubs</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -21,10 +22,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.NotificationHubs.Models.CheckAvailabilityResult CheckAvailability (this Microsoft.Azure.Management.NotificationHubs.INotificationHubsOperations operations, string resourceGroupName, string namespaceName, Microsoft.Azure.Management.NotificationHubs.Models.CheckAvailabilityParameters parameters);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.NotificationHubs.Models.CheckAvailabilityResult CheckAvailability(class Microsoft.Azure.Management.NotificationHubs.INotificationHubsOperations operations, string resourceGroupName, string namespaceName, class Microsoft.Azure.Management.NotificationHubs.Models.CheckAvailabilityParameters parameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.NotificationHubs.NotificationHubsOperationsExtensions.CheckAvailability(Microsoft.Azure.Management.NotificationHubs.INotificationHubsOperations,System.String,System.String,Microsoft.Azure.Management.NotificationHubs.Models.CheckAvailabilityParameters)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function CheckAvailability (operations As INotificationHubsOperations, resourceGroupName As String, namespaceName As String, parameters As CheckAvailabilityParameters) As CheckAvailabilityResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.NotificationHubs.Models.CheckAvailabilityResult</ReturnType>
@@ -61,8 +63,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.NotificationHubs.NotificationHubsOperationsExtensions.CheckAvailabilityAsync(Microsoft.Azure.Management.NotificationHubs.INotificationHubsOperations,System.String,System.String,Microsoft.Azure.Management.NotificationHubs.Models.CheckAvailabilityParameters,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -106,10 +108,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.NotificationHubs.Models.NotificationHubResource CreateOrUpdate (this Microsoft.Azure.Management.NotificationHubs.INotificationHubsOperations operations, string resourceGroupName, string namespaceName, string notificationHubName, Microsoft.Azure.Management.NotificationHubs.Models.NotificationHubCreateOrUpdateParameters parameters);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.NotificationHubs.Models.NotificationHubResource CreateOrUpdate(class Microsoft.Azure.Management.NotificationHubs.INotificationHubsOperations operations, string resourceGroupName, string namespaceName, string notificationHubName, class Microsoft.Azure.Management.NotificationHubs.Models.NotificationHubCreateOrUpdateParameters parameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.NotificationHubs.NotificationHubsOperationsExtensions.CreateOrUpdate(Microsoft.Azure.Management.NotificationHubs.INotificationHubsOperations,System.String,System.String,System.String,Microsoft.Azure.Management.NotificationHubs.Models.NotificationHubCreateOrUpdateParameters)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function CreateOrUpdate (operations As INotificationHubsOperations, resourceGroupName As String, namespaceName As String, notificationHubName As String, parameters As NotificationHubCreateOrUpdateParameters) As NotificationHubResource" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.NotificationHubs.Models.NotificationHubResource</ReturnType>
@@ -150,8 +153,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.NotificationHubs.NotificationHubsOperationsExtensions.CreateOrUpdateAsync(Microsoft.Azure.Management.NotificationHubs.INotificationHubsOperations,System.String,System.String,System.String,Microsoft.Azure.Management.NotificationHubs.Models.NotificationHubCreateOrUpdateParameters,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -199,10 +202,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.NotificationHubs.Models.SharedAccessAuthorizationRuleResource CreateOrUpdateAuthorizationRule (this Microsoft.Azure.Management.NotificationHubs.INotificationHubsOperations operations, string resourceGroupName, string namespaceName, string notificationHubName, string authorizationRuleName, Microsoft.Azure.Management.NotificationHubs.Models.SharedAccessAuthorizationRuleCreateOrUpdateParameters parameters);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.NotificationHubs.Models.SharedAccessAuthorizationRuleResource CreateOrUpdateAuthorizationRule(class Microsoft.Azure.Management.NotificationHubs.INotificationHubsOperations operations, string resourceGroupName, string namespaceName, string notificationHubName, string authorizationRuleName, class Microsoft.Azure.Management.NotificationHubs.Models.SharedAccessAuthorizationRuleCreateOrUpdateParameters parameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.NotificationHubs.NotificationHubsOperationsExtensions.CreateOrUpdateAuthorizationRule(Microsoft.Azure.Management.NotificationHubs.INotificationHubsOperations,System.String,System.String,System.String,System.String,Microsoft.Azure.Management.NotificationHubs.Models.SharedAccessAuthorizationRuleCreateOrUpdateParameters)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function CreateOrUpdateAuthorizationRule (operations As INotificationHubsOperations, resourceGroupName As String, namespaceName As String, notificationHubName As String, authorizationRuleName As String, parameters As SharedAccessAuthorizationRuleCreateOrUpdateParameters) As SharedAccessAuthorizationRuleResource" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.NotificationHubs.Models.SharedAccessAuthorizationRuleResource</ReturnType>
@@ -247,8 +251,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.NotificationHubs.NotificationHubsOperationsExtensions.CreateOrUpdateAuthorizationRuleAsync(Microsoft.Azure.Management.NotificationHubs.INotificationHubsOperations,System.String,System.String,System.String,System.String,Microsoft.Azure.Management.NotificationHubs.Models.SharedAccessAuthorizationRuleCreateOrUpdateParameters,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -300,10 +304,11 @@
       <MemberSignature Language="C#" Value="public static void Delete (this Microsoft.Azure.Management.NotificationHubs.INotificationHubsOperations operations, string resourceGroupName, string namespaceName, string notificationHubName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Delete(class Microsoft.Azure.Management.NotificationHubs.INotificationHubsOperations operations, string resourceGroupName, string namespaceName, string notificationHubName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.NotificationHubs.NotificationHubsOperationsExtensions.Delete(Microsoft.Azure.Management.NotificationHubs.INotificationHubsOperations,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub Delete (operations As INotificationHubsOperations, resourceGroupName As String, namespaceName As String, notificationHubName As String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -339,8 +344,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.NotificationHubs.NotificationHubsOperationsExtensions.DeleteAsync(Microsoft.Azure.Management.NotificationHubs.INotificationHubsOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -384,10 +389,11 @@
       <MemberSignature Language="C#" Value="public static void DeleteAuthorizationRule (this Microsoft.Azure.Management.NotificationHubs.INotificationHubsOperations operations, string resourceGroupName, string namespaceName, string notificationHubName, string authorizationRuleName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void DeleteAuthorizationRule(class Microsoft.Azure.Management.NotificationHubs.INotificationHubsOperations operations, string resourceGroupName, string namespaceName, string notificationHubName, string authorizationRuleName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.NotificationHubs.NotificationHubsOperationsExtensions.DeleteAuthorizationRule(Microsoft.Azure.Management.NotificationHubs.INotificationHubsOperations,System.String,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub DeleteAuthorizationRule (operations As INotificationHubsOperations, resourceGroupName As String, namespaceName As String, notificationHubName As String, authorizationRuleName As String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -427,8 +433,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.NotificationHubs.NotificationHubsOperationsExtensions.DeleteAuthorizationRuleAsync(Microsoft.Azure.Management.NotificationHubs.INotificationHubsOperations,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -476,10 +482,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.NotificationHubs.Models.NotificationHubResource Get (this Microsoft.Azure.Management.NotificationHubs.INotificationHubsOperations operations, string resourceGroupName, string namespaceName, string notificationHubName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.NotificationHubs.Models.NotificationHubResource Get(class Microsoft.Azure.Management.NotificationHubs.INotificationHubsOperations operations, string resourceGroupName, string namespaceName, string notificationHubName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.NotificationHubs.NotificationHubsOperationsExtensions.Get(Microsoft.Azure.Management.NotificationHubs.INotificationHubsOperations,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Get (operations As INotificationHubsOperations, resourceGroupName As String, namespaceName As String, notificationHubName As String) As NotificationHubResource" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.NotificationHubs.Models.NotificationHubResource</ReturnType>
@@ -516,8 +523,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.NotificationHubs.NotificationHubsOperationsExtensions.GetAsync(Microsoft.Azure.Management.NotificationHubs.INotificationHubsOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -561,10 +568,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.NotificationHubs.Models.SharedAccessAuthorizationRuleResource GetAuthorizationRule (this Microsoft.Azure.Management.NotificationHubs.INotificationHubsOperations operations, string resourceGroupName, string namespaceName, string notificationHubName, string authorizationRuleName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.NotificationHubs.Models.SharedAccessAuthorizationRuleResource GetAuthorizationRule(class Microsoft.Azure.Management.NotificationHubs.INotificationHubsOperations operations, string resourceGroupName, string namespaceName, string notificationHubName, string authorizationRuleName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.NotificationHubs.NotificationHubsOperationsExtensions.GetAuthorizationRule(Microsoft.Azure.Management.NotificationHubs.INotificationHubsOperations,System.String,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAuthorizationRule (operations As INotificationHubsOperations, resourceGroupName As String, namespaceName As String, notificationHubName As String, authorizationRuleName As String) As SharedAccessAuthorizationRuleResource" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.NotificationHubs.Models.SharedAccessAuthorizationRuleResource</ReturnType>
@@ -605,8 +613,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.NotificationHubs.NotificationHubsOperationsExtensions.GetAuthorizationRuleAsync(Microsoft.Azure.Management.NotificationHubs.INotificationHubsOperations,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -654,10 +662,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.NotificationHubs.Models.PnsCredentialsResource GetPnsCredentials (this Microsoft.Azure.Management.NotificationHubs.INotificationHubsOperations operations, string resourceGroupName, string namespaceName, string notificationHubName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.NotificationHubs.Models.PnsCredentialsResource GetPnsCredentials(class Microsoft.Azure.Management.NotificationHubs.INotificationHubsOperations operations, string resourceGroupName, string namespaceName, string notificationHubName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.NotificationHubs.NotificationHubsOperationsExtensions.GetPnsCredentials(Microsoft.Azure.Management.NotificationHubs.INotificationHubsOperations,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetPnsCredentials (operations As INotificationHubsOperations, resourceGroupName As String, namespaceName As String, notificationHubName As String) As PnsCredentialsResource" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.NotificationHubs.Models.PnsCredentialsResource</ReturnType>
@@ -694,8 +703,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.NotificationHubs.NotificationHubsOperationsExtensions.GetPnsCredentialsAsync(Microsoft.Azure.Management.NotificationHubs.INotificationHubsOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -739,10 +748,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.NotificationHubs.Models.NotificationHubResource&gt; List (this Microsoft.Azure.Management.NotificationHubs.INotificationHubsOperations operations, string resourceGroupName, string namespaceName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.NotificationHubs.Models.NotificationHubResource&gt; List(class Microsoft.Azure.Management.NotificationHubs.INotificationHubsOperations operations, string resourceGroupName, string namespaceName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.NotificationHubs.NotificationHubsOperationsExtensions.List(Microsoft.Azure.Management.NotificationHubs.INotificationHubsOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function List (operations As INotificationHubsOperations, resourceGroupName As String, namespaceName As String) As IPage(Of NotificationHubResource)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.NotificationHubs.Models.NotificationHubResource&gt;</ReturnType>
@@ -775,8 +785,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.NotificationHubs.NotificationHubsOperationsExtensions.ListAsync(Microsoft.Azure.Management.NotificationHubs.INotificationHubsOperations,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -816,10 +826,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.NotificationHubs.Models.SharedAccessAuthorizationRuleResource&gt; ListAuthorizationRules (this Microsoft.Azure.Management.NotificationHubs.INotificationHubsOperations operations, string resourceGroupName, string namespaceName, string notificationHubName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.NotificationHubs.Models.SharedAccessAuthorizationRuleResource&gt; ListAuthorizationRules(class Microsoft.Azure.Management.NotificationHubs.INotificationHubsOperations operations, string resourceGroupName, string namespaceName, string notificationHubName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.NotificationHubs.NotificationHubsOperationsExtensions.ListAuthorizationRules(Microsoft.Azure.Management.NotificationHubs.INotificationHubsOperations,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListAuthorizationRules (operations As INotificationHubsOperations, resourceGroupName As String, namespaceName As String, notificationHubName As String) As IPage(Of SharedAccessAuthorizationRuleResource)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.NotificationHubs.Models.SharedAccessAuthorizationRuleResource&gt;</ReturnType>
@@ -856,8 +867,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.NotificationHubs.NotificationHubsOperationsExtensions.ListAuthorizationRulesAsync(Microsoft.Azure.Management.NotificationHubs.INotificationHubsOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -901,10 +912,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.NotificationHubs.Models.SharedAccessAuthorizationRuleResource&gt; ListAuthorizationRulesNext (this Microsoft.Azure.Management.NotificationHubs.INotificationHubsOperations operations, string nextPageLink);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.NotificationHubs.Models.SharedAccessAuthorizationRuleResource&gt; ListAuthorizationRulesNext(class Microsoft.Azure.Management.NotificationHubs.INotificationHubsOperations operations, string nextPageLink) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.NotificationHubs.NotificationHubsOperationsExtensions.ListAuthorizationRulesNext(Microsoft.Azure.Management.NotificationHubs.INotificationHubsOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListAuthorizationRulesNext (operations As INotificationHubsOperations, nextPageLink As String) As IPage(Of SharedAccessAuthorizationRuleResource)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.NotificationHubs.Models.SharedAccessAuthorizationRuleResource&gt;</ReturnType>
@@ -933,8 +945,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.NotificationHubs.NotificationHubsOperationsExtensions.ListAuthorizationRulesNextAsync(Microsoft.Azure.Management.NotificationHubs.INotificationHubsOperations,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -970,10 +982,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.NotificationHubs.Models.ResourceListKeys ListKeys (this Microsoft.Azure.Management.NotificationHubs.INotificationHubsOperations operations, string resourceGroupName, string namespaceName, string notificationHubName, string authorizationRuleName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.NotificationHubs.Models.ResourceListKeys ListKeys(class Microsoft.Azure.Management.NotificationHubs.INotificationHubsOperations operations, string resourceGroupName, string namespaceName, string notificationHubName, string authorizationRuleName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.NotificationHubs.NotificationHubsOperationsExtensions.ListKeys(Microsoft.Azure.Management.NotificationHubs.INotificationHubsOperations,System.String,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListKeys (operations As INotificationHubsOperations, resourceGroupName As String, namespaceName As String, notificationHubName As String, authorizationRuleName As String) As ResourceListKeys" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.NotificationHubs.Models.ResourceListKeys</ReturnType>
@@ -1015,8 +1028,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.NotificationHubs.NotificationHubsOperationsExtensions.ListKeysAsync(Microsoft.Azure.Management.NotificationHubs.INotificationHubsOperations,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1065,10 +1078,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.NotificationHubs.Models.NotificationHubResource&gt; ListNext (this Microsoft.Azure.Management.NotificationHubs.INotificationHubsOperations operations, string nextPageLink);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.NotificationHubs.Models.NotificationHubResource&gt; ListNext(class Microsoft.Azure.Management.NotificationHubs.INotificationHubsOperations operations, string nextPageLink) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.NotificationHubs.NotificationHubsOperationsExtensions.ListNext(Microsoft.Azure.Management.NotificationHubs.INotificationHubsOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListNext (operations As INotificationHubsOperations, nextPageLink As String) As IPage(Of NotificationHubResource)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.NotificationHubs.Models.NotificationHubResource&gt;</ReturnType>
@@ -1097,8 +1111,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.NotificationHubs.NotificationHubsOperationsExtensions.ListNextAsync(Microsoft.Azure.Management.NotificationHubs.INotificationHubsOperations,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1134,10 +1148,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.NotificationHubs.Models.ResourceListKeys RegenerateKeys (this Microsoft.Azure.Management.NotificationHubs.INotificationHubsOperations operations, string resourceGroupName, string namespaceName, string notificationHubName, string authorizationRuleName, Microsoft.Azure.Management.NotificationHubs.Models.PolicykeyResource parameters);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.NotificationHubs.Models.ResourceListKeys RegenerateKeys(class Microsoft.Azure.Management.NotificationHubs.INotificationHubsOperations operations, string resourceGroupName, string namespaceName, string notificationHubName, string authorizationRuleName, class Microsoft.Azure.Management.NotificationHubs.Models.PolicykeyResource parameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.NotificationHubs.NotificationHubsOperationsExtensions.RegenerateKeys(Microsoft.Azure.Management.NotificationHubs.INotificationHubsOperations,System.String,System.String,System.String,System.String,Microsoft.Azure.Management.NotificationHubs.Models.PolicykeyResource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function RegenerateKeys (operations As INotificationHubsOperations, resourceGroupName As String, namespaceName As String, notificationHubName As String, authorizationRuleName As String, parameters As PolicykeyResource) As ResourceListKeys" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.NotificationHubs.Models.ResourceListKeys</ReturnType>
@@ -1185,8 +1200,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.NotificationHubs.NotificationHubsOperationsExtensions.RegenerateKeysAsync(Microsoft.Azure.Management.NotificationHubs.INotificationHubsOperations,System.String,System.String,System.String,System.String,Microsoft.Azure.Management.NotificationHubs.Models.PolicykeyResource,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>

@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public class AesKw192 : Microsoft.Azure.KeyVault.Cryptography.Algorithms.AesKw" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AesKw192 extends Microsoft.Azure.KeyVault.Cryptography.Algorithms.AesKw" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.KeyVault.Cryptography.Algorithms.AesKw192" />
+  <TypeSignature Language="VB.NET" Value="Public Class AesKw192&#xA;Inherits AesKw" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.KeyVault.Cryptography</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -11,9 +12,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-            JWE A192KW: https://tools.ietf.org/html/rfc7518#section-4.4
-            </summary>
+    <summary>To be added.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -21,10 +20,11 @@
       <MemberSignature Language="C#" Value="public AesKw192 ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.KeyVault.Cryptography.Algorithms.AesKw192.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.KeyVault.Cryptography</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -36,10 +36,11 @@
       <MemberSignature Language="C#" Value="public const string AlgorithmName;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string AlgorithmName" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.KeyVault.Cryptography.Algorithms.AesKw192.AlgorithmName" />
+      <MemberSignature Language="VB.NET" Value="Public Const AlgorithmName As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.KeyVault.Cryptography</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -53,10 +54,11 @@
       <MemberSignature Language="C#" Value="public override System.Security.Cryptography.ICryptoTransform CreateDecryptor (byte[] key, byte[] iv);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance class System.Security.Cryptography.ICryptoTransform CreateDecryptor(unsigned int8[] key, unsigned int8[] iv) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.KeyVault.Cryptography.Algorithms.AesKw192.CreateDecryptor(System.Byte[],System.Byte[])" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function CreateDecryptor (key As Byte(), iv As Byte()) As ICryptoTransform" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.KeyVault.Cryptography</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Security.Cryptography.ICryptoTransform</ReturnType>
@@ -77,10 +79,11 @@
       <MemberSignature Language="C#" Value="public override System.Security.Cryptography.ICryptoTransform CreateEncryptor (byte[] key, byte[] iv);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance class System.Security.Cryptography.ICryptoTransform CreateEncryptor(unsigned int8[] key, unsigned int8[] iv) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.KeyVault.Cryptography.Algorithms.AesKw192.CreateEncryptor(System.Byte[],System.Byte[])" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function CreateEncryptor (key As Byte(), iv As Byte()) As ICryptoTransform" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.KeyVault.Cryptography</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Security.Cryptography.ICryptoTransform</ReturnType>

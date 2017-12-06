@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public sealed class PurgeMessageQueueResult" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit PurgeMessageQueueResult extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Devices.PurgeMessageQueueResult" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class PurgeMessageQueueResult" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -21,10 +22,11 @@
       <MemberSignature Language="C#" Value="public PurgeMessageQueueResult ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Devices.PurgeMessageQueueResult.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -36,10 +38,11 @@
       <MemberSignature Language="C#" Value="public string DeviceId { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string DeviceId" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Devices.PurgeMessageQueueResult.DeviceId" />
+      <MemberSignature Language="VB.NET" Value="Public Property DeviceId As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -61,10 +64,11 @@
       <MemberSignature Language="C#" Value="public int TotalMessagesPurged;" />
       <MemberSignature Language="ILAsm" Value=".field public int32 TotalMessagesPurged" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Devices.PurgeMessageQueueResult.TotalMessagesPurged" />
+      <MemberSignature Language="VB.NET" Value="Public TotalMessagesPurged As Integer " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>

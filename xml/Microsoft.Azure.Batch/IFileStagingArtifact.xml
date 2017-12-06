@@ -2,12 +2,11 @@
   <TypeSignature Language="C#" Value="public interface IFileStagingArtifact" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IFileStagingArtifact" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Batch.IFileStagingArtifact" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IFileStagingArtifact" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-    <AssemblyVersion>6.1.0.0</AssemblyVersion>
-    <AssemblyVersion>7.0.0.0</AssemblyVersion>
-    <AssemblyVersion>7.0.1.0</AssemblyVersion>
     <AssemblyVersion>7.1.0.0</AssemblyVersion>
+    <AssemblyVersion>8.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Interfaces />
   <Docs>
@@ -69,13 +68,12 @@
       <MemberSignature Language="C#" Value="public string NamingFragment { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string NamingFragment" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Batch.IFileStagingArtifact.NamingFragment" />
+      <MemberSignature Language="VB.NET" Value="Public Property NamingFragment As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

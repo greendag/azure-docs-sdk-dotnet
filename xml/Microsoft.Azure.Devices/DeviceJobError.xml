@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public class DeviceJobError" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DeviceJobError extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Devices.DeviceJobError" />
+  <TypeSignature Language="VB.NET" Value="Public Class DeviceJobError" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -21,10 +22,11 @@
       <MemberSignature Language="C#" Value="public DeviceJobError ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Devices.DeviceJobError.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -36,10 +38,11 @@
       <MemberSignature Language="C#" Value="public string Code { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Code" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Devices.DeviceJobError.Code" />
+      <MemberSignature Language="VB.NET" Value="Public Property Code As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -61,10 +64,11 @@
       <MemberSignature Language="C#" Value="public string Description { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Description" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Devices.DeviceJobError.Description" />
+      <MemberSignature Language="VB.NET" Value="Public Property Description As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>

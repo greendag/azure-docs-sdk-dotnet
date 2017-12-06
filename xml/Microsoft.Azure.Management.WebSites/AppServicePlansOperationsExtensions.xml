@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public static class AppServicePlansOperationsExtensions" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit AppServicePlansOperationsExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module AppServicePlansOperationsExtensions" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -11,9 +12,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-            Extension methods for AppServicePlansOperations.
-            </summary>
+    <summary>To be added.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -23,8 +22,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.BeginCreateOrUpdate(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.String,System.String,Microsoft.Azure.Management.WebSites.Models.AppServicePlan)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.WebSites.Models.AppServicePlan</ReturnType>
@@ -36,25 +35,13 @@
         <Parameter Name="appServicePlan" Type="Microsoft.Azure.Management.WebSites.Models.AppServicePlan" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Name of the App Service plan.
-            </param>
-        <param name="appServicePlan">
-            Details of the App Service plan.
-            </param>
-        <summary>
-            Creates or updates an App Service Plan.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="appServicePlan">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Creates or updates an App Service Plan.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="BeginCreateOrUpdateAsync">
@@ -63,8 +50,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.BeginCreateOrUpdateAsync(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.String,System.String,Microsoft.Azure.Management.WebSites.Models.AppServicePlan,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -82,28 +69,14 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Name of the App Service plan.
-            </param>
-        <param name="appServicePlan">
-            Details of the App Service plan.
-            </param>
-        <param name="cancellationToken">
-            The cancellation token.
-            </param>
-        <summary>
-            Creates or updates an App Service Plan.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="appServicePlan">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Creates or updates an App Service Plan.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="CreateOrUpdate">
@@ -112,8 +85,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.CreateOrUpdate(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.String,System.String,Microsoft.Azure.Management.WebSites.Models.AppServicePlan)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.WebSites.Models.AppServicePlan</ReturnType>
@@ -125,25 +98,13 @@
         <Parameter Name="appServicePlan" Type="Microsoft.Azure.Management.WebSites.Models.AppServicePlan" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Name of the App Service plan.
-            </param>
-        <param name="appServicePlan">
-            Details of the App Service plan.
-            </param>
-        <summary>
-            Creates or updates an App Service Plan.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="appServicePlan">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Creates or updates an App Service Plan.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="CreateOrUpdateAsync">
@@ -152,8 +113,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.CreateOrUpdateAsync(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.String,System.String,Microsoft.Azure.Management.WebSites.Models.AppServicePlan,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -171,38 +132,25 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Name of the App Service plan.
-            </param>
-        <param name="appServicePlan">
-            Details of the App Service plan.
-            </param>
-        <param name="cancellationToken">
-            The cancellation token.
-            </param>
-        <summary>
-            Creates or updates an App Service Plan.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="appServicePlan">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Creates or updates an App Service Plan.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="CreateOrUpdateVnetRoute">
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.WebSites.Models.VnetRoute CreateOrUpdateVnetRoute (this Microsoft.Azure.Management.WebSites.IAppServicePlansOperations operations, string resourceGroupName, string name, string vnetName, string routeName, Microsoft.Azure.Management.WebSites.Models.VnetRoute route);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.WebSites.Models.VnetRoute CreateOrUpdateVnetRoute(class Microsoft.Azure.Management.WebSites.IAppServicePlansOperations operations, string resourceGroupName, string name, string vnetName, string routeName, class Microsoft.Azure.Management.WebSites.Models.VnetRoute route) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.CreateOrUpdateVnetRoute(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.String,System.String,System.String,System.String,Microsoft.Azure.Management.WebSites.Models.VnetRoute)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function CreateOrUpdateVnetRoute (operations As IAppServicePlansOperations, resourceGroupName As String, name As String, vnetName As String, routeName As String, route As VnetRoute) As VnetRoute" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.WebSites.Models.VnetRoute</ReturnType>
@@ -216,31 +164,15 @@
         <Parameter Name="route" Type="Microsoft.Azure.Management.WebSites.Models.VnetRoute" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Name of the App Service plan.
-            </param>
-        <param name="vnetName">
-            Name of the Virtual Network.
-            </param>
-        <param name="routeName">
-            Name of the Virtual Network route.
-            </param>
-        <param name="route">
-            Definition of the Virtual Network route.
-            </param>
-        <summary>
-            Create or update a Virtual Network route in an App Service plan.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="vnetName">To be added.</param>
+        <param name="routeName">To be added.</param>
+        <param name="route">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Create or update a Virtual Network route in an App Service plan.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="CreateOrUpdateVnetRouteAsync">
@@ -249,8 +181,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.CreateOrUpdateVnetRouteAsync(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.String,System.String,System.String,System.String,Microsoft.Azure.Management.WebSites.Models.VnetRoute,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -270,44 +202,27 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Name of the App Service plan.
-            </param>
-        <param name="vnetName">
-            Name of the Virtual Network.
-            </param>
-        <param name="routeName">
-            Name of the Virtual Network route.
-            </param>
-        <param name="route">
-            Definition of the Virtual Network route.
-            </param>
-        <param name="cancellationToken">
-            The cancellation token.
-            </param>
-        <summary>
-            Create or update a Virtual Network route in an App Service plan.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="vnetName">To be added.</param>
+        <param name="routeName">To be added.</param>
+        <param name="route">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Create or update a Virtual Network route in an App Service plan.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="Delete">
       <MemberSignature Language="C#" Value="public static void Delete (this Microsoft.Azure.Management.WebSites.IAppServicePlansOperations operations, string resourceGroupName, string name);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Delete(class Microsoft.Azure.Management.WebSites.IAppServicePlansOperations operations, string resourceGroupName, string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.Delete(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub Delete (operations As IAppServicePlansOperations, resourceGroupName As String, name As String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -318,21 +233,11 @@
         <Parameter Name="name" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Name of the App Service plan.
-            </param>
-        <summary>
-            Delete an App Service plan.
-            </summary>
-        <remarks>
-            Delete an App Service plan.
-            </remarks>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="DeleteAsync">
@@ -341,8 +246,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.DeleteAsync(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -359,35 +264,24 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Name of the App Service plan.
-            </param>
-        <param name="cancellationToken">
-            The cancellation token.
-            </param>
-        <summary>
-            Delete an App Service plan.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Delete an App Service plan.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="DeleteHybridConnection">
       <MemberSignature Language="C#" Value="public static void DeleteHybridConnection (this Microsoft.Azure.Management.WebSites.IAppServicePlansOperations operations, string resourceGroupName, string name, string namespaceName, string relayName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void DeleteHybridConnection(class Microsoft.Azure.Management.WebSites.IAppServicePlansOperations operations, string resourceGroupName, string name, string namespaceName, string relayName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.DeleteHybridConnection(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.String,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub DeleteHybridConnection (operations As IAppServicePlansOperations, resourceGroupName As String, name As String, namespaceName As String, relayName As String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -400,27 +294,13 @@
         <Parameter Name="relayName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Name of the App Service plan.
-            </param>
-        <param name="namespaceName">
-            Name of the Service Bus namespace.
-            </param>
-        <param name="relayName">
-            Name of the Service Bus relay.
-            </param>
-        <summary>
-            Delete a Hybrid Connection in use in an App Service plan.
-            </summary>
-        <remarks>
-            Delete a Hybrid Connection in use in an App Service plan.
-            </remarks>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="namespaceName">To be added.</param>
+        <param name="relayName">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="DeleteHybridConnectionAsync">
@@ -429,8 +309,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.DeleteHybridConnectionAsync(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -449,41 +329,26 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Name of the App Service plan.
-            </param>
-        <param name="namespaceName">
-            Name of the Service Bus namespace.
-            </param>
-        <param name="relayName">
-            Name of the Service Bus relay.
-            </param>
-        <param name="cancellationToken">
-            The cancellation token.
-            </param>
-        <summary>
-            Delete a Hybrid Connection in use in an App Service plan.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="namespaceName">To be added.</param>
+        <param name="relayName">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Delete a Hybrid Connection in use in an App Service plan.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="DeleteVnetRoute">
       <MemberSignature Language="C#" Value="public static void DeleteVnetRoute (this Microsoft.Azure.Management.WebSites.IAppServicePlansOperations operations, string resourceGroupName, string name, string vnetName, string routeName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void DeleteVnetRoute(class Microsoft.Azure.Management.WebSites.IAppServicePlansOperations operations, string resourceGroupName, string name, string vnetName, string routeName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.DeleteVnetRoute(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.String,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub DeleteVnetRoute (operations As IAppServicePlansOperations, resourceGroupName As String, name As String, vnetName As String, routeName As String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -496,27 +361,13 @@
         <Parameter Name="routeName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Name of the App Service plan.
-            </param>
-        <param name="vnetName">
-            Name of the Virtual Network.
-            </param>
-        <param name="routeName">
-            Name of the Virtual Network route.
-            </param>
-        <summary>
-            Delete a Virtual Network route in an App Service plan.
-            </summary>
-        <remarks>
-            Delete a Virtual Network route in an App Service plan.
-            </remarks>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="vnetName">To be added.</param>
+        <param name="routeName">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="DeleteVnetRouteAsync">
@@ -525,8 +376,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.DeleteVnetRouteAsync(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -545,41 +396,26 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Name of the App Service plan.
-            </param>
-        <param name="vnetName">
-            Name of the Virtual Network.
-            </param>
-        <param name="routeName">
-            Name of the Virtual Network route.
-            </param>
-        <param name="cancellationToken">
-            The cancellation token.
-            </param>
-        <summary>
-            Delete a Virtual Network route in an App Service plan.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="vnetName">To be added.</param>
+        <param name="routeName">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Delete a Virtual Network route in an App Service plan.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="Get">
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.WebSites.Models.AppServicePlan Get (this Microsoft.Azure.Management.WebSites.IAppServicePlansOperations operations, string resourceGroupName, string name);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.WebSites.Models.AppServicePlan Get(class Microsoft.Azure.Management.WebSites.IAppServicePlansOperations operations, string resourceGroupName, string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.Get(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Get (operations As IAppServicePlansOperations, resourceGroupName As String, name As String) As AppServicePlan" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.WebSites.Models.AppServicePlan</ReturnType>
@@ -590,22 +426,12 @@
         <Parameter Name="name" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Name of the App Service plan.
-            </param>
-        <summary>
-            Get an App Service plan.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Get an App Service plan.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="GetAsync">
@@ -614,8 +440,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.GetAsync(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -632,35 +458,24 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Name of the App Service plan.
-            </param>
-        <param name="cancellationToken">
-            The cancellation token.
-            </param>
-        <summary>
-            Get an App Service plan.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Get an App Service plan.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="GetHybridConnection">
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.WebSites.Models.HybridConnection GetHybridConnection (this Microsoft.Azure.Management.WebSites.IAppServicePlansOperations operations, string resourceGroupName, string name, string namespaceName, string relayName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.WebSites.Models.HybridConnection GetHybridConnection(class Microsoft.Azure.Management.WebSites.IAppServicePlansOperations operations, string resourceGroupName, string name, string namespaceName, string relayName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.GetHybridConnection(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.String,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetHybridConnection (operations As IAppServicePlansOperations, resourceGroupName As String, name As String, namespaceName As String, relayName As String) As HybridConnection" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.WebSites.Models.HybridConnection</ReturnType>
@@ -673,28 +488,14 @@
         <Parameter Name="relayName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Name of the App Service plan.
-            </param>
-        <param name="namespaceName">
-            Name of the Service Bus namespace.
-            </param>
-        <param name="relayName">
-            Name of the Service Bus relay.
-            </param>
-        <summary>
-            Retrieve a Hybrid Connection in use in an App Service plan.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="namespaceName">To be added.</param>
+        <param name="relayName">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Retrieve a Hybrid Connection in use in an App Service plan.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="GetHybridConnectionAsync">
@@ -703,8 +504,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.GetHybridConnectionAsync(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -723,41 +524,26 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Name of the App Service plan.
-            </param>
-        <param name="namespaceName">
-            Name of the Service Bus namespace.
-            </param>
-        <param name="relayName">
-            Name of the Service Bus relay.
-            </param>
-        <param name="cancellationToken">
-            The cancellation token.
-            </param>
-        <summary>
-            Retrieve a Hybrid Connection in use in an App Service plan.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="namespaceName">To be added.</param>
+        <param name="relayName">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Retrieve a Hybrid Connection in use in an App Service plan.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="GetHybridConnectionPlanLimit">
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.WebSites.Models.HybridConnectionLimits GetHybridConnectionPlanLimit (this Microsoft.Azure.Management.WebSites.IAppServicePlansOperations operations, string resourceGroupName, string name);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.WebSites.Models.HybridConnectionLimits GetHybridConnectionPlanLimit(class Microsoft.Azure.Management.WebSites.IAppServicePlansOperations operations, string resourceGroupName, string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.GetHybridConnectionPlanLimit(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetHybridConnectionPlanLimit (operations As IAppServicePlansOperations, resourceGroupName As String, name As String) As HybridConnectionLimits" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.WebSites.Models.HybridConnectionLimits</ReturnType>
@@ -768,24 +554,12 @@
         <Parameter Name="name" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Name of the App Service plan.
-            </param>
-        <summary>
-            Get the maximum number of Hybrid Connections allowed in an App Service
-            plan.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Get the maximum number of Hybrid Connections allowed in an App Service
-            plan.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="GetHybridConnectionPlanLimitAsync">
@@ -794,8 +568,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.GetHybridConnectionPlanLimitAsync(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -812,37 +586,24 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Name of the App Service plan.
-            </param>
-        <param name="cancellationToken">
-            The cancellation token.
-            </param>
-        <summary>
-            Get the maximum number of Hybrid Connections allowed in an App Service
-            plan.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Get the maximum number of Hybrid Connections allowed in an App Service
-            plan.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="GetRouteForVnet">
       <MemberSignature Language="C#" Value="public static System.Collections.Generic.IList&lt;Microsoft.Azure.Management.WebSites.Models.VnetRoute&gt; GetRouteForVnet (this Microsoft.Azure.Management.WebSites.IAppServicePlansOperations operations, string resourceGroupName, string name, string vnetName, string routeName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.WebSites.Models.VnetRoute&gt; GetRouteForVnet(class Microsoft.Azure.Management.WebSites.IAppServicePlansOperations operations, string resourceGroupName, string name, string vnetName, string routeName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.GetRouteForVnet(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.String,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetRouteForVnet (operations As IAppServicePlansOperations, resourceGroupName As String, name As String, vnetName As String, routeName As String) As IList(Of VnetRoute)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Azure.Management.WebSites.Models.VnetRoute&gt;</ReturnType>
@@ -855,28 +616,14 @@
         <Parameter Name="routeName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Name of the App Service plan.
-            </param>
-        <param name="vnetName">
-            Name of the Virtual Network.
-            </param>
-        <param name="routeName">
-            Name of the Virtual Network route.
-            </param>
-        <summary>
-            Get a Virtual Network route in an App Service plan.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="vnetName">To be added.</param>
+        <param name="routeName">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Get a Virtual Network route in an App Service plan.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="GetRouteForVnetAsync">
@@ -885,8 +632,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.GetRouteForVnetAsync(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -905,41 +652,26 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Name of the App Service plan.
-            </param>
-        <param name="vnetName">
-            Name of the Virtual Network.
-            </param>
-        <param name="routeName">
-            Name of the Virtual Network route.
-            </param>
-        <param name="cancellationToken">
-            The cancellation token.
-            </param>
-        <summary>
-            Get a Virtual Network route in an App Service plan.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="vnetName">To be added.</param>
+        <param name="routeName">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Get a Virtual Network route in an App Service plan.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="GetVnetFromServerFarm">
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.WebSites.Models.VnetInfo GetVnetFromServerFarm (this Microsoft.Azure.Management.WebSites.IAppServicePlansOperations operations, string resourceGroupName, string name, string vnetName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.WebSites.Models.VnetInfo GetVnetFromServerFarm(class Microsoft.Azure.Management.WebSites.IAppServicePlansOperations operations, string resourceGroupName, string name, string vnetName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.GetVnetFromServerFarm(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetVnetFromServerFarm (operations As IAppServicePlansOperations, resourceGroupName As String, name As String, vnetName As String) As VnetInfo" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.WebSites.Models.VnetInfo</ReturnType>
@@ -951,25 +683,13 @@
         <Parameter Name="vnetName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Name of the App Service plan.
-            </param>
-        <param name="vnetName">
-            Name of the Virtual Network.
-            </param>
-        <summary>
-            Get a Virtual Network associated with an App Service plan.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="vnetName">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Get a Virtual Network associated with an App Service plan.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="GetVnetFromServerFarmAsync">
@@ -978,8 +698,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.GetVnetFromServerFarmAsync(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -997,38 +717,25 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Name of the App Service plan.
-            </param>
-        <param name="vnetName">
-            Name of the Virtual Network.
-            </param>
-        <param name="cancellationToken">
-            The cancellation token.
-            </param>
-        <summary>
-            Get a Virtual Network associated with an App Service plan.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="vnetName">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Get a Virtual Network associated with an App Service plan.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="GetVnetGateway">
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.WebSites.Models.VnetGateway GetVnetGateway (this Microsoft.Azure.Management.WebSites.IAppServicePlansOperations operations, string resourceGroupName, string name, string vnetName, string gatewayName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.WebSites.Models.VnetGateway GetVnetGateway(class Microsoft.Azure.Management.WebSites.IAppServicePlansOperations operations, string resourceGroupName, string name, string vnetName, string gatewayName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.GetVnetGateway(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.String,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetVnetGateway (operations As IAppServicePlansOperations, resourceGroupName As String, name As String, vnetName As String, gatewayName As String) As VnetGateway" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.WebSites.Models.VnetGateway</ReturnType>
@@ -1041,28 +748,14 @@
         <Parameter Name="gatewayName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Name of the App Service plan.
-            </param>
-        <param name="vnetName">
-            Name of the Virtual Network.
-            </param>
-        <param name="gatewayName">
-            Name of the gateway. Only the 'primary' gateway is supported.
-            </param>
-        <summary>
-            Get a Virtual Network gateway.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="vnetName">To be added.</param>
+        <param name="gatewayName">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Get a Virtual Network gateway.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="GetVnetGatewayAsync">
@@ -1071,8 +764,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.GetVnetGatewayAsync(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1091,41 +784,26 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Name of the App Service plan.
-            </param>
-        <param name="vnetName">
-            Name of the Virtual Network.
-            </param>
-        <param name="gatewayName">
-            Name of the gateway. Only the 'primary' gateway is supported.
-            </param>
-        <param name="cancellationToken">
-            The cancellation token.
-            </param>
-        <summary>
-            Get a Virtual Network gateway.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="vnetName">To be added.</param>
+        <param name="gatewayName">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Get a Virtual Network gateway.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="List">
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.WebSites.Models.AppServicePlan&gt; List (this Microsoft.Azure.Management.WebSites.IAppServicePlansOperations operations, Nullable&lt;bool&gt; detailed = null);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.WebSites.Models.AppServicePlan&gt; List(class Microsoft.Azure.Management.WebSites.IAppServicePlansOperations operations, valuetype System.Nullable`1&lt;bool&gt; detailed) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.List(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.Nullable{System.Boolean})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function List (operations As IAppServicePlansOperations, Optional detailed As Nullable(Of Boolean) = null) As IPage(Of AppServicePlan)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.WebSites.Models.AppServicePlan&gt;</ReturnType>
@@ -1135,22 +813,11 @@
         <Parameter Name="detailed" Type="System.Nullable&lt;System.Boolean&gt;" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="detailed">
-            Specify &lt;code&gt;true&lt;/code&gt; to return all App Service plan
-            properties. The default is &lt;code&gt;false&lt;/code&gt;, which returns a
-            subset of the properties.
-            Retrieval of all properties may increase the API latency.
-            </param>
-        <summary>
-            Get all App Service plans for a subcription.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="detailed">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Get all App Service plans for a subcription.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="ListAsync">
@@ -1159,8 +826,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.ListAsync(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.Nullable{System.Boolean},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1176,35 +843,23 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="detailed">
-            Specify &lt;code&gt;true&lt;/code&gt; to return all App Service plan
-            properties. The default is &lt;code&gt;false&lt;/code&gt;, which returns a
-            subset of the properties.
-            Retrieval of all properties may increase the API latency.
-            </param>
-        <param name="cancellationToken">
-            The cancellation token.
-            </param>
-        <summary>
-            Get all App Service plans for a subcription.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="detailed">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Get all App Service plans for a subcription.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="ListByResourceGroup">
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.WebSites.Models.AppServicePlan&gt; ListByResourceGroup (this Microsoft.Azure.Management.WebSites.IAppServicePlansOperations operations, string resourceGroupName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.WebSites.Models.AppServicePlan&gt; ListByResourceGroup(class Microsoft.Azure.Management.WebSites.IAppServicePlansOperations operations, string resourceGroupName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.ListByResourceGroup(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListByResourceGroup (operations As IAppServicePlansOperations, resourceGroupName As String) As IPage(Of AppServicePlan)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.WebSites.Models.AppServicePlan&gt;</ReturnType>
@@ -1214,19 +869,11 @@
         <Parameter Name="resourceGroupName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <summary>
-            Get all App Service plans in a resource group.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Get all App Service plans in a resource group.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="ListByResourceGroupAsync">
@@ -1235,8 +882,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.ListByResourceGroupAsync(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1252,32 +899,23 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="cancellationToken">
-            The cancellation token.
-            </param>
-        <summary>
-            Get all App Service plans in a resource group.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Get all App Service plans in a resource group.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="ListByResourceGroupNext">
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.WebSites.Models.AppServicePlan&gt; ListByResourceGroupNext (this Microsoft.Azure.Management.WebSites.IAppServicePlansOperations operations, string nextPageLink);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.WebSites.Models.AppServicePlan&gt; ListByResourceGroupNext(class Microsoft.Azure.Management.WebSites.IAppServicePlansOperations operations, string nextPageLink) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.ListByResourceGroupNext(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListByResourceGroupNext (operations As IAppServicePlansOperations, nextPageLink As String) As IPage(Of AppServicePlan)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.WebSites.Models.AppServicePlan&gt;</ReturnType>
@@ -1287,19 +925,11 @@
         <Parameter Name="nextPageLink" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="nextPageLink">
-            The NextLink from the previous successful call to List operation.
-            </param>
-        <summary>
-            Get all App Service plans in a resource group.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="nextPageLink">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Get all App Service plans in a resource group.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="ListByResourceGroupNextAsync">
@@ -1308,8 +938,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.ListByResourceGroupNextAsync(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1325,32 +955,23 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="nextPageLink">
-            The NextLink from the previous successful call to List operation.
-            </param>
-        <param name="cancellationToken">
-            The cancellation token.
-            </param>
-        <summary>
-            Get all App Service plans in a resource group.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="nextPageLink">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Get all App Service plans in a resource group.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="ListCapabilities">
       <MemberSignature Language="C#" Value="public static System.Collections.Generic.IList&lt;Microsoft.Azure.Management.WebSites.Models.Capability&gt; ListCapabilities (this Microsoft.Azure.Management.WebSites.IAppServicePlansOperations operations, string resourceGroupName, string name);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.WebSites.Models.Capability&gt; ListCapabilities(class Microsoft.Azure.Management.WebSites.IAppServicePlansOperations operations, string resourceGroupName, string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.ListCapabilities(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListCapabilities (operations As IAppServicePlansOperations, resourceGroupName As String, name As String) As IList(Of Capability)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Azure.Management.WebSites.Models.Capability&gt;</ReturnType>
@@ -1361,22 +982,12 @@
         <Parameter Name="name" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Name of the App Service plan.
-            </param>
-        <summary>
-            List all capabilities of an App Service plan.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            List all capabilities of an App Service plan.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="ListCapabilitiesAsync">
@@ -1385,8 +996,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.ListCapabilitiesAsync(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1403,35 +1014,24 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Name of the App Service plan.
-            </param>
-        <param name="cancellationToken">
-            The cancellation token.
-            </param>
-        <summary>
-            List all capabilities of an App Service plan.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            List all capabilities of an App Service plan.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="ListHybridConnectionKeys">
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.WebSites.Models.HybridConnectionKey ListHybridConnectionKeys (this Microsoft.Azure.Management.WebSites.IAppServicePlansOperations operations, string resourceGroupName, string name, string namespaceName, string relayName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.WebSites.Models.HybridConnectionKey ListHybridConnectionKeys(class Microsoft.Azure.Management.WebSites.IAppServicePlansOperations operations, string resourceGroupName, string name, string namespaceName, string relayName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.ListHybridConnectionKeys(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.String,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListHybridConnectionKeys (operations As IAppServicePlansOperations, resourceGroupName As String, name As String, namespaceName As String, relayName As String) As HybridConnectionKey" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.WebSites.Models.HybridConnectionKey</ReturnType>
@@ -1444,28 +1044,14 @@
         <Parameter Name="relayName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Name of the App Service plan.
-            </param>
-        <param name="namespaceName">
-            The name of the Service Bus namespace.
-            </param>
-        <param name="relayName">
-            The name of the Service Bus relay.
-            </param>
-        <summary>
-            Get the send key name and value of a Hybrid Connection.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="namespaceName">To be added.</param>
+        <param name="relayName">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Get the send key name and value of a Hybrid Connection.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="ListHybridConnectionKeysAsync">
@@ -1474,8 +1060,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.ListHybridConnectionKeysAsync(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1494,41 +1080,26 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Name of the App Service plan.
-            </param>
-        <param name="namespaceName">
-            The name of the Service Bus namespace.
-            </param>
-        <param name="relayName">
-            The name of the Service Bus relay.
-            </param>
-        <param name="cancellationToken">
-            The cancellation token.
-            </param>
-        <summary>
-            Get the send key name and value of a Hybrid Connection.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="namespaceName">To be added.</param>
+        <param name="relayName">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Get the send key name and value of a Hybrid Connection.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="ListHybridConnections">
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.WebSites.Models.HybridConnection&gt; ListHybridConnections (this Microsoft.Azure.Management.WebSites.IAppServicePlansOperations operations, string resourceGroupName, string name);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.WebSites.Models.HybridConnection&gt; ListHybridConnections(class Microsoft.Azure.Management.WebSites.IAppServicePlansOperations operations, string resourceGroupName, string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.ListHybridConnections(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListHybridConnections (operations As IAppServicePlansOperations, resourceGroupName As String, name As String) As IPage(Of HybridConnection)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.WebSites.Models.HybridConnection&gt;</ReturnType>
@@ -1539,22 +1110,12 @@
         <Parameter Name="name" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Name of the App Service plan.
-            </param>
-        <summary>
-            Retrieve all Hybrid Connections in use in an App Service plan.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Retrieve all Hybrid Connections in use in an App Service plan.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="ListHybridConnectionsAsync">
@@ -1563,8 +1124,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.ListHybridConnectionsAsync(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1581,35 +1142,24 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Name of the App Service plan.
-            </param>
-        <param name="cancellationToken">
-            The cancellation token.
-            </param>
-        <summary>
-            Retrieve all Hybrid Connections in use in an App Service plan.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Retrieve all Hybrid Connections in use in an App Service plan.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="ListHybridConnectionsNext">
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.WebSites.Models.HybridConnection&gt; ListHybridConnectionsNext (this Microsoft.Azure.Management.WebSites.IAppServicePlansOperations operations, string nextPageLink);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.WebSites.Models.HybridConnection&gt; ListHybridConnectionsNext(class Microsoft.Azure.Management.WebSites.IAppServicePlansOperations operations, string nextPageLink) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.ListHybridConnectionsNext(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListHybridConnectionsNext (operations As IAppServicePlansOperations, nextPageLink As String) As IPage(Of HybridConnection)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.WebSites.Models.HybridConnection&gt;</ReturnType>
@@ -1619,19 +1169,11 @@
         <Parameter Name="nextPageLink" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="nextPageLink">
-            The NextLink from the previous successful call to List operation.
-            </param>
-        <summary>
-            Retrieve all Hybrid Connections in use in an App Service plan.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="nextPageLink">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Retrieve all Hybrid Connections in use in an App Service plan.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="ListHybridConnectionsNextAsync">
@@ -1640,8 +1182,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.ListHybridConnectionsNextAsync(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1657,32 +1199,23 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="nextPageLink">
-            The NextLink from the previous successful call to List operation.
-            </param>
-        <param name="cancellationToken">
-            The cancellation token.
-            </param>
-        <summary>
-            Retrieve all Hybrid Connections in use in an App Service plan.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="nextPageLink">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Retrieve all Hybrid Connections in use in an App Service plan.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="ListMetricDefintions">
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.WebSites.Models.ResourceMetricDefinition&gt; ListMetricDefintions (this Microsoft.Azure.Management.WebSites.IAppServicePlansOperations operations, string resourceGroupName, string name);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.WebSites.Models.ResourceMetricDefinition&gt; ListMetricDefintions(class Microsoft.Azure.Management.WebSites.IAppServicePlansOperations operations, string resourceGroupName, string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.ListMetricDefintions(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListMetricDefintions (operations As IAppServicePlansOperations, resourceGroupName As String, name As String) As IPage(Of ResourceMetricDefinition)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.WebSites.Models.ResourceMetricDefinition&gt;</ReturnType>
@@ -1693,24 +1226,12 @@
         <Parameter Name="name" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Name of the App Service plan.
-            </param>
-        <summary>
-            Get metrics that can be queried for an App Service plan, and their
-            definitions.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Get metrics that can be queried for an App Service plan, and their
-            definitions.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="ListMetricDefintionsAsync">
@@ -1719,8 +1240,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.ListMetricDefintionsAsync(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1737,37 +1258,24 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Name of the App Service plan.
-            </param>
-        <param name="cancellationToken">
-            The cancellation token.
-            </param>
-        <summary>
-            Get metrics that can be queried for an App Service plan, and their
-            definitions.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Get metrics that can be queried for an App Service plan, and their
-            definitions.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="ListMetricDefintionsNext">
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.WebSites.Models.ResourceMetricDefinition&gt; ListMetricDefintionsNext (this Microsoft.Azure.Management.WebSites.IAppServicePlansOperations operations, string nextPageLink);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.WebSites.Models.ResourceMetricDefinition&gt; ListMetricDefintionsNext(class Microsoft.Azure.Management.WebSites.IAppServicePlansOperations operations, string nextPageLink) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.ListMetricDefintionsNext(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListMetricDefintionsNext (operations As IAppServicePlansOperations, nextPageLink As String) As IPage(Of ResourceMetricDefinition)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.WebSites.Models.ResourceMetricDefinition&gt;</ReturnType>
@@ -1777,21 +1285,11 @@
         <Parameter Name="nextPageLink" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="nextPageLink">
-            The NextLink from the previous successful call to List operation.
-            </param>
-        <summary>
-            Get metrics that can be queried for an App Service plan, and their
-            definitions.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="nextPageLink">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Get metrics that can be queried for an App Service plan, and their
-            definitions.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="ListMetricDefintionsNextAsync">
@@ -1800,8 +1298,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.ListMetricDefintionsNextAsync(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1817,34 +1315,23 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="nextPageLink">
-            The NextLink from the previous successful call to List operation.
-            </param>
-        <param name="cancellationToken">
-            The cancellation token.
-            </param>
-        <summary>
-            Get metrics that can be queried for an App Service plan, and their
-            definitions.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="nextPageLink">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Get metrics that can be queried for an App Service plan, and their
-            definitions.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="ListMetrics">
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.WebSites.Models.ResourceMetric&gt; ListMetrics (this Microsoft.Azure.Management.WebSites.IAppServicePlansOperations operations, string resourceGroupName, string name, Nullable&lt;bool&gt; details = null, string filter = null);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.WebSites.Models.ResourceMetric&gt; ListMetrics(class Microsoft.Azure.Management.WebSites.IAppServicePlansOperations operations, string resourceGroupName, string name, valuetype System.Nullable`1&lt;bool&gt; details, string filter) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.ListMetrics(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.String,System.String,System.Nullable{System.Boolean},System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListMetrics (operations As IAppServicePlansOperations, resourceGroupName As String, name As String, Optional details As Nullable(Of Boolean) = null, Optional filter As String = null) As IPage(Of ResourceMetric)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.WebSites.Models.ResourceMetric&gt;</ReturnType>
@@ -1857,32 +1344,14 @@
         <Parameter Name="filter" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Name of the App Service plan.
-            </param>
-        <param name="details">
-            Specify &lt;code&gt;true&lt;/code&gt; to include instance details. The
-            default is &lt;code&gt;false&lt;/code&gt;.
-            </param>
-        <param name="filter">
-            Return only usages/metrics specified in the filter. Filter conforms to
-            odata syntax. Example: $filter=(name.value eq 'Metric1' or name.value eq
-            'Metric2') and startTime eq '2014-01-01T00:00:00Z' and endTime eq
-            '2014-12-31T23:59:59Z' and timeGrain eq duration'[Hour|Minute|Day]'.
-            </param>
-        <summary>
-            Get metrics for an App Serice plan.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="details">To be added.</param>
+        <param name="filter">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Get metrics for an App Serice plan.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="ListMetricsAsync">
@@ -1891,8 +1360,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.ListMetricsAsync(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.String,System.String,System.Nullable{System.Boolean},System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1911,45 +1380,26 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Name of the App Service plan.
-            </param>
-        <param name="details">
-            Specify &lt;code&gt;true&lt;/code&gt; to include instance details. The
-            default is &lt;code&gt;false&lt;/code&gt;.
-            </param>
-        <param name="filter">
-            Return only usages/metrics specified in the filter. Filter conforms to
-            odata syntax. Example: $filter=(name.value eq 'Metric1' or name.value eq
-            'Metric2') and startTime eq '2014-01-01T00:00:00Z' and endTime eq
-            '2014-12-31T23:59:59Z' and timeGrain eq duration'[Hour|Minute|Day]'.
-            </param>
-        <param name="cancellationToken">
-            The cancellation token.
-            </param>
-        <summary>
-            Get metrics for an App Serice plan.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="details">To be added.</param>
+        <param name="filter">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Get metrics for an App Serice plan.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="ListMetricsNext">
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.WebSites.Models.ResourceMetric&gt; ListMetricsNext (this Microsoft.Azure.Management.WebSites.IAppServicePlansOperations operations, string nextPageLink);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.WebSites.Models.ResourceMetric&gt; ListMetricsNext(class Microsoft.Azure.Management.WebSites.IAppServicePlansOperations operations, string nextPageLink) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.ListMetricsNext(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListMetricsNext (operations As IAppServicePlansOperations, nextPageLink As String) As IPage(Of ResourceMetric)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.WebSites.Models.ResourceMetric&gt;</ReturnType>
@@ -1959,19 +1409,11 @@
         <Parameter Name="nextPageLink" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="nextPageLink">
-            The NextLink from the previous successful call to List operation.
-            </param>
-        <summary>
-            Get metrics for an App Serice plan.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="nextPageLink">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Get metrics for an App Serice plan.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="ListMetricsNextAsync">
@@ -1980,8 +1422,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.ListMetricsNextAsync(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1997,32 +1439,23 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="nextPageLink">
-            The NextLink from the previous successful call to List operation.
-            </param>
-        <param name="cancellationToken">
-            The cancellation token.
-            </param>
-        <summary>
-            Get metrics for an App Serice plan.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="nextPageLink">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Get metrics for an App Serice plan.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="ListNext">
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.WebSites.Models.AppServicePlan&gt; ListNext (this Microsoft.Azure.Management.WebSites.IAppServicePlansOperations operations, string nextPageLink);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.WebSites.Models.AppServicePlan&gt; ListNext(class Microsoft.Azure.Management.WebSites.IAppServicePlansOperations operations, string nextPageLink) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.ListNext(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListNext (operations As IAppServicePlansOperations, nextPageLink As String) As IPage(Of AppServicePlan)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.WebSites.Models.AppServicePlan&gt;</ReturnType>
@@ -2032,19 +1465,11 @@
         <Parameter Name="nextPageLink" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="nextPageLink">
-            The NextLink from the previous successful call to List operation.
-            </param>
-        <summary>
-            Get all App Service plans for a subcription.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="nextPageLink">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Get all App Service plans for a subcription.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="ListNextAsync">
@@ -2053,8 +1478,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.ListNextAsync(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -2070,32 +1495,23 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="nextPageLink">
-            The NextLink from the previous successful call to List operation.
-            </param>
-        <param name="cancellationToken">
-            The cancellation token.
-            </param>
-        <summary>
-            Get all App Service plans for a subcription.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="nextPageLink">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Get all App Service plans for a subcription.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="ListRoutesForVnet">
       <MemberSignature Language="C#" Value="public static System.Collections.Generic.IList&lt;Microsoft.Azure.Management.WebSites.Models.VnetRoute&gt; ListRoutesForVnet (this Microsoft.Azure.Management.WebSites.IAppServicePlansOperations operations, string resourceGroupName, string name, string vnetName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.WebSites.Models.VnetRoute&gt; ListRoutesForVnet(class Microsoft.Azure.Management.WebSites.IAppServicePlansOperations operations, string resourceGroupName, string name, string vnetName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.ListRoutesForVnet(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListRoutesForVnet (operations As IAppServicePlansOperations, resourceGroupName As String, name As String, vnetName As String) As IList(Of VnetRoute)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Azure.Management.WebSites.Models.VnetRoute&gt;</ReturnType>
@@ -2107,27 +1523,13 @@
         <Parameter Name="vnetName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Name of the App Service plan.
-            </param>
-        <param name="vnetName">
-            Name of the Virtual Network.
-            </param>
-        <summary>
-            Get all routes that are associated with a Virtual Network in an App Service
-            plan.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="vnetName">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Get all routes that are associated with a Virtual Network in an App Service
-            plan.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="ListRoutesForVnetAsync">
@@ -2136,8 +1538,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.ListRoutesForVnetAsync(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -2155,40 +1557,25 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Name of the App Service plan.
-            </param>
-        <param name="vnetName">
-            Name of the Virtual Network.
-            </param>
-        <param name="cancellationToken">
-            The cancellation token.
-            </param>
-        <summary>
-            Get all routes that are associated with a Virtual Network in an App Service
-            plan.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="vnetName">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Get all routes that are associated with a Virtual Network in an App Service
-            plan.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="ListVnets">
       <MemberSignature Language="C#" Value="public static System.Collections.Generic.IList&lt;Microsoft.Azure.Management.WebSites.Models.VnetInfo&gt; ListVnets (this Microsoft.Azure.Management.WebSites.IAppServicePlansOperations operations, string resourceGroupName, string name);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.WebSites.Models.VnetInfo&gt; ListVnets(class Microsoft.Azure.Management.WebSites.IAppServicePlansOperations operations, string resourceGroupName, string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.ListVnets(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListVnets (operations As IAppServicePlansOperations, resourceGroupName As String, name As String) As IList(Of VnetInfo)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Azure.Management.WebSites.Models.VnetInfo&gt;</ReturnType>
@@ -2199,22 +1586,12 @@
         <Parameter Name="name" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Name of the App Service plan.
-            </param>
-        <summary>
-            Get all Virtual Networks associated with an App Service plan.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Get all Virtual Networks associated with an App Service plan.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="ListVnetsAsync">
@@ -2223,8 +1600,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.ListVnetsAsync(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -2241,35 +1618,24 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Name of the App Service plan.
-            </param>
-        <param name="cancellationToken">
-            The cancellation token.
-            </param>
-        <summary>
-            Get all Virtual Networks associated with an App Service plan.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Get all Virtual Networks associated with an App Service plan.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="ListWebApps">
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.WebSites.Models.Site&gt; ListWebApps (this Microsoft.Azure.Management.WebSites.IAppServicePlansOperations operations, string resourceGroupName, string name, string skipToken = null, string filter = null, string top = null);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.WebSites.Models.Site&gt; ListWebApps(class Microsoft.Azure.Management.WebSites.IAppServicePlansOperations operations, string resourceGroupName, string name, string skipToken, string filter, string top) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.ListWebApps(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.String,System.String,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListWebApps (operations As IAppServicePlansOperations, resourceGroupName As String, name As String, Optional skipToken As String = null, Optional filter As String = null, Optional top As String = null) As IPage(Of Site)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.WebSites.Models.Site&gt;</ReturnType>
@@ -2283,35 +1649,15 @@
         <Parameter Name="top" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Name of the App Service plan.
-            </param>
-        <param name="skipToken">
-            Skip to a web app in the list of webapps associated with app service plan.
-            If specified, the resulting list will contain web apps starting from
-            (including) the skipToken. Otherwise, the resulting list contains web apps
-            from the start of the list
-            </param>
-        <param name="filter">
-            Supported filter: $filter=state eq running. Returns only web apps that are
-            currently running
-            </param>
-        <param name="top">
-            List page size. If specified, results are paged.
-            </param>
-        <summary>
-            Get all apps associated with an App Service plan.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="skipToken">To be added.</param>
+        <param name="filter">To be added.</param>
+        <param name="top">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Get all apps associated with an App Service plan.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="ListWebAppsAsync">
@@ -2320,8 +1666,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.ListWebAppsAsync(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.String,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -2341,48 +1687,27 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Name of the App Service plan.
-            </param>
-        <param name="skipToken">
-            Skip to a web app in the list of webapps associated with app service plan.
-            If specified, the resulting list will contain web apps starting from
-            (including) the skipToken. Otherwise, the resulting list contains web apps
-            from the start of the list
-            </param>
-        <param name="filter">
-            Supported filter: $filter=state eq running. Returns only web apps that are
-            currently running
-            </param>
-        <param name="top">
-            List page size. If specified, results are paged.
-            </param>
-        <param name="cancellationToken">
-            The cancellation token.
-            </param>
-        <summary>
-            Get all apps associated with an App Service plan.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="skipToken">To be added.</param>
+        <param name="filter">To be added.</param>
+        <param name="top">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Get all apps associated with an App Service plan.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="ListWebAppsByHybridConnection">
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;string&gt; ListWebAppsByHybridConnection (this Microsoft.Azure.Management.WebSites.IAppServicePlansOperations operations, string resourceGroupName, string name, string namespaceName, string relayName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;string&gt; ListWebAppsByHybridConnection(class Microsoft.Azure.Management.WebSites.IAppServicePlansOperations operations, string resourceGroupName, string name, string namespaceName, string relayName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.ListWebAppsByHybridConnection(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.String,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListWebAppsByHybridConnection (operations As IAppServicePlansOperations, resourceGroupName As String, name As String, namespaceName As String, relayName As String) As IPage(Of String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;System.String&gt;</ReturnType>
@@ -2395,28 +1720,14 @@
         <Parameter Name="relayName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Name of the App Service plan.
-            </param>
-        <param name="namespaceName">
-            Name of the Hybrid Connection namespace.
-            </param>
-        <param name="relayName">
-            Name of the Hybrid Connection relay.
-            </param>
-        <summary>
-            Get all apps that use a Hybrid Connection in an App Service Plan.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="namespaceName">To be added.</param>
+        <param name="relayName">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Get all apps that use a Hybrid Connection in an App Service Plan.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="ListWebAppsByHybridConnectionAsync">
@@ -2425,8 +1736,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.ListWebAppsByHybridConnectionAsync(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -2445,41 +1756,26 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Name of the App Service plan.
-            </param>
-        <param name="namespaceName">
-            Name of the Hybrid Connection namespace.
-            </param>
-        <param name="relayName">
-            Name of the Hybrid Connection relay.
-            </param>
-        <param name="cancellationToken">
-            The cancellation token.
-            </param>
-        <summary>
-            Get all apps that use a Hybrid Connection in an App Service Plan.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="namespaceName">To be added.</param>
+        <param name="relayName">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Get all apps that use a Hybrid Connection in an App Service Plan.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="ListWebAppsByHybridConnectionNext">
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;string&gt; ListWebAppsByHybridConnectionNext (this Microsoft.Azure.Management.WebSites.IAppServicePlansOperations operations, string nextPageLink);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;string&gt; ListWebAppsByHybridConnectionNext(class Microsoft.Azure.Management.WebSites.IAppServicePlansOperations operations, string nextPageLink) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.ListWebAppsByHybridConnectionNext(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListWebAppsByHybridConnectionNext (operations As IAppServicePlansOperations, nextPageLink As String) As IPage(Of String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;System.String&gt;</ReturnType>
@@ -2489,19 +1785,11 @@
         <Parameter Name="nextPageLink" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="nextPageLink">
-            The NextLink from the previous successful call to List operation.
-            </param>
-        <summary>
-            Get all apps that use a Hybrid Connection in an App Service Plan.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="nextPageLink">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Get all apps that use a Hybrid Connection in an App Service Plan.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="ListWebAppsByHybridConnectionNextAsync">
@@ -2510,8 +1798,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.ListWebAppsByHybridConnectionNextAsync(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -2527,32 +1815,23 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="nextPageLink">
-            The NextLink from the previous successful call to List operation.
-            </param>
-        <param name="cancellationToken">
-            The cancellation token.
-            </param>
-        <summary>
-            Get all apps that use a Hybrid Connection in an App Service Plan.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="nextPageLink">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Get all apps that use a Hybrid Connection in an App Service Plan.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="ListWebAppsNext">
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.WebSites.Models.Site&gt; ListWebAppsNext (this Microsoft.Azure.Management.WebSites.IAppServicePlansOperations operations, string nextPageLink);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.WebSites.Models.Site&gt; ListWebAppsNext(class Microsoft.Azure.Management.WebSites.IAppServicePlansOperations operations, string nextPageLink) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.ListWebAppsNext(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListWebAppsNext (operations As IAppServicePlansOperations, nextPageLink As String) As IPage(Of Site)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.WebSites.Models.Site&gt;</ReturnType>
@@ -2562,19 +1841,11 @@
         <Parameter Name="nextPageLink" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="nextPageLink">
-            The NextLink from the previous successful call to List operation.
-            </param>
-        <summary>
-            Get all apps associated with an App Service plan.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="nextPageLink">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Get all apps associated with an App Service plan.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="ListWebAppsNextAsync">
@@ -2583,8 +1854,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.ListWebAppsNextAsync(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -2600,32 +1871,23 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="nextPageLink">
-            The NextLink from the previous successful call to List operation.
-            </param>
-        <param name="cancellationToken">
-            The cancellation token.
-            </param>
-        <summary>
-            Get all apps associated with an App Service plan.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="nextPageLink">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Get all apps associated with an App Service plan.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="RebootWorker">
       <MemberSignature Language="C#" Value="public static void RebootWorker (this Microsoft.Azure.Management.WebSites.IAppServicePlansOperations operations, string resourceGroupName, string name, string workerName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void RebootWorker(class Microsoft.Azure.Management.WebSites.IAppServicePlansOperations operations, string resourceGroupName, string name, string workerName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.RebootWorker(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub RebootWorker (operations As IAppServicePlansOperations, resourceGroupName As String, name As String, workerName As String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -2637,24 +1899,12 @@
         <Parameter Name="workerName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Name of the App Service plan.
-            </param>
-        <param name="workerName">
-            Name of worker machine, which typically starts with RD.
-            </param>
-        <summary>
-            Reboot a worker machine in an App Service plan.
-            </summary>
-        <remarks>
-            Reboot a worker machine in an App Service plan.
-            </remarks>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="workerName">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="RebootWorkerAsync">
@@ -2663,8 +1913,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.RebootWorkerAsync(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -2682,38 +1932,25 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Name of the App Service plan.
-            </param>
-        <param name="workerName">
-            Name of worker machine, which typically starts with RD.
-            </param>
-        <param name="cancellationToken">
-            The cancellation token.
-            </param>
-        <summary>
-            Reboot a worker machine in an App Service plan.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="workerName">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Reboot a worker machine in an App Service plan.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="RestartWebApps">
       <MemberSignature Language="C#" Value="public static void RestartWebApps (this Microsoft.Azure.Management.WebSites.IAppServicePlansOperations operations, string resourceGroupName, string name, Nullable&lt;bool&gt; softRestart = null);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void RestartWebApps(class Microsoft.Azure.Management.WebSites.IAppServicePlansOperations operations, string resourceGroupName, string name, valuetype System.Nullable`1&lt;bool&gt; softRestart) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.RestartWebApps(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.String,System.String,System.Nullable{System.Boolean})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub RestartWebApps (operations As IAppServicePlansOperations, resourceGroupName As String, name As String, Optional softRestart As Nullable(Of Boolean) = null)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -2725,27 +1962,12 @@
         <Parameter Name="softRestart" Type="System.Nullable&lt;System.Boolean&gt;" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Name of the App Service plan.
-            </param>
-        <param name="softRestart">
-            Specify &lt;code&gt;true&lt;/code&gt; to performa a soft restart, applies
-            the configuration settings and restarts the apps if necessary. The default
-            is &lt;code&gt;false&lt;/code&gt;, which always restarts and reprovisions
-            the apps
-            </param>
-        <summary>
-            Restart all apps in an App Service plan.
-            </summary>
-        <remarks>
-            Restart all apps in an App Service plan.
-            </remarks>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="softRestart">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="RestartWebAppsAsync">
@@ -2754,8 +1976,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.RestartWebAppsAsync(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.String,System.String,System.Nullable{System.Boolean},System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -2773,41 +1995,25 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Name of the App Service plan.
-            </param>
-        <param name="softRestart">
-            Specify &lt;code&gt;true&lt;/code&gt; to performa a soft restart, applies
-            the configuration settings and restarts the apps if necessary. The default
-            is &lt;code&gt;false&lt;/code&gt;, which always restarts and reprovisions
-            the apps
-            </param>
-        <param name="cancellationToken">
-            The cancellation token.
-            </param>
-        <summary>
-            Restart all apps in an App Service plan.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="softRestart">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Restart all apps in an App Service plan.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="UpdateVnetGateway">
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.WebSites.Models.VnetGateway UpdateVnetGateway (this Microsoft.Azure.Management.WebSites.IAppServicePlansOperations operations, string resourceGroupName, string name, string vnetName, string gatewayName, Microsoft.Azure.Management.WebSites.Models.VnetGateway connectionEnvelope);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.WebSites.Models.VnetGateway UpdateVnetGateway(class Microsoft.Azure.Management.WebSites.IAppServicePlansOperations operations, string resourceGroupName, string name, string vnetName, string gatewayName, class Microsoft.Azure.Management.WebSites.Models.VnetGateway connectionEnvelope) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.UpdateVnetGateway(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.String,System.String,System.String,System.String,Microsoft.Azure.Management.WebSites.Models.VnetGateway)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UpdateVnetGateway (operations As IAppServicePlansOperations, resourceGroupName As String, name As String, vnetName As String, gatewayName As String, connectionEnvelope As VnetGateway) As VnetGateway" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.WebSites.Models.VnetGateway</ReturnType>
@@ -2821,31 +2027,15 @@
         <Parameter Name="connectionEnvelope" Type="Microsoft.Azure.Management.WebSites.Models.VnetGateway" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Name of the App Service plan.
-            </param>
-        <param name="vnetName">
-            Name of the Virtual Network.
-            </param>
-        <param name="gatewayName">
-            Name of the gateway. Only the 'primary' gateway is supported.
-            </param>
-        <param name="connectionEnvelope">
-            Definition of the gateway.
-            </param>
-        <summary>
-            Update a Virtual Network gateway.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="vnetName">To be added.</param>
+        <param name="gatewayName">To be added.</param>
+        <param name="connectionEnvelope">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Update a Virtual Network gateway.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="UpdateVnetGatewayAsync">
@@ -2854,8 +2044,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.UpdateVnetGatewayAsync(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.String,System.String,System.String,System.String,Microsoft.Azure.Management.WebSites.Models.VnetGateway,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -2875,44 +2065,27 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Name of the App Service plan.
-            </param>
-        <param name="vnetName">
-            Name of the Virtual Network.
-            </param>
-        <param name="gatewayName">
-            Name of the gateway. Only the 'primary' gateway is supported.
-            </param>
-        <param name="connectionEnvelope">
-            Definition of the gateway.
-            </param>
-        <param name="cancellationToken">
-            The cancellation token.
-            </param>
-        <summary>
-            Update a Virtual Network gateway.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="vnetName">To be added.</param>
+        <param name="gatewayName">To be added.</param>
+        <param name="connectionEnvelope">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Update a Virtual Network gateway.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="UpdateVnetRoute">
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.WebSites.Models.VnetRoute UpdateVnetRoute (this Microsoft.Azure.Management.WebSites.IAppServicePlansOperations operations, string resourceGroupName, string name, string vnetName, string routeName, Microsoft.Azure.Management.WebSites.Models.VnetRoute route);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.WebSites.Models.VnetRoute UpdateVnetRoute(class Microsoft.Azure.Management.WebSites.IAppServicePlansOperations operations, string resourceGroupName, string name, string vnetName, string routeName, class Microsoft.Azure.Management.WebSites.Models.VnetRoute route) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.UpdateVnetRoute(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.String,System.String,System.String,System.String,Microsoft.Azure.Management.WebSites.Models.VnetRoute)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UpdateVnetRoute (operations As IAppServicePlansOperations, resourceGroupName As String, name As String, vnetName As String, routeName As String, route As VnetRoute) As VnetRoute" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.WebSites.Models.VnetRoute</ReturnType>
@@ -2926,31 +2099,15 @@
         <Parameter Name="route" Type="Microsoft.Azure.Management.WebSites.Models.VnetRoute" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Name of the App Service plan.
-            </param>
-        <param name="vnetName">
-            Name of the Virtual Network.
-            </param>
-        <param name="routeName">
-            Name of the Virtual Network route.
-            </param>
-        <param name="route">
-            Definition of the Virtual Network route.
-            </param>
-        <summary>
-            Create or update a Virtual Network route in an App Service plan.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="vnetName">To be added.</param>
+        <param name="routeName">To be added.</param>
+        <param name="route">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Create or update a Virtual Network route in an App Service plan.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="UpdateVnetRouteAsync">
@@ -2959,8 +2116,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServicePlansOperationsExtensions.UpdateVnetRouteAsync(Microsoft.Azure.Management.WebSites.IAppServicePlansOperations,System.String,System.String,System.String,System.String,Microsoft.Azure.Management.WebSites.Models.VnetRoute,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -2980,34 +2137,16 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Name of the App Service plan.
-            </param>
-        <param name="vnetName">
-            Name of the Virtual Network.
-            </param>
-        <param name="routeName">
-            Name of the Virtual Network route.
-            </param>
-        <param name="route">
-            Definition of the Virtual Network route.
-            </param>
-        <param name="cancellationToken">
-            The cancellation token.
-            </param>
-        <summary>
-            Create or update a Virtual Network route in an App Service plan.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="vnetName">To be added.</param>
+        <param name="routeName">To be added.</param>
+        <param name="route">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Create or update a Virtual Network route in an App Service plan.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
   </Members>

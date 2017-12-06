@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public sealed class EventHubReceiver : Microsoft.ServiceBus.Messaging.ClientEntity" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit EventHubReceiver extends Microsoft.ServiceBus.Messaging.ClientEntity" />
   <TypeSignature Language="DocId" Value="T:Microsoft.ServiceBus.Messaging.EventHubReceiver" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class EventHubReceiver&#xA;Inherits ClientEntity" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.ServiceBus</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>
@@ -20,10 +21,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;long&gt; Epoch { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int64&gt; Epoch" />
       <MemberSignature Language="DocId" Value="P:Microsoft.ServiceBus.Messaging.EventHubReceiver.Epoch" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Epoch As Nullable(Of Long)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int64&gt;</ReturnType>
@@ -38,10 +40,11 @@
       <MemberSignature Language="C#" Value="public string EventHubPath { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string EventHubPath" />
       <MemberSignature Language="DocId" Value="P:Microsoft.ServiceBus.Messaging.EventHubReceiver.EventHubPath" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EventHubPath As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -56,10 +59,11 @@
       <MemberSignature Language="C#" Value="public string Identifier { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Identifier" />
       <MemberSignature Language="DocId" Value="P:Microsoft.ServiceBus.Messaging.EventHubReceiver.Identifier" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Identifier As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -74,10 +78,11 @@
       <MemberSignature Language="C#" Value="public string Name { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Name" />
       <MemberSignature Language="DocId" Value="P:Microsoft.ServiceBus.Messaging.EventHubReceiver.Name" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Name As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -92,10 +97,11 @@
       <MemberSignature Language="C#" Value="public bool OffsetInclusive { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool OffsetInclusive" />
       <MemberSignature Language="DocId" Value="P:Microsoft.ServiceBus.Messaging.EventHubReceiver.OffsetInclusive" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OffsetInclusive As Boolean" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -111,10 +117,11 @@
       <MemberSignature Language="C#" Value="protected override void OnAbort ();" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnAbort() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.EventHubReceiver.OnAbort" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnAbort ()" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -129,10 +136,11 @@
       <MemberSignature Language="C#" Value="protected override IAsyncResult OnBeginClose (TimeSpan timeout, AsyncCallback callback, object state);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class System.IAsyncResult OnBeginClose(valuetype System.TimeSpan timeout, class System.AsyncCallback callback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.EventHubReceiver.OnBeginClose(System.TimeSpan,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function OnBeginClose (timeout As TimeSpan, callback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.IAsyncResult</ReturnType>
@@ -155,10 +163,11 @@
       <MemberSignature Language="C#" Value="protected override IAsyncResult OnBeginOpen (TimeSpan timeout, AsyncCallback callback, object state);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class System.IAsyncResult OnBeginOpen(valuetype System.TimeSpan timeout, class System.AsyncCallback callback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.EventHubReceiver.OnBeginOpen(System.TimeSpan,System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function OnBeginOpen (timeout As TimeSpan, callback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.IAsyncResult</ReturnType>
@@ -181,10 +190,11 @@
       <MemberSignature Language="C#" Value="protected override void OnClose (TimeSpan timeout);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnClose(valuetype System.TimeSpan timeout) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.EventHubReceiver.OnClose(System.TimeSpan)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnClose (timeout As TimeSpan)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -202,10 +212,11 @@
       <MemberSignature Language="C#" Value="protected override void OnEndClose (IAsyncResult result);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnEndClose(class System.IAsyncResult result) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.EventHubReceiver.OnEndClose(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnEndClose (result As IAsyncResult)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -223,10 +234,11 @@
       <MemberSignature Language="C#" Value="protected override void OnEndOpen (IAsyncResult result);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnEndOpen(class System.IAsyncResult result) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.EventHubReceiver.OnEndOpen(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnEndOpen (result As IAsyncResult)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -244,10 +256,11 @@
       <MemberSignature Language="C#" Value="protected override void OnOpen (TimeSpan timeout);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnOpen(valuetype System.TimeSpan timeout) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.EventHubReceiver.OnOpen(System.TimeSpan)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnOpen (timeout As TimeSpan)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -265,10 +278,11 @@
       <MemberSignature Language="C#" Value="public string PartitionId { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string PartitionId" />
       <MemberSignature Language="DocId" Value="P:Microsoft.ServiceBus.Messaging.EventHubReceiver.PartitionId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PartitionId As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -283,10 +297,11 @@
       <MemberSignature Language="C#" Value="public int PrefetchCount { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 PrefetchCount" />
       <MemberSignature Language="DocId" Value="P:Microsoft.ServiceBus.Messaging.EventHubReceiver.PrefetchCount" />
+      <MemberSignature Language="VB.NET" Value="Public Property PrefetchCount As Integer" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -306,10 +321,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;long&gt; PrefetchSizeInBytes { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int64&gt; PrefetchSizeInBytes" />
       <MemberSignature Language="DocId" Value="P:Microsoft.ServiceBus.Messaging.EventHubReceiver.PrefetchSizeInBytes" />
+      <MemberSignature Language="VB.NET" Value="Public Property PrefetchSizeInBytes As Nullable(Of Long)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int64&gt;</ReturnType>
@@ -330,10 +346,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.ServiceBus.Messaging.EventData Receive ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.ServiceBus.Messaging.EventData Receive() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.EventHubReceiver.Receive" />
+      <MemberSignature Language="VB.NET" Value="Public Function Receive () As EventData" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.ServiceBus.Messaging.EventData</ReturnType>
@@ -357,10 +374,11 @@
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;Microsoft.ServiceBus.Messaging.EventData&gt; Receive (int maxCount);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.ServiceBus.Messaging.EventData&gt; Receive(int32 maxCount) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.EventHubReceiver.Receive(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Receive (maxCount As Integer) As IEnumerable(Of EventData)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.ServiceBus.Messaging.EventData&gt;</ReturnType>
@@ -389,10 +407,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.ServiceBus.Messaging.EventData Receive (TimeSpan waitTime);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.ServiceBus.Messaging.EventData Receive(valuetype System.TimeSpan waitTime) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.EventHubReceiver.Receive(System.TimeSpan)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Receive (waitTime As TimeSpan) As EventData" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.ServiceBus.Messaging.EventData</ReturnType>
@@ -421,10 +440,11 @@
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;Microsoft.ServiceBus.Messaging.EventData&gt; Receive (int maxCount, TimeSpan waitTime);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.ServiceBus.Messaging.EventData&gt; Receive(int32 maxCount, valuetype System.TimeSpan waitTime) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.EventHubReceiver.Receive(System.Int32,System.TimeSpan)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Receive (maxCount As Integer, waitTime As TimeSpan) As IEnumerable(Of EventData)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.ServiceBus.Messaging.EventData&gt;</ReturnType>
@@ -458,10 +478,11 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.ServiceBus.Messaging.EventData&gt; ReceiveAsync ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class Microsoft.ServiceBus.Messaging.EventData&gt; ReceiveAsync() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.EventHubReceiver.ReceiveAsync" />
+      <MemberSignature Language="VB.NET" Value="Public Function ReceiveAsync () As Task(Of EventData)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.ServiceBus.Messaging.EventData&gt;</ReturnType>
@@ -477,10 +498,11 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Collections.Generic.IEnumerable&lt;Microsoft.ServiceBus.Messaging.EventData&gt;&gt; ReceiveAsync (int maxCount);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.ServiceBus.Messaging.EventData&gt;&gt; ReceiveAsync(int32 maxCount) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.EventHubReceiver.ReceiveAsync(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ReceiveAsync (maxCount As Integer) As Task(Of IEnumerable(Of EventData))" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.IEnumerable&lt;Microsoft.ServiceBus.Messaging.EventData&gt;&gt;</ReturnType>
@@ -500,10 +522,11 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.ServiceBus.Messaging.EventData&gt; ReceiveAsync (TimeSpan waitTime);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class Microsoft.ServiceBus.Messaging.EventData&gt; ReceiveAsync(valuetype System.TimeSpan waitTime) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.EventHubReceiver.ReceiveAsync(System.TimeSpan)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ReceiveAsync (waitTime As TimeSpan) As Task(Of EventData)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.ServiceBus.Messaging.EventData&gt;</ReturnType>
@@ -524,10 +547,11 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Collections.Generic.IEnumerable&lt;Microsoft.ServiceBus.Messaging.EventData&gt;&gt; ReceiveAsync (int maxCount, TimeSpan waitTime);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.ServiceBus.Messaging.EventData&gt;&gt; ReceiveAsync(int32 maxCount, valuetype System.TimeSpan waitTime) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceBus.Messaging.EventHubReceiver.ReceiveAsync(System.Int32,System.TimeSpan)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ReceiveAsync (maxCount As Integer, waitTime As TimeSpan) As Task(Of IEnumerable(Of EventData))" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.IEnumerable&lt;Microsoft.ServiceBus.Messaging.EventData&gt;&gt;</ReturnType>
@@ -552,10 +576,11 @@
       <MemberSignature Language="C#" Value="public bool ReceiverRuntimeMetricEnabled { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool ReceiverRuntimeMetricEnabled" />
       <MemberSignature Language="DocId" Value="P:Microsoft.ServiceBus.Messaging.EventHubReceiver.ReceiverRuntimeMetricEnabled" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ReceiverRuntimeMetricEnabled As Boolean" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -570,10 +595,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.ServiceBus.Messaging.ReceiverRuntimeInfo RuntimeInfo { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.ServiceBus.Messaging.ReceiverRuntimeInfo RuntimeInfo" />
       <MemberSignature Language="DocId" Value="P:Microsoft.ServiceBus.Messaging.EventHubReceiver.RuntimeInfo" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RuntimeInfo As ReceiverRuntimeInfo" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.ServiceBus.Messaging.ReceiverRuntimeInfo</ReturnType>
@@ -590,10 +616,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; StartingDateTimeUtc { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; StartingDateTimeUtc" />
       <MemberSignature Language="DocId" Value="P:Microsoft.ServiceBus.Messaging.EventHubReceiver.StartingDateTimeUtc" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StartingDateTimeUtc As Nullable(Of DateTime)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
@@ -612,10 +639,11 @@
       <MemberSignature Language="C#" Value="public string StartingOffset { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string StartingOffset" />
       <MemberSignature Language="DocId" Value="P:Microsoft.ServiceBus.Messaging.EventHubReceiver.StartingOffset" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StartingOffset As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

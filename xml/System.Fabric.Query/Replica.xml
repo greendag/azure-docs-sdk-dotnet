@@ -2,10 +2,10 @@
   <TypeSignature Language="C#" Value="public abstract class Replica" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit Replica extends System.Object" />
   <TypeSignature Language="DocId" Value="T:System.Fabric.Query.Replica" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class Replica" />
   <AssemblyInfo>
     <AssemblyName>System.Fabric</AssemblyName>
-    <AssemblyVersion>5.0.0.0</AssemblyVersion>
-    <AssemblyVersion>255.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -32,9 +32,8 @@
       <MemberSignature Language="DocId" Value="M:System.Fabric.Query.Replica.#ctor(System.Fabric.Query.ServiceKind,System.Int64,System.Fabric.Query.ServiceReplicaStatus,System.Fabric.Health.HealthState,System.String,System.String,System.TimeSpan)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="serviceKind" Type="System.Fabric.Query.ServiceKind" />
@@ -77,11 +76,11 @@
       <MemberSignature Language="C#" Value="public System.Fabric.Health.HealthState HealthState { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Fabric.Health.HealthState HealthState" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Query.Replica.HealthState" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HealthState As HealthState" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Fabric.Health.HealthState</ReturnType>
@@ -100,11 +99,11 @@
       <MemberSignature Language="C#" Value="public long Id { get; protected set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int64 Id" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Query.Replica.Id" />
+      <MemberSignature Language="VB.NET" Value="Public Property Id As Long" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int64</ReturnType>
@@ -123,11 +122,11 @@
       <MemberSignature Language="C#" Value="public TimeSpan LastInBuildDuration { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.TimeSpan LastInBuildDuration" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Query.Replica.LastInBuildDuration" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LastInBuildDuration As TimeSpan" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.TimeSpan</ReturnType>
@@ -143,14 +142,14 @@
       </Docs>
     </Member>
     <Member MemberName="LastInBuildDurationInSeconds">
-      <MemberSignature Language="C#" Value="protected long LastInBuildDurationInSeconds { get; }" />
+      <MemberSignature Language="C#" Value="protected internal long LastInBuildDurationInSeconds { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int64 LastInBuildDurationInSeconds" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Query.Replica.LastInBuildDurationInSeconds" />
+      <MemberSignature Language="VB.NET" Value="Protected Friend ReadOnly Property LastInBuildDurationInSeconds As Long" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int64</ReturnType>
@@ -167,11 +166,11 @@
       <MemberSignature Language="C#" Value="public string NodeName { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string NodeName" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Query.Replica.NodeName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NodeName As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -190,11 +189,11 @@
       <MemberSignature Language="C#" Value="public string ReplicaAddress { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string ReplicaAddress" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Query.Replica.ReplicaAddress" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ReplicaAddress As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -213,11 +212,11 @@
       <MemberSignature Language="C#" Value="public System.Fabric.Query.ServiceReplicaStatus ReplicaStatus { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Fabric.Query.ServiceReplicaStatus ReplicaStatus" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Query.Replica.ReplicaStatus" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ReplicaStatus As ServiceReplicaStatus" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Fabric.Query.ServiceReplicaStatus</ReturnType>
@@ -236,11 +235,11 @@
       <MemberSignature Language="C#" Value="public System.Fabric.Query.ServiceKind ServiceKind { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Fabric.Query.ServiceKind ServiceKind" />
       <MemberSignature Language="DocId" Value="P:System.Fabric.Query.Replica.ServiceKind" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ServiceKind As ServiceKind" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Fabric.Query.ServiceKind</ReturnType>

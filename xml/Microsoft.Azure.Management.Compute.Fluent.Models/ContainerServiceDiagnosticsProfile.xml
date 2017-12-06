@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public class ContainerServiceDiagnosticsProfile" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ContainerServiceDiagnosticsProfile extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Compute.Fluent.Models.ContainerServiceDiagnosticsProfile" />
+  <TypeSignature Language="VB.NET" Value="Public Class ContainerServiceDiagnosticsProfile" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
     <AssemblyVersion>1.0.0.60</AssemblyVersion>
@@ -19,10 +20,11 @@
       <MemberSignature Language="C#" Value="public ContainerServiceDiagnosticsProfile ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.Models.ContainerServiceDiagnosticsProfile.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -37,10 +39,11 @@
       <MemberSignature Language="C#" Value="public ContainerServiceDiagnosticsProfile (Microsoft.Azure.Management.Compute.Fluent.Models.ContainerServiceVMDiagnostics vmDiagnostics);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Azure.Management.Compute.Fluent.Models.ContainerServiceVMDiagnostics vmDiagnostics) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.Models.ContainerServiceDiagnosticsProfile.#ctor(Microsoft.Azure.Management.Compute.Fluent.Models.ContainerServiceVMDiagnostics)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (vmDiagnostics As ContainerServiceVMDiagnostics)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="vmDiagnostics" Type="Microsoft.Azure.Management.Compute.Fluent.Models.ContainerServiceVMDiagnostics" />
@@ -59,10 +62,11 @@
       <MemberSignature Language="C#" Value="public virtual void Validate ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Validate() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Fluent.Models.ContainerServiceDiagnosticsProfile.Validate" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub Validate ()" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -82,10 +86,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.Compute.Fluent.Models.ContainerServiceVMDiagnostics VmDiagnostics { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.Compute.Fluent.Models.ContainerServiceVMDiagnostics VmDiagnostics" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Compute.Fluent.Models.ContainerServiceDiagnosticsProfile.VmDiagnostics" />
+      <MemberSignature Language="VB.NET" Value="Public Property VmDiagnostics As ContainerServiceVMDiagnostics" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>

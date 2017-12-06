@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public class KeyCreateParameters" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit KeyCreateParameters extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.KeyVault.Models.KeyCreateParameters" />
+  <TypeSignature Language="VB.NET" Value="Public Class KeyCreateParameters" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.KeyVault</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -21,10 +22,11 @@
       <MemberSignature Language="C#" Value="public KeyCreateParameters ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.KeyVault.Models.KeyCreateParameters.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.KeyVault</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -40,8 +42,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.KeyVault.Models.KeyCreateParameters.#ctor(System.String,System.Nullable{System.Int32},System.Collections.Generic.IList{System.String},Microsoft.Azure.KeyVault.Models.KeyAttributes,System.Collections.Generic.IDictionary{System.String,System.String})" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.KeyVault</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="kty" Type="System.String" />
@@ -71,10 +73,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.KeyVault.Models.KeyAttributes KeyAttributes { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.KeyVault.Models.KeyAttributes KeyAttributes" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.KeyVault.Models.KeyCreateParameters.KeyAttributes" />
+      <MemberSignature Language="VB.NET" Value="Public Property KeyAttributes As KeyAttributes" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.KeyVault</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -94,10 +97,11 @@
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;string&gt; KeyOps { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;string&gt; KeyOps" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.KeyVault.Models.KeyCreateParameters.KeyOps" />
+      <MemberSignature Language="VB.NET" Value="Public Property KeyOps As IList(Of String)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.KeyVault</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -117,10 +121,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; KeySize { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; KeySize" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.KeyVault.Models.KeyCreateParameters.KeySize" />
+      <MemberSignature Language="VB.NET" Value="Public Property KeySize As Nullable(Of Integer)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.KeyVault</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -142,10 +147,11 @@
       <MemberSignature Language="C#" Value="public string Kty { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Kty" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.KeyVault.Models.KeyCreateParameters.Kty" />
+      <MemberSignature Language="VB.NET" Value="Public Property Kty As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.KeyVault</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -170,10 +176,11 @@
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,string&gt; Tags { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, string&gt; Tags" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.KeyVault.Models.KeyCreateParameters.Tags" />
+      <MemberSignature Language="VB.NET" Value="Public Property Tags As IDictionary(Of String, String)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.KeyVault</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -196,10 +203,11 @@
       <MemberSignature Language="C#" Value="public virtual void Validate ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Validate() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.KeyVault.Models.KeyCreateParameters.Validate" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub Validate ()" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.KeyVault</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>

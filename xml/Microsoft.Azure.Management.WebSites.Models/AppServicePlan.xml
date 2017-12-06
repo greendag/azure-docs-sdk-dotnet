@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public class AppServicePlan : Microsoft.Azure.Management.WebSites.Models.Resource" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AppServicePlan extends Microsoft.Azure.Management.WebSites.Models.Resource" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.WebSites.Models.AppServicePlan" />
+  <TypeSignature Language="VB.NET" Value="Public Class AppServicePlan&#xA;Inherits Resource" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -16,9 +17,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-            App Service plan.
-            </summary>
+    <summary>To be added.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -26,16 +25,15 @@
       <MemberSignature Language="C#" Value="public AppServicePlan ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.Models.AppServicePlan.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>
-            Initializes a new instance of the AppServicePlan class.
-            </summary>
+        <summary>To be added.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -45,8 +43,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.Models.AppServicePlan.#ctor(System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.String},System.String,System.String,System.Nullable{Microsoft.Azure.Management.WebSites.Models.StatusOptions},System.String,System.String,Microsoft.Azure.Management.WebSites.Models.HostingEnvironmentProfile,System.Nullable{System.Int32},System.String,System.Nullable{System.Boolean},System.Nullable{System.Int32},System.String,System.Nullable{System.Boolean},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{Microsoft.Azure.Management.WebSites.Models.ProvisioningState},Microsoft.Azure.Management.WebSites.Models.SkuDescription)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="location" Type="System.String" />
@@ -73,45 +71,29 @@
         <Parameter Name="sku" Type="Microsoft.Azure.Management.WebSites.Models.SkuDescription" />
       </Parameters>
       <Docs>
-        <param name="location">Resource Location.</param>
-        <param name="id">Resource Id.</param>
-        <param name="name">Resource Name.</param>
-        <param name="kind">Kind of resource.</param>
-        <param name="type">Resource type.</param>
-        <param name="tags">Resource tags.</param>
-        <param name="appServicePlanName">Name for the App Service
-            plan.</param>
-        <param name="workerTierName">Target worker tier assigned to the App
-            Service plan.</param>
-        <param name="status">App Service plan status. Possible values
-            include: 'Ready', 'Pending'</param>
-        <param name="subscription">App Service plan subscription.</param>
-        <param name="adminSiteName">App Service plan administration
-            site.</param>
-        <param name="hostingEnvironmentProfile">Specification for the App
-            Service Environment to use for the App Service plan.</param>
-        <param name="maximumNumberOfWorkers">Maximum number of instances
-            that can be assigned to this App Service plan.</param>
-        <param name="geoRegion">Geographical location for the App Service
-            plan.</param>
-        <param name="perSiteScaling">If &lt;code&gt;true&lt;/code&gt;, apps
-            assigned to this App Service plan can be scaled independently.
-            If &lt;code&gt;false&lt;/code&gt;, apps assigned to this App
-            Service plan will scale to all instances of the plan.</param>
-        <param name="numberOfSites">Number of apps assigned to this App
-            Service plan.</param>
-        <param name="resourceGroup">Resource group of the App Service
-            plan.</param>
-        <param name="reserved">Reserved.</param>
-        <param name="targetWorkerCount">Scaling worker count.</param>
-        <param name="targetWorkerSizeId">Scaling worker size ID.</param>
-        <param name="provisioningState">Provisioning state of the App
-            Service Environment. Possible values include: 'Succeeded',
-            'Failed', 'Canceled', 'InProgress', 'Deleting'</param>
+        <param name="location">To be added.</param>
+        <param name="id">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="kind">To be added.</param>
+        <param name="type">To be added.</param>
+        <param name="tags">To be added.</param>
+        <param name="appServicePlanName">To be added.</param>
+        <param name="workerTierName">To be added.</param>
+        <param name="status">To be added.</param>
+        <param name="subscription">To be added.</param>
+        <param name="adminSiteName">To be added.</param>
+        <param name="hostingEnvironmentProfile">To be added.</param>
+        <param name="maximumNumberOfWorkers">To be added.</param>
+        <param name="geoRegion">To be added.</param>
+        <param name="perSiteScaling">To be added.</param>
+        <param name="numberOfSites">To be added.</param>
+        <param name="resourceGroup">To be added.</param>
+        <param name="reserved">To be added.</param>
+        <param name="targetWorkerCount">To be added.</param>
+        <param name="targetWorkerSizeId">To be added.</param>
+        <param name="provisioningState">To be added.</param>
         <param name="sku">To be added.</param>
-        <summary>
-            Initializes a new instance of the AppServicePlan class.
-            </summary>
+        <summary>To be added.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -119,10 +101,11 @@
       <MemberSignature Language="C#" Value="public string AdminSiteName { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string AdminSiteName" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.WebSites.Models.AppServicePlan.AdminSiteName" />
+      <MemberSignature Language="VB.NET" Value="Public Property AdminSiteName As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -133,9 +116,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-            Gets or sets app Service plan administration site.
-            </summary>
+        <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -144,10 +125,11 @@
       <MemberSignature Language="C#" Value="public string AppServicePlanName { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string AppServicePlanName" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.WebSites.Models.AppServicePlan.AppServicePlanName" />
+      <MemberSignature Language="VB.NET" Value="Public Property AppServicePlanName As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -158,9 +140,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-            Gets or sets name for the App Service plan.
-            </summary>
+        <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -169,10 +149,11 @@
       <MemberSignature Language="C#" Value="public string GeoRegion { get; protected set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string GeoRegion" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.WebSites.Models.AppServicePlan.GeoRegion" />
+      <MemberSignature Language="VB.NET" Value="Public Property GeoRegion As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -183,9 +164,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-            Gets geographical location for the App Service plan.
-            </summary>
+        <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -194,10 +173,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.WebSites.Models.HostingEnvironmentProfile HostingEnvironmentProfile { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.WebSites.Models.HostingEnvironmentProfile HostingEnvironmentProfile" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.WebSites.Models.AppServicePlan.HostingEnvironmentProfile" />
+      <MemberSignature Language="VB.NET" Value="Public Property HostingEnvironmentProfile As HostingEnvironmentProfile" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -208,10 +188,7 @@
         <ReturnType>Microsoft.Azure.Management.WebSites.Models.HostingEnvironmentProfile</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-            Gets or sets specification for the App Service Environment to use
-            for the App Service plan.
-            </summary>
+        <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -220,10 +197,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; MaximumNumberOfWorkers { get; protected set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; MaximumNumberOfWorkers" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.WebSites.Models.AppServicePlan.MaximumNumberOfWorkers" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaximumNumberOfWorkers As Nullable(Of Integer)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -234,10 +212,7 @@
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-            Gets maximum number of instances that can be assigned to this App
-            Service plan.
-            </summary>
+        <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -246,10 +221,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; NumberOfSites { get; protected set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; NumberOfSites" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.WebSites.Models.AppServicePlan.NumberOfSites" />
+      <MemberSignature Language="VB.NET" Value="Public Property NumberOfSites As Nullable(Of Integer)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -260,9 +236,7 @@
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-            Gets number of apps assigned to this App Service plan.
-            </summary>
+        <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -271,10 +245,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; PerSiteScaling { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; PerSiteScaling" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.WebSites.Models.AppServicePlan.PerSiteScaling" />
+      <MemberSignature Language="VB.NET" Value="Public Property PerSiteScaling As Nullable(Of Boolean)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -285,12 +260,7 @@
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-            Gets or sets if &amp;lt;code&amp;gt;true&amp;lt;/code&amp;gt;, apps
-            assigned to this App Service plan can be scaled independently.
-            If &amp;lt;code&amp;gt;false&amp;lt;/code&amp;gt;, apps assigned to
-            this App Service plan will scale to all instances of the plan.
-            </summary>
+        <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -299,10 +269,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Azure.Management.WebSites.Models.ProvisioningState&gt; ProvisioningState { get; protected set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Azure.Management.WebSites.Models.ProvisioningState&gt; ProvisioningState" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.WebSites.Models.AppServicePlan.ProvisioningState" />
+      <MemberSignature Language="VB.NET" Value="Public Property ProvisioningState As Nullable(Of ProvisioningState)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -313,11 +284,7 @@
         <ReturnType>System.Nullable&lt;Microsoft.Azure.Management.WebSites.Models.ProvisioningState&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-            Gets provisioning state of the App Service Environment. Possible
-            values include: 'Succeeded', 'Failed', 'Canceled', 'InProgress',
-            'Deleting'
-            </summary>
+        <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -326,10 +293,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; Reserved { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; Reserved" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.WebSites.Models.AppServicePlan.Reserved" />
+      <MemberSignature Language="VB.NET" Value="Public Property Reserved As Nullable(Of Boolean)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -340,9 +308,7 @@
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-            Gets or sets reserved.
-            </summary>
+        <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -351,10 +317,11 @@
       <MemberSignature Language="C#" Value="public string ResourceGroup { get; protected set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string ResourceGroup" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.WebSites.Models.AppServicePlan.ResourceGroup" />
+      <MemberSignature Language="VB.NET" Value="Public Property ResourceGroup As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -365,9 +332,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-            Gets resource group of the App Service plan.
-            </summary>
+        <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -376,10 +341,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.WebSites.Models.SkuDescription Sku { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.WebSites.Models.SkuDescription Sku" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.WebSites.Models.AppServicePlan.Sku" />
+      <MemberSignature Language="VB.NET" Value="Public Property Sku As SkuDescription" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -390,7 +356,7 @@
         <ReturnType>Microsoft.Azure.Management.WebSites.Models.SkuDescription</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary />
+        <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -399,10 +365,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Azure.Management.WebSites.Models.StatusOptions&gt; Status { get; protected set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Azure.Management.WebSites.Models.StatusOptions&gt; Status" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.WebSites.Models.AppServicePlan.Status" />
+      <MemberSignature Language="VB.NET" Value="Public Property Status As Nullable(Of StatusOptions)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -413,10 +380,7 @@
         <ReturnType>System.Nullable&lt;Microsoft.Azure.Management.WebSites.Models.StatusOptions&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-            Gets app Service plan status. Possible values include: 'Ready',
-            'Pending'
-            </summary>
+        <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -425,10 +389,11 @@
       <MemberSignature Language="C#" Value="public string Subscription { get; protected set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Subscription" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.WebSites.Models.AppServicePlan.Subscription" />
+      <MemberSignature Language="VB.NET" Value="Public Property Subscription As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -439,9 +404,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-            Gets app Service plan subscription.
-            </summary>
+        <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -450,10 +413,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; TargetWorkerCount { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; TargetWorkerCount" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.WebSites.Models.AppServicePlan.TargetWorkerCount" />
+      <MemberSignature Language="VB.NET" Value="Public Property TargetWorkerCount As Nullable(Of Integer)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -464,9 +428,7 @@
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-            Gets or sets scaling worker count.
-            </summary>
+        <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -475,10 +437,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; TargetWorkerSizeId { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; TargetWorkerSizeId" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.WebSites.Models.AppServicePlan.TargetWorkerSizeId" />
+      <MemberSignature Language="VB.NET" Value="Public Property TargetWorkerSizeId As Nullable(Of Integer)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -489,9 +452,7 @@
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-            Gets or sets scaling worker size ID.
-            </summary>
+        <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -500,33 +461,30 @@
       <MemberSignature Language="C#" Value="public override void Validate ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void Validate() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.Models.AppServicePlan.Validate" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub Validate ()" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-            Validate the object.
-            </summary>
+        <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <exception cref="T:Microsoft.Rest.ValidationException">
-            Thrown if validation fails
-            </exception>
       </Docs>
     </Member>
     <Member MemberName="WorkerTierName">
       <MemberSignature Language="C#" Value="public string WorkerTierName { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string WorkerTierName" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.WebSites.Models.AppServicePlan.WorkerTierName" />
+      <MemberSignature Language="VB.NET" Value="Public Property WorkerTierName As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -537,9 +495,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-            Gets or sets target worker tier assigned to the App Service plan.
-            </summary>
+        <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

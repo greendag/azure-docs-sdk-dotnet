@@ -2,9 +2,10 @@
   <TypeSignature Language="C#" Value="public static class IntegrationRuntimeState" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit IntegrationRuntimeState extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.DataFactory.Models.IntegrationRuntimeState" />
+  <TypeSignature Language="VB.NET" Value="Public Class IntegrationRuntimeState" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+    <AssemblyVersion>0.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -21,10 +22,11 @@
       <MemberSignature Language="C#" Value="public const string Initial;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string Initial" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.DataFactory.Models.IntegrationRuntimeState.Initial" />
+      <MemberSignature Language="VB.NET" Value="Public Const Initial As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -38,10 +40,11 @@
       <MemberSignature Language="C#" Value="public const string Limited;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string Limited" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.DataFactory.Models.IntegrationRuntimeState.Limited" />
+      <MemberSignature Language="VB.NET" Value="Public Const Limited As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -55,10 +58,11 @@
       <MemberSignature Language="C#" Value="public const string NeedRegistration;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string NeedRegistration" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.DataFactory.Models.IntegrationRuntimeState.NeedRegistration" />
+      <MemberSignature Language="VB.NET" Value="Public Const NeedRegistration As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -72,10 +76,11 @@
       <MemberSignature Language="C#" Value="public const string Offline;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string Offline" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.DataFactory.Models.IntegrationRuntimeState.Offline" />
+      <MemberSignature Language="VB.NET" Value="Public Const Offline As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -89,10 +94,11 @@
       <MemberSignature Language="C#" Value="public const string Online;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string Online" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.DataFactory.Models.IntegrationRuntimeState.Online" />
+      <MemberSignature Language="VB.NET" Value="Public Const Online As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -106,10 +112,11 @@
       <MemberSignature Language="C#" Value="public const string Started;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string Started" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.DataFactory.Models.IntegrationRuntimeState.Started" />
+      <MemberSignature Language="VB.NET" Value="Public Const Started As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -123,10 +130,11 @@
       <MemberSignature Language="C#" Value="public const string Starting;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string Starting" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.DataFactory.Models.IntegrationRuntimeState.Starting" />
+      <MemberSignature Language="VB.NET" Value="Public Const Starting As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -140,10 +148,11 @@
       <MemberSignature Language="C#" Value="public const string Stopped;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string Stopped" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.DataFactory.Models.IntegrationRuntimeState.Stopped" />
+      <MemberSignature Language="VB.NET" Value="Public Const Stopped As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -157,10 +166,11 @@
       <MemberSignature Language="C#" Value="public const string Stopping;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string Stopping" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.DataFactory.Models.IntegrationRuntimeState.Stopping" />
+      <MemberSignature Language="VB.NET" Value="Public Const Stopping As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

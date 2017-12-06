@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public static class AppServiceCertificateOrdersOperationsExtensions" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit AppServiceCertificateOrdersOperationsExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.WebSites.AppServiceCertificateOrdersOperationsExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module AppServiceCertificateOrdersOperationsExtensions" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -11,9 +12,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-            Extension methods for AppServiceCertificateOrdersOperations.
-            </summary>
+    <summary>To be added.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -21,10 +20,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.WebSites.Models.AppServiceCertificateOrder BeginCreateOrUpdate (this Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations operations, string resourceGroupName, string name, Microsoft.Azure.Management.WebSites.Models.AppServiceCertificateOrder certificateDistinguishedName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.WebSites.Models.AppServiceCertificateOrder BeginCreateOrUpdate(class Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations operations, string resourceGroupName, string name, class Microsoft.Azure.Management.WebSites.Models.AppServiceCertificateOrder certificateDistinguishedName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServiceCertificateOrdersOperationsExtensions.BeginCreateOrUpdate(Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations,System.String,System.String,Microsoft.Azure.Management.WebSites.Models.AppServiceCertificateOrder)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginCreateOrUpdate (operations As IAppServiceCertificateOrdersOperations, resourceGroupName As String, name As String, certificateDistinguishedName As AppServiceCertificateOrder) As AppServiceCertificateOrder" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.WebSites.Models.AppServiceCertificateOrder</ReturnType>
@@ -36,25 +36,13 @@
         <Parameter Name="certificateDistinguishedName" Type="Microsoft.Azure.Management.WebSites.Models.AppServiceCertificateOrder" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Name of the certificate.
-            </param>
-        <param name="certificateDistinguishedName">
-            Distinguished name to to use for the certificate order.
-            </param>
-        <summary>
-            Create or update a certificate purchase order.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="certificateDistinguishedName">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Create or update a certificate purchase order.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="BeginCreateOrUpdateAsync">
@@ -63,8 +51,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServiceCertificateOrdersOperationsExtensions.BeginCreateOrUpdateAsync(Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations,System.String,System.String,Microsoft.Azure.Management.WebSites.Models.AppServiceCertificateOrder,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -82,38 +70,25 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Name of the certificate.
-            </param>
-        <param name="certificateDistinguishedName">
-            Distinguished name to to use for the certificate order.
-            </param>
-        <param name="cancellationToken">
-            The cancellation token.
-            </param>
-        <summary>
-            Create or update a certificate purchase order.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="certificateDistinguishedName">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Create or update a certificate purchase order.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="BeginCreateOrUpdateCertificate">
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.WebSites.Models.AppServiceCertificate BeginCreateOrUpdateCertificate (this Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations operations, string resourceGroupName, string certificateOrderName, string name, Microsoft.Azure.Management.WebSites.Models.AppServiceCertificate keyVaultCertificate);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.WebSites.Models.AppServiceCertificate BeginCreateOrUpdateCertificate(class Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations operations, string resourceGroupName, string certificateOrderName, string name, class Microsoft.Azure.Management.WebSites.Models.AppServiceCertificate keyVaultCertificate) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServiceCertificateOrdersOperationsExtensions.BeginCreateOrUpdateCertificate(Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations,System.String,System.String,System.String,Microsoft.Azure.Management.WebSites.Models.AppServiceCertificate)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginCreateOrUpdateCertificate (operations As IAppServiceCertificateOrdersOperations, resourceGroupName As String, certificateOrderName As String, name As String, keyVaultCertificate As AppServiceCertificate) As AppServiceCertificate" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.WebSites.Models.AppServiceCertificate</ReturnType>
@@ -126,28 +101,14 @@
         <Parameter Name="keyVaultCertificate" Type="Microsoft.Azure.Management.WebSites.Models.AppServiceCertificate" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="certificateOrderName">
-            Name of the certificate order.
-            </param>
-        <param name="name">
-            Name of the certificate.
-            </param>
-        <param name="keyVaultCertificate">
-            Key vault certificate resource Id.
-            </param>
-        <summary>
-            Creates or updates a certificate and associates with key vault secret.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="certificateOrderName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="keyVaultCertificate">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Creates or updates a certificate and associates with key vault secret.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="BeginCreateOrUpdateCertificateAsync">
@@ -156,8 +117,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServiceCertificateOrdersOperationsExtensions.BeginCreateOrUpdateCertificateAsync(Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations,System.String,System.String,System.String,Microsoft.Azure.Management.WebSites.Models.AppServiceCertificate,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -176,41 +137,26 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="certificateOrderName">
-            Name of the certificate order.
-            </param>
-        <param name="name">
-            Name of the certificate.
-            </param>
-        <param name="keyVaultCertificate">
-            Key vault certificate resource Id.
-            </param>
-        <param name="cancellationToken">
-            The cancellation token.
-            </param>
-        <summary>
-            Creates or updates a certificate and associates with key vault secret.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="certificateOrderName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="keyVaultCertificate">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Creates or updates a certificate and associates with key vault secret.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="CreateOrUpdate">
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.WebSites.Models.AppServiceCertificateOrder CreateOrUpdate (this Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations operations, string resourceGroupName, string name, Microsoft.Azure.Management.WebSites.Models.AppServiceCertificateOrder certificateDistinguishedName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.WebSites.Models.AppServiceCertificateOrder CreateOrUpdate(class Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations operations, string resourceGroupName, string name, class Microsoft.Azure.Management.WebSites.Models.AppServiceCertificateOrder certificateDistinguishedName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServiceCertificateOrdersOperationsExtensions.CreateOrUpdate(Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations,System.String,System.String,Microsoft.Azure.Management.WebSites.Models.AppServiceCertificateOrder)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function CreateOrUpdate (operations As IAppServiceCertificateOrdersOperations, resourceGroupName As String, name As String, certificateDistinguishedName As AppServiceCertificateOrder) As AppServiceCertificateOrder" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.WebSites.Models.AppServiceCertificateOrder</ReturnType>
@@ -222,25 +168,13 @@
         <Parameter Name="certificateDistinguishedName" Type="Microsoft.Azure.Management.WebSites.Models.AppServiceCertificateOrder" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Name of the certificate.
-            </param>
-        <param name="certificateDistinguishedName">
-            Distinguished name to to use for the certificate order.
-            </param>
-        <summary>
-            Create or update a certificate purchase order.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="certificateDistinguishedName">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Create or update a certificate purchase order.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="CreateOrUpdateAsync">
@@ -249,8 +183,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServiceCertificateOrdersOperationsExtensions.CreateOrUpdateAsync(Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations,System.String,System.String,Microsoft.Azure.Management.WebSites.Models.AppServiceCertificateOrder,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -268,38 +202,25 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Name of the certificate.
-            </param>
-        <param name="certificateDistinguishedName">
-            Distinguished name to to use for the certificate order.
-            </param>
-        <param name="cancellationToken">
-            The cancellation token.
-            </param>
-        <summary>
-            Create or update a certificate purchase order.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="certificateDistinguishedName">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Create or update a certificate purchase order.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="CreateOrUpdateCertificate">
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.WebSites.Models.AppServiceCertificate CreateOrUpdateCertificate (this Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations operations, string resourceGroupName, string certificateOrderName, string name, Microsoft.Azure.Management.WebSites.Models.AppServiceCertificate keyVaultCertificate);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.WebSites.Models.AppServiceCertificate CreateOrUpdateCertificate(class Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations operations, string resourceGroupName, string certificateOrderName, string name, class Microsoft.Azure.Management.WebSites.Models.AppServiceCertificate keyVaultCertificate) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServiceCertificateOrdersOperationsExtensions.CreateOrUpdateCertificate(Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations,System.String,System.String,System.String,Microsoft.Azure.Management.WebSites.Models.AppServiceCertificate)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function CreateOrUpdateCertificate (operations As IAppServiceCertificateOrdersOperations, resourceGroupName As String, certificateOrderName As String, name As String, keyVaultCertificate As AppServiceCertificate) As AppServiceCertificate" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.WebSites.Models.AppServiceCertificate</ReturnType>
@@ -312,28 +233,14 @@
         <Parameter Name="keyVaultCertificate" Type="Microsoft.Azure.Management.WebSites.Models.AppServiceCertificate" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="certificateOrderName">
-            Name of the certificate order.
-            </param>
-        <param name="name">
-            Name of the certificate.
-            </param>
-        <param name="keyVaultCertificate">
-            Key vault certificate resource Id.
-            </param>
-        <summary>
-            Creates or updates a certificate and associates with key vault secret.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="certificateOrderName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="keyVaultCertificate">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Creates or updates a certificate and associates with key vault secret.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="CreateOrUpdateCertificateAsync">
@@ -342,8 +249,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServiceCertificateOrdersOperationsExtensions.CreateOrUpdateCertificateAsync(Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations,System.String,System.String,System.String,Microsoft.Azure.Management.WebSites.Models.AppServiceCertificate,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -362,41 +269,26 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="certificateOrderName">
-            Name of the certificate order.
-            </param>
-        <param name="name">
-            Name of the certificate.
-            </param>
-        <param name="keyVaultCertificate">
-            Key vault certificate resource Id.
-            </param>
-        <param name="cancellationToken">
-            The cancellation token.
-            </param>
-        <summary>
-            Creates or updates a certificate and associates with key vault secret.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="certificateOrderName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="keyVaultCertificate">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Creates or updates a certificate and associates with key vault secret.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="DeleteCertificate">
       <MemberSignature Language="C#" Value="public static void DeleteCertificate (this Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations operations, string resourceGroupName, string certificateOrderName, string name);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void DeleteCertificate(class Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations operations, string resourceGroupName, string certificateOrderName, string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServiceCertificateOrdersOperationsExtensions.DeleteCertificate(Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub DeleteCertificate (operations As IAppServiceCertificateOrdersOperations, resourceGroupName As String, certificateOrderName As String, name As String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -408,24 +300,12 @@
         <Parameter Name="name" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="certificateOrderName">
-            Name of the certificate order.
-            </param>
-        <param name="name">
-            Name of the certificate.
-            </param>
-        <summary>
-            Delete the certificate associated with a certificate order.
-            </summary>
-        <remarks>
-            Delete the certificate associated with a certificate order.
-            </remarks>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="certificateOrderName">To be added.</param>
+        <param name="name">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="DeleteCertificateAsync">
@@ -434,8 +314,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServiceCertificateOrdersOperationsExtensions.DeleteCertificateAsync(Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -453,38 +333,25 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="certificateOrderName">
-            Name of the certificate order.
-            </param>
-        <param name="name">
-            Name of the certificate.
-            </param>
-        <param name="cancellationToken">
-            The cancellation token.
-            </param>
-        <summary>
-            Delete the certificate associated with a certificate order.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="certificateOrderName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Delete the certificate associated with a certificate order.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="DeleteCertificateOrder">
       <MemberSignature Language="C#" Value="public static void DeleteCertificateOrder (this Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations operations, string resourceGroupName, string name);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void DeleteCertificateOrder(class Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations operations, string resourceGroupName, string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServiceCertificateOrdersOperationsExtensions.DeleteCertificateOrder(Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub DeleteCertificateOrder (operations As IAppServiceCertificateOrdersOperations, resourceGroupName As String, name As String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -495,21 +362,11 @@
         <Parameter Name="name" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Name of the certificate.
-            </param>
-        <summary>
-            Delete an existing certificate order.
-            </summary>
-        <remarks>
-            Delete an existing certificate order.
-            </remarks>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="DeleteCertificateOrderAsync">
@@ -518,8 +375,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServiceCertificateOrdersOperationsExtensions.DeleteCertificateOrderAsync(Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -536,35 +393,24 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Name of the certificate.
-            </param>
-        <param name="cancellationToken">
-            The cancellation token.
-            </param>
-        <summary>
-            Delete an existing certificate order.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Delete an existing certificate order.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="Get">
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.WebSites.Models.AppServiceCertificateOrder Get (this Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations operations, string resourceGroupName, string name);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.WebSites.Models.AppServiceCertificateOrder Get(class Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations operations, string resourceGroupName, string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServiceCertificateOrdersOperationsExtensions.Get(Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Get (operations As IAppServiceCertificateOrdersOperations, resourceGroupName As String, name As String) As AppServiceCertificateOrder" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.WebSites.Models.AppServiceCertificateOrder</ReturnType>
@@ -575,22 +421,12 @@
         <Parameter Name="name" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Name of the certificate.
-            </param>
-        <summary>
-            Get a certificate order.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Get a certificate order.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="GetAsync">
@@ -599,8 +435,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServiceCertificateOrdersOperationsExtensions.GetAsync(Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -617,35 +453,24 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Name of the certificate.
-            </param>
-        <param name="cancellationToken">
-            The cancellation token.
-            </param>
-        <summary>
-            Get a certificate order.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Get a certificate order.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="GetCertificate">
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.WebSites.Models.AppServiceCertificate GetCertificate (this Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations operations, string resourceGroupName, string certificateOrderName, string name);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.WebSites.Models.AppServiceCertificate GetCertificate(class Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations operations, string resourceGroupName, string certificateOrderName, string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServiceCertificateOrdersOperationsExtensions.GetCertificate(Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetCertificate (operations As IAppServiceCertificateOrdersOperations, resourceGroupName As String, certificateOrderName As String, name As String) As AppServiceCertificate" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.WebSites.Models.AppServiceCertificate</ReturnType>
@@ -657,25 +482,13 @@
         <Parameter Name="name" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="certificateOrderName">
-            Name of the certificate order.
-            </param>
-        <param name="name">
-            Name of the certificate.
-            </param>
-        <summary>
-            Get the certificate associated with a certificate order.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="certificateOrderName">To be added.</param>
+        <param name="name">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Get the certificate associated with a certificate order.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="GetCertificateAsync">
@@ -684,8 +497,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServiceCertificateOrdersOperationsExtensions.GetCertificateAsync(Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -703,38 +516,25 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="certificateOrderName">
-            Name of the certificate order.
-            </param>
-        <param name="name">
-            Name of the certificate.
-            </param>
-        <param name="cancellationToken">
-            The cancellation token.
-            </param>
-        <summary>
-            Get the certificate associated with a certificate order.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="certificateOrderName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Get the certificate associated with a certificate order.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="List">
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.WebSites.Models.AppServiceCertificateOrder&gt; List (this Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations operations);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.WebSites.Models.AppServiceCertificateOrder&gt; List(class Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations operations) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServiceCertificateOrdersOperationsExtensions.List(Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function List (operations As IAppServiceCertificateOrdersOperations) As IPage(Of AppServiceCertificateOrder)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.WebSites.Models.AppServiceCertificateOrder&gt;</ReturnType>
@@ -743,16 +543,10 @@
         <Parameter Name="operations" Type="Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations" RefType="this" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <summary>
-            List all certificate orders in a subscription.
-            </summary>
+        <param name="operations">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            List all certificate orders in a subscription.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="ListAsync">
@@ -761,8 +555,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServiceCertificateOrdersOperationsExtensions.ListAsync(Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -777,29 +571,22 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="cancellationToken">
-            The cancellation token.
-            </param>
-        <summary>
-            List all certificate orders in a subscription.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            List all certificate orders in a subscription.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="ListByResourceGroup">
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.WebSites.Models.AppServiceCertificateOrder&gt; ListByResourceGroup (this Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations operations, string resourceGroupName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.WebSites.Models.AppServiceCertificateOrder&gt; ListByResourceGroup(class Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations operations, string resourceGroupName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServiceCertificateOrdersOperationsExtensions.ListByResourceGroup(Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListByResourceGroup (operations As IAppServiceCertificateOrdersOperations, resourceGroupName As String) As IPage(Of AppServiceCertificateOrder)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.WebSites.Models.AppServiceCertificateOrder&gt;</ReturnType>
@@ -809,19 +596,11 @@
         <Parameter Name="resourceGroupName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <summary>
-            Get certificate orders in a resource group.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Get certificate orders in a resource group.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="ListByResourceGroupAsync">
@@ -830,8 +609,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServiceCertificateOrdersOperationsExtensions.ListByResourceGroupAsync(Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -847,32 +626,23 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="cancellationToken">
-            The cancellation token.
-            </param>
-        <summary>
-            Get certificate orders in a resource group.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Get certificate orders in a resource group.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="ListByResourceGroupNext">
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.WebSites.Models.AppServiceCertificateOrder&gt; ListByResourceGroupNext (this Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations operations, string nextPageLink);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.WebSites.Models.AppServiceCertificateOrder&gt; ListByResourceGroupNext(class Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations operations, string nextPageLink) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServiceCertificateOrdersOperationsExtensions.ListByResourceGroupNext(Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListByResourceGroupNext (operations As IAppServiceCertificateOrdersOperations, nextPageLink As String) As IPage(Of AppServiceCertificateOrder)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.WebSites.Models.AppServiceCertificateOrder&gt;</ReturnType>
@@ -882,19 +652,11 @@
         <Parameter Name="nextPageLink" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="nextPageLink">
-            The NextLink from the previous successful call to List operation.
-            </param>
-        <summary>
-            Get certificate orders in a resource group.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="nextPageLink">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Get certificate orders in a resource group.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="ListByResourceGroupNextAsync">
@@ -903,8 +665,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServiceCertificateOrdersOperationsExtensions.ListByResourceGroupNextAsync(Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -920,32 +682,23 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="nextPageLink">
-            The NextLink from the previous successful call to List operation.
-            </param>
-        <param name="cancellationToken">
-            The cancellation token.
-            </param>
-        <summary>
-            Get certificate orders in a resource group.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="nextPageLink">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Get certificate orders in a resource group.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="ListCertificates">
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.WebSites.Models.AppServiceCertificate&gt; ListCertificates (this Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations operations, string resourceGroupName, string certificateOrderName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.WebSites.Models.AppServiceCertificate&gt; ListCertificates(class Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations operations, string resourceGroupName, string certificateOrderName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServiceCertificateOrdersOperationsExtensions.ListCertificates(Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListCertificates (operations As IAppServiceCertificateOrdersOperations, resourceGroupName As String, certificateOrderName As String) As IPage(Of AppServiceCertificate)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.WebSites.Models.AppServiceCertificate&gt;</ReturnType>
@@ -956,22 +709,12 @@
         <Parameter Name="certificateOrderName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="certificateOrderName">
-            Name of the certificate order.
-            </param>
-        <summary>
-            List all certificates associated with a certificate order.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="certificateOrderName">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            List all certificates associated with a certificate order.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="ListCertificatesAsync">
@@ -980,8 +723,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServiceCertificateOrdersOperationsExtensions.ListCertificatesAsync(Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -998,35 +741,24 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="certificateOrderName">
-            Name of the certificate order.
-            </param>
-        <param name="cancellationToken">
-            The cancellation token.
-            </param>
-        <summary>
-            List all certificates associated with a certificate order.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="certificateOrderName">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            List all certificates associated with a certificate order.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="ListCertificatesNext">
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.WebSites.Models.AppServiceCertificate&gt; ListCertificatesNext (this Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations operations, string nextPageLink);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.WebSites.Models.AppServiceCertificate&gt; ListCertificatesNext(class Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations operations, string nextPageLink) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServiceCertificateOrdersOperationsExtensions.ListCertificatesNext(Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListCertificatesNext (operations As IAppServiceCertificateOrdersOperations, nextPageLink As String) As IPage(Of AppServiceCertificate)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.WebSites.Models.AppServiceCertificate&gt;</ReturnType>
@@ -1036,19 +768,11 @@
         <Parameter Name="nextPageLink" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="nextPageLink">
-            The NextLink from the previous successful call to List operation.
-            </param>
-        <summary>
-            List all certificates associated with a certificate order.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="nextPageLink">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            List all certificates associated with a certificate order.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="ListCertificatesNextAsync">
@@ -1057,8 +781,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServiceCertificateOrdersOperationsExtensions.ListCertificatesNextAsync(Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1074,32 +798,23 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="nextPageLink">
-            The NextLink from the previous successful call to List operation.
-            </param>
-        <param name="cancellationToken">
-            The cancellation token.
-            </param>
-        <summary>
-            List all certificates associated with a certificate order.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="nextPageLink">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            List all certificates associated with a certificate order.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="ListNext">
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.WebSites.Models.AppServiceCertificateOrder&gt; ListNext (this Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations operations, string nextPageLink);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.WebSites.Models.AppServiceCertificateOrder&gt; ListNext(class Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations operations, string nextPageLink) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServiceCertificateOrdersOperationsExtensions.ListNext(Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListNext (operations As IAppServiceCertificateOrdersOperations, nextPageLink As String) As IPage(Of AppServiceCertificateOrder)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.WebSites.Models.AppServiceCertificateOrder&gt;</ReturnType>
@@ -1109,19 +824,11 @@
         <Parameter Name="nextPageLink" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="nextPageLink">
-            The NextLink from the previous successful call to List operation.
-            </param>
-        <summary>
-            List all certificate orders in a subscription.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="nextPageLink">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            List all certificate orders in a subscription.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="ListNextAsync">
@@ -1130,8 +837,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServiceCertificateOrdersOperationsExtensions.ListNextAsync(Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1147,22 +854,12 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="nextPageLink">
-            The NextLink from the previous successful call to List operation.
-            </param>
-        <param name="cancellationToken">
-            The cancellation token.
-            </param>
-        <summary>
-            List all certificate orders in a subscription.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="nextPageLink">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            List all certificate orders in a subscription.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="Reissue">
@@ -1171,8 +868,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServiceCertificateOrdersOperationsExtensions.Reissue(Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations,System.String,System.String,Microsoft.Azure.Management.WebSites.Models.ReissueCertificateOrderRequest)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1184,24 +881,12 @@
         <Parameter Name="reissueCertificateOrderRequest" Type="Microsoft.Azure.Management.WebSites.Models.ReissueCertificateOrderRequest" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Name of the certificate.
-            </param>
-        <param name="reissueCertificateOrderRequest">
-            Parameters for the reissue.
-            </param>
-        <summary>
-            Reissue an existing certificate order.
-            </summary>
-        <remarks>
-            Reissue an existing certificate order.
-            </remarks>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="reissueCertificateOrderRequest">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="ReissueAsync">
@@ -1210,8 +895,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServiceCertificateOrdersOperationsExtensions.ReissueAsync(Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations,System.String,System.String,Microsoft.Azure.Management.WebSites.Models.ReissueCertificateOrderRequest,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1229,28 +914,14 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Name of the certificate.
-            </param>
-        <param name="reissueCertificateOrderRequest">
-            Parameters for the reissue.
-            </param>
-        <param name="cancellationToken">
-            The cancellation token.
-            </param>
-        <summary>
-            Reissue an existing certificate order.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="reissueCertificateOrderRequest">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Reissue an existing certificate order.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="Renew">
@@ -1259,8 +930,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServiceCertificateOrdersOperationsExtensions.Renew(Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations,System.String,System.String,Microsoft.Azure.Management.WebSites.Models.RenewCertificateOrderRequest)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1272,24 +943,12 @@
         <Parameter Name="renewCertificateOrderRequest" Type="Microsoft.Azure.Management.WebSites.Models.RenewCertificateOrderRequest" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Certificate name
-            </param>
-        <param name="renewCertificateOrderRequest">
-            Renew parameters
-            </param>
-        <summary>
-            Renew an existing certificate order.
-            </summary>
-        <remarks>
-            Renew an existing certificate order.
-            </remarks>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="renewCertificateOrderRequest">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="RenewAsync">
@@ -1298,8 +957,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServiceCertificateOrdersOperationsExtensions.RenewAsync(Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations,System.String,System.String,Microsoft.Azure.Management.WebSites.Models.RenewCertificateOrderRequest,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1317,38 +976,25 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Certificate name
-            </param>
-        <param name="renewCertificateOrderRequest">
-            Renew parameters
-            </param>
-        <param name="cancellationToken">
-            The cancellation token.
-            </param>
-        <summary>
-            Renew an existing certificate order.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="renewCertificateOrderRequest">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Renew an existing certificate order.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="ResendEmail">
       <MemberSignature Language="C#" Value="public static void ResendEmail (this Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations operations, string resourceGroupName, string name);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void ResendEmail(class Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations operations, string resourceGroupName, string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServiceCertificateOrdersOperationsExtensions.ResendEmail(Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub ResendEmail (operations As IAppServiceCertificateOrdersOperations, resourceGroupName As String, name As String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1359,21 +1005,11 @@
         <Parameter Name="name" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Certificate order name
-            </param>
-        <summary>
-            Resend certificate email.
-            </summary>
-        <remarks>
-            Resend certificate email.
-            </remarks>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="ResendEmailAsync">
@@ -1382,8 +1018,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServiceCertificateOrdersOperationsExtensions.ResendEmailAsync(Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1400,25 +1036,13 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Certificate order name
-            </param>
-        <param name="cancellationToken">
-            The cancellation token.
-            </param>
-        <summary>
-            Resend certificate email.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Resend certificate email.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="ResendRequestEmails">
@@ -1427,8 +1051,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServiceCertificateOrdersOperationsExtensions.ResendRequestEmails(Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations,System.String,System.String,Microsoft.Azure.Management.WebSites.Models.NameIdentifier)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1440,24 +1064,12 @@
         <Parameter Name="nameIdentifier" Type="Microsoft.Azure.Management.WebSites.Models.NameIdentifier" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Certificate order name
-            </param>
-        <param name="nameIdentifier">
-            Email address
-            </param>
-        <summary>
-            Verify domain ownership for this certificate order.
-            </summary>
-        <remarks>
-            Verify domain ownership for this certificate order.
-            </remarks>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="nameIdentifier">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="ResendRequestEmailsAsync">
@@ -1466,8 +1078,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServiceCertificateOrdersOperationsExtensions.ResendRequestEmailsAsync(Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations,System.String,System.String,Microsoft.Azure.Management.WebSites.Models.NameIdentifier,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1485,38 +1097,25 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Certificate order name
-            </param>
-        <param name="nameIdentifier">
-            Email address
-            </param>
-        <param name="cancellationToken">
-            The cancellation token.
-            </param>
-        <summary>
-            Verify domain ownership for this certificate order.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="nameIdentifier">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Verify domain ownership for this certificate order.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="RetrieveCertificateActions">
       <MemberSignature Language="C#" Value="public static System.Collections.Generic.IList&lt;Microsoft.Azure.Management.WebSites.Models.CertificateOrderAction&gt; RetrieveCertificateActions (this Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations operations, string resourceGroupName, string name);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.WebSites.Models.CertificateOrderAction&gt; RetrieveCertificateActions(class Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations operations, string resourceGroupName, string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServiceCertificateOrdersOperationsExtensions.RetrieveCertificateActions(Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function RetrieveCertificateActions (operations As IAppServiceCertificateOrdersOperations, resourceGroupName As String, name As String) As IList(Of CertificateOrderAction)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Azure.Management.WebSites.Models.CertificateOrderAction&gt;</ReturnType>
@@ -1527,22 +1126,12 @@
         <Parameter Name="name" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Certificate order name
-            </param>
-        <summary>
-            Retrieve the list of certificate actions.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Retrieve the list of certificate actions.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="RetrieveCertificateActionsAsync">
@@ -1551,8 +1140,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServiceCertificateOrdersOperationsExtensions.RetrieveCertificateActionsAsync(Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1569,35 +1158,24 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Certificate order name
-            </param>
-        <param name="cancellationToken">
-            The cancellation token.
-            </param>
-        <summary>
-            Retrieve the list of certificate actions.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Retrieve the list of certificate actions.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="RetrieveCertificateEmailHistory">
       <MemberSignature Language="C#" Value="public static System.Collections.Generic.IList&lt;Microsoft.Azure.Management.WebSites.Models.CertificateEmail&gt; RetrieveCertificateEmailHistory (this Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations operations, string resourceGroupName, string name);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.WebSites.Models.CertificateEmail&gt; RetrieveCertificateEmailHistory(class Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations operations, string resourceGroupName, string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServiceCertificateOrdersOperationsExtensions.RetrieveCertificateEmailHistory(Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function RetrieveCertificateEmailHistory (operations As IAppServiceCertificateOrdersOperations, resourceGroupName As String, name As String) As IList(Of CertificateEmail)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Azure.Management.WebSites.Models.CertificateEmail&gt;</ReturnType>
@@ -1608,22 +1186,12 @@
         <Parameter Name="name" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Certificate order name
-            </param>
-        <summary>
-            Retrieve email history.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Retrieve email history.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="RetrieveCertificateEmailHistoryAsync">
@@ -1632,8 +1200,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServiceCertificateOrdersOperationsExtensions.RetrieveCertificateEmailHistoryAsync(Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1650,25 +1218,13 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Certificate order name
-            </param>
-        <param name="cancellationToken">
-            The cancellation token.
-            </param>
-        <summary>
-            Retrieve email history.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Retrieve email history.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="RetrieveSiteSeal">
@@ -1677,8 +1233,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServiceCertificateOrdersOperationsExtensions.RetrieveSiteSeal(Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations,System.String,System.String,Microsoft.Azure.Management.WebSites.Models.SiteSealRequest)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.WebSites.Models.SiteSeal</ReturnType>
@@ -1690,25 +1246,13 @@
         <Parameter Name="siteSealRequest" Type="Microsoft.Azure.Management.WebSites.Models.SiteSealRequest" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Certificate order name
-            </param>
-        <param name="siteSealRequest">
-            Site seal request
-            </param>
-        <summary>
-            Verify domain ownership for this certificate order.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="siteSealRequest">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Verify domain ownership for this certificate order.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="RetrieveSiteSealAsync">
@@ -1717,8 +1261,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServiceCertificateOrdersOperationsExtensions.RetrieveSiteSealAsync(Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations,System.String,System.String,Microsoft.Azure.Management.WebSites.Models.SiteSealRequest,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1736,28 +1280,14 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Certificate order name
-            </param>
-        <param name="siteSealRequest">
-            Site seal request
-            </param>
-        <param name="cancellationToken">
-            The cancellation token.
-            </param>
-        <summary>
-            Verify domain ownership for this certificate order.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="siteSealRequest">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Verify domain ownership for this certificate order.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="ValidatePurchaseInformation">
@@ -1766,8 +1296,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServiceCertificateOrdersOperationsExtensions.ValidatePurchaseInformation(Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations,Microsoft.Azure.Management.WebSites.Models.AppServiceCertificateOrder)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1777,18 +1307,10 @@
         <Parameter Name="appServiceCertificateOrder" Type="Microsoft.Azure.Management.WebSites.Models.AppServiceCertificateOrder" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="appServiceCertificateOrder">
-            Information for a certificate order.
-            </param>
-        <summary>
-            Validate information for a certificate order.
-            </summary>
-        <remarks>
-            Validate information for a certificate order.
-            </remarks>
+        <param name="operations">To be added.</param>
+        <param name="appServiceCertificateOrder">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="ValidatePurchaseInformationAsync">
@@ -1797,8 +1319,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServiceCertificateOrdersOperationsExtensions.ValidatePurchaseInformationAsync(Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations,Microsoft.Azure.Management.WebSites.Models.AppServiceCertificateOrder,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1814,32 +1336,23 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="appServiceCertificateOrder">
-            Information for a certificate order.
-            </param>
-        <param name="cancellationToken">
-            The cancellation token.
-            </param>
-        <summary>
-            Validate information for a certificate order.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="appServiceCertificateOrder">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Validate information for a certificate order.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="VerifyDomainOwnership">
       <MemberSignature Language="C#" Value="public static void VerifyDomainOwnership (this Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations operations, string resourceGroupName, string name);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void VerifyDomainOwnership(class Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations operations, string resourceGroupName, string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServiceCertificateOrdersOperationsExtensions.VerifyDomainOwnership(Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub VerifyDomainOwnership (operations As IAppServiceCertificateOrdersOperations, resourceGroupName As String, name As String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1850,21 +1363,11 @@
         <Parameter Name="name" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Certificate order name
-            </param>
-        <summary>
-            Verify domain ownership for this certificate order.
-            </summary>
-        <remarks>
-            Verify domain ownership for this certificate order.
-            </remarks>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="VerifyDomainOwnershipAsync">
@@ -1873,8 +1376,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.AppServiceCertificateOrdersOperationsExtensions.VerifyDomainOwnershipAsync(Microsoft.Azure.Management.WebSites.IAppServiceCertificateOrdersOperations,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1891,25 +1394,13 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="operations">
-            The operations group for this extension method.
-            </param>
-        <param name="resourceGroupName">
-            Name of the resource group to which the resource belongs.
-            </param>
-        <param name="name">
-            Certificate order name
-            </param>
-        <param name="cancellationToken">
-            The cancellation token.
-            </param>
-        <summary>
-            Verify domain ownership for this certificate order.
-            </summary>
+        <param name="operations">To be added.</param>
+        <param name="resourceGroupName">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>
-            Verify domain ownership for this certificate order.
-            </remarks>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
   </Members>

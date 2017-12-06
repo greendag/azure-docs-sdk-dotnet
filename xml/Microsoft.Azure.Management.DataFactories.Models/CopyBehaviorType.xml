@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public class CopyBehaviorType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CopyBehaviorType extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.DataFactories.Models.CopyBehaviorType" />
+  <TypeSignature Language="VB.NET" Value="Public Class CopyBehaviorType" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -21,10 +22,11 @@
       <MemberSignature Language="C#" Value="public CopyBehaviorType ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataFactories.Models.CopyBehaviorType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -36,10 +38,11 @@
       <MemberSignature Language="C#" Value="public const string FlattenHierarchy;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string FlattenHierarchy" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.DataFactories.Models.CopyBehaviorType.FlattenHierarchy" />
+      <MemberSignature Language="VB.NET" Value="Public Const FlattenHierarchy As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -55,10 +58,11 @@
       <MemberSignature Language="C#" Value="public const string MergeFiles;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string MergeFiles" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.DataFactories.Models.CopyBehaviorType.MergeFiles" />
+      <MemberSignature Language="VB.NET" Value="Public Const MergeFiles As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -74,10 +78,11 @@
       <MemberSignature Language="C#" Value="public const string PreserveHierarchy;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string PreserveHierarchy" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.DataFactories.Models.CopyBehaviorType.PreserveHierarchy" />
+      <MemberSignature Language="VB.NET" Value="Public Const PreserveHierarchy As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.DataFactories</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

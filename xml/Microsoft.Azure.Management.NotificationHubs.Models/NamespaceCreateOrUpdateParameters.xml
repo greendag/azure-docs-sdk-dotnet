@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public class NamespaceCreateOrUpdateParameters : Microsoft.Azure.Management.NotificationHubs.Models.Resource" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit NamespaceCreateOrUpdateParameters extends Microsoft.Azure.Management.NotificationHubs.Models.Resource" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.NotificationHubs.Models.NamespaceCreateOrUpdateParameters" />
+  <TypeSignature Language="VB.NET" Value="Public Class NamespaceCreateOrUpdateParameters&#xA;Inherits Resource" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.NotificationHubs</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -26,10 +27,11 @@
       <MemberSignature Language="C#" Value="public NamespaceCreateOrUpdateParameters ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.NotificationHubs.Models.NamespaceCreateOrUpdateParameters.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -46,8 +48,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.NotificationHubs.Models.NamespaceCreateOrUpdateParameters.#ctor(System.String,System.String,System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.String},Microsoft.Azure.Management.NotificationHubs.Models.Sku,System.String,System.String,System.String,System.String,System.Nullable{System.DateTime},System.String,System.String,System.String,System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{Microsoft.Azure.Management.NotificationHubs.Models.NamespaceType})" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="location" Type="System.String" />
@@ -111,10 +113,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; CreatedAt { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; CreatedAt" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.NotificationHubs.Models.NamespaceCreateOrUpdateParameters.CreatedAt" />
+      <MemberSignature Language="VB.NET" Value="Public Property CreatedAt As Nullable(Of DateTime)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -136,10 +139,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; Critical { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; Critical" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.NotificationHubs.Models.NamespaceCreateOrUpdateParameters.Critical" />
+      <MemberSignature Language="VB.NET" Value="Public Property Critical As Nullable(Of Boolean)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -161,10 +165,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; Enabled { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; Enabled" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.NotificationHubs.Models.NamespaceCreateOrUpdateParameters.Enabled" />
+      <MemberSignature Language="VB.NET" Value="Public Property Enabled As Nullable(Of Boolean)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -186,10 +191,11 @@
       <MemberSignature Language="C#" Value="public string NamespaceCreateOrUpdateParametersName { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string NamespaceCreateOrUpdateParametersName" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.NotificationHubs.Models.NamespaceCreateOrUpdateParameters.NamespaceCreateOrUpdateParametersName" />
+      <MemberSignature Language="VB.NET" Value="Public Property NamespaceCreateOrUpdateParametersName As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -211,10 +217,11 @@
       <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Azure.Management.NotificationHubs.Models.NamespaceType&gt; NamespaceType { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Azure.Management.NotificationHubs.Models.NamespaceType&gt; NamespaceType" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.NotificationHubs.Models.NamespaceCreateOrUpdateParameters.NamespaceType" />
+      <MemberSignature Language="VB.NET" Value="Public Property NamespaceType As Nullable(Of NamespaceType)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -237,10 +244,11 @@
       <MemberSignature Language="C#" Value="public string ProvisioningState { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string ProvisioningState" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.NotificationHubs.Models.NamespaceCreateOrUpdateParameters.ProvisioningState" />
+      <MemberSignature Language="VB.NET" Value="Public Property ProvisioningState As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -262,10 +270,11 @@
       <MemberSignature Language="C#" Value="public string Region { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Region" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.NotificationHubs.Models.NamespaceCreateOrUpdateParameters.Region" />
+      <MemberSignature Language="VB.NET" Value="Public Property Region As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -291,10 +300,11 @@
       <MemberSignature Language="C#" Value="public string ScaleUnit { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string ScaleUnit" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.NotificationHubs.Models.NamespaceCreateOrUpdateParameters.ScaleUnit" />
+      <MemberSignature Language="VB.NET" Value="Public Property ScaleUnit As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -316,10 +326,11 @@
       <MemberSignature Language="C#" Value="public string ServiceBusEndpoint { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string ServiceBusEndpoint" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.NotificationHubs.Models.NamespaceCreateOrUpdateParameters.ServiceBusEndpoint" />
+      <MemberSignature Language="VB.NET" Value="Public Property ServiceBusEndpoint As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -342,10 +353,11 @@
       <MemberSignature Language="C#" Value="public string Status { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Status" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.NotificationHubs.Models.NamespaceCreateOrUpdateParameters.Status" />
+      <MemberSignature Language="VB.NET" Value="Public Property Status As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -368,10 +380,11 @@
       <MemberSignature Language="C#" Value="public string SubscriptionId { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string SubscriptionId" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.NotificationHubs.Models.NamespaceCreateOrUpdateParameters.SubscriptionId" />
+      <MemberSignature Language="VB.NET" Value="Public Property SubscriptionId As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -388,29 +401,6 @@
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="Validate">
-      <MemberSignature Language="C#" Value="public override void Validate ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void Validate() cil managed" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.NotificationHubs.Models.NamespaceCreateOrUpdateParameters.Validate" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
-        <AssemblyName>Microsoft.Azure.Management.NotificationHubs</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
-      </ReturnValue>
-      <Parameters />
-      <Docs>
-        <summary>
-            Validate the object.
-            </summary>
-        <remarks>To be added.</remarks>
-        <exception cref="T:Microsoft.Rest.ValidationException">
-            Thrown if validation fails
-            </exception>
       </Docs>
     </Member>
   </Members>

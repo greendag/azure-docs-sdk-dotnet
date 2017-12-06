@@ -2,9 +2,9 @@
   <TypeSignature Language="C#" Value="public class TypeFieldInfo" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TypeFieldInfo extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.DataLake.Analytics.Models.TypeFieldInfo" />
+  <TypeSignature Language="VB.NET" Value="Public Class TypeFieldInfo" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.DataLake.Analytics</AssemblyName>
-    <AssemblyVersion>2.0.0.0</AssemblyVersion>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
@@ -22,10 +22,10 @@
       <MemberSignature Language="C#" Value="public TypeFieldInfo ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataLake.Analytics.Models.TypeFieldInfo.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataLake.Analytics</AssemblyName>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
@@ -40,10 +40,10 @@
       <MemberSignature Language="C#" Value="public TypeFieldInfo (string name = null, string type = null);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string name, string type) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataLake.Analytics.Models.TypeFieldInfo.#ctor(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (Optional name As String = null, Optional type As String = null)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataLake.Analytics</AssemblyName>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -64,10 +64,10 @@
       <MemberSignature Language="C#" Value="public string Name { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Name" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataLake.Analytics.Models.TypeFieldInfo.Name" />
+      <MemberSignature Language="VB.NET" Value="Public Property Name As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataLake.Analytics</AssemblyName>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -90,10 +90,10 @@
       <MemberSignature Language="C#" Value="public string Type { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Type" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataLake.Analytics.Models.TypeFieldInfo.Type" />
+      <MemberSignature Language="VB.NET" Value="Public Property Type As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataLake.Analytics</AssemblyName>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>

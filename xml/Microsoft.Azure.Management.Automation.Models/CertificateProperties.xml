@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public class CertificateProperties : Microsoft.Azure.Management.Automation.Models.ResourceCommonPropertiesBase" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CertificateProperties extends Microsoft.Azure.Management.Automation.Models.ResourceCommonPropertiesBase" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Automation.Models.CertificateProperties" />
+  <TypeSignature Language="VB.NET" Value="Public Class CertificateProperties&#xA;Inherits ResourceCommonPropertiesBase" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -19,10 +20,11 @@
       <MemberSignature Language="C#" Value="public CertificateProperties ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Automation.Models.CertificateProperties.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -34,10 +36,11 @@
       <MemberSignature Language="C#" Value="public DateTimeOffset ExpiryTime { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTimeOffset ExpiryTime" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Automation.Models.CertificateProperties.ExpiryTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExpiryTime As DateTimeOffset" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.DateTimeOffset</ReturnType>
@@ -52,10 +55,11 @@
       <MemberSignature Language="C#" Value="public bool IsExportable { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool IsExportable" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Automation.Models.CertificateProperties.IsExportable" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsExportable As Boolean" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -70,10 +74,11 @@
       <MemberSignature Language="C#" Value="public string Thumbprint { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Thumbprint" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Automation.Models.CertificateProperties.Thumbprint" />
+      <MemberSignature Language="VB.NET" Value="Public Property Thumbprint As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

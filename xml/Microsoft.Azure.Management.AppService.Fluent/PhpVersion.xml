@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public class PhpVersion : Microsoft.Azure.Management.ResourceManager.Fluent.Core.ExpandableStringEnum&lt;Microsoft.Azure.Management.AppService.Fluent.PhpVersion&gt;" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit PhpVersion extends Microsoft.Azure.Management.ResourceManager.Fluent.Core.ExpandableStringEnum`1&lt;class Microsoft.Azure.Management.AppService.Fluent.PhpVersion&gt;" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.AppService.Fluent.PhpVersion" />
+  <TypeSignature Language="VB.NET" Value="Public Class PhpVersion&#xA;Inherits ExpandableStringEnum(Of PhpVersion)" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
     <AssemblyVersion>1.0.0.60</AssemblyVersion>
@@ -24,10 +25,11 @@
       <MemberSignature Language="C#" Value="public PhpVersion ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.PhpVersion.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -39,10 +41,11 @@
       <MemberSignature Language="C#" Value="public static readonly Microsoft.Azure.Management.AppService.Fluent.PhpVersion Off;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Azure.Management.AppService.Fluent.PhpVersion Off" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.AppService.Fluent.PhpVersion.Off" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Off As PhpVersion " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.AppService.Fluent.PhpVersion</ReturnType>
@@ -56,10 +59,11 @@
       <MemberSignature Language="C#" Value="public static readonly Microsoft.Azure.Management.AppService.Fluent.PhpVersion V5_5;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Azure.Management.AppService.Fluent.PhpVersion V5_5" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.AppService.Fluent.PhpVersion.V5_5" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly V5_5 As PhpVersion " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.AppService.Fluent.PhpVersion</ReturnType>
@@ -73,10 +77,11 @@
       <MemberSignature Language="C#" Value="public static readonly Microsoft.Azure.Management.AppService.Fluent.PhpVersion V5_6;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Azure.Management.AppService.Fluent.PhpVersion V5_6" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.AppService.Fluent.PhpVersion.V5_6" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly V5_6 As PhpVersion " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.AppService.Fluent.PhpVersion</ReturnType>
@@ -90,10 +95,29 @@
       <MemberSignature Language="C#" Value="public static readonly Microsoft.Azure.Management.AppService.Fluent.PhpVersion V7;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Azure.Management.AppService.Fluent.PhpVersion V7" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.AppService.Fluent.PhpVersion.V7" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly V7 As PhpVersion " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.AppService.Fluent.PhpVersion</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="V7_1">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Azure.Management.AppService.Fluent.PhpVersion V7_1;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Azure.Management.AppService.Fluent.PhpVersion V7_1" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.AppService.Fluent.PhpVersion.V7_1" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly V7_1 As PhpVersion " />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.AppService.Fluent.PhpVersion</ReturnType>

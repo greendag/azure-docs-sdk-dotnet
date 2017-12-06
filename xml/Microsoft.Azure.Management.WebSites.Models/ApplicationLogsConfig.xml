@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public class ApplicationLogsConfig" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ApplicationLogsConfig extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.WebSites.Models.ApplicationLogsConfig" />
+  <TypeSignature Language="VB.NET" Value="Public Class ApplicationLogsConfig" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -11,9 +12,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-            Application logs configuration.
-            </summary>
+    <summary>To be added.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -21,16 +20,15 @@
       <MemberSignature Language="C#" Value="public ApplicationLogsConfig ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.Models.ApplicationLogsConfig.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>
-            Initializes a new instance of the ApplicationLogsConfig class.
-            </summary>
+        <summary>To be added.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -38,10 +36,11 @@
       <MemberSignature Language="C#" Value="public ApplicationLogsConfig (Microsoft.Azure.Management.WebSites.Models.FileSystemApplicationLogsConfig fileSystem = null, Microsoft.Azure.Management.WebSites.Models.AzureTableStorageApplicationLogsConfig azureTableStorage = null, Microsoft.Azure.Management.WebSites.Models.AzureBlobStorageApplicationLogsConfig azureBlobStorage = null);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Azure.Management.WebSites.Models.FileSystemApplicationLogsConfig fileSystem, class Microsoft.Azure.Management.WebSites.Models.AzureTableStorageApplicationLogsConfig azureTableStorage, class Microsoft.Azure.Management.WebSites.Models.AzureBlobStorageApplicationLogsConfig azureBlobStorage) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.Models.ApplicationLogsConfig.#ctor(Microsoft.Azure.Management.WebSites.Models.FileSystemApplicationLogsConfig,Microsoft.Azure.Management.WebSites.Models.AzureTableStorageApplicationLogsConfig,Microsoft.Azure.Management.WebSites.Models.AzureBlobStorageApplicationLogsConfig)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (Optional fileSystem As FileSystemApplicationLogsConfig = null, Optional azureTableStorage As AzureTableStorageApplicationLogsConfig = null, Optional azureBlobStorage As AzureBlobStorageApplicationLogsConfig = null)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="fileSystem" Type="Microsoft.Azure.Management.WebSites.Models.FileSystemApplicationLogsConfig" />
@@ -49,15 +48,10 @@
         <Parameter Name="azureBlobStorage" Type="Microsoft.Azure.Management.WebSites.Models.AzureBlobStorageApplicationLogsConfig" />
       </Parameters>
       <Docs>
-        <param name="fileSystem">Application logs to file system
-            configuration.</param>
-        <param name="azureTableStorage">Application logs to azure table
-            storage configuration.</param>
-        <param name="azureBlobStorage">Application logs to blob storage
-            configuration.</param>
-        <summary>
-            Initializes a new instance of the ApplicationLogsConfig class.
-            </summary>
+        <param name="fileSystem">To be added.</param>
+        <param name="azureTableStorage">To be added.</param>
+        <param name="azureBlobStorage">To be added.</param>
+        <summary>To be added.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -65,10 +59,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.WebSites.Models.AzureBlobStorageApplicationLogsConfig AzureBlobStorage { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.WebSites.Models.AzureBlobStorageApplicationLogsConfig AzureBlobStorage" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.WebSites.Models.ApplicationLogsConfig.AzureBlobStorage" />
+      <MemberSignature Language="VB.NET" Value="Public Property AzureBlobStorage As AzureBlobStorageApplicationLogsConfig" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -79,9 +74,7 @@
         <ReturnType>Microsoft.Azure.Management.WebSites.Models.AzureBlobStorageApplicationLogsConfig</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-            Gets or sets application logs to blob storage configuration.
-            </summary>
+        <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -90,10 +83,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.WebSites.Models.AzureTableStorageApplicationLogsConfig AzureTableStorage { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.WebSites.Models.AzureTableStorageApplicationLogsConfig AzureTableStorage" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.WebSites.Models.ApplicationLogsConfig.AzureTableStorage" />
+      <MemberSignature Language="VB.NET" Value="Public Property AzureTableStorage As AzureTableStorageApplicationLogsConfig" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -104,9 +98,7 @@
         <ReturnType>Microsoft.Azure.Management.WebSites.Models.AzureTableStorageApplicationLogsConfig</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-            Gets or sets application logs to azure table storage configuration.
-            </summary>
+        <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -115,10 +107,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.WebSites.Models.FileSystemApplicationLogsConfig FileSystem { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.WebSites.Models.FileSystemApplicationLogsConfig FileSystem" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.WebSites.Models.ApplicationLogsConfig.FileSystem" />
+      <MemberSignature Language="VB.NET" Value="Public Property FileSystem As FileSystemApplicationLogsConfig" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -129,9 +122,7 @@
         <ReturnType>Microsoft.Azure.Management.WebSites.Models.FileSystemApplicationLogsConfig</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-            Gets or sets application logs to file system configuration.
-            </summary>
+        <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -140,23 +131,19 @@
       <MemberSignature Language="C#" Value="public virtual void Validate ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Validate() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.Models.ApplicationLogsConfig.Validate" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub Validate ()" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-            Validate the object.
-            </summary>
+        <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-        <exception cref="T:Microsoft.Rest.ValidationException">
-            Thrown if validation fails
-            </exception>
       </Docs>
     </Member>
   </Members>

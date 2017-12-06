@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public static class EdgeNodesOperationsExtensions" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit EdgeNodesOperationsExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Cdn.Fluent.EdgeNodesOperationsExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module EdgeNodesOperationsExtensions" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
     <AssemblyVersion>1.0.0.60</AssemblyVersion>
@@ -21,10 +22,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Cdn.Fluent.Models.EdgeNodeInner&gt; List (this Microsoft.Azure.Management.Cdn.Fluent.IEdgeNodesOperations operations);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Cdn.Fluent.Models.EdgeNodeInner&gt; List(class Microsoft.Azure.Management.Cdn.Fluent.IEdgeNodesOperations operations) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.EdgeNodesOperationsExtensions.List(Microsoft.Azure.Management.Cdn.Fluent.IEdgeNodesOperations)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function List (operations As IEdgeNodesOperations) As IPage(Of EdgeNodeInner)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Cdn.Fluent.Models.EdgeNodeInner&gt;</ReturnType>
@@ -49,8 +51,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.EdgeNodesOperationsExtensions.ListAsync(Microsoft.Azure.Management.Cdn.Fluent.IEdgeNodesOperations,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -82,10 +84,11 @@
       <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Cdn.Fluent.Models.EdgeNodeInner&gt; ListNext (this Microsoft.Azure.Management.Cdn.Fluent.IEdgeNodesOperations operations, string nextPageLink);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Cdn.Fluent.Models.EdgeNodeInner&gt; ListNext(class Microsoft.Azure.Management.Cdn.Fluent.IEdgeNodesOperations operations, string nextPageLink) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.EdgeNodesOperationsExtensions.ListNext(Microsoft.Azure.Management.Cdn.Fluent.IEdgeNodesOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListNext (operations As IEdgeNodesOperations, nextPageLink As String) As IPage(Of EdgeNodeInner)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Cdn.Fluent.Models.EdgeNodeInner&gt;</ReturnType>
@@ -114,8 +117,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Cdn.Fluent.EdgeNodesOperationsExtensions.ListNextAsync(Microsoft.Azure.Management.Cdn.Fluent.IEdgeNodesOperations,System.String,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.Cdn.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>

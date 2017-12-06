@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public class AlgorithmResolver" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi AlgorithmResolver extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.KeyVault.Cryptography.AlgorithmResolver" />
+  <TypeSignature Language="VB.NET" Value="Public Class AlgorithmResolver" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.KeyVault.Cryptography</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -11,9 +12,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-            Resolves algorithm name to implementations.
-            </summary>
+    <summary>To be added.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -21,10 +20,11 @@
       <MemberSignature Language="C#" Value="public AlgorithmResolver ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.KeyVault.Cryptography.AlgorithmResolver.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.KeyVault.Cryptography</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -36,10 +36,11 @@
       <MemberSignature Language="C#" Value="public void AddAlgorithm (string algorithmName, Microsoft.Azure.KeyVault.Cryptography.Algorithm provider);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddAlgorithm(string algorithmName, class Microsoft.Azure.KeyVault.Cryptography.Algorithm provider) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.KeyVault.Cryptography.AlgorithmResolver.AddAlgorithm(System.String,Microsoft.Azure.KeyVault.Cryptography.Algorithm)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddAlgorithm (algorithmName As String, provider As Algorithm)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.KeyVault.Cryptography</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -49,11 +50,9 @@
         <Parameter Name="provider" Type="Microsoft.Azure.KeyVault.Cryptography.Algorithm" />
       </Parameters>
       <Docs>
-        <param name="algorithmName">The algorithm name</param>
-        <param name="provider">The provider for the algorithm</param>
-        <summary>
-            Adds an algorithm to the resolver
-            </summary>
+        <param name="algorithmName">To be added.</param>
+        <param name="provider">To be added.</param>
+        <summary>To be added.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -61,10 +60,11 @@
       <MemberSignature Language="C#" Value="public static readonly Microsoft.Azure.KeyVault.Cryptography.AlgorithmResolver Default;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Azure.KeyVault.Cryptography.AlgorithmResolver Default" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.KeyVault.Cryptography.AlgorithmResolver.Default" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Default As AlgorithmResolver " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.KeyVault.Cryptography</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.KeyVault.Cryptography.AlgorithmResolver</ReturnType>
@@ -78,10 +78,11 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.KeyVault.Cryptography.Algorithm this[string algorithmName] { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.KeyVault.Cryptography.Algorithm Item(string)" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.KeyVault.Cryptography.AlgorithmResolver.Item(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Default Public Property Item(algorithmName As String) As Algorithm" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.KeyVault.Cryptography</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.KeyVault.Cryptography.Algorithm</ReturnType>
@@ -90,11 +91,9 @@
         <Parameter Name="algorithmName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="algorithmName">The algorithm name</param>
-        <summary>
-            Returns the implementation for an algorithm name
-            </summary>
-        <value />
+        <param name="algorithmName">To be added.</param>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -102,10 +101,11 @@
       <MemberSignature Language="C#" Value="public void RemoveAlgorithm (string algorithmName);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void RemoveAlgorithm(string algorithmName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.KeyVault.Cryptography.AlgorithmResolver.RemoveAlgorithm(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RemoveAlgorithm (algorithmName As String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.KeyVault.Cryptography</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -114,10 +114,8 @@
         <Parameter Name="algorithmName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="algorithmName">The algorithm name</param>
-        <summary>
-            Removes an algorithm from the resolver
-            </summary>
+        <param name="algorithmName">To be added.</param>
+        <summary>To be added.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

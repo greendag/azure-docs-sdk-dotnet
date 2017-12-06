@@ -2,10 +2,10 @@
   <TypeSignature Language="C#" Value="public abstract class StatelessService" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit StatelessService extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.ServiceFabric.Services.Runtime.StatelessService" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class StatelessService" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.ServiceFabric.Services</AssemblyName>
-    <AssemblyVersion>5.0.0.0</AssemblyVersion>
-    <AssemblyVersion>255.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -13,7 +13,7 @@
   <Interfaces />
   <Docs>
     <summary>
-            Represents Microsoft Service Fabric based stateless reliable service base class. 
+            Represents the Microsoft Service Fabric based stateless reliable service base class. 
             Derive from this class to implement a Microsoft Service Fabric based stateless reliable service.
             </summary>
     <remarks>To be added.</remarks>
@@ -23,11 +23,11 @@
       <MemberSignature Language="C#" Value="protected StatelessService (System.Fabric.StatelessServiceContext serviceContext);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor(class System.Fabric.StatelessServiceContext serviceContext) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Services.Runtime.StatelessService.#ctor(System.Fabric.StatelessServiceContext)" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New (serviceContext As StatelessServiceContext)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Services</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="serviceContext" Type="System.Fabric.StatelessServiceContext" />
@@ -47,11 +47,11 @@
       <MemberSignature Language="C#" Value="public System.Fabric.StatelessServiceContext Context { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Fabric.StatelessServiceContext Context" />
       <MemberSignature Language="DocId" Value="P:Microsoft.ServiceFabric.Services.Runtime.StatelessService.Context" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Context As StatelessServiceContext" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Services</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Fabric.StatelessServiceContext</ReturnType>
@@ -71,11 +71,11 @@
       <MemberSignature Language="C#" Value="protected virtual System.Collections.Generic.IEnumerable&lt;Microsoft.ServiceFabric.Services.Communication.Runtime.ServiceInstanceListener&gt; CreateServiceInstanceListeners ();" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.ServiceFabric.Services.Communication.Runtime.ServiceInstanceListener&gt; CreateServiceInstanceListeners() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Services.Runtime.StatelessService.CreateServiceInstanceListeners" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Function CreateServiceInstanceListeners () As IEnumerable(Of ServiceInstanceListener)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Services</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.ServiceFabric.Services.Communication.Runtime.ServiceInstanceListener&gt;</ReturnType>
@@ -98,11 +98,11 @@
       <MemberSignature Language="C#" Value="protected System.Collections.Generic.IReadOnlyDictionary&lt;string,string&gt; GetAddresses ();" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance class System.Collections.Generic.IReadOnlyDictionary`2&lt;string, string&gt; GetAddresses() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Services.Runtime.StatelessService.GetAddresses" />
+      <MemberSignature Language="VB.NET" Value="Protected Function GetAddresses () As IReadOnlyDictionary(Of String, String)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Services</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IReadOnlyDictionary&lt;System.String,System.String&gt;</ReturnType>
@@ -110,7 +110,7 @@
       <Parameters />
       <Docs>
         <summary>
-            Gets list of all the addresses for this service instance
+            Gets the list of all the addresses for this service instance
             as (ListenerName, Endpoint) key-value pair.
             </summary>
         <returns>
@@ -124,11 +124,11 @@
       <MemberSignature Language="C#" Value="protected virtual void OnAbort ();" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnAbort() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Services.Runtime.StatelessService.OnAbort" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnAbort ()" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Services</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -151,9 +151,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Services.Runtime.StatelessService.OnCloseAsync(System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Services</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -182,9 +181,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Services.Runtime.StatelessService.OnOpenAsync(System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Services</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -211,11 +209,11 @@
       <MemberSignature Language="C#" Value="protected System.Fabric.IStatelessServicePartition Partition { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Fabric.IStatelessServicePartition Partition" />
       <MemberSignature Language="DocId" Value="P:Microsoft.ServiceFabric.Services.Runtime.StatelessService.Partition" />
+      <MemberSignature Language="VB.NET" Value="Protected ReadOnly Property Partition As IStatelessServicePartition" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Services</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Fabric.IStatelessServicePartition</ReturnType>
@@ -237,9 +235,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Services.Runtime.StatelessService.RunAsync(System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceFabric.Services</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>

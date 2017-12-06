@@ -2,11 +2,11 @@
   <TypeSignature Language="C#" Value="public enum TaskExecutionResult" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed TaskExecutionResult extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Batch.Protocol.Models.TaskExecutionResult" />
+  <TypeSignature Language="VB.NET" Value="Public Enum TaskExecutionResult" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-    <AssemblyVersion>7.0.0.0</AssemblyVersion>
-    <AssemblyVersion>7.0.1.0</AssemblyVersion>
     <AssemblyVersion>7.1.0.0</AssemblyVersion>
+    <AssemblyVersion>8.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
@@ -27,12 +27,12 @@
       <MemberSignature Language="C#" Value="Failure" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Batch.Protocol.Models.TaskExecutionResult Failure = int32(1)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Batch.Protocol.Models.TaskExecutionResult.Failure" />
+      <MemberSignature Language="VB.NET" Value="Failure" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -42,6 +42,7 @@
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Batch.Protocol.Models.TaskExecutionResult</ReturnType>
       </ReturnValue>
+      <MemberValue>1</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -50,12 +51,12 @@
       <MemberSignature Language="C#" Value="Success" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Batch.Protocol.Models.TaskExecutionResult Success = int32(0)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Batch.Protocol.Models.TaskExecutionResult.Success" />
+      <MemberSignature Language="VB.NET" Value="Success" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -65,6 +66,7 @@
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Batch.Protocol.Models.TaskExecutionResult</ReturnType>
       </ReturnValue>
+      <MemberValue>0</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>

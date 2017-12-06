@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public class Permissions" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Permissions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.KeyVault.Models.Permissions" />
+  <TypeSignature Language="VB.NET" Value="Public Class Permissions" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.KeyVault</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -22,10 +23,11 @@
       <MemberSignature Language="C#" Value="public Permissions ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.KeyVault.Models.Permissions.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.KeyVault</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -36,33 +38,10 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public Permissions (System.Collections.Generic.IList&lt;string&gt; keys = null, System.Collections.Generic.IList&lt;string&gt; secrets = null, System.Collections.Generic.IList&lt;string&gt; certificates = null);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Collections.Generic.IList`1&lt;string&gt; keys, class System.Collections.Generic.IList`1&lt;string&gt; secrets, class System.Collections.Generic.IList`1&lt;string&gt; certificates) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.KeyVault.Models.Permissions.#ctor(System.Collections.Generic.IList{System.String},System.Collections.Generic.IList{System.String},System.Collections.Generic.IList{System.String})" />
-      <MemberType>Constructor</MemberType>
-      <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
-        <AssemblyName>Microsoft.Azure.Management.KeyVault</AssemblyName>
-      </AssemblyInfo>
-      <Parameters>
-        <Parameter Name="keys" Type="System.Collections.Generic.IList&lt;System.String&gt;" />
-        <Parameter Name="secrets" Type="System.Collections.Generic.IList&lt;System.String&gt;" />
-        <Parameter Name="certificates" Type="System.Collections.Generic.IList&lt;System.String&gt;" />
-      </Parameters>
-      <Docs>
-        <param name="keys">Permissions to keys</param>
-        <param name="secrets">Permissions to secrets</param>
-        <param name="certificates">Permissions to certificates</param>
-        <summary>
-            Initializes a new instance of the Permissions class.
-            </summary>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName=".ctor">
       <MemberSignature Language="C#" Value="public Permissions (System.Collections.Generic.IList&lt;string&gt; keys = null, System.Collections.Generic.IList&lt;string&gt; secrets = null, System.Collections.Generic.IList&lt;string&gt; certificates = null, System.Collections.Generic.IList&lt;string&gt; storage = null);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Collections.Generic.IList`1&lt;string&gt; keys, class System.Collections.Generic.IList`1&lt;string&gt; secrets, class System.Collections.Generic.IList`1&lt;string&gt; certificates, class System.Collections.Generic.IList`1&lt;string&gt; storage) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.KeyVault.Models.Permissions.#ctor(System.Collections.Generic.IList{System.String},System.Collections.Generic.IList{System.String},System.Collections.Generic.IList{System.String},System.Collections.Generic.IList{System.String})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (Optional keys As IList(Of String) = null, Optional secrets As IList(Of String) = null, Optional certificates As IList(Of String) = null, Optional storage As IList(Of String) = null)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.KeyVault</AssemblyName>
@@ -89,10 +68,11 @@
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;string&gt; Certificates { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;string&gt; Certificates" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.KeyVault.Models.Permissions.Certificates" />
+      <MemberSignature Language="VB.NET" Value="Public Property Certificates As IList(Of String)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.KeyVault</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -114,10 +94,11 @@
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;string&gt; Keys { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;string&gt; Keys" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.KeyVault.Models.Permissions.Keys" />
+      <MemberSignature Language="VB.NET" Value="Public Property Keys As IList(Of String)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.KeyVault</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -139,10 +120,11 @@
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;string&gt; Secrets { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;string&gt; Secrets" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.KeyVault.Models.Permissions.Secrets" />
+      <MemberSignature Language="VB.NET" Value="Public Property Secrets As IList(Of String)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.KeyVault</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -164,6 +146,7 @@
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;string&gt; Storage { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;string&gt; Storage" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.KeyVault.Models.Permissions.Storage" />
+      <MemberSignature Language="VB.NET" Value="Public Property Storage As IList(Of String)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.KeyVault</AssemblyName>

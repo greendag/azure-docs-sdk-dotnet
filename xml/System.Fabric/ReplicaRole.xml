@@ -2,10 +2,10 @@
   <TypeSignature Language="C#" Value="public enum ReplicaRole" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ReplicaRole extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:System.Fabric.ReplicaRole" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ReplicaRole" />
   <AssemblyInfo>
     <AssemblyName>System.Fabric</AssemblyName>
-    <AssemblyVersion>5.0.0.0</AssemblyVersion>
-    <AssemblyVersion>255.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
@@ -23,15 +23,16 @@
       <MemberSignature Language="C#" Value="ActiveSecondary" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype System.Fabric.ReplicaRole ActiveSecondary = int32(4)" />
       <MemberSignature Language="DocId" Value="F:System.Fabric.ReplicaRole.ActiveSecondary" />
+      <MemberSignature Language="VB.NET" Value="ActiveSecondary" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Fabric.ReplicaRole</ReturnType>
       </ReturnValue>
+      <MemberValue>4</MemberValue>
       <Docs>
         <summary>
           <para>Refers to a replica in the set that receives state updates from the Primary replica, applies them, and sends acknowledgements back. 
@@ -44,15 +45,16 @@
       <MemberSignature Language="C#" Value="IdleSecondary" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype System.Fabric.ReplicaRole IdleSecondary = int32(3)" />
       <MemberSignature Language="DocId" Value="F:System.Fabric.ReplicaRole.IdleSecondary" />
+      <MemberSignature Language="VB.NET" Value="IdleSecondary" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Fabric.ReplicaRole</ReturnType>
       </ReturnValue>
+      <MemberValue>3</MemberValue>
       <Docs>
         <summary>
           <para>Refers to a replica in the set that receives a state transfer from the Primary replica to prepare for becoming an active Secondary replica. 
@@ -64,15 +66,16 @@
       <MemberSignature Language="C#" Value="None" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype System.Fabric.ReplicaRole None = int32(1)" />
       <MemberSignature Language="DocId" Value="F:System.Fabric.ReplicaRole.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Fabric.ReplicaRole</ReturnType>
       </ReturnValue>
+      <MemberValue>1</MemberValue>
       <Docs>
         <summary>
           <para>Specifies that the replica has no responsibility in regard to the replica set.</para>
@@ -88,15 +91,16 @@
       <MemberSignature Language="C#" Value="Primary" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype System.Fabric.ReplicaRole Primary = int32(2)" />
       <MemberSignature Language="DocId" Value="F:System.Fabric.ReplicaRole.Primary" />
+      <MemberSignature Language="VB.NET" Value="Primary" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Fabric.ReplicaRole</ReturnType>
       </ReturnValue>
+      <MemberValue>2</MemberValue>
       <Docs>
         <summary>
           <para>Refers to the replica in the set on which all read and write operations are complete in order to enforce strong consistency semantics. 
@@ -109,15 +113,16 @@
       <MemberSignature Language="C#" Value="Unknown" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype System.Fabric.ReplicaRole Unknown = int32(0)" />
       <MemberSignature Language="DocId" Value="F:System.Fabric.ReplicaRole.Unknown" />
+      <MemberSignature Language="VB.NET" Value="Unknown" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Fabric.ReplicaRole</ReturnType>
       </ReturnValue>
+      <MemberValue>0</MemberValue>
       <Docs>
         <summary>
           <para>Indicates the initial role that a replica is created in.</para>

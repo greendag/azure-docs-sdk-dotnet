@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public interface IAuthenticationMethod" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IAuthenticationMethod" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Devices.Client.IAuthenticationMethod" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IAuthenticationMethod" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Devices.Client</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -20,8 +21,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Devices.Client.IAuthenticationMethod.Populate(Microsoft.Azure.Devices.Client.IotHubConnectionStringBuilder)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Devices.Client</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Devices.Client.IotHubConnectionStringBuilder</ReturnType>

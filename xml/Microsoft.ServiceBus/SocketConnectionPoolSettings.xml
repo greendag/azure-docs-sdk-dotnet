@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public sealed class SocketConnectionPoolSettings" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit SocketConnectionPoolSettings extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.ServiceBus.SocketConnectionPoolSettings" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SocketConnectionPoolSettings" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.ServiceBus</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>
@@ -19,10 +20,11 @@
       <MemberSignature Language="C#" Value="public string GroupName { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string GroupName" />
       <MemberSignature Language="DocId" Value="P:Microsoft.ServiceBus.SocketConnectionPoolSettings.GroupName" />
+      <MemberSignature Language="VB.NET" Value="Public Property GroupName As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -37,10 +39,11 @@
       <MemberSignature Language="C#" Value="public TimeSpan IdleTimeout { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.TimeSpan IdleTimeout" />
       <MemberSignature Language="DocId" Value="P:Microsoft.ServiceBus.SocketConnectionPoolSettings.IdleTimeout" />
+      <MemberSignature Language="VB.NET" Value="Public Property IdleTimeout As TimeSpan" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.TimeSpan</ReturnType>
@@ -55,10 +58,11 @@
       <MemberSignature Language="C#" Value="public TimeSpan LeaseTimeout { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.TimeSpan LeaseTimeout" />
       <MemberSignature Language="DocId" Value="P:Microsoft.ServiceBus.SocketConnectionPoolSettings.LeaseTimeout" />
+      <MemberSignature Language="VB.NET" Value="Public Property LeaseTimeout As TimeSpan" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.TimeSpan</ReturnType>
@@ -73,10 +77,11 @@
       <MemberSignature Language="C#" Value="public int MaxOutboundConnectionsPerEndpoint { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 MaxOutboundConnectionsPerEndpoint" />
       <MemberSignature Language="DocId" Value="P:Microsoft.ServiceBus.SocketConnectionPoolSettings.MaxOutboundConnectionsPerEndpoint" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaxOutboundConnectionsPerEndpoint As Integer" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>

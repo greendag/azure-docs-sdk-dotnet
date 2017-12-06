@@ -2,14 +2,13 @@
   <TypeSignature Language="C#" Value="public static class ProtectionStatus" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit ProtectionStatus extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.RecoveryServices.Backup.Models.ProtectionStatus" />
+  <TypeSignature Language="VB.NET" Value="Public Class ProtectionStatus" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.RecoveryServices.Backup</AssemblyName>
-    <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
-    <BaseTypeName>System.Enum</BaseTypeName>
-    <BaseTypeName FrameworkAlternate="azuremgmtrecoveryservicesbackup-2.1.0-preview">System.Object</BaseTypeName>
+    <BaseTypeName>System.Object</BaseTypeName>
   </Base>
   <Interfaces />
   <Docs>
@@ -23,10 +22,10 @@
       <MemberSignature Language="C#" Value="public const string Invalid;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string Invalid" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.RecoveryServices.Backup.Models.ProtectionStatus.Invalid" />
+      <MemberSignature Language="VB.NET" Value="Public Const Invalid As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.RecoveryServices.Backup</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -41,10 +40,10 @@
       <MemberSignature Language="C#" Value="public const string NotProtected;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string NotProtected" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.RecoveryServices.Backup.Models.ProtectionStatus.NotProtected" />
+      <MemberSignature Language="VB.NET" Value="Public Const NotProtected As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.RecoveryServices.Backup</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -59,10 +58,10 @@
       <MemberSignature Language="C#" Value="public const string Protected;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string Protected" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.RecoveryServices.Backup.Models.ProtectionStatus.Protected" />
+      <MemberSignature Language="VB.NET" Value="Public Const Protected As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.RecoveryServices.Backup</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -77,10 +76,10 @@
       <MemberSignature Language="C#" Value="public const string Protecting;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string Protecting" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.RecoveryServices.Backup.Models.ProtectionStatus.Protecting" />
+      <MemberSignature Language="VB.NET" Value="Public Const Protecting As String " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.RecoveryServices.Backup</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

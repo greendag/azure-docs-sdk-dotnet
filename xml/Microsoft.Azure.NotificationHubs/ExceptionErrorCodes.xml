@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public enum ExceptionErrorCodes" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ExceptionErrorCodes extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.NotificationHubs.ExceptionErrorCodes" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ExceptionErrorCodes" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
     <AssemblyVersion>2.16.0.0</AssemblyVersion>
@@ -20,14 +21,16 @@
       <MemberSignature Language="C#" Value="AudienceNotFound" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.NotificationHubs.ExceptionErrorCodes AudienceNotFound = int32(40107)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.NotificationHubs.ExceptionErrorCodes.AudienceNotFound" />
+      <MemberSignature Language="VB.NET" Value="AudienceNotFound" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.NotificationHubs.ExceptionErrorCodes</ReturnType>
       </ReturnValue>
+      <MemberValue>40107</MemberValue>
       <Docs>
         <summary>
             Specifies that audience requested does not exist
@@ -38,14 +41,16 @@
       <MemberSignature Language="C#" Value="BadGatewayFailure" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.NotificationHubs.ExceptionErrorCodes BadGatewayFailure = int32(50200)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.NotificationHubs.ExceptionErrorCodes.BadGatewayFailure" />
+      <MemberSignature Language="VB.NET" Value="BadGatewayFailure" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.NotificationHubs.ExceptionErrorCodes</ReturnType>
       </ReturnValue>
+      <MemberValue>50200</MemberValue>
       <Docs>
         <summary>
             Specifies that bad gateway error occured
@@ -56,14 +61,16 @@
       <MemberSignature Language="C#" Value="BadRequest" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.NotificationHubs.ExceptionErrorCodes BadRequest = int32(40000)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.NotificationHubs.ExceptionErrorCodes.BadRequest" />
+      <MemberSignature Language="VB.NET" Value="BadRequest" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.NotificationHubs.ExceptionErrorCodes</ReturnType>
       </ReturnValue>
+      <MemberValue>40000</MemberValue>
       <Docs>
         <summary>
             Specifies that bad request error ocured
@@ -74,14 +81,16 @@
       <MemberSignature Language="C#" Value="ConflictGeneric" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.NotificationHubs.ExceptionErrorCodes ConflictGeneric = int32(40900)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.NotificationHubs.ExceptionErrorCodes.ConflictGeneric" />
+      <MemberSignature Language="VB.NET" Value="ConflictGeneric" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.NotificationHubs.ExceptionErrorCodes</ReturnType>
       </ReturnValue>
+      <MemberValue>40900</MemberValue>
       <Docs>
         <summary>
             Specifies that conflict occured
@@ -92,14 +101,16 @@
       <MemberSignature Language="C#" Value="ConflictOperationInProgress" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.NotificationHubs.ExceptionErrorCodes ConflictOperationInProgress = int32(40901)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.NotificationHubs.ExceptionErrorCodes.ConflictOperationInProgress" />
+      <MemberSignature Language="VB.NET" Value="ConflictOperationInProgress" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.NotificationHubs.ExceptionErrorCodes</ReturnType>
       </ReturnValue>
+      <MemberValue>40901</MemberValue>
       <Docs>
         <summary>
             Specifies that another operation is in progress
@@ -110,14 +121,16 @@
       <MemberSignature Language="C#" Value="CorrelationFiltersExceeded" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.NotificationHubs.ExceptionErrorCodes CorrelationFiltersExceeded = int32(40502)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.NotificationHubs.ExceptionErrorCodes.CorrelationFiltersExceeded" />
+      <MemberSignature Language="VB.NET" Value="CorrelationFiltersExceeded" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.NotificationHubs.ExceptionErrorCodes</ReturnType>
       </ReturnValue>
+      <MemberValue>40502</MemberValue>
       <Docs>
         <summary>
             Specifies that correlation filters exceeded its allowable maximum number
@@ -128,14 +141,16 @@
       <MemberSignature Language="C#" Value="DataCommunicationError" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.NotificationHubs.ExceptionErrorCodes DataCommunicationError = int32(50001)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.NotificationHubs.ExceptionErrorCodes.DataCommunicationError" />
+      <MemberSignature Language="VB.NET" Value="DataCommunicationError" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.NotificationHubs.ExceptionErrorCodes</ReturnType>
       </ReturnValue>
+      <MemberValue>50001</MemberValue>
       <Docs>
         <summary>
             Specifies that data communication error ocured
@@ -146,14 +161,16 @@
       <MemberSignature Language="C#" Value="EndpointNotFound" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.NotificationHubs.ExceptionErrorCodes EndpointNotFound = int32(40400)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.NotificationHubs.ExceptionErrorCodes.EndpointNotFound" />
+      <MemberSignature Language="VB.NET" Value="EndpointNotFound" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.NotificationHubs.ExceptionErrorCodes</ReturnType>
       </ReturnValue>
+      <MemberValue>40400</MemberValue>
       <Docs>
         <summary>
             Specifies that endpoint was not found
@@ -164,14 +181,16 @@
       <MemberSignature Language="C#" Value="EntityGone" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.NotificationHubs.ExceptionErrorCodes EntityGone = int32(41000)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.NotificationHubs.ExceptionErrorCodes.EntityGone" />
+      <MemberSignature Language="VB.NET" Value="EntityGone" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.NotificationHubs.ExceptionErrorCodes</ReturnType>
       </ReturnValue>
+      <MemberValue>41000</MemberValue>
       <Docs>
         <summary>
             Specifies that entity was not found
@@ -182,14 +201,16 @@
       <MemberSignature Language="C#" Value="EventHubAtFullCapacity" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.NotificationHubs.ExceptionErrorCodes EventHubAtFullCapacity = int32(40505)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.NotificationHubs.ExceptionErrorCodes.EventHubAtFullCapacity" />
+      <MemberSignature Language="VB.NET" Value="EventHubAtFullCapacity" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.NotificationHubs.ExceptionErrorCodes</ReturnType>
       </ReturnValue>
+      <MemberValue>40505</MemberValue>
       <Docs>
         <summary>
             Specifies that event hub has reached its full capacity
@@ -200,14 +221,16 @@
       <MemberSignature Language="C#" Value="ExpiredToken" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.NotificationHubs.ExceptionErrorCodes ExpiredToken = int32(40106)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.NotificationHubs.ExceptionErrorCodes.ExpiredToken" />
+      <MemberSignature Language="VB.NET" Value="ExpiredToken" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.NotificationHubs.ExceptionErrorCodes</ReturnType>
       </ReturnValue>
+      <MemberValue>40106</MemberValue>
       <Docs>
         <summary>
             Specifies that authorization token is expired
@@ -218,14 +241,16 @@
       <MemberSignature Language="C#" Value="ExpiresOnNotFound" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.NotificationHubs.ExceptionErrorCodes ExpiresOnNotFound = int32(40108)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.NotificationHubs.ExceptionErrorCodes.ExpiresOnNotFound" />
+      <MemberSignature Language="VB.NET" Value="ExpiresOnNotFound" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.NotificationHubs.ExceptionErrorCodes</ReturnType>
       </ReturnValue>
+      <MemberValue>40108</MemberValue>
       <Docs>
         <summary>
             Specifies that expiration is not set for authorization token
@@ -236,14 +261,16 @@
       <MemberSignature Language="C#" Value="ForbiddenGeneric" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.NotificationHubs.ExceptionErrorCodes ForbiddenGeneric = int32(40300)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.NotificationHubs.ExceptionErrorCodes.ForbiddenGeneric" />
+      <MemberSignature Language="VB.NET" Value="ForbiddenGeneric" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.NotificationHubs.ExceptionErrorCodes</ReturnType>
       </ReturnValue>
+      <MemberValue>40300</MemberValue>
       <Docs>
         <summary>
             Specifies that request forbidden error ocured
@@ -254,14 +281,16 @@
       <MemberSignature Language="C#" Value="GatewayTimeoutFailure" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.NotificationHubs.ExceptionErrorCodes GatewayTimeoutFailure = int32(50400)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.NotificationHubs.ExceptionErrorCodes.GatewayTimeoutFailure" />
+      <MemberSignature Language="VB.NET" Value="GatewayTimeoutFailure" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.NotificationHubs.ExceptionErrorCodes</ReturnType>
       </ReturnValue>
+      <MemberValue>50400</MemberValue>
       <Docs>
         <summary>
             Specifies that gateway timeout error ocured
@@ -272,14 +301,16 @@
       <MemberSignature Language="C#" Value="InternalFailure" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.NotificationHubs.ExceptionErrorCodes InternalFailure = int32(50002)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.NotificationHubs.ExceptionErrorCodes.InternalFailure" />
+      <MemberSignature Language="VB.NET" Value="InternalFailure" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.NotificationHubs.ExceptionErrorCodes</ReturnType>
       </ReturnValue>
+      <MemberValue>50002</MemberValue>
       <Docs>
         <summary>
             Specifies that internal failure occured
@@ -290,14 +321,16 @@
       <MemberSignature Language="C#" Value="InvalidAudience" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.NotificationHubs.ExceptionErrorCodes InvalidAudience = int32(40104)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.NotificationHubs.ExceptionErrorCodes.InvalidAudience" />
+      <MemberSignature Language="VB.NET" Value="InvalidAudience" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.NotificationHubs.ExceptionErrorCodes</ReturnType>
       </ReturnValue>
+      <MemberValue>40104</MemberValue>
       <Docs>
         <summary>
             Specifies that audience requested is invalid
@@ -308,14 +341,16 @@
       <MemberSignature Language="C#" Value="InvalidDestination" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.NotificationHubs.ExceptionErrorCodes InvalidDestination = int32(40401)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.NotificationHubs.ExceptionErrorCodes.InvalidDestination" />
+      <MemberSignature Language="VB.NET" Value="InvalidDestination" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.NotificationHubs.ExceptionErrorCodes</ReturnType>
       </ReturnValue>
+      <MemberValue>40401</MemberValue>
       <Docs>
         <summary>
             Specifies that destination is invalid
@@ -326,14 +361,16 @@
       <MemberSignature Language="C#" Value="InvalidSignature" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.NotificationHubs.ExceptionErrorCodes InvalidSignature = int32(40103)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.NotificationHubs.ExceptionErrorCodes.InvalidSignature" />
+      <MemberSignature Language="VB.NET" Value="InvalidSignature" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.NotificationHubs.ExceptionErrorCodes</ReturnType>
       </ReturnValue>
+      <MemberValue>40103</MemberValue>
       <Docs>
         <summary>
             Specifies that signature could not be verified
@@ -344,14 +381,16 @@
       <MemberSignature Language="C#" Value="IssuerNotFound" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.NotificationHubs.ExceptionErrorCodes IssuerNotFound = int32(40109)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.NotificationHubs.ExceptionErrorCodes.IssuerNotFound" />
+      <MemberSignature Language="VB.NET" Value="IssuerNotFound" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.NotificationHubs.ExceptionErrorCodes</ReturnType>
       </ReturnValue>
+      <MemberValue>40109</MemberValue>
       <Docs>
         <summary>
             Specifies that issuer used was not found
@@ -362,14 +401,16 @@
       <MemberSignature Language="C#" Value="MalformedToken" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.NotificationHubs.ExceptionErrorCodes MalformedToken = int32(40105)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.NotificationHubs.ExceptionErrorCodes.MalformedToken" />
+      <MemberSignature Language="VB.NET" Value="MalformedToken" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.NotificationHubs.ExceptionErrorCodes</ReturnType>
       </ReturnValue>
+      <MemberValue>40105</MemberValue>
       <Docs>
         <summary>
             Specifies that authorization token is malformed
@@ -380,14 +421,16 @@
       <MemberSignature Language="C#" Value="MissingToken" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.NotificationHubs.ExceptionErrorCodes MissingToken = int32(40102)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.NotificationHubs.ExceptionErrorCodes.MissingToken" />
+      <MemberSignature Language="VB.NET" Value="MissingToken" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.NotificationHubs.ExceptionErrorCodes</ReturnType>
       </ReturnValue>
+      <MemberValue>40102</MemberValue>
       <Docs>
         <summary>
             Specifies that authorization token is missing
@@ -398,14 +441,16 @@
       <MemberSignature Language="C#" Value="NamespaceNotFound" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.NotificationHubs.ExceptionErrorCodes NamespaceNotFound = int32(40402)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.NotificationHubs.ExceptionErrorCodes.NamespaceNotFound" />
+      <MemberSignature Language="VB.NET" Value="NamespaceNotFound" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.NotificationHubs.ExceptionErrorCodes</ReturnType>
       </ReturnValue>
+      <MemberValue>40402</MemberValue>
       <Docs>
         <summary>
             Specifies that namespace was not found
@@ -416,14 +461,16 @@
       <MemberSignature Language="C#" Value="NoTransportSecurity" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.NotificationHubs.ExceptionErrorCodes NoTransportSecurity = int32(40101)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.NotificationHubs.ExceptionErrorCodes.NoTransportSecurity" />
+      <MemberSignature Language="VB.NET" Value="NoTransportSecurity" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.NotificationHubs.ExceptionErrorCodes</ReturnType>
       </ReturnValue>
+      <MemberValue>40101</MemberValue>
       <Docs>
         <summary>
             Specifies that error occured because no transport layer security used
@@ -434,14 +481,16 @@
       <MemberSignature Language="C#" Value="ProviderUnreachable" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.NotificationHubs.ExceptionErrorCodes ProviderUnreachable = int32(50003)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.NotificationHubs.ExceptionErrorCodes.ProviderUnreachable" />
+      <MemberSignature Language="VB.NET" Value="ProviderUnreachable" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.NotificationHubs.ExceptionErrorCodes</ReturnType>
       </ReturnValue>
+      <MemberValue>50003</MemberValue>
       <Docs>
         <summary>
             Specifies that provider is unreachable
@@ -452,14 +501,16 @@
       <MemberSignature Language="C#" Value="ServerBusy" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.NotificationHubs.ExceptionErrorCodes ServerBusy = int32(50004)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.NotificationHubs.ExceptionErrorCodes.ServerBusy" />
+      <MemberSignature Language="VB.NET" Value="ServerBusy" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.NotificationHubs.ExceptionErrorCodes</ReturnType>
       </ReturnValue>
+      <MemberValue>50004</MemberValue>
       <Docs>
         <summary>
             Specifies that server is busy
@@ -470,14 +521,16 @@
       <MemberSignature Language="C#" Value="SignatureNotFound" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.NotificationHubs.ExceptionErrorCodes SignatureNotFound = int32(40110)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.NotificationHubs.ExceptionErrorCodes.SignatureNotFound" />
+      <MemberSignature Language="VB.NET" Value="SignatureNotFound" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.NotificationHubs.ExceptionErrorCodes</ReturnType>
       </ReturnValue>
+      <MemberValue>40110</MemberValue>
       <Docs>
         <summary>
             Specifies that signature was not found
@@ -488,14 +541,16 @@
       <MemberSignature Language="C#" Value="SqlFiltersExceeded" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.NotificationHubs.ExceptionErrorCodes SqlFiltersExceeded = int32(40501)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.NotificationHubs.ExceptionErrorCodes.SqlFiltersExceeded" />
+      <MemberSignature Language="VB.NET" Value="SqlFiltersExceeded" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.NotificationHubs.ExceptionErrorCodes</ReturnType>
       </ReturnValue>
+      <MemberValue>40501</MemberValue>
       <Docs>
         <summary>
             Specifies that SQL filters exceeded its allowable maximum number
@@ -506,14 +561,16 @@
       <MemberSignature Language="C#" Value="StoreLockLost" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.NotificationHubs.ExceptionErrorCodes StoreLockLost = int32(40500)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.NotificationHubs.ExceptionErrorCodes.StoreLockLost" />
+      <MemberSignature Language="VB.NET" Value="StoreLockLost" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.NotificationHubs.ExceptionErrorCodes</ReturnType>
       </ReturnValue>
+      <MemberValue>40500</MemberValue>
       <Docs>
         <summary>
             Specifies that store lock was lost
@@ -524,14 +581,16 @@
       <MemberSignature Language="C#" Value="SubscriptionsExceeded" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.NotificationHubs.ExceptionErrorCodes SubscriptionsExceeded = int32(40503)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.NotificationHubs.ExceptionErrorCodes.SubscriptionsExceeded" />
+      <MemberSignature Language="VB.NET" Value="SubscriptionsExceeded" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.NotificationHubs.ExceptionErrorCodes</ReturnType>
       </ReturnValue>
+      <MemberValue>40503</MemberValue>
       <Docs>
         <summary>
             Specifies that subscriptions exceeded its allowable maximum number
@@ -542,14 +601,16 @@
       <MemberSignature Language="C#" Value="UnauthorizedGeneric" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.NotificationHubs.ExceptionErrorCodes UnauthorizedGeneric = int32(40100)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.NotificationHubs.ExceptionErrorCodes.UnauthorizedGeneric" />
+      <MemberSignature Language="VB.NET" Value="UnauthorizedGeneric" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.NotificationHubs.ExceptionErrorCodes</ReturnType>
       </ReturnValue>
+      <MemberValue>40100</MemberValue>
       <Docs>
         <summary>
             Specifies that request was not authorized
@@ -560,14 +621,16 @@
       <MemberSignature Language="C#" Value="UnknownExceptionDetail" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.NotificationHubs.ExceptionErrorCodes UnknownExceptionDetail = int32(60000)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.NotificationHubs.ExceptionErrorCodes.UnknownExceptionDetail" />
+      <MemberSignature Language="VB.NET" Value="UnknownExceptionDetail" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.NotificationHubs.ExceptionErrorCodes</ReturnType>
       </ReturnValue>
+      <MemberValue>60000</MemberValue>
       <Docs>
         <summary>
             Specifies that unknown error ocured
@@ -578,14 +641,16 @@
       <MemberSignature Language="C#" Value="UnspecifiedInternalError" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.NotificationHubs.ExceptionErrorCodes UnspecifiedInternalError = int32(50000)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.NotificationHubs.ExceptionErrorCodes.UnspecifiedInternalError" />
+      <MemberSignature Language="VB.NET" Value="UnspecifiedInternalError" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.NotificationHubs.ExceptionErrorCodes</ReturnType>
       </ReturnValue>
+      <MemberValue>50000</MemberValue>
       <Docs>
         <summary>
             Specifies that unknown internal error ocured
@@ -596,14 +661,16 @@
       <MemberSignature Language="C#" Value="UpdateConflict" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.NotificationHubs.ExceptionErrorCodes UpdateConflict = int32(40504)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.NotificationHubs.ExceptionErrorCodes.UpdateConflict" />
+      <MemberSignature Language="VB.NET" Value="UpdateConflict" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.NotificationHubs.ExceptionErrorCodes</ReturnType>
       </ReturnValue>
+      <MemberValue>40504</MemberValue>
       <Docs>
         <summary>
             Specifies that conflict during updating occurred

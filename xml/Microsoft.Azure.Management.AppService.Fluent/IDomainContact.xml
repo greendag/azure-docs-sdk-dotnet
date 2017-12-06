@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public interface IDomainContact : Microsoft.Azure.Management.ResourceManager.Fluent.Core.IChildResource&lt;Microsoft.Azure.Management.AppService.Fluent.IAppServiceDomain&gt;, Microsoft.Azure.Management.ResourceManager.Fluent.Core.IHasInner&lt;Microsoft.Azure.Management.AppService.Fluent.Models.Contact&gt;, Microsoft.Azure.Management.ResourceManager.Fluent.Core.IHasParent&lt;Microsoft.Azure.Management.AppService.Fluent.IAppServiceDomain&gt;" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IDomainContact implements class Microsoft.Azure.Management.ResourceManager.Fluent.Core.IChildResource`1&lt;class Microsoft.Azure.Management.AppService.Fluent.IAppServiceDomain&gt;, class Microsoft.Azure.Management.ResourceManager.Fluent.Core.IHasInner`1&lt;class Microsoft.Azure.Management.AppService.Fluent.Models.Contact&gt;, class Microsoft.Azure.Management.ResourceManager.Fluent.Core.IHasName, class Microsoft.Azure.Management.ResourceManager.Fluent.Core.IHasParent`1&lt;class Microsoft.Azure.Management.AppService.Fluent.IAppServiceDomain&gt;, class Microsoft.Azure.Management.ResourceManager.Fluent.Core.ResourceActions.IIndexable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.AppService.Fluent.IDomainContact" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IDomainContact&#xA;Implements IChildResource(Of IAppServiceDomain), IHasInner(Of Contact), IHasParent(Of IAppServiceDomain)" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
     <AssemblyVersion>1.0.0.60</AssemblyVersion>
@@ -21,17 +22,22 @@
     <summary>
             A domain contact definition.
             </summary>
-    <remarks>To be added.</remarks>
+    <remarks>
+            (Beta: This functionality is in preview and as such is subject to change in non-backwards compatible ways in
+            future releases, including removal, regardless of any compatibility expectations set by the containing library
+            version number.).
+            </remarks>
   </Docs>
   <Members>
     <Member MemberName="AddressMailing">
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.AppService.Fluent.Models.Address AddressMailing { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.AppService.Fluent.Models.Address AddressMailing" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.AppService.Fluent.IDomainContact.AddressMailing" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AddressMailing As Address" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.AppService.Fluent.Models.Address</ReturnType>
@@ -48,10 +54,11 @@
       <MemberSignature Language="C#" Value="public string Email { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Email" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.AppService.Fluent.IDomainContact.Email" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Email As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -68,10 +75,11 @@
       <MemberSignature Language="C#" Value="public string Fax { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Fax" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.AppService.Fluent.IDomainContact.Fax" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Fax As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -88,10 +96,11 @@
       <MemberSignature Language="C#" Value="public string FirstName { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string FirstName" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.AppService.Fluent.IDomainContact.FirstName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FirstName As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -108,10 +117,11 @@
       <MemberSignature Language="C#" Value="public string JobTitle { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string JobTitle" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.AppService.Fluent.IDomainContact.JobTitle" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property JobTitle As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -128,10 +138,11 @@
       <MemberSignature Language="C#" Value="public string LastName { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string LastName" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.AppService.Fluent.IDomainContact.LastName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LastName As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -148,10 +159,11 @@
       <MemberSignature Language="C#" Value="public string MiddleName { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string MiddleName" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.AppService.Fluent.IDomainContact.MiddleName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MiddleName As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -168,10 +180,11 @@
       <MemberSignature Language="C#" Value="public string Organization { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Organization" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.AppService.Fluent.IDomainContact.Organization" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Organization As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -188,10 +201,11 @@
       <MemberSignature Language="C#" Value="public string Phone { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Phone" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.AppService.Fluent.IDomainContact.Phone" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Phone As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

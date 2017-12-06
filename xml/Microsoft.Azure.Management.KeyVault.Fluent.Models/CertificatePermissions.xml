@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public class CertificatePermissions : Microsoft.Azure.Management.ResourceManager.Fluent.Core.ExpandableStringEnum&lt;Microsoft.Azure.Management.KeyVault.Fluent.Models.CertificatePermissions&gt;" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CertificatePermissions extends Microsoft.Azure.Management.ResourceManager.Fluent.Core.ExpandableStringEnum`1&lt;class Microsoft.Azure.Management.KeyVault.Fluent.Models.CertificatePermissions&gt;" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.KeyVault.Fluent.Models.CertificatePermissions" />
+  <TypeSignature Language="VB.NET" Value="Public Class CertificatePermissions&#xA;Inherits ExpandableStringEnum(Of CertificatePermissions)" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.KeyVault.Fluent</AssemblyName>
     <AssemblyVersion>1.0.0.60</AssemblyVersion>
@@ -24,10 +25,11 @@
       <MemberSignature Language="C#" Value="public CertificatePermissions ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.KeyVault.Fluent.Models.CertificatePermissions.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.KeyVault.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -39,10 +41,11 @@
       <MemberSignature Language="C#" Value="public static readonly Microsoft.Azure.Management.KeyVault.Fluent.Models.CertificatePermissions All;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Azure.Management.KeyVault.Fluent.Models.CertificatePermissions All" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.KeyVault.Fluent.Models.CertificatePermissions.All" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly All As CertificatePermissions " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.KeyVault.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.KeyVault.Fluent.Models.CertificatePermissions</ReturnType>
@@ -56,10 +59,11 @@
       <MemberSignature Language="C#" Value="public static readonly Microsoft.Azure.Management.KeyVault.Fluent.Models.CertificatePermissions Create;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Azure.Management.KeyVault.Fluent.Models.CertificatePermissions Create" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.KeyVault.Fluent.Models.CertificatePermissions.Create" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Create As CertificatePermissions " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.KeyVault.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.KeyVault.Fluent.Models.CertificatePermissions</ReturnType>
@@ -73,10 +77,11 @@
       <MemberSignature Language="C#" Value="public static readonly Microsoft.Azure.Management.KeyVault.Fluent.Models.CertificatePermissions Delete;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Azure.Management.KeyVault.Fluent.Models.CertificatePermissions Delete" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.KeyVault.Fluent.Models.CertificatePermissions.Delete" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Delete As CertificatePermissions " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.KeyVault.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.KeyVault.Fluent.Models.CertificatePermissions</ReturnType>
@@ -90,10 +95,11 @@
       <MemberSignature Language="C#" Value="public static readonly Microsoft.Azure.Management.KeyVault.Fluent.Models.CertificatePermissions Deleteissuers;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Azure.Management.KeyVault.Fluent.Models.CertificatePermissions Deleteissuers" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.KeyVault.Fluent.Models.CertificatePermissions.Deleteissuers" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Deleteissuers As CertificatePermissions " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.KeyVault.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.KeyVault.Fluent.Models.CertificatePermissions</ReturnType>
@@ -107,10 +113,11 @@
       <MemberSignature Language="C#" Value="public static readonly Microsoft.Azure.Management.KeyVault.Fluent.Models.CertificatePermissions Get;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Azure.Management.KeyVault.Fluent.Models.CertificatePermissions Get" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.KeyVault.Fluent.Models.CertificatePermissions.Get" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Get As CertificatePermissions " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.KeyVault.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.KeyVault.Fluent.Models.CertificatePermissions</ReturnType>
@@ -124,10 +131,11 @@
       <MemberSignature Language="C#" Value="public static readonly Microsoft.Azure.Management.KeyVault.Fluent.Models.CertificatePermissions Getissuers;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Azure.Management.KeyVault.Fluent.Models.CertificatePermissions Getissuers" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.KeyVault.Fluent.Models.CertificatePermissions.Getissuers" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Getissuers As CertificatePermissions " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.KeyVault.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.KeyVault.Fluent.Models.CertificatePermissions</ReturnType>
@@ -141,10 +149,11 @@
       <MemberSignature Language="C#" Value="public static readonly Microsoft.Azure.Management.KeyVault.Fluent.Models.CertificatePermissions Import;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Azure.Management.KeyVault.Fluent.Models.CertificatePermissions Import" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.KeyVault.Fluent.Models.CertificatePermissions.Import" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Import As CertificatePermissions " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.KeyVault.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.KeyVault.Fluent.Models.CertificatePermissions</ReturnType>
@@ -158,10 +167,11 @@
       <MemberSignature Language="C#" Value="public static readonly Microsoft.Azure.Management.KeyVault.Fluent.Models.CertificatePermissions List;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Azure.Management.KeyVault.Fluent.Models.CertificatePermissions List" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.KeyVault.Fluent.Models.CertificatePermissions.List" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly List As CertificatePermissions " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.KeyVault.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.KeyVault.Fluent.Models.CertificatePermissions</ReturnType>
@@ -175,10 +185,11 @@
       <MemberSignature Language="C#" Value="public static readonly Microsoft.Azure.Management.KeyVault.Fluent.Models.CertificatePermissions Listissuers;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Azure.Management.KeyVault.Fluent.Models.CertificatePermissions Listissuers" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.KeyVault.Fluent.Models.CertificatePermissions.Listissuers" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Listissuers As CertificatePermissions " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.KeyVault.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.KeyVault.Fluent.Models.CertificatePermissions</ReturnType>
@@ -192,10 +203,11 @@
       <MemberSignature Language="C#" Value="public static readonly Microsoft.Azure.Management.KeyVault.Fluent.Models.CertificatePermissions Managecontacts;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Azure.Management.KeyVault.Fluent.Models.CertificatePermissions Managecontacts" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.KeyVault.Fluent.Models.CertificatePermissions.Managecontacts" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Managecontacts As CertificatePermissions " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.KeyVault.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.KeyVault.Fluent.Models.CertificatePermissions</ReturnType>
@@ -209,10 +221,11 @@
       <MemberSignature Language="C#" Value="public static readonly Microsoft.Azure.Management.KeyVault.Fluent.Models.CertificatePermissions Manageissuers;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Azure.Management.KeyVault.Fluent.Models.CertificatePermissions Manageissuers" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.KeyVault.Fluent.Models.CertificatePermissions.Manageissuers" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Manageissuers As CertificatePermissions " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.KeyVault.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.KeyVault.Fluent.Models.CertificatePermissions</ReturnType>
@@ -226,10 +239,11 @@
       <MemberSignature Language="C#" Value="public static readonly Microsoft.Azure.Management.KeyVault.Fluent.Models.CertificatePermissions Setissuers;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Azure.Management.KeyVault.Fluent.Models.CertificatePermissions Setissuers" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.KeyVault.Fluent.Models.CertificatePermissions.Setissuers" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Setissuers As CertificatePermissions " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.KeyVault.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.KeyVault.Fluent.Models.CertificatePermissions</ReturnType>
@@ -243,10 +257,11 @@
       <MemberSignature Language="C#" Value="public static readonly Microsoft.Azure.Management.KeyVault.Fluent.Models.CertificatePermissions Update;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Azure.Management.KeyVault.Fluent.Models.CertificatePermissions Update" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.KeyVault.Fluent.Models.CertificatePermissions.Update" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Update As CertificatePermissions " />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.60</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.KeyVault.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.KeyVault.Fluent.Models.CertificatePermissions</ReturnType>

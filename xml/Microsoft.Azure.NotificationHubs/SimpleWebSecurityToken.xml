@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public class SimpleWebSecurityToken : System.IdentityModel.Tokens.SecurityToken" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SimpleWebSecurityToken extends System.IdentityModel.Tokens.SecurityToken" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.NotificationHubs.SimpleWebSecurityToken" />
+  <TypeSignature Language="VB.NET" Value="Public Class SimpleWebSecurityToken&#xA;Inherits SecurityToken" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
     <AssemblyVersion>2.16.0.0</AssemblyVersion>
@@ -21,10 +22,11 @@
       <MemberSignature Language="C#" Value="public SimpleWebSecurityToken (string tokenString);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string tokenString) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.NotificationHubs.SimpleWebSecurityToken.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (tokenString As String)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="tokenString" Type="System.String" />
@@ -41,10 +43,11 @@
       <MemberSignature Language="C#" Value="public SimpleWebSecurityToken (string tokenString, DateTime expiry);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string tokenString, valuetype System.DateTime expiry) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.NotificationHubs.SimpleWebSecurityToken.#ctor(System.String,System.DateTime)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (tokenString As String, expiry As DateTime)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="tokenString" Type="System.String" />
@@ -64,10 +67,11 @@
       <MemberSignature Language="C#" Value="public SimpleWebSecurityToken (string id, string tokenString);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string id, string tokenString) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.NotificationHubs.SimpleWebSecurityToken.#ctor(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (id As String, tokenString As String)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="id" Type="System.String" />
@@ -91,10 +95,11 @@
       <MemberSignature Language="C#" Value="public SimpleWebSecurityToken (string tokenString, DateTime expiry, string audience);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string tokenString, valuetype System.DateTime expiry, string audience) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.NotificationHubs.SimpleWebSecurityToken.#ctor(System.String,System.DateTime,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (tokenString As String, expiry As DateTime, audience As String)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="tokenString" Type="System.String" />
@@ -120,10 +125,11 @@
       <MemberSignature Language="C#" Value="public string Audience { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Audience" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.NotificationHubs.SimpleWebSecurityToken.Audience" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Audience As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -142,10 +148,11 @@
       <MemberSignature Language="C#" Value="protected virtual string AudienceFieldName { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string AudienceFieldName" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.NotificationHubs.SimpleWebSecurityToken.AudienceFieldName" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable ReadOnly Property AudienceFieldName As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -164,10 +171,11 @@
       <MemberSignature Language="C#" Value="public DateTime ExpiresOn { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime ExpiresOn" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.NotificationHubs.SimpleWebSecurityToken.ExpiresOn" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExpiresOn As DateTime" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.DateTime</ReturnType>
@@ -186,10 +194,11 @@
       <MemberSignature Language="C#" Value="protected virtual string ExpiresOnFieldName { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string ExpiresOnFieldName" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.NotificationHubs.SimpleWebSecurityToken.ExpiresOnFieldName" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable ReadOnly Property ExpiresOnFieldName As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -208,10 +217,11 @@
       <MemberSignature Language="C#" Value="public override string Id { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Id" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.NotificationHubs.SimpleWebSecurityToken.Id" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property Id As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -230,10 +240,11 @@
       <MemberSignature Language="C#" Value="protected virtual string KeyValueSeparator { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string KeyValueSeparator" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.NotificationHubs.SimpleWebSecurityToken.KeyValueSeparator" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable ReadOnly Property KeyValueSeparator As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -252,10 +263,11 @@
       <MemberSignature Language="C#" Value="protected virtual string PairSeparator { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string PairSeparator" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.NotificationHubs.SimpleWebSecurityToken.PairSeparator" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable ReadOnly Property PairSeparator As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -274,10 +286,11 @@
       <MemberSignature Language="C#" Value="public override System.Collections.ObjectModel.ReadOnlyCollection&lt;System.IdentityModel.Tokens.SecurityKey&gt; SecurityKeys { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.ObjectModel.ReadOnlyCollection`1&lt;class System.IdentityModel.Tokens.SecurityKey&gt; SecurityKeys" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.NotificationHubs.SimpleWebSecurityToken.SecurityKeys" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property SecurityKeys As ReadOnlyCollection(Of SecurityKey)" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.ObjectModel.ReadOnlyCollection&lt;System.IdentityModel.Tokens.SecurityKey&gt;</ReturnType>
@@ -296,10 +309,11 @@
       <MemberSignature Language="C#" Value="public string Token { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Token" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.NotificationHubs.SimpleWebSecurityToken.Token" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Token As String" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -316,10 +330,11 @@
       <MemberSignature Language="C#" Value="public override DateTime ValidFrom { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime ValidFrom" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.NotificationHubs.SimpleWebSecurityToken.ValidFrom" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property ValidFrom As DateTime" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.DateTime</ReturnType>
@@ -336,10 +351,11 @@
       <MemberSignature Language="C#" Value="public override DateTime ValidTo { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime ValidTo" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.NotificationHubs.SimpleWebSecurityToken.ValidTo" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property ValidTo As DateTime" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>2.16.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.DateTime</ReturnType>

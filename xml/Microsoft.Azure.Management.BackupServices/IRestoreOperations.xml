@@ -2,6 +2,7 @@
   <TypeSignature Language="C#" Value="public interface IRestoreOperations" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IRestoreOperations" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.BackupServices.IRestoreOperations" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IRestoreOperations" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.BackupServicesManagement</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -20,8 +21,8 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.BackupServices.IRestoreOperations.TriggerResotreAsync(System.String,System.String,Microsoft.Azure.Management.BackupServices.Models.CustomRequestHeaders,System.String,System.String,System.String,Microsoft.Azure.Management.BackupServices.Models.CSMRestoreRequest,System.Threading.CancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyName>Microsoft.Azure.Management.BackupServicesManagement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.BackupServices.OperationResponse&gt;</ReturnType>

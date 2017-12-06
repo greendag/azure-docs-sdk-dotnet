@@ -2,12 +2,11 @@
   <TypeSignature Language="C#" Value="public class ExitCodeMapping" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ExitCodeMapping extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Batch.ExitCodeMapping" />
+  <TypeSignature Language="VB.NET" Value="Public Class ExitCodeMapping" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-    <AssemblyVersion>6.1.0.0</AssemblyVersion>
-    <AssemblyVersion>7.0.0.0</AssemblyVersion>
-    <AssemblyVersion>7.0.1.0</AssemblyVersion>
     <AssemblyVersion>7.1.0.0</AssemblyVersion>
+    <AssemblyVersion>8.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -27,10 +26,8 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="code" Type="System.Int32" />
@@ -49,13 +46,12 @@
       <MemberSignature Language="C#" Value="public int Code { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 Code" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Batch.ExitCodeMapping.Code" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Code As Integer" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -72,13 +68,12 @@
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Batch.ExitOptions ExitOptions { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Batch.ExitOptions ExitOptions" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Batch.ExitCodeMapping.ExitOptions" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExitOptions As ExitOptions" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
-        <AssemblyVersion>6.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
         <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Batch.ExitOptions</ReturnType>
