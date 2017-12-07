@@ -2500,7 +2500,7 @@
             Deletes the container if it already exists.
             </summary>
         <returns>
-          <c>true</c> if the container did not already exist and was created; otherwise <c>false</c>.</returns>
+          <c>true</c> if the container already existed and was deleted; otherwise <c>false</c>.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
